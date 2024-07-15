@@ -1,0 +1,6122 @@
+[
+  {
+    "title": "[0115G] Amministrazione Aziendale e Diritto",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[120095] Analisi dei dati e Statistica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120111] Diritto privato",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120110] Diritto pubblico",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120006] Economia e misurazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120004] Introduzione all'economia",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120000] Matematica",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[PSPO_EN_B1] Prova di lingua Inglese B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120016] Test di informatica",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120015] Test di matematica",
+            "cfu": "",
+            "hours": "33 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[COCS_FR_B1] Test d'ingresso - FRANCESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_ES_B1] Test d'ingresso - SPAGNOLO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_DE_B1] Test d'ingresso - TEDESCO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120017] Informatica (ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120089] Informatica (livello ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120107] Economia e diritto del lavoro",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120108] Psicologia economica",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120109] Storia dei sistemi economici",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120127] Corso extracurriculare di inglese",
+            "cfu": "5 CFU",
+            "hours": "70 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120438] PDE - Introduction to Academic Writing",
+            "cfu": "",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[120018] Contabilità, bilancio e principi contabili",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120020] Diritto commerciale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120022] Diritto del lavoro",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120104] Diritto della regolazione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120023] Diritto tributario",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120060] Economia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120113] Laboratorio di analisi dei mercati",
+            "cfu": "8 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[120091] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120090] Tirocinio",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[120115] Contabilità pubblica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120041] Diritto amministrativo",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120045] Economia delle amministrazioni pubbliche (Management pubblico)",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120114] Finanza aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120455] Laboratorio Strategie per l'innovazione nella PA",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120449] Ambiente, sostenibilità e beni collettivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120454] Corporate Governance",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120105] Diritto amministrativo dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120039] Economia dei mercati e degli intermediari finanziari",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120427] Economic History",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120075] Gestione sostenibile delle imprese",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120132] International Trade and Globalisation",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120442] Labour and Household Economics",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120452] Marketing dell'impresa turistico/alberghiera",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120080] Marketing game",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120432] Rischio e incertezza: misura, percezione e gestione",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120063] Storia del pensiero economico",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120439] Storia della banca e della finanza",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120074] Tecnologia dei cicli produttivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0117G] Economia e Management",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "8 CFU",
+            "hours": "33 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120016] Test di informatica",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120015] Test di matematica",
+            "cfu": "",
+            "hours": "33 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120095] Analisi dei dati e Statistica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120006] Economia e misurazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120096] Introduzione al diritto",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120004] Introduzione all'economia",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120000] Matematica",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120109] Storia dei sistemi economici",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[PSPO_EN_B1] Prova di lingua Inglese B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_FR_B1] Test d'ingresso - FRANCESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_ES_B1] Test d'ingresso - SPAGNOLO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_DE_B1] Test d'ingresso - TEDESCO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120017] Informatica (ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120089] Informatica (livello ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120127] Corso extracurriculare di inglese",
+            "cfu": "5 CFU",
+            "hours": "70 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120438] PDE - Introduction to Academic Writing",
+            "cfu": "",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120090] Tirocinio",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[120104] Diritto della regolazione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120119] Economia pubblica",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120114] Finanza aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120113] Laboratorio di analisi dei mercati",
+            "cfu": "8 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120102] Macroeconomia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120118] Microeconomia_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120033] Organizzazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120037] Statistica, probabilità e inferenza",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[120091] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120120] Economia industriale_",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120125] Strategie d'impresa_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120088] Contabilità, bilancio e principi contabili",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120435] Econometrics",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120121] Economia del lavoro e della famiglia_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120456] Economia dell'Innovazione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120124] Marketing_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120029] Matematica finanziaria",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120126] Modelli di decisione per la gestione_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120054] Modelli matematici per le applicazioni economiche",
+            "cfu": "8 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120451] Laboratorio di analisi di bilancio",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120437] Laboratorio di economia finanziaria_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120450] Laboratorio di strategia digitale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120122] Laboratorio sull'economia italiana",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120449] Ambiente, sostenibilità e beni collettivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120454] Corporate Governance",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120105] Diritto amministrativo dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120087] Diritto commerciale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120039] Economia dei mercati e degli intermediari finanziari",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120427] Economic History",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120453] Economics of climate change, environment and sustainable agriculture",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120075] Gestione sostenibile delle imprese",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120132] International Trade and Globalisation",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120444] Judgment and Decision Making Laboratory",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120452] Marketing dell'impresa turistico/alberghiera",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120080] Marketing game",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120432] Rischio e incertezza: misura, percezione e gestione",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120063] Storia del pensiero economico",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120439] Storia della banca e della finanza",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120074] Tecnologia dei cicli produttivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0116G] Gestione Aziendale",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[PSPO_EN_B1] Prova di lingua Inglese B1",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120095] Analisi dei dati e Statistica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120111] Diritto privato",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120110] Diritto pubblico",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120006] Economia e misurazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120004] Introduzione all'economia",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120000] Matematica",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120016] Test di informatica",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120015] Test di matematica",
+            "cfu": "",
+            "hours": "33 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[COCS_FR_B1] Test d'ingresso - FRANCESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_ES_B1] Test d'ingresso - SPAGNOLO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[COCS_DE_B1] Test d'ingresso - TEDESCO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120017] Informatica (ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120089] Informatica (livello ECDL full)",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[120107] Economia e diritto del lavoro",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120108] Psicologia economica",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120109] Storia dei sistemi economici",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[120127] Corso extracurriculare di inglese",
+            "cfu": "5 CFU",
+            "hours": "70 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[120438] PDE - Introduction to Academic Writing",
+            "cfu": "",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[120018] Contabilità, bilancio e principi contabili",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120020] Diritto commerciale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120060] Economia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120114] Finanza aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120113] Laboratorio di analisi dei mercati",
+            "cfu": "8 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120033] Organizzazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120029] Matematica finanziaria",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120099] Statistica per il controllo della qualità",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120100] Statistica per le ricerche di mercato",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[120059] Laboratorio di pianificazione finanziaria",
+            "cfu": "18 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120091] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[120090] Tirocinio",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[120039] Economia dei mercati e degli intermediari finanziari",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120045] Economia delle amministrazioni pubbliche (Management pubblico)",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120040] Gestione della produzione e della qualità",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120051] Marketing",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120024] Programmazione e controllo",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120038] Sistemi informativi aziendali_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120449] Ambiente, sostenibilità e beni collettivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120454] Corporate Governance",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120105] Diritto amministrativo dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120427] Economic History",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120453] Economics of climate change, environment and sustainable agriculture",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120443] Gestione delle risorse umane",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120075] Gestione sostenibile delle imprese",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120132] International Trade and Globalisation",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120442] Labour and Household Economics",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120452] Marketing dell'impresa turistico/alberghiera",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120080] Marketing game",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120432] Rischio e incertezza: misura, percezione e gestione",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120063] Storia del pensiero economico",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120439] Storia della banca e della finanza",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120074] Tecnologia dei cicli produttivi",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0417G] Beni culturali",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[130056] Cultura classica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130513] Geografia storica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130728] Introduzione all'Opera: testo, musica, scena",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130727] Introduzione all'iconografia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130726] Metodologie della ricerca archeologica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130590] Storia e testi della letteratura italiana",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[COCS_FR_B1] Test d'ingresso - FRANCESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[COCS_ES_B1] Test d'ingresso - SPAGNOLO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[COCS_DE_B1] Test d'ingresso - TEDESCO B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130458] Bibliografia e biblioteconomia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130057] Elementi di archivistica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[130706] Prova di conoscenza prima lingua - Francese (B2)",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130703] Prova di conoscenza prima lingua - Inglese (B2)",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130705] Prova di conoscenza prima lingua - Spagnolo (B2)",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130704] Prova di conoscenza prima lingua - Tedesco (B2)",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130742] Introduzione alla storia del mondo romano",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130017] Storia contemporanea I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130090] Storia greca I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130031] Storia medievale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130033] Storia moderna I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130457] Agiografia II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130459] Letteratura greca - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130418] Letteratura latina medievale I - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130569] Storia del teatro latino",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130583] Archeologia e storia dell'arte greca e romana",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130635] Archeologia e storia della produzione nel mondo classico",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130045] Archeologia medievale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130038] Archeologia medievale II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130049] Archivistica II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130050] Archivistica III",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130110] Bibliografia e biblioteconomia I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130730] Critica d'arte",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130670] Cultura materiale dei cacciatori raccoglitori",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130731] Digitalizzazione ed edizione digitale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130735] Etnomusicologia I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130736] Etnomusicologia e antropologia della musica II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130733] Geoarcheologia: ambienti e forme del territorio",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130732] Geoarcheologia: materie prime e stratificazioni archeologiche",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130425] Lineamenti di storia del teatro",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130734] Linguaggi musicali del Novecento",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130068] Paleografia I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130069] Paleografia II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130070] Preistoria e protostoria I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130072] Preistoria e protostoria III",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130020] Storia del teatro e dello spettacolo I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130073] Storia del teatro e dello spettacolo II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130080] Storia dell'arte contemporanea I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130081] Storia dell'arte contemporanea II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130083] Storia dell'arte medievale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130567] Storia dell'arte medievale II - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130084] Storia dell'arte moderna I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130085] Storia dell'arte moderna II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130086] Storia dell'arte moderna III",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130077] Storia della musica I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130078] Storia della musica II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[130037] Legislazione dei Beni culturali",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130278] Prova finale",
+            "cfu": "6 CFU",
+            "hours": "180 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130729] Teoria e tecnica della catalogazione del patrimonio culturale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130286] Tirocinio o Ulteriori attività formative (art. 10, comma 5, lettera d)",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130039] Antropologia",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130040] Applicazioni informatiche agli archivi",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130737] Archeobotanica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130052] Bibliografia e biblioteconomia II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130745] Cartografia storica e Historical GIS",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130055] Chimica per il restauro",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130003] Estetica generale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130743] Etnomusicologia e antropologia della musica I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130060] Filologia italiana II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130426] Iconografia Teatrale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130738] Introduzione all'archeometria",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130744] Metodologie della ricerca geostorica applicata",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130067] Museografia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130741] Musica e poesia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130739] Numismatica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130740] Storia della critica d'arte",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130079] Storia della musica III",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "5 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0416G] Filosofia",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[130006] Filosofia morale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130021] Storia della filosofia antica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130621] Storia della filosofia dal tardoantico al medioevo",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130586] Introduzione alla pedagogia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130019] Storia del Cristianesimo e delle Chiese I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130303] Storia del pensiero sociologico",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130002] Ermeneutica filosofica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130005] Filosofia della religione",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130383] Gnoseologia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130541] Ontologia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130617] Linguistica storica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130385] Pensiero ebraico I - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130018] Storia contemporanea II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130121] Storia delle istituzioni politiche",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130030] Storia greca II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130032] Storia medievale II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130034] Storia moderna II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130035] Storia romana II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130610] Elementi di fisica moderna e intelligenza artificiale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130003] Estetica generale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130015] Pensiero islamico",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130686] Storia delle religioni dell'India e dell'Asia centrale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[130007] Filosofia politica",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130008] Filosofia teoretica",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130285] Prova di informatica",
+            "cfu": "",
+            "hours": "6 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130620] Storia della filosofia dal Rinascimento all'Illuminismo - LT",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130000] Antropologia filosofica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130462] Filosofia della storia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130618] Medioevo teologico",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130027] Storia della scienza e delle tecniche",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130109] Linguistica generale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130017] Storia contemporanea I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130090] Storia greca I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130031] Storia medievale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130033] Storia moderna I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130092] Storia romana I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130419] Agiografia I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130687] Antropologia culturale - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130611] Elementi di geometria",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130460] Psicologia dello sviluppo",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130688] Storia della musica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130026] Storia della pedagogia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130395] Storia della scienza e delle tecniche II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[130278] Prova finale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130619] Storia della filosofia dall'Idealismo all'Età contemporanea",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130286] Tirocinio o Ulteriori attività formative (art. 10, comma 5, lettera d)",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130281] Prova linguistica - Francese",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130280] Prova linguistica - Inglese",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130282] Prova linguistica - Spagnolo",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130283] Prova linguistica - Tedesco",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130004] Filosofia del linguaggio",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130305] Filosofia della scienza",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130297] Logica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130386] Pensiero ebraico II - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130016] Sociologia dei processi culturali e comunicativi",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130304] Sociologia della religione",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "5 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0427G] Lingue moderne",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[130016] Sociologia dei processi culturali e comunicativi",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130489] Tecnologie informatiche per la comunicazione",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130134] Linguistica generale e glottologia",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130285] Prova di informatica",
+            "cfu": "",
+            "hours": "6 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130126] Lingua francese I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130127] Lingua inglese I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130613] Lingua russa I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130128] Lingua spagnola I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130129] Lingua tedesca I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[130473] Cultura e letteratura francese",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130474] Cultura e letteratura inglese",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130609] Cultura e letteratura russa",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130475] Cultura e letteratura spagnola",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130476] Cultura e letteratura tedesca",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130746] Geografia economica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130775] Intercultural communication",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130709] Letteratura e cultura portoghese",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130708] Lingua e cultura portoghese",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[130468] Economia politica e aziendale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130396] Letteratura italiana",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130330] Lingua francese II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130331] Lingua inglese II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130614] Lingua russa II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130332] Lingua spagnola II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130333] Lingua tedesca II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130321] Filologia germanica I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130359] Filologia romanza I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130612] Filologia slava",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130481] Linguistica francese I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130482] Linguistica inglese I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130615] Linguistica russa I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130483] Linguistica spagnola I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130484] Linguistica tedesca I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[130278] Prova finale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130286] Tirocinio o Ulteriori attività formative (art. 10, comma 5, lettera d)",
+            "cfu": "6 CFU",
+            "hours": "180 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130318] Geografia del paesaggio e dell'ambiente",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130376] Gestione delle imprese",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130378] Organizzazione aziendale",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130485] Linguistica francese II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130486] Linguistica inglese II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130616] Linguistica russa II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130487] Linguistica spagnola II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130488] Linguistica tedesca II",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0419G] Studi storici e filologico-letterari",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[130099] Letteratura italiana I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130100] Letteratura latina I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130092] Storia romana I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130113] Filologia romanza",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[130359] Filologia romanza I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130388] Linguistica generale - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[130529] Storia della lingua italiana I - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "5 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[130284] Italiano scritto",
+            "cfu": "1 CFU",
+            "hours": "15 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130285] Prova di informatica",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130281] Prova linguistica - Francese",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130280] Prova linguistica - Inglese",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130282] Prova linguistica - Spagnolo",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130283] Prova linguistica - Tedesco",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130063] Geografia",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130780] Geostoria",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130589] Storia d'Europa",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130019] Storia del Cristianesimo e delle Chiese I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130416] Storia del cristianesimo e delle chiese",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130021] Storia della filosofia antica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130415] Storia della scienza e delle tecniche - LT",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130122] Storia di una regione in Età moderna",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130623] Storia globale in età moderna - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130090] Storia greca I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130107] Filologia italiana I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130060] Filologia italiana II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130111] Letteratura italiana II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130417] Letteratura italiana contemporanea I - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130114] Letterature comparate I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130102] Letterature comparate II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130419] Agiografia I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130105] Archivistica I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130458] Bibliografia e biblioteconomia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130057] Elementi di archivistica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130646] Elementi di archivistica II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130095] Filologia latina",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130097] Letteratura greca I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130418] Letteratura latina medievale I - LT",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130390] Metodologia della ricerca storica I",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130068] Paleografia I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130069] Paleografia II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130106] Storia della lingua italiana",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[130278] Prova finale",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[130584] Archeologia e storia dell'arte greca",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130583] Archeologia e storia dell'arte greca e romana",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130038] Archeologia medievale II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130779] Storia contemporanea IV",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130073] Storia del teatro e dello spettacolo II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130082] Storia dell'arte contemporanea III",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130087] Storia dell'arte moderna IV",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130031] Storia medievale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130032] Storia medievale II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130033] Storia moderna I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130034] Storia moderna II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130094] Agiografia",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130059] Filologia greca",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130096] Glottologia",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130098] Letteratura greca II",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130112] Letteratura italiana contemporanea",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130101] Letteratura latina medievale",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130109] Linguistica generale I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130017] Storia contemporanea I",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130569] Storia del teatro latino",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130121] Storia delle istituzioni politiche",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130528] Storia delle istituzioni politiche - LT",
+            "cfu": "12 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130123] Storia economica",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[130276] Storia moderna III",
+            "cfu": "6 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0206G] Comparative, European and International Legal Studies",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[28001] Comparative Constitutional Law",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[28000] Comparative Legal Systems",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[28003] European Union Law",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[28004] Foundations of Private Law from EU Perspective",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[28021] Informatics and Legal Research (Informatics and the Law)",
+            "cfu": "3 CFU",
+            "hours": "21 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[28005] Philosophy of Law",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[28002] Roman Foundations of European Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25616] Lingua Inglese B2",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25533] Lingua Francese B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25540] Lingua Italiana B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25534] Lingua Spagnola B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25535] Lingua Tedesca B1",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25615] Lingua Francese B2",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25619] Lingua Tedesca B2",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25617] Lingua italiana B2",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25618] Lingua spagnola B2",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[28023] Potenziamento della lingua inglese (livello C1)",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25078] Abilità informatiche",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25987] Climate change and Energy Law",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25569] Workshop on legal translation of the Law of the European Union/ Lab. appl.: La traduzione del diritto dell'Unione Europea",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25255] Francese giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25975] Francese giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25254] Inglese giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25894] Inglese giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25996] Inglese giuridico C1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25256] Tedesco giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25995] Tedesco giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[28009] Comparative Private Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28010] Criminal Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28006] History of Western Legal Tradition",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28008] International Law",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28028] International and Supranational Protection of fundamental rights",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28007] Introduction to Economics",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28030] International Tax Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28032] Law and Religion",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28041] Transnational Organized Crime",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26114] Academic Freedom and Human Rights: European and International Perspectives (J. Monnet module)",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26145] Enforcing Human Rights",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26050] European Transport Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26150] History of Political Thought",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25921] International Economic Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25761] Introduction to Islamic Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26125] Leadership and Governance",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28020] Internship",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[28014] Administrative Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28013] Business and Company Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28029] Civil Litigation in a Comparative Perspective",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28016] Criminal Procedure from a Comparative and International Perspective",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28012] Employment/Labour Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28022] Written Dissertation",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[28017] Business and Consumer Transactions",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28019] Competition Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28018] Conflict of Laws",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[28034] Principles of Law and Finance",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0710G] Educazione professionale (abilitante alla professione sanitaria di Educatore professionale)",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[156005] Fondamenti biologici del comportamento",
+            "cfu": "10 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[156001] Il ruolo professionale nell'educazione",
+            "cfu": "6 CFU",
+            "hours": "76 ore",
+            "semester": ""
+          },
+          {
+            "title": "[156003] Individuo e ambiente: strumenti di lettura",
+            "cfu": "10 CFU",
+            "hours": "87 ore",
+            "semester": ""
+          },
+          {
+            "title": "[156004] Metodi e tecniche dell'intervento educativo I",
+            "cfu": "7 CFU",
+            "hours": "77 ore",
+            "semester": ""
+          },
+          {
+            "title": "[156002] Psicopedagogia e tecniche di osservazione",
+            "cfu": "12 CFU",
+            "hours": "103 ore",
+            "semester": ""
+          },
+          {
+            "title": "[156006] Tirocinio formativo I anno",
+            "cfu": "15 CFU",
+            "hours": "375 ore",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0704G] Interfacce e Tecnologie della Comunicazione",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[153033] Analisi matematica con elementi di algebra",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[153079] Informatica ed elementi di programmazione I",
+            "cfu": "12 CFU",
+            "hours": "84 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[153071] Interazione persona-macchina con elementi di comunicazione multimodale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[153043] Lingua inglese (Livello B1)",
+            "cfu": "5 CFU",
+            "hours": "35 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[150204] Percorso di Avvicinamento alla Ricerca Scientifica",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[153054] Psicologia del linguaggio e della comunicazione",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[153034] Psicologia generale",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[153036] Semiotica della rappresentazione visiva",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[153035] Sociologia della comunicazione",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[153058] Ulteriori competenze linguistiche - Lingua francese (Livello A1b)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[153059] Ulteriori competenze linguistiche - Lingua spagnola (Livello A1b)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[153044] Ulteriori competenze linguistiche - Lingua tedesca (Livello A1b)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0711G] Scienze Motorie, Sport e Benessere",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[151102] Anatomia umana",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[151126] Attività tecnico pratiche/Tirocinio I Anno",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[151107] Biochimica del movimento",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[151101] Biologia",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[151100] Comportamento motorio, qualità della vita e salute",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[151103] Fisica del movimento umano",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[151106] Fisiologia e neuroscienze",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[151108] Lingua inglese (livello B1)",
+            "cfu": "4 CFU",
+            "hours": "28 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[151104] Psicologia cognitiva e del movimento",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[151105] Psicologia dello sviluppo tipico e atipico delle competenze motorie e cognitive",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[151127] Attività tecnico pratiche/Tirocinio II Anno",
+            "cfu": "10 CFU",
+            "hours": "250 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151109] Biomeccanica del movimento umano; Controllo e Apprendimento motorio",
+            "cfu": "12 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151110] Metodologia e tecnica dell'allenamento; Didattica del movimento e dello sport; Tecniche degli sport",
+            "cfu": "18 CFU",
+            "hours": "126 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151112] Pedagogia didattica per le scienze motorie e sportive",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151111] Psicologia dei gruppi",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151116] Competenza comunicativa e divulgazione in ambito sportivo",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151115] Informatica per lo sport e della prestazione fisica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151113] Sociologia dello sport e dell'inclusione",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151114] Sport, dipendenze e doping",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151119] Attività ludica e sport giovanile",
+            "cfu": "3 CFU",
+            "hours": "21 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151117] Attività motoria e sportiva adattata per la salute",
+            "cfu": "3 CFU",
+            "hours": "21 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151118] Educazione motoria ed avviamento allo sport",
+            "cfu": "3 CFU",
+            "hours": "21 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151120] Sport outdoor",
+            "cfu": "3 CFU",
+            "hours": "21 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[151128] Attività tecnico pratiche/Tirocinio III Anno",
+            "cfu": "12 CFU",
+            "hours": "300 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151122] Economia per le associazioni sportive",
+            "cfu": "6 CFU",
+            "hours": "6 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151124] Elementi di diritto per lo sport",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151123] Medicina generale applicata allo sport",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151121] Misure e valutazioni sportive",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[151125] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0705G] Scienze e Tecniche di Psicologia Cognitiva",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[150035] Basi biologiche del comportamento",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[150079] Filosofia della scienza",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[150039] Lingua inglese (Livello B1)",
+            "cfu": "5 CFU",
+            "hours": "35 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[150080] Metodi della ricerca in psicologia",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[150175] Metodi matematici per le scienze cognitive",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[150204] Percorso di Avvicinamento alla Ricerca Scientifica",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[150034] Psicologia generale",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[150145] Psicologia del linguaggio e della comunicazione",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[150050] Psicologia della memoria e dell'apprendimento",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[150084] Psicologia della percezione e dell'attenzione",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0513G] Fisica",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[145432] Analisi matematica I",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145000] Analisi matematica II",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146267] Fisica generale I",
+            "cfu": "15 CFU",
+            "hours": "140 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145433] Geometria I",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145092] Laboratorio di fisica I",
+            "cfu": "9 CFU",
+            "hours": "96 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146050] Programmazione scientifica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145194] Ulteriori conoscenze linguistiche (inglese b2)",
+            "cfu": "3 CFU",
+            "hours": "50 ore",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[145120] Analisi matematica III",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145121] Chimica con esercitazioni di laboratorio",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145219] Fisica generale II",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145220] Fisica generale III",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146085] Laboratorio di fisica II (mod.A)",
+            "cfu": "9 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146086] Laboratorio di fisica II (mod.B)",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145440] Meccanica analitica",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145438] Metodi matematici per la fisica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[145439] Complementi matematici della meccanica quantistica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145221] Fisica nucleare e subnucleare",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145228] Introduzione alla meccanica statistica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145125] Laboratorio di fisica III",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145437] Meccanica quantistica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145184] Prova finale (Laurea in Fisica)",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[145246] Struttura della materia",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145204] Biofisica",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145760] Biologia molecolare della cellula",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145207] Chimica organica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145210] Comunicazione delle Scienze",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145371] Elementi di astrofisica e cosmologia gravitazionale",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145216] Fisica computazionale",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145218] Fisica dei materiali",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146280] Fisica per l'innovazione tecnologica e industriale",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145757] Fisiologia della cellula e degli organismi",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145341] Fondamenti di meteorologia e climatologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140254] Idrologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145895] Introduzione alla Data Science per fisici",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145242] Relatività",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145661] Storia della Fisica e della Matematica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0515G] Matematica",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[145505] Algebra A",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146272] Analisi Matematica A1",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146273] Analisi Matematica A2",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145032] Fisica generale I (primo modulo)",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145504] Geometria A",
+            "cfu": "15 CFU",
+            "hours": "140 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145031] Informatica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145003] Inglese B1",
+            "cfu": "3 CFU",
+            "hours": "33 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145033] Fisica generale I (secondo modulo)",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145956] Laboratorio di Programmazione",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[145528] Algebra B",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145525] Analisi matematica B",
+            "cfu": "12 CFU",
+            "hours": "112 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145114] Analisi numerica I",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145527] Calcolo delle probabilità e statistica matematica",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146274] Fondamenti di Fisica Matematica I",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145526] Geometria B",
+            "cfu": "12 CFU",
+            "hours": "112 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146051] Strumenti informatici per la matematica",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[145185] Prova finale (Laurea Matematica)",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[146277] Analisi Matematica C",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145279] Fondamenti logici della matematica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146276] Geometria C",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145250] Teoria di Galois",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145954] Analisi numerica II",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145205] Calcolo delle probabilità II",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146275] Fondamenti di Fisica Matematica II",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145244] Statistica matematica",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145201] Algebra commutativa",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145004] Algoritmi e strutture dati",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145946] Algoritmi e strutture dati (I UD)",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145007] Architettura degli elaboratori",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145008] Basi di dati",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145760] Biologia molecolare della cellula",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145206] Calcolo delle variazioni",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145280] Chimica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145210] Comunicazione delle Scienze",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145095] Economia e misurazione aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145214] Equazioni differenziali ordinarie",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145517] Finanza aziendale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140077] Fisica 2",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145219] Fisica generale II",
+            "cfu": "9 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145254] Fisica generale III",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145757] Fisiologia della cellula e degli organismi",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145266] Introduzione all'economia",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145955] Introduzione alla Geometria Algebrica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145263] Macroeconomia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[120118] Microeconomia_",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145417] Reti",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145661] Storia della Fisica e della Matematica",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145327] Teoria algebrica dei numeri",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145248] Teoria dei gruppi",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0516G] Scienze e Tecnologie Biomolecolari",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[145034] Biologia cellulare",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145275] Biologia degli organismi",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145035] Chimica generale ed inorganica",
+            "cfu": "9 CFU",
+            "hours": "89 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145036] Chimica organica",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145554] English (B2)",
+            "cfu": "3 CFU",
+            "hours": "50 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145037] Fisica I",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145040] Matematica e Statistica I",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145041] Microbiologia generale",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[145099] Biochimica",
+            "cfu": "12 CFU",
+            "hours": "114 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146047] Biologia Molecolare",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145320] Chimica fisica e Bioanalitica",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145103] Fisica II",
+            "cfu": "6 CFU",
+            "hours": "58 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145104] Genetica",
+            "cfu": "9 CFU",
+            "hours": "85 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145736] Immunologia",
+            "cfu": "6 CFU",
+            "hours": "57 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145739] Informatica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145105] Matematica e Statistica II",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[145100] Biodiritto e Bioetica",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146241] Biologia applicata alle Biotecnologie",
+            "cfu": "12 CFU",
+            "hours": "114 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145375] Biologia computazionale",
+            "cfu": "6 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145376] Biologia dello sviluppo",
+            "cfu": "6 CFU",
+            "hours": "58 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145377] Fisiologia molecolare",
+            "cfu": "6 CFU",
+            "hours": "57 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145186] Prova finale (Laurea Scienze e Tecnologie Biomolecolari)",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[145268] Tirocinio",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[145802] Biologia dei tumori",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146247] Chromatin biology",
+            "cfu": "6 CFU",
+            "hours": "57 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145210] Comunicazione delle Scienze",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146245] Elettrofisiologia",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146244] Macromolecular technologies",
+            "cfu": "6 CFU",
+            "hours": "58 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146246] Neurophysiology, neurogenetics and target therapies",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146243] RNA Biology and biotechnology",
+            "cfu": "6 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146242] Signal transduction",
+            "cfu": "6 CFU",
+            "hours": "59 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0514G] Informatica",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[146055] Calculus 1",
+            "cfu": "12 CFU",
+            "hours": "108 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145992] Computer Architectures",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146140] Computer Programming 1",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[146062] Computer Programming 2",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146168] Functional Programming",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146056] Geometry and Linear Algebra",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[146289] Mathematics for Informatics",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[146060] Probability",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145326] Inglese livello C1",
+            "cfu": "3 CFU",
+            "hours": "50 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[140189] Prova di conoscenza lingua italiana (A1)",
+            "cfu": "3 CFU",
+            "hours": "50 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[145641] Technical English",
+            "cfu": "3 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[146290] Algorithms and Data Structures",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146199] Computational Logic",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145993] Databases",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146058] Networking",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146147] Operating systems",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146148] Software engineering",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146125] Advanced Programming",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146141] Calculus 2",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146298] Fundamentals of signal processing",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146066] Human Computer Interaction",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145937] Introduction to Computer and Network Security",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146152] Logic networks",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[146291] Formal Language and compilers",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146315] Introduction to machine learning",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145865] Optimization techniques",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145094] Prova finale (Laurea Informatica)",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[145097] Tirocinio o internato formativo",
+            "cfu": "9 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0325G] Ingegneria Civile",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[140441] Analisi matematica 1",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140580] Chimica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140002] Disegno Civile + CAD",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140581] Durabilità dei materiali da costruzione",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140641] Fisica 1",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140582] Geometria e algebra lineare con elementi di statistica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140463] Laboratorio didattico di fisica",
+            "cfu": "1 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[140198] Programmazione costi e contabilità dei lavori",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140366] Sociologia urbana e Diritto urbanistico",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145768] English B2",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[140182] Lingua straniera - Inglese (B2)",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[140058] Analisi matematica 2",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140059] Architettura tecnica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140588] Calcolo numerico e programmazione",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140065] Fisica 2",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140066] Fisica tecnica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140590] Infrastrutture viarie",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140067] Meccanica razionale",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140589] Topografia",
+            "cfu": "8 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[140591] Geotecnica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140204] Meccanica computazionale delle strutture 1",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140645] Meccanica dei fluidi",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140455] Prova finale",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140643] Scienza delle costruzioni",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140592] Tecnica delle costruzioni",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140708] Costruzioni idrauliche",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140064] Elettrotecnica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140508] Macchine ed elementi delle macchine",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140197] Progettazione e costruzione di opere edili",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140195] Valutazione economica dei progetti",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140187] Altre attività",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0327G] Ingegneria Industriale",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[140462] Altre attività",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[146171] Analisi e geometria",
+            "cfu": "15 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145969] Analisi matematica 2",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140110] Chimica con elementi di chimica organica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140011] Disegno industriale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140445] Fisica 1",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145968] Informatica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140422] Prova di conoscenza lingua inglese (B2)",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[146172] Analisi dei dati per l’ingegneria",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146174] Circuiti e macchine elettriche",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145981] Economia ed organizzazione aziendale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145985] Elementi di meccanica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140077] Fisica 2",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146175] Fondamenti di termodinamica e trasmissione del calore",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140464] Laboratorio didattico di fisica",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146173] Materiali per l'ingegneria industriale",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[146190] Impianti industriali",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140457] Prova finale",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[145977] Sistemi meccanici e modelli",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145980] Tecnica delle costruzioni meccaniche",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146192] Logistica industriale sostenibile",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140080] Meccanica dei fluidi",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146191] Sistemi organizzativi e innovazione",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145976] Fondamenti di automatica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146003] Metodi e modelli per l'ingegneria gestionale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140453] Tecnologie meccaniche",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0339G] Ingegneria Informatica, delle Comunicazioni ed Elettronica",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[145403] Analisi matematica 1",
+            "cfu": "12 CFU",
+            "hours": "108 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140017] Analisi matematica 2",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145805] Calcolo delle probabilità",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145768] English B2",
+            "cfu": "3 CFU",
+            "hours": "50 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[145424] Fisica",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[145405] Geometria e algebra lineare",
+            "cfu": "6 CFU",
+            "hours": "56 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145935] Programmazione 1",
+            "cfu": "12 CFU",
+            "hours": "108 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[145019] Programmazione 2",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[146137] Analog electronics",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145821] Fisica 2",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146128] Fondamenti di comunicazioni",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146129] Fondamenti di elettronica digitale",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145822] Organizzazione e gestione aziendale",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146309] Sistemi di elaborazione",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[146070] Prova finale",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[146071] Tirocini formativi e di orientamento",
+            "cfu": "9 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[146138] Advanced logic design",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146163] Basics of optoelectronics",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146131] Campi elettromagnetici",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146198] High-Frequency Circuits for Systems-on-Chip",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146209] Introduction to Parallel Computing",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146312] Introduction to embedded systems",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146304] Laboratory of Systems on Chip",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[146210] Progettazione e prototipazione di sistemi elettronici",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[145786] Strumentazione ed elettronica industriale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0326G] Ingegneria per l'ambiente e il territorio",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[140441] Analisi matematica 1",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140036] Chimica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140642] Fisica 1",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140071] Geologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140443] Geometria e algebra lineare",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140355] Introduzione all'ingegneria ambientale",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140463] Laboratorio didattico di fisica",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140583] Statistica, algoritmi e programmazione",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140584] Tecniche della rappresentazione ambientale",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[145768] English B2",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[140185] Lingua straniera - Inglese (B2)",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[140058] Analisi matematica 2",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140069] Fisica 2",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140066] Fisica tecnica",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140070] Fondamenti di meccanica razionale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140008] Ingegneria sanitaria",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140563] Tecnologia dei materiali con Laboratorio di chimica per l'ambiente",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140526] Topografia",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140259] Cartografia numerica e GIS",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140064] Elettrotecnica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140257] Fondamenti di meteorologia e climatologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140508] Macchine ed elementi delle macchine",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140260] Sistemi di gestione integrati per la qualità, la sicurezza e l'ambiente",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[140256] Ecologia",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140638] Geotecnica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140254] Idrologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140646] Meccanica dei fluidi",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140455] Prova finale",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140644] Scienza delle costruzioni",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140600] Tecnica delle costruzioni",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140461] Altre attività",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0622G] Servizio Sociale",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[135025] Competenze linguistiche - Inglese (B1)",
+            "cfu": "4 CFU",
+            "hours": "60 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[135431] Diritto e amministrazione per il servizio sociale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135425] Diversità e relazioni interculturali",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135428] Individui, famiglie e società",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135426] Politiche del welfare sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135424] Principi, deontologia e etica del servizio sociale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135447] Relazioni interpersonali e comunicazione sociale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135427] Teorie e approcci al servizio sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135429] Tirocinio osservativo",
+            "cfu": "4 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135259] Competenze linguistiche - Francese (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135260] Competenze linguistiche - Francese (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135261] Competenze linguistiche - Francese (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135262] Competenze linguistiche - Francese (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135051] Competenze linguistiche - Inglese (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135249] Competenze linguistiche - Inglese (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135250] Competenze linguistiche - Inglese (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135255] Competenze linguistiche - Spagnolo (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135256] Competenze linguistiche - Spagnolo (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135257] Competenze linguistiche - Spagnolo (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135258] Competenze linguistiche - Spagnolo (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135251] Competenze linguistiche - Tedesco (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135252] Competenze linguistiche - Tedesco (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135253] Competenze linguistiche - Tedesco (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135254] Competenze linguistiche - Tedesco (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135854] Cure palliative, Sociologia e Servizio sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[135105] Competenze informatiche",
+            "cfu": "2 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135430] Comportamento umano in contesti sociali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135441] Diritto penale e dell'esecuzione della pena",
+            "cfu": "9 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135444] Medicina del servizio sociale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135440] Metodi di valutazione e progettazione per gli interventi di servizio sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135443] Modelli di organizzazione per il servizio sociale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135294] Primo Tirocinio",
+            "cfu": "10 CFU",
+            "hours": "250 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135445] Rischi, politiche e diritti",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135442] Servizio sociale di comunità",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[135450] Devianza e controllo sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135161] Diritto di famiglia",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135446] Laboratorio di pratica riflessiva",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135800] Progettazione di interventi per il territorio",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135074] Prova finale",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135439] Psicologia delle età della vita",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135295] Secondo Tirocinio",
+            "cfu": "10 CFU",
+            "hours": "250 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135449] Servizio sociale in pratica",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0611G] Sociologia",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[135025] Competenze linguistiche - Inglese (B1)",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[136003] Costruire un disegno di analisi dei fenomeni sociali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[136004] Diritto e Istituzioni",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[136000] Istituzioni di sociologia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[136006] Istituzioni di sociologia (esercitazioni)",
+            "cfu": "4 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135007] Psicologia sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[136008] Scrittura accademica",
+            "cfu": "2 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[136001] Storia del pensiero sociologico",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[136007] Storia del pensiero sociologico (esercitazioni)",
+            "cfu": "4 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[136005] Storia e società",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "6 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135259] Competenze linguistiche - Francese (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135260] Competenze linguistiche - Francese (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135261] Competenze linguistiche - Francese (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135262] Competenze linguistiche - Francese (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135249] Competenze linguistiche - Inglese (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135250] Competenze linguistiche - Inglese (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135255] Competenze linguistiche - Spagnolo (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135256] Competenze linguistiche - Spagnolo (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135257] Competenze linguistiche - Spagnolo (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135258] Competenze linguistiche - Spagnolo (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135251] Competenze linguistiche - Tedesco (B1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135252] Competenze linguistiche - Tedesco (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135254] Competenze linguistiche - Tedesco (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135854] Cure palliative, Sociologia e Servizio sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[136028] Introduzione ai big data e ai metodi computazionali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[136041] Storia della violenza in età moderna",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[135017] Antropologia culturale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136010] Fondamenti di economia",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136014] Metodi e tecniche di ricerca: raccolta e analisi dati qualitativi (LAB)",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136015] Metodi e tecniche di ricerca: raccolta e analisi dati quantitativi (LAB)",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136011] Politica e società",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136009] Statistica sociale",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136012] Genere e diversità",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135799] Scienza, tecnologia e società",
+            "cfu": "8 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[136013] Sociologia della cultura",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135301] Sociologia economica e del lavoro",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[136016] Modelli di interazione e azione collettiva",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135074] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[136017] Sostenibilità ambientale e sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135193] Stage",
+            "cfu": "8 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136018] Analisi dei dati testuali e visivi",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136019] Introduzione ai metodi di ricerca avanzati",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136020] Ricerca sociale applicata",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136021] Approcci e metodi di ricerca sui corsi di vita",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136022] Comunicare l'innovazione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135870] Movimenti sociali, politica e società",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136026] Organizzazione e innovazione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135304] Progettazione sociale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136023] Società digitale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136025] Sociologia dei consumi culturali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136024] Sviluppo di comunità",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[136027] Transizione socio-ecologica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0620G] Studi internazionali",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[135025] Competenze linguistiche - Inglese (B1)",
+            "cfu": "8 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135338] Diritto pubblico europeo",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135004] Economia politica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135002] Metodi quantitativi",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[135015] Scienza politica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135336] Sociologia",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[135335] Storia moderna e contemporanea",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135205] Attività a scelta libera",
+            "cfu": "1 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[135260] Competenze linguistiche - Francese (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135261] Competenze linguistiche - Francese (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135262] Competenze linguistiche - Francese (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135051] Competenze linguistiche - Inglese (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135250] Competenze linguistiche - Inglese (C2)",
+            "cfu": "",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[135256] Competenze linguistiche - Spagnolo (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135257] Competenze linguistiche - Spagnolo (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135258] Competenze linguistiche - Spagnolo (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135252] Competenze linguistiche - Tedesco (B2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135253] Competenze linguistiche - Tedesco (C1)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135254] Competenze linguistiche - Tedesco (C2)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[135421] Diritto internazionale",
+            "cfu": "6 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135423] Istituzioni della cooperazione internazionale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135008] Metodologia e tecniche della ricerca sociale",
+            "cfu": "12 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135341] Politica comparata",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135018] Sociologia delle relazioni internazionali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135027] Storia delle istituzioni politiche",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135249] Competenze linguistiche - Inglese (C1)",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135422] Competenze linguistiche specialistiche - Inglese (B2)",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135879] Seminario: Specialist English for International Studies",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[135100] Politica economica (internazionale)",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135074] Prova finale",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135305] Sociologia dello sviluppo internazionale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135923] Academic Freedom and Human Rights: European and International Perspectives (J. Monnet module)",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135870] Movimenti sociali, politica e società",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135797] Networks and culture",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135546] Salute, società e culture",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135001] Sociologia della religione",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135437] Major issues in development and cooperation",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135343] Politiche di sviluppo europee e governance globale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135017] Antropologia culturale",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135490] Epistemologia delle scienze sociali",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135030] Geografia economica e politica",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135790] Sociologia dell'ambiente",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135711] Studi urbani",
+            "cfu": "8 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[135259] Competenze linguistiche - Francese (B1)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135255] Competenze linguistiche - Spagnolo (B1)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[135251] Competenze linguistiche - Tedesco (B1)",
+            "cfu": "4 CFU",
+            "hours": "",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0911G] Viticoltura ed Enologia",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[170039] Arboricoltura generale, principi di fisiologia e genetica delle piante da frutto",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[170003] Biologia generale ed Ecologia",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170006] Chimica Organica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[170004] Chimica generale e inorganica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[170005] Economia e gestione aziendale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[170002] Fisica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[170000] Informatica di base (abilità informatiche)",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[170001] Matematica e statistica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[170008] Microbiologia generale con esercitazioni di laboratorio",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[COCS_EN_B1] Test d'ingresso - INGLESE B1",
+            "cfu": "",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[170033] Chimica agraria e biochimica con esercitazioni",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170010] Chimica e microbiologia enologica",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170013] Difesa della vite",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170012] Enologia 1",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170022] Lingua inglese (livello B2)",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[170014] Meccanizzazione viticola e viticoltura di precisione",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170011] Viticoltura 1",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[170034] Enologia 2 con esercitazioni",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170018] Ingegneria alimentare ed impianti enologici",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170017] Laboratorio qualità prodotti vitivinicoli",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170016] Marketing e legislazione prodotti vitivinicoli",
+            "cfu": "12 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170021] Prova Finale",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[170020] Tirocinio",
+            "cfu": "6 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[170035] Viticoltura 2: Tecnica viticola con esercitazioni",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170037] Agrometeorologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170031] Pratiche di consumo e società",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170023] Tecnica enologica speciale: vini spumanti e vini speciali, tecnologie dei distillati",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170026] Valorizzazione dei sottoprodotti dell'industria enologica e gestione reflui",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170024] Viticoltura biologica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[170028] Vitienologia internazionale",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  }
+]

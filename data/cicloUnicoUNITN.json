@@ -1,0 +1,1735 @@
+[
+  {
+    "title": "[0205F] Giurisprudenza",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[25842] Filosofia del diritto",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26101] Introduzione all'economia",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25839] Istituzioni di diritto privato I",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25844] Istituzioni di diritto pubblico",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25840] Istituzioni di diritto romano",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25956] Comparative Legal Systems",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25845] Sistemi giuridici comparati",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25958] European Union Law",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25846] Istituzioni di diritto dell'Unione Europea",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25533] Lingua Francese B1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25532] Lingua Inglese B1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25540] Lingua Italiana B1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25534] Lingua Spagnola B1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25535] Lingua Tedesca B1",
+            "cfu": "5 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[26036] Lab. appl.: Analisi economica del diritto penale",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26056] Lab. appl.: Casi e questioni sul processo penale",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26148] Lab. appl.: Comprendere i nuovi poteri globali: le sfide giuridiche dell'intelligenza artificiale e delle piattaorme digitali",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26031] Lab. appl.: Comunicazione efficace e competenze trasversali (didattica innovativa)",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25134] Lab. appl.: Criminalità finanziaria e analisi di rischio",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25893] Lab. appl.: Dalla ricerca bibliografica alla stesura del testo: linee guida per la redazione di una tesi di laurea",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[26131] Lab. appl.: Diritto dei contratti",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26037] Lab. appl.: Diritto societario della crisi",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26134] Lab. appl.: Elementi di tutela minorile",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25925] Lab. appl.: Fiscalità d'impresa",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26039] Lab. appl.: Gli atti processuali nel diritto amministrativo",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25794] Lab. appl.: I contratti tipici ed atipici",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25878] Lab. appl.: Il ricorso tributario",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26030] Lab. appl.: Interessi monetari ed usura",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25541] Lab. appl.: L'imputazione nel sistema processuale penale: regole giuridiche e tecniche di formulazione",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26088] Lab. appl.: La contabilità spiegata ai giuristi",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26047] Lab. appl.: Moot Court secondo le regole del processo formulare romano",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26123] Lab. appl.: Negotiation Training e Coaching per la Competizone Trentina di Negoziato (didattica innovativa)",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25574] Lab. appl.: Separazione e divorzio",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25569] Workshop on legal translation of the Law of the European Union/ Lab. appl.: La traduzione del diritto dell'Unione Europea",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25078] Abilità informatiche",
+            "cfu": "3 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25162] Altre abilità informatiche",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[25283] Aspetti criminologici e giuridici del fenomeno mafioso",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26149] Brand protection e tutela delle Indicazioni geografiche",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25987] Climate change and Energy Law",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26070] CopyrightX Trento",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[26130] Diritto romano e regimi totalitari nel ’900 europeo",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25255] Francese giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25975] Francese giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25894] Inglese giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25996] Inglese giuridico C1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[26147] Introduzione al diritto dei paesi di lingua tedesca",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[25099] Lingua Francese A1",
+            "cfu": "1 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25198] Lingua Francese A2",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25615] Lingua Francese B2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25782] Lingua Francese C1",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25787] Lingua Francese C2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25096] Lingua Inglese A1",
+            "cfu": "1 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25197] Lingua Inglese A2",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25616] Lingua Inglese B2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25780] Lingua Inglese C1",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25785] Lingua Inglese C2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25098] Lingua Spagnola A1",
+            "cfu": "1 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25200] Lingua Spagnola A2",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25781] Lingua Spagnola C1",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25786] Lingua Spagnola C2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25097] Lingua Tedesca A1",
+            "cfu": "1 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25199] Lingua Tedesca A2",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25619] Lingua Tedesca B2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25783] Lingua Tedesca C1",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25788] Lingua Tedesca C2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25618] Lingua spagnola B2",
+            "cfu": "2 CFU",
+            "hours": "",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25945] Risoluzione alternativa delle controversie civili e giustizia riparativa",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26055] Sicurezza urbana: questioni giuridiche e criminologiche",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25997] Spagnolo giuridico A2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25754] Spagnolo giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25079] Stage",
+            "cfu": "",
+            "hours": "30 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[26068] Street Law - Illustrare la Costituzione",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[26146] Studenti e consapevolezza",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[25256] Tedesco giuridico B1",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25995] Tedesco giuridico B2",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Attività a durata annuale"
+          },
+          {
+            "title": "[25832] Valutazione delle politiche contro la criminalità",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[25510] Diritto costituzionale",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26076] Diritto dell'economia",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25512] Diritto internazionale",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25513] Diritto penale",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25602] Istituzioni di diritto privato II",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25980] History of Western Legal Tradition",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25916] Storia del diritto medievale e moderno I",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[25851] Diritto amministrativo",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25516] Diritto civile",
+            "cfu": "7 CFU",
+            "hours": "49 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25819] Diritto commerciale (9 cfu)",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25519] Diritto del lavoro",
+            "cfu": "12 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25521] Diritto penale corso avanzato",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26114] Academic Freedom and Human Rights: European and International Perspectives (J. Monnet module)",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25261] Biodiritto",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26018] Clinica in Alternative Dispute Resolution (didattica innovativa)",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26074] Clinica legale di diritto dell'immigrazione",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25138] Comparative Constitutional Law of groups and minorities",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25022] Criminologia",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25222] Criminologia applicata",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26137] Criminologia digitale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26126] Diritti fondamentali e scienze della vita nelle società contemporanee",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26115] Diritto agroalimentare e globalizzazione",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25938] Diritto amministrativo dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25960] Diritto assicurativo",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25220] Diritto bancario e degli intermediari finanziari",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25024] Diritto canonico",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25895] Diritto civile e scienze cognitive",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25981] Diritto comparato della privacy",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25262] Diritto comparato della proprietà intellettuale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25284] Diritto comparato delle religioni",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26132] Diritto comparato e transnazionale del lavoro",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25983] Diritto d'autore e arte",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25032] Diritto dei trasporti e delle infrastrutture",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25635] Diritto del commercio e dell'arbitrato internazionale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25218] Diritto del lavoro pubblico",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25227] Diritto del turismo",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26139] Diritto dell'ambiente e della transizione ecologica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25959] Diritto dell'energia",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26059] Diritto dell'era digitale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26045] Diritto della contabilità pubblica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26127] Diritto delle autonomie territoriali. Specialità e differenziazione",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26060] Diritto delle crisi d'impresa",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25868] Diritto delle istituzioni internazionali",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26019] Diritto delle migrazioni",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25591] Diritto e genere (gender studies)",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26077] Diritto e processo penale nell'antica Roma",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26124] Diritto e religione in Europa",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25025] Diritto ecclesiastico",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25896] Diritto internazionale dei conflitti armati",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25291] Diritto internazionale dell'ambiente",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26000] Diritto parlamentare e delle assemblee elettive",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25232] Diritto penale comparato",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25028] Diritto penale dell'economia",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25239] Diritto penale dell'informatica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25286] Diritto penale internazionale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25870] Diritto penitenziario",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25266] Diritto privato e antitrust dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25590] Diritto processuale tributario",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26142] Diritto sanitario",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25243] Diritto tavolare",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25209] Diritto urbanistico e delle opere pubbliche",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26061] Dottrina dello stato",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26145] Enforcing Human Rights",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26113] Etica delle professioni giuridiche",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26104] Etica, università e comunità",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26050] European Transport Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26024] Flexicurity, tutele e mercato del lavoro",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26079] Giustizia costituzionale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25835] Globalizzazione e diritto del lavoro",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26150] History of Political Thought",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26105] Intelligenza artificiale e diritto",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25921] International Economic Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25761] Introduction to Islamic Law",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25117] Introduzione al diritto anglo-americano",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25267] Introduzione al diritto dei paesi africani",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26015] La sicurezza nazionale nella prospettiva del diritto internazionale e dell'Unione Europea",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26151] Law & Literature",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26143] Le immagini del diritto. Legge, giustizia e cultura visuale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26125] Leadership and Governance",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26144] Procedura penale europea",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26152] Procedura penale minorile e degli enti",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26138] Pubblica amministrazione, transizione digitale e intelligenza artificiale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26021] Sistemi giudiziari comparati",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25155] Storia del diritto canonico",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26133] Storia del diritto internazionale",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25035] Storia del diritto romano",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25936] Storia del pensiero giuridico moderno",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26141] Storia della giustizia_",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26136] Teoria e tecnica dell’argomentazione giuridica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25268] Metodologia della scienza giuridica",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[25818] Diritto commerciale avanzato",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25522] Diritto processuale civile",
+            "cfu": "14 CFU",
+            "hours": "98 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25932] Diritto romano e fondamenti del diritto europeo",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25523] Procedura penale",
+            "cfu": "14 CFU",
+            "hours": "98 ore",
+            "semester": ""
+          },
+          {
+            "title": "[26110] History of Western Legal Tradition - advanced course",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25931] Storia del diritto medievale e moderno II",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[25531] Prova finale (Laurea Magistrale)",
+            "cfu": "22 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25861] Diritto processuale amministrativo",
+            "cfu": "9 CFU",
+            "hours": "63 ore",
+            "semester": ""
+          },
+          {
+            "title": "[25529] Diritto tributario",
+            "cfu": "6 CFU",
+            "hours": "42 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[0336F] Ingegneria Edile-Architettura",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[140363] Analisi matematica 1",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140365] Disegno dell'architettura con Laboratorio",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140364] Fisica generale",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140368] Geometria",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[140366] Sociologia urbana e Diritto urbanistico",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140367] Storia dell'architettura moderna con Laboratorio",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[140375] Tecnologia e chimica applicata con elementi di chimica",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140710] English B2",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140518] Francese C1",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140380] Lingua inglese B2 CEF",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140039] Prova di conoscenza lingua inglese (B1)",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140519] Spagnolo C1",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140517] Tedesco C1",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[140370] Analisi matematica 2",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140372] Architettura tecnica 1 con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140521] Composizione architettonica 1 - Laboratorio progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140383] Disegno automatico",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140373] Statica",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140371] Storia dell'architettura contemporanea",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140382] Tecnica urbanistica con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[140379] Architettura tecnica 2 con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140522] Composizione architettonica 2 - Laboratorio progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140377] Fisica tecnica",
+            "cfu": "9 CFU",
+            "hours": "108 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140374] Rilievo dell'architettura con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140378] Scienza delle costruzioni",
+            "cfu": "9 CFU",
+            "hours": "108 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140387] Urbanistica con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[140523] Composizione architettonica 3 - Laboratorio progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140386] Costruzioni idrauliche con nozioni di Idraulica",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140369] Economia ed estimo civile",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140528] Ergotecnica edile con Laboratorio progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140388] Restauro architettonico con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140385] Tecnica delle costruzioni con Laboratorio Progettuale",
+            "cfu": "12 CFU",
+            "hours": "168 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[140390] Geotecnica",
+            "cfu": "9 CFU",
+            "hours": "108 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140421] Prova finale - Laboratorio tesi di laurea",
+            "cfu": "15 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[140391] Architettura del legno",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140392] Architettura del paesaggio",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140395] Conservazione, recupero e ristrutturazione degli edifici",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140397] Costruzioni in legno",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140579] Meccanica delle costruzioni con elementi in vetro delle tensostrutture e delle strutture murarie",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[140403] Riabilitazione strutturale",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[1001S] Medicina e Chirurgia",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[110004] Anatomia umana I",
+            "cfu": "7 CFU",
+            "hours": "80 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[110002] Biologia generale e molecolare",
+            "cfu": "12 CFU",
+            "hours": "135 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110003] Chimica e biochimica",
+            "cfu": "12 CFU",
+            "hours": "130 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110000] Fisica e informatica",
+            "cfu": "10 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110010] Istologia ed embriologia",
+            "cfu": "9 CFU",
+            "hours": "98 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[110055] Rischio Clinico",
+            "cfu": "",
+            "hours": "10 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[110008] Anatomia umana II",
+            "cfu": "9 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110061] Fisiologia Umana I",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110006] Microbiologia e microbiologia clinica",
+            "cfu": "9 CFU",
+            "hours": "95 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110007] Patologia, immunologia e genomica",
+            "cfu": "17 CFU",
+            "hours": "193 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110018] Scienze Umane in medicina",
+            "cfu": "8 CFU",
+            "hours": "110 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110062] English for Medicine - Advanced",
+            "cfu": "2 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110045] Medicina narrativa",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110053] Medicina personalizzata: nuove frontiere nelle terapie a DNA e RNA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[110059] Anatomia Patologica generale",
+            "cfu": "5.5 CFU",
+            "hours": "62.5 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110001] Epidemiologia e prevenzione",
+            "cfu": "10 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110066] Fisiologia Umana II e Attività Sportive per la Salute",
+            "cfu": "11 CFU",
+            "hours": "110 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110067] Immunopatologia e Fisiopatologia",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110081] Medicina di Laboratorio",
+            "cfu": "4.5 CFU",
+            "hours": "52.5 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110011] Metodologia clinica",
+            "cfu": "12 CFU",
+            "hours": "212 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110048] Elettrofisiologia cardiaca",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110056] La consultazione in Medicina Generale",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110051] Metodi di Machine Learning in Neuroscienze Cliniche",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110063] Vaccinologia e Immunoterapia",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[110029] Clinica ORL, odontostomatologia e chirurgia maxillo-facciale, oftalmologia",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110025] Farmacologia",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110024] Malattie infettive e dermatologiche",
+            "cfu": "7 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110026] Patologia sistematica I",
+            "cfu": "16 CFU",
+            "hours": "220 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110031] Patologia sistematica II",
+            "cfu": "15 CFU",
+            "hours": "210 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110068] Psichiatria e Psicologia clinica",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110035] OT2. Robotica in medicina",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110033] OT4. Intelligenza artificiale in medicina",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110065] Approccio al paziente critico",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110064] Il Metodo clinico in Medicina Generale",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110060] Imaging diagnostico di Risonanza magnetica",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110058] Management e Sistemi informativi sanitari",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110057] Sanità digitale - Neuroimmagini con MRI",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[110013] Anatomia patologica clinica e Oncologia",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110019] Diagnostica per immagini",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110014] Malattie apparato locomotore",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110020] Medicina interna",
+            "cfu": "10 CFU",
+            "hours": "130 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110015] Neuroscienze cliniche",
+            "cfu": "10 CFU",
+            "hours": "130 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110022] Ostetricia e ginecologia",
+            "cfu": "7 CFU",
+            "hours": "130 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110023] Pediatria",
+            "cfu": "10 CFU",
+            "hours": "160 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110021] Sanità pubblica",
+            "cfu": "8 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110032] OT1. Medicina di precisione",
+            "cfu": "5 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110036] OT5. Terapia genica e cellulare",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110034] OT7. Terapia radiante avanzata",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "6° Anno",
+        "exams": [
+          {
+            "title": "[111000] Prova finale",
+            "cfu": "15 CFU",
+            "hours": "135 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110027] Clinica chirurgica",
+            "cfu": "9 CFU",
+            "hours": "135 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110030] Clinica medica, geriatria e terapia medica",
+            "cfu": "11 CFU",
+            "hours": "125 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110028] Emergenze medico-chirurgiche",
+            "cfu": "8 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110042] Tirocinio pratico-valutativo per l'esame di stato - Area Chirurgica",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110040] Tirocinio pratico-valutativo per l'esame di stato - Area Medica",
+            "cfu": "7 CFU",
+            "hours": "175 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110041] Tirocinio pratico-valutativo per l'esame di stato - Area Medicina generale",
+            "cfu": "5 CFU",
+            "hours": "125 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110038] OT3. Medicina ricostruttiva e rigenerativa",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110039] OT6. Intelligenza artificiale per la diagnostica per immagini",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[110069] OT8. Promozione della salute, prevenzione e corretti stili di vita",
+            "cfu": "5 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  }
+]

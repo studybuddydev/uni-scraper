@@ -1,0 +1,3891 @@
+[
+  {
+    "title": "[04181] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN GIURISPRUDENZA",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[A000177] DIRITTO COSTITUZIONALE I",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[11001] ECONOMIA AZIENDALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[11013] FILOSOFIA DEL DIRITTO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000178] ISTITUZIONI DI DIRITTO PRIVATO",
+            "cfu": "12 CFU",
+            "hours": "80 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A000360] ISTITUZIONI DI DIRITTO ROMANO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[JUS0016] STORIA DEL DIRITTO E DELLA GIUSTIZIA",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000361] STORIA DEL DIRITTO ROMANO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[A004204] DIRITTO COMMERCIALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004205] DIRITTO COMMERCIALE (I MODULO)",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004206] DIRITTO COMMERCIALE (II MODULO)",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701684] DIRITTO COSTITUZIONALE II",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[JUS0008] DIRITTO ECCLESIASTICO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701685] DIRITTO INTERNAZIONALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12532] DIRITTO INTERNAZIONALE MOD. I",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12533] DIRITTO INTERNAZIONALE MOD. II",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701686] DIRITTO PENALE I",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701736] LINGUA FRANCESE",
+            "cfu": "3 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701735] LINGUA INGLESE",
+            "cfu": "3 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701765] LINGUA SPAGNOLA",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[701811] LINGUA TEDESCA",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[701725] INFORMATICA GIURIDICA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11615] TEORIA E TECNICA DELL'INTERPRETAZIONE GIURIDICA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[701689] DIRITTO AMMINISTRATIVO I",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701692] DIRITTO CIVILE I",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703685] DIRITTO DEL LAVORO E DIRITTO ANTIDISCRIMINATORIO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U5753] DIRITTO ANTIDISCRIMINATORIO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8390] DIRITTO DEL LAVORO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701687] DIRITTO DELL'UNIONE EUROPEA",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701688] DIRITTO PENALE II",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701691] DIRITTO PROCESSUALE CIVILE I",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[JUS0007] ECONOMIA POLITICA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[701695] DIRITTO AMMINISTRATIVO II",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701698] DIRITTO CIVILE II",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701696] DIRITTO PROCESSUALE CIVILE II",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701704] DIRITTO PROCESSUALE PENALE",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12536] DIRITTO PROCESSUALE PENALE MOD.I",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12537] DIRITTO PROCESSUALE PENALE MOD.II",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000397] DIRITTO ROMANO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A003124] STORIA DEL DIRITTO CONTEMPORANEO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000565] ARTE DI COMUNICARE E ORATORIA CLASSICA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[751115] BIODIRITTO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000569] CLINICA DEL LAVORO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701037] CRIMINOLOGIA PENITENZIARIA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701028] DIRITTO BANCARIO E DELL'INTERMEDIAZIONE FINANZIARIA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701713] DIRITTO CANONICO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750704] DIRITTO COMMERCIALE (CORSO PROGREDITO)",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000179] DIRITTO DEL LAVORO DELL'UNIONE EUROPEA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000576] DIRITTO DELL'AMBIENTE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701029] DIRITTO DELL'UNIONE EUROPEA (CORSO PROGREDITO)",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000174] DIRITTO DELLA SICUREZZA SOCIALE E DELL'IMMIGRAZIONE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11039] DIRITTO DI FAMIGLIA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11058] DIRITTO INDUSTRIALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000387] DIRITTO MATRIMONIALE E PROCESSUALE CANONICO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702082] DIRITTO PARLAMENTARE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701081] DIRITTO PRIVATO COMPARATO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11068] DIRITTO PROCESSUALE CIVILE COMPARATO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11084] DIRITTO PUBBLICO COMPARATO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750706] DIRITTO PUBBLICO DEI PAESI ISLAMICI",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11060] DIRITTO SINDACALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000173] GESTIONE DEL PERSONALE E SICUREZZA SUL LAVORO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701728] GIUSTIZIA COSTITUZIONALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000567] GIUSTIZIA PENALE EUROPEA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[700346] MEDICINA LEGALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703735] RAGIONERIA I - CONTABILITA' GENERALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11618] RELAZIONI INDUSTRIALI",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750718] SISTEMI DI GOVERNO NEGLI STATI DEMOCRATICI",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702084] STRATEGIA AZIENDALE",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000568] TEMPI E LUOGHI DEL DIRITTO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[701703] ABILITA' INFORMATICHE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[JUS0009] DIRITTO TRIBUTARIO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000359] PROVA FINALE",
+            "cfu": "17 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[11049] SOCIOLOGIA DEL DIRITTO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11026] DIRITTO PRIVATO COMPARATO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[700361] DIRITTO PUBBLICO COMPARATO",
+            "cfu": "9 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[11037] CRIMINOLOGIA",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701694] DIRITTO INTERNAZIONALE PRIVATO",
+            "cfu": "6 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[08622] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN FARMACIA",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[MED0699] ACQUISIZIONE DI ELEMENTI DI INFORMATICA E STATISTICA",
+            "cfu": "2 CFU",
+            "hours": "16 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A005422] ANATOMIA UMANA E ISTOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004468] ISTOLOGIA ED EMBRIOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004474] Anatomia umana",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A004475] BIOLOGIA E GENETICA",
+            "cfu": "7 CFU",
+            "hours": "56 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004476] Biologia animale ed epigenetica",
+            "cfu": "7 CFU",
+            "hours": "56 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004477] Genetica Molecolare e Genomica",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[MED0695] BIOLOGIA VEGETALE E BOTANICA FARMACEUTICA",
+            "cfu": "9 CFU",
+            "hours": "72 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004481] CHIMICA ANALITICA",
+            "cfu": "6 CFU",
+            "hours": "52 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A004478] CHIMICA GENERALE E INORGANICA",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[MED0694] FISICA ED ELEMENTI DI MATEMATICA",
+            "cfu": "7 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A005542] LINGUA INGLESE B2",
+            "cfu": "1.5 CFU",
+            "hours": "12 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[MED0696] General English",
+            "cfu": "1.5 CFU",
+            "hours": "12 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[MED0698] Scientific English - Elementary",
+            "cfu": "1.5 CFU",
+            "hours": "12 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[A004484] ANALISI DEI MEDICINALI",
+            "cfu": "12 CFU",
+            "hours": "144 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004486] BIOCHIMICA GENERALE E MOLECOLARE",
+            "cfu": "9 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004485] CHIMICA ORGANICA",
+            "cfu": "12 CFU",
+            "hours": "104 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004487] FISIOLOGIA UMANA",
+            "cfu": "9 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004489] IMMUNOLOGIA CON BASI MOLECOLARI DEI FARMACI BIOTECNOLOGICI",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004483] MICROBIOLOGIA",
+            "cfu": "9 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004488] PATOLOGIA GENERALE E FISIOPATOLOGIA",
+            "cfu": "8 CFU",
+            "hours": "64 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[A004495] CHIMICA FARMACEUTICA I",
+            "cfu": "9 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004494] FARMACOLOGIA GENERALE E FARMACOGNOSIA",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004506] METODOLOGIE DI LABORATORIO IN AMBITO SANITARIO",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004508] Medicina di laboratorio",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004509] Patologia Clinica",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0700] METODOLOGIE PER LO SVILUPPO DI FARMACI PERSONALIZZATI",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004502] Biologia molecolare applicata ai farmaci",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004504] Farmacogenomica",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004497] SCIENZE DEGLI ALIMENTI",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004499] Chimica degli alimenti",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004500] Biochimica degli alimenti",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004511] SCIENZE DELLA NUTRIZIONE",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004512] Scienze dell'alimentazione",
+            "cfu": "3 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004513] Nutraceutica",
+            "cfu": "5 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[A004518] BIOSTATISTICA",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004515] CHIMICA FARMACEUTICA II",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004517] FARMACOLOGIA SPECIALE E FARMACOTERAPIA",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004521] NORMATIVA FARMACEUTICA E ORGANIZZAZIONE E GESTIONE DELLA FARMACIA",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004519] TECNOLOGIA FARMACEUTICA E LABORATORIO DI PREPARAZIONI GALENICHE",
+            "cfu": "9 CFU",
+            "hours": "92 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0321] TIROCINIO PROFESSIONALE IN FARMACIA",
+            "cfu": "15 CFU",
+            "hours": "450 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[A004526] CORSI A LIBERA SCELTA",
+            "cfu": "9 CFU",
+            "hours": "90 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0307] FARMACOLOGIA APPLICATA, FARMACOVIGILANZA E TOSSICOLOGIA",
+            "cfu": "12 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0702] PROVA PRATICA VALUTATIVA (PPV)",
+            "cfu": "",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[A004525] TECNOLOGIA FARMACEUTICA AVANZATA E DISPOSITIVI MEDICI",
+            "cfu": "8 CFU",
+            "hours": "64 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004528] TESI",
+            "cfu": "15 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[MED0322] TIROCINIO PROFESSIONALE IN FARMACIA",
+            "cfu": "15 CFU",
+            "hours": "450 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "Attività in Offerta",
+        "exams": [
+          {
+            "title": "[A005902] ELEMENTI DI BASE: CHIMICA",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A005901] ELEMENTI DI BASE: BIOLOGIA",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004989] ELEMENTI DI BASE: INGLESE",
+            "cfu": "",
+            "hours": "",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[AT0002] PRINCIPI DI OPEN SCIENCE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[AT0001] DIGITAL HUMANITIES",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004501] METODOLOGIE PER LO SVILUPPO DI FARMACI PERSONALIZZATI",
+            "cfu": "6 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004503] Nanotecnologie farmaceutiche",
+            "cfu": "4 CFU",
+            "hours": "32 ore",
+            "semester": "Secondo Semestre"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[08624] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN MEDICINA E CHIRURGIA",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[A004857] ANATOMIA UMANA I",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A004858] ANATOMIA GENERALE E NEUROANATOMIA",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A004860] ESERCITAZIONI ANATOMIA UMANA I",
+            "cfu": "1 CFU",
+            "hours": "18 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[MED0707] ANATOMIA DEL SISTEMA LOCOMOTORE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A004861] ATTIVITA' ALIBERA SCELTA 1° ANNO",
+            "cfu": "1 CFU",
+            "hours": "8 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702947] BIOCHIMICA E BIOLOGIA MOLECOLARE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[U7658] BIOLOGIA MOLECOLARE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[U9121] BIOCHIMICA STRUTTURALE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[U9122] BIOCHIMICA METABOLICA",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000592] BIOLOGIA E GENETICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000654] DIAGNOSTICA IN GENETICA MEDICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000655] GENETICA GENERALE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000656] GENETICA MEDICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000657] GENETICA MOLECOLARE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000658] GENOMICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[U7582] BIOLOGIA GENERALE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7643] BIOLOGIA CELLULARE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[702939] CHIMICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7635] CHIMICA GENERALE",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7636] CHIMICA ORGANICA PROP BIOCHIM",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7637] ESERCITAZIONI DI CHIMICA",
+            "cfu": "1 CFU",
+            "hours": "18 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[702886] FISICA E INFORMATICA",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7609] FISICA",
+            "cfu": "5 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7610] INFORMATICA",
+            "cfu": "2 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[702940] ISTOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7638] ISTOLOGIA E CITOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7639] EMBRIOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U7640] ESERCITAZIONI DI ISTOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "36 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A004853] SCIENZE UMANE",
+            "cfu": "4 CFU",
+            "hours": "54 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004854] INGLESE",
+            "cfu": "4 CFU",
+            "hours": "54 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004855] ANTROPOLOGIA MEDICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004856] INTRODUZIONE BIOETICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U7646] PSICOLOGIA GENERALE",
+            "cfu": "2 CFU",
+            "hours": "30 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U8766] STORIA DELLA MEDICINA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U8767] STORIA DEGLI STRUMENTI MEDICO CHIRURGICI",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": "Ciclo Annuale Unico"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[A004864] ANATOMIA UMANA II",
+            "cfu": "8 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004865] ANATOMIA SISTEMATICA E TOPOGRAFICA DI TESTA, COLLO, TORACE E ADDOME",
+            "cfu": "8 CFU",
+            "hours": "96 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004866] ANATOMIA TOPOGRAFICA DEGLI ARTI",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004867] ESERCITAZIONI ANATOMIA UMANA II",
+            "cfu": "1 CFU",
+            "hours": "18 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004873] ATTIVITA' A LIBERA SCELTA 2° ANNO",
+            "cfu": "2 CFU",
+            "hours": "16 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000593] FISIOLOGIA UMANA I",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000659] FISIOLOGIA CELLULARE CONTRAZ MUSCOLARE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000660] FISIOLOGIA DEL SISTEMA ENDOCRINO",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000661] NEUROFISIOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000597] FISIOLOGIA UMANA II",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004874] FISIOLOGIA APPARATO CARDIOVASCOLARE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004875] FISIOLOGIA DEL RENE E DEI LIQUIDI CORPOREI",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004876] FISIOLOGIA DELL'APPARATO RESPIRATORIO",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9132] FISIOLOGIA DELL'APPARATO DIGERENTE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004862] IMMUNOLOGIA E BIOCHIMICA CLINICA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004863] IMMUNOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7687] BIOCHIMICA CLINICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004868] MICROBIOLOGIA E MICROBIOLOGIA CLINICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004869] MICROBIOLOGIA CLINICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004870] BATTERIOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004871] MICOLOGIA E PARASSITOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004872] VIROLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004877] SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000603] PRINCIPI DI MEDICINA LEGALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000604] STATISTICA MEDICA",
+            "cfu": "4 CFU",
+            "hours": "54 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000605] MODELLI DI INTEGRAZIONE CON LE PROFESSIONI SANITARIE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004878] EPIDEMIOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004879] IGIENE AMBIENTALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004880] PSICOLOGIA MEDICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004887] PRINCIPI DI MEDICINA DEL LAVORO: RISCHI LAVORATIVI IN SANITA'",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[A004884] ANATOMIA PATOLOGICA I",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004885] ANATOMIA PATOLOGICA MOD.A",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004886] ANATOMIA PATOLOGICA MOD.B",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004881] ATTIVITA' A LIBERA SCELTA 3° ANNO",
+            "cfu": "2 CFU",
+            "hours": "16 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702960] FARMACOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A003798] FARMACOLOGIA GENERALE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A003799] FARMACOLOGIA SPECIALE",
+            "cfu": "7 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004890] MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004891] NEFROLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004892] UROLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004893] ENDOCRINOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004894] ENDOCRINOCHIRURGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004895] TIROCINIO UROLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9203] TIROCINIO NEFROLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0209] MALATTIE DELL' APPARATO LOCOMOTORE",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0207] ORTOPEDIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0208] MEDICINA FISICA E RIABILITATIVA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7965] TIR ORTOPEDIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0002] METODOLOGIA CLINICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004883] METODICHE DI DIAGNOSTICA PER IMMAGINI",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004888] TIROCINIO Semeiotica Medica",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0001] Semeiotica Chirurgica",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0003] TIROCINIO Semeiotica Chirurgica",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0011] TIROCINIO Tecniche di Diagnostica per Immagini",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7698] SEMEIOTICA MEDICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9140] ELEMENTI DI DIAGNOSTICA STRUMENT CARDIOLOGICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702950] PATOLOGIA E FISIOPATOLOGIA GENERALE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7619] PATOLOGIA GENERALE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7685] ONCOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7686] FISIOPATOLOGIA GENERALE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[A004899] ANATOMIA PATOLOGICA II",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004900] ANATOMIA PATOLOGICA MOD.C",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004901] ANATOMIA PATOLOGICA MOD.D",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004921] ATTIVITA' A LIBERA SCELTA 4° ANNO",
+            "cfu": "1 CFU",
+            "hours": "8 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004896] IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004897] TIROCINIO Reumatologia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004898] TIROCINIO Dermatologia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0222] IMMUNOLOGIA E ALLERGOLOGIA CLINICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0223] REUMATOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0224] DERMATOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004906] MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004907] OCULISTICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004908] TIROCINIO Neurochirurgia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0230] NEUROLOGIA E RIABILITAZIONE NEUROLOGICA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0231] EMERGENZE NEUROLOGICHE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0232] NEUROCHIRURGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0233] NEURORADIOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7967] TIR NEUROLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7968] TIR OCULISTICA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004902] MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004903] PNEUMOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0225] CARDIOCHIRURGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0226] CHIRURGIA VASCOLARE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0227] CARDIOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0228] ELEMENTI DI ANGIOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0229] EPIDEMIOLOGIA E FATTORI DI RISCHIO VASCOLARE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7962] TIR CARDIOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7963] TIR PNEUMOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7964] TIR CARDIOCHIRURGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0023] MALATTIE INFETTIVE E DEL SANGUE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004917] MALATTIE INFETTIVE",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004918] EMATOLOGIA SPERIMENTALE TRASLAZIONALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004919] TIROCINIO Ematologia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004920] TIROCINIO Malattie Infettive",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0024] MALATTIE EMERGENTI E TROPICALI",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0025] INFEZIONI NOSOCOMIALI E DI COMUNITA'",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7712] EMATOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7716] EMATOLOGIA ONCOLOGICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004909] OTORINOLARINGOIATRIA E MEDICINA ORALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A003907] AUDIOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004910] OTORINOLARINGOIATRIA GENERALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004912] OTORINOLARINGOIATRIA ONCOLOGICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004913] ODONTOIATRIA, MALFORMAZIONI, CARIE E PARODONTOPATIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004914] TIROCINIO Otorinolaringoiatria",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0234] CHIRURGIA MAXILLO FACCIALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004904] PSICHIATRIA E PSICOLOGIA CLINICA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004905] TIROCINIO Psichiatria",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0235] PSICOLOGIA CLINICA",
+            "cfu": "2 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0236] PSICHIATRIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[A004926] ATTIVITA' A LIBERA SCELTA 5° ANNO",
+            "cfu": "1 CFU",
+            "hours": "8 ore",
+            "semester": ""
+          },
+          {
+            "title": "[702966] DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004923] TIROCINIO Radiodiagnostica",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004924] TIROCINIO Radioterapia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9218] RADIODIAGNOSTICA E RADIOLOGIA INTERVENTISTICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9220] RADIOTERAPIA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9221] MEDICINA NUCLEARE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004945] GINECOLOGIA E OSTETRICIA",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004946] TIROCINIO Ginecologia e Ostetricia",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0247] ENDOCRINOLOGIA GINECOLOGICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0248] GINECOLOGIA E OSTETRICIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0249] PATOLOGIA OSTETRICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0250] MEDICINA DELL' ETA' PRENATALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0251] ONCOLOGIA GINECOLOGICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004947] MALATTIE DELL'APPARATO DIGERENTE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004948] CHIRURGIA GENERALE",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004949] CHIRURGIA DELL'APPARATO DIGERENTE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004950] TIROCINIO Gastroenterologia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004951] TIROCINIO Chirurgia Generale",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U7703] GASTROENTEROLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004927] MEDICINA INTERNA E ONCOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004626] MEDICINA DELL'ESERCIZIO FISICO E DELLO SPORT",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004929] MEDICINA INTERNA MOD.1",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004930] MEDICINA INTERNA MOD.2",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004932] ONCOLOGIA GENERALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004933] ONCOLOGIA SPECIALE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004935] TIROCINIO Oncologia",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004937] TIROCINIO Medicina Interna",
+            "cfu": "4 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004940] PEDIATRIA GENERALE E SPECIALISTICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A001667] GENETICA MEDICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004942] TIROCINIO Pediatria",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A005367] NEUROPSICHIATRIA INFANTILE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0245] PEDIATRIA",
+            "cfu": "4 CFU",
+            "hours": "48 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0246] CHIRURGIA PEDIATRICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004952] SANITA' PUBBLICA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004953] ORGANIZZAZIONE E VALUTAZIONE DEI SERVIZI SOCIO-SANITARI",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004954] IGIENE",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004955] ECONOMIA SANITARIA",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0252] MEDICINA DEL LAVORO",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0253] MEDICINA LEGALE E BIOETICA CLINICA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "6° Anno",
+        "exams": [
+          {
+            "title": "[A004956] ATTIVITA' A LIBERA SCELTA 6° ANNO",
+            "cfu": "1 CFU",
+            "hours": "8 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703097] ATTIVITA' FORMATIVE PER LA PROVA FINALE",
+            "cfu": "18 CFU",
+            "hours": "180 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004941] CLINICA CHIRURGICA",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004943] TIROCINIO Clinica Chirurgica",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004944] CLINICA CHIRURGICA",
+            "cfu": "7 CFU",
+            "hours": "84 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004911] CLINICA MEDICA E GERIATRIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004634] GERIATRIA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004915] CLINICA MEDICA E TERAPIA MEDICA",
+            "cfu": "6 CFU",
+            "hours": "72 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004922] TIROCINIO Geriatria",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004925] TIROCINIO Clinica Medica",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004928] EMERGENZE MEDICO CHIRURGICHE",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004931] ANESTESIOLOGIA E TERAPIA INTENSIVA",
+            "cfu": "3 CFU",
+            "hours": "36 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004934] TERAPIA DEL DOLORE",
+            "cfu": "1 CFU",
+            "hours": "12 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004936] TIROCINIO Chirurgia d'Urgenza",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004938] TIROCINIO Medicina d'Urgenza",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004939] MEDICINA D'URGENZA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12279] CHIRURGIA D'URGENZA",
+            "cfu": "2 CFU",
+            "hours": "24 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004640] TIROCINIO PRATICO VALUTATIVO PER L'ESAME DI STATO - AREA CHIRURGICA",
+            "cfu": "5 CFU",
+            "hours": "125 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004639] TIROCINIO PRATICO VALUTATIVO PER L'ESAME DI STATO - AREA MEDICA",
+            "cfu": "5 CFU",
+            "hours": "125 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004641] TIROCINIO PRATICO VALUTATIVO PER L'ESAME DI STATO - AREA MEDICINA GENERALE",
+            "cfu": "5 CFU",
+            "hours": "125 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "Attività in Offerta",
+        "exams": [
+          {
+            "title": "[MED0255] Dissezione anatomica degli arti",
+            "cfu": "0.4 CFU",
+            "hours": "4 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0256] Dissezione Anatomica del Cuore",
+            "cfu": "0.4 CFU",
+            "hours": "4 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[MED0277] Misure Meccaniche per l’Uomo",
+            "cfu": "1 CFU",
+            "hours": "8 ore",
+            "semester": ""
+          },
+          {
+            "title": "[AT0001] DIGITAL HUMANITIES",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[AT0002] PRINCIPI DI OPEN SCIENCE",
+            "cfu": "1 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[MED0282] BLS-D Rianimazione Cardiopolmonare",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0710] Locomozione Umana",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0711] La medicina personalizzata e di precisione: il futuro è oggi",
+            "cfu": "0.2 CFU",
+            "hours": "2 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0713] Gestione terapeutica della malattia renale",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0712] MoreMed",
+            "cfu": "0.2 CFU",
+            "hours": "4 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0279] Intelligenza Artificiale per l’ausilio alla diagnosi medica",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0273] Corso di suture chirurgiche",
+            "cfu": "0.5 CFU",
+            "hours": "5 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0264] Terapia Intensiva Generale Neurologica e di Anestesia Generale",
+            "cfu": "1 CFU",
+            "hours": "55 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[08627] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN ODONTOIATRIA E PROTESI DENTARIA",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[703308] A SCELTA DELLO STUDENTE I ANNO",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000582] ANATOMIA UMANA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000583] ANATOMIA SISTEMATICA E TOPOGRAFICA DELLA TESTA E DEL COLLO",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A004232] ANATOMIA DEL CAVO ORALE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U12837] ANATOMIA UMANA SISTEMATICA GENERALE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U12839] NEUROANATOMIA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[703263] BIOCHIMICA E CHIMICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U8482] CHIMICA DEI MACROPOLIMERI",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U8850] CHIMICA",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[U8851] BIOCHIMICA I",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[703262] BIOLOGIA APPLICATA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000068] BIOLOGIA E GENETICA APPLICATA ALL'ODONTOIATRIA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A000168] GENETICA GENERALE E MOLECOLARE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[U8854] BIOLOGIA APPLICATA I",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[703259] FISICA APPLICATA",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[703258] ISTOLOGIA",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[703261] LINGUA INGLESE",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[703257] SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[MED0319] STORIA DELLA MEDICINA E ISTITUZIONI DI BIOETICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U8464] PSICOLOGIA GENERALE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U8466] INFORMATICA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U8468] EVIDENCE BASED AND TEAM APPROACH",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U8596] STATISTICA A",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[U8597] STATISTICA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Primo Semestre"
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[703275] A SCELTA DELLO STUDENTE II ANNO",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[701482] BIOCHIMICA E BIOCHIMICA CLINICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8856] ANALISI CLINICA E BIOLOGIA MOLECOL CLINICA I",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8864] BIOLOGIA MOLECOLARE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9016] ANALISI CLINICA E BIOLOGIA MOLECOLARE II",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9017] BIOCHIMICA II",
+            "cfu": "5 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703271] FISIOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000072] FISIOLOGIA CELLULARE E NEUROFISIOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000073] FISIOLOGIA DELLE FUNZIONI VEGETATIVE",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9021] FISIOLOGIA APPARATO STOMATOGNATICO",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703273] MICROBIOLOGIA ED IGIENE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000473] MICROBIOLOGIA GENERALE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000474] MICROBIOLOGIA CLINICA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8875] IGIENE AMBIENTALE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9024] IGIENE GENERALE PREVENZIONE E INFEZIONI CROCI",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9025] IGIENE GENERALE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703272] PATOLOGIA GENERALE",
+            "cfu": "7 CFU",
+            "hours": "70 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000083] PRINCIPI DI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000074] METODOLOGIA E PROPEDEUTICA CLINICA ODONTOSTOMATOLOGICA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000075] METODOLOGIA E PROPEDEUTICA CLINICA ODONTOSTOMATOLOGICA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000076] BIBLIOMETRIA E EDB-GEROSTOMATOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000077] MATERIALI DENTARI CHIMICA FISICA APPLICATA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000078] MATERIALI DENTARI CHIMICA FISICA APPLICATA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000079] MATERIALI DENTARI APPLICAZIONE CLINICHE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000080] MATERIALI DENTARI APPLICAZIONI CLINICHE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000081] IGIENE ORALE PROFESSIONALE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000082] IGIENE ORALE PROFESSIONALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0705] METODOLOGIA DELLA RICERCA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0706] METODOLOGIA DELLA RICERCA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12098] ODONTOIATRIA PREVENTIVA E DI COMUNITA' A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12099] ODONTOIATRIA PREVENTIVA E DI COMUNITA' B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9030] EPIDEMIOLOGIA ODONTOIATRICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9032] IGIENE ORALE DOMICILIARE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703276] TIROCINIO II ANNO",
+            "cfu": "4 CFU",
+            "hours": "100 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[703278] A SCELTA DELLO STUDENTE III ANNO",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703282] ANATOMIA PATOLOGICA (CDL ODONTOIATRIA)",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12018] ANATOMIA PATOLOGICA DEL CAVO ORALE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12019] BASI ISTOPATOLOGICHE DELLE INFIAMMAZIONI E DE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12020] PATOLOGIA ODONTOGENA E DEGLI ORGANI DEL COLLO",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12021] NOZIONI DI PATOLOGIA DI ORGANI EXTRA-ORALI",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703284] DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12023] DIAGNOSTICA PER IMMAGINI GENERALE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12024] DIAGNOSTICA PER IMMAGINI SPECIALE",
+            "cfu": "3 CFU",
+            "hours": "30 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703283] FARMACOLOGIA",
+            "cfu": "6 CFU",
+            "hours": "60 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750454] PRINCIPI DI ODONTOIATRIA II",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000086] TECNOLOGIE DI LABORATORIO D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000087] TECNOLOGIE DI LABORATORIO E",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004822] PRINCIPI DI CONSERVATIVA 1",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004823] Conservativa diretta settori posteriori",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0317] BIOETICA E ISTITUZIONI DI STORIA DELLA MEDICINA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12005] TECNOLOGIE DI LABORATORIO A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12006] TECNOLOGIE DI LABORATORIO B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12007] TECNOLOGIE DI LABORATORIO C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12011] PATOLOGIA ORALE PEDIATRICA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13353] ENDODONZIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13354] ENDODONZIA B",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8897] MATERIALI DENTARI",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703281] SCIENZE MEDICHE I",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12013] MEDICINA INTERNA 1",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12014] MEDICINA INTERNA 2",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12015] MEDICINA D'URGENZA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12016] MALATTIE APPARATO CARDIOVASCOLARE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12017] MALATTIE INFETTIVE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8902] PATOLOGIA CLINICA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9037] ANESTESIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9437] PEDIATRIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703277] TIROCINIO III ANNO",
+            "cfu": "12 CFU",
+            "hours": "300 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[703292] CHIRURGIA ORALE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12843] CHIRURGIA ORALE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12844] CHIRURGIA ORALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12845] CHIRURGIA ORALE C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12846] CHIRURGIA ORALE D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703297] DISCIPLINE ODONTOSTOMATOLOGICHE I",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000091] GNATOLOGIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000092] GNATOLOGIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000093] GNATOLOGIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000475] TECNOLOGIE DI LABORATORIO 1",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000476] TECNOLOGIE DI LABORATORIO 2",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004824] PRINCIPI DI CONSERVATIVA 2",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004825] CONSERVATIVA DIRETTA SETTORI ANTERIORI",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12852] PROTESI FISSA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13346] PARODONTOLOGIA A",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13347] PARODONTOLOGIA B",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13348] PARODONTOLOGIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13349] ORTODONZIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13350] ORTODONZIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13351] ORTODONZIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703296] MEDICINA LEGALE",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703295] NEUROLOGIA E PSICHIATRIA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8519] NEUROLOGIA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8520] PSICHIATRIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750458] PATOLOGIA SPECIALE",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000088] PATOLOGIA SPECIALE A",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000089] PATOLOGIA SPECIALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000090] PATOLOGIA SPECIALE C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12850] DERMATOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703294] SCIENZE MEDICHE II",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12847] ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA A",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12848] ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA B",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12849] ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8518] CHIRURGIA GENERALE (CDS ODONTO)",
+            "cfu": "5 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703286] TIROCINIO IV ANNO",
+            "cfu": "13 CFU",
+            "hours": "325 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[703304] IMPLANTOLOGIA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000107] PROTESI DENTARIA FISSA",
+            "cfu": "4 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000109] CLINICA ODONTOSTOMATOLOGICA D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000477] TECNOLOGIE DI LABORATORIO 3",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12086] CLINICA ODONTOSTOMATOLOGICA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12087] CLINICA ODONTOSTOMATOLOGICA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12090] CHIRURGIA ORALE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12091] CHIRURGIA ORALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13352] ORTODONZIA MOD. A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13359] CLINICA ODONTOSTOMATOLOGICA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8529] PARODONTOLOGIA",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703303] ODONTOIATRIA PEDIATRICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000105] PEDODONZIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000106] PEDODONZIA D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12083] PEDODONZIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12084] PEDODONZIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U8536] PEDIATRIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703298] ODONTOIATRIA RESTAURATIVA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000094] PARODONTOLOGIA D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A004826] RESTAURATIVA INDIRETTA E POST TRATTAMENTO ENDODONTICO",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12008] ENDODONZIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12009] ENDODONZIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12853] PARODONTOLOGIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12854] PARODONTOLOGIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12855] PARODONTOLOGIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703302] ORTODONZIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000098] ORTODONZIA D",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000099] ORTODONZIA E",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000100] ORTODONZIA F",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000101] ORTODONZIA G",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000102] ORTODONZIA H",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000103] ORTODONZIA I",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000104] ORTODONZIA L",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12856] ORTODONZIA A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12857] ORTODONZIA B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12858] ORTODONZIA C",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703300] PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000095] CHIRURGIA MAXILLO-FACCIALE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000096] CHIRURGIA MAXILLO-FACCIALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000097] CHIRURGIA MAXILLO-FACCIALE PEDIATRICA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A003270] OTORINOLARINGOIATRIA",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13342] CHIRURGIA ORALE A",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U13344] CHIRURGIA ORALE B",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703288] TIROCINIO V ANNO",
+            "cfu": "15 CFU",
+            "hours": "375 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12926] TIROCINIO V ANNO - PARTE A",
+            "cfu": "15 CFU",
+            "hours": "375 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U12927] TIROCINIO V ANNO - PARTE B",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "6° Anno",
+        "exams": [
+          {
+            "title": "[703289] A SCELTA DELLO STUDENTE VI ANNO",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703290] TESI",
+            "cfu": "10 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[MED0329] TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0330] TPV ORTOGNATODONZIA",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0331] TPV CHIRURGIA ORALE",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0332] TPV ODONTOIATRIA PEDIATRICA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0333] TPV PATOLOGIA E MEDICINA ORALE",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0334] TPV ODONTOIATRIA RESTAURATIVA",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0335] TPV ENDODONZIA",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0336] TPV ODONTOIATRIA SPECIALE",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0337] TPV PROTESI",
+            "cfu": "6 CFU",
+            "hours": "150 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0338] TPV IMPLANTOLOGIA",
+            "cfu": "1 CFU",
+            "hours": "25 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0339] TPV PARODONTOLOGIA",
+            "cfu": "3 CFU",
+            "hours": "75 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0679] CLINICAL CASES",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0680] CLINICAL CASES A - PRIVACY",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0681] CLINICAL CASES B – ENVIRONMENTAL SUSTAINIBILITY",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0682] CLINICAL CASES C – MEDICAL DEVICES RULE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0683] CLINICAL CASES D – A.I. AND GENDER EQUALITY",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0684] CLINICAL CASES E -MANAGEMENT OF DENTAL PRACTICE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0692] DENTAL CLINIC A-TRAINEESHIP",
+            "cfu": "11 CFU",
+            "hours": "225 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0693] PREVENTIVE AND COMMUNITY DENTISTRY - TRAINEESHIP",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0673] TERAPIA ODONTOSTOMATOLOGIA INTEGRATA – CASI CLINICI",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0312] CASI CLINICI C - REGOLAMENTO DISPOSTIVI MEDICI",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0316] CASI CLINICI A - PRIVACY",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0323] CLINICA ODONTOSTOMATOLOGICA A - TIROCINIO",
+            "cfu": "11 CFU",
+            "hours": "275 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0358] CASI CLINICI D - INTELLIGENZA ARTIFICIALE E GENDER EQUALITY",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0677] CASI CLINICI B – SOSTENIBILITA’ AMBIENTALE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[MED0678] CASI CLINICI E -GESTIONE DELLO STUDIO",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9029] ODONTOIATRIA PREVENTIVA E DI COMUNITA'",
+            "cfu": "2 CFU",
+            "hours": "50 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "Attività in Offerta",
+        "exams": [
+          {
+            "title": "[AT0001] DIGITAL HUMANITIES",
+            "cfu": "2 CFU",
+            "hours": "20 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[AT0002] PRINCIPI DI OPEN SCIENCE",
+            "cfu": "1 CFU",
+            "hours": "10 ore",
+            "semester": "Ciclo Annuale Unico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "[05781] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN INGEGNERIA EDILE-ARCHITETTURA",
+    "examsByYear": [
+      {
+        "year": "1° Anno",
+        "exams": [
+          {
+            "title": "[703648] ALGEBRA ED ELEMENTI DI GEOMETRIA",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[703646] ANALISI MATEMATICA 1",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Primo Semestre"
+          },
+          {
+            "title": "[A000493] DISEGNO 1 E LABORATORI",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000501] DISEGNO 1",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000503] LABORATORIO DI GEOMETRIA DESCRITTIVA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[A000504] LABORATORIO DI INFORMATICA GRAFICA DI BASE",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": "Ciclo Annuale Unico"
+          },
+          {
+            "title": "[703650] FISICA GENERALE",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A005675] SOCIOLOGIA URBANA",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[A005674] STORIA DELL'ARCHITETTURA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": "Secondo Semestre"
+          },
+          {
+            "title": "[702975] PROVA DI CONOSCENZA DELLA LINGUA FRANCESE",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[702974] PROVA DI CONOSCENZA DELLA LINGUA INGLESE",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[702976] PROVA DI CONOSCENZA DELLA LINGUA SPAGNOLA",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[702973] PROVA DI CONOSCENZA DELLA LINGUA TEDESCA",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "2° Anno",
+        "exams": [
+          {
+            "title": "[703652] ANALISI MATEMATICA 2",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000519] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1 E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000520] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000521] LABORATORIO DI ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000513] DISEGNO 2 E LABORATORI",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000514] LABORATORIO DI RILIEVO DELL'ARCHITETTURA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000515] DISEGNO 2",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000518] LABORATORIO DI INFORMATICA GRAFICA PER IL PROGETTO",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703658] FISICA TECNICA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703657] MECCANICA RAZIONALE",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750579] SCIENZA E TECNOLOGIA DEI MATERIALI DA COSTRUZIONE",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703660] STORIA DELL'ARCHITETTURA CONTEMPORANEA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "3° Anno",
+        "exams": [
+          {
+            "title": "[A000522] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2 E LABORATORIO",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000526] LABORATORIO DI ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000527] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[ING0174] ARCHITETTURA TECNICA 1 E LABORATORI",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[ING0175] ARCHITETTURA TECNICA 1",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[ING0176] LABORATORIO DI ARCHITETTURA TECNICA 1",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[ING0177] LABORATORIO DI IMPIANTI TECNICI PER L'EDILIZIA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703671] ESTIMO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000532] IDRAULICA E INFRASTRUTTURE IDRAULICHE URBANE 1",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703659] SCIENZA DELLE COSTRUZIONI",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "4° Anno",
+        "exams": [
+          {
+            "title": "[A000529] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3 E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000530] ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000531] LABORATORIO DI ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000510] ARCHITETTURA TECNICA 2 E LABORATORIO",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000511] ARCHITETTURA TECNICA 2",
+            "cfu": "6 CFU",
+            "hours": "80 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000512] LABORATORIO DI IMPIANTI TECNICI INNOVATIVI  PER GLI EDIFICI",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703669] GEOTECNICA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000535] ORGANIZZAZIONE DEL CANTIERE",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703666] TECNICA DELLE COSTRUZIONI E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9183] TECNICA DELLE COSTRUZIONI",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9184] LABORATORIO DI TECNICA DELLE COSTRUZIONI",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703673] TECNICA URBANISTICA E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9194] TECNICA URBANISTICA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9195] LABORATORIO DI TECNICA URBANISTICA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          }
+        ]
+      },
+      {
+        "year": "5° Anno",
+        "exams": [
+          {
+            "title": "[A005466] LABORATORIO DI PROGETTO INTEGRATO",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[750700] LABORATORIO DI TESI DI LAUREA",
+            "cfu": "15 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[A005677] RESTAURO ARCHITETTONICO E LABORATORI",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A005678] RESTAURO ARCHITETTONICO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A005680] LABORATORIO DI RESTAURO ARCHITETTONICO",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A005681] LABORATORIO DI ANALISI AVANZATA DEL PATRIMONIO EDILIZIO",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000540] RIABILITAZIONE STRUTTURALE E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000541] RIABILITAZIONE STRUTTURALE",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000543] LABORATORIO DI RIABILITAZIONE STRUTTURALE",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703675] URBANISTICA E LABORATORIO",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9197] URBANISTICA",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[U9198] LABORATORIO DI URBANISTICA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000370] DESIGN OF SEISMIC RESISTANT STRUCTURES",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000556] IDRAULICA E INFRASTRUTTURE IDRAULICHE URBANE 2",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703792] STORIA DELLE TECNICHE ARCHITETTONICHE",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[703793] TEORIA E PROGETTO DI STRUTTURE",
+            "cfu": "9 CFU",
+            "hours": "120 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000559] LABORATORIO DI BUILDING INFORMATION MODELLING",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[ING0173] LABORATORIO DI ELEMENTI DI PIANIFICAZIONE E PROGETTAZIONE DELLA MOBILITÀ PER LA RIGENERAZIONE URBANA",
+            "cfu": "3 CFU",
+            "hours": "45 ore",
+            "semester": ""
+          },
+          {
+            "title": "[A000356] STAGE/PROGETTO",
+            "cfu": "3 CFU",
+            "hours": "",
+            "semester": ""
+          },
+          {
+            "title": "[A000358] SUMMER SCHOOL",
+            "cfu": "3 CFU",
+            "hours": "40 ore",
+            "semester": ""
+          }
+        ]
+      }
+    ]
+  }
+]
