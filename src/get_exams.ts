@@ -44,12 +44,16 @@ async function scrapeExams(url: string, page: Page) {
           const cfuElement = examElement.querySelector('.card-insegnamento-cfu');
           const hoursElement = examElement.querySelector('.card-insegnamento-ore');
           const semesterElement = examElement.querySelector('.card-insegnamento-footer2 > div > span');
+          const urlElement = examElement.querySelector('h4.card-insegnamento-header > div > a') as HTMLAnchorElement; // Select the anchor tag
+
+          console.log(urlElement)
 
           return {
             title: titleElement?.textContent?.trim() || '',
             cfu: cfuElement?.textContent?.trim() || '',
             hours: hoursElement?.textContent?.trim() || '',
             semester: semesterElement?.textContent?.trim() || '',
+            url: urlElement?.href || ''
           };
         });
 
@@ -71,7 +75,7 @@ async function scrapeDegrees(degree_url: string) {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   const degrees = [];
-  const BASE_URL = 'https://unitn.coursecatalogue.cineca.it'
+  const BASE_URL = 'https://unibs.coursecatalogue.cineca.it'
 
   try {
     // Navigate to the target page
@@ -103,7 +107,7 @@ async function scrapeDegrees(degree_url: string) {
     // For each degree
     for (let url of degreeUrls) {
       // Construct the full URL if necessary
-      const fullUrl = 'https://unitn.coursecatalogue.cineca.it' + url;
+      const fullUrl = 'https://unibs.coursecatalogue.cineca.it' + url;
       console.log(fullUrl);
 
       // Navigate to the degree page
@@ -143,20 +147,6 @@ async function scrapeDegrees(degree_url: string) {
         }
       }
 
-
-
-
-      // if (linkHref) {
-      //     const examPage = await browser.newPage();
-      //     const examsByYear = await scrapeExams(linkHref, examPage);
-      //     await examPage.close();
-      //     console.log(examsByYear);
-
-      //     degrees.push({
-      //         title: pageTitle,
-      //         examsByYear: examsByYear,
-      //     });
-      // }
     }
     return exam_urls
 
@@ -170,13 +160,10 @@ async function scrapeDegrees(degree_url: string) {
 }
 
 
-
-
-
 async function selectCareer(url: string): Promise<string[]> {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const BASE_URL = 'https://unitn.coursecatalogue.cineca.it'
+  const BASE_URL = 'https://unibs.coursecatalogue.cineca.it'
 
   await page.goto(url, { waitUntil: 'networkidle0' });
 
@@ -190,7 +177,7 @@ async function selectCareer(url: string): Promise<string[]> {
       const url = link.getAttribute('href') || '';
       if (url.includes('schemaid')) {
         textUrlPairs[text] = url;
-        urls.push('https://unitn.coursecatalogue.cineca.it' + url)
+        urls.push('https://unibs.coursecatalogue.cineca.it' + url)
       }
     });
 
@@ -211,23 +198,13 @@ async function scrape_all(url:string, title:string) {
 
   const exam_urls: ExamUrls | undefined = await scrapeDegrees(url);
 
- 
-
 
   if (!exam_urls) {
     return
   }
   console.log(exam_urls);
 
-
-
-
-
   let degrees = []
-
-
-
-
 
 
   for (const title of Object.keys(exam_urls)) {
@@ -282,7 +259,9 @@ async function main() {
 
 
 
-    scrape_all(unitnMagistraleURL, 'magistraliUNITN')
+    //scrape_all(unibsCicloUnicoURL, 'cicloUnicoUNIBS')
+    scrape_all(unibsTriennaliURL, 'triennaliUNIBS')
+    //scrape_all(unibsMagistraliURL, 'magistraliUNIBS')
 
 
 

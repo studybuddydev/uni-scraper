@@ -1,5 +1,4 @@
 // Import the JSON file
-import degrees from '/Users/alessiogandelli/dev/studybuddy/uni-scraper/unibs.json';
 import fs from 'fs';
 
 
