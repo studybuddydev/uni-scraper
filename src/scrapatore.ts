@@ -2,8 +2,8 @@ import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
 import { cleanAllDegrees } from './clean';
 
-const BASE_URL = 'https://unibs.coursecatalogue.cineca.it';
-const UNI = 'unibs'
+const BASE_URL = 'https://unitn.coursecatalogue.cineca.it';
+const UNI = 'unitn'
 
 
 // scrape degrees url 
@@ -224,6 +224,8 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
         } catch (e) {
             console.log('rotto');
             console.log(e);
+            console.log(url);
+            
             
 
         }
@@ -285,7 +287,7 @@ async function scrapeAll(url: string, title:string) {
 
     for (const [courseCode, years] of courseEntries) {
         console.log(`Course Code: ${courseCode}`);
-        const id = courseCode.match(/\[(\d+)\]/)?.[1] || '';
+        const id = courseCode.match(/\[(\w+)\]/)?.[1] || '';
         const name = courseCode.split(']').slice(1).join(']').replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '').replace(/\s+/g, ' ').trim();
         const exams = await getExamsDetails(page, years);
         
@@ -315,9 +317,14 @@ async function main(){
    const unibsMagistraliURL ='https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934165'
    const unibsCicloUnicoURL = 'https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1619785172027'
 
+   const unitnTriennaliURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1647269677464'
+   const unitnCicloUnicoURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1679583500227'
+   const unitnMagistraleURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1647269677465'
 
-   scrapeAll(unibsTriennaliURL, 'unibsTriennali')
-   scrapeAll(unibsMagistraliURL, 'unibsMagistrali')
+
+   scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
+   scrapeAll(unitnMagistraleURL, 'magistraliUNITN')
+   scrapeAll(unitnCicloUnicoURL, 'cicloUnicoURL')
 
 }
 

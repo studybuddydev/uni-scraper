@@ -1,0 +1,290 @@
+{
+  "name": "Università di Trento",
+  "id": "unitn",
+  "corsi": [
+    {
+      "name": "Giurisprudenza",
+      "code": "unitn0205F"
+    },
+    {
+      "name": "Ingegneria Edile-Architettura",
+      "code": "unitn0336F"
+    },
+    {
+      "name": "Medicina e Chirurgia",
+      "code": "unitn1001S"
+    },
+    {
+      "name": "Artificial Intelligence Systems",
+      "code": "unitn0342H"
+    },
+    {
+      "name": "Bioengineering for Personalized Medicine",
+      "code": "unitn0347H"
+    },
+    {
+      "name": "Environmental Meteorology",
+      "code": "unitn0341H"
+    },
+    {
+      "name": "INFORMATICA",
+      "code": "unitn0517H"
+    },
+    {
+      "name": "Ingegneria Civile",
+      "code": "unitn0331H"
+    },
+    {
+      "name": "Ingegneria Energetica",
+      "code": "unitn0337H"
+    },
+    {
+      "name": "Ingegneria dell'Informazione",
+      "code": "unitn0346H"
+    },
+    {
+      "name": "Ingegneria per l'ambiente e il territorio",
+      "code": "unitn0332H"
+    },
+    {
+      "name": "Management and Industrial Systems Engineering",
+      "code": "unitn0343H"
+    },
+    {
+      "name": "Materials Engineering",
+      "code": "unitn0345H"
+    },
+    {
+      "name": "Mechatronics Engineering",
+      "code": "unitn0344H"
+    },
+    {
+      "name": "Cognitive Science - Scienze Cognitive",
+      "code": "unitn0708H"
+    },
+    {
+      "name": "Human-Computer Interaction - Interazione Persona-Macchina",
+      "code": "unitn0709H"
+    },
+    {
+      "name": "Psicologia",
+      "code": "unitn0707H"
+    },
+    {
+      "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata",
+      "code": "unitn0127H"
+    },
+    {
+      "name": "Economia e legislazione d'impresa",
+      "code": "unitn0125H"
+    },
+    {
+      "name": "Economics - Economia",
+      "code": "unitn0121H"
+    },
+    {
+      "name": "Finanza",
+      "code": "unitn0122H"
+    },
+    {
+      "name": "Innovation Management - Management dell'innovazione",
+      "code": "unitn0120H"
+    },
+    {
+      "name": "International Management - Management Internazionale",
+      "code": "unitn0119H"
+    },
+    {
+      "name": "Management",
+      "code": "unitn0123H"
+    },
+    {
+      "name": "Management",
+      "code": "unitn0124H"
+    },
+    {
+      "name": "Management della sostenibilità e del turismo",
+      "code": "unitn0126H"
+    },
+    {
+      "name": "Arte",
+      "code": "unitn0428H"
+    },
+    {
+      "name": "Filologia e critica letteraria",
+      "code": "unitn0424H"
+    },
+    {
+      "name": "Filosofia e linguaggi della modernità",
+      "code": "unitn0420H"
+    },
+    {
+      "name": "Letterature euroamericane, traduzione e critica letteraria",
+      "code": "unitn0422H"
+    },
+    {
+      "name": "Mediazione linguistica, turismo e culture",
+      "code": "unitn0423H"
+    },
+    {
+      "name": "Musicologia",
+      "code": "unitn0430H"
+    },
+    {
+      "name": "Scienze storiche",
+      "code": "unitn0426H"
+    },
+    {
+      "name": "Storia dell'arte e studi museali",
+      "code": "unitn0429H"
+    },
+    {
+      "name": "BIOTECNOLOGIE CELLULARI E MOLECOLARI",
+      "code": "unitn0520H"
+    },
+    {
+      "name": "Biologia Quantitativa e Computazionale",
+      "code": "unitn0521H"
+    },
+    {
+      "name": "FISICA",
+      "code": "unitn0518H"
+    },
+    {
+      "name": "MATEMATICA",
+      "code": "unitn0519H"
+    },
+    {
+      "name": "EUROPEAN AND INTERNATIONAL STUDIES - STUDI EUROPEI E INTERNAZIONALI",
+      "code": "unitn0803H"
+    },
+    {
+      "name": "Security, Intelligence and Strategic Studies",
+      "code": "unitn0805H"
+    },
+    {
+      "name": "Studi Sulla Sicurezza Internazionale",
+      "code": "unitn0804H"
+    },
+    {
+      "name": "Data Science",
+      "code": "unitn0522H"
+    },
+    {
+      "name": "Global and Local Studies",
+      "code": "unitn0623H"
+    },
+    {
+      "name": "Metodologia, Organizzazione e Valutazione dei Servizi Sociali",
+      "code": "unitn0619H"
+    },
+    {
+      "name": "Organizzazione,società e tecnologia",
+      "code": "unitn0624H"
+    },
+    {
+      "name": "Sociology and social research - Sociologia e ricerca sociale",
+      "code": "unitn0621H"
+    },
+    {
+      "name": "Agrifood Innovation Management",
+      "code": "unitn0912H"
+    },
+    {
+      "name": "Educazione professionale (abilitante alla professione sanitaria Educatore professionale)",
+      "code": "unitn0710G"
+    },
+    {
+      "name": "Interfacce e Tecnologie della Comunicazione",
+      "code": "unitn0704G"
+    },
+    {
+      "name": "Scienze Motorie, Sport e Benessere",
+      "code": "unitn0711G"
+    },
+    {
+      "name": "Scienze e Tecniche Psicologia Cognitiva",
+      "code": "unitn0705G"
+    },
+    {
+      "name": "Fisica",
+      "code": "unitn0513G"
+    },
+    {
+      "name": "Matematica",
+      "code": "unitn0515G"
+    },
+    {
+      "name": "Scienze e Tecnologie Biomolecolari",
+      "code": "unitn0516G"
+    },
+    {
+      "name": "Informatica",
+      "code": "unitn0514G"
+    },
+    {
+      "name": "Ingegneria Civile",
+      "code": "unitn0325G"
+    },
+    {
+      "name": "Ingegneria Industriale",
+      "code": "unitn0327G"
+    },
+    {
+      "name": "Ingegneria Informatica, delle Comunicazioni ed Elettronica",
+      "code": "unitn0339G"
+    },
+    {
+      "name": "Ingegneria per l'ambiente e il territorio",
+      "code": "unitn0326G"
+    },
+    {
+      "name": "Amministrazione Aziendale e Diritto",
+      "code": "unitn0115G"
+    },
+    {
+      "name": "Economia e Management",
+      "code": "unitn0117G"
+    },
+    {
+      "name": "Gestione Aziendale",
+      "code": "unitn0116G"
+    },
+    {
+      "name": "Servizio Sociale",
+      "code": "unitn0622G"
+    },
+    {
+      "name": "Sociologia",
+      "code": "unitn0611G"
+    },
+    {
+      "name": "Studi internazionali",
+      "code": "unitn0620G"
+    },
+    {
+      "name": "Beni culturali",
+      "code": "unitn0417G"
+    },
+    {
+      "name": "Filosofia",
+      "code": "unitn0416G"
+    },
+    {
+      "name": "Lingue moderne",
+      "code": "unitn0427G"
+    },
+    {
+      "name": "Studi storici e filologico-letterari",
+      "code": "unitn0419G"
+    },
+    {
+      "name": "Comparative, European and International Legal Studies",
+      "code": "unitn0206G"
+    },
+    {
+      "name": "Viticoltura ed Enologia",
+      "code": "unitn0911G"
+    }
+  ]
+}

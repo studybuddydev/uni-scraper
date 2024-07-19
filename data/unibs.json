@@ -1,0 +1,238 @@
+{
+  "name": "Università di Brescia",
+  "id": "unibs",
+  "corsi": [
+    {
+      "name": "GIURISPRUDENZA",
+      "code": "unibs04181"
+    },
+    {
+      "name": "FARMACIA",
+      "code": "unibs08622"
+    },
+    {
+      "name": "MEDICINA E CHIRURGIA",
+      "code": "unibs08624"
+    },
+    {
+      "name": "ODONTOIATRIA E PROTESI DENTARIA",
+      "code": "unibs08627"
+    },
+    {
+      "name": "INGEGNERIA EDILE-ARCHITETTURA",
+      "code": "unibs05781"
+    },
+    {
+      "name": "ANALYTICS E DATA SCIENCE PER L'ECONOMIA E IL MANAGEMENT",
+      "code": "unibs54477"
+    },
+    {
+      "name": "CONSULENZA AZIENDALE E LIBERA PROFESSIONE",
+      "code": "unibs54471"
+    },
+    {
+      "name": "ECONOMIA SOCIALE E IMPRESE COOPERATIVE",
+      "code": "unibs54476"
+    },
+    {
+      "name": "MANAGEMENT",
+      "code": "unibs54473"
+    },
+    {
+      "name": "MARKETING PER IL MADE ITALY",
+      "code": "unibs54478"
+    },
+    {
+      "name": "MONETA, FINANZA E RISK MANAGEMENT",
+      "code": "unibs54472"
+    },
+    {
+      "name": "Governo delle amministrazioni pubbliche",
+      "code": "unibs04184"
+    },
+    {
+      "name": "SCIENZE GIURIDICHE DELL'INNOVAZIONE E DELLA SOSTENIBILITA'",
+      "code": "unibs04185"
+    },
+    {
+      "name": "BIOTECNOLOGIE MEDICHE",
+      "code": "unibs08632"
+    },
+    {
+      "name": "SCIENZA DEL MOVIMENTO PER LA SALUTE ED IL BENESSERE",
+      "code": "unibs08649"
+    },
+    {
+      "name": "SCIENZE INFERMIERISTICHE E OSTETRICHE",
+      "code": "unibs08698"
+    },
+    {
+      "name": "CIVIL AND ENVIRONMENTAL ENGINEERING",
+      "code": "unibs05853"
+    },
+    {
+      "name": "COMMUNICATION TECHNOLOGIES AND MULTIMEDIA",
+      "code": "unibs05812"
+    },
+    {
+      "name": "INGEGNERIA CIVILE",
+      "code": "unibs05841"
+    },
+    {
+      "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
+      "code": "unibs05881"
+    },
+    {
+      "name": "INGEGNERIA DELLE TECNOLOGIE PER L’IMPRESA DIGITALE",
+      "code": "unibs05822"
+    },
+    {
+      "name": "INGEGNERIA ELETTRONICA",
+      "code": "unibs05821"
+    },
+    {
+      "name": "INGEGNERIA GESTIONALE",
+      "code": "unibs05891"
+    },
+    {
+      "name": "INGEGNERIA INFORMATICA",
+      "code": "unibs05831"
+    },
+    {
+      "name": "INGEGNERIA MECCANICA",
+      "code": "unibs05861"
+    },
+    {
+      "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
+      "code": "unibs05851"
+    },
+    {
+      "name": "INGEGNERIA PER L'INNOVAZIONE DEI MATERIALI E DEL PRODOTTO",
+      "code": "unibs05872"
+    },
+    {
+      "name": "TECNOLOGIE PER LA TRANSIZIONE ECOLOGICA AGRICOLTURA",
+      "code": "unibs05854"
+    },
+    {
+      "name": "BANCA E FINANZA",
+      "code": "unibs54454"
+    },
+    {
+      "name": "ECONOMIA E AZIENDA DIGITALE",
+      "code": "unibs54455"
+    },
+    {
+      "name": "ECONOMIA E GESTIONE AZIENDALE",
+      "code": "unibs54451"
+    },
+    {
+      "name": "CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA",
+      "code": "unibs04424"
+    },
+    {
+      "name": "ASSISTENZA SANITARIA",
+      "code": "unibs08691"
+    },
+    {
+      "name": "BIOTECNOLOGIE",
+      "code": "unibs08635"
+    },
+    {
+      "name": "DIETISTICA",
+      "code": "unibs08692"
+    },
+    {
+      "name": "EDUCAZIONE PROFESSIONALE",
+      "code": "unibs08693"
+    },
+    {
+      "name": "FISIOTERAPIA",
+      "code": "unibs08694"
+    },
+    {
+      "name": "IGIENE DENTALE",
+      "code": "unibs08695"
+    },
+    {
+      "name": "INFERMIERISTICA",
+      "code": "unibs08696"
+    },
+    {
+      "name": "OSTETRICIA",
+      "code": "unibs08697"
+    },
+    {
+      "name": "SCIENZE MOTORIE",
+      "code": "unibs08636"
+    },
+    {
+      "name": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA",
+      "code": "unibs08715"
+    },
+    {
+      "name": "TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI LAVORO",
+      "code": "unibs08714"
+    },
+    {
+      "name": "TECNICHE LABORATORIO BIOMEDICO",
+      "code": "unibs08716"
+    },
+    {
+      "name": "TECNICHE RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA",
+      "code": "unibs08717"
+    },
+    {
+      "name": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA",
+      "code": "unibs08699"
+    },
+    {
+      "name": "INGEGNERIA CIVILE",
+      "code": "unibs05731"
+    },
+    {
+      "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
+      "code": "unibs05751"
+    },
+    {
+      "name": "INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE",
+      "code": "unibs05714"
+    },
+    {
+      "name": "INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI",
+      "code": "unibs05712"
+    },
+    {
+      "name": "INGEGNERIA GESTIONALE",
+      "code": "unibs05771"
+    },
+    {
+      "name": "INGEGNERIA INFORMATICA",
+      "code": "unibs05713"
+    },
+    {
+      "name": "INGEGNERIA MECCANICA E DEI MATERIALI",
+      "code": "unibs05742"
+    },
+    {
+      "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
+      "code": "unibs05721"
+    },
+    {
+      "name": "SISTEMI AGRICOLI SOSTENIBILI",
+      "code": "unibs05722"
+    },
+    {
+      "name": "TECNICHE DELL'EDILIZIA",
+      "code": "unibs05724"
+    },
+    {
+      "name": "TECNICHE INDUSTRIALI PRODOTTO E PROCESSO",
+      "code": "unibs05743"
+    },
+    {
+      "name": "Ingegneria fisica e matematica",
+      "code": "unibs05715"
+    }
+  ]
+}
