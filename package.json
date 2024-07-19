@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/bot",
+    "start": "node dist/scrapatore.js",
     "build": "tsc",
-    "serve": "npm run build && npm run start",
+    "serve": "pnpm run build && pnpm run start",
     "postinstall": "npm run build",
     "conv": "npm run build && node dist/convo",
-    "dev": "npm run build & nodemon ./dist/src/get_exams.js",
+    "dev": "pnpm run build & nodemon ./dist/scrapatore.js",
     "cat": "nodemon ./dist/stregatto.js",
-    "clean": "npm run build & node ./dist/src/clean_json.js"
+    "clean": "npm run build & node ./dist/clean_json.js"
+    
   },
   "keywords": [],
   "author": "",
