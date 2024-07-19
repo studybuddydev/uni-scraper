@@ -2,9 +2,8 @@ import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
 import { cleanAllDegrees } from './clean';
 
-import { BASE_URL } from './constants';
-
-console.log(BASE_URL);
+const BASE_URL = 'https://unibs.coursecatalogue.cineca.it';
+const UNI = 'unibs'
 
 
 // scrape degrees url 
@@ -184,8 +183,8 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
             console.log(url);
 
 
-            const tmpExams = await page1.evaluate((baseUrl, year) => {
-                const exams: { title: string, href: string, cfu: string, hours: string, semester: string, annoDiOfferta: string, year: number }[] = [];
+            const tmpExams = await page1.evaluate((baseUrl, year, uni) => {
+                const exams: { title: string, id:string, href: string, cfu: string, hours: string, semester: string, annoDiOfferta: string, year: number }[] = [];
                 const firstYearSection = document.querySelector(`li[id="${year}"]`);
 
                 if (firstYearSection) {
@@ -204,6 +203,7 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
                         if (titleElement && hrefElement && cfuElement && hoursElement && semesterElement) {
                             exams.push({
                                 title: titleElement.textContent?.trim() || '',
+                                id: uni+titleElement.textContent?.match(/\[(.*?)\]/)?.[1] || '',
                                 href: baseUrl + hrefElement.getAttribute('href') || '',
                                 cfu: cfuElement.textContent?.trim() || '',
                                 hours: hoursElement.textContent?.trim() || '',
@@ -218,11 +218,13 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
 
 
                 return exams;
-            }, BASE_URL, year);
+            }, BASE_URL, year, UNI);
 
             exams.push(...tmpExams)
         } catch (e) {
             console.log('rotto');
+            console.log(e);
+            
 
         }
 
@@ -230,6 +232,9 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
     }
 
     await browser.close();
+
+    console.log(exams);
+    
 
     return exams
 
@@ -254,50 +259,65 @@ async function getExamsDetails(page: Page, years: { [key: string]: string[] }) {
     // Combine all exams
     const allExams = [...firstYearExams, ...secondYearExams, ...thirdYearExams, ...fourthYearExams, ...fifthYearExams, ...sixthYearExams];
 
-    console.log(allExams);
+    //console.log(allExams);
 
     return allExams;
 }
 
 
 
-async function main() {
+async function scrapeAll(url: string, title:string) {
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
-   // const title = 'triennaliUNIBS'
-    const unibsTriennaliURL = 'https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934164'
-
-    const unibsMagistraliURL ='https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934165'
-    const title = 'cicloUnicoUNIBS'
-
-    const unibsCicloUnicoURL = 'https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1619785172027'
 
 
-
-
-    let degreesUrls = await scrapeDegrees(page, unibsCicloUnicoURL)
+    let degreesUrls = await scrapeDegrees(page, url)
     let insegnamentiUrls = await getExamListFromDegree(page, degreesUrls)
 
 
 
-    const examByDegree: { [key: string]: string[] } = {}
+    console.log(insegnamentiUrls);
+    
+    const examByDegree = []
 
     const courseEntries = Object.entries(insegnamentiUrls);
 
     for (const [courseCode, years] of courseEntries) {
         console.log(`Course Code: ${courseCode}`);
+        const id = courseCode.match(/\[(\d+)\]/)?.[1] || '';
+        const name = courseCode.split(']').slice(1).join(']').replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '').replace(/\s+/g, ' ').trim();
         const exams = await getExamsDetails(page, years);
-        examByDegree[courseCode] = exams
+        
+        const degreeExams = {
+            'name': name,
+            'id':UNI+id,
+            'uni': UNI,
+            'exams': exams
+        }
 
+        examByDegree.push(degreeExams)
     }
 
-    fs.writeFileSync('./data/' + title + '.json', JSON.stringify(examByDegree, null, 2));
+    fs.writeFileSync('./data/'+ title + '.json', JSON.stringify(examByDegree, null, 2));
 
     await browser.close();
 
 
 
+
+}
+
+
+async function main(){
+   // const title = 'triennaliUNIBS'
+   const unibsTriennaliURL = 'https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934164'
+   const unibsMagistraliURL ='https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934165'
+   const unibsCicloUnicoURL = 'https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1619785172027'
+
+
+   scrapeAll(unibsTriennaliURL, 'unibsTriennali')
+   scrapeAll(unibsMagistraliURL, 'unibsMagistrali')
 
 }
 

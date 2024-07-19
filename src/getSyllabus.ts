@@ -94,7 +94,7 @@ export async function scrapeSyllabus(url: string): Promise<void> {
 }
 
 async function main(){
-    const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2024/8544_129006_23355/2019/8544/117?coorte=2024&schemaid=2730'
+    const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8293_120752_344/2019/8293/118?coorte=2023&schemaid=2753'
 
     scrapeSyllabus(url)
 
