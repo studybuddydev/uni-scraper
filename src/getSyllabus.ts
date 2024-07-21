@@ -1,4 +1,9 @@
 import puppeteer, { Page } from 'puppeteer';
+import OpenAI from "openai";
+import 'dotenv/config'
+
+const openai = new OpenAI();
+
 
 export interface CourseInfo {
     name: string;
@@ -10,16 +15,19 @@ export interface CourseInfo {
 }
 
 
+
+
+
 // get url of a syllabus from unitn course catalogue and scrape it 
-export async function scrapeSyllabus(url: string): Promise<void> {
+export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
     const browser = await puppeteer.launch();
-    const page: Page = await browser.newPage(); 
+    const page: Page = await browser.newPage();
     //const url = ctx.message?.text as string
     await page.goto(url, { waitUntil: 'networkidle0' }); // Replace with your target web app URL
 
     await page.waitForSelector('app-root', { timeout: 5000 });
 
-   
+
     await page.waitForSelector('.u-filetto');
 
     // Extract the title text
@@ -31,7 +39,7 @@ export async function scrapeSyllabus(url: string): Promise<void> {
     await page.waitForSelector('.accordion');
     let infoElements: CourseInfo = { name: '', chapters: [], books: '', examDetails: '', learningGoals: '', methods: '' };
 
-        // unico modo di farlo funzionare, ho provato a tirare fuori sta funzione per pulire un po' il codice ma non funziona
+    // unico modo di farlo funzionare, ho provato a tirare fuori sta funzione per pulire un po' il codice ma non funziona
     infoElements = await page.$$eval('.accordion > dt, .accordion > dd', (elements: Element[]) => {
         let currentGroup: Partial<CourseInfo> = {};
 
@@ -65,11 +73,10 @@ export async function scrapeSyllabus(url: string): Promise<void> {
         return currentGroup as CourseInfo;
     });
 
-   // infoElements.name = title?.trim() || 'no title found';
+    // infoElements.name = title?.trim() || 'no title found';
 
-    console.log('Information:', infoElements);
 
-    console.log(infoElements)
+
 
     //save to a json file 
 
@@ -77,26 +84,73 @@ export async function scrapeSyllabus(url: string): Promise<void> {
 
     await browser.close();
 
-   //const processedSyllabus = await processSyllabus(infoElements)
-   //const inputfile: InputFile = new InputFile(Buffer.from(JSON.stringify(processedSyllabus, null, 2)), processedSyllabus?.name + '.json')
-
-    // const fs = require('fs');
-    // fs.writeFileSync('esame.json', JSON.stringify(infoElements, null, 2));
+    //const processedSyllabus = await processSyllabus(infoElements)
+    //const inputfile: InputFile = new InputFile(Buffer.from(JSON.stringify(processedSyllabus, null, 2)), processedSyllabus?.name + '.json')
 
 
-
-
-
-    //ctx.replyWithDocument(inputfile)
+    return infoElements
 
 
 
 }
 
-async function main(){
+
+async function processSyllabus(syllabus: CourseInfo) {
+    const systemPromptChapters = `You are a helpful studybuddy for university students, you are given in input a string with the content of the course, 
+                        you should infer the chapters and the section( if present), create a json and add exam info to the top level notes, and fill the schema as you believe it is useful for the student, the 
+                        output should follow this schema:{chapters: [{ name: string, sections: string[], notes: string[]}`
+
+    let response = await openai.chat.completions.create({
+        model: "gpt-4o-mini",  // Make sure to specify the correct model
+        messages: [
+            { role: "system", content: systemPromptChapters },
+            { role: "user", content: syllabus.chapters[0] },
+        ],
+        response_format: { type: "json_object" },
+    });
+
+    const parsedChapters = response.choices[0].message.content
+
+
+    const systemPromptBooks = `You are a helpful studybuddy for university students, you are given in input a string with the content of the course, 
+      you should infer list of the books used in this universitycourse, create a json a and fill the schema as you believe it is useful for the student, the 
+      output should follow this schema:{books: [{ name: string, authors: string[], notes: string[]}`
+
+    response = await openai.chat.completions.create({
+        model: "gpt-4o-mini",  // Make sure to specify the correct model
+        messages: [
+            { role: "system", content: systemPromptBooks },
+            { role: "user", content: syllabus.books },
+        ],
+        response_format: { type: "json_object" },
+    });
+
+    const parsedBooks = response.choices[0].message.content
+
+    return({title:syllabus.name,
+                chapters: parsedChapters,
+                books:parsedBooks
+    });
+
+
+}
+
+
+async function main() {
     const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8293_120752_344/2019/8293/118?coorte=2023&schemaid=2753'
 
-    scrapeSyllabus(url)
+    const syllabus = await scrapeSyllabus(url)
+
+    const processedSyllabus = await processSyllabus(syllabus)
+
+    
+
+
+
+
+
+
+
 
 }
 

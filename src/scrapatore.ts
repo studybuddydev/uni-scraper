@@ -2,8 +2,7 @@ import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
 import { cleanAllDegrees } from './clean';
 
-const BASE_URL = 'https://unitn.coursecatalogue.cineca.it';
-const UNI = 'unitn'
+
 
 
 // scrape degrees url 
@@ -310,6 +309,8 @@ async function scrapeAll(url: string, title:string) {
 
 }
 
+const UNI = 'unitn'
+const BASE_URL = `https://${UNI}.coursecatalogue.cineca.it`;
 
 async function main(){
    // const title = 'triennaliUNIBS'
@@ -322,9 +323,15 @@ async function main(){
    const unitnMagistraleURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1647269677465'
 
 
-   scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
-   scrapeAll(unitnMagistraleURL, 'magistraliUNITN')
-   scrapeAll(unitnCicloUnicoURL, 'cicloUnicoURL')
+//    scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
+//    scrapeAll(unitnMagistraleURL, 'magistraliUNITN')
+//    scrapeAll(unitnCicloUnicoURL, 'cicloUnicoUNITN')
+
+   scrapeAll(unibsTriennaliURL, 'triennaliUNIBS')
+   scrapeAll(unibsMagistraliURL, 'magistraliUNIBS')
+   scrapeAll(unibsCicloUnicoURL, 'cicloUnicoUNIBS')
+
+
 
 }
 

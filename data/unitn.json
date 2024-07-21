@@ -1,7 +1,7 @@
 {
   "name": "Università di Trento",
   "id": "unitn",
-  "corsi": [
+  "courses": [
     {
       "name": "Giurisprudenza",
       "code": "unitn0205F"

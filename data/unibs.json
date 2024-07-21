@@ -1,7 +1,7 @@
 {
   "name": "Università di Brescia",
   "id": "unibs",
-  "corsi": [
+  "courses": [
     {
       "name": "GIURISPRUDENZA",
       "code": "unibs04181"
