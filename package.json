@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/summary.js",
+    "start": "node dist/getSyllabus.js",
     "build": "tsc",
     "serve": "pnpm run build && pnpm run start",
     "postinstall": "npm run build",

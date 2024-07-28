@@ -4,287 +4,358 @@
   "courses": [
     {
       "name": "Giurisprudenza",
-      "code": "unitn0205F"
+      "code": "unitn0205F",
+      "type": "cicloUnico"
     },
     {
       "name": "Ingegneria Edile-Architettura",
-      "code": "unitn0336F"
+      "code": "unitn0336F",
+      "type": "cicloUnico"
     },
     {
       "name": "Medicina e Chirurgia",
-      "code": "unitn1001S"
+      "code": "unitn1001S",
+      "type": "cicloUnico"
     },
     {
       "name": "Artificial Intelligence Systems",
-      "code": "unitn0342H"
+      "code": "unitn0342H",
+      "type": "magistrale"
     },
     {
       "name": "Bioengineering for Personalized Medicine",
-      "code": "unitn0347H"
+      "code": "unitn0347H",
+      "type": "magistrale"
     },
     {
       "name": "Environmental Meteorology",
-      "code": "unitn0341H"
+      "code": "unitn0341H",
+      "type": "magistrale"
     },
     {
       "name": "INFORMATICA",
-      "code": "unitn0517H"
+      "code": "unitn0517H",
+      "type": "magistrale"
     },
     {
       "name": "Ingegneria Civile",
-      "code": "unitn0331H"
+      "code": "unitn0331H",
+      "type": "magistrale"
     },
     {
       "name": "Ingegneria Energetica",
-      "code": "unitn0337H"
+      "code": "unitn0337H",
+      "type": "magistrale"
     },
     {
       "name": "Ingegneria dell'Informazione",
-      "code": "unitn0346H"
+      "code": "unitn0346H",
+      "type": "magistrale"
     },
     {
       "name": "Ingegneria per l'ambiente e il territorio",
-      "code": "unitn0332H"
+      "code": "unitn0332H",
+      "type": "magistrale"
     },
     {
       "name": "Management and Industrial Systems Engineering",
-      "code": "unitn0343H"
+      "code": "unitn0343H",
+      "type": "magistrale"
     },
     {
       "name": "Materials Engineering",
-      "code": "unitn0345H"
+      "code": "unitn0345H",
+      "type": "magistrale"
     },
     {
       "name": "Mechatronics Engineering",
-      "code": "unitn0344H"
+      "code": "unitn0344H",
+      "type": "magistrale"
     },
     {
       "name": "Cognitive Science - Scienze Cognitive",
-      "code": "unitn0708H"
+      "code": "unitn0708H",
+      "type": "magistrale"
     },
     {
       "name": "Human-Computer Interaction - Interazione Persona-Macchina",
-      "code": "unitn0709H"
+      "code": "unitn0709H",
+      "type": "magistrale"
     },
     {
       "name": "Psicologia",
-      "code": "unitn0707H"
+      "code": "unitn0707H",
+      "type": "magistrale"
     },
     {
       "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata",
-      "code": "unitn0127H"
+      "code": "unitn0127H",
+      "type": "magistrale"
     },
     {
       "name": "Economia e legislazione d'impresa",
-      "code": "unitn0125H"
+      "code": "unitn0125H",
+      "type": "magistrale"
     },
     {
       "name": "Economics - Economia",
-      "code": "unitn0121H"
+      "code": "unitn0121H",
+      "type": "magistrale"
     },
     {
       "name": "Finanza",
-      "code": "unitn0122H"
+      "code": "unitn0122H",
+      "type": "magistrale"
     },
     {
       "name": "Innovation Management - Management dell'innovazione",
-      "code": "unitn0120H"
+      "code": "unitn0120H",
+      "type": "magistrale"
     },
     {
       "name": "International Management - Management Internazionale",
-      "code": "unitn0119H"
+      "code": "unitn0119H",
+      "type": "magistrale"
     },
     {
       "name": "Management",
-      "code": "unitn0123H"
+      "code": "unitn0123H",
+      "type": "magistrale"
     },
     {
       "name": "Management",
-      "code": "unitn0124H"
+      "code": "unitn0124H",
+      "type": "magistrale"
     },
     {
       "name": "Management della sostenibilità e del turismo",
-      "code": "unitn0126H"
+      "code": "unitn0126H",
+      "type": "magistrale"
     },
     {
       "name": "Arte",
-      "code": "unitn0428H"
+      "code": "unitn0428H",
+      "type": "magistrale"
     },
     {
       "name": "Filologia e critica letteraria",
-      "code": "unitn0424H"
+      "code": "unitn0424H",
+      "type": "magistrale"
     },
     {
       "name": "Filosofia e linguaggi della modernità",
-      "code": "unitn0420H"
+      "code": "unitn0420H",
+      "type": "magistrale"
     },
     {
       "name": "Letterature euroamericane, traduzione e critica letteraria",
-      "code": "unitn0422H"
+      "code": "unitn0422H",
+      "type": "magistrale"
     },
     {
       "name": "Mediazione linguistica, turismo e culture",
-      "code": "unitn0423H"
+      "code": "unitn0423H",
+      "type": "magistrale"
     },
     {
       "name": "Musicologia",
-      "code": "unitn0430H"
+      "code": "unitn0430H",
+      "type": "magistrale"
     },
     {
       "name": "Scienze storiche",
-      "code": "unitn0426H"
+      "code": "unitn0426H",
+      "type": "magistrale"
     },
     {
       "name": "Storia dell'arte e studi museali",
-      "code": "unitn0429H"
+      "code": "unitn0429H",
+      "type": "magistrale"
     },
     {
       "name": "BIOTECNOLOGIE CELLULARI E MOLECOLARI",
-      "code": "unitn0520H"
+      "code": "unitn0520H",
+      "type": "magistrale"
     },
     {
       "name": "Biologia Quantitativa e Computazionale",
-      "code": "unitn0521H"
+      "code": "unitn0521H",
+      "type": "magistrale"
     },
     {
       "name": "FISICA",
-      "code": "unitn0518H"
+      "code": "unitn0518H",
+      "type": "magistrale"
     },
     {
       "name": "MATEMATICA",
-      "code": "unitn0519H"
+      "code": "unitn0519H",
+      "type": "magistrale"
     },
     {
       "name": "EUROPEAN AND INTERNATIONAL STUDIES - STUDI EUROPEI E INTERNAZIONALI",
-      "code": "unitn0803H"
+      "code": "unitn0803H",
+      "type": "magistrale"
     },
     {
       "name": "Security, Intelligence and Strategic Studies",
-      "code": "unitn0805H"
+      "code": "unitn0805H",
+      "type": "magistrale"
     },
     {
       "name": "Studi Sulla Sicurezza Internazionale",
-      "code": "unitn0804H"
+      "code": "unitn0804H",
+      "type": "magistrale"
     },
     {
       "name": "Data Science",
-      "code": "unitn0522H"
+      "code": "unitn0522H",
+      "type": "magistrale"
     },
     {
       "name": "Global and Local Studies",
-      "code": "unitn0623H"
+      "code": "unitn0623H",
+      "type": "magistrale"
     },
     {
       "name": "Metodologia, Organizzazione e Valutazione dei Servizi Sociali",
-      "code": "unitn0619H"
+      "code": "unitn0619H",
+      "type": "magistrale"
     },
     {
       "name": "Organizzazione,società e tecnologia",
-      "code": "unitn0624H"
+      "code": "unitn0624H",
+      "type": "magistrale"
     },
     {
       "name": "Sociology and social research - Sociologia e ricerca sociale",
-      "code": "unitn0621H"
+      "code": "unitn0621H",
+      "type": "magistrale"
     },
     {
       "name": "Agrifood Innovation Management",
-      "code": "unitn0912H"
+      "code": "unitn0912H",
+      "type": "magistrale"
     },
     {
       "name": "Educazione professionale (abilitante alla professione sanitaria Educatore professionale)",
-      "code": "unitn0710G"
+      "code": "unitn0710G",
+      "type": "triennale"
     },
     {
       "name": "Interfacce e Tecnologie della Comunicazione",
-      "code": "unitn0704G"
+      "code": "unitn0704G",
+      "type": "triennale"
     },
     {
       "name": "Scienze Motorie, Sport e Benessere",
-      "code": "unitn0711G"
+      "code": "unitn0711G",
+      "type": "triennale"
     },
     {
       "name": "Scienze e Tecniche Psicologia Cognitiva",
-      "code": "unitn0705G"
+      "code": "unitn0705G",
+      "type": "triennale"
     },
     {
       "name": "Fisica",
-      "code": "unitn0513G"
+      "code": "unitn0513G",
+      "type": "triennale"
     },
     {
       "name": "Matematica",
-      "code": "unitn0515G"
+      "code": "unitn0515G",
+      "type": "triennale"
     },
     {
       "name": "Scienze e Tecnologie Biomolecolari",
-      "code": "unitn0516G"
+      "code": "unitn0516G",
+      "type": "triennale"
     },
     {
       "name": "Informatica",
-      "code": "unitn0514G"
+      "code": "unitn0514G",
+      "type": "triennale"
     },
     {
       "name": "Ingegneria Civile",
-      "code": "unitn0325G"
+      "code": "unitn0325G",
+      "type": "triennale"
     },
     {
       "name": "Ingegneria Industriale",
-      "code": "unitn0327G"
+      "code": "unitn0327G",
+      "type": "triennale"
     },
     {
       "name": "Ingegneria Informatica, delle Comunicazioni ed Elettronica",
-      "code": "unitn0339G"
+      "code": "unitn0339G",
+      "type": "triennale"
     },
     {
       "name": "Ingegneria per l'ambiente e il territorio",
-      "code": "unitn0326G"
+      "code": "unitn0326G",
+      "type": "triennale"
     },
     {
       "name": "Amministrazione Aziendale e Diritto",
-      "code": "unitn0115G"
+      "code": "unitn0115G",
+      "type": "triennale"
     },
     {
       "name": "Economia e Management",
-      "code": "unitn0117G"
+      "code": "unitn0117G",
+      "type": "triennale"
     },
     {
       "name": "Gestione Aziendale",
-      "code": "unitn0116G"
+      "code": "unitn0116G",
+      "type": "triennale"
     },
     {
       "name": "Servizio Sociale",
-      "code": "unitn0622G"
+      "code": "unitn0622G",
+      "type": "triennale"
     },
     {
       "name": "Sociologia",
-      "code": "unitn0611G"
+      "code": "unitn0611G",
+      "type": "triennale"
     },
     {
       "name": "Studi internazionali",
-      "code": "unitn0620G"
+      "code": "unitn0620G",
+      "type": "triennale"
     },
     {
       "name": "Beni culturali",
-      "code": "unitn0417G"
+      "code": "unitn0417G",
+      "type": "triennale"
     },
     {
       "name": "Filosofia",
-      "code": "unitn0416G"
+      "code": "unitn0416G",
+      "type": "triennale"
     },
     {
       "name": "Lingue moderne",
-      "code": "unitn0427G"
+      "code": "unitn0427G",
+      "type": "triennale"
     },
     {
       "name": "Studi storici e filologico-letterari",
-      "code": "unitn0419G"
+      "code": "unitn0419G",
+      "type": "triennale"
     },
     {
       "name": "Comparative, European and International Legal Studies",
-      "code": "unitn0206G"
+      "code": "unitn0206G",
+      "type": "triennale"
     },
     {
       "name": "Viticoltura ed Enologia",
-      "code": "unitn0911G"
+      "code": "unitn0911G",
+      "type": "triennale"
     }
   ]
 }

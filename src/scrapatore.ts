@@ -268,7 +268,7 @@ async function getExamsDetails(page: Page, years: { [key: string]: string[] }) {
 
 
 async function scrapeAll(url: string, title:string) {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
 

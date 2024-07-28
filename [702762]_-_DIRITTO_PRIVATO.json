@@ -1,0 +1,113 @@
+{
+  "name": "[702762] - DIRITTO PRIVATO",
+  "chapters": [
+    {
+      "name": "Introduzione al Diritto Privato",
+      "sections": [
+        "Diritto e norma giuridica",
+        "Differenza tra diritto pubblico e diritto privato"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Comprendere i concetti fondamentali di diritto e norma giuridica è cruciale per lo studio del diritto privato."
+      },
+      "links": []
+    },
+    {
+      "name": "Fonti del Diritto Privato",
+      "sections": [
+        "Fonti nazionali",
+        "Fonti sovranazionali"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Studiare le fonti è essenziale per comprendere l'applicazione delle norme giuridiche."
+      },
+      "links": []
+    },
+    {
+      "name": "Soggetti di Diritto",
+      "sections": [
+        "Persone fisiche",
+        "Persone giuridiche",
+        "Diritti della personalità"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Familiarizzarsi con i soggetti di diritto è fondamentale, poiché ogni norma riguarda specifici soggetti."
+      },
+      "links": []
+    },
+    {
+      "name": "Beni e Diritti Reali",
+      "sections": [
+        "Proprietà",
+        "Diritti reali di godimento e di garanzia",
+        "Modalità di acquisto e trasferimento"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "La comprensione dei diritti reali è vitale per la gestione dei beni e delle proprietà."
+      },
+      "links": []
+    },
+    {
+      "name": "Obbligazioni",
+      "sections": [
+        "Fonti e elementi delle obbligazioni",
+        "Inadempimento e mora",
+        "Responsabilità patrimoniale del debitore"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Le obbligazioni sono una parte centrale del diritto privato e influenzano le relazioni tra soggetti."
+      },
+      "links": []
+    },
+    {
+      "name": "Contratti",
+      "sections": [
+        "Disciplina generale",
+        "Singoli contratti",
+        "Obbligazioni legali"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Studiare i contratti è essenziale per comprendere come i diritti e doveri vengono regolati."
+      },
+      "links": []
+    },
+    {
+      "name": "Fatti Illeciti",
+      "sections": [
+        "Obbligazioni da atto illecito",
+        "Responsabilità"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Gli atti illeciti influiscono sulle responsabilità e obbligazioni tra le parti."
+      },
+      "links": []
+    },
+    {
+      "name": "Aspetti Esclusi dal Corso",
+      "sections": [
+        "Titoli di credito",
+        "Impresa e azienda",
+        "Società",
+        "Lavoro subordinato",
+        "Procedura concorsuali",
+        "Famiglia",
+        "Successioni per causa di morte",
+        "Donazione e liberalità",
+        "Tutela giurisdizionale dei diritti",
+        "Prova dei fatti giuridici"
+      ],
+      "postIts": {
+        "color": "#e6b905",
+        "content": "Essere consapevoli degli argomenti esclusi è importante per concentrare lo studio."
+      },
+      "links": []
+    }
+  ]
+}

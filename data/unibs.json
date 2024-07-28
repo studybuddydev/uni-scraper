@@ -4,235 +4,293 @@
   "courses": [
     {
       "name": "GIURISPRUDENZA",
-      "code": "unibs04181"
+      "code": "unibs04181",
+      "type": "cicloUnico"
     },
     {
       "name": "FARMACIA",
-      "code": "unibs08622"
+      "code": "unibs08622",
+      "type": "cicloUnico"
     },
     {
       "name": "MEDICINA E CHIRURGIA",
-      "code": "unibs08624"
+      "code": "unibs08624",
+      "type": "cicloUnico"
     },
     {
       "name": "ODONTOIATRIA E PROTESI DENTARIA",
-      "code": "unibs08627"
+      "code": "unibs08627",
+      "type": "cicloUnico"
     },
     {
       "name": "INGEGNERIA EDILE-ARCHITETTURA",
-      "code": "unibs05781"
+      "code": "unibs05781",
+      "type": "cicloUnico"
     },
     {
       "name": "ANALYTICS E DATA SCIENCE PER L'ECONOMIA E IL MANAGEMENT",
-      "code": "unibs54477"
+      "code": "unibs54477",
+      "type": "magistrale"
     },
     {
       "name": "CONSULENZA AZIENDALE E LIBERA PROFESSIONE",
-      "code": "unibs54471"
+      "code": "unibs54471",
+      "type": "magistrale"
     },
     {
       "name": "ECONOMIA SOCIALE E IMPRESE COOPERATIVE",
-      "code": "unibs54476"
+      "code": "unibs54476",
+      "type": "magistrale"
     },
     {
       "name": "MANAGEMENT",
-      "code": "unibs54473"
+      "code": "unibs54473",
+      "type": "magistrale"
     },
     {
       "name": "MARKETING PER IL MADE ITALY",
-      "code": "unibs54478"
+      "code": "unibs54478",
+      "type": "magistrale"
     },
     {
       "name": "MONETA, FINANZA E RISK MANAGEMENT",
-      "code": "unibs54472"
+      "code": "unibs54472",
+      "type": "magistrale"
     },
     {
       "name": "Governo delle amministrazioni pubbliche",
-      "code": "unibs04184"
+      "code": "unibs04184",
+      "type": "magistrale"
     },
     {
       "name": "SCIENZE GIURIDICHE DELL'INNOVAZIONE E DELLA SOSTENIBILITA'",
-      "code": "unibs04185"
+      "code": "unibs04185",
+      "type": "magistrale"
     },
     {
       "name": "BIOTECNOLOGIE MEDICHE",
-      "code": "unibs08632"
+      "code": "unibs08632",
+      "type": "magistrale"
     },
     {
       "name": "SCIENZA DEL MOVIMENTO PER LA SALUTE ED IL BENESSERE",
-      "code": "unibs08649"
+      "code": "unibs08649",
+      "type": "magistrale"
     },
     {
       "name": "SCIENZE INFERMIERISTICHE E OSTETRICHE",
-      "code": "unibs08698"
+      "code": "unibs08698",
+      "type": "magistrale"
     },
     {
       "name": "CIVIL AND ENVIRONMENTAL ENGINEERING",
-      "code": "unibs05853"
+      "code": "unibs05853",
+      "type": "magistrale"
     },
     {
       "name": "COMMUNICATION TECHNOLOGIES AND MULTIMEDIA",
-      "code": "unibs05812"
+      "code": "unibs05812",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA CIVILE",
-      "code": "unibs05841"
+      "code": "unibs05841",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
-      "code": "unibs05881"
+      "code": "unibs05881",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA DELLE TECNOLOGIE PER L’IMPRESA DIGITALE",
-      "code": "unibs05822"
+      "code": "unibs05822",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA ELETTRONICA",
-      "code": "unibs05821"
+      "code": "unibs05821",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA GESTIONALE",
-      "code": "unibs05891"
+      "code": "unibs05891",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA INFORMATICA",
-      "code": "unibs05831"
+      "code": "unibs05831",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA MECCANICA",
-      "code": "unibs05861"
+      "code": "unibs05861",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
-      "code": "unibs05851"
+      "code": "unibs05851",
+      "type": "magistrale"
     },
     {
       "name": "INGEGNERIA PER L'INNOVAZIONE DEI MATERIALI E DEL PRODOTTO",
-      "code": "unibs05872"
+      "code": "unibs05872",
+      "type": "magistrale"
     },
     {
       "name": "TECNOLOGIE PER LA TRANSIZIONE ECOLOGICA AGRICOLTURA",
-      "code": "unibs05854"
+      "code": "unibs05854",
+      "type": "magistrale"
     },
     {
       "name": "BANCA E FINANZA",
-      "code": "unibs54454"
+      "code": "unibs54454",
+      "type": "triennale"
     },
     {
       "name": "ECONOMIA E AZIENDA DIGITALE",
-      "code": "unibs54455"
+      "code": "unibs54455",
+      "type": "triennale"
     },
     {
       "name": "ECONOMIA E GESTIONE AZIENDALE",
-      "code": "unibs54451"
+      "code": "unibs54451",
+      "type": "triennale"
     },
     {
       "name": "CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA",
-      "code": "unibs04424"
+      "code": "unibs04424",
+      "type": "triennale"
     },
     {
       "name": "ASSISTENZA SANITARIA",
-      "code": "unibs08691"
+      "code": "unibs08691",
+      "type": "triennale"
     },
     {
       "name": "BIOTECNOLOGIE",
-      "code": "unibs08635"
+      "code": "unibs08635",
+      "type": "triennale"
     },
     {
       "name": "DIETISTICA",
-      "code": "unibs08692"
+      "code": "unibs08692",
+      "type": "triennale"
     },
     {
       "name": "EDUCAZIONE PROFESSIONALE",
-      "code": "unibs08693"
+      "code": "unibs08693",
+      "type": "triennale"
     },
     {
       "name": "FISIOTERAPIA",
-      "code": "unibs08694"
+      "code": "unibs08694",
+      "type": "triennale"
     },
     {
       "name": "IGIENE DENTALE",
-      "code": "unibs08695"
+      "code": "unibs08695",
+      "type": "triennale"
     },
     {
       "name": "INFERMIERISTICA",
-      "code": "unibs08696"
+      "code": "unibs08696",
+      "type": "triennale"
     },
     {
       "name": "OSTETRICIA",
-      "code": "unibs08697"
+      "code": "unibs08697",
+      "type": "triennale"
     },
     {
       "name": "SCIENZE MOTORIE",
-      "code": "unibs08636"
+      "code": "unibs08636",
+      "type": "triennale"
     },
     {
       "name": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA",
-      "code": "unibs08715"
+      "code": "unibs08715",
+      "type": "triennale"
     },
     {
       "name": "TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI LAVORO",
-      "code": "unibs08714"
+      "code": "unibs08714",
+      "type": "triennale"
     },
     {
       "name": "TECNICHE LABORATORIO BIOMEDICO",
-      "code": "unibs08716"
+      "code": "unibs08716",
+      "type": "triennale"
     },
     {
       "name": "TECNICHE RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA",
-      "code": "unibs08717"
+      "code": "unibs08717",
+      "type": "triennale"
     },
     {
       "name": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA",
-      "code": "unibs08699"
+      "code": "unibs08699",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA CIVILE",
-      "code": "unibs05731"
+      "code": "unibs05731",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
-      "code": "unibs05751"
+      "code": "unibs05751",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE",
-      "code": "unibs05714"
+      "code": "unibs05714",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI",
-      "code": "unibs05712"
+      "code": "unibs05712",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA GESTIONALE",
-      "code": "unibs05771"
+      "code": "unibs05771",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA INFORMATICA",
-      "code": "unibs05713"
+      "code": "unibs05713",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA MECCANICA E DEI MATERIALI",
-      "code": "unibs05742"
+      "code": "unibs05742",
+      "type": "triennale"
     },
     {
       "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
-      "code": "unibs05721"
+      "code": "unibs05721",
+      "type": "triennale"
     },
     {
       "name": "SISTEMI AGRICOLI SOSTENIBILI",
-      "code": "unibs05722"
+      "code": "unibs05722",
+      "type": "triennale"
     },
     {
       "name": "TECNICHE DELL'EDILIZIA",
-      "code": "unibs05724"
+      "code": "unibs05724",
+      "type": "triennale"
     },
     {
       "name": "TECNICHE INDUSTRIALI PRODOTTO E PROCESSO",
-      "code": "unibs05743"
+      "code": "unibs05743",
+      "type": "triennale"
     },
     {
       "name": "Ingegneria fisica e matematica",
-      "code": "unibs05715"
+      "code": "unibs05715",
+      "type": "triennale"
     }
   ]
 }

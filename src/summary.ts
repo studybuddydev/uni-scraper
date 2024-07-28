@@ -27,17 +27,21 @@ interface Course {
     id: string;
     uni: string;
     exams: Exam[];
+    type: string;
 }
 interface newCourse {
     name: string;
     id: string;
     uni: string;
     exams: newExam[];
+    type:string;
+ 
 }
 
 interface SummaryCourse {
     name: string;
     code: string;
+    type:string;
 }
 
 interface Summary {
@@ -50,14 +54,26 @@ const readJsonFiles = (folderPath: string): newCourse[] => {
     const files = fs.readdirSync(folderPath);
     let courses: Course[] = [];
 
+
     files.forEach(file => {
         const filePath = path.join(folderPath, file);
         if (path.extname(filePath) === '.json') {
+            const type = filePath.includes('triennali') ? 'triennale' :
+              filePath.includes('magistrali') ? 'magistrale' :
+              filePath.includes('Unico') ? 'cicloUnico' :
+              'unknown'; // Default value if none of the conditions are met
+            
             const data = fs.readFileSync(filePath, 'utf8');
-            const course: Course = JSON.parse(data);
+            const course: Course[] = JSON.parse(data);
+            for(let c of course){
+                c.type = type
+            }
             courses = courses.concat(course);
         }
     });
+
+   
+    
 
     const cleanCourses = cleanExams(courses)
 
@@ -67,7 +83,8 @@ const readJsonFiles = (folderPath: string): newCourse[] => {
 const generateSummary = (courses: newCourse[], uniName:string): Summary => {
     const summaryCourses: SummaryCourse[] = courses.map(course => ({
         name: course.name,
-        code: course.id
+        code: course.id,
+        type: course.type
     }));
 
     const extendedNames: {[key:string]:string} = {
@@ -95,7 +112,9 @@ function cleanExams(courses: Course[]) {
             name: course.name,
             id: course.id,
             uni: course.uni,
-            exams: []
+            type: course.type,
+            exams: [],
+           
         }
 
 
@@ -125,6 +144,8 @@ function cleanExams(courses: Course[]) {
         newCourses.push(newCourse)
 
     }
+    //console.log(newCourses);
+    
 
     return newCourses
 

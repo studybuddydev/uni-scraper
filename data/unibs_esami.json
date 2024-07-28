@@ -3,6 +3,7 @@
     "name": "GIURISPRUDENZA",
     "id": "unibs04181",
     "uni": "unibs",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[A000177] DIRITTO COSTITUZIONALE I",
@@ -780,6 +781,7 @@
     "name": "FARMACIA",
     "id": "unibs08622",
     "uni": "unibs",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[A004491] ACQUISIZIONE DI ELEMENTI DI INFORMATICA E STATISTICA",
@@ -867,6 +869,7 @@
     "name": "MEDICINA E CHIRURGIA",
     "id": "unibs08624",
     "uni": "unibs",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[A004857] ANATOMIA UMANA I",
@@ -1134,6 +1137,7 @@
     "name": "ODONTOIATRIA E PROTESI DENTARIA",
     "id": "unibs08627",
     "uni": "unibs",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[A000582] ANATOMIA UMANA",
@@ -1211,6 +1215,7 @@
     "name": "INGEGNERIA EDILE-ARCHITETTURA",
     "id": "unibs05781",
     "uni": "unibs",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[703648] ALGEBRA ED ELEMENTI DI GEOMETRIA",
@@ -1468,6 +1473,7 @@
     "name": "ANALYTICS E DATA SCIENCE PER L'ECONOMIA E IL MANAGEMENT",
     "id": "unibs54477",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[ECO0007] ACCOUNTING AND MARKETING",
@@ -2425,6 +2431,7 @@
     "name": "CONSULENZA AZIENDALE E LIBERA PROFESSIONE",
     "id": "unibs54471",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703055] ANALISI DI BILANCIO E COMUNICAZIONE FINANZIARIA",
@@ -4212,6 +4219,7 @@
     "name": "ECONOMIA SOCIALE E IMPRESE COOPERATIVE",
     "id": "unibs54476",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A005222] DIRITTO E COOPERAZIONE",
@@ -5239,6 +5247,7 @@
     "name": "MANAGEMENT",
     "id": "unibs54473",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703055] ANALISI DI BILANCIO E COMUNICAZIONE FINANZIARIA",
@@ -6146,6 +6155,7 @@
     "name": "MARKETING PER IL MADE ITALY",
     "id": "unibs54478",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[ECO0029] ANALISI ECONOMICO FINANZIARIE PER IL MARKETING",
@@ -6463,6 +6473,7 @@
     "name": "MONETA, FINANZA E RISK MANAGEMENT",
     "id": "unibs54472",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A000650] ASSET MANAGEMENT E INVESTITORI ISTITUZIONALI",
@@ -8140,18 +8151,21 @@
     "name": "Governo delle amministrazioni pubbliche",
     "id": "unibs04184",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "SCIENZE GIURIDICHE DELL'INNOVAZIONE E DELLA SOSTENIBILITA'",
     "id": "unibs04185",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "BIOTECNOLOGIE MEDICHE",
     "id": "unibs08632",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A005429] DIAGNOSTICA MOLECOLARE AVANZATA NELLA MEDICINA DI LABORATORIO",
@@ -8269,6 +8283,7 @@
     "name": "SCIENZA DEL MOVIMENTO PER LA SALUTE ED IL BENESSERE",
     "id": "unibs08649",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[MED0257] ADATTAMENTI MORFOFUNZIONALI NELLE DIVERSE ETA'",
@@ -8326,6 +8341,7 @@
     "name": "SCIENZE INFERMIERISTICHE E OSTETRICHE",
     "id": "unibs08698",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[750164] ATTIVITA' A SCELTA 1° ANNO",
@@ -8483,6 +8499,7 @@
     "name": "CIVIL AND ENVIRONMENTAL ENGINEERING",
     "id": "unibs05853",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[750578] BUILDING PERFORMANCE ENGINEERING",
@@ -8670,6 +8687,7 @@
     "name": "COMMUNICATION TECHNOLOGIES AND MULTIMEDIA",
     "id": "unibs05812",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[751054] ANTENNAS AND WIRELESS SYSTEMS LABORATORY",
@@ -9677,6 +9695,7 @@
     "name": "INGEGNERIA CIVILE",
     "id": "unibs05841",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703507] ANALISI NUMERICA",
@@ -9974,6 +9993,7 @@
     "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
     "id": "unibs05881",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703556] CALCOLO NUMERICO CON LABORATORIO",
@@ -10241,6 +10261,7 @@
     "name": "INGEGNERIA DELLE TECNOLOGIE PER L’IMPRESA DIGITALE",
     "id": "unibs05822",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A000367] CALCOLO SCIENTIFICO",
@@ -10348,6 +10369,7 @@
     "name": "INGEGNERIA ELETTRONICA",
     "id": "unibs05821",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A005149] ECONOMIA E GESTIONE AZIENDALE",
@@ -11215,6 +11237,7 @@
     "name": "INGEGNERIA GESTIONALE",
     "id": "unibs05891",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A003589] ANALISI E DECISIONI NEI SISTEMI COMPLESSI",
@@ -11352,6 +11375,7 @@
     "name": "INGEGNERIA INFORMATICA",
     "id": "unibs05831",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[A000390] ALGORITMI E STRUTTURE DATI",
@@ -12229,6 +12253,7 @@
     "name": "INGEGNERIA MECCANICA",
     "id": "unibs05861",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703565] COSTRUZIONE DI MACCHINE I",
@@ -12346,6 +12371,7 @@
     "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
     "id": "unibs05851",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703503] GEOTECNICA",
@@ -12623,6 +12649,7 @@
     "name": "INGEGNERIA PER L'INNOVAZIONE DEI MATERIALI E DEL PRODOTTO",
     "id": "unibs05872",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[703565] COSTRUZIONE DI MACCHINE I",
@@ -12860,6 +12887,7 @@
     "name": "TECNOLOGIE PER LA TRANSIZIONE ECOLOGICA AGRICOLTURA",
     "id": "unibs05854",
     "uni": "unibs",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[ING0002] BIODIVERSITÀ FUNZIONALE E SERVIZI ECOSISTEMICI",
@@ -12977,6 +13005,7 @@
     "name": "BANCA E FINANZA",
     "id": "unibs54454",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005213] ABILITÀ INFORMATICHE",
@@ -13544,6 +13573,7 @@
     "name": "ECONOMIA E AZIENDA DIGITALE",
     "id": "unibs54455",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005212] ABILITÀ INFORMATICHE",
@@ -14101,6 +14131,7 @@
     "name": "ECONOMIA E GESTIONE AZIENDALE",
     "id": "unibs54451",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005214] ABILITÀ INFORMATICHE",
@@ -14678,6 +14709,7 @@
     "name": "CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA",
     "id": "unibs04424",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[11603] ECONOMIA AZIENDALE",
@@ -15345,6 +15377,7 @@
     "name": "ASSISTENZA SANITARIA",
     "id": "unibs08691",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750384] A SCELTA DELLO STUDENTE 1° ANNO",
@@ -15622,6 +15655,7 @@
     "name": "BIOTECNOLOGIE",
     "id": "unibs08635",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[703606] BIOCHIMICA",
@@ -15809,6 +15843,7 @@
     "name": "DIETISTICA",
     "id": "unibs08692",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[MED0142] ATTIVITA' A SCELTA 1° ANNO",
@@ -16066,6 +16101,7 @@
     "name": "EDUCAZIONE PROFESSIONALE",
     "id": "unibs08693",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[MED0028] ALTRE ATTIVITA' FORMATIVE (1° ANNO)",
@@ -16303,6 +16339,7 @@
     "name": "FISIOTERAPIA",
     "id": "unibs08694",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[MED0305] ANATOMIA UMANA",
@@ -16690,6 +16727,7 @@
     "name": "IGIENE DENTALE",
     "id": "unibs08695",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750434] ETIOPATOGENESI DELLE MALATTIE",
@@ -16907,6 +16945,7 @@
     "name": "INFERMIERISTICA",
     "id": "unibs08696",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750212] ATTIVITA' A SCELTA 1° ANNO",
@@ -17204,6 +17243,7 @@
     "name": "OSTETRICIA",
     "id": "unibs08697",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A002704] ASSISTENZA ALLA GRAVIDANZA FISIOLOGICA E SORVEGLIANZA MATERNO FETALE",
@@ -17471,6 +17511,7 @@
     "name": "SCIENZE MOTORIE",
     "id": "unibs08636",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A003865] ANATOMIA UMANA",
@@ -17658,6 +17699,7 @@
     "name": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA",
     "id": "unibs08715",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750324] ALTRE ATTIVITA' 1° ANNO",
@@ -17935,6 +17977,7 @@
     "name": "TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI LAVORO",
     "id": "unibs08714",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750186] ATTIVITÀ FORMATIVE A SCELTA DELLO STUDENTE 1° ANNO",
@@ -18192,6 +18235,7 @@
     "name": "TECNICHE LABORATORIO BIOMEDICO",
     "id": "unibs08716",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A002854] A SCELTA DELLO STUDENTE 1° ANNO",
@@ -18469,6 +18513,7 @@
     "name": "TECNICHE RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA",
     "id": "unibs08717",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[750240] ATTIVITA' A SCELTA 1° ANNO",
@@ -18746,12 +18791,14 @@
     "name": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA",
     "id": "unibs08699",
     "uni": "unibs",
+    "type": "triennale",
     "exams": []
   },
   {
     "name": "INGEGNERIA CIVILE",
     "id": "unibs05731",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -19119,6 +19166,7 @@
     "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
     "id": "unibs05751",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -19526,6 +19574,7 @@
     "name": "INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE",
     "id": "unibs05714",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005148] ALGEBRA LINEARE E GEOMETRIA ANALITICA",
@@ -19823,6 +19872,7 @@
     "name": "INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI",
     "id": "unibs05712",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -20270,6 +20320,7 @@
     "name": "INGEGNERIA GESTIONALE",
     "id": "unibs05771",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -20627,6 +20678,7 @@
     "name": "INGEGNERIA INFORMATICA",
     "id": "unibs05713",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -20964,6 +21016,7 @@
     "name": "INGEGNERIA MECCANICA E DEI MATERIALI",
     "id": "unibs05742",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -21431,6 +21484,7 @@
     "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
     "id": "unibs05721",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A000017] ALGEBRA E GEOMETRIA",
@@ -21768,6 +21822,7 @@
     "name": "SISTEMI AGRICOLI SOSTENIBILI",
     "id": "unibs05722",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A004541] BIOCHIMICA E FISIOLOGIA VEGETALE",
@@ -22125,6 +22180,7 @@
     "name": "TECNICHE DELL'EDILIZIA",
     "id": "unibs05724",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005589] DISEGNO E LABORATORIO CAD",
@@ -22282,6 +22338,7 @@
     "name": "TECNICHE INDUSTRIALI PRODOTTO E PROCESSO",
     "id": "unibs05743",
     "uni": "unibs",
+    "type": "triennale",
     "exams": [
       {
         "title": "[A005569] DISEGNO TECNICO INDUSTRIALE LP",
@@ -22459,6 +22516,7 @@
     "name": "Ingegneria fisica e matematica",
     "id": "unibs05715",
     "uni": "unibs",
+    "type": "triennale",
     "exams": []
   }
 ]

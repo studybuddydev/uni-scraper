@@ -3,6 +3,7 @@
     "name": "Giurisprudenza",
     "id": "unitn0205F",
     "uni": "unitn",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[25842] Filosofia del diritto",
@@ -2220,6 +2221,7 @@
     "name": "Ingegneria Edile-Architettura",
     "id": "unitn0336F",
     "uni": "unitn",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[140363] Analisi matematica 1",
@@ -2487,6 +2489,7 @@
     "name": "Medicina e Chirurgia",
     "id": "unitn1001S",
     "uni": "unitn",
+    "type": "cicloUnico",
     "exams": [
       {
         "title": "[110004] Anatomia umana I",
@@ -2684,6 +2687,7 @@
     "name": "Artificial Intelligence Systems",
     "id": "unitn0342H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[145861] Artificial and biological neural systems",
@@ -3101,12 +3105,14 @@
     "name": "Bioengineering for Personalized Medicine",
     "id": "unitn0347H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "Environmental Meteorology",
     "id": "unitn0341H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140571] Atmospheric boundary layer and turbulence",
@@ -3234,6 +3240,7 @@
     "name": "INFORMATICA",
     "id": "unitn0517H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[145451] Computability and computational complexity",
@@ -4231,6 +4238,7 @@
     "name": "Ingegneria Civile",
     "id": "unitn0331H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140702] Costruzioni di infrastrutture stradali e ferroviarie con Laboratorio",
@@ -4408,6 +4416,7 @@
     "name": "Ingegneria Energetica",
     "id": "unitn0337H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140482] Advanced Applications of Building Physics",
@@ -4505,6 +4514,7 @@
     "name": "Ingegneria dell'Informazione",
     "id": "unitn0346H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140266] Computer vision",
@@ -4872,6 +4882,7 @@
     "name": "Ingegneria per l'ambiente e il territorio",
     "id": "unitn0332H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140139] Idrodinamica",
@@ -5219,6 +5230,7 @@
     "name": "Management and Industrial Systems Engineering",
     "id": "unitn0343H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[146006] Advanced manufacturing and sustainable products",
@@ -5426,6 +5438,7 @@
     "name": "Materials Engineering",
     "id": "unitn0345H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[146020] Ceramic materials engineering",
@@ -5483,6 +5496,7 @@
     "name": "Mechatronics Engineering",
     "id": "unitn0344H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[140500] Automatic control",
@@ -5680,6 +5694,7 @@
     "name": "Cognitive Science - Scienze Cognitive",
     "id": "unitn0708H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[154146] Animal Cognition and Neuroscience",
@@ -5937,6 +5952,7 @@
     "name": "Human-Computer Interaction - Interazione Persona-Macchina",
     "id": "unitn0709H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[155011] Design epistemology and ethics",
@@ -6144,6 +6160,7 @@
     "name": "Psicologia",
     "id": "unitn0707H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[152108] Counselling e psicoterapia",
@@ -6561,6 +6578,7 @@
     "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata",
     "id": "unitn0127H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121488] Applied Econometrics",
@@ -6768,6 +6786,7 @@
     "name": "Economia e legislazione d'impresa",
     "id": "unitn0125H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121498] Bilancio e principi contabili",
@@ -6945,12 +6964,14 @@
     "name": "Economics - Economia",
     "id": "unitn0121H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "Finanza",
     "id": "unitn0122H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121446] Prova di conoscenza linguistica L.M. - Inglese in ambito economico",
@@ -7118,6 +7139,7 @@
     "name": "Innovation Management - Management dell'innovazione",
     "id": "unitn0120H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121319] Data Analysis and Forecasting",
@@ -7675,6 +7697,7 @@
     "name": "International Management - Management Internazionale",
     "id": "unitn0119H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121319] Data Analysis and Forecasting",
@@ -7962,6 +7985,7 @@
     "name": "Management",
     "id": "unitn0123H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121481] Competenze manageriali e sviluppo organizzativo",
@@ -8199,6 +8223,7 @@
     "name": "Management",
     "id": "unitn0124H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121377] Economics_",
@@ -8336,6 +8361,7 @@
     "name": "Management della sostenibilità e del turismo",
     "id": "unitn0126H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[121333] Diritto del turismo",
@@ -8613,12 +8639,14 @@
     "name": "Arte",
     "id": "unitn0428H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "Filologia e critica letteraria",
     "id": "unitn0424H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130253] Filologia latina - LM",
@@ -8906,6 +8934,7 @@
     "name": "Filosofia e linguaggi della modernità",
     "id": "unitn0420H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130177] Filosofia teoretica - LM",
@@ -9223,6 +9252,7 @@
     "name": "Letterature euroamericane, traduzione e critica letteraria",
     "id": "unitn0422H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130499] Lingua e traduzione francese e letteratura francese I",
@@ -9690,6 +9720,7 @@
     "name": "Mediazione linguistica, turismo e culture",
     "id": "unitn0423H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130509] Economia della cultura e del turismo e marketing della cultura e del turismo",
@@ -9897,6 +9928,7 @@
     "name": "Musicologia",
     "id": "unitn0430H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130674] Cultural Anthropology",
@@ -9954,12 +9986,14 @@
     "name": "Scienze storiche",
     "id": "unitn0426H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "Storia dell'arte e studi museali",
     "id": "unitn0429H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[130654] Arte contemporanea e istituzioni museali",
@@ -10257,6 +10291,7 @@
     "name": "BIOTECNOLOGIE CELLULARI E MOLECOLARI",
     "id": "unitn0520H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[145745] Cell Therapy",
@@ -10574,6 +10609,7 @@
     "name": "Biologia Quantitativa e Computazionale",
     "id": "unitn0521H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[146046] English C1",
@@ -10711,6 +10747,7 @@
     "name": "FISICA",
     "id": "unitn0518H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[145164] Experimental Methods",
@@ -12178,12 +12215,14 @@
     "name": "MATEMATICA",
     "id": "unitn0519H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": []
   },
   {
     "name": "EUROPEAN AND INTERNATIONAL STUDIES - STUDI EUROPEI E INTERNAZIONALI",
     "id": "unitn0803H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[155300] Contemporary History",
@@ -12531,6 +12570,7 @@
     "name": "Security, Intelligence and Strategic Studies",
     "id": "unitn0805H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[180009] Civil Societies and Contentious Politics",
@@ -13048,6 +13088,7 @@
     "name": "Studi Sulla Sicurezza Internazionale",
     "id": "unitn0804H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[160052] Introduction to security studies",
@@ -13515,6 +13556,7 @@
     "name": "Data Science",
     "id": "unitn0522H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[145677] Big Data Technologies",
@@ -14132,6 +14174,7 @@
     "name": "Global and Local Studies",
     "id": "unitn0623H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[135763] Global and transnational history",
@@ -14329,6 +14372,7 @@
     "name": "Metodologia, Organizzazione e Valutazione dei Servizi Sociali",
     "id": "unitn0619H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[135794] Costruire progetti e interventi nel welfare locale",
@@ -14446,6 +14490,7 @@
     "name": "Organizzazione,società e tecnologia",
     "id": "unitn0624H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[135847] Metodi digitali di ricerca",
@@ -14623,6 +14668,7 @@
     "name": "Sociology and social research - Sociologia e ricerca sociale",
     "id": "unitn0621H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[135215] Qualitative methods",
@@ -15060,6 +15106,7 @@
     "name": "Agrifood Innovation Management",
     "id": "unitn0912H",
     "uni": "unitn",
+    "type": "magistrale",
     "exams": [
       {
         "title": "[173006] Agri-food law: introductory notions and the regulation of innovation in agri-food law",
@@ -15217,6 +15264,7 @@
     "name": "Educazione professionale (abilitante alla professione sanitaria Educatore professionale)",
     "id": "unitn0710G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[156005] Fondamenti biologici del comportamento",
@@ -15344,6 +15392,7 @@
     "name": "Interfacce e Tecnologie della Comunicazione",
     "id": "unitn0704G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[153033] Analisi matematica con elementi di algebra",
@@ -15681,12 +15730,14 @@
     "name": "Scienze Motorie, Sport e Benessere",
     "id": "unitn0711G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": []
   },
   {
     "name": "Scienze e Tecniche Psicologia Cognitiva",
     "id": "unitn0705G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[150035] Basi biologiche del comportamento",
@@ -16144,6 +16195,7 @@
     "name": "Fisica",
     "id": "unitn0513G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[145432] Analisi matematica I",
@@ -16491,6 +16543,7 @@
     "name": "Matematica",
     "id": "unitn0515G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[145505] Algebra A",
@@ -17388,6 +17441,7 @@
     "name": "Scienze e Tecnologie Biomolecolari",
     "id": "unitn0516G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[145034] Biologia cellulare",
@@ -17655,6 +17709,7 @@
     "name": "Informatica",
     "id": "unitn0514G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[145410] Fondamenti matematici per l'informatica",
@@ -18212,6 +18267,7 @@
     "name": "Ingegneria Civile",
     "id": "unitn0325G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[140441] Analisi matematica 1",
@@ -18529,6 +18585,7 @@
     "name": "Ingegneria Industriale",
     "id": "unitn0327G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[140462] Altre attività",
@@ -18826,6 +18883,7 @@
     "name": "Ingegneria Informatica, delle Comunicazioni ed Elettronica",
     "id": "unitn0339G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[145403] Analisi matematica 1",
@@ -19143,6 +19201,7 @@
     "name": "Ingegneria per l'ambiente e il territorio",
     "id": "unitn0326G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[140441] Analisi matematica 1",
@@ -19490,6 +19549,7 @@
     "name": "Amministrazione Aziendale e Diritto",
     "id": "unitn0115G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[120095] Analisi dei dati e Statistica",
@@ -20017,6 +20077,7 @@
     "name": "Economia e Management",
     "id": "unitn0117G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[120095] Analisi dei dati e Statistica",
@@ -20884,6 +20945,7 @@
     "name": "Gestione Aziendale",
     "id": "unitn0116G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[120095] Analisi dei dati e Statistica",
@@ -21551,6 +21613,7 @@
     "name": "Servizio Sociale",
     "id": "unitn0622G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[135431] Diritto e amministrazione per il servizio sociale",
@@ -21788,6 +21851,7 @@
     "name": "Sociologia",
     "id": "unitn0611G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[136003] Costruire un disegno di analisi dei fenomeni sociali",
@@ -22065,6 +22129,7 @@
     "name": "Studi internazionali",
     "id": "unitn0620G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[135338] Diritto pubblico europeo",
@@ -22352,6 +22417,7 @@
     "name": "Beni culturali",
     "id": "unitn0417G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[130513] Geografia storica",
@@ -22839,6 +22905,7 @@
     "name": "Filosofia",
     "id": "unitn0416G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[130610] Elementi di fisica moderna e intelligenza artificiale",
@@ -23316,6 +23383,7 @@
     "name": "Lingue moderne",
     "id": "unitn0427G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[130134] Linguistica generale e glottologia",
@@ -23783,6 +23851,7 @@
     "name": "Studi storici e filologico-letterari",
     "id": "unitn0419G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[130359] Filologia romanza I",
@@ -24070,6 +24139,7 @@
     "name": "Comparative, European and International Legal Studies",
     "id": "unitn0206G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[28001] Comparative Constitutional Law",
@@ -24457,6 +24527,7 @@
     "name": "Viticoltura ed Enologia",
     "id": "unitn0911G",
     "uni": "unitn",
+    "type": "triennale",
     "exams": [
       {
         "title": "[170039] Arboricoltura generale, principi di fisiologia e genetica delle piante da frutto",
