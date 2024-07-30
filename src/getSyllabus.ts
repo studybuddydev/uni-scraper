@@ -23,6 +23,7 @@ interface processedChapter {
     chapters: []
 }
 
+//the actual scraping of the course
 async function getCourseInfo(page: Page): Promise<CourseInfo> {
     return await page.$$eval('.accordion > dt, .accordion > dd', (elements: Element[]) => {
         let currentGroup: Partial<CourseInfo> = {};
@@ -62,7 +63,7 @@ async function getCourseInfo(page: Page): Promise<CourseInfo> {
 
 
 
-// get url of a syllabus from unitn course catalogue and scrape it 
+// from  url of a syllabus from scrape it and return the contnt of the course  
 export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
     const browser = await puppeteer.launch();
     const page: Page = await browser.newPage();
@@ -84,13 +85,13 @@ export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
 
     // unico modo di farlo funzionare, ho provato a tirare fuori sta funzione per pulire un po' il codice ma non funziona
 
-    try{
+    try {
         infoElements = await getCourseInfo(page)
-    }catch(e){
+    } catch (e) {
         console.log('scassato');
-        
+
     }
-    
+
 
     infoElements.name = title?.trim() || 'no title found';
 
@@ -104,7 +105,7 @@ export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
 
 }
 
-
+// from the extracted course use ai to create a list of chapters 
 async function processSyllabusChapters(syllabus: CourseInfo): Promise<processedChapter> {
     const systemPromptChapters = `You are a helpful studybuddy for university students, you are given in input a string with the content of the course, 
                         you should infer the chapters and the section(if present) and put it in the tasks list with done set to false, add notes in the postIts if needed to clarify, use a representative mdi icon provising the its name and a random hex color, create a json 
@@ -154,50 +155,59 @@ async function getsyllabus(url: string) {
 
     const syllabus = await scrapeSyllabus(url)
 
+    console.log(syllabus.chapters);
+    
 
-    const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
+    if (syllabus.chapters) {
 
-    console.log(processedChapters);
+        const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
 
-
-    // Execute the regex against the syllabus name
-    const id = syllabus.name.match(/\[(\w+)\]/)?.[1] || '';
-    const name = syllabus.name.split(']').slice(1).join(']').replace(/[^\w\s]/g, ' ').trim();
-    ;
-
-    const uniname = 'unibs'
+        console.log(processedChapters);
 
 
-    const exam = {
-        name: name,
-        id: uniname + id,
-        icon: processedChapters?.icon,
-        color: processedChapters?.color,
-        chapters: processedChapters?.chapters,
-        links: [{ "name": "syllabus", "url": url },],
-        postIts: [{
-            "color": "#FFEB3B",
-            "content": syllabus.books
-        },
-        {
-            "color": "#FFEB3B",
-            "content": syllabus.examDetails
-        }]
 
-    }
+        // Execute the regex against the syllabus name
+        const id = syllabus.name.match(/\[(\w+)\]/)?.[1] || '';
+        const name = syllabus.name.split(']').slice(1).join(']').replace(/[^\w\s]/g, ' ').trim();
+        ;
 
-    const fileName = `${syllabus.name.replace(/\s+/g, '_')}.json`;
+        const uniname = 'unibs'
 
-    // Convert the exam object to a stringified JSON
-    const jsonString = JSON.stringify(exam, null, 2);
 
-    fs.writeFile('data/syllabus/' + fileName, jsonString, (err) => {
-        if (err) {
-            console.error("Error writing file:", err);
-        } else {
-            console.log(`Exam details saved to ${fileName}`);
+        const exam = {
+            name: name,
+            id: uniname + id,
+            icon: processedChapters?.icon,
+            color: processedChapters?.color,
+            chapters: processedChapters?.chapters,
+            links: [{ "name": "syllabus", "url": url },],
+            postIts: [{
+                "color": "#FFEB3B",
+                "content": syllabus.books
+            },
+            {
+                "color": "#FFEB3B",
+                "content": syllabus.examDetails
+            }]
+
         }
-    });
+
+        const fileName = `${syllabus.name.replace(/\s+/g, '_')}.json`;
+
+        // Convert the exam object to a stringified JSON
+        const jsonString = JSON.stringify(exam, null, 2);
+
+        fs.writeFile('data/syllabus/' + fileName, jsonString, (err) => {
+            if (err) {
+                console.error("Error writing file:", err);
+            } else {
+                console.log(`Exam details saved to ${fileName}`);
+            }
+        });
+    }else{
+        console.log('è rotto');
+        
+    }
 
 
 
@@ -207,7 +217,7 @@ async function getsyllabus(url: string) {
 const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493'
 const url1 = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808'
 
-getsyllabus(url1)
+getsyllabus(url)
 
 
 
@@ -221,13 +231,13 @@ async function main() {
     const ingemec: Course = jsonData.find((obj: Course) => obj.id === 'unibs05742'); // Converts obj.id to string for comparison
     for (const exam of ingemec.exams) {
 
-        try{
+        try {
             await getsyllabus(exam['url'])
-        }catch(e){
+        } catch (e) {
             console.log(exam['title'] + 'is broken');
             console.log(exam['url']);
-            
-            
+
+
         }
 
     }
