@@ -1,0 +1,136 @@
+{
+  "name": "STRUMENTAZIONE ELETTRONICA",
+  "id": "unibs703047",
+  "icon": "mdi-book-open",
+  "color": "#6f42c1",
+  "chapters": [
+    {
+      "name": "Misure meccaniche e termiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Caratteristiche statiche e dinamiche",
+          "done": false
+        },
+        {
+          "name": "Tipologie di traduttori di misura",
+          "done": false
+        },
+        {
+          "name": "Acquisizione analogico-digitale",
+          "done": false
+        },
+        {
+          "name": "Esercitazione scelta trasduttore",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on transducer selection exercises and characteristics."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Analisi in frequenza",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Serie e trasformata di Fourier",
+          "done": false
+        },
+        {
+          "name": "Strumenti per l'analisi in frequenza",
+          "done": false
+        },
+        {
+          "name": "Esercitazione analisi in frequenza",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Emphasize the mathematical tools and practical exercises."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Sistemi di visione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sistemi di visione 2D",
+          "done": false
+        },
+        {
+          "name": "Progettazione sistema di visione 2D",
+          "done": false
+        },
+        {
+          "name": "Sistemi di visione 3D",
+          "done": false
+        },
+        {
+          "name": "Esercitazione progettazione sistema di visione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand calibration and image analysis techniques."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Tecniche di analisi del segnale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analisi delle componenti principali (PCA)",
+          "done": false
+        },
+        {
+          "name": "Filtro di Kalman",
+          "done": false
+        },
+        {
+          "name": "Machine learning",
+          "done": false
+        },
+        {
+          "name": "Esercitazione machine learning",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Includes practical ML exercises and Kalman filter applications."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108536_1726/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "P.M. Azzoni: Strumenti e misure per l'Ingegneria Meccanica. Hoepli Ed.Doebelin, Ernest O.: Strumenti e metodi di misura. McGraw-HillDoebelin, Ernest O.:Measurement systems : application and design. McGraw-HillLucidi del docente"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Esame scritto in forma di risposta breve seguito da orale. Esercitazioni pratiche facoltative."
+    }
+  ]
+}

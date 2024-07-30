@@ -1,0 +1,99 @@
+{
+  "name": "ALGEBRA E GEOMETRIA",
+  "id": "unibsA000017",
+  "icon": "mdi-book-open-outline",
+  "color": "#4A90E2",
+  "chapters": [
+    {
+      "name": "Introduction to Psychology",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Read Chapter 1: History of Psychology",
+          "done": false
+        },
+        {
+          "name": "Complete Chapter 1 Quiz",
+          "done": false
+        },
+        {
+          "name": "Discussion: Key Figures in Psychology",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on key concepts and historical figures."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Research Methods in Psychology",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Read Chapter 2: Research Designs",
+          "done": false
+        },
+        {
+          "name": "Submit Research Proposal",
+          "done": false
+        },
+        {
+          "name": "Watch Lecture on Qualitative vs Quantitative Methods",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand different research methodologies."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Developmental Psychology",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Read Chapter 3: Lifespan Development",
+          "done": false
+        },
+        {
+          "name": "Group Project: Child Development Theories",
+          "done": false
+        },
+        {
+          "name": "Prepare for Midterm Exam",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review key theorists and stages of development."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": ""
+    },
+    {
+      "color": "#FFEB3B",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  TERMICHE E DI PROCESSO",
+  "id": "unibsA003496",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#3f51b5",
+  "chapters": [
+    {
+      "name": "Proprietà Termiche e di Processo dei Materiali Polimerici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Aspetti di base, metodologici e strumentali",
+          "done": false
+        },
+        {
+          "name": "Normative di riferimento",
+          "done": false
+        },
+        {
+          "name": "Bollettini tecnici e banche dati",
+          "done": false
+        },
+        {
+          "name": "Tecniche sperimentali per valutazione delle proprietà di processo",
+          "done": false
+        },
+        {
+          "name": "Analisi delle proprietà termiche dei materiali polimerici",
+          "done": false
+        },
+        {
+          "name": "Discussione sull'analisi statistica dei dati",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on experimental procedures for measuring polymer properties."
+        },
+        {
+          "color": "#ff5722",
+          "content": "Review key technical bulletins related to industrial materials."
+        },
+        {
+          "color": "#009688",
+          "content": "Understand the statistical concepts for data presentation."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà di Processo dei Materiali Polimerici Termoplastici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Indice di fluidità",
+          "done": false
+        },
+        {
+          "name": "Melt mass-flow rate e melt volume-flow rate",
+          "done": false
+        },
+        {
+          "name": "Densità dei fusi polimerici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#3f51b5",
+          "content": "Learn about the terms melt flow rates and their significance in processing."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà Termiche dei Materiali Polimerici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Temperatura di transizione vetrosa",
+          "done": false
+        },
+        {
+          "name": "Temperatura di fusione",
+          "done": false
+        },
+        {
+          "name": "Temperatura di HDT e grado Vicat",
+          "done": false
+        },
+        {
+          "name": "Densità dei materiali polimerici nello stato solido",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e64a19",
+          "content": "Review the significance of glass transition and melting temperatures."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108547_19499/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Appunti di lezione.N.G. McCrum, C.P. Buckley, C.B. Bucknall; \"Principles of Polymer Engineering\"; Oxford Science Pub.; 1997; 9780198565260G. Locati, A. Fiocca; \"La plastica - Conoscerla per apprezzarla\"; Pacini Ed.; 2016; 9788869950551"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale.L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà meccaniche\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente."
+    }
+  ]
+}

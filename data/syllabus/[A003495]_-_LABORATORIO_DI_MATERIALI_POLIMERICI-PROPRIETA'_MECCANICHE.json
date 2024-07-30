@@ -1,0 +1,65 @@
+{
+  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  MECCANICHE",
+  "id": "unibsA003495",
+  "icon": "mdi-tools",
+  "color": "#4caf50",
+  "chapters": [
+    {
+      "name": "Proprietà Meccaniche dei Materiali Polimerici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione alle Proprietà Meccaniche",
+          "done": false
+        },
+        {
+          "name": "Normative di Riferimento",
+          "done": false
+        },
+        {
+          "name": "Bollettini Tecnici e Banche Dati",
+          "done": false
+        },
+        {
+          "name": "Tecniche Sperimentali",
+          "done": false
+        },
+        {
+          "name": "Analisi Statistica dei Dati",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Il corso descrive procedure sperimentali e aspetti strumentali relativi alla misurazione delle proprietà meccaniche."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Le prove al dinamometro includono trazione, compressione e flessione."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Le prove di impatto comprendono sia prove non-strumentato che strumentato."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108546_19497/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Appunti di lezione.N.G. McCrum, C.P. Buckley, C.B. Bucknall; \"Principles of Polymer Engineering\"; Oxford Science Pub.; 1997; 9780198565260G. Locati, A. Fiocca; \"La plastica - Conoscerla per apprezzarla\"; Pacini Ed.; 2016; 9788869950551"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale. L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà termiche e di processo\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente."
+    }
+  ]
+}

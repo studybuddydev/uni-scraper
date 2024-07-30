@@ -1,0 +1,152 @@
+{
+  "name": "TECNOLOGIE MECCANICHE",
+  "id": "unibs750597",
+  "icon": "mdi-cogs",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "Generalità sui processi di fabbricazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Importanza della definizione dei processi di lavorazione",
+          "done": false
+        },
+        {
+          "name": "Problematiche connesse con la produzione di particolari meccanici",
+          "done": false
+        },
+        {
+          "name": "Relazione tra tecnologia impiegata e prodotto ottenuto",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Il processo di fonderia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Descrizione del processo e caratteristiche dei pezzi ottenuti",
+          "done": false
+        },
+        {
+          "name": "Problematiche connesse con il processo",
+          "done": false
+        },
+        {
+          "name": "Panorama sulle tecniche di fusione",
+          "done": false
+        },
+        {
+          "name": "Fusione in terra - progettazione dei modelli",
+          "done": false
+        },
+        {
+          "name": "Esempi ed esercizi",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Le lavorazioni per deformazione plastica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Plasticità dei materiali e prova di compressione",
+          "done": false
+        },
+        {
+          "name": "Stampaggio a caldo",
+          "done": false
+        },
+        {
+          "name": "Laminazione: piana, obliqua, tubi",
+          "done": false
+        },
+        {
+          "name": "Estrusione e Trafilatura",
+          "done": false
+        },
+        {
+          "name": "Lavorazioni della lamiera",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Le lavorazioni per asportazione di truciolo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Formazione del truciolo e materiali utensili",
+          "done": false
+        },
+        {
+          "name": "Tornitura",
+          "done": false
+        },
+        {
+          "name": "Fresatura",
+          "done": false
+        },
+        {
+          "name": "Foratura",
+          "done": false
+        },
+        {
+          "name": "Micro lavorazioni per asportazione di truciolo",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Le lavorazioni non convenzionali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Lavorazioni per elettroerosione (EDM e ECM)",
+          "done": false
+        },
+        {
+          "name": "Lavorazioni abrasive ed a getto d'acqua (WJM)",
+          "done": false
+        },
+        {
+          "name": "Lavorazioni Laser",
+          "done": false
+        },
+        {
+          "name": "Cenni sull'additive Manufacturing",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115533_1727/2022/8110/81?coorte=2022&schemaid=2808"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Tecnologia MeccanicaSerope Kalpakjian - Steven SchmidtPearson - Prentice HallQuinta edizione Volumi consigliatiTecnologia Meccanica, Vol. I e Vol. IIBugini A., Giardini C., Pacagnella R., Restelli G.Città Studi Tecnologia Meccanica e studi di fabbricazioneSantochi M., Giusti F.Casa editrice Ambrosiana."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame consiste in prove scritte od orali nel corso delle quali è necessario dimostrare di aver acquisito, oltre ai contenuti teorici del corso, anche la capacità di risolvere problemi numerici di ottimizzazione delle lavorazioni."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "SOCIOLOGIA DELL ORGANIZZAZIONE",
+  "id": "unibs703549",
+  "icon": "mdi-book-open-variant",
+  "color": "#4a90e2",
+  "chapters": [
+    {
+      "name": "Analisi dei modelli produttivi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare il Fordismo",
+          "done": false
+        },
+        {
+          "name": "Studiare il Neo-fordismo",
+          "done": false
+        },
+        {
+          "name": "Studiare la Specializzazione flessibile",
+          "done": false
+        },
+        {
+          "name": "Studiare la Produzione snella",
+          "done": false
+        },
+        {
+          "name": "Analizzare Industry 4.0",
+          "done": false
+        },
+        {
+          "name": "Approfondire il progetto USIL",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus su tecnologia e organizzazione del lavoro"
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Parte generale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare il taylorismo e il fordismo",
+          "done": false
+        },
+        {
+          "name": "Studiare innovazioni tecnologiche del fordismo",
+          "done": false
+        },
+        {
+          "name": "Analizzare le ricadute sul lavoro operaio e sulla società",
+          "done": false
+        },
+        {
+          "name": "Studiare la crisi del fordismo",
+          "done": false
+        },
+        {
+          "name": "Analizzare il neo-fordismo (FIAT)",
+          "done": false
+        },
+        {
+          "name": "Approfondire la specializzazione flessibile e i Distretti Industriali",
+          "done": false
+        },
+        {
+          "name": "Studiare la lean production (modello Toyota)",
+          "done": false
+        },
+        {
+          "name": "Analizzare la produzione personalizzata in grandi volumi",
+          "done": false
+        },
+        {
+          "name": "Studiare l'organizzazione nella quarta rivoluzione industriale",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Progetto USIL",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Preparare attività formativa iniziale",
+          "done": false
+        },
+        {
+          "name": "Organizzare visite nelle aziende",
+          "done": false
+        },
+        {
+          "name": "Condurre lavori di gruppo per soluzioni tecniche",
+          "done": false
+        },
+        {
+          "name": "Preparare presentazione finale delle proposte",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#f39c12",
+          "content": "Collaborazione tra studenti e delegati sindacali"
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Parte monografica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Approfondire i processi negoziali interni",
+          "done": false
+        },
+        {
+          "name": "Analizzare i processi negoziali tra organizzazioni",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122558_2417/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "da definire"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La verifica della preparazione degli studenti avverrà attraverso un esame scritto composto da circa 15 domande, sia aperte (la maggior parte) con spazio di risposta predefinito, sia chiuse, con risposte preordinate tra cui scegliere. Il peso, in punti, di ciascuna di esse dipende dell'importanza del tema trattato e dall'estensione della risposta attesa. Il punteggio finale (in trentesimi) sarà dato dalla somma dei punteggi parziali. La durata della prova scritta è di un'ora e quarantacinque minuti. Per ottenere la lode sarà necessario sostenere una breve prova orale integrativa volta ad approfondire la comprensione degli argomenti trattati nel compito e gli eventuali collegamenti con altri temi affrontati nel corso.Gli argomenti oggetto d'esame, per gli studenti frequentanti rifletteranno quelli affrontati durante il corso (comprese le lezioni previste nell'ambito del progetto USIL), mentre per gli studenti non frequentanti riguarderanno quelli trattati nei testi indicati in bibliografia. L’esame scritto è finalizzato a verificare non tanto la conoscenza mnemonica, ma la piena comprensione degli argomenti studiati, il corretto uso di concetti e teorie, le capacità critiche dello studente. Per il superamento dell’esame è necessario un corretto utilizzo della terminologia propria della disciplina e una chiara e sintetica esposizione degli argomenti affrontati che sappia evidenziare, dove necessario, i collegamenti tra di essi.La partecipazione attiva al progetto USIL ed alle simulazioni negoziali darà adito ad un bonus, in termini di punti (max. 4), che concorrerà alla valutazione finale dello studente."
+    }
+  ]
+}

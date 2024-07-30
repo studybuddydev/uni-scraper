@@ -1,0 +1,164 @@
+{
+  "name": "SCIENZA E TECNOLOGIA DEI MATERIALI",
+  "id": "unibsA003453",
+  "icon": "mdi-book-open",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "I - Nozioni di Scienza dei Materiali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Classificazione e proprietà delle principali classi di materiali ingegneristici",
+          "done": false
+        },
+        {
+          "name": "Struttura dei materiali",
+          "done": false
+        },
+        {
+          "name": "Caratterizzazione meccanica dei materiali",
+          "done": false
+        },
+        {
+          "name": "Correlazione tra proprietà meccaniche e struttura",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare la classificazione tradizionale dei materiali ingegneristici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "II - Materiali Ceramici e Vetri",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Proprietà termo-meccaniche dei ceramici",
+          "done": false
+        },
+        {
+          "name": "Ceramici tradizionali",
+          "done": false
+        },
+        {
+          "name": "Ceramici avanzati",
+          "done": false
+        },
+        {
+          "name": "Ceramici refrattari",
+          "done": false
+        },
+        {
+          "name": "Processi di formatura dei ceramici",
+          "done": false
+        },
+        {
+          "name": "Abrasivi",
+          "done": false
+        },
+        {
+          "name": "Leganti",
+          "done": false
+        },
+        {
+          "name": "Vetri e vetroceramici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Rivedere il comportamento meccanico a trazione e compressione dei ceramici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "III - Materiali Polimerici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Struttura delle macromolecole polimeriche",
+          "done": false
+        },
+        {
+          "name": "Principali tipologie di materiali polimerici",
+          "done": false
+        },
+        {
+          "name": "Polimeri amorfi e semicristallini",
+          "done": false
+        },
+        {
+          "name": "Comportamento meccanico dei polimeri",
+          "done": false
+        },
+        {
+          "name": "Processi di trasformazione dei polimeri",
+          "done": false
+        },
+        {
+          "name": "Proprietà e applicazioni di alcune classi di polimeri industriali",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Verificare le differenze tra polimeri amorfi e semicristallini."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "IV - Materiali Compositi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione ai materiali compositi",
+          "done": false
+        },
+        {
+          "name": "Principali famiglie di fibre per compositi",
+          "done": false
+        },
+        {
+          "name": "Fabbricazione dei materiali compositi a matrice polimerica",
+          "done": false
+        },
+        {
+          "name": "Alcune proprietà dei compositi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare la previsione della densità nei compositi."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115530_19355/2022/8110/81?coorte=2022&schemaid=2808"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Callister Jr W.D., Rethwisch W.G., Scienza e Ingegneria dei Materiali, EdiSES, Napoli, 4a edizione, 2019.Smith W.F., Hashemi J., Scienza e tecnologia dei materiali, McGraw Hill, Milano, 5° edizione, 2021."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La verifica dell’apprendimento viene effettuata mediante una prova scritta, della durata di 1 ora. La prova comprende due gruppi di domande. Il primo è costituito da 12-15 domande a risposta chiusa. Il secondo è costituito da 3-4 domande a risposta aperta. Per ogni domanda è indicato il massimo punteggio ottenibile. In caso di errore in una domanda a risposta chiusa viene applicata una penalità pari al 30% del punteggio assegnato alla domanda. A seconda del test, il massimo punteggio ottenibile nelle domande a risposta chiusa è compreso tra 15 e 17 punti, mentre quello ottenibile nelle domande a risposta aperta varia tra 14 e 16 punti. Per superare l’esame l’allievo deve superare, per entrambi i gruppi di domande, un punteggio di soglia pari al 40% del punteggio massimo ottenibile. Inoltre, il punteggio totale deve essere maggiore o uguale a 18."
+    }
+  ]
+}

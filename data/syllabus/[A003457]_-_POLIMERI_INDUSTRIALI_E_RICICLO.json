@@ -1,0 +1,164 @@
+{
+  "name": "POLIMERI INDUSTRIALI E RICICLO",
+  "id": "unibsA003457",
+  "icon": "mdi-chemical-weapon",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "Polimeri termoplastici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Poliolefine: PE, PP; PS e polimeri con PS: SAN, HIPS, ABS",
+          "done": false
+        },
+        {
+          "name": "Polimeri vinilici: PVC, PVAc, PVA, EVA, EVAL",
+          "done": false
+        },
+        {
+          "name": "Polimeri florurati: PTFE, PVDF",
+          "done": false
+        },
+        {
+          "name": "Polimeri acrilici: PMMA, AMMA",
+          "done": false
+        },
+        {
+          "name": "PC, PC copolimeri e PC blends",
+          "done": false
+        },
+        {
+          "name": "Poliammidi e Poliammidi aromatiche",
+          "done": false
+        },
+        {
+          "name": "Poliesteri aromatici: PET, PEN, PBT",
+          "done": false
+        },
+        {
+          "name": "Fibre sintetiche da polimeri di addizione",
+          "done": false
+        },
+        {
+          "name": "Polieteri e polieterchetoni: PPE, PPO, PAEK, PEK",
+          "done": false
+        },
+        {
+          "name": "Il POM",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Polimeri termoindurenti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Resine epossidiche",
+          "done": false
+        },
+        {
+          "name": "Resine poliestere",
+          "done": false
+        },
+        {
+          "name": "Resine poliuretaniche rigide e flessibili",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Durabilità dei polimeri industriali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Meccanismi di degradazione termica",
+          "done": false
+        },
+        {
+          "name": "Meccanismi di degradazione fotochimica",
+          "done": false
+        },
+        {
+          "name": "Meccanismi di degradazione ossidativa nei polimeri",
+          "done": false
+        },
+        {
+          "name": "Additivi per la stabilizzazione",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Tecnologie di riciclo e valorizzazione dei rifiuti plastici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Il riciclo meccanico e le problematiche connesse",
+          "done": false
+        },
+        {
+          "name": "Blending reattivo e compounding",
+          "done": false
+        },
+        {
+          "name": "Tecniche di separazione e di miscelazione",
+          "done": false
+        },
+        {
+          "name": "Compatibilità fra i polimeri",
+          "done": false
+        },
+        {
+          "name": "Il riciclo chimico: depolimerizzazione, degradazione chimica",
+          "done": false
+        },
+        {
+          "name": "Recupero energetico e i termovalorizzatori",
+          "done": false
+        },
+        {
+          "name": "Esempi: il PET, la gomma",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Bioplastiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Strutture polimeriche biodegradabili",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108541_19381/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "H. Saechtling \"Manuale delle Materie Plastiche\" Tecniche Nuove;Francesco La Mantia \"Handbook of Plastics Recycling\" Rapra Technology;S. Bruckner, G.Allegra, M.Pegoraro, F.P.La Mantia \"Scienza e Tecnologia dei materiali polimerici\", EdiSES srl (2015);Materiale vario sarà fornito dal docente durante il corso."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel programma del corso e la capacità di utilizzare le conoscenze teoriche per la soluzione di problemi applicativi. L’esame è costituito da due prove scritte che riguardano rispettivamente la prima e la seconda parte del corso. Tali prove possono essere svolte negli appelli ufficiali d’esame oppure in itinere, precisamente a metà e a fine corso. Le valutazioni sono espresse in trentesimi ed hanno ugual peso ai fini della determinazione del voto finale. Ognuna delle prove scritte è articolata in 10-11 domande brevi a risposta multipla e 1-2 domande estese. Ogni prova scritta è considerata sufficiente con una votazione di almeno 18/30 e ha una validità pari al corrente anno accademico.In caso di pandemia e obbligo di prove online, gli esami scritti possono essere sostituiti da esami orali, precisamente 2 prove di circa 15 minuti se in itinere a metà e fine corso, oppure un esame unico della durata di circa 30 minuti negli appelli ufficiali."
+    }
+  ]
+}

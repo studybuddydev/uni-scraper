@@ -1,0 +1,271 @@
+{
+  "name": "FONDERIA",
+  "id": "unibsA000298",
+  "icon": "mdi-book",
+  "color": "#56a3a5",
+  "chapters": [
+    {
+      "name": "La Solidificazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Fondamenti di nucleazione e dell'accrescimento",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare il processo di solidificazione e le sue fasi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Forni Fusori e Forni d'Attesa",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Tipologie di forni fusori",
+          "done": false
+        },
+        {
+          "name": "Forni di mantenimento",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Confrontare i vari tipi di forni e i loro usi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Colata in Sabbia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata in sabbia",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Analizzare i materiali utilizzati nella colata in sabbia."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Formatura Anime",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Hot box",
+          "done": false
+        },
+        {
+          "name": "Cold box",
+          "done": false
+        },
+        {
+          "name": "Warm box",
+          "done": false
+        },
+        {
+          "name": "Shell moulding",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Lost Foam",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata in sabbia non legata",
+          "done": false
+        },
+        {
+          "name": "Materiali utilizzati e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Colata a Cera Persa",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo di colata a cera persa",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Investment Casting",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata in guscio",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Colata in Conchiglia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata in gravità",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Colata in Bassa Pressione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata in bassa pressione",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Pressocolata",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di pressocolata",
+          "done": false
+        },
+        {
+          "name": "Ciclo di lavoro",
+          "done": false
+        },
+        {
+          "name": "Sicurezza dell'isola di pressocolata",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Colata Centrifuga",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti di colata centrifuga",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Solidificazione Direzionale o Monocristallina",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Modalità di ottenimento di getti single crystal o direzionale",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Tecnologie Innovative",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Squeeze casting",
+          "done": false
+        },
+        {
+          "name": "Thixocasting",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Simulazione dei Processi di Fonderia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Principi di simulazione del riempimento",
+          "done": false
+        },
+        {
+          "name": "Esercitazioni con software ad elementi finiti",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122543_10167/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Verranno fornite dispense durante il corso (disponibili in rete su Moodle).Possono essere considerati di supporto i seguenti testi:1) Casting / D. M. Stefanescu ... [et al.]. - 9. ed. - Metals park : ASM international - ISBN 08-7170-021-2;2) Fundamentals of solidification, W. Kurz, Fisher, Trans Tech Publications, cap.1-5 - ISBN-10: 0878498044;3) Solidification and casting / edited by Brian Cantor and Keyna O'Reilly, Institute of physics publishing - ISBN 07-503-0843-5.ATTENZIONE: i testi consigliati (disponibili nelle biblioteche di Ateneo) contengono solo parzialmente quello che viene spiegato a lezione.Per lo studio del corso si suggerisce caldamente di fare riferimento ai lucidi resi disponibili sul sito di e-learning agli iscritti al corso.NON FREQUENTANTI: si consiglia di contattare la docente per ulteriori delucidazioni sul programma del corso.Per ogni informazione contattare la docente: annalisa.pola@unibs.it tel. 030.3715576"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La verifica dell'apprendimento consiste in una prova orale sui contenuti del corso trattati a lezione ed acquisiti durante le visite didattiche in fonderie, preceduta dalla discussione di una relazione tecnica riportante un'analisi critica dei risultati di una delle simulazioni effettuate durante le esercitazioni da consegnare 5 giorni prima della dalla dell'appello. Durante l'esame orale verrà inoltre verificata la capacità di utilizzo del software di simulazione dei processi di fonderia fornito durante il corso."
+    }
+  ]
+}

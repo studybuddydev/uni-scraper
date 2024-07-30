@@ -1,0 +1,114 @@
+{
+  "name": "LABORATORIO CAD",
+  "id": "unibsA003455",
+  "icon": "mdi-cog",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "Introduzione al CAD parametrico",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comprendere l'uso del CAD parametrico",
+          "done": false
+        },
+        {
+          "name": "Installare il software Solidworks",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Modellazione di parti con Solidworks",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Creare un modello di parte semplice",
+          "done": false
+        },
+        {
+          "name": "Applicare tolleranze geometriche e dimensioni",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Praticare la creazione di parti utilizzando diversi strumenti di modellazione."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Modellazione di assiemi con Solidworks",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Costruire un assieme semplice",
+          "done": false
+        },
+        {
+          "name": "Gestire le relazioni tra le parti",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Realizzazione di disegni esecutivi con Solidworks",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generare un disegno esecutivo da un modello 3D",
+          "done": false
+        },
+        {
+          "name": "Aggiungere annotazioni e tolleranze geometriche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Familiarizzarsi con le norme di disegno tecnico."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Utilizzo di moduli software aggiuntivi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Scoprire i moduli software aggiuntivi disponibili",
+          "done": false
+        },
+        {
+          "name": "Esplorare l'uso di Paperless",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108540_19377/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Appunti del corso, manuali di riferimento del sistema CAD adottato dallo studente."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Prova orale (o test finale) in cui lo studente dovrà dimostrare di aver appreso la capacità di utilizzare il CAD parametrico, a seguito dell'esecuzione e consegna degli elaborati assegnati durante il corso."
+    }
+  ]
+}

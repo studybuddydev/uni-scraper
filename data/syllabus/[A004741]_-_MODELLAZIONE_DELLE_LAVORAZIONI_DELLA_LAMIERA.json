@@ -1,0 +1,162 @@
+{
+  "name": "MODELLAZIONE DELLE LAVORAZIONI DELLA LAMIERA",
+  "id": "unibsA004741",
+  "icon": "mdi-book-open",
+  "color": "#3cba54",
+  "chapters": [
+    {
+      "name": "Concetti base della teoria della plasticità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comportamento plastico dei materiali",
+          "done": false
+        },
+        {
+          "name": "Criteri di plasticizzazione",
+          "done": false
+        },
+        {
+          "name": "Legami tensioni deformazioni in campo plastico",
+          "done": false
+        },
+        {
+          "name": "Teoremi energetici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on the energy principles."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Laminazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generalità sulla laminazione piana",
+          "done": false
+        },
+        {
+          "name": "Vari tipi di laminazione",
+          "done": false
+        },
+        {
+          "name": "Aspetti economici della laminazione",
+          "done": false
+        },
+        {
+          "name": "Attrezzature per laminazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand types and economic impact."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Metodi per valutare la formabilità delle lamiere",
+      "showTasks": true,
+      "tasks": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review the testing techniques."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Lavorazioni Lamiera",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Stampaggio lamiera",
+          "done": false
+        },
+        {
+          "name": "Tranciatura",
+          "done": false
+        },
+        {
+          "name": "Tranciatura fine",
+          "done": false
+        },
+        {
+          "name": "Piegatura",
+          "done": false
+        },
+        {
+          "name": "Valutazione del ritorno elastico",
+          "done": false
+        },
+        {
+          "name": "Imbutitura",
+          "done": false
+        },
+        {
+          "name": "Applicazioni speciali delle lavorazioni della lamiera",
+          "done": false
+        },
+        {
+          "name": "Formatura Incrementale",
+          "done": false
+        },
+        {
+          "name": "Idroformatura",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Look into applications and innovations in sheet processing."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Macchine per le Lavorazioni Lamiera",
+      "showTasks": true,
+      "tasks": [],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Casi pratici di simulazione di processi con Programmi FEM 2D e 3D",
+      "showTasks": true,
+      "tasks": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Explore practical cases using FEM simulations."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122554_23151/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Slides del corso."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM."
+    }
+  ]
+}

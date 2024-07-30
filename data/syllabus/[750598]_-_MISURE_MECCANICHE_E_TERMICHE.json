@@ -1,0 +1,144 @@
+{
+  "name": "MISURE MECCANICHE E TERMICHE",
+  "id": "unibs750598",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#5a8e3c",
+  "chapters": [
+    {
+      "name": "Metodi Matematici per la gestione delle Misure",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Calcolo delle Probabilità (cenni)",
+          "done": false
+        },
+        {
+          "name": "Introduzione alla statistica",
+          "done": false
+        },
+        {
+          "name": "Variabili casuali",
+          "done": false
+        },
+        {
+          "name": "Media, Varianza",
+          "done": false
+        },
+        {
+          "name": "Distribuzioni discrete",
+          "done": false
+        },
+        {
+          "name": "Distribuzioni continue",
+          "done": false
+        },
+        {
+          "name": "Trasformazione di variabili casuali",
+          "done": false
+        },
+        {
+          "name": "Variabili casuali a più dimensioni",
+          "done": false
+        },
+        {
+          "name": "Inferenza Statistica",
+          "done": false
+        },
+        {
+          "name": "Stima per intervalli",
+          "done": false
+        },
+        {
+          "name": "Regressione lineare",
+          "done": false
+        },
+        {
+          "name": "Anova",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Metrologia Generale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione alla metrologia",
+          "done": false
+        },
+        {
+          "name": "Sistema Internazionale",
+          "done": false
+        },
+        {
+          "name": "Incertezza - UNI/ISO 13005",
+          "done": false
+        },
+        {
+          "name": "Caratteristiche statiche degli strumenti di misura",
+          "done": false
+        },
+        {
+          "name": "Caratteristiche dinamiche degli strumenti di misura",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Sistemi di Misura in ambito industriale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Misure di Grandezze Meccaniche e Termiche di interesse industriale",
+          "done": false
+        },
+        {
+          "name": "Metrologia dimensionale",
+          "done": false
+        },
+        {
+          "name": "Misure di Posizione e di accelerazione. Vibrazioni",
+          "done": false
+        },
+        {
+          "name": "Misure di Deformazione",
+          "done": false
+        },
+        {
+          "name": "Misure di Forza",
+          "done": false
+        },
+        {
+          "name": "Misure di Pressione e Velocità dei fluidi",
+          "done": false
+        },
+        {
+          "name": "Misure di Temperatura",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108537_1728/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "- G. Vicario, R. Levi, Statistica e probabilità per ingegneri, Esculapio (Bologna)- D. Montgomery, G. Runger, N. Hubele, Statistica per Ingegneria, Egea- G. Barbato, Misurare per decidere, Esculapio (Bologna)- E. O. Doebelin Measurement system, application and design McGraw-Hill Publishing Company.- E. O. Doebelin Strumenti e metodi di misura, McGraw-Hill"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La valutazione sarà effettuata con una prova scritta e una orale, eventualmente sostituita da una seconda prova scritta.Saranno proposte durante il corso anche attività individuale di esercitazione."
+    }
+  ]
+}

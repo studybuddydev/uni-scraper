@@ -1,0 +1,94 @@
+{
+  "name": "GESTIONE INDUSTRIALE DELLA QUALITA  CON LABORATORIO",
+  "id": "unibsA003489",
+  "icon": "mdi-book-open-outline",
+  "color": "#4caf50",
+  "chapters": [
+    {
+      "name": "Corso di Gestione Industriale della Qualità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Quality Management",
+          "done": false
+        },
+        {
+          "name": "Tecniche per il miglioramento",
+          "done": false
+        },
+        {
+          "name": "Il sistema normativo internazionale",
+          "done": false
+        },
+        {
+          "name": "Qualità negli approvvigionamenti e valutazione fornitori",
+          "done": false
+        },
+        {
+          "name": "I costi della non qualità",
+          "done": false
+        },
+        {
+          "name": "Esercitazioni numeriche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Contenuti del Corso di Gestione Industriale della Qualità"
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Corso di Laboratorio di Gestione Industriale della Qualità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Piani di campionamento",
+          "done": false
+        },
+        {
+          "name": "Qualità nella progettazione",
+          "done": false
+        },
+        {
+          "name": "QFD",
+          "done": false
+        },
+        {
+          "name": "DOE",
+          "done": false
+        },
+        {
+          "name": "Esercitazioni numeriche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Contenuti del Corso di Laboratorio di Gestione Industriale della Qualità"
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122548_19455/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "D.C. Montgomery, Controllo Statistico della Qualità, McGraw-Hill, 2005Slide del corso"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Esercizi numerici sui temi trattati e domande di teoria"
+    }
+  ]
+}

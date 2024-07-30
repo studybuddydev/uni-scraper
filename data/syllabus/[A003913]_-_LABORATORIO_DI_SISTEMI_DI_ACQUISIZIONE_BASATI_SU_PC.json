@@ -1,0 +1,227 @@
+{
+  "name": "LABORATORIO DI SISTEMI DI ACQUISIZIONE BASATI SU PC",
+  "id": "unibsA003913",
+  "icon": "mdi-file-document",
+  "color": "#6a1b9a",
+  "chapters": [
+    {
+      "name": "Introduzione al Dataflow",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare il concetto di Dataflow",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Introduzione fondamentale al flusso dei dati in Labview."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Strutture di Controllo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare le diverse strutture di controllo",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus su loop e condizioni di selezione."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Subvi, Errori e Temporizzazioni",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comprendere l'uso dei Subvi",
+          "done": false
+        },
+        {
+          "name": "Studiare la gestione degli errori",
+          "done": false
+        },
+        {
+          "name": "Esplorare le tecniche di temporizzazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "I Subvi sono fondamentali per l'organizzazione del codice."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Architetture di Sviluppo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare Master/Slave",
+          "done": false
+        },
+        {
+          "name": "Studiare Consumer/Producer",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per comprendere l'architettura delle applicazioni."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Acquisire in Digitale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare Aliasing, Leakage e Risoluzione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Concetti chiave per l'acquisizione di dati di qualità."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Salvataggio Dati, Archivi e Streaming",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Esplorare le tecniche di salvataggio dati",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Comprendere le diverse modalità di archiviazione."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Progettazione e Sviluppo di DAQ su PC",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare la progettazione di sistemi DAQ",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per l'applicazione pratica nei sistemi di acquisizione."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Breve Introduzione alla Programmazione in Labview",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Acquisire concetti base di programmazione in Labview",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Fondamentale per la comprensione delle esercitazioni pratiche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Caratteristiche dei Sistemi di Acquisizione Basati su PC",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le caratteristiche dei sistemi di acquisizione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per capire le applicazioni pratiche e teoriche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Casi Pratici e Scelte di Sviluppo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare casi pratici di acquisizione dati",
+          "done": false
+        },
+        {
+          "name": "Valutare le scelte di sviluppo",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Essenziale per applicare la teoria alla pratica."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Esercitazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Completare l'esercitazione pratica",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Applicare ciò che si è appreso nel corso."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122533_20545/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Appunti delle lezioni, applet, materiale in rete"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Lo studente verrà valutato tramite lo svolgimento pratico di un esercizio finale, da svolgere in autonomia. L'esercizio prevede una parte scritta in cui viene simulato un caso di misura pratico, ed una parte pratica da svolgere in laboratorio al pc su un caso di misura semplificato."
+    }
+  ]
+}

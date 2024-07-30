@@ -1,0 +1,239 @@
+{
+  "name": "MECCANICA RAZIONALE",
+  "id": "unibs703039",
+  "icon": "mdi-mechanical-arm",
+  "color": "#4A90E2",
+  "chapters": [
+    {
+      "name": "Cinematica dei sistemi materiali e moti relativi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Moto di un punto: velocità ed accelerazione",
+          "done": false
+        },
+        {
+          "name": "Moti particolari (piano, centrale, circolare, armonico, ecc.)",
+          "done": false
+        },
+        {
+          "name": "Vincoli e sistemi olonomi",
+          "done": false
+        },
+        {
+          "name": "Cinematica dei sistemi rigidi",
+          "done": false
+        },
+        {
+          "name": "Angoli di Eulero",
+          "done": false
+        },
+        {
+          "name": "Atto di moto rigido",
+          "done": false
+        },
+        {
+          "name": "Formule di Poisson",
+          "done": false
+        },
+        {
+          "name": "Teorema di Mozzi con applicazioni",
+          "done": false
+        },
+        {
+          "name": "Cinematica dei moti relativi",
+          "done": false
+        },
+        {
+          "name": "Moti rigidi piani con esempi",
+          "done": false
+        },
+        {
+          "name": "Traiettorie polari: base e rulletta",
+          "done": false
+        },
+        {
+          "name": "Moto di un corpo rigido con punto fisso: coni di Poinsot",
+          "done": false
+        },
+        {
+          "name": "Moti di precessione regolare",
+          "done": false
+        }
+      ],
+      "postIts": {
+        "color": "#FFEA00",
+        "content": "Segmento di studio cosiddetto 'Cinematica' evidenzia le leggi di movimento e vincoli associati."
+      },
+      "links": []
+    },
+    {
+      "name": "Principi ed equazioni fondamentali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Massa, forza e leggi di Newton",
+          "done": false
+        },
+        {
+          "name": "Proprietà dei sistemi inerziali",
+          "done": false
+        },
+        {
+          "name": "Forze costitutive e lavoro",
+          "done": false
+        },
+        {
+          "name": "Principio di Dissipazione dell'Energia Meccanica",
+          "done": false
+        },
+        {
+          "name": "Forze conservative e potenziali",
+          "done": false
+        },
+        {
+          "name": "Equazioni differenziali del moto",
+          "done": false
+        },
+        {
+          "name": "Principio delle Reazioni Vincolari",
+          "done": false
+        },
+        {
+          "name": "Teoremi della quantità di moto",
+          "done": false
+        },
+        {
+          "name": "Teorema di conservazione dell'energia meccanica",
+          "done": false
+        },
+        {
+          "name": "Integrali primi del moto",
+          "done": false
+        }
+      ],
+      "postIts": {
+        "color": "#FF6F00",
+        "content": "Concentrarsi sui principi classici della meccanica per comprendere le forze in gioco."
+      },
+      "links": []
+    },
+    {
+      "name": "Geometria delle masse e grandezze cinetiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Nozioni elementari sui vettori applicati",
+          "done": false
+        },
+        {
+          "name": "Baricentri e loro proprietà",
+          "done": false
+        },
+        {
+          "name": "Espressione della quantità di moto",
+          "done": false
+        },
+        {
+          "name": "Teoremi di Koenig",
+          "done": false
+        },
+        {
+          "name": "Espressione dell'energia cinetica e del momento della quantità di moto",
+          "done": false
+        },
+        {
+          "name": "Teorema di Huygens-Steiner",
+          "done": false
+        }
+      ],
+      "postIts": {
+        "color": "#3B9BD5",
+        "content": "Approfondire le relazioni tra geometria e dinamica dei corpi."
+      },
+      "links": []
+    },
+    {
+      "name": "Equazioni cardinali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Equazioni cardinali per sistemi materiali rigidi",
+          "done": false
+        },
+        {
+          "name": "Caratterizzazione delle reazioni di alcuni vincoli",
+          "done": false
+        },
+        {
+          "name": "Statica dei corpi rigidi con applicazioni",
+          "done": false
+        },
+        {
+          "name": "Dinamica dei sistemi materiali rigidi con applicazioni",
+          "done": false
+        }
+      ],
+      "postIts": {
+        "color": "#FF4081",
+        "content": "Fondamento della rigidità nei sistemi meccanici e loro applicazioni pratiche."
+      },
+      "links": []
+    },
+    {
+      "name": "Cenni di meccanica analitica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Relazione simbolica della dinamica",
+          "done": false
+        },
+        {
+          "name": "Principe di D'Alembert",
+          "done": false
+        },
+        {
+          "name": "Relazione simbolica della statica",
+          "done": false
+        },
+        {
+          "name": "Principio dei Lavori Virtuali",
+          "done": false
+        },
+        {
+          "name": "Condizioni di equilibrio per un sistema olonomo",
+          "done": false
+        },
+        {
+          "name": "Equazioni di Lagrange per sistemi olonomi",
+          "done": false
+        },
+        {
+          "name": "Sistemi olonomi conservativi e funzione di Lagrange",
+          "done": false
+        }
+      ],
+      "postIts": {
+        "color": "#8E24AA",
+        "content": "Esplorazione di concetti avanzati in meccanica per una comprensione analitica dei sistemi."
+      },
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115529_501/2022/8110/81?coorte=2022&schemaid=2808"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "- M. Fabrizio, Elementi di Meccanica Classica, seconda edizione, Zanichelli, Bologna, 2002 (ISBN 978 88 08 08885 7).- P. Biscari , T. Ruggeri , G. Saccomandi , M. Vianello, Meccanica Razionale, quarta edizione, UNITEXT, Springer Milano, 2022 (ISBN 978-88-470-4017-5).- F. Brini, A. Muracchini, T. Ruggeri, L. Seccia, Esercizi e Temi d'esame di Meccanica Razionale, Società Editrice Esculapio, Bologna, 2019, quinta edizione, (ISBN 978 88 93 85118 3)."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso."
+    }
+  ]
+}

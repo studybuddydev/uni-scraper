@@ -1,0 +1,58 @@
+{
+  "name": "GESTIONE DELLA PRODUZIONE",
+  "id": "unibsU8862",
+  "icon": "mdi-book-open-variant",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "Ergonomia e Sicurezza",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Rivedere la documentazione sul modulo di Ergonomia e Sicurezza",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Controllare le normative sulla sicurezza e sull'ergonomia."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Gestione della Produzione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Rivedere la documentazione sul modulo di Gestione della Produzione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Assicurarsi di comprendere i concetti chiave di gestione e produzione."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122544_897/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione."
+    }
+  ]
+}

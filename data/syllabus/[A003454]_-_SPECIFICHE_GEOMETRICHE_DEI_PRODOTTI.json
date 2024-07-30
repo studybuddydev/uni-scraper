@@ -1,0 +1,89 @@
+{
+  "name": "SPECIFICHE GEOMETRICHE DEI PRODOTTI",
+  "id": "unibsA003454",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#7fbcf2",
+  "chapters": [
+    {
+      "name": "Tolleranze Geometriche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Specificazioni Geometriche dei Prodotti",
+          "done": false
+        },
+        {
+          "name": "Nuove norme per le dimensioni lineari",
+          "done": false
+        },
+        {
+          "name": "Linguaggio GPS/GD&T secondo le norme ISO e ASME",
+          "done": false
+        },
+        {
+          "name": "Interdipendenza fra dimensioni e forma",
+          "done": false
+        },
+        {
+          "name": "Classificazione delle tolleranze geometriche",
+          "done": false
+        },
+        {
+          "name": "Indicazione delle tolleranze geometriche sui disegni",
+          "done": false
+        },
+        {
+          "name": "Riferimenti",
+          "done": false
+        },
+        {
+          "name": "Tolleranze di forma",
+          "done": false
+        },
+        {
+          "name": "Tolleranze di orientamento",
+          "done": false
+        },
+        {
+          "name": "Tolleranze di posizione",
+          "done": false
+        },
+        {
+          "name": "Tolleranze sui profili",
+          "done": false
+        },
+        {
+          "name": "Tolleranze di oscillazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare le norme ISO e ASME per comprendere le specificazioni geometriche."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Focus sulle tolleranze di posizione per applicazioni pratiche."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108539_19375/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "E. Chirone, S. Tornincasa, Disegno tecnico industriale, vol. I e II, ed, Il Capitello, TorinoTesti ausiliari: M1, Norme per il disegno tecnico, UNI, Milano"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame consiste in tre prove: consegna dell'Eserciziario d'Esame, svolgimento di prove grafiche a risposta aperta e quesiti a risposta multipla, quotatura secondo le norme GPS di una tavola quotata in modo pre-GPS. Si supera l'esame se tutte le prove sono sufficienti. Per essere ammessi alle prove, è necessario essere iscritti all'appello per quella data. Per essere ammessi alle due prove successive alla prima, è necessario avere consegnato l'Eserciziario d'Esame. Nella pagina e-learning dell'insegnamento sono presenti temi d'esame, svolti e commentati, e la procedura d'esame dettagliata."
+    }
+  ]
+}

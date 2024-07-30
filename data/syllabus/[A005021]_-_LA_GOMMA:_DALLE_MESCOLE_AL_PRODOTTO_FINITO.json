@@ -1,0 +1,205 @@
+{
+  "name": "LA GOMMA  DALLE MESCOLE AL PRODOTTO FINITO",
+  "id": "unibsA005021",
+  "icon": "mdi-rubber",
+  "color": "#4caf50",
+  "chapters": [
+    {
+      "name": "Introduzione alla scienza e tecnologia della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Composizione e selezione di una mescola di gomma",
+          "done": false
+        },
+        {
+          "name": "Caratterizzazione delle proprietà fisico-meccaniche delle gomme",
+          "done": false
+        },
+        {
+          "name": "Tecnologie di produzione di manufatti in gomma",
+          "done": false
+        },
+        {
+          "name": "Esempi di utilizzo della gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare le applicazioni pratiche: pneumatici e sistemi di tenuta."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Tipologie di materiali elastomerici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Principali tipologie di materiali elastomerici presenti sul mercato",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Esaminare le caratteristiche specifiche di ciascun materiale elastomerico."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Sistemi di vulcanizzazione e cariche rinforzanti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sistemi di vulcanizzazione",
+          "done": false
+        },
+        {
+          "name": "Cariche rinforzanti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per comprendere la resistenza e la durabilità delle gomme."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Criteri di selezione degli ingredienti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Criteri di selezione in funzione dell’applicazione finale",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Analizzare come la selezione degli ingredienti influisce sul rendimento finale."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà termo-meccaniche della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Proprietà delle mescole crude",
+          "done": false
+        },
+        {
+          "name": "Elasticità della gomma",
+          "done": false
+        },
+        {
+          "name": "Comportamento meccanico a medie e grandi deformazioni",
+          "done": false
+        },
+        {
+          "name": "Proprietà di resistenza ambientale della gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Rivedere le teorie sulla reologia e le deformazioni elastiche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Processi di trasformazione della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processi di trasformazione della gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare i vari metodi di lavorazione della gomma."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Applicazioni ingegneristiche della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Case studies: sistemi di tenuta e pneumatici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Approfondire i case studies per comprendere meglio le applicazioni ingegneristiche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Riciclo della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Cenni sul riciclo della gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Analizzare le tecniche moderne di riciclo della gomma."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Visita all'impianto di produzione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Visita a un impianto di produzione di articoli tecnici in gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Prepararsi per la visita, annotare domande."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122550_23979/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Appunti di lezione.Per approfondimenti:S.K. De, J.R. White, “Rubber Technologist’s Handbook”, Rapra Technology Limited, UK, 2001A. Ciesielski, “An Introduction to Rubber Technology”, Rapra Technology Limited, UK, 1999A.L. Gent,” Engineering with Rubber. How to Design Rubber Components”, Hanser, 2012.R. Brown, “Physical testing of rubber”, Springer, 2006."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare i concetti teorici appresi a casi applicativi pratici.L'esame consiste in una prova scritta, con un mix di domande aperte, chiuse, ed esercizi, in cui si valuterà la capacità di descrivere il comportamento fisico-meccanico di una gomma, di relazionarlo alla sua composizione, e di saperlo utilizzare per la scelta più idonea del processo produttivo.Necessario al superamento dell’esame è un corretto utilizzo della terminologia.L’esame orale è considerato sufficiente con una votazione di almeno 18/30."
+    }
+  ]
+}

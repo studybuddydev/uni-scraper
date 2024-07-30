@@ -1,0 +1,164 @@
+{
+  "name": "LABORATORIO DI TECNICHE COMPUTAZIONALI",
+  "id": "unibsA003912",
+  "icon": "mdi-book-open-variant",
+  "color": "#6a0dad",
+  "chapters": [
+    {
+      "name": "Numeri di macchina",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Rappresentazione dei numeri",
+          "done": false
+        },
+        {
+          "name": "Overflow, underflow e precisione di macchina",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Elementi di grafica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Rappresentazione di funzioni di una o due variabili",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Elementi di programmazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Istruzioni di controllo",
+          "done": false
+        },
+        {
+          "name": "Cicli",
+          "done": false
+        },
+        {
+          "name": "Programmi di tipo script e function",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Algebra lineare numerica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Array (vettori, matrici) e operazioni",
+          "done": false
+        },
+        {
+          "name": "Risoluzione di sistemi lineari",
+          "done": false
+        },
+        {
+          "name": "Calcolo di autovalori ed autovettori",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Approssimazione di funzioni e di dati",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Interpolazione polinomiale",
+          "done": false
+        },
+        {
+          "name": "Spline",
+          "done": false
+        },
+        {
+          "name": "Minimi quadrati lineari",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Processi iterativi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Iterazioni di punto fisso",
+          "done": false
+        },
+        {
+          "name": "Ricerca degli zeri di funzione reale di variabile reale",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Integrazione e derivazione numerica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Formule di quadratura semplici e composite",
+          "done": false
+        },
+        {
+          "name": "Grado di precisione e ordine di convergenza",
+          "done": false
+        },
+        {
+          "name": "Differenze finite",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Equazioni differenziali ordinarie",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Metodi di Eulero, di Crank-Nicolson e di Runge-Kutta",
+          "done": false
+        },
+        {
+          "name": "Uso dei solutori di Matlab per equazioni differenziali di qualunque ordine e per sistemi",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122535_20543/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Numerical Computing with MATLABby Cleve Molerhttps://it.mathworks.com/moler/chapters.html"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame consiste in una o più prove di Laboratorio durante le quali gli studenti risolvono alcuni semplici problemi usando i codici di calcolo predisposti durante il lavoro in Laboratorio.In ciascuna prova gli studenti dovranno risolvere 3 esercizi, la prova risulta superata se almeno due esercizi risultano sufficienti.A ciascun esercizio verrà dato un voto in trentesimi, il voto finale è ottenuto facendo la media dei voti in tutti gli esercizi."
+    }
+  ]
+}

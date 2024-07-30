@@ -1,0 +1,323 @@
+{
+  "name": "ACUSTICA AMBIENTALE E CONTROLLO DEL RUMORE INDUSTRIALE",
+  "id": "unibsA005739",
+  "icon": "mdi-sound-wave",
+  "color": "#5c8c2a",
+  "chapters": [
+    {
+      "name": "Natura del Suono e Grandezze Acustiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Pressione acustica",
+          "done": false
+        },
+        {
+          "name": "Densità acustica",
+          "done": false
+        },
+        {
+          "name": "Intensità acustica",
+          "done": false
+        },
+        {
+          "name": "Suoni puri e suoni complessi",
+          "done": false
+        },
+        {
+          "name": "Generazione del suono e propagazione",
+          "done": false
+        },
+        {
+          "name": "Equazioni di propagazione",
+          "done": false
+        },
+        {
+          "name": "Onde piane",
+          "done": false
+        },
+        {
+          "name": "Onde sferiche",
+          "done": false
+        },
+        {
+          "name": "Velocità di propagazione del suono",
+          "done": false
+        },
+        {
+          "name": "Interferenza di onde e onde stazionarie",
+          "done": false
+        },
+        {
+          "name": "Riflessione e rifrazione del suono",
+          "done": false
+        },
+        {
+          "name": "Diffrazione del suono",
+          "done": false
+        },
+        {
+          "name": "Effetto Doppler",
+          "done": false
+        },
+        {
+          "name": "Sorgente monopolo e dipolo",
+          "done": false
+        },
+        {
+          "name": "Sorgente lineare",
+          "done": false
+        },
+        {
+          "name": "Fattore di direttività e indice di direttività",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ffcc00",
+          "content": "Importante comprendere le differenze tra suoni puri e complessi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "L'Organo Uditivo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Orecchio esterno",
+          "done": false
+        },
+        {
+          "name": "Orecchio medio",
+          "done": false
+        },
+        {
+          "name": "Orecchio interno",
+          "done": false
+        },
+        {
+          "name": "Scale soggettive di percezione dei livelli sonori",
+          "done": false
+        },
+        {
+          "name": "Scala dei decibel e livelli sonori",
+          "done": false
+        },
+        {
+          "name": "Operazioni con i decibel",
+          "done": false
+        },
+        {
+          "name": "Scala dei phon",
+          "done": false
+        },
+        {
+          "name": "Audiogramma di Fletcher e Munson",
+          "done": false
+        },
+        {
+          "name": "Bande critiche e mascheramento",
+          "done": false
+        },
+        {
+          "name": "Ascolto binaurale",
+          "done": false
+        },
+        {
+          "name": "Danni uditivi ed extrauditivi da rumore",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Analisi in Frequenza dei Segnali Sonori",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Filtri di banda di ottava e frazione di banda di ottava",
+          "done": false
+        },
+        {
+          "name": "Misura del livello sonoro equivalente",
+          "done": false
+        },
+        {
+          "name": "Analisi statistica dei livelli sonori",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e67e22",
+          "content": "Studiare le diverse tecniche di analisi dei segnali per comprenderne l'importanza."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Propagazione del Suono",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Propagazione in campo libero",
+          "done": false
+        },
+        {
+          "name": "Leggi di propagazione per sorgenti puntiformi e lineari",
+          "done": false
+        },
+        {
+          "name": "Attenuazione del suono",
+          "done": false
+        },
+        {
+          "name": "Barriere acustiche",
+          "done": false
+        },
+        {
+          "name": "Propagazione in ambiente confinato",
+          "done": false
+        },
+        {
+          "name": "Campo riverberante e semi-riverberante",
+          "done": false
+        },
+        {
+          "name": "Tempo di riverberazione",
+          "done": false
+        },
+        {
+          "name": "Definizione e tecniche di misura",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Determinazione E Misure Acustiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Determinazione sperimentale della potenza sonora",
+          "done": false
+        },
+        {
+          "name": "Assorbimento, trasmissione sonora",
+          "done": false
+        },
+        {
+          "name": "Materiali porosi",
+          "done": false
+        },
+        {
+          "name": "Pannelli vibranti",
+          "done": false
+        },
+        {
+          "name": "Risonatori di Helmholtz",
+          "done": false
+        },
+        {
+          "name": "Frequenze naturali",
+          "done": false
+        },
+        {
+          "name": "Legge di massa",
+          "done": false
+        },
+        {
+          "name": "Frequenza di coincidenza",
+          "done": false
+        },
+        {
+          "name": "Isolamento acustico di pannelli doppi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#3498db",
+          "content": "Ricorda di rivedere le proprietà dei materiali acustici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Acustica Edilizia e Architettonica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Isolamento per via aerea",
+          "done": false
+        },
+        {
+          "name": "Isolamento di facciata",
+          "done": false
+        },
+        {
+          "name": "Isolamento di calpestio",
+          "done": false
+        },
+        {
+          "name": "Trasmissioni laterali",
+          "done": false
+        },
+        {
+          "name": "Parametri di qualità acustica",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Suono nei Condotti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Silenziatori reattivi",
+          "done": false
+        },
+        {
+          "name": "Camera di espansione",
+          "done": false
+        },
+        {
+          "name": "Risonatori a 1/4 di lunghezza d'onda",
+          "done": false
+        },
+        {
+          "name": "Risonatori di Helmholtz",
+          "done": false
+        },
+        {
+          "name": "Metodo della matrice di trasferimento",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_122537_26779/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "R. Spagnolo, a cura di, Acustica - Fondamenti e applicazioni, UTET, 2015.Materiale didattico distribuito dal docente."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L’esame si articola in una prova scritta di 180 minuti (cinque esercizi volti a verificare l’avvenuto apprendimento, la padronanza concettuale, la proprietà di linguaggio e la capacità d’interpretazione e di sintesi) e in un esame orale volto ad accertare la capacità di interpretazione e analisi dei fenomeni acustici. Entrambe le prove si fonderanno sui testi di riferimento indicati, senza differenze fra studenti frequentanti e non frequentanti. Le due prove verranno svolte in giorni differenti per permettere al docente di valutare tutti gli elaborati. La prova scritta verrà valutata con un punteggio compreso fra 0 e 30. La prova orale potrà aggiungere a quella scritta fino a 7 punti. È possibile sostenere l’esame orale avendo ottenuto almeno 17 punti alla prova scritta. Gli studenti che avranno ottenuto almeno 18/30 alla prova scritta potranno, se lo desiderano, rinunciare a sostenere la prova orale, registrando il voto dello scritto. Lo scritto ha una validità pari a 12 mesi."
+    }
+  ]
+}

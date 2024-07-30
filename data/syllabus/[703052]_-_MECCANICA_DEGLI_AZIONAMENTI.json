@@ -1,0 +1,156 @@
+{
+  "name": "MECCANICA DEGLI AZIONAMENTI",
+  "id": "unibs703052",
+  "icon": "mdi-tools",
+  "color": "#FF5733",
+  "chapters": [
+    {
+      "name": "Introduzione all'automazione nell'industria",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Automazione rigida e flessibile",
+          "done": false
+        },
+        {
+          "name": "Sistemi automatici",
+          "done": false
+        },
+        {
+          "name": "Integrazione delle tecnologie",
+          "done": false
+        },
+        {
+          "name": "Industria 4.0",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on the differences between rigid and flexible automation."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Azionamenti Elettrici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione agli azionamenti elettrici",
+          "done": false
+        },
+        {
+          "name": "Macchine elettriche",
+          "done": false
+        },
+        {
+          "name": "Problema termico delle macchine elettriche",
+          "done": false
+        },
+        {
+          "name": "Convertitori statici dell’energia elettrica",
+          "done": false
+        },
+        {
+          "name": "Accoppiamento motore-carico",
+          "done": false
+        },
+        {
+          "name": "Azionamenti elettrici: prestazioni ed esempi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review the characteristics and applications of electric drive systems."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Azionamenti Pneumatici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione alla tecnologia pneumatica",
+          "done": false
+        },
+        {
+          "name": "Componenti pneumatici",
+          "done": false
+        },
+        {
+          "name": "Tecnica circuitale pneumatica",
+          "done": false
+        },
+        {
+          "name": "Gestione dell’aria compressa",
+          "done": false
+        },
+        {
+          "name": "Cenni alle tecnologie elettro-pneumatica e proporzionale",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand the role of compressed air in pneumatic systems."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Azionamenti Oleodinamici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione alla tecnologia oleodinamica",
+          "done": false
+        },
+        {
+          "name": "Componenti oleodinamici",
+          "done": false
+        },
+        {
+          "name": "Fluidi impiegati nei sistemi oleodinamici",
+          "done": false
+        },
+        {
+          "name": "Circuiti elementari oleodinamici",
+          "done": false
+        },
+        {
+          "name": "Confronto delle tecnologie di potenza",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review the functional comparison of electric, pneumatic, and hydraulic drives."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122552_1322/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Slides del docente che coprono tutti gli argomenti del corso.Testo di approfondimento consigliato:Legnani, M. Tiboni, R. Adamini, D. Tosi, \"Meccanica degli azionamenti-Azionamenti Elettrici\", Editrice Esculapio Bologna, edizione Marzo 2016, ISBN 9788874889525: per la parte relativa agli azionamenti elettriciDispense fornite dal docente relativamente ad azionamenti pneumatici ed oleodinamici."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La verifica di conoscenze e competenze acquisite consiste in:- prova scritta composta da 7 esercizi per verificare le competenze acquisite nella risoluzione di esercizi numerici su tematiche di progettazione e funzionamento di sistemi di azionamento. In dettaglio, sarà composta da un esercizio per ciascuno dei seguenti argomenti: azionamenti con motore asincrono trifase (5 punti), azionamenti con motore corrente continua (5 punti), azionamenti con motore brushless (6 punti), azionamenti con motore passo (4 punti),problema termico (3 punti), circuito pneumatico (4 punti) e circuito oleodinamico (4 punti).- prova orale: il cui obiettivo è verificare le conoscenze sugli aspetti teorici dei sistemi di azionamento. La prova orale può essere sostituita da un Test a risposte chiuse sugli argomenti teorici del corso. Si possono fare la parte teorica e la parte di esercizi in sessioni d'appello diverse. Il voto finale sarà la media tra i voti conseguiti nelle due prove. Il voto è espresso in trentesimi. Chi ha risposto ai quesiti proposti su Moodle durante il corso entro una data prestabilita avrà un incremento al voto finale variabile tra 1 e 3 punti."
+    }
+  ]
+}

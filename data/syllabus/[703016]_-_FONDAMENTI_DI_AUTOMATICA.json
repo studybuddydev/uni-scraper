@@ -1,0 +1,352 @@
+{
+  "name": "FONDAMENTI DI AUTOMATICA",
+  "id": "unibs703016",
+  "icon": " mdi-signal-variant",
+  "color": "#3f51b5",
+  "chapters": [
+    {
+      "name": "Introduzione al problema del controllo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sistemi di controllo",
+          "done": false
+        },
+        {
+          "name": "Variabili controllate e variabili di controllo",
+          "done": false
+        },
+        {
+          "name": "Disturbi",
+          "done": false
+        },
+        {
+          "name": "Obiettivo del controllo",
+          "done": false
+        },
+        {
+          "name": "Regolazione e asservimento",
+          "done": false
+        },
+        {
+          "name": "Controllo in anello aperto e chiuso",
+          "done": false
+        },
+        {
+          "name": "Trasduttori e attuatori",
+          "done": false
+        },
+        {
+          "name": "Esempi introduttivi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ffcc00",
+          "content": "Comprendere le differenze tra controlli in anello aperto e chiuso"
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Sistemi dinamici lineari",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Funzioni di trasferimento",
+          "done": false
+        },
+        {
+          "name": "Classificazione dei sistemi dinamici",
+          "done": false
+        },
+        {
+          "name": "Sistemi dinamici lineari a tempo continuo",
+          "done": false
+        },
+        {
+          "name": "Trasformata di Laplace",
+          "done": false
+        },
+        {
+          "name": "Funzione di trasferimento",
+          "done": false
+        },
+        {
+          "name": "Poli, zeri, costanti di tempo e guadagno",
+          "done": false
+        },
+        {
+          "name": "Pulsazione naturale e coefficiente di smorzamento",
+          "done": false
+        },
+        {
+          "name": "Anti-trasformata di Laplace",
+          "done": false
+        },
+        {
+          "name": "Modi di un sistema",
+          "done": false
+        },
+        {
+          "name": "Stabilità di un sistema",
+          "done": false
+        },
+        {
+          "name": "Schemi a blocchi",
+          "done": false
+        },
+        {
+          "name": "Funzioni di trasferimento di sistemi in serie, parallelo e retroazione",
+          "done": false
+        },
+        {
+          "name": "Criterio di Routh-Hurwitz per la stabilità",
+          "done": false
+        },
+        {
+          "name": "Risposta allo scalino dei sistemi del primo e secondo ordine",
+          "done": false
+        },
+        {
+          "name": "Poli dominanti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ff7043",
+          "content": "Focus on understanding the stability concepts and their practical implications."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Risposta in frequenza",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Funzione di risposta armonica",
+          "done": false
+        },
+        {
+          "name": "Interpretazione dei sistemi dinamici come filtri in frequenza",
+          "done": false
+        },
+        {
+          "name": "Diagrammi di Bode",
+          "done": false
+        },
+        {
+          "name": "Sistemi a fase minima",
+          "done": false
+        },
+        {
+          "name": "Formula di Bode",
+          "done": false
+        },
+        {
+          "name": "Ritardi",
+          "done": false
+        },
+        {
+          "name": "Diagrammi polari",
+          "done": false
+        },
+        {
+          "name": "Diagrammi di Nichols",
+          "done": false
+        },
+        {
+          "name": "Modelli approssimati di sistemi dinamici",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Sintesi di sistemi di controllo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sistemi di controllo in retroazione",
+          "done": false
+        },
+        {
+          "name": "Analisi dei sistemi in retroazione",
+          "done": false
+        },
+        {
+          "name": "Criteri di Nyquist e di Bode per la stabilità",
+          "done": false
+        },
+        {
+          "name": "Prestazioni dei sistemi di controllo",
+          "done": false
+        },
+        {
+          "name": "Funzione di sensitività",
+          "done": false
+        },
+        {
+          "name": "Funzione di sensitività complementare e funzione di sensitività del controllo",
+          "done": false
+        },
+        {
+          "name": "Errore a transitorio esaurito",
+          "done": false
+        },
+        {
+          "name": "Banda passante e tempo di risposta",
+          "done": false
+        },
+        {
+          "name": "Entità delle sovraelongazioni",
+          "done": false
+        },
+        {
+          "name": "Sintesi del controllore per tentativi",
+          "done": false
+        },
+        {
+          "name": "Sintesi del controllore per via analitica",
+          "done": false
+        },
+        {
+          "name": "Luoghi a M e a N costante",
+          "done": false
+        },
+        {
+          "name": "Reti correttrici",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Rappresentazione nello spazio degli stati",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Variabili di stato",
+          "done": false
+        },
+        {
+          "name": "Rappresentazione di un sistema nello spazio degli stati",
+          "done": false
+        },
+        {
+          "name": "Movimento e traiettoria dello stato e dell'uscita",
+          "done": false
+        },
+        {
+          "name": "Stati e uscite di equilibrio",
+          "done": false
+        },
+        {
+          "name": "Stabilità del movimento e dell'equilibrio",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#8bc34a",
+          "content": "Pay attention to the representation of states and outputs."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà strutturali dei sistemi lineari",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Linearizzazione di sistemi non lineari",
+          "done": false
+        },
+        {
+          "name": "Rappresentazioni equivalenti",
+          "done": false
+        },
+        {
+          "name": "Diagonalizzazione",
+          "done": false
+        },
+        {
+          "name": "Formula di Lagrange",
+          "done": false
+        },
+        {
+          "name": "Autovalori e modi",
+          "done": false
+        },
+        {
+          "name": "Stabilità",
+          "done": false
+        },
+        {
+          "name": "Raggiungibilità",
+          "done": false
+        },
+        {
+          "name": "Osservabilità",
+          "done": false
+        },
+        {
+          "name": "Scomposizione canonica",
+          "done": false
+        },
+        {
+          "name": "Rappresentazione ingresso-stato-uscita e rappresentazione ingresso-uscita",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Controllo con retroazione di stato",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sintesi del regolatore con retroazione di stato",
+          "done": false
+        },
+        {
+          "name": "Osservatore di ordine intero e di ordine ridotto",
+          "done": false
+        },
+        {
+          "name": "Principio di separazione dei poli",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#00bcd4",
+          "content": "Understand how state feedback affects system behavior."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122542_449/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "- P. Bolzern, R. Scattolini, N. Schiavoni, Fondamenti di Controlli Automatici, McGraw-Hill- G. Marro, Controlli Automatici, Zanichelli"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La verifica della preparazione degli studenti avverrà con esame scritto composto da esercizi numerici da risolvere relativi al progetto di sistemi di controllo (mediante sintesi per via analitica, per tentativi e con retroazione di stato) e da domande relative alla parte teorica del corso e volte alla verifica della comprensione di tutti gli argomenti trattati durante il corso. Il punteggio finale sarà calcolato partendo dal punteggio massimo (30 e lode) e sottraendo per ogni errore o mancanza di svolgimento di una parte del compito un numero punti proporzionale alla gravità dell'errore. Parte della valutazione è anche relativa al corretto utilizzo della terminologia e all'ordine e alla chiarezza dell'elaborato.La durata della prova scritta è di 2 ore. Non è prevista una prova orale, ma eventuali domande potranno essere effettuate durante la consegna del compito."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "name": "FISICA TECNICA",
+  "id": "unibs702997",
+  "icon": "mdi-book-multiple",
+  "color": "#4CAF50",
+  "chapters": [
+    {
+      "name": "Fondamenti di Termodinamica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Energia: additività, scambi per interazione, conservazione, equazione di bilancio",
+          "done": false
+        },
+        {
+          "name": "Disponibilità adiabatica",
+          "done": false
+        },
+        {
+          "name": "Energia disponibile rispetto ad un serbatoio",
+          "done": false
+        },
+        {
+          "name": "Entropia: additività, scambi per interazione, generazione per irreversibilità, equazione di bilancio",
+          "done": false
+        },
+        {
+          "name": "Diagrammi E-S",
+          "done": false
+        },
+        {
+          "name": "Interazioni fra sistemi: lavoro, calore, flusso di massa",
+          "done": false
+        },
+        {
+          "name": "Stati di equilibrio stabile",
+          "done": false
+        },
+        {
+          "name": "Temperatura e pressione",
+          "done": false
+        },
+        {
+          "name": "Sistemi semplici",
+          "done": false
+        },
+        {
+          "name": "Stati omogenei ed eterogenei, fasi, regola delle fasi",
+          "done": false
+        },
+        {
+          "name": "Stati bifase, diagrammi T-s, h-s, p-v, T-p",
+          "done": false
+        },
+        {
+          "name": "Liquidi e solidi incomprimibili ideali, gas ideali e perfetti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per la comprensione dei sistemi termodinamici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Termodinamica Applicata",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Bilanci di energia ed entropia per sistemi aperti",
+          "done": false
+        },
+        {
+          "name": "Applicazione a componenti di impianti: pompe, compressori, turbine, scambiatori di calore, valvole di laminazione",
+          "done": false
+        },
+        {
+          "name": "Rudimenti su cicli e schemi semplici di impianti di conversione di energia e di condizionamento",
+          "done": false
+        },
+        {
+          "name": "Efficienza termodinamica di apparati di conversione energetica e concetto di exergia",
+          "done": false
+        },
+        {
+          "name": "Cogenerazione e allocazione consumi nella cogenerazione",
+          "done": false
+        },
+        {
+          "name": "Proprietà dell'aria umida: umidificazione, deumidificazione, condizionamento",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Essenziale per la progettazione di impianti energetici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Scambio Termico per Conduzione, Irraggiamento e Convezione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Scambio termico per conduzione",
+          "done": false
+        },
+        {
+          "name": "Legge di Fourier",
+          "done": false
+        },
+        {
+          "name": "Equazione generale della conduzione",
+          "done": false
+        },
+        {
+          "name": "Condizioni iniziali e al contorno",
+          "done": false
+        },
+        {
+          "name": "Integrazione in varie geometrie",
+          "done": false
+        },
+        {
+          "name": "Conduzione non stazionaria",
+          "done": false
+        },
+        {
+          "name": "Scambio termico per irraggiamento",
+          "done": false
+        },
+        {
+          "name": "Radiazione di corpo nero",
+          "done": false
+        },
+        {
+          "name": "Leggi di Planck e di Stefan-Boltzmann",
+          "done": false
+        },
+        {
+          "name": "Emissività di una superficie",
+          "done": false
+        },
+        {
+          "name": "Scambio radiativo fra superfici nere e grigie",
+          "done": false
+        },
+        {
+          "name": "Fattori di vista e schermi radiativi",
+          "done": false
+        },
+        {
+          "name": "Scambio termico per convezione",
+          "done": false
+        },
+        {
+          "name": "Teorema di Buckingham dell'analisi dimensionale",
+          "done": false
+        },
+        {
+          "name": "Numeri di Reynolds, Nusselt, Grashof",
+          "done": false
+        },
+        {
+          "name": "Convezione forzata in flussi interni ed esterni",
+          "done": false
+        },
+        {
+          "name": "Convezione naturale",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Comprendere meccanismi di scambio termico è fondamentale."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "I riferimenti bibliografici ai libri ed alle dispense qui indicati sono elencati in fondo alla voce. Il libro di testo per la prima parte (termodinamica) è \"Termodinamica\" di G.P. Beretta (2002). Per approfondimenti facoltativi consigliamo \"Thermodynamics. Foundations and Applications\" di E.P. Gyftopoulos e G.P. Beretta (2005).Il libro di testo per la seconda parte (trasmissione del calore) è \"Fondamenti di trasmissione del calore\" di G. Comini e G. Cortella (2013). Per approfondimenti facoltativi consigliamo \"A Heat Transfer Textbook\" di J.H. Lienhard IV e J.H. Lienhard V (2020), scaricabile liberamente dalla pagina https://ahtt.mit.edu/.Oltre agli esercizi proposti e/o svolti in alcuni dei testi consigliati è disponibile la raccolta di esercizi di esame svolti e commentati \"Raccolta di temi d'esame svolti di Fisica Tecnica\" di G.P. Beretta, A.M. Lezzi e M. Pilotelli (2020). Libri di testo:Beretta; Termodinamica; Ed. Cartolibreria SnoopyComini, Cortella; Fondamenti di trasmissione del calore; SGE; 9788889884225Beretta, Lezzi, Pilotelli; Raccolta di temi d'esame svolti di Fisica Tecnica; Ed. Cartolibreria Snoopy; 9788889252277Libri consigliati: Gyftopoulos, Beretta; Thermodynamics. Foundations and Applications; Dover; 0486439321Lienhard IV, Lienhard V; A heat transfer textbook; Phlogiston Press"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "La prova d'esame consiste in una prova scritta di 120 minuti di durata e composta da due parti.(1) domande in forma aperta o chiusa volte a verificare che lo studente abbia acquisito idonea conoscenza e comprensione degli argomenti di termodinamica e di scambio termico presentati e sviluppati durante il corso; il peso di questa parte sulla valutazione finale è pari, di norma, al 25%.(2) tre o quattro problemi di termodinamica e di scambio termico, di norma articolati in una serie di domande atte a fornire una guida alla risoluzione; l'obbiettivo è quello di verificare la capacità dello studente di applicare le conoscenze acquisite per impostare e risolvere semplici problemi applicativi; il peso di questa parte sulla valutazione finale è pari, di norma, al 75%.Materiale consentito o richiesto durante la prova: calcolatrice non programmabile, penne e matite, documento di identificazione (tabelle e grafici, se necessari per lo svolgimento, vengono forniti insieme ai testi dei problemi proposti)."
+    }
+  ]
+}

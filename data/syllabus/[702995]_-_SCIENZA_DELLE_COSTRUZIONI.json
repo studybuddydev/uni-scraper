@@ -1,0 +1,129 @@
+{
+  "name": "SCIENZA DELLE COSTRUZIONI",
+  "id": "unibs702995",
+  "icon": "mdi-book-open-variant",
+  "color": "#4A90E2",
+  "chapters": [
+    {
+      "name": "Introduzione alla meccanica dei solidi e delle strutture",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i principi fondamentali dell'analisi cinematica",
+          "done": false
+        },
+        {
+          "name": "Analizzare le equazioni di bilancio della quantità di moto",
+          "done": false
+        },
+        {
+          "name": "Esplorare il momento angolare in meccanica dei solidi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#FFB300",
+          "content": "Focus on the key principles and models presented."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Modelli strutturali e analisi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Esplorare i modelli di funi e travi piane",
+          "done": false
+        },
+        {
+          "name": "Studiare il continuo di Cauchy",
+          "done": false
+        },
+        {
+          "name": "Comprendere le deformazioni finite",
+          "done": false
+        },
+        {
+          "name": "Analizzare i legami costitutivi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#E63946",
+          "content": "Master the structural models and their applications."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Casi di De Saint Venant",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i fondamentali esempi dei casi di De Saint Venant",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#FFD60A",
+          "content": "Detailed examples will be crucial for understanding principles."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Elementi di termodinamica dei materiali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare gli elementi essenziali della termodinamica",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#00B9E4",
+          "content": "Relate thermodynamics to material analysis."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Introduzione alla meccanica computazionale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Approfondire le basi della meccanica computazionale",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#9B59B6",
+          "content": "Computational mechanics will help in practical applications."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_108534_1303/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "A. Salvadori, Appunti di Scienza delle Costruzioni, ed. Snoopy.Casini P, Vasta M, SCIENZA DELLE COSTRUZIONI, 4a edizione, Città Studi EdFerdinand P. Beer, E. Russell Johnston, Jr., John T. DeWolf e David F.Mazurek, Meccanica dei solidi , Mc-Graw Hill Ed.P. Podio-Guidugli, LEZIONI DI SCIENZA DELLE COSTRUZIONI, Aracne Ed.Luciano Nunziante, Luigi Gambarotta, Antonio Tralli, Scienza dellecostruzioni 3/edCastiglioni, Petrini, Urbano;Esercizi di Scienza delle Costruzioni. SecondaEdizione;Ed. Masson,"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame consta di una prova scritta, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di trave, e di una prova orale, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di continuo di Cauchy.Gli homework, che consentono di valutare la capacità di lavorare in gruppo su applicazioni pratiche dei contenuti delle lezioni, verranno valutati a parte."
+    }
+  ]
+}

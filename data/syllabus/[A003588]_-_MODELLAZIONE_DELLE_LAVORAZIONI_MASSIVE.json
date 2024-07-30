@@ -1,0 +1,189 @@
+{
+  "name": "MODELLAZIONE DELLE LAVORAZIONI MASSIVE",
+  "id": "unibsA003588",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4ECDC4",
+  "chapters": [
+    {
+      "name": "Teoria della Plasticità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comportamento plastico dei materiali",
+          "done": false
+        },
+        {
+          "name": "Criteri di plasticizzazione",
+          "done": false
+        },
+        {
+          "name": "Legami tensioni deformazioni in campo plastico",
+          "done": false
+        },
+        {
+          "name": "Teoremi energetici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#FF6F61",
+          "content": "Introduzione ai concetti base della plasticità."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Stampaggio",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generalità sullo stampaggio",
+          "done": false
+        },
+        {
+          "name": "Aspetti economici dello stampaggio",
+          "done": false
+        },
+        {
+          "name": "Macchine e attrezzature per lo stampaggio",
+          "done": false
+        },
+        {
+          "name": "Studio FEM dello stato di sforzo e deformazione",
+          "done": false
+        },
+        {
+          "name": "Simulazione operazione di stampaggio",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#FF9E9D",
+          "content": "Importanza dello stampaggio nell'ingegneria."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Laminazione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generalità sulla laminazione",
+          "done": false
+        },
+        {
+          "name": "Tipi di laminazione",
+          "done": false
+        },
+        {
+          "name": "Aspetti economici nella laminazione",
+          "done": false
+        },
+        {
+          "name": "Attrezzature per laminazione",
+          "done": false
+        },
+        {
+          "name": "Laminazione dei tubi",
+          "done": false
+        },
+        {
+          "name": "Difetti nelle operazioni di laminazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#FFD93D",
+          "content": "Focus sulla laminazione dei tubi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Trafilatura",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generalità sulla trafilatura",
+          "done": false
+        },
+        {
+          "name": "Aspetti economici nella trafilatura",
+          "done": false
+        },
+        {
+          "name": "Attrezzature per trafilatura",
+          "done": false
+        },
+        {
+          "name": "Difetti delle operazioni di trafilatura",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#D83C56",
+          "content": "Elementi fondamentali della trafilatura."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Estrusione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Generalità sull'estrusione",
+          "done": false
+        },
+        {
+          "name": "Studio della forza di estrusione",
+          "done": false
+        },
+        {
+          "name": "Difetti di estrusione",
+          "done": false
+        },
+        {
+          "name": "Aspetti economici nell'estrusione",
+          "done": false
+        },
+        {
+          "name": "Attrezzature per estrusione",
+          "done": false
+        },
+        {
+          "name": "Studio FEM della forza di estrusione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#53B2D8",
+          "content": "Comprendere i differenti tipi di estrusione."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122555_19709/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Dispense del corso.S. Kaplakjian, Manufacturing processes for engineering materials,Addison Wesley, 1997W. Johnson, P.B. Mellor, \"Engineering Plasticity\", Van Nostrand, 1973"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM, analisi letteratura tecnica"
+    }
+  ]
+}

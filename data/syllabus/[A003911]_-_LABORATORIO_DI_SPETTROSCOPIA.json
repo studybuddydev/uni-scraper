@@ -1,0 +1,207 @@
+{
+  "name": "LABORATORIO DI SPETTROSCOPIA",
+  "id": "unibsA003911",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#ffcc00",
+  "chapters": [
+    {
+      "name": "Introduzione alle tecniche di laboratorio (1 CFU)",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Incertezza di misura",
+          "done": false
+        },
+        {
+          "name": "Regole di sicurezza per il lavoro in laboratorio",
+          "done": false
+        },
+        {
+          "name": "Selezione di materie prime e materiali",
+          "done": false
+        },
+        {
+          "name": "Strategie di eco-design",
+          "done": false
+        },
+        {
+          "name": "Raccolta e analisi dei dati",
+          "done": false
+        },
+        {
+          "name": "Come analizzare un campione",
+          "done": false
+        },
+        {
+          "name": "Introduzione all'analisi dei materiali",
+          "done": false
+        },
+        {
+          "name": "Interazione radiazione elettromagnetica con la materia",
+          "done": false
+        },
+        {
+          "name": "Scrittura di un report di laboratorio",
+          "done": false
+        },
+        {
+          "name": "Ricerca bibliografica",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on rules of safety and data analysis techniques."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Tecniche di spettroscopia (1 CFU)",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Introduzione alla spettrofotometria",
+          "done": false
+        },
+        {
+          "name": "Spettroscopia di assorbimento atomico",
+          "done": false
+        },
+        {
+          "name": "Saggio alla fiamma",
+          "done": false
+        },
+        {
+          "name": "Spettroscopia UV-Vis",
+          "done": false
+        },
+        {
+          "name": "Rappresentazione schematica di uno spettrofotometro",
+          "done": false
+        },
+        {
+          "name": "Analisi qualitativa e quantitativa",
+          "done": false
+        },
+        {
+          "name": "Metodo della curva di taratura",
+          "done": false
+        },
+        {
+          "name": "Introduzione alle spettroscopie vibrazionali",
+          "done": false
+        },
+        {
+          "name": "Spettroscopia infrarossa (FT-IR)",
+          "done": false
+        },
+        {
+          "name": "Spettroscopia nel vicino infrarosso (NIR)",
+          "done": false
+        },
+        {
+          "name": "Spettroscopia Raman",
+          "done": false
+        },
+        {
+          "name": "Oscillatore armonico e anarmonicità",
+          "done": false
+        },
+        {
+          "name": "Vibrazioni di gruppi funzionali di base",
+          "done": false
+        },
+        {
+          "name": "Regole di selezione",
+          "done": false
+        },
+        {
+          "name": "Diffrazione dei raggi X",
+          "done": false
+        },
+        {
+          "name": "XRD per polveri (P-XRD)",
+          "done": false
+        },
+        {
+          "name": "Strumentazione e componenti",
+          "done": false
+        },
+        {
+          "name": "Preparazione del campione e realizzazione di uno spettro P-XRD",
+          "done": false
+        },
+        {
+          "name": "Analisi spettrale qualitativa",
+          "done": false
+        },
+        {
+          "name": "Introduzione alla presentazione degli esperimenti di laboratorio e dei protocolli",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Emphasize understanding different types of spectroscopy."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Esperienze di laboratorio (1 CFU)",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Costruzione di uno spettrofotometro portatile",
+          "done": false
+        },
+        {
+          "name": "Analisi degli spettri infrarossi per la determinazione dei materiali",
+          "done": false
+        },
+        {
+          "name": "Realizzazione di una curva di calibrazione mediante spettrofotometria",
+          "done": false
+        },
+        {
+          "name": "Determinazione della concentrazione di una concentrazione incognita mediante spettrofotometria",
+          "done": false
+        },
+        {
+          "name": "Analisi quantitativa di adsorbimento di inquinanti con carboni attivi (con valutazione della cinetica)",
+          "done": false
+        },
+        {
+          "name": "Separazione cromatografica di pigmenti e analisi spettrofotometrica qualitativa",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Practical skills in spectrophotometry and chromatography techniques are crucial."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122534_20541/2011/7268/81?coorte=2021&schemaid=2490"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Chimica Analitica Strumentale Autori: Skoog, Holler, Crouch"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "Gli studenti, divisi gruppi, dovranno redigere delle relazioni riguardanti gli esprimenti realizzati in laboratorio, allo scopo di dimostrare le abilità sperimentali, di analisi dati con conseguenti conclusioni ragionate, e di redazione delle relazioni, acquisite durante il corso. Le relazioni serviranno anche a verificare la capacità degli studenti di lavorare in team. Ogni studente dovrà poi sostenere una prova atta a verificare la conoscenza teorica delle tecniche introdotte. La seconda parte dell’esame potrà essere realizzata sia attraverso un esame scritto (sulla piattaforma Moodle), che verrà proposto alla fine del corso, sia attraverso una prova orale (che si svolgerà nelle date dell’appello).L’esito della valutazione delle due prove sarà espressa in trentesimi. Il voto finale sarà ottenuto dalla media. Per superare l’esame, in entrambe le prove la votazione dovrà corrispondere ad almeno 16/30 e la media dovrà corrispondere ad almeno 18/30."
+    }
+  ]
+}

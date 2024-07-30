@@ -1,0 +1,128 @@
+{
+  "name": "DIRITTO PRIVATO",
+  "id": "unibs702762",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#f0b3d4",
+  "chapters": [
+    {
+      "name": "Introduzione al Diritto Privato",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Concetti introduttivi di base",
+          "done": false
+        },
+        {
+          "name": "Diritto vs Diritto Pubblico",
+          "done": false
+        },
+        {
+          "name": "Fonti del Diritto Privato",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e2f0d9",
+          "content": "Comprendere le differenze tra diritto pubblico e privato."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Soggetti di Diritto e Diritti della Personalità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Persone fisiche e giuridiche",
+          "done": false
+        },
+        {
+          "name": "Diritti fondamentali",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e5c3c5",
+          "content": "Studiare i diritti della personalità e le loro implicazioni."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Diritto di Proprietà e Diritti Reali",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Beni e diritti reali",
+          "done": false
+        },
+        {
+          "name": "Modi di acquisto e trasferimento",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#d6e1f3",
+          "content": "Focus sui diritti reali di godimento e garanzia."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Obbligazioni e Contratti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Fonti e elementi delle obbligazioni",
+          "done": false
+        },
+        {
+          "name": "Disciplina generale dei contratti",
+          "done": false
+        },
+        {
+          "name": "Singoli contratti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#f9e79f",
+          "content": "Comprendere la differenza tra adempimento e inadempimento."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Fatto Illecito",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Obbligazioni da atto illecito",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8293_120752_344/2019/8293/118?coorte=2023&schemaid=2753"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "Per la preparazione dell'esame di profitto lo studente dovrà utilizzare:- A. Torrente – P. Schlesinger, Manuale di diritto privato, 24. ed., Milano, Giuffrè, 2019, ISBN 9788828809791 (o comunque l’ultima edizione disponibile sul mercato al momento dell’inizio del corso). Sono esclusi i capitoli riguardanti: i titoli di credito; l'impresa e l’azienda; le società; il lavoro subordinato; le procedure concorsuali; i rapporti di famiglia; le successioni per causa di morte; la donazione e le liberalità; la tutela giurisdizionale dei diritti; la prova dei fatti giuridici.oppure- P. Trimarchi, Istituzioni di diritto privato, 23. ed., Milano, Giuffrè, 2020 (o comunque l’ultima edizione disponibile sul mercato al momento dell’inizio del corso). Sono esclusi i capitoli riguardanti: i titoli di credito; l'impresa e l’azienda; le società; il lavoro subordinato; le procedure concorsuali; i rapporti di famiglia; le successioni per causa di morte la donazione e le liberalità; la tutela giurisdizionale dei diritti; la prova dei fatti giuridici.Per gli studenti ERASMUS è suggerito: P. Sirena, Introduction to private law, III ed., Bologna, Il Mulino, 2021, ISBN: 978-88-15-29018-2. Sono esclusi i capitoli riguardanti: i titoli di credito; l'impresa e l’azienda; le società; il lavoro subordinato; le procedure concorsuali; i rapporti di famiglia; le successioni per causa di morte; la donazione e le liberalità; la tutela giurisdizionale dei diritti; la prova dei fatti giuridici.E’ esclusa inderogabilmente la preparazione su testi diversi da un manuale universitario. Ai fini della frequenza del corso e della preparazione dell'esame è altresì necessaria la consultazione di un codice civile, e delle principali leggi collegate, rigorosamente nell’ultima edizione disponibile sul mercato."
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame consiste, sia per gli studenti frequentanti sia per gli studenti non frequentanti, in una prova orale volta a verificare la preparazione dello studente sugli argomenti oggetto del programma d'esame.L'ammissione all'esame orale è subordinata, sia per i frequentanti che per i non frequentanti, all'esito positivo di un test scritto svolto nel medesimo giorno dell’appello di esame. Il test scritto si compone di quindici domande su argomenti che costituiscono oggetto del programma d'esame; le domande sono a risposta multipla: per ciascuna domanda lo studente dovrà indicare la risposta esatta tra le soluzioni proposte. Il tempo a disposizione per lo svolgimento della prova scritta è di venticinque minuti. La prova è superata con dodici domande esatte. Durante lo svolgimento della prova scritta è consentita, ed anzi è vivamente consigliata, la consultazione del codice civile nell'ultima edizione disponibile.Valutazione: la prova scritta e la prova orale verificano il livello di apprendimento dello studente, valutato dal voto minimo di 18/30 (in corrispondenza di una conoscenza di base di tutte o delle più parti del programma) al voto massimo di 30/30 e lode (corrispondente ad un livello ottimale di padronanza degli istituti, di proprietà di linguaggio, di capacità analitica e di capacità di applicare le conoscenze per la risoluzione delle fattispecie proposte).Per gli studenti ERASMUS è possibile sostenere l’esame in forma solo orale ed in lingua inglese."
+    }
+  ]
+}

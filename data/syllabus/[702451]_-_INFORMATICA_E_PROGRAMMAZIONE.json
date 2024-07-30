@@ -1,0 +1,154 @@
+{
+  "name": "INFORMATICA E PROGRAMMAZIONE",
+  "id": "unibs702451",
+  "icon": "mdi-book",
+  "color": "#4caf50",
+  "chapters": [
+    {
+      "name": "Il concetto di algoritmo e di calcolatore",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le definizioni e le proprietà degli algoritmi",
+          "done": false
+        },
+        {
+          "name": "Comprendere le funzioni di un calcolatore",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "La rappresentazione binaria delle informazioni",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare come funzionano i numeri binari",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Importante per comprendere l'architettura del calcolatore."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "L'architettura del calcolatore",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i componenti principali di un calcolatore",
+          "done": false
+        },
+        {
+          "name": "Comprendere il funzionamento dell'unità centrale di elaborazione (CPU)",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Il linguaggio del calcolatore",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i tipi di linguaggi di programmazione",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Il sistema operativo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comprendere le funzioni principali di un sistema operativo",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "I linguaggi di programmazione ad alto livello",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le caratteristiche dei linguaggi di programmazione ad alto livello",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Programmazione in linguaggio C",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Eseguire esercizi pratici in linguaggio C",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Essenziale per la comprensione degli algoritmi e delle strutture dati."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Algoritmi e strutture dati",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le principali strutture dati",
+          "done": false
+        },
+        {
+          "name": "Comprendere le complessità degli algoritmi",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Moduli didattici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Leggere le schede dei moduli didattici 'Elementi di Informatica e Programmazione' e 'Complementi di Programmazione'",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122420_1719/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "postIts": [
+    {
+      "color": "#FFEB3B",
+      "content": "G. Guida, M. Giacomin;Fondamenti di Informatica;Franco Angeli;2006P.J. Deitel, H.M. Deitel;Il linguaggio C. Fondamenti e tecniche diprogrammazione. 9/Ediz. con mylab;Pearson;2022"
+    },
+    {
+      "color": "#FFEB3B",
+      "content": "L'esame è costituito da due prove: è prevista una prova scritta sulla parte teorica del programma (inclusa la conoscenza del linguaggio C ma non la capacità di sviluppo dei programmi) che, se superata, consente l'ammissione ad una prova scritta di programmazione in linguaggio C. Le prove possono essere sostenute anche in appelli diversi. Il fallimento della prova di programmazione comporta la ripetizione di entrambe le prove. Le valutazioni delle due prove sono espresse in trentesimi e la sufficienza si raggiunge con una votazione non inferiore a 18/30. La valutazione finale e' data dalla media delle due prove eventualmente arrotondata per eccesso. La prova sulla parte teorica del programma è costituita da esercizi strutturati, domande a risposta aperta o test di varia natura, ed ha lo scopo di verificare la comprensione dei principi di funzionamento del calcolatore e della sua organizzazione hardware e software, nonché la comprensione della sintassi e semantica delle istruzioni del linguaggio C. La prova di programmazione è costituita da esercizi di programmazione in cui vengono proposti problemi non specifici che lo studente deve risolvere mediante la produzione di un programma C. Per altre informazioni si veda la scheda dei moduli didattici \"Elementi di Informatica e Programmazione\" e \"Complementi di Programmazione\"."
+    }
+  ]
+}
