@@ -1,8 +1,8 @@
 {
   "name": "FISICA TECNICA",
   "id": "unibs702997",
-  "icon": "mdi-book-multiple",
-  "color": "#4CAF50",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4a90e2",
   "chapters": [
     {
       "name": "Fondamenti di Termodinamica",
@@ -13,15 +13,11 @@
           "done": false
         },
         {
-          "name": "Disponibilità adiabatica",
+          "name": "Disponibilità adiabatica. Energia disponibile rispetto ad un serbatoio",
           "done": false
         },
         {
-          "name": "Energia disponibile rispetto ad un serbatoio",
-          "done": false
-        },
-        {
-          "name": "Entropia: additività, scambi per interazione, generazione per irreversibilità, equazione di bilancio",
+          "name": "Entropia: additività, scambi per interazione, generazione per irreversibilità",
           "done": false
         },
         {
@@ -33,19 +29,11 @@
           "done": false
         },
         {
-          "name": "Stati di equilibrio stabile",
+          "name": "Stati di equilibrio stabile: Temperatura e pressione",
           "done": false
         },
         {
-          "name": "Temperatura e pressione",
-          "done": false
-        },
-        {
-          "name": "Sistemi semplici",
-          "done": false
-        },
-        {
-          "name": "Stati omogenei ed eterogenei, fasi, regola delle fasi",
+          "name": "Sistemi semplici: Stati omogenei ed eterogenei, fasi, regola delle fasi",
           "done": false
         },
         {
@@ -60,7 +48,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Importante per la comprensione dei sistemi termodinamici."
+          "content": "Focus on non-equilibrium states and energy balance equations."
         }
       ],
       "links": []
@@ -74,30 +62,30 @@
           "done": false
         },
         {
-          "name": "Applicazione a componenti di impianti: pompe, compressori, turbine, scambiatori di calore, valvole di laminazione",
+          "name": "Applicazione a componenti di impianti: pompe, compressori, turbine",
           "done": false
         },
         {
-          "name": "Rudimenti su cicli e schemi semplici di impianti di conversione di energia e di condizionamento",
+          "name": "Rudimenti su cicli e schemi di impianti di conversione di energia",
           "done": false
         },
         {
-          "name": "Efficienza termodinamica di apparati di conversione energetica e concetto di exergia",
+          "name": "Efficienza termodinamica di apparati di conversione energetica",
           "done": false
         },
         {
-          "name": "Cogenerazione e allocazione consumi nella cogenerazione",
+          "name": "Concetto di exergia e cogenerazione",
           "done": false
         },
         {
-          "name": "Proprietà dell'aria umida: umidificazione, deumidificazione, condizionamento",
+          "name": "Proprietà dell'aria umida, umidificazione, deumidificazione",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Essenziale per la progettazione di impianti energetici."
+          "content": "Understand the efficiency of thermal machines and energy conversion cycles."
         }
       ],
       "links": []
@@ -107,27 +95,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Scambio termico per conduzione",
+          "name": "Scambio termico per conduzione: Legge di Fourier",
           "done": false
         },
         {
-          "name": "Legge di Fourier",
-          "done": false
-        },
-        {
-          "name": "Equazione generale della conduzione",
-          "done": false
-        },
-        {
-          "name": "Condizioni iniziali e al contorno",
-          "done": false
-        },
-        {
-          "name": "Integrazione in varie geometrie",
-          "done": false
-        },
-        {
-          "name": "Conduzione non stazionaria",
+          "name": "Equazione generale della conduzione e integrazione in varie geometrie",
           "done": false
         },
         {
@@ -135,31 +107,11 @@
           "done": false
         },
         {
-          "name": "Radiazione di corpo nero",
+          "name": "Radiazione di corpo nero e leggi di Planck e Stefan-Boltzmann",
           "done": false
         },
         {
-          "name": "Leggi di Planck e di Stefan-Boltzmann",
-          "done": false
-        },
-        {
-          "name": "Emissività di una superficie",
-          "done": false
-        },
-        {
-          "name": "Scambio radiativo fra superfici nere e grigie",
-          "done": false
-        },
-        {
-          "name": "Fattori di vista e schermi radiativi",
-          "done": false
-        },
-        {
-          "name": "Scambio termico per convezione",
-          "done": false
-        },
-        {
-          "name": "Teorema di Buckingham dell'analisi dimensionale",
+          "name": "Scambio termico per convezione e teorema di Buckingham",
           "done": false
         },
         {
@@ -167,18 +119,14 @@
           "done": false
         },
         {
-          "name": "Convezione forzata in flussi interni ed esterni",
-          "done": false
-        },
-        {
-          "name": "Convezione naturale",
+          "name": "Convezione forzata in flussi interni ed esterni e naturale",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Comprendere meccanismi di scambio termico è fondamentale."
+          "content": "Study the principles of heat transfer through conduction, radiation, and convection."
         }
       ],
       "links": []
@@ -187,7 +135,7 @@
   "links": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
   "postIts": [

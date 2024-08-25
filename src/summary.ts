@@ -11,15 +11,44 @@ interface Exam {
     annoDiOfferta: string;
     year: number;
 }
-interface newExam {
-    title: string;
+interface DataExam {
     id: string;
-    url: string;
-    cfu: number;
-    hours: number;
-    semester: string;
-    teachingYear: string;
-    year: number;
+    universityId: string;
+    name: string;
+    lastUpdated: Date;
+    deleted: Date | null;
+
+    description?: string;
+    goals?: string;
+    requirements?: string;
+
+    chapters?: {
+        id: number;
+        parentId: number | null;
+        name: string;
+        description: string;
+    }[];
+    urls?: {
+        name: string;
+        url: string;
+    }[];
+    teachers?: {
+        name: string;
+        email?: string;
+    }[];
+
+    cfu?: string;
+    examMode?: string;
+    hours?: string;
+    semester?: string;
+    year?: string;
+    teachingYear?: string;
+    deparment?: string;
+    books?: string[];
+    language?: string;
+    note?: string
+    color?: string;
+    icon?: string;
 }
 
 interface Course {
@@ -29,13 +58,33 @@ interface Course {
     exams: Exam[];
     type: string;
 }
-interface newCourse {
-    name: string;
+
+interface DataCourse {
     id: string;
-    uni: string;
-    exams: newExam[];
-    type:string;
- 
+    universityId: string;
+    name: string;
+    lastUpdated: Date;
+    deleted: Date | null;
+
+    description?: string;
+    goals?: string;
+    requirements?: string;
+
+    exams?: {
+        examId: string;
+        year?: string;
+        semester?: string;
+    }[];
+    urls?: {
+        name: string;
+        url: string;
+    }[];
+
+    type?: string;
+    language?: string;
+    accessMode?: string;
+    deparment?: string;
+    note?: string;
 }
 
 interface SummaryCourse {
@@ -44,13 +93,25 @@ interface SummaryCourse {
     type:string;
 }
 
-interface Summary {
-    name: string;
+interface DataUniversities {
     id: string;
-    courses: SummaryCourse[];
+    name: string;
+    lastUpdated: Date;
+    deleted: Date | null;
+
+    description?: string;
+    urls?: {
+        name: string;
+        url: string;
+    }[];
+    courseIds?: string[];
+    note?: string;
 }
 
-const readJsonFiles = (folderPath: string): newCourse[] => {
+
+
+
+const createDataCourse = (folderPath: string): DataCourse[] => {
     const files = fs.readdirSync(folderPath);
     let courses: Course[] = [];
 
@@ -80,12 +141,13 @@ const readJsonFiles = (folderPath: string): newCourse[] => {
     return cleanCourses;
 };
 
-const generateSummary = (courses: newCourse[], uniName:string): Summary => {
-    const summaryCourses: SummaryCourse[] = courses.map(course => ({
-        name: course.name,
-        code: course.id,
-        type: course.type
-    }));
+
+const createDataUni = (courses: DataCourse[], uniName:string): DataUniversities => {
+    // const summaryCourses: SummaryCourse[] = courses.map(course => ({
+    //     name: course.name,
+    //     code: course.id,
+    //     type: course.type
+    // }));
 
     const extendedNames: {[key:string]:string} = {
         unitn: "Università di Trento",
@@ -93,9 +155,11 @@ const generateSummary = (courses: newCourse[], uniName:string): Summary => {
     };
 
     return {
-        name: extendedNames[uniName],
         id: uniName,
-        courses: summaryCourses
+        name: extendedNames[uniName],
+        lastUpdated: new Date(),
+        deleted: null,
+        courseIds: courses.map(course => course.id)
     };
 };
 
@@ -108,10 +172,13 @@ function cleanExams(courses: Course[]) {
     for (const course of courses) {
 
 
-        let newCourse: newCourse = {
-            name: course.name,
+        let newCourse: DataCourse = {
             id: course.id,
-            uni: course.uni,
+            universityId: course.uni,
+            name: course.name,
+            lastUpdated: new Date(),
+            deleted: null,
+
             type: course.type,
             exams: [],
            
@@ -122,15 +189,10 @@ function cleanExams(courses: Course[]) {
 
         for (const exam of course.exams) {
 
-            let newExam: newExam = {
-                title : exam.title,
-                id: exam.id,
-                url: exam.href,
-                cfu: parseInt(exam.cfu.replace('CFU', '')),
-                hours: parseInt(exam.hours.replace('ore', '')),
+            let newExam = {
+                examId: exam.id,
+                year: exam.year + '',
                 semester: exam.semester,
-                teachingYear: exam.annoDiOfferta.replace('Anno di offerta ', ''),
-                year: exam.year
 
             }
 
@@ -160,11 +222,11 @@ function main(folderPath:string, uniName:string){
     console.log(uniName);
     
 
-    const courses = readJsonFiles(folderPath);
+    const courses = createDataCourse(folderPath);
 
-    fs.writeFileSync(`./data/${uniName}_esami.json`, JSON.stringify(courses, null, 2));
+    fs.writeFileSync(`./data/${uniName}_courses.json`, JSON.stringify(courses, null, 2));
 
-    const summary = generateSummary(courses, uniName);
+    const summary = createDataUni(courses, uniName);
 
     fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
 }
