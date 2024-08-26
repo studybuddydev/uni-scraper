@@ -1,8 +1,10 @@
 {
-  "name": "MECCANICA RAZIONALE",
   "id": "unibs703039",
-  "icon": "mdi-mechanical-arm",
-  "color": "#4A90E2",
+  "universityId": "unibs",
+  "name": "MECCANICA RAZIONALE",
+  "lastUpdated": "2024-08-26T14:52:25.390Z",
+  "deleted": null,
+  "goals": "Il corso è rivolto a studenti del secondo anno ed illustra i modelli matematici atti ad interpretare e descrivere un ampio spettro di fenomeni relativi al moto dei sistemi materiali vincolati, rigidi ed articolati.Conoscenza e ComprensioneConoscenza dei principi fondamentali della meccanica e la loro applicazione.Lo studente alla fine del corso conoscerà i principali metodi per la modellizzazione matematica di sistemi materiali allo scopo di determinare i parametri che ne caratterizzano le condizioni di equilibrio e le equazioni differenziali di moto.Capacità di applicare conoscenza e comprensioneLo studente sarà in grado di utilizzare i metodi matematici per la risoluzione di problemi meccanici ad uno o a più gradi di libertà.Autonomia di GiudizioLo studente alla fine del Corso avrà acquisito la capacità di determinare in forma autonoma quali leggi fisiche e modelli matematici applicare ai problemi meccanici e saprà analizzare e di formalizzare problemi per lui nuovi.Abilità comunicativeSaper usare il linguaggio specifico e formale per descrivere sistemi fisici.Lo studente dovrà acquisire la capacità di esporre in modo chiaro e rigoroso, utilizzandoadeguatamente il lessico disciplinare, i risultati dell'analisi del problema e dellesoluzioni qualitative individuate.Capacità di ApprendimentoLo studente risolvendo problemi ed esercizi, consultando testi ed altre fonti, migliorerà la capacità di apprendimento e di sviluppo del pensiero autonomo.",
   "chapters": [
     {
       "name": "Cinematica dei sistemi materiali e moti relativi",
@@ -61,14 +63,16 @@
           "done": false
         }
       ],
-      "postIts": {
-        "color": "#FFEA00",
-        "content": "Segmento di studio cosiddetto 'Cinematica' evidenzia le leggi di movimento e vincoli associati."
-      },
+      "postIts": [
+        {
+          "color": "#f44336",
+          "content": "Studiando il moto di un punto, è utile visualizzare con grafici le diverse traiettorie."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Principi ed equazioni fondamentali",
+      "name": "Principi ed equazioni fondamentali della dinamica",
       "showTasks": true,
       "tasks": [
         {
@@ -92,15 +96,11 @@
           "done": false
         },
         {
-          "name": "Equazioni differenziali del moto",
+          "name": "Equazioni differenziali del moto e Principio delle Reazioni Vincolari",
           "done": false
         },
         {
-          "name": "Principio delle Reazioni Vincolari",
-          "done": false
-        },
-        {
-          "name": "Teoremi della quantità di moto",
+          "name": "Teoremi della quantità di moto e forze vive",
           "done": false
         },
         {
@@ -112,10 +112,12 @@
           "done": false
         }
       ],
-      "postIts": {
-        "color": "#FF6F00",
-        "content": "Concentrarsi sui principi classici della meccanica per comprendere le forze in gioco."
-      },
+      "postIts": [
+        {
+          "color": "#2196f3",
+          "content": "Rivedere i teoremi della quantità di moto per chiarire i concetti."
+        }
+      ],
       "links": []
     },
     {
@@ -123,7 +125,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Nozioni elementari sui vettori applicati",
+          "name": "Nozioni sui vettori applicati",
           "done": false
         },
         {
@@ -135,11 +137,11 @@
           "done": false
         },
         {
-          "name": "Teoremi di Koenig",
+          "name": "Teoremi di Koenig per l'energia cinetica",
           "done": false
         },
         {
-          "name": "Espressione dell'energia cinetica e del momento della quantità di moto",
+          "name": "Espressione dell'energia cinetica e momento della quantità di moto",
           "done": false
         },
         {
@@ -147,14 +149,16 @@
           "done": false
         }
       ],
-      "postIts": {
-        "color": "#3B9BD5",
-        "content": "Approfondire le relazioni tra geometria e dinamica dei corpi."
-      },
+      "postIts": [
+        {
+          "color": "#ff9800",
+          "content": "Confronta le proprietà dei baricentri nei diversi sistemi."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Equazioni cardinali",
+      "name": "Equazioni cardinali della meccanica dei sistemi rigidi ed articolati",
       "showTasks": true,
       "tasks": [
         {
@@ -162,7 +166,7 @@
           "done": false
         },
         {
-          "name": "Caratterizzazione delle reazioni di alcuni vincoli",
+          "name": "Caratterizzazione delle reazioni di vincoli",
           "done": false
         },
         {
@@ -174,10 +178,12 @@
           "done": false
         }
       ],
-      "postIts": {
-        "color": "#FF4081",
-        "content": "Fondamento della rigidità nei sistemi meccanici e loro applicazioni pratiche."
-      },
+      "postIts": [
+        {
+          "color": "#9c27b0",
+          "content": "Rivedi i concetti di svincolamento statico."
+        }
+      ],
       "links": []
     },
     {
@@ -185,19 +191,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Relazione simbolica della dinamica",
+          "name": "Relazione simbolica della dinamica e Principio di D'Alembert",
           "done": false
         },
         {
-          "name": "Principe di D'Alembert",
-          "done": false
-        },
-        {
-          "name": "Relazione simbolica della statica",
-          "done": false
-        },
-        {
-          "name": "Principio dei Lavori Virtuali",
+          "name": "Relazione simbolica della statica e Principio dei Lavori Virtuali",
           "done": false
         },
         {
@@ -213,27 +211,73 @@
           "done": false
         }
       ],
-      "postIts": {
-        "color": "#8E24AA",
-        "content": "Esplorazione di concetti avanzati in meccanica per una comprensione analitica dei sistemi."
-      },
+      "postIts": [
+        {
+          "color": "#607d8b",
+          "content": "Studia le differenze tra sistemi olonomi e non olonomi."
+        }
+      ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115529_501/2022/8110/81?coorte=2022&schemaid=2808"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-physics",
+  "color": "#4caf50",
+  "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso.",
+  "requirements": "Analisi Matematica I, Algebra e Geometria",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "- M. Fabrizio, Elementi di Meccanica Classica, seconda edizione, Zanichelli, Bologna, 2002 (ISBN 978 88 08 08885 7).- P. Biscari , T. Ruggeri , G. Saccomandi , M. Vianello, Meccanica Razionale, quarta edizione, UNITEXT, Springer Milano, 2022 (ISBN 978-88-470-4017-5).- F. Brini, A. Muracchini, T. Ruggeri, L. Seccia, Esercizi e Temi d'esame di Meccanica Razionale, Società Editrice Esculapio, Bologna, 2019, quinta edizione, (ISBN 978 88 93 85118 3)."
+      "name": "ARCHETTI MILENA"
     },
     {
-      "color": "#FFEB3B",
-      "content": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso."
+      "name": "ANNESE MICHELE"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Elementi di meccanica classica",
+        "authors": [
+          "Mauro Fabrizio"
+        ],
+        "year": 2002,
+        "notes": [
+          "Available at Zanichelli",
+          "Check catalog for availability"
+        ]
+      },
+      {
+        "name": "Esercizi e temi d'esame di meccanica razionale",
+        "authors": [
+          "Augusto Muracchini",
+          "Francesca Brini"
+        ],
+        "year": 2019,
+        "notes": [
+          "5th edition",
+          "Available at Esculapio",
+          "Check catalog for availability"
+        ]
+      },
+      {
+        "name": "Meccanica razionale",
+        "authors": [
+          "Paolo Biscari"
+        ],
+        "year": 2022,
+        "notes": [
+          "4th edition",
+          "Available at Springer",
+          "Check catalog for availability"
+        ]
+      }
+    ]
+  }
 }

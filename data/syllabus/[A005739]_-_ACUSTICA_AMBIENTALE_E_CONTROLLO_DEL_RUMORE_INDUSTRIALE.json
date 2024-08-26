@@ -1,11 +1,13 @@
 {
-  "name": "ACUSTICA AMBIENTALE E CONTROLLO DEL RUMORE INDUSTRIALE",
   "id": "unibsA005739",
-  "icon": "mdi-sound-wave",
-  "color": "#5c8c2a",
+  "universityId": "unibs",
+  "name": "ACUSTICA AMBIENTALE E CONTROLLO DEL RUMORE INDUSTRIALE",
+  "lastUpdated": "2024-08-26T14:53:11.935Z",
+  "deleted": null,
+  "goals": "Lo studente acquisisce la capacità di comprendere ed utilizzare i concetti fondamentali riguardanti la strumentazione e le tecniche di misura, la propagazione in campo libero, la propagazione e la tramissione in ambiente confinato.",
   "chapters": [
     {
-      "name": "Natura del Suono e Grandezze Acustiche",
+      "name": "Natura del suono e grandezze acustiche",
       "showTasks": true,
       "tasks": [
         {
@@ -73,16 +75,11 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#ffcc00",
-          "content": "Importante comprendere le differenze tra suoni puri e complessi."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
-      "name": "L'Organo Uditivo",
+      "name": "L'organo uditivo",
       "showTasks": true,
       "tasks": [
         {
@@ -134,7 +131,7 @@
       "links": []
     },
     {
-      "name": "Analisi in Frequenza dei Segnali Sonori",
+      "name": "Analisi in frequenza dei segnali sonori",
       "showTasks": true,
       "tasks": [
         {
@@ -150,16 +147,11 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e67e22",
-          "content": "Studiare le diverse tecniche di analisi dei segnali per comprenderne l'importanza."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
-      "name": "Propagazione del Suono",
+      "name": "Propagazione del suono",
       "showTasks": true,
       "tasks": [
         {
@@ -199,7 +191,7 @@
       "links": []
     },
     {
-      "name": "Determinazione E Misure Acustiche",
+      "name": "Determinazione della potenza sonora",
       "showTasks": true,
       "tasks": [
         {
@@ -207,27 +199,15 @@
           "done": false
         },
         {
-          "name": "Assorbimento, trasmissione sonora",
+          "name": "Assorbimento e trasmissione sonora",
           "done": false
         },
         {
-          "name": "Materiali porosi",
+          "name": "Materiali porosi, pannelli vibranti, risonatori di Helmholtz",
           "done": false
         },
         {
-          "name": "Pannelli vibranti",
-          "done": false
-        },
-        {
-          "name": "Risonatori di Helmholtz",
-          "done": false
-        },
-        {
-          "name": "Frequenze naturali",
-          "done": false
-        },
-        {
-          "name": "Legge di massa",
+          "name": "Frequenze naturali e legge di massa",
           "done": false
         },
         {
@@ -239,16 +219,11 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#3498db",
-          "content": "Ricorda di rivedere le proprietà dei materiali acustici."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
-      "name": "Acustica Edilizia e Architettonica",
+      "name": "Acustica edilizia e architettonica",
       "showTasks": true,
       "tasks": [
         {
@@ -276,7 +251,7 @@
       "links": []
     },
     {
-      "name": "Suono nei Condotti",
+      "name": "Suono nei condotti",
       "showTasks": true,
       "tasks": [
         {
@@ -304,20 +279,36 @@
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_122537_26779/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-sound-module",
+  "color": "#4caf50",
+  "examMode": "L’esame si articola in una prova scritta di 180 minuti (cinque esercizi volti a verificare l’avvenuto apprendimento, la padronanza concettuale, la proprietà di linguaggio e la capacità d’interpretazione e di sintesi) e in un esame orale volto ad accertare la capacità di interpretazione e analisi dei fenomeni acustici. Entrambe le prove si fonderanno sui testi di riferimento indicati, senza differenze fra studenti frequentanti e non frequentanti. Le due prove verranno svolte in giorni differenti per permettere al docente di valutare tutti gli elaborati. La prova scritta verrà valutata con un punteggio compreso fra 0 e 30. La prova orale potrà aggiungere a quella scritta fino a 7 punti. È possibile sostenere l’esame orale avendo ottenuto almeno 17 punti alla prova scritta. Gli studenti che avranno ottenuto almeno 18/30 alla prova scritta potranno, se lo desiderano, rinunciare a sostenere la prova orale, registrando il voto dello scritto. Lo scritto ha una validità pari a 12 mesi.",
+  "requirements": "Nozioni di fisica di base. Conoscenza dei metodi di risoluzione delle equazioni differenziali.",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "R. Spagnolo, a cura di, Acustica - Fondamenti e applicazioni, UTET, 2015.Materiale didattico distribuito dal docente."
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L’esame si articola in una prova scritta di 180 minuti (cinque esercizi volti a verificare l’avvenuto apprendimento, la padronanza concettuale, la proprietà di linguaggio e la capacità d’interpretazione e di sintesi) e in un esame orale volto ad accertare la capacità di interpretazione e analisi dei fenomeni acustici. Entrambe le prove si fonderanno sui testi di riferimento indicati, senza differenze fra studenti frequentanti e non frequentanti. Le due prove verranno svolte in giorni differenti per permettere al docente di valutare tutti gli elaborati. La prova scritta verrà valutata con un punteggio compreso fra 0 e 30. La prova orale potrà aggiungere a quella scritta fino a 7 punti. È possibile sostenere l’esame orale avendo ottenuto almeno 17 punti alla prova scritta. Gli studenti che avranno ottenuto almeno 18/30 alla prova scritta potranno, se lo desiderano, rinunciare a sostenere la prova orale, registrando il voto dello scritto. Lo scritto ha una validità pari a 12 mesi."
+      "name": "TONETTI DIEGO"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Acustica: fondamenti e applicazioni",
+        "authors": [
+          "Renato Spagnolo"
+        ],
+        "year": 2015,
+        "notes": [
+          "Utilizzare questo testo come riferimento principale per il corso.",
+          "Verificare la disponibilità nel catalogo della biblioteca."
+        ]
+      }
+    ]
+  }
 }

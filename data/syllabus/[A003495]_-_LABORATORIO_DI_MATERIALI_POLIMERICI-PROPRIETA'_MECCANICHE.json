@@ -1,65 +1,105 @@
 {
-  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  MECCANICHE",
   "id": "unibsA003495",
-  "icon": "mdi-tools",
-  "color": "#4caf50",
+  "universityId": "unibs",
+  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  MECCANICHE",
+  "lastUpdated": "2024-08-26T14:53:34.465Z",
+  "deleted": null,
+  "goals": "Il corso mira a far sì che gli studenti acquisiscano competenze relativamente alle tecniche di laboratorio per la misurazione delle principali proprietà meccaniche dei materiali polimerici, con riferimento agli aspetti di base e a quelli più propriamente metodologici e strumentali. Al termine dell'insegnamento, lo studente sarà in grado di programmare prove meccaniche di laboratorio di base con strumenti standard, raccogliere ed interpretare i dati. Sarà altresì in grado di analizzare i bollettini tecnici dei materiali polimerici e di utilizzare i dati in essi contenuti in modo tale da delinearne il comportamento.",
   "chapters": [
     {
-      "name": "Proprietà Meccaniche dei Materiali Polimerici",
+      "name": "Proprietà meccaniche dei materiali polimerici",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Introduzione alle Proprietà Meccaniche",
+          "name": "Introduzione alle proprietà meccaniche",
           "done": false
         },
         {
-          "name": "Normative di Riferimento",
+          "name": "Normative di riferimento",
           "done": false
         },
         {
-          "name": "Bollettini Tecnici e Banche Dati",
+          "name": "Tecniche sperimentali di misurazione",
           "done": false
         },
         {
-          "name": "Tecniche Sperimentali",
+          "name": "Prove di trazione, compressione e flessione al dinamometro",
           "done": false
         },
         {
-          "name": "Analisi Statistica dei Dati",
+          "name": "Prove di impatto non-strumentato e strumentato",
+          "done": false
+        },
+        {
+          "name": "Analisi dei bollettini tecnici",
+          "done": false
+        },
+        {
+          "name": "Banche dati di materiali polimerici",
+          "done": false
+        },
+        {
+          "name": "Presentazione dei dati e analisi statistica",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Il corso descrive procedure sperimentali e aspetti strumentali relativi alla misurazione delle proprietà meccaniche."
+          "content": "Esaminare gli aspetti strumentali della misura delle proprietà meccaniche."
         },
         {
           "color": "#e6b905",
-          "content": "Le prove al dinamometro includono trazione, compressione e flessione."
-        },
-        {
-          "color": "#e6b905",
-          "content": "Le prove di impatto comprendono sia prove non-strumentato che strumentato."
+          "content": "Raccogliere bullettini tecnici per il riferimento."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108546_19497/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open",
+  "color": "#FFA07A",
+  "examMode": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale. L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà termiche e di processo\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente.",
+  "requirements": "Per la fruizione dell'insegnamento sono necessarie le competenze acquisibili frequentando l'insegnamento di \"Scienza e tecnologia dei materiali\" (II anno).",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Appunti di lezione.N.G. McCrum, C.P. Buckley, C.B. Bucknall; \"Principles of Polymer Engineering\"; Oxford Science Pub.; 1997; 9780198565260G. Locati, A. Fiocca; \"La plastica - Conoscerla per apprezzarla\"; Pacini Ed.; 2016; 9788869950551"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale. L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà termiche e di processo\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente."
+      "name": "AGNELLI JACOPO"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Principles of Polymer Engineering",
+        "authors": [
+          "N. G. McCrum",
+          "C. P. Buckley",
+          "C. B. Bucknall"
+        ],
+        "year": 1997,
+        "notes": [
+          "2nd edition",
+          "Published by Oxford University Press in New York"
+        ]
+      },
+      {
+        "name": "La plastica : conoscerla per apprezzarla",
+        "authors": [
+          "Giancarlo Locati",
+          "Arturo Fiocca"
+        ],
+        "year": 2016,
+        "notes": [
+          "Published by Pacini in Ospedaletto, Pisa and Rivalta Scrivia",
+          "Collaboration with Proplast and Federazione gomma plastica, Unionplast"
+        ]
+      }
+    ]
+  }
 }

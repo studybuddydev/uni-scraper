@@ -1,8 +1,10 @@
 {
-  "name": "GESTIONE INDUSTRIALE DELLA QUALITA  CON LABORATORIO",
   "id": "unibsA003489",
-  "icon": "mdi-book-open-outline",
-  "color": "#4caf50",
+  "universityId": "unibs",
+  "name": "GESTIONE INDUSTRIALE DELLA QUALITA  CON LABORATORIO",
+  "lastUpdated": "2024-08-26T14:53:21.566Z",
+  "deleted": null,
+  "goals": "Corso di Gestione Industriale della Qualità 6 CFU – Per 270Obiettivo del corso è quello di fornire agli alunni le conoscenze di base relative alle teorie di gestione della qualità aziendale, alla normativa di riferimento (ISO 9000), alle tecniche di valutazione dei fornitori e ai criteri di campionamento del materiale in accettazione.Corso di Laboratorio di Gestione Industriale della Qualità 3 CFU – Per 270ScopoObiettivo del corso è quello di fornire agli alunni le conoscenze avanzate relative agli strumenti di miglioramento continuo e della qualità. In particolare verranno analizzate le tecniche di Design of Experiment, di Quality functional Deployment, di Robust Design come FMEA, FECA e Failure tree analysis.",
   "chapters": [
     {
       "name": "Corso di Gestione Industriale della Qualità",
@@ -36,7 +38,27 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Contenuti del Corso di Gestione Industriale della Qualità"
+          "content": "In-depth study of TQM principles and the quality according to current regulations."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Understand the 7 quality tools and statistical process control methods."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Familiarize with ISO 9000 and QS 9000 certification."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Learn how to evaluate suppliers and manage quality control of supplies."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Study the evolution of cost control in companies."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Practice numerical exercises related to previous topics."
         }
       ],
       "links": []
@@ -69,26 +91,59 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Contenuti del Corso di Laboratorio di Gestione Industriale della Qualità"
+          "content": "Understand common sampling plans and operational curves."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Learn tools for Robust Design and perform FMEA analysis."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Explore Quality Function Deployment with examples."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Study variance analysis and factorial plans."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Engage in numerical exercises related to previous topics."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122548_19455/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-clipboard-text",
+  "color": "#74b9ff",
+  "examMode": "Esercizi numerici sui temi trattati e domande di teoria",
+  "requirements": "nessuno",
+  "cfu": "",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "D.C. Montgomery, Controllo Statistico della Qualità, McGraw-Hill, 2005Slide del corso"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "Esercizi numerici sui temi trattati e domande di teoria"
+      "name": ""
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Controllo statistico della qualità",
+        "authors": [
+          "Douglas C. Montgomery"
+        ],
+        "year": 2006,
+        "notes": [
+          "Second edition",
+          "Published by McGraw-Hill",
+          "Check catalog for availability"
+        ]
+      }
+    ]
+  }
 }

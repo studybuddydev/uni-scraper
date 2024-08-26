@@ -1,129 +1,191 @@
 {
-  "name": "SCIENZA DELLE COSTRUZIONI",
   "id": "unibs702995",
-  "icon": "mdi-book-open-variant",
-  "color": "#4A90E2",
+  "universityId": "unibs",
+  "name": "SCIENZA DELLE COSTRUZIONI",
+  "lastUpdated": "2024-08-26T14:52:53.640Z",
+  "deleted": null,
+  "goals": "Il corso si propone come obiettivi formativi specifici l'apprendimento di conoscenze, metodologie, strumenti di analisi critica dei seguenti modelli strutturali:- travi nel piano- continui tridimensionali per materiali solidi elasticiConoscenza e comprensione: Circa i sistemi di travi, l'insegnamento intende fornire allo studente gli strumenti per l'analisi di atti di moto rigido, di atti di moto per modelli di travi e continui di Cauchy, la determinazione di equazioni di bilancio a partire dall'assioma delle potenze virtuali e di oggettività, lo studio delle condizioni al contorno, dei legami costitutivi elastico lineari a partire da nozioni sperimentali e basilari di termo-meccanica dei continui, la scrittura delle equazioni governanti per i modelli indicati.Capacità di applicare conoscenza e comprensione: Le competenze acquisite verranno applicate alla soluzione di problemi. Per modelli di travi, con il metodo della linea elastica e delle equazioni di Mueller-Bresslau, anche in caso di sistemi iperstatici, nonché lo studio della stabilità dell'equilibrio elastico. Per i continui di Cauchy il corso prevede un'approfondita analisi di soluzioni particolari, note come Casi di De Saint Venant (tenso-presso-flessione, taglio, torsione). A seguito del superamento dell’esame, lo studente sarà in grado di determinare quale modello sia più appropriato per il caso di studio da risolvere, valutare la soluzione con i metodi appresi, valutarla criticamente alla luce di risultati attesi e test controllabili.",
   "chapters": [
     {
-      "name": "Introduzione alla meccanica dei solidi e delle strutture",
+      "name": "Principi e metodi della meccanica dei solidi e delle strutture",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studiare i principi fondamentali dell'analisi cinematica",
+          "name": "Modelli tridimensionali della cinematica di mezzi continui",
           "done": false
         },
         {
-          "name": "Analizzare le equazioni di bilancio della quantità di moto",
+          "name": "Studio dei movimenti rigidi",
           "done": false
         },
         {
-          "name": "Esplorare il momento angolare in meccanica dei solidi",
+          "name": "Principi fondamentali dell'analisi cinematica",
+          "done": false
+        },
+        {
+          "name": "Equazioni di bilancio della quantità di moto",
+          "done": false
+        },
+        {
+          "name": "Equazioni di bilancio del momento angolare",
+          "done": false
+        },
+        {
+          "name": "Modelli strutturali (funi e travi piane)",
+          "done": false
+        },
+        {
+          "name": "Approfondimento di mezzi continui di Cauchy",
+          "done": false
+        },
+        {
+          "name": "Equazioni di bilancio nel quadro delle deformazioni finite",
+          "done": false
+        },
+        {
+          "name": "Legami costitutivi ed equazioni governanti",
+          "done": false
+        },
+        {
+          "name": "Casi di De Saint Venant",
+          "done": false
+        },
+        {
+          "name": "Esercitazioni in aula e studio personale",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#FFB300",
-          "content": "Focus on the key principles and models presented."
+          "color": "#e6b905",
+          "content": "Ricordarsi di fare esercizi pratici per ogni modello presentato!"
         }
       ],
       "links": []
     },
     {
-      "name": "Modelli strutturali e analisi",
+      "name": "Modelli della scienza delle costruzioni",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Esplorare i modelli di funi e travi piane",
+          "name": "Modello di trave",
           "done": false
         },
         {
-          "name": "Studiare il continuo di Cauchy",
+          "name": "Modello 2D e 3D",
           "done": false
         },
         {
-          "name": "Comprendere le deformazioni finite",
+          "name": "Stabilità dell'equilibrio elastico",
           "done": false
         },
         {
-          "name": "Analizzare i legami costitutivi",
+          "name": "Continuo di Cauchy",
+          "done": false
+        },
+        {
+          "name": "Elementi essenziali di termodinamica dei materiali",
+          "done": false
+        },
+        {
+          "name": "Soluzioni particolari: i casi di De Saint Venant",
+          "done": false
+        },
+        {
+          "name": "Introduzione alla meccanica computazionale",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#E63946",
-          "content": "Master the structural models and their applications."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Casi di De Saint Venant",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Studiare i fondamentali esempi dei casi di De Saint Venant",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#FFD60A",
-          "content": "Detailed examples will be crucial for understanding principles."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Elementi di termodinamica dei materiali",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Studiare gli elementi essenziali della termodinamica",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#00B9E4",
-          "content": "Relate thermodynamics to material analysis."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Introduzione alla meccanica computazionale",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Approfondire le basi della meccanica computazionale",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#9B59B6",
-          "content": "Computational mechanics will help in practical applications."
-        }
-      ],
+      "postIts": [],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_108534_1303/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open",
+  "color": "#6c5ce7",
+  "examMode": "L'esame consta di una prova scritta, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di trave, e di una prova orale, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di continuo di Cauchy.Gli homework, che consentono di valutare la capacità di lavorare in gruppo su applicazioni pratiche dei contenuti delle lezioni, verranno valutati a parte.",
+  "requirements": "Analisi Matematica 2 e Meccanica Razionale.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "A. Salvadori, Appunti di Scienza delle Costruzioni, ed. Snoopy.Casini P, Vasta M, SCIENZA DELLE COSTRUZIONI, 4a edizione, Città Studi EdFerdinand P. Beer, E. Russell Johnston, Jr., John T. DeWolf e David F.Mazurek, Meccanica dei solidi , Mc-Graw Hill Ed.P. Podio-Guidugli, LEZIONI DI SCIENZA DELLE COSTRUZIONI, Aracne Ed.Luciano Nunziante, Luigi Gambarotta, Antonio Tralli, Scienza dellecostruzioni 3/edCastiglioni, Petrini, Urbano;Esercizi di Scienza delle Costruzioni. SecondaEdizione;Ed. Masson,"
+      "name": "SERPELLONI MATTIA"
     },
     {
-      "color": "#FFEB3B",
-      "content": "L'esame consta di una prova scritta, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di trave, e di una prova orale, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di continuo di Cauchy.Gli homework, che consentono di valutare la capacità di lavorare in gruppo su applicazioni pratiche dei contenuti delle lezioni, verranno valutati a parte."
+      "name": "BONANNO CLAUDIA"
+    },
+    {
+      "name": "CABRAS LUIGI"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Appunti di scienza delle costruzioni",
+        "authors": [
+          "Alberto Salvadori"
+        ],
+        "year": 2004,
+        "notes": []
+      },
+      {
+        "name": "Esercizi di scienza delle costruzioni",
+        "authors": [
+          "Alfredo Castiglioni",
+          "Vincenzo Petrini",
+          "Carlo Urbano"
+        ],
+        "year": 1986,
+        "notes": []
+      },
+      {
+        "name": "Scienza delle costruzioni",
+        "authors": [
+          "Luciano Nunziante",
+          "Antonio Tralli",
+          "Luigi Gambarotta"
+        ],
+        "year": 2011,
+        "notes": []
+      },
+      {
+        "name": "Meccanica dei solidi: elementi di scienza delle costruzioni",
+        "authors": [
+          "Massimo Cuomo",
+          "Ferdinand P. Beer",
+          "E. Russell Johnston"
+        ],
+        "year": 2018,
+        "notes": [
+          "5. ed. italiana a cura di Massimo Cuomo"
+        ]
+      },
+      {
+        "name": "Lezioni di scienza delle costruzioni: seconda edizione riveduta, corretta e ampliata, con 340 figure e 95 esercizi",
+        "authors": [
+          "Paolo Podio-Guidugli"
+        ],
+        "year": 2009,
+        "notes": [
+          "2. ed"
+        ]
+      },
+      {
+        "name": "Scienza delle costruzioni",
+        "authors": [
+          "Paolo Casini",
+          "Marcello Vasta"
+        ],
+        "year": 2020,
+        "notes": [
+          "4. ed"
+        ]
+      }
+    ]
+  }
 }

@@ -1,11 +1,13 @@
 {
-  "name": "SCIENZA E TECNOLOGIA DEI MATERIALI",
   "id": "unibsA003453",
-  "icon": "mdi-book-open",
-  "color": "#4CAF50",
+  "universityId": "unibs",
+  "name": "SCIENZA E TECNOLOGIA DEI MATERIALI",
+  "lastUpdated": "2024-08-26T14:52:35.030Z",
+  "deleted": null,
+  "goals": "Un primo obiettivo del corso è quello di fornire le nozioni scientifiche di base necessarie per comprendere le proprietà dei materiali polimerici, ceramici e compositi. In secondo luogo, il corso si propone di presentare le principali metodologie di caratterizzazione del loro comportamento, con particolare riferimento a quello termico e meccanico. Terzo obiettivo, infine, è quello di illustrare le tecnologie di lavorazione di tali materiali, evidenziando le correlazioni tra tecnologia adottata, struttura e proprietà corrispondenti.Al termine del corso lo studente dovrebbe:- conoscere le caratteristiche salienti delle principali classi di materiali polimerici, ceramici e compositi;- saper valutare criticamente le principali proprietà termiche e meccaniche di tali materiali e come queste sono correlate con la struttura, in modo da potere prevedere adeguatamente il loro comportamento in esercizio;- conoscere le tecnologie di lavorazione dei suddetti materiali e come esse possono influenzare microstruttura e proprietà;- essere in grado di comunicare adeguatamente con gli interlocutori per quanto attiene alle tematiche dell’insegnamento;- essere in grado di approfondire in modo autonomo le conoscenze della materia.",
   "chapters": [
     {
-      "name": "I - Nozioni di Scienza dei Materiali",
+      "name": "Nozioni di Scienza dei Materiali",
       "showTasks": true,
       "tasks": [
         {
@@ -28,13 +30,13 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Studiare la classificazione tradizionale dei materiali ingegneristici."
+          "content": "Include classificazione tradizionale e cenni sulla struttura."
         }
       ],
       "links": []
     },
     {
-      "name": "II - Materiali Ceramici e Vetri",
+      "name": "Materiali Ceramici e Vetri",
       "showTasks": true,
       "tasks": [
         {
@@ -72,14 +74,14 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Rivedere il comportamento meccanico a trazione e compressione dei ceramici."
+          "color": "#d35400",
+          "content": "Considera le proprietà meccaniche e i processi di lavorazione."
         }
       ],
       "links": []
     },
     {
-      "name": "III - Materiali Polimerici",
+      "name": "Materiali Polimerici",
       "showTasks": true,
       "tasks": [
         {
@@ -109,14 +111,14 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Verificare le differenze tra polimeri amorfi e semicristallini."
+          "color": "#2980b9",
+          "content": "Analizzare le differenze tra polimeri amorfi e semicristallini."
         }
       ],
       "links": []
     },
     {
-      "name": "IV - Materiali Compositi",
+      "name": "Materiali Compositi",
       "showTasks": true,
       "tasks": [
         {
@@ -138,27 +140,44 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Studiare la previsione della densità nei compositi."
+          "color": "#27ae60",
+          "content": "Verificare le differenze tra i vari tipi di fibre utilizzate nei compositi."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115530_19355/2022/8110/81?coorte=2022&schemaid=2808"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-page-variant",
+  "color": "#8e44ad",
+  "examMode": "La verifica dell’apprendimento viene effettuata mediante una prova scritta, della durata di 1 ora. La prova comprende due gruppi di domande. Il primo è costituito da 12-15 domande a risposta chiusa. Il secondo è costituito da 3-4 domande a risposta aperta. Per ogni domanda è indicato il massimo punteggio ottenibile. In caso di errore in una domanda a risposta chiusa viene applicata una penalità pari al 30% del punteggio assegnato alla domanda. A seconda del test, il massimo punteggio ottenibile nelle domande a risposta chiusa è compreso tra 15 e 17 punti, mentre quello ottenibile nelle domande a risposta aperta varia tra 14 e 16 punti. Per superare l’esame l’allievo deve superare, per entrambi i gruppi di domande, un punteggio di soglia pari al 40% del punteggio massimo ottenibile. Inoltre, il punteggio totale deve essere maggiore o uguale a 18.",
+  "requirements": "Avere superato l’esame di Chimica.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Callister Jr W.D., Rethwisch W.G., Scienza e Ingegneria dei Materiali, EdiSES, Napoli, 4a edizione, 2019.Smith W.F., Hashemi J., Scienza e tecnologia dei materiali, McGraw Hill, Milano, 5° edizione, 2021."
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "La verifica dell’apprendimento viene effettuata mediante una prova scritta, della durata di 1 ora. La prova comprende due gruppi di domande. Il primo è costituito da 12-15 domande a risposta chiusa. Il secondo è costituito da 3-4 domande a risposta aperta. Per ogni domanda è indicato il massimo punteggio ottenibile. In caso di errore in una domanda a risposta chiusa viene applicata una penalità pari al 30% del punteggio assegnato alla domanda. A seconda del test, il massimo punteggio ottenibile nelle domande a risposta chiusa è compreso tra 15 e 17 punti, mentre quello ottenibile nelle domande a risposta aperta varia tra 14 e 16 punti. Per superare l’esame l’allievo deve superare, per entrambi i gruppi di domande, un punteggio di soglia pari al 40% del punteggio massimo ottenibile. Inoltre, il punteggio totale deve essere maggiore o uguale a 18."
+      "name": "GOZZINI STEFANO"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Scienza ed ingegneria dei materiali",
+        "authors": [
+          "William D. Callister Jr",
+          "David G. Rethwisch"
+        ],
+        "year": 2020,
+        "notes": [
+          "4. ed.",
+          "Verificare la corrispondenza tra la bibliografia consigliata e i testi disponibili"
+        ]
+      }
+    ]
+  }
 }

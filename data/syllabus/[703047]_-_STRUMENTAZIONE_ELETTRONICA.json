@@ -1,8 +1,10 @@
 {
-  "name": "STRUMENTAZIONE ELETTRONICA",
   "id": "unibs703047",
-  "icon": "mdi-book-open",
-  "color": "#6f42c1",
+  "universityId": "unibs",
+  "name": "STRUMENTAZIONE ELETTRONICA",
+  "lastUpdated": "2024-08-26T14:52:54.775Z",
+  "deleted": null,
+  "goals": "Il corso è destinato a studenti del Corso di Laurea in Ingegneria meccanica (1. Livello). Intende fornire gli elementi per la comprensione e lo studio della moderna strumentazione elettronica di misura ambito industriale. Intende inoltre fornire gli elementi per la comprensione della moderna strumentazione e sensoristica di misura ottica.Il corso mira ha rendere lo studente autonomo nell'affrontare scelte progettuali in ambito di progettazione di sistemi di misura di varia tipologia. L'autonomia progettuale prevede anche una elevata autonomia critica nei confronti dei sistemi di misura sviluppati.Tramite un approccio misto teorico e pratico, lo studente sarà in grado di applicare le nozioni teoriche apprese in applicazioni pratiche di scelta dei sistemi di misura più appropriati. In particolare lo studente sarà in grado di scegliere il trasduttore, il sistema di acquisizione e i parametri di acquisizione più appropriati per l'obiettivo di misura previsto.Le slide offerte in lingua inglese permetteranno allo studente di aumentare la propria abilità comunicativa nel campo delle misure meccaniche.",
   "chapters": [
     {
       "name": "Misure meccaniche e termiche",
@@ -13,7 +15,7 @@
           "done": false
         },
         {
-          "name": "Tipologie di traduttori di misura",
+          "name": "Tipologie di trasduttori di misura",
           "done": false
         },
         {
@@ -28,7 +30,11 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on transducer selection exercises and characteristics."
+          "content": "Comprendere le differenze tra statico e dinamico."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Studiare le connessioni elettriche dei trasduttori."
         }
       ],
       "links": []
@@ -53,7 +59,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Emphasize the mathematical tools and practical exercises."
+          "content": "Studiare le proprietà della trasformata di Fourier."
         }
       ],
       "links": []
@@ -82,7 +88,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand calibration and image analysis techniques."
+          "content": "Analizzare i vari metodi di calibrazione."
         }
       ],
       "links": []
@@ -111,26 +117,65 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Includes practical ML exercises and Kalman filter applications."
+          "content": "Focalizzarsi sui principi fondamentali del machine learning."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108536_1726/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4caf50",
+  "examMode": "Esame scritto in forma di risposta breve seguito da orale. Esercitazioni pratiche facoltative.",
+  "requirements": "Conoscenze acquisite dalla frequenza dei Corsi di base, in particolare per misure meccaniche e tecniche e elettrotecnica",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "P.M. Azzoni: Strumenti e misure per l'Ingegneria Meccanica. Hoepli Ed.Doebelin, Ernest O.: Strumenti e metodi di misura. McGraw-HillDoebelin, Ernest O.:Measurement systems : application and design. McGraw-HillLucidi del docente"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "Esame scritto in forma di risposta breve seguito da orale. Esercitazioni pratiche facoltative."
+      "name": "BOTTURI DAVIDE"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Measurement systems: application and design",
+        "authors": [
+          "Ernest O. Doebelin"
+        ],
+        "year": 2004,
+        "notes": [
+          "5th edition",
+          "Published by McGraw-Hill, Boston"
+        ]
+      },
+      {
+        "name": "Strumenti e misure per l'ingegneria meccanica: avvio alla comprensione delle moderne tecniche sperimentali",
+        "authors": [
+          "Piero Mario Azzoni"
+        ],
+        "year": 2006,
+        "notes": [
+          "Published by Hoepli, Milano"
+        ]
+      },
+      {
+        "name": "Strumenti e metodi di misura",
+        "authors": [
+          "Ernest O. Doebelin",
+          "Michele Gasparetto",
+          "Alfredo Cigada"
+        ],
+        "year": 2008,
+        "notes": [
+          "2nd edition",
+          "Published by McGraw-Hill, Milano"
+        ]
+      }
+    ]
+  }
 }

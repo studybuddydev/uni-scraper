@@ -1,0 +1,289 @@
+{
+  "id": "unibs702816",
+  "universityId": "unibs",
+  "name": "ANALISI MATEMATICA II  Cognomi M Z",
+  "lastUpdated": "2024-08-26T14:52:10.486Z",
+  "deleted": null,
+  "goals": "Lo scopo del corso è introdurre gli elementi di base dell'analisi matematica per lo studio dei sistemi ingegneristici e cioè il calcolo differenziale e integrale per funzioni di più variabili reali,teoria delle successioni e serie di funzioni, ed elementi di teoria delle equazioni differenziali. Si intendono infatti fornire le competenze necessarie per poter applicare gli strumenti matematici nello studio dei problemi ingegneristici caratterizzanti del percorso formativo. Particolare attenzione verrà dedicata all’acquisizione, da parte dello studente, della capacità di esprimere in modo rigoroso concetti, interpretazioni e idee in forma orale e/o scritta e alle abilità comunicative.",
+  "chapters": [
+    {
+      "name": "Calcolo differenziale per funzioni reali di più variabili",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Limiti e continuità",
+          "done": false
+        },
+        {
+          "name": "Derivate parziali e direzionali",
+          "done": false
+        },
+        {
+          "name": "Differenziabilità",
+          "done": false
+        },
+        {
+          "name": "Estremi liberi",
+          "done": false
+        },
+        {
+          "name": "Classificazione dei punti stazionari",
+          "done": false
+        },
+        {
+          "name": "Test della matrice hessiana",
+          "done": false
+        },
+        {
+          "name": "Test del determinante hessiano",
+          "done": false
+        },
+        {
+          "name": "Estremi vincolati",
+          "done": false
+        },
+        {
+          "name": "Moltiplicatori di Lagrange",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ffcc00",
+          "content": "Studia le differenze tra estremi liberi e vincolati."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Curve e integrali curvilinei",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Definizione di curva",
+          "done": false
+        },
+        {
+          "name": "Parametrizzazione",
+          "done": false
+        },
+        {
+          "name": "Lunghezza, ascissa curvilinea",
+          "done": false
+        },
+        {
+          "name": "Funzioni di più variabili a valori vettoriali",
+          "done": false
+        },
+        {
+          "name": "Integrali curvilinei di prima e seconda specie",
+          "done": false
+        },
+        {
+          "name": "Gradienti e potenziali",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ff5722",
+          "content": "Ricorda la distinzione tra integrali curvilinei di prima e seconda specie."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Integrazione e derivazione in ambito vettoriale",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Differenziabilità di campi vettoriali",
+          "done": false
+        },
+        {
+          "name": "Derivazione delle funzioni composte",
+          "done": false
+        },
+        {
+          "name": "Integrali multipli: definizioni",
+          "done": false
+        },
+        {
+          "name": "Formule di riduzione",
+          "done": false
+        },
+        {
+          "name": "Cambiamento di variabili",
+          "done": false
+        },
+        {
+          "name": "Formula di Gauss-Green nel piano",
+          "done": false
+        },
+        {
+          "name": "Operatori: rotore, gradiente, divergenza",
+          "done": false
+        },
+        {
+          "name": "Superfici e area di una superficie",
+          "done": false
+        },
+        {
+          "name": "Integrali di superficie",
+          "done": false
+        },
+        {
+          "name": "Teorema di Stokes",
+          "done": false
+        },
+        {
+          "name": "Teorema della divergenza",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#3f51b5",
+          "content": "Fai attenzione agli operatori e ai loro significati."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Successioni e serie di funzioni",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Successioni: convergenza puntuale ed uniforme",
+          "done": false
+        },
+        {
+          "name": "Serie di funzioni: convergenza puntuale, uniforme, totale",
+          "done": false
+        },
+        {
+          "name": "Derivazione ed integrazione per serie",
+          "done": false
+        },
+        {
+          "name": "Serie di potenze",
+          "done": false
+        },
+        {
+          "name": "Sviluppi in serie di Taylor",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#8bc34a",
+          "content": "Rivedi gli esempi di serie di potenze."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Serie di Fourier",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Serie trigonometriche",
+          "done": false
+        },
+        {
+          "name": "Serie di Fourier: definizione",
+          "done": false
+        },
+        {
+          "name": "Convergenza in media",
+          "done": false
+        },
+        {
+          "name": "Convergenza puntuale ed uniforme",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#9c27b0",
+          "content": "Confronta convergenza in media e convergenza uniforme."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Equazioni differenziali ordinarie",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Problema di Cauchy per equazioni del primo ordine",
+          "done": false
+        },
+        {
+          "name": "Soluzioni locali e globali",
+          "done": false
+        },
+        {
+          "name": "Equazioni differenziali di ordine superiore",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ff9800",
+          "content": "Studia i metodi per risolvere le equazioni differenziali."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi-calculator",
+  "color": "#4caf50",
+  "examMode": "L'esame consiste in una prova scritta divisa in due parti: la prima parte contiene 3 esercizi a risposta chiusa relativi agli argomenti del corso. La seconda parte contiene due domande sulla teoria. La valutazione della prova terrà conto della correttezza delle procedure illustrate e del loro rigore logico e metodologico. Se gli studenti riportano un punteggio maggiore o uguale a 18 punti su 30, potranno registrare il voto ottenuto nella prova scritta.Un'ulteriore prova orale, che verte sui fondamenti teorici dell'insegnamento, è facoltativa.",
+  "requirements": "Calcolo differenziale e integrale per funzioni di una variabile reale.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "TREBESCHI PAOLA"
+    },
+    {
+      "name": "DE VITA ANNALISA"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Lezioni di analisi matematica 2",
+        "authors": [
+          "Giovanna Bonfanti",
+          "Paolo Secchi"
+        ],
+        "year": 2013,
+        "notes": [
+          "3. ed",
+          "Available at Cartolibreria Snoopy in Brescia"
+        ]
+      },
+      {
+        "name": "Analisi matematica 2",
+        "authors": [
+          "Marco Bramanti",
+          "Carlo D. Pagani",
+          "Sandro Salsa"
+        ],
+        "year": 2009,
+        "notes": [
+          "Published by Zanichelli",
+          "Check availability in catalog"
+        ]
+      }
+    ]
+  }
+}

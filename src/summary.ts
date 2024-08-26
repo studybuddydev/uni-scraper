@@ -11,45 +11,7 @@ interface Exam {
     annoDiOfferta: string;
     year: number;
 }
-interface DataExam {
-    id: string;
-    universityId: string;
-    name: string;
-    lastUpdated: Date;
-    deleted: Date | null;
 
-    description?: string;
-    goals?: string;
-    requirements?: string;
-
-    chapters?: {
-        id: number;
-        parentId: number | null;
-        name: string;
-        description: string;
-    }[];
-    urls?: {
-        name: string;
-        url: string;
-    }[];
-    teachers?: {
-        name: string;
-        email?: string;
-    }[];
-
-    cfu?: string;
-    examMode?: string;
-    hours?: string;
-    semester?: string;
-    year?: string;
-    teachingYear?: string;
-    deparment?: string;
-    books?: string[];
-    language?: string;
-    note?: string
-    color?: string;
-    icon?: string;
-}
 
 interface Course {
     name: string;
@@ -193,6 +155,7 @@ function cleanExams(courses: Course[]) {
                 examId: exam.id,
                 year: exam.year + '',
                 semester: exam.semester,
+                url: exam.href
 
             }
 

@@ -1,15 +1,17 @@
 {
-  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  TERMICHE E DI PROCESSO",
   "id": "unibsA003496",
-  "icon": "mdi-book-open-page-variant",
-  "color": "#3f51b5",
+  "universityId": "unibs",
+  "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  TERMICHE E DI PROCESSO",
+  "lastUpdated": "2024-08-26T14:53:33.578Z",
+  "deleted": null,
+  "goals": "Il corso mira a far sì che gli studenti acquisiscano conoscenze relativamente alle tecniche di laboratorio per la misurazione delle principali proprietà termiche e di processo dei materiali polimerici, con riferimento agli aspetti di base e a quelli più propriamente metodologici e strumentali. Al termine dell'insegnamento, lo studente sarà in grado di programmare prove termiche e di processo di laboratorio di base con strumenti standard, raccogliere ed interpretare i dati. Sarà altresì in grado di analizzare i bollettini tecnici dei materiali polimerici e di utilizzare i dati in essi contenuti in modo tale da delinearne il comportamento.",
   "chapters": [
     {
-      "name": "Proprietà Termiche e di Processo dei Materiali Polimerici",
+      "name": "Principali proprietà termiche e di processo dei materiali polimerici",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Aspetti di base, metodologici e strumentali",
+          "name": "Introduzione alle proprietà termiche e di processo",
           "done": false
         },
         {
@@ -21,103 +23,83 @@
           "done": false
         },
         {
-          "name": "Tecniche sperimentali per valutazione delle proprietà di processo",
+          "name": "Tecniche sperimentali per la misurazione delle proprietà",
           "done": false
         },
         {
-          "name": "Analisi delle proprietà termiche dei materiali polimerici",
+          "name": "Proprietà di processo dei materiali polimerici termoplastici",
           "done": false
         },
         {
-          "name": "Discussione sull'analisi statistica dei dati",
+          "name": "Proprietà termiche dei materiali polimerici",
+          "done": false
+        },
+        {
+          "name": "Densità dei materiali polimerici nello stato solido",
+          "done": false
+        },
+        {
+          "name": "Analisi statistica dei dati",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on experimental procedures for measuring polymer properties."
+          "content": "Focus on the experimental techniques used in industrial and research labs."
         },
         {
-          "color": "#ff5722",
-          "content": "Review key technical bulletins related to industrial materials."
-        },
-        {
-          "color": "#009688",
-          "content": "Understand the statistical concepts for data presentation."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Proprietà di Processo dei Materiali Polimerici Termoplastici",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Indice di fluidità",
-          "done": false
-        },
-        {
-          "name": "Melt mass-flow rate e melt volume-flow rate",
-          "done": false
-        },
-        {
-          "name": "Densità dei fusi polimerici",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#3f51b5",
-          "content": "Learn about the terms melt flow rates and their significance in processing."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Proprietà Termiche dei Materiali Polimerici",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Temperatura di transizione vetrosa",
-          "done": false
-        },
-        {
-          "name": "Temperatura di fusione",
-          "done": false
-        },
-        {
-          "name": "Temperatura di HDT e grado Vicat",
-          "done": false
-        },
-        {
-          "name": "Densità dei materiali polimerici nello stato solido",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e64a19",
-          "content": "Review the significance of glass transition and melting temperatures."
+          "color": "#e63946",
+          "content": "Make sure to explore the statistical analysis concepts discussed."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108547_19499/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open",
+  "color": "#6a5acd",
+  "examMode": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale.L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà meccaniche\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente.",
+  "requirements": "Per la fruizione dell'insegnamento sono necessarie le conoscenze acquisibili frequentando l'insegnamento di \"Scienza e tecnologia dei materiali\" (II anno).",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Appunti di lezione.N.G. McCrum, C.P. Buckley, C.B. Bucknall; \"Principles of Polymer Engineering\"; Oxford Science Pub.; 1997; 9780198565260G. Locati, A. Fiocca; \"La plastica - Conoscerla per apprezzarla\"; Pacini Ed.; 2016; 9788869950551"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale.L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà meccaniche\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente."
+      "name": ""
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Principles of Polymer Engineering",
+        "authors": [
+          "N. G. McCrum",
+          "C. P. Buckley",
+          "C. B. Bucknall"
+        ],
+        "year": 1997,
+        "notes": [
+          "2nd edition",
+          "Published by Oxford University Press, New York"
+        ]
+      },
+      {
+        "name": "La plastica: conoscerla per apprezzarla",
+        "authors": [
+          "Giancarlo Locati",
+          "Arturo Fiocca"
+        ],
+        "year": 2016,
+        "notes": [
+          "Published by Pacini, Ospedaletto, Pisa",
+          "Federazione gomma plastica, Unionplast"
+        ]
+      }
+    ]
+  }
 }

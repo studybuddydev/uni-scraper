@@ -4,17 +4,20 @@ import 'dotenv/config'
 import fs from 'fs';
 const openai = new OpenAI();
 
+
 export interface CourseInfo {
     name: string;
     icon: string;
     color: string;
     chapters: string;
-    links: string[]
-    postIts: string[]
     books: string;
     examDetails: string;
     learningGoals: string;
     methods: string;
+    requirements: string;
+    credits:string;
+    lang:string;
+    teachers: string;
 }
 
 interface processedChapter {
@@ -23,48 +26,139 @@ interface processedChapter {
     chapters: []
 }
 
+interface Book{
+    
+    name: string, 
+    authors: string[],
+    year: number, 
+    notes: string[]
+
+}
+
+interface DataExam {
+    id: string;
+    universityId: string;
+    name: string;
+    lastUpdated: Date;
+    deleted: Date | null;
+
+    description?: string;
+    goals?: string;
+    requirements?: string;
+
+    chapters?: {
+        id: number;
+        parentId: number | null;
+        name: string;
+        description: string;
+    }[];
+    urls?: {
+        name: string;
+        url: string;
+    }[];
+    teachers?: {
+        name: string;
+        email?: string;
+    }[];
+    books?: Book[]
+
+
+    cfu?: string;
+    examMode?: string;
+    hours?: string;
+    semester?: string;
+    year?: string;
+    teachingYear?: string;
+    deparment?: string;
+    
+    language?: string;
+    note?: string
+    color?: string;
+    icon?: string;
+}
+
 //the actual scraping of the course
-async function getCourseInfo(page: Page): Promise<CourseInfo> {
-    return await page.$$eval('.accordion > dt, .accordion > dd', (elements: Element[]) => {
-        let currentGroup: Partial<CourseInfo> = {};
+async function getCourseInfo(page: Page): Promise<CourseInfo>{
+    console.log('passo dal getcourseinfo');
 
-       
+
+    const matchingElements = await page.$$('h1, dl');
+    console.log('Matching elements:', matchingElements.length); // Should log the number of matched elements
+
+    
+    return await page.$$eval('h1,dd,dt', (elements: Element[]) => {
+
+        console.log('Inside $$eval, elements:', elements); 
+        let currentGroup: CourseInfo = {
+            name: '',
+            icon: '',
+            color: '',
+            chapters: '',
+            books: '',
+            examDetails: '',
+            learningGoals: '',
+            methods: '',
+            requirements: '',
+            credits:'',
+            lang: '',
+            teachers: ''
+        };
+
         
-
-        for (const element of elements) {
-            console.log('tagname', element.tagName);
-            
-            if (element.tagName === 'DT') {
-                currentGroup.name = element.textContent!.trim();
-            } else if (element.tagName === 'DD') {
-                const item = element.textContent!.trim();
+    
+        elements.forEach((element) => {
+            const tagName = element.tagName.toLowerCase();
+    
+            if (tagName === 'h1') {
+                currentGroup.name = element.textContent?.trim() || '';
+            } else if (tagName === 'dt') {
+                const item = element.textContent?.trim() || ''
+                console.log(item);
                 
+    
+                if (item.includes('Contenuti')) {
+                    currentGroup.chapters = element.nextElementSibling?.textContent?.trim() || '';
+                } else if (item.includes('Informazioni')) {
+                    const infoitem = element.nextElementSibling
+                    if (infoitem) {
+                        // Look for <dt> elements within the infoItem
+                        const dtElements = infoitem.querySelectorAll('dt');
+                        
+                        dtElements.forEach((dtElement) => {
+                            const label = dtElement.textContent?.trim() || '';
+                            const ddElement = dtElement.nextElementSibling?.textContent?.trim() || '';
                 
-                const trimmedItem = item.trim();
+                            if (label.includes('Lingua di erogazione')) {
+                                currentGroup.lang = ddElement;
+                            } else if (label.includes('Crediti')) {
+                                currentGroup.credits = ddElement;
+                            }else if (label.includes('Docenti')){
+                                currentGroup.teachers = ddElement
+                            }
+                                
+                        });
+                    }
 
-                if (trimmedItem.includes('Contenuti')) {
-                    console.log('contenuti', trimmedItem);
-                    
-                    currentGroup.chapters = trimmedItem//.split('-').map(chapter => chapter.trim()).filter(chapter => chapter !== '');
-                } else if (trimmedItem.includes('Testi')) {
-                    currentGroup.books = trimmedItem;
-                } else if (trimmedItem.includes('Obiettivi formativi')) {
-                    currentGroup.learningGoals = trimmedItem;
-                } else if (trimmedItem.includes('Metodi didattici')) {
-                    currentGroup.methods = trimmedItem;
-                } else if (trimmedItem.includes('Verifica dell\'apprendimento')) {
-                    currentGroup.examDetails = trimmedItem;
-                } else if (trimmedItem.includes('Programma esteso')) {
+                }else if (item.includes('Testi')) {
+                    currentGroup.books = element.nextElementSibling?.textContent?.trim() || '';
+                } else if (item.includes('Obiettivi formativi')) {
+                    currentGroup.learningGoals = element.nextElementSibling?.textContent?.trim() || '';
+                } else if (item.includes('Metodi didattici')) {
+                    currentGroup.methods = element.nextElementSibling?.textContent?.trim() || '';
+                } else if (item.includes('Verifica dell\'apprendimento')) {
+                    currentGroup.examDetails = element.nextElementSibling?.textContent?.trim() || '';
+                } else if (item.includes('Programma esteso')) {
                     // Append the item to the existing chapters
-                    currentGroup.chapters = (currentGroup.chapters || '') + trimmedItem;
-                } else {
-                    // Handle any other cases if necessary
+                    currentGroup.chapters = (currentGroup.chapters || '') + '\n' + (element.nextElementSibling?.textContent?.trim() || '');
+                }else if(item.includes('Prerequisiti')){
+                    currentGroup.requirements = element.nextElementSibling?.textContent?.trim() || '';
                 }
             }
-        }
-
-
-        return currentGroup as CourseInfo;
+        });
+    
+        return currentGroup;
+    
+    
     });
 }
 
@@ -86,11 +180,15 @@ export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
     await page.waitForSelector('.accordion');
     let infoElements: CourseInfo = await getCourseInfo(page);
 
-    console.log(infoElements);
-    
+
+
+    console.log('infoelements', infoElements);
+
 
 
     infoElements.name = title;
+
+   
 
     await browser.close();
 
@@ -98,20 +196,22 @@ export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
 }
 
 export async function getSubdivisionUrls(url: string) {
-    const browser = await puppeteer.launch({headless:true});
+    console.log('this exams may have an inner subdivision AL/MZ');
+    
+    const browser = await puppeteer.launch({ headless: true });
     const page: Page = await browser.newPage();
 
-    await page.goto(url, { waitUntil: 'networkidle0' }); 
+    await page.goto(url, { waitUntil: 'networkidle0' });
     await page.waitForSelector('app-root', { timeout: 5000 });
-    
+
 
 
     const urls = await page.evaluate(() => {
         const selector = '#top > app-root > div > insegnamento > div.app-main > main > div.insegnamento > div:nth-child(4) > ul > li > a'
-        const links =  Array.from(document.querySelectorAll<HTMLAnchorElement>(selector));
+        const links = Array.from(document.querySelectorAll<HTMLAnchorElement>(selector));
         return links.map(link => link.href);
     });
-    
+
     console.log('urls', urls);
     return urls
 }
@@ -142,10 +242,10 @@ async function processSyllabusChapters(syllabus: CourseInfo): Promise<processedC
 }
 
 
-async function processSyllabusBooks(syllabus: CourseInfo) {
+async function processSyllabusBooks(syllabus: CourseInfo): Promise<Book[]> {
     const systemPromptBooks = `You are a helpful studybuddy for university students, you are given in input a string with the content of the course, 
       you should infer list of the books used in this universitycourse, create a json a and fill the schema as you believe it is useful for the student, the 
-      output should follow this schema:{books: [{ name: string, authors: string[], notes: string[]}`
+      output should follow this schema:{books: [{ name: string, authors: string[],year: number, notes: string[]}`
 
     let response = await openai.chat.completions.create({
         model: "gpt-4o-mini",  // Make sure to specify the correct model
@@ -156,15 +256,18 @@ async function processSyllabusBooks(syllabus: CourseInfo) {
         response_format: { type: "json_object" },
     });
 
-    const parsedBooks = response.choices[0].message.content
+    const parsedBooks = JSON.parse(response.choices[0].message.content || '');
 
     return parsedBooks
 
 }
 
+
+
 async function processAndSave(syllabus: CourseInfo) {
 
     const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
+    const processedBooks: Book[] = await processSyllabusBooks(syllabus)
 
 
     // Execute the regex against the syllabus name
@@ -174,21 +277,39 @@ async function processAndSave(syllabus: CourseInfo) {
 
     const uniname = 'unibs'
 
-    const exam = {
-        name: name,
+    console.log('creating dataexam');
+    
+
+    
+
+    const exam: DataExam = {
         id: uniname + id,
+        universityId: uniname,
+        name: name,
+        lastUpdated: new Date(),
+        deleted: null,
+
+        goals: syllabus.learningGoals,
+
+        chapters: processedChapters?.chapters,
+
+        urls: [{ "name": "syllabus", "url": url },],
+
         icon: processedChapters?.icon,
         color: processedChapters?.color,
-        chapters: processedChapters?.chapters,
-        links: [{ "name": "syllabus", "url": url },],
-        postIts: [{
-            "color": "#FFEB3B",
-            "content": syllabus.books
-        },
-        {
-            "color": "#FFEB3B",
-            "content": syllabus.examDetails
-        }]
+
+        examMode: syllabus.examDetails,
+        requirements: syllabus.requirements,
+        cfu: syllabus.credits,
+        language: syllabus.lang,
+        teachers: syllabus.teachers.split(',').map(name => ({ name: name.trim() })),
+
+        books:processedBooks 
+
+
+        //books: syllabus.books,
+
+
 
     }
 
@@ -207,7 +328,7 @@ async function processAndSave(syllabus: CourseInfo) {
 }
 
 // async function exploreSubdivision(url: string, page: Page): Promise<string[]> {
-   
+
 // }
 
 async function getsyllabus(url: string) {
@@ -216,19 +337,19 @@ async function getsyllabus(url: string) {
 
 
 
-    if (syllabus.chapters) {
+    if (syllabus.chapters != '') {
         processAndSave(syllabus)
-    }else{
+    } else {
         const urls = await getSubdivisionUrls(url)
-        for(const url of urls){
-            console.log(url);
+        for (const url of urls) {
+      
             syllabus = await scrapeSyllabus(url)
 
-               if (syllabus.chapters)
-                    processAndSave(syllabus)
-               else
-                    console.log(syllabus);
-                
+            if (syllabus.chapters)
+                processAndSave(syllabus)
+            else
+                console.log('no chapters', syllabus);
+
         }
     }
 
@@ -240,12 +361,12 @@ async function getsyllabus(url: string) {
 const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493'
 const url1 = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808'
 
-getsyllabus(url)
+//getsyllabus(url1)
 
 
 
 async function main() {
-    const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs_esami.json'
+    const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs_courses.json'
 
 
     interface Course { name: string, id: string, uni: string, exams: [] }
@@ -253,7 +374,8 @@ async function main() {
     const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
     const ingemec: Course = jsonData.find((obj: Course) => obj.id === 'unibs05742'); // Converts obj.id to string for comparison
     for (const exam of ingemec.exams) {
-
+        console.log(exam);
+        
         try {
             await getsyllabus(exam['url'])
         } catch (e) {
@@ -267,5 +389,5 @@ async function main() {
 
 }
 
-//main()
+main()
 

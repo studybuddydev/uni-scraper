@@ -12,7 +12,8 @@
     "dev": "pnpm run build & nodemon ./dist/scrapatore.js",
     "cat": "nodemon ./dist/stregatto.js",
     "clean": "npm run build & node ./dist/clean_json.js",
-    "summary": "pnpm run build && node dist/summary.js"
+    "summary": "pnpm run build && node dist/summary.js",
+    "exam": "pnpm run build && node dist/getSyllabus.js"
   },
   "keywords": [],
   "author": "",

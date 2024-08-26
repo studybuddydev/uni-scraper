@@ -1,8 +1,10 @@
 {
-  "name": "LABORATORIO DI TECNICHE COMPUTAZIONALI",
   "id": "unibsA003912",
-  "icon": "mdi-book-open-variant",
-  "color": "#6a0dad",
+  "universityId": "unibs",
+  "name": "LABORATORIO DI TECNICHE COMPUTAZIONALI",
+  "lastUpdated": "2024-08-26T14:53:45.661Z",
+  "deleted": null,
+  "goals": "Il corso mira a fornire gli elementi di base della programmazione e delle tecniche computazionali usando Matlab come ambiente di calcolo. Gli studenti impareranno a risolvere alcuni problemi di base e contemporaneamente le regole fondamentali della programmazione.",
   "chapters": [
     {
       "name": "Numeri di macchina",
@@ -17,7 +19,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on how numeric representation impacts computation."
+        }
+      ],
       "links": []
     },
     {
@@ -29,7 +36,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand 2D and 3D graphical representation."
+        }
+      ],
       "links": []
     },
     {
@@ -49,7 +61,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Differentiate between scripting and function programming styles."
+        }
+      ],
       "links": []
     },
     {
@@ -69,7 +86,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Key concepts involving arrays and matrix operations."
+        }
+      ],
       "links": []
     },
     {
@@ -89,7 +111,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Study the applications of interpolation in data fitting."
+        }
+      ],
       "links": []
     },
     {
@@ -105,7 +132,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand convergence criteria in fixed-point iterations."
+        }
+      ],
       "links": []
     },
     {
@@ -117,7 +149,7 @@
           "done": false
         },
         {
-          "name": "Grado di precisione e ordine di convergenza",
+          "name": "Grado di precisione e oridine di convergenza",
           "done": false
         },
         {
@@ -125,7 +157,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review the accuracy of numerical integration methods."
+        }
+      ],
       "links": []
     },
     {
@@ -133,7 +170,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Metodi di Eulero, di Crank-Nicolson e di Runge-Kutta",
+          "name": "Metodi di Eulero",
+          "done": false
+        },
+        {
+          "name": "Metodi di Crank-Nicolson",
+          "done": false
+        },
+        {
+          "name": "Metodi di Runge-Kutta",
           "done": false
         },
         {
@@ -141,24 +186,46 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Explore MATLAB solvers for differential equations."
+        }
+      ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122535_20543/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-variant",
+  "color": "#8e44ad",
+  "examMode": "L'esame consiste in una o più prove di Laboratorio durante le quali gli studenti risolvono alcuni semplici problemi usando i codici di calcolo predisposti durante il lavoro in Laboratorio.In ciascuna prova gli studenti dovranno risolvere 3 esercizi, la prova risulta superata se almeno due esercizi risultano sufficienti.A ciascun esercizio verrà dato un voto in trentesimi, il voto finale è ottenuto facendo la media dei voti in tutti gli esercizi.",
+  "requirements": "Analisi Matematica I, Algebra e Geometria",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Numerical Computing with MATLABby Cleve Molerhttps://it.mathworks.com/moler/chapters.html"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L'esame consiste in una o più prove di Laboratorio durante le quali gli studenti risolvono alcuni semplici problemi usando i codici di calcolo predisposti durante il lavoro in Laboratorio.In ciascuna prova gli studenti dovranno risolvere 3 esercizi, la prova risulta superata se almeno due esercizi risultano sufficienti.A ciascun esercizio verrà dato un voto in trentesimi, il voto finale è ottenuto facendo la media dei voti in tutti gli esercizi."
+      "name": ""
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Numerical Computing with MATLAB",
+        "authors": [
+          "Cleve B. Moler"
+        ],
+        "year": 2004,
+        "notes": [
+          "Revised reprint",
+          "Published by SIAM (Society for Industrial and Applied Mathematics)",
+          "Check the availability in the catalog"
+        ]
+      }
+    ]
+  }
 }

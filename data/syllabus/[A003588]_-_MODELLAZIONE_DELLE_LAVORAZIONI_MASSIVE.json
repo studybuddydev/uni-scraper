@@ -1,11 +1,13 @@
 {
-  "name": "MODELLAZIONE DELLE LAVORAZIONI MASSIVE",
   "id": "unibsA003588",
-  "icon": "mdi-book-open-page-variant",
-  "color": "#4ECDC4",
+  "universityId": "unibs",
+  "name": "MODELLAZIONE DELLE LAVORAZIONI MASSIVE",
+  "lastUpdated": "2024-08-26T14:54:10.180Z",
+  "deleted": null,
+  "goals": "Il corso e' rivolto agli studenti di ingegneria che intendano approfondire leproblematiche proprie delle lavorazioni per deformazione plasticamassive. Dopo una parte propedeutica, dedicata alla conoscenza delcomportamento dei materiali in campo plastico e dei teoremi energeticivalidi in tale ambito, vengono illustrate alcune fra le piu' significativetecnologie utilizzate nel campo delle deformazioni plastiche massive.Verranno inoltre illustrati i metodi numerici per la risoluzione e l’ottimizzazione delle lavorazioni per deformazione plastica massive.",
   "chapters": [
     {
-      "name": "Teoria della Plasticità",
+      "name": "Teoria della plasticità",
       "showTasks": true,
       "tasks": [
         {
@@ -27,8 +29,8 @@
       ],
       "postIts": [
         {
-          "color": "#FF6F61",
-          "content": "Introduzione ai concetti base della plasticità."
+          "color": "#e6b905",
+          "content": "Fondamentale capire il comportamento dei materiali in campo plastico."
         }
       ],
       "links": []
@@ -38,19 +40,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sullo stampaggio",
+          "name": "Generalità",
           "done": false
         },
         {
-          "name": "Aspetti economici dello stampaggio",
+          "name": "Aspetti economici",
           "done": false
         },
         {
-          "name": "Macchine e attrezzature per lo stampaggio",
+          "name": "Macchine e attrezzature",
           "done": false
         },
         {
-          "name": "Studio FEM dello stato di sforzo e deformazione",
+          "name": "Studio FEM: stato di sforzo e deformazione",
           "done": false
         },
         {
@@ -58,12 +60,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#FF9E9D",
-          "content": "Importanza dello stampaggio nell'ingegneria."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -71,23 +68,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sulla laminazione",
+          "name": "Generalità",
           "done": false
         },
         {
-          "name": "Tipi di laminazione",
+          "name": "Vari tipi di laminazione",
           "done": false
         },
         {
-          "name": "Aspetti economici nella laminazione",
+          "name": "Aspetti economici",
           "done": false
         },
         {
-          "name": "Attrezzature per laminazione",
-          "done": false
-        },
-        {
-          "name": "Laminazione dei tubi",
+          "name": "Attrezzature",
           "done": false
         },
         {
@@ -95,12 +88,27 @@
           "done": false
         }
       ],
-      "postIts": [
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Laminazione dei tubi",
+      "showTasks": true,
+      "tasks": [
         {
-          "color": "#FFD93D",
-          "content": "Focus sulla laminazione dei tubi."
+          "name": "Laminatoio obliquo",
+          "done": false
+        },
+        {
+          "name": "Laminatoio a passo di pellegrino",
+          "done": false
+        },
+        {
+          "name": "Laminatoio continuo",
+          "done": false
         }
       ],
+      "postIts": [],
       "links": []
     },
     {
@@ -108,15 +116,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sulla trafilatura",
+          "name": "Generalità",
           "done": false
         },
         {
-          "name": "Aspetti economici nella trafilatura",
+          "name": "Aspetti economici",
           "done": false
         },
         {
-          "name": "Attrezzature per trafilatura",
+          "name": "Attrezzature",
           "done": false
         },
         {
@@ -124,12 +132,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#D83C56",
-          "content": "Elementi fondamentali della trafilatura."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -137,7 +140,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sull'estrusione",
+          "name": "Generalità",
           "done": false
         },
         {
@@ -149,41 +152,66 @@
           "done": false
         },
         {
-          "name": "Aspetti economici nell'estrusione",
+          "name": "Aspetti economici",
           "done": false
         },
         {
-          "name": "Attrezzature per estrusione",
+          "name": "Attrezzature",
           "done": false
         },
         {
-          "name": "Studio FEM della forza di estrusione",
+          "name": "Studio FEM: stato di sforzo e deformazione",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#53B2D8",
-          "content": "Comprendere i differenti tipi di estrusione."
-        }
-      ],
+      "postIts": [],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122555_19709/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open",
+  "color": "#4caf50",
+  "examMode": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM, analisi letteratura tecnica",
+  "requirements": "nessuno",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Dispense del corso.S. Kaplakjian, Manufacturing processes for engineering materials,Addison Wesley, 1997W. Johnson, P.B. Mellor, \"Engineering Plasticity\", Van Nostrand, 1973"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM, analisi letteratura tecnica"
+      "name": "ATTANASIO ALDO"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Engineering plasticity",
+        "authors": [
+          "W. Johnson",
+          "P. B. Mellor"
+        ],
+        "year": 1983,
+        "notes": [
+          "Chichester: Horwood",
+          "New York: Halsted press"
+        ]
+      },
+      {
+        "name": "Manufacturing processes for engineering materials",
+        "authors": [
+          "Serope Kalpakjian",
+          "Steven R. Schmid",
+          "Chi Wah Kok"
+        ],
+        "year": 2008,
+        "notes": [
+          "5th edition in SI units",
+          "Singapore: Pearson Prentice Hall"
+        ]
+      }
+    ]
+  }
 }

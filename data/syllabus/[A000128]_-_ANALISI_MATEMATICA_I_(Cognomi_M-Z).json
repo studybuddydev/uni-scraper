@@ -1,0 +1,229 @@
+{
+  "id": "unibsA000128",
+  "universityId": "unibs",
+  "name": "ANALISI MATEMATICA I  Cognomi M Z",
+  "lastUpdated": "2024-08-26T14:51:25.119Z",
+  "deleted": null,
+  "goals": "Introdurre lo studente ai concetti fondamentali dell'analisi matematica in una variabile reale.Al termine del corso lo studente dovrà dimostrare di avere acquisito e compreso i risultati fondamentali della disciplina e di saperli applicare nella risoluzione di problemi di base.",
+  "chapters": [
+    {
+      "name": "Elementi di logica e teoria degli insiemi",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Nozioni di Logica e di teoria degli insiemi",
+          "done": false
+        },
+        {
+          "name": "Numeri reali",
+          "done": false
+        },
+        {
+          "name": "Assiomi dei numeri reali",
+          "done": false
+        },
+        {
+          "name": "Estremo superiore ed inferiore",
+          "done": false
+        },
+        {
+          "name": "Numeri naturali, relativi e razionali",
+          "done": false
+        },
+        {
+          "name": "Funzioni di variabile reale",
+          "done": false
+        },
+        {
+          "name": "Numeri complessi",
+          "done": false
+        },
+        {
+          "name": "Definizione e prime proprietà",
+          "done": false
+        },
+        {
+          "name": "Operazioni sui numeri complessi",
+          "done": false
+        },
+        {
+          "name": "Limiti e continuità",
+          "done": false
+        },
+        {
+          "name": "Definizione di intorni e di continuità",
+          "done": false
+        },
+        {
+          "name": "Limiti di funzioni e teoremi fondamentali",
+          "done": false
+        },
+        {
+          "name": "Limiti notevoli",
+          "done": false
+        },
+        {
+          "name": "Successioni",
+          "done": false
+        },
+        {
+          "name": "Continuità uniforme",
+          "done": false
+        },
+        {
+          "name": "Derivate",
+          "done": false
+        },
+        {
+          "name": "Definizione di derivata e prime proprietà",
+          "done": false
+        },
+        {
+          "name": "Regole di derivazione",
+          "done": false
+        },
+        {
+          "name": "Teoremi fondamentali sulle derivate",
+          "done": false
+        },
+        {
+          "name": "Applicazione delle derivate allo studio delle funzioni",
+          "done": false
+        },
+        {
+          "name": "Classificazione dei punti stazionari",
+          "done": false
+        },
+        {
+          "name": "Polinomio di Taylor",
+          "done": false
+        },
+        {
+          "name": "Funzioni convesse",
+          "done": false
+        },
+        {
+          "name": "Serie numeriche",
+          "done": false
+        },
+        {
+          "name": "Definizioni e criteri di convergenza",
+          "done": false
+        },
+        {
+          "name": "Integrali",
+          "done": false
+        },
+        {
+          "name": "Definizione di integrale di Riemann",
+          "done": false
+        },
+        {
+          "name": "Teorema della media",
+          "done": false
+        },
+        {
+          "name": "Teoremi fondamentali del calcolo",
+          "done": false
+        },
+        {
+          "name": "Integrazione per parti e sostituzione",
+          "done": false
+        },
+        {
+          "name": "Integrazione delle funzioni razionali fratte",
+          "done": false
+        },
+        {
+          "name": "Integrali impropri",
+          "done": false
+        },
+        {
+          "name": "Equazioni differenziali",
+          "done": false
+        },
+        {
+          "name": "Introduzione al problema",
+          "done": false
+        },
+        {
+          "name": "Risoluzione di alcuni tipi di equazioni differenziali ordinarie",
+          "done": false
+        },
+        {
+          "name": "Equazioni a variabili separabili",
+          "done": false
+        },
+        {
+          "name": "Lineari a coefficienti continui",
+          "done": false
+        },
+        {
+          "name": "Lineari del secondo ordine a coefficienti costanti",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4caf50",
+  "examMode": "Due prove scritte da sostenere nel medesimo appello, la prima propedeutica alla seconda. La prima prova scritta consiste in esercizi a risposta aperta o chiusa relativi agli argomenti del corso. La seconda prova consiste in domande sui contenuti teorici dell'insegnamento. La valutazione delle prove terra' conto della correttezza delle procedure illustrate, del loro rigore logico e metodologico, e della efficacia e correttezza espositiva, valorizzando l'assimilazione dei concetti e la rielaborazione personale da parte del candidato.",
+  "requirements": "Nozioni elementari di algebra, geometria analitica e trigonometria fornite dalla scuola superiore.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "GROLI ALESSANDRO"
+    },
+    {
+      "name": "DE VITA ANNALISA"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Analisi matematica di base",
+        "authors": [
+          "Gianni Gilardi"
+        ],
+        "year": 2011,
+        "notes": [
+          "2. ed. - Milano : McGraw-Hill"
+        ]
+      },
+      {
+        "name": "Che cos'è la matematica? : introduzione elementare ai suoi concetti e metodi",
+        "authors": [
+          "Richard Courant",
+          "Herbert Robbins",
+          "Ian Stewart"
+        ],
+        "year": 2000,
+        "notes": [
+          "2. ed. riveduta da Ian Stewart - Torino : Bollati Boringhieri"
+        ]
+      },
+      {
+        "name": "Analisi Matematica",
+        "authors": [
+          "Conti",
+          "Acquistapace",
+          "Savojni"
+        ],
+        "year": 2001,
+        "notes": [
+          "Mc Graw Hill",
+          "Scaricabile online"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "id": "unibs750580",
+  "universityId": "unibs",
+  "name": "CHIMICA  Cognomi A L",
+  "lastUpdated": "2024-08-26T14:51:36.992Z",
+  "deleted": null,
+  "goals": "Il corso ha l'obiettivo di fornire gli strumenti e le competenze di chimica di base, indispensabili per affrontare l’interpretazione dei fenomeni chimici, chimico–fisici e dei materiali più comuni in ambito ingegneristico.",
+  "chapters": [
+    {
+      "name": "La materia e la sua struttura",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "La meccanica quantistica – l’equazione di Schröedinger",
+          "done": false
+        },
+        {
+          "name": "La struttura elettronica degli atomi e le proprietà periodiche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on Schrödinger equation and electronic configurations."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Il legame chimico",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Proprietà generali e legame ionico",
+          "done": false
+        },
+        {
+          "name": "Il legame covalente",
+          "done": false
+        },
+        {
+          "name": "Il legame metallico e i legami deboli",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand types of chemical bonds."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Unità di massa atomica, mole, formule chimiche e nomenclatura in chimica inorganica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "La massa di un atomo",
+          "done": false
+        },
+        {
+          "name": "La mole e il numero di Avogadro",
+          "done": false
+        },
+        {
+          "name": "La massa di una mole: la massa molare",
+          "done": false
+        },
+        {
+          "name": "Le formule chimiche",
+          "done": false
+        },
+        {
+          "name": "Le formule di struttura elettroniche o formule di Lewis",
+          "done": false
+        },
+        {
+          "name": "Gli elementi e i composti",
+          "done": false
+        },
+        {
+          "name": "Il numero di ossidazione",
+          "done": false
+        },
+        {
+          "name": "La nomenclatura nella chimica inorganica",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Le reazioni chimiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Classificazione, bilanciamento e calcoli stechiometrici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Study different types of reactions."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Gli stati di aggregazione della materia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Stato gassoso",
+          "done": false
+        },
+        {
+          "name": "Stato liquido",
+          "done": false
+        },
+        {
+          "name": "Stato solido",
+          "done": false
+        },
+        {
+          "name": "Le soluzioni liquide",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Termodinamica chimica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Le funzioni di stato: energia interna ed entalpia",
+          "done": false
+        },
+        {
+          "name": "Le funzioni di stato: entropia ed energia libera di Gibbs",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Important for understanding chemical systems."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Equilibrio chimico",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Equilibrio in fase gassosa",
+          "done": false
+        },
+        {
+          "name": "Equilibrio in soluzione acquosa",
+          "done": false
+        },
+        {
+          "name": "Equilibri tra fasi diverse",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Elettrochimica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Produzione di energia elettrica da processi spontanei",
+          "done": false
+        },
+        {
+          "name": "Utilizzare energia elettrica per fare avvenire un processo non spontaneo",
+          "done": false
+        },
+        {
+          "name": "Elettrochimica applicata",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Chimica nucleare",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "La chimica nucleare",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Chimica organica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Idrocarburi e altri composti organici",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Cinetica chimica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Velocità di reazione e meccanismi",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi-atom",
+  "color": "#ffcc00",
+  "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi ed è composto da tre prove.Una prima prova formata da 5 esercizi di chimica, per superare la quale lo studente deve risolvere correttamente almeno 3 di essi. Una seconda prova, che, come la prima, copre tutto il programma, ma è costituita da 30 domande a risposta chiusa, per superare la quale lo studente deve rispondere correttamente almeno a 18 quesititi. L’ultima prova consiste in una domanda articolata che richiede una risposta in forma discorsiva, per la quale sono possibili anche valutazioni negative.",
+  "requirements": "Alcune conoscenze di base: stati fisici della materia e unità di misura. Capacità di calcolo con notazione esponenziale o scientifica, arrotondamento dei valori numerici, operazioni con numeri reali, potenze e logaritmi.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "SPEZIANI MICHELE"
+    },
+    {
+      "name": "BILO FABJOLA"
+    },
+    {
+      "name": "MELANI EUGENIO"
+    },
+    {
+      "name": "ZANOLETTI ALESSANDRA"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Chimica",
+        "authors": [
+          "Elza Bontempi"
+        ],
+        "year": 2013,
+        "notes": [
+          "Second edition",
+          "Published by EdiSES, Napoli"
+        ]
+      },
+      {
+        "name": "Chimica",
+        "authors": [
+          "John C. Kotz",
+          "Paul Treichel",
+          "John Raymond Townsend",
+          "Mauro Carcelli"
+        ],
+        "year": 2010,
+        "notes": [
+          "Fourth edition",
+          "Published by EdiSES, Napoli"
+        ]
+      }
+    ]
+  }
+}

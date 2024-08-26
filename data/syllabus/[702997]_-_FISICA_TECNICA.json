@@ -1,8 +1,10 @@
 {
-  "name": "FISICA TECNICA",
   "id": "unibs702997",
-  "icon": "mdi-book-open-page-variant",
-  "color": "#4a90e2",
+  "universityId": "unibs",
+  "name": "FISICA TECNICA",
+  "lastUpdated": "2024-08-26T14:52:21.606Z",
+  "deleted": null,
+  "goals": "Conoscenza dei principi della termodinamica e comprensione delle loro principali conseguenze: esistenza delle proprietà energia ed entropia e loro caratteristiche. Comprensione del legame fra entropia e parte non \"utilizzabile\" dell'energia di un sistema. Conoscenza del principio di stato per stati di equilibrio stabile e delle funzioni di stato. Conoscenza delle macchine termiche, dei principali impianti di conversione energetica e di climatizzazione e comprensione del loro funzionamento. Conoscenza dei concetti di rendimento di primo e di secondo principio e comprensione della differenza fra di essi. Capacità di applicare le equazioni di bilancio dell'energia e dell'entropia (per sistemi chiusi e aperti) e della massa (per soli sistemi aperti) per la risoluzione di problemi di termodinamica applicata.Conoscenza e comprensione delle tre modalità di scambio termico. Comprensione del legame fra flusso termico e campo di temperatura nelle tre modalità di scambio termico. Conoscenza delle equazioni che descrivono lo scambio termico conduttivo e lo scambio termico radiativo. Capacità di risolvere le equazioni per lo scambio termico conduttivo e radiativo per la soluzione di problemi stazionari e non stazionari in geometrie semplici.",
   "chapters": [
     {
       "name": "Fondamenti di Termodinamica",
@@ -13,11 +15,15 @@
           "done": false
         },
         {
-          "name": "Disponibilità adiabatica. Energia disponibile rispetto ad un serbatoio",
+          "name": "Disponibilità adiabatica",
           "done": false
         },
         {
-          "name": "Entropia: additività, scambi per interazione, generazione per irreversibilità",
+          "name": "Energia disponibile rispetto ad un serbatoio",
+          "done": false
+        },
+        {
+          "name": "Entropia: additività, scambi per interazione, generazione per irreversibilità, equazione di bilancio",
           "done": false
         },
         {
@@ -29,11 +35,19 @@
           "done": false
         },
         {
-          "name": "Stati di equilibrio stabile: Temperatura e pressione",
+          "name": "Stati di equilibrio stabile",
           "done": false
         },
         {
-          "name": "Sistemi semplici: Stati omogenei ed eterogenei, fasi, regola delle fasi",
+          "name": "Temperatura e pressione",
+          "done": false
+        },
+        {
+          "name": "Sistemi semplici",
+          "done": false
+        },
+        {
+          "name": "Stati omogenei ed eterogenei, fasi, regola delle fasi",
           "done": false
         },
         {
@@ -41,14 +55,14 @@
           "done": false
         },
         {
-          "name": "Liquidi e solidi incomprimibili ideali, gas ideali e perfetti",
+          "name": "Liquidi e solidi incomprimibile ideali, gas ideali e perfetti",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focus on non-equilibrium states and energy balance equations."
+          "color": "#f2b632",
+          "content": "Focus on understanding the principles of energy conservation and entropy."
         }
       ],
       "links": []
@@ -58,34 +72,34 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Bilanci di energia ed entropia per sistemi aperti",
+          "name": "Bilanci di energia ed entropia per sistemi aperti e loro applicazione a componenti di impianti",
           "done": false
         },
         {
-          "name": "Applicazione a componenti di impianti: pompe, compressori, turbine",
+          "name": "Rudimenti su cicli e schemi semplici di impianti di conversione di energia e di condizionamento",
           "done": false
         },
         {
-          "name": "Rudimenti su cicli e schemi di impianti di conversione di energia",
+          "name": "Efficienza termodinamica di apparati di conversione energetica e concetto di exergia",
           "done": false
         },
         {
-          "name": "Efficienza termodinamica di apparati di conversione energetica",
+          "name": "Cogenerazione",
           "done": false
         },
         {
-          "name": "Concetto di exergia e cogenerazione",
+          "name": "Allocazione consumi nella cogenerazione",
           "done": false
         },
         {
-          "name": "Proprietà dell'aria umida, umidificazione, deumidificazione",
+          "name": "Proprietà dell'aria umida, umidificazione, deumidificazione, condizionamento",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Understand the efficiency of thermal machines and energy conversion cycles."
+          "color": "#ff6f61",
+          "content": "Review examples of Rankine and Joule-Brayton cycles."
         }
       ],
       "links": []
@@ -95,11 +109,27 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Scambio termico per conduzione: Legge di Fourier",
+          "name": "Scambio termico per conduzione",
           "done": false
         },
         {
-          "name": "Equazione generale della conduzione e integrazione in varie geometrie",
+          "name": "Legge di Fourier",
+          "done": false
+        },
+        {
+          "name": "Equazione generale della conduzione",
+          "done": false
+        },
+        {
+          "name": "Condizioni iniziali e al contorno",
+          "done": false
+        },
+        {
+          "name": "Integrazione in varie geometrie",
+          "done": false
+        },
+        {
+          "name": "Conduzione non stazionaria",
           "done": false
         },
         {
@@ -107,11 +137,31 @@
           "done": false
         },
         {
-          "name": "Radiazione di corpo nero e leggi di Planck e Stefan-Boltzmann",
+          "name": "Radiazione di corpo nero",
           "done": false
         },
         {
-          "name": "Scambio termico per convezione e teorema di Buckingham",
+          "name": "Leggi di Planck e di Stefan-Boltzmann",
+          "done": false
+        },
+        {
+          "name": "Emissività di una superficie",
+          "done": false
+        },
+        {
+          "name": "Fattori di vista",
+          "done": false
+        },
+        {
+          "name": "Schermi radiativi",
+          "done": false
+        },
+        {
+          "name": "Scambio termico per convezione",
+          "done": false
+        },
+        {
+          "name": "Teorema di Buckingham dell'analisi dimensionale",
           "done": false
         },
         {
@@ -119,33 +169,88 @@
           "done": false
         },
         {
-          "name": "Convezione forzata in flussi interni ed esterni e naturale",
+          "name": "Convezione forzata in flussi interni ed esterni",
+          "done": false
+        },
+        {
+          "name": "Convezione naturale",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Study the principles of heat transfer through conduction, radiation, and convection."
+          "color": "#3db4e8",
+          "content": "Understand different heat transfer modes: conduction, convection, and radiation."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-variant",
+  "color": "#6c63ff",
+  "examMode": "La prova d'esame consiste in una prova scritta di 120 minuti di durata e composta da due parti.(1) domande in forma aperta o chiusa volte a verificare che lo studente abbia acquisito idonea conoscenza e comprensione degli argomenti di termodinamica e di scambio termico presentati e sviluppati durante il corso; il peso di questa parte sulla valutazione finale è pari, di norma, al 25%.(2) tre o quattro problemi di termodinamica e di scambio termico, di norma articolati in una serie di domande atte a fornire una guida alla risoluzione; l'obbiettivo è quello di verificare la capacità dello studente di applicare le conoscenze acquisite per impostare e risolvere semplici problemi applicativi; il peso di questa parte sulla valutazione finale è pari, di norma, al 75%.Materiale consentito o richiesto durante la prova: calcolatrice non programmabile, penne e matite, documento di identificazione (tabelle e grafici, se necessari per lo svolgimento, vengono forniti insieme ai testi dei problemi proposti).",
+  "requirements": "Nozioni di analisi matematica, fisica e chimica acquisite frequentando le lezioni dei corsi di base del primo anno. Conoscenza e capacità di usare il Sistema Internazionale di unità di misura.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "I riferimenti bibliografici ai libri ed alle dispense qui indicati sono elencati in fondo alla voce. Il libro di testo per la prima parte (termodinamica) è \"Termodinamica\" di G.P. Beretta (2002). Per approfondimenti facoltativi consigliamo \"Thermodynamics. Foundations and Applications\" di E.P. Gyftopoulos e G.P. Beretta (2005).Il libro di testo per la seconda parte (trasmissione del calore) è \"Fondamenti di trasmissione del calore\" di G. Comini e G. Cortella (2013). Per approfondimenti facoltativi consigliamo \"A Heat Transfer Textbook\" di J.H. Lienhard IV e J.H. Lienhard V (2020), scaricabile liberamente dalla pagina https://ahtt.mit.edu/.Oltre agli esercizi proposti e/o svolti in alcuni dei testi consigliati è disponibile la raccolta di esercizi di esame svolti e commentati \"Raccolta di temi d'esame svolti di Fisica Tecnica\" di G.P. Beretta, A.M. Lezzi e M. Pilotelli (2020). Libri di testo:Beretta; Termodinamica; Ed. Cartolibreria SnoopyComini, Cortella; Fondamenti di trasmissione del calore; SGE; 9788889884225Beretta, Lezzi, Pilotelli; Raccolta di temi d'esame svolti di Fisica Tecnica; Ed. Cartolibreria Snoopy; 9788889252277Libri consigliati: Gyftopoulos, Beretta; Thermodynamics. Foundations and Applications; Dover; 0486439321Lienhard IV, Lienhard V; A heat transfer textbook; Phlogiston Press"
+      "name": "GRASSI BENEDETTA"
     },
     {
-      "color": "#FFEB3B",
-      "content": "La prova d'esame consiste in una prova scritta di 120 minuti di durata e composta da due parti.(1) domande in forma aperta o chiusa volte a verificare che lo studente abbia acquisito idonea conoscenza e comprensione degli argomenti di termodinamica e di scambio termico presentati e sviluppati durante il corso; il peso di questa parte sulla valutazione finale è pari, di norma, al 25%.(2) tre o quattro problemi di termodinamica e di scambio termico, di norma articolati in una serie di domande atte a fornire una guida alla risoluzione; l'obbiettivo è quello di verificare la capacità dello studente di applicare le conoscenze acquisite per impostare e risolvere semplici problemi applicativi; il peso di questa parte sulla valutazione finale è pari, di norma, al 75%.Materiale consentito o richiesto durante la prova: calcolatrice non programmabile, penne e matite, documento di identificazione (tabelle e grafici, se necessari per lo svolgimento, vengono forniti insieme ai testi dei problemi proposti)."
+      "name": "MARTINAZZOLI GIANNI"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Termodinamica : per i corsi del nuovo ordinamento degli studi universitari",
+        "authors": [
+          "Gian Paolo Beretta"
+        ],
+        "year": 2002,
+        "notes": []
+      },
+      {
+        "name": "Fondamenti di trasmissione del calore",
+        "authors": [
+          "Gianni Comini",
+          "Giovanni Cortella"
+        ],
+        "year": 2013,
+        "notes": [
+          "4. ed."
+        ]
+      },
+      {
+        "name": "Thermodynamics : foundations and applications",
+        "authors": [
+          "Elias P. Gyftopoulos",
+          "Gian Paolo Beretta"
+        ],
+        "year": 2005,
+        "notes": [
+          "Augmented and corrected ed.",
+          "Versione elettronica"
+        ]
+      },
+      {
+        "name": "Raccolta di temi d'esame svolti di fisica tecnica",
+        "authors": [
+          "Gian Paolo Beretta",
+          "Adriano Maria Lezzi",
+          "Mariagrazia Pilotelli"
+        ],
+        "year": 2020,
+        "notes": [
+          "372 p. : ill ; 21 cm."
+        ]
+      }
+    ]
+  }
 }

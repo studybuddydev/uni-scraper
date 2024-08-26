@@ -1,0 +1,273 @@
+{
+  "id": "unibs703041",
+  "universityId": "unibs",
+  "name": "METALLURGIA  Cognomi M Z",
+  "lastUpdated": "2024-08-26T14:52:34.870Z",
+  "deleted": null,
+  "goals": "L'insegnamento si propone l'obiettivo di fornire le conoscenze di base relative alle principali categorie di materiali metallici di impiego ingegneristico, ponendo una particolare attenzione agli acciai, così da saper valutare le proprietà che ne descrivono il comportamento meccanico e saper correlare quest'ultimo con la microstruttura. Sulla base di tali conoscenze e di quelle relative ai possibili cedimenti in esercizio ai quali possono andare soggetti i manufatti realizzati con i materiali metallici (fatica, fragilità, corrosione, usura e scorrimento viscoso) gli studenti saranno in grado di effettuare una scelta di massima di un materiale metallico e dei trattamenti termici da adottare per soddisfare specifiche condizioni di impiego per un determinato manufatto. Gli studenti aumenteranno la loro capacità di esprimersi con un linguaggio tecnico scientifico proprio delle scienze ingegneristiche e consolideranno la capacità di consultare e utilizzare materiale bibliografico e banche dati utili per un aggiornamento continuo delle conoscenze.",
+  "chapters": [
+    {
+      "name": "Fondamenti della Metallurgia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comprendere i principali fenomeni della metallurgia",
+          "done": false
+        },
+        {
+          "name": "Analizzare le correlazioni tra processi di fabbricazione e proprietà dei materiali metallici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare come i trattamenti termici influenzano le proprietà meccaniche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Reticoli Cristallini e Difetti",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le notazioni cristallografiche",
+          "done": false
+        },
+        {
+          "name": "Analizzare i difetti reticolari di punto e di linea",
+          "done": false
+        },
+        {
+          "name": "Comprendere le soluzioni solide e i composti intermetallici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Rivedere i concetti di diffusione allo stato solido."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Solidificazione e Diagrammi di Stato",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i diagrammi di stato delle leghe metalliche",
+          "done": false
+        },
+        {
+          "name": "Analizzare il diagramma Fe-C",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focalizzarsi sulla regola delle fasi e variabilità dei diagrammi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Prove Meccaniche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Eseguire la prova di trazione",
+          "done": false
+        },
+        {
+          "name": "Eseguire le prove di durezza e resilienza",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Prepararsi per le dimostrazioni pratiche delle prove meccaniche."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Trasformazioni di Fase e Microstruttura",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare le curve di trasformazione TTT e CCT",
+          "done": false
+        },
+        {
+          "name": "Studiare la martensite e la temprabilità",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Chiarire l'influenza della velocità di raffreddamento."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Trattamenti Termici",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le varie tecniche di trattamento termico",
+          "done": false
+        },
+        {
+          "name": "Conoscere i processi di carbocementazione e nitrurazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Sintetizzare i risultati dei trattamenti termici."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Meccanismi di Rafforzamento e Cedimento",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare i fenomeni di cedimento: Fatica, Corrosione, Fragilità",
+          "done": false
+        },
+        {
+          "name": "Conoscere i meccanismi di scorrimento viscoso",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Osservare le condizioni di esercizio materiali."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Acciai e Ghise",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le proprietà degli acciai e classificazione",
+          "done": false
+        },
+        {
+          "name": "Analizzare le strutture e proprietà meccaniche delle ghise",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Confrontare ghise e acciai in base alle loro applicazioni."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Leghe Non Ferrose",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Studiare le leghe di alluminio, rame, zinco e nichel",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Raccogliere informazioni sulle applicazioni industriali delle leghe non ferrose."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi-tools",
+  "color": "#7e57c2",
+  "examMode": "La verifica dell’apprendimento si svolge attraverso due prove scritte in itinere di carattere facoltativo o con una prova finale di norma scritta al termine del corso. L'esame è superato se la media delle prove in itinere o la prova finale scritta risultano sufficienti (18/30).Per ottenere un esito positivo all’esame, è necessario che lo studente dimostri di conoscere e comprendere gli argomenti trattati durante il corso e in particolare le teorie e i principi fondamentali della metallurgia, i metodi necessari alla produzione e caratterizzazione dei materiali metallici, con particolare riferimento agli acciai. È necessario, inoltre, che lo studente sappia risolvere esercizi, interpretare ed utilizzare i diagrammi presentati nel corso delle lezioni o delle esercitazioni (diagrammi di fase, curve TTT, curve CCT, etc.). È necessario, infine, che lo studente sia in grado discutere gli aspetti fondamentali dell’insegnamento con adeguata chiarezza espositiva e utilizzando la terminologia appropriata. Il calendario delle prove viene comunicato con sufficiente anticipo dal docente e reso disponibile sulla piattaforma web.",
+  "requirements": "Il superamento dell’esame di Chimica Generale è un prerequisito obbligatorio all’apprendimento dei contenuti del corso.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "MONTESANO LORENZO"
+    },
+    {
+      "name": "GHIDINI LORENZO"
+    },
+    {
+      "name": "MERICO PAOLOMARCO"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Acciai e leghe non ferrose",
+        "authors": [
+          "Walter Nicodemi"
+        ],
+        "year": 2008,
+        "notes": [
+          "2. ed",
+          "Bologna: Zanichelli"
+        ]
+      },
+      {
+        "name": "Metallurgia",
+        "authors": [
+          "Walter Nicodemi"
+        ],
+        "year": 2007,
+        "notes": [
+          "2. ed",
+          "Bologna: Zanichelli"
+        ]
+      },
+      {
+        "name": "Metallurgia degli acciai",
+        "authors": [
+          "Marco V. Boniardi",
+          "Andrea Casaroli"
+        ],
+        "year": 2022,
+        "notes": [
+          "Esine: Lucefin",
+          "Comprehensive work covering steel metallurgy"
+        ]
+      },
+      {
+        "name": "Scienza e ingegneria dei materiali: una introduzione",
+        "authors": [
+          "William D. Callister, Jr.",
+          "Claudio Caneva (editor)"
+        ],
+        "year": 2008,
+        "notes": [
+          "2. ed",
+          "Napoli: EdiSES",
+          "Introduction to materials science and engineering"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "id": "unibs703157",
+  "universityId": "unibs",
+  "name": "PROBABILITA  E STATISTICA  Cognomi A L",
+  "lastUpdated": "2024-08-26T14:54:20.754Z",
+  "deleted": null,
+  "goals": "Il corso è rivolto a studenti del primo anno ed illustra i modelli matematici atti ad interpretare e descrivere un ampio spettro di fenomeni relativi al moto dei sistemi materiali vincolati, rigidi ed articolati.Conoscenza e ComprensioneConoscenza dei principi fondamentali della probabilità e della statistica e la loro applicazione. Lo studente alla fine del corso conosceranno le basi sul calcolo delle probabilità dei fenomeni aleatori e su alcune tecniche di statistica inferenziale.Capacità di applicare conoscenza e comprensioneLo studente sarà in grado di utilizzare alcuni dei principali metodi statistici di base al fine di analizzare fenomeni reali e comprenderne gli aspetti fondamentali.Autonomia di GiudizioLo studente alla fine del corso avrà acquisito la capacità di interpretare dati statistici al fine di poter prendere decisioni in condizioni di incertezza.Abilità comunicativeSaper usare il linguaggio specifico e formale per descrivere sistemi probabilistici.Lo studente dovrà acquisire la capacità di esporre in modo chiaro e rigoroso, utilizzando adeguatamente il lessico disciplinare, i risultati dell'analisi del problema e delle soluzioni qualitative individuate.Capacità di ApprendimentoLo studente risolvendo problemi ed esercizi, consultando testi ed altre fonti, migliorerà la capacità di apprendimento e di sviluppo del pensiero autonomo.",
+  "chapters": [
+    {
+      "name": "Introduzione alla Statistica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Raccolta dei dati e statistica descrittiva: organizzazione e descrizione dei dati",
+          "done": false
+        },
+        {
+          "name": "Popolazioni e campioni",
+          "done": false
+        },
+        {
+          "name": "Campioni normali",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on data organization and description methods."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Elementi di probabilità",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analisi combinatoria",
+          "done": false
+        },
+        {
+          "name": "Introduzione al concetto di probabilità",
+          "done": false
+        },
+        {
+          "name": "Spazio campionario ed eventi",
+          "done": false
+        },
+        {
+          "name": "Assiomi e proprietà della probabilità",
+          "done": false
+        },
+        {
+          "name": "Probabilità condizionata",
+          "done": false
+        },
+        {
+          "name": "Teorema delle probabilità totali e formula di Bayes",
+          "done": false
+        },
+        {
+          "name": "Eventi indipendenti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand basic probability principles and standard theorems."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Modelli di variabili aleatorie",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analisi di variabili aleatorie unidimensionali",
+          "done": false
+        },
+        {
+          "name": "Comprensione di variabili aleatorie di Bernoulli, binomiali, etc.",
+          "done": false
+        },
+        {
+          "name": "Approssimazioni",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Review types of random variables and their distributions."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Leggi congiunte di variabili aleatorie",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Distribuzione congiunta per variabili aleatorie discrete",
+          "done": false
+        },
+        {
+          "name": "Distribuzione multinomiale",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie indipendenti",
+          "done": false
+        },
+        {
+          "name": "Distribuzioni condizionate",
+          "done": false
+        },
+        {
+          "name": "Covarianza e correlazione",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand covariance and correlation as measures of dependence."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "La distribuzione delle statistiche campionarie",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Campionamento e statistiche",
+          "done": false
+        },
+        {
+          "name": "Teoremi limite",
+          "done": false
+        },
+        {
+          "name": "La varianza campionaria",
+          "done": false
+        },
+        {
+          "name": "Distribuzioni delle statistiche di popolazioni normali",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Study sampling methods and their implications for statistics."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Stima parametrica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Stime puntuali di parametri",
+          "done": false
+        },
+        {
+          "name": "Stimatori e loro proprietà",
+          "done": false
+        },
+        {
+          "name": "Stime per intervalli: intervalli dei confidenza",
+          "done": false
+        },
+        {
+          "name": "Applicazioni mediante software per l'elaborazione di dati statistici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Learn about point estimation and interval estimation methods."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi:file-document",
+  "color": "#4caf50",
+  "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso.",
+  "requirements": "Per una proficua fruizione dell'insegnamento è consigliato aver sostenuto Analisi Matematica A.",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "MAFFEZZONI FRANCESCA"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Probabilità e statistica per l'ingegneria e le scienze",
+        "authors": [
+          "Sheldon M. Ross"
+        ],
+        "year": 2008,
+        "notes": [
+          "Edizione italiana a cura di Francesco Morandin",
+          "Seconda edizione"
+        ]
+      },
+      {
+        "name": "Statistica",
+        "authors": [
+          "Paul Newbold",
+          "William L. Carlson",
+          "Betty Thorne"
+        ],
+        "year": 2021,
+        "notes": [
+          "Nona edizione",
+          "Available at Pearson Italia"
+        ]
+      },
+      {
+        "name": "Introduzione alla matematica",
+        "authors": [
+          "Claudio Giorgi",
+          "Angelo Morro"
+        ],
+        "year": 2011,
+        "notes": [
+          "Published in Santarcangelo di Romagna",
+          "Published by Maggioli"
+        ]
+      },
+      {
+        "name": "Introduzione alla statistica",
+        "authors": [
+          "Alexander McFarlane Mood",
+          "Franklin A. Graybill",
+          "Duane C. Boes"
+        ],
+        "year": 1991,
+        "notes": [
+          "First revised edition",
+          "Available at McGraw-Hill libri Italia"
+        ]
+      }
+    ]
+  }
+}

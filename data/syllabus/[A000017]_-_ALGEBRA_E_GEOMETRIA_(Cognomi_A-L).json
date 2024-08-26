@@ -1,0 +1,157 @@
+{
+  "id": "unibsA000017",
+  "universityId": "unibs",
+  "name": "ALGEBRA E GEOMETRIA  Cognomi A L",
+  "lastUpdated": "2024-08-26T14:51:07.634Z",
+  "deleted": null,
+  "goals": "Il corso è rivolto agli studenti del primo anno di Corso di Laurea in Ingegneria. A seguito del superamento dell'esame lo studente conoscerà i principi fondamentali dell'Algebra Lineare e della Geometria Analitica. Sarà inoltre in grado di utilizzare tali nozioni per risolvere esercizi e problemi che possono essere formalizzati utilizzando il linguaggio dell'Algebra Lineare e della Geometria Analitica. Lo studente sarà in grado di sviluppare un ragionamento logico-deduttivo che consiste nel partire da un dato insieme di ipotesi e dedurre in modo rigoroso le loro conseguenze, illustrando i passaggi intermedi. Lo studente sarà inoltre in grado di esprimersi utilizzando il linguaggio formale caratteristico della Matematica, in modo consapevole e rigoroso.",
+  "chapters": [
+    {
+      "name": "Algebra Lineare",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Teoria degli spazi vettoriali",
+          "done": false
+        },
+        {
+          "name": "Sistemi lineari",
+          "done": false
+        },
+        {
+          "name": "Diagonalizzazione di matrici",
+          "done": false
+        },
+        {
+          "name": "Forme bilineari e quadratiche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare bene le definizioni di spazio vettoriale, linea dipendente e indipendente."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Ripassare il Teorema di Rouche-Capelli e il metodo di Gauss."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Geometria Analitica",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Rette",
+          "done": false
+        },
+        {
+          "name": "Circonferenze",
+          "done": false
+        },
+        {
+          "name": "Coniche",
+          "done": false
+        },
+        {
+          "name": "Piani",
+          "done": false
+        },
+        {
+          "name": "Sfere",
+          "done": false
+        },
+        {
+          "name": "Superfici di rotazione",
+          "done": false
+        },
+        {
+          "name": "Quadriche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Investigare le differenze tra spazi affini ed euclidei."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Studiare la rappresentazione delle curve e superfici algebriche."
+        }
+      ],
+      "links": []
+    }
+  ],
+  "urls": [
+    {
+      "name": "syllabus",
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
+    }
+  ],
+  "icon": "mdi-calculator",
+  "color": "#4287f5",
+  "examMode": "L'esame consiste in una prova scritta alla quale è necessario iscriversi tramite Esse3. Gli studenti che non risulteranno iscritti non potranno partecipare alla prova. Durante la prova non è possibile consultare appunti o libri di testo, né utilizzare la calcolatrice. La prova dura due ore ed è costituita da 3 parti:1) esercizi a risposta aperta di Algebra Lineare per un totale di 10 punti2) esercizi a risposta aperta di Geometria Analitica per un totale di 10 punti3) quesiti di teoria sia a risposta aperta che a risposta chiusa per un totale di 13 punti.L'esame è superato se si consegue la sufficienza in ciascuna delle tre parti, pari a 5/10 per la prima e la seconda parte, 6/13 nella terza parte e se la somma totale è maggiore o uguale di 18.",
+  "requirements": "Buona conoscenza delle nozioni di matematica di base apprese negli studi superiori.",
+  "cfu": "9 CFU",
+  "language": "ITALIANO",
+  "teachers": [
+    {
+      "name": "MELLA LORENZO"
+    },
+    {
+      "name": "PENOCCHIO ANDREA"
+    },
+    {
+      "name": "TREMOLATERRA CRISTINA"
+    }
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Esercizi di algebra lineare e geometria analitica",
+        "authors": [
+          "Silvia Pellegrini"
+        ],
+        "year": 2016,
+        "notes": [
+          "Recommended for practice and exercises in linear algebra and analytical geometry."
+        ]
+      },
+      {
+        "name": "Algebra lineare e geometria analitica",
+        "authors": [
+          "Silvia Pellegrini"
+        ],
+        "year": 2014,
+        "notes": [
+          "Fundamental textbook covering key concepts in linear algebra and analytical geometry."
+        ]
+      },
+      {
+        "name": "Temi d'esame svolti di algebra e geometria : a.a. 2016-2017, 2017-2018",
+        "authors": [
+          "Stefano Pasotti"
+        ],
+        "year": 2019,
+        "notes": [
+          "Collection of past exam topics; useful for exam preparation."
+        ]
+      },
+      {
+        "name": "Geometria",
+        "authors": [
+          "Maria Rita Casali",
+          "Carlo Gagliardi",
+          "Luigi Grasselli"
+        ],
+        "year": 2022,
+        "notes": [
+          "Comprehensive guide on geometry; essential reference for understanding geometric principles."
+        ]
+      }
+    ]
+  }
+}

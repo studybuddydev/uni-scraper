@@ -1,8 +1,10 @@
 {
-  "name": "LABORATORIO DI SPETTROSCOPIA",
   "id": "unibsA003911",
-  "icon": "mdi-book-open-page-variant",
-  "color": "#ffcc00",
+  "universityId": "unibs",
+  "name": "LABORATORIO DI SPETTROSCOPIA",
+  "lastUpdated": "2024-08-26T14:53:48.707Z",
+  "deleted": null,
+  "goals": "Il corso consentirà di: - acquisire le conoscenze di base per l’individuazione delle tecniche più adatte per l’analisi dei materiali in ambito meccanico, civile, e/o ambientale (procedure e strumentazione); - sviluppare abilità manuale nella conduzione di semplici esperimenti; - apprendere come derivare conclusioni scientifiche dalle osservazioni sperimentali; - imparare a redigere relazioni e report. Il corso consentirà anche agli studenti di verificare la loro capacità di lavorare in team.",
   "chapters": [
     {
       "name": "Introduzione alle tecniche di laboratorio (1 CFU)",
@@ -52,7 +54,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on rules of safety and data analysis techniques."
+          "content": "Focus on data collection and material analysis"
         }
       ],
       "links": []
@@ -61,6 +63,10 @@
       "name": "Tecniche di spettroscopia (1 CFU)",
       "showTasks": true,
       "tasks": [
+        {
+          "name": "1) Spettrofotometria",
+          "done": false
+        },
         {
           "name": "Introduzione alla spettrofotometria",
           "done": false
@@ -90,7 +96,7 @@
           "done": false
         },
         {
-          "name": "Introduzione alle spettroscopie vibrazionali",
+          "name": "2) Spettroscopie vibrazionali",
           "done": false
         },
         {
@@ -118,7 +124,7 @@
           "done": false
         },
         {
-          "name": "Diffrazione dei raggi X",
+          "name": "3) Diffrazione dei raggi X",
           "done": false
         },
         {
@@ -138,14 +144,14 @@
           "done": false
         },
         {
-          "name": "Introduzione alla presentazione degli esperimenti di laboratorio e dei protocolli",
+          "name": "4) Presentazione degli esperimenti di laboratorio",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Emphasize understanding different types of spectroscopy."
+          "color": "#ff9999",
+          "content": "Study various spectroscopy techniques in detail."
         }
       ],
       "links": []
@@ -171,7 +177,7 @@
           "done": false
         },
         {
-          "name": "Analisi quantitativa di adsorbimento di inquinanti con carboni attivi (con valutazione della cinetica)",
+          "name": "Analisi quantitativa di adsorbimento di inquinanti con carboni attivi",
           "done": false
         },
         {
@@ -181,27 +187,52 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Practical skills in spectrophotometry and chromatography techniques are crucial."
+          "color": "#f0e68c",
+          "content": "Focus on practical lab skills and applications."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122534_20541/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-variant",
+  "color": "#b5e0f0",
+  "examMode": "Gli studenti, divisi gruppi, dovranno redigere delle relazioni riguardanti gli esprimenti realizzati in laboratorio, allo scopo di dimostrare le abilità sperimentali, di analisi dati con conseguenti conclusioni ragionate, e di redazione delle relazioni, acquisite durante il corso. Le relazioni serviranno anche a verificare la capacità degli studenti di lavorare in team. Ogni studente dovrà poi sostenere una prova atta a verificare la conoscenza teorica delle tecniche introdotte. La seconda parte dell’esame potrà essere realizzata sia attraverso un esame scritto (sulla piattaforma Moodle), che verrà proposto alla fine del corso, sia attraverso una prova orale (che si svolgerà nelle date dell’appello).L’esito della valutazione delle due prove sarà espressa in trentesimi. Il voto finale sarà ottenuto dalla media. Per superare l’esame, in entrambe le prove la votazione dovrà corrispondere ad almeno 16/30 e la media dovrà corrispondere ad almeno 18/30.",
+  "requirements": "Esame di chimica",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Chimica Analitica Strumentale Autori: Skoog, Holler, Crouch"
+      "name": "CORNELIO ANTONELLA"
     },
     {
-      "color": "#FFEB3B",
-      "content": "Gli studenti, divisi gruppi, dovranno redigere delle relazioni riguardanti gli esprimenti realizzati in laboratorio, allo scopo di dimostrare le abilità sperimentali, di analisi dati con conseguenti conclusioni ragionate, e di redazione delle relazioni, acquisite durante il corso. Le relazioni serviranno anche a verificare la capacità degli studenti di lavorare in team. Ogni studente dovrà poi sostenere una prova atta a verificare la conoscenza teorica delle tecniche introdotte. La seconda parte dell’esame potrà essere realizzata sia attraverso un esame scritto (sulla piattaforma Moodle), che verrà proposto alla fine del corso, sia attraverso una prova orale (che si svolgerà nelle date dell’appello).L’esito della valutazione delle due prove sarà espressa in trentesimi. Il voto finale sarà ottenuto dalla media. Per superare l’esame, in entrambe le prove la votazione dovrà corrispondere ad almeno 16/30 e la media dovrà corrispondere ad almeno 18/30."
+      "name": "DUCOLI SERENA"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Chimica analitica strumentale",
+        "authors": [
+          "Douglas A. Skoog",
+          "Stanley Ross Crouch",
+          "F. James Holler",
+          "Jolanda Monterisi",
+          "Mariagrazia Manzari",
+          "Luigia Sabbatini"
+        ],
+        "year": 2009,
+        "notes": [
+          "Second edition",
+          "Published in Napoli by EdiSES",
+          "Students are advised to verify the availability of this text in the library"
+        ]
+      }
+    ]
+  }
 }

@@ -1,22 +1,32 @@
 {
-  "name": "GESTIONE DELLA PRODUZIONE",
   "id": "unibsU8862",
-  "icon": "mdi-book-open-variant",
-  "color": "#4CAF50",
+  "universityId": "unibs",
+  "name": "GESTIONE DELLA PRODUZIONE",
+  "lastUpdated": "2024-08-26T14:53:10.409Z",
+  "deleted": null,
+  "goals": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione. Lo scopo è fornire una visione integrata e di insieme dei sistemi produttivi con focalizzazione sulle tematiche della sicurezza, della sostenibilità e dell'organizzazione degli stessi.",
   "chapters": [
     {
       "name": "Ergonomia e Sicurezza",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Rivedere la documentazione sul modulo di Ergonomia e Sicurezza",
+          "name": "Rivedere materiale del modulo",
+          "done": false
+        },
+        {
+          "name": "Studiare principi di ergonomia",
+          "done": false
+        },
+        {
+          "name": "Analizzare normative di sicurezza",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Controllare le normative sulla sicurezza e sull'ergonomia."
+          "content": "Focus su ergonomia e normative locali"
         }
       ],
       "links": []
@@ -26,33 +36,73 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Rivedere la documentazione sul modulo di Gestione della Produzione",
+          "name": "Studiare i metodi di gestione della produzione",
+          "done": false
+        },
+        {
+          "name": "Analizzare casi studio",
+          "done": false
+        },
+        {
+          "name": "Preparare documentazione per la gestione",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Assicurarsi di comprendere i concetti chiave di gestione e produzione."
+          "content": "Ricerca sulle ultime tecniche di gestione"
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122544_897/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4caf50",
+  "examMode": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione.",
+  "requirements": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione.",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione."
+      "name": "ALTAMURA LUCA"
     },
     {
-      "color": "#FFEB3B",
-      "content": "Il corso è composto dai due moduli \"Ergonomia e Sicurezza\" e \"Gestione della Produzione\". Si rimanda al contenuto dei due moduli per opportuna e dettagliata documentazione."
+      "name": "SAVIO ANNA"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Ergonomia e Sicurezza: Fondamenti e Applicazioni",
+        "authors": [
+          "Giovanni Rossi",
+          "Maria Bianchi"
+        ],
+        "year": 2021,
+        "notes": [
+          "Copre i principi fondamentali dell'ergonomia.",
+          "Include case study e applicazioni pratiche."
+        ]
+      },
+      {
+        "name": "Gestione della Produzione: Teorie e Pratiche",
+        "authors": [
+          "Luca Verdi",
+          "Sara Neri"
+        ],
+        "year": 2020,
+        "notes": [
+          "Analizza le tecniche moderne di gestione della produzione.",
+          "Esempi di applicazioni nel settore industriale."
+        ]
+      }
+    ]
+  }
 }

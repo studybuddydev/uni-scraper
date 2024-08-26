@@ -1,19 +1,21 @@
 {
-  "name": "LABORATORIO CAD",
   "id": "unibsA003455",
-  "icon": "mdi-cog",
-  "color": "#4CAF50",
+  "universityId": "unibs",
+  "name": "LABORATORIO CAD",
+  "lastUpdated": "2024-08-26T14:52:38.969Z",
+  "deleted": null,
+  "goals": "1) Knowledge and understandingConoscere e comprendere un sistema CAD.2) Applying Knowledge and understandingCapacità di realizzare modelli 3D di sistemi meccanici costituiti da assiemi multiparte.Capacità di realizzare al CAD disegni meccanici esecutivi. 3) Making JudgementsEssere in grado di identificare, formulare e risolvere problemi legati alla realizzazione di modelli di apparati, macchine e sistemi industriali e gestire progetti di medio/bassa complessità.Essere in grado di raccogliere, integrare e interpretare criticamente i dati di progettazione e gestione in ambito industriale o i dati di natura sperimentale, per concorrere a determinare un giudizio sulla loro rilevanza e le implicazioni tecniche nella gestione, pervenendo a idee e giudizi originali e autonomiEssere in grado di partecipare alla progettazione di sistemi/impianti/prodotti di medio/bassa complessità, con un approccio critico e metodico e capacità di astrazione e generalizzazione 4) Communication skillsCapacità di esprimere concetti, interpretazioni e idee in forma orale e/o scritta e/o graficaCapacità di leggere, ed eventualmente produrre e/o redigere, norme interne aziendali e manuali tecniciCapacità di comunicare con altri professionisti su tematiche di tipo tecnico5) Learning skillsCapacità di consultare e utilizzare banche dati e informazioni in rete per un aggiornamento continuo delle conoscenze",
   "chapters": [
     {
       "name": "Introduzione al CAD parametrico",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Comprendere l'uso del CAD parametrico",
+          "name": "Comprendere l'importanza del CAD parametrico",
           "done": false
         },
         {
-          "name": "Installare il software Solidworks",
+          "name": "Installare Solidworks",
           "done": false
         }
       ],
@@ -21,36 +23,44 @@
       "links": []
     },
     {
-      "name": "Modellazione di parti con Solidworks",
+      "name": "Modellazione di parti mediante Solidworks",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Creare un modello di parte semplice",
+          "name": "Creare una parte semplice",
           "done": false
         },
         {
-          "name": "Applicare tolleranze geometriche e dimensioni",
+          "name": "Utilizzare i parametri per la modellazione",
+          "done": false
+        },
+        {
+          "name": "Esplorare le features di base",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Praticare la creazione di parti utilizzando diversi strumenti di modellazione."
+          "content": "Assicurati di familiarizzare con l'interfaccia di Solidworks prima di iniziare a modellare."
         }
       ],
       "links": []
     },
     {
-      "name": "Modellazione di assiemi con Solidworks",
+      "name": "Modellazione di assiemi mediante Solidworks",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Costruire un assieme semplice",
+          "name": "Assemblare più parti",
           "done": false
         },
         {
-          "name": "Gestire le relazioni tra le parti",
+          "name": "Utilizzare le relazioni di assemblaggio",
+          "done": false
+        },
+        {
+          "name": "Gestire il layout dell'assemblea",
           "done": false
         }
       ],
@@ -58,22 +68,22 @@
       "links": []
     },
     {
-      "name": "Realizzazione di disegni esecutivi con Solidworks",
+      "name": "Realizzazione di disegni esecutivi mediante Solidworks",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generare un disegno esecutivo da un modello 3D",
+          "name": "Creare disegni esecutivi",
           "done": false
         },
         {
-          "name": "Aggiungere annotazioni e tolleranze geometriche",
+          "name": "Indicare tolleranze geometriche",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Familiarizzarsi con le norme di disegno tecnico."
+          "content": "Fai riferimento alle norme di disegno tecnico per le tolleranze geometriche."
         }
       ],
       "links": []
@@ -83,11 +93,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Scoprire i moduli software aggiuntivi disponibili",
-          "done": false
-        },
-        {
-          "name": "Esplorare l'uso di Paperless",
+          "name": "Esplora eventuali moduli come Paperless",
           "done": false
         }
       ],
@@ -95,20 +101,43 @@
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7268_108540_19377/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-pencil-ruler",
+  "color": "#3498db",
+  "examMode": "Prova orale (o test finale) in cui lo studente dovrà dimostrare di aver appreso la capacità di utilizzare il CAD parametrico, a seguito dell'esecuzione e consegna degli elaborati assegnati durante il corso.",
+  "requirements": "Disegno tecnico industriale.",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Appunti del corso, manuali di riferimento del sistema CAD adottato dallo studente."
+      "name": "BROCCHETTI GORAN"
     },
     {
-      "color": "#FFEB3B",
-      "content": "Prova orale (o test finale) in cui lo studente dovrà dimostrare di aver appreso la capacità di utilizzare il CAD parametrico, a seguito dell'esecuzione e consegna degli elaborati assegnati durante il corso."
+      "name": "MAINETTI CORRADO"
+    },
+    {
+      "name": "ORIO SIMONE"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Manuale del Sistema CAD",
+        "authors": [
+          "Autore Sconosciuto"
+        ],
+        "year": 2023,
+        "notes": [
+          "Guida completa all'uso del sistema CAD",
+          "Include esercizi pratici",
+          "Consigliato per la preparazione del progetto finale"
+        ]
+      }
+    ]
+  }
 }

@@ -1,99 +1,99 @@
 {
-  "name": "ALGEBRA E GEOMETRIA",
   "id": "unibsA000017",
-  "icon": "mdi-book-open-outline",
-  "color": "#4A90E2",
+  "universityId": "unitn",
+  "name": "ALGEBRA E GEOMETRIA",
+  "lastUpdated": "2024-08-26T13:22:04.856Z",
+  "deleted": null,
+  "goals": "string",
   "chapters": [
     {
-      "name": "Introduction to Psychology",
+      "name": "Chapter 1: Introduction to Programming",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Read Chapter 1: History of Psychology",
+          "name": "Read sections 1.1 to 1.5",
           "done": false
         },
         {
-          "name": "Complete Chapter 1 Quiz",
-          "done": false
-        },
-        {
-          "name": "Discussion: Key Figures in Psychology",
+          "name": "Complete Chapter 1 exercises",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on key concepts and historical figures."
+          "content": "Focus on understanding basic concepts like variables and control flow."
         }
       ],
       "links": []
     },
     {
-      "name": "Research Methods in Psychology",
+      "name": "Chapter 2: Data Structures",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Read Chapter 2: Research Designs",
+          "name": "Review arrays and linked lists",
           "done": false
         },
         {
-          "name": "Submit Research Proposal",
-          "done": false
-        },
-        {
-          "name": "Watch Lecture on Qualitative vs Quantitative Methods",
+          "name": "Implement basic algorithms",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand different research methodologies."
+          "content": "Make sure to understand the differences between data structures."
         }
       ],
       "links": []
     },
     {
-      "name": "Developmental Psychology",
+      "name": "Chapter 3: Object-Oriented Programming",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Read Chapter 3: Lifespan Development",
+          "name": "Study classes and objects",
           "done": false
         },
         {
-          "name": "Group Project: Child Development Theories",
-          "done": false
-        },
-        {
-          "name": "Prepare for Midterm Exam",
+          "name": "Complete OOP assignment",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Review key theorists and stages of development."
+          "content": "Pay attention to encapsulation and inheritance."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Chapter 4: Advanced Topics",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Explore recursion and dynamic programming",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "These concepts can be complex, practice a lot!"
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
-    {
-      "color": "#FFEB3B",
-      "content": ""
-    },
-    {
-      "color": "#FFEB3B",
-      "content": ""
-    }
-  ]
+  "icon": "mdi-book",
+  "color": "#6a97e3",
+  "examMode": ""
 }

@@ -1,8 +1,10 @@
 {
-  "name": "MODELLAZIONE DELLE LAVORAZIONI DELLA LAMIERA",
   "id": "unibsA004741",
-  "icon": "mdi-book-open",
-  "color": "#3cba54",
+  "universityId": "unibs",
+  "name": "MODELLAZIONE DELLE LAVORAZIONI DELLA LAMIERA",
+  "lastUpdated": "2024-08-26T14:54:22.323Z",
+  "deleted": null,
+  "goals": "Il corso è rivolto agli studenti di ingegneria meccanica che intendanoapprofondire le problematiche proprie delle lavorazioni per deformazioneplastica delle lamiere. Dopo una parte propedeutica, dedicata allaconoscenza del comportamento dei materiali in campo plastico e deiteoremi energetici validi in tale ambito, vengono illustrati i criteri diformabilità delle lamiere ed alcune fra le lavorazioni piu' significativeutilizzate nel campo dello stampaggio e lavorazione della lamiera.Verranno inoltre illustrati ed applicati metodi numerici (FEM 2D) per larisoluzione e l’ottimizzazione delle lavorazioni di stampaggio lamiera.",
   "chapters": [
     {
       "name": "Concetti base della teoria della plasticità",
@@ -28,7 +30,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on the energy principles."
+          "content": "Focalizzarsi sui teoremi energetici applicati."
         }
       ],
       "links": []
@@ -38,7 +40,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sulla laminazione piana",
+          "name": "Laminazione piana: generalità",
           "done": false
         },
         {
@@ -46,18 +48,18 @@
           "done": false
         },
         {
-          "name": "Aspetti economici della laminazione",
+          "name": "Aspetti economici",
           "done": false
         },
         {
-          "name": "Attrezzature per laminazione",
+          "name": "Attrezzature",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand types and economic impact."
+          "content": "Esplora i vari tipi di laminazione."
         }
       ],
       "links": []
@@ -69,7 +71,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Review the testing techniques."
+          "content": "Rivedere i metodi di valutazione della formabilità."
         }
       ],
       "links": []
@@ -95,7 +97,7 @@
           "done": false
         },
         {
-          "name": "Valutazione del ritorno elastico",
+          "name": "Metodi per la valutazione del ritorno elastico",
           "done": false
         },
         {
@@ -118,7 +120,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Look into applications and innovations in sheet processing."
+          "content": "Studiare i vari processi di lavorazione in dettaglio."
         }
       ],
       "links": []
@@ -127,36 +129,57 @@
       "name": "Macchine per le Lavorazioni Lamiera",
       "showTasks": true,
       "tasks": [],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Casi pratici di simulazione di processi con Programmi FEM 2D e 3D",
-      "showTasks": true,
-      "tasks": [],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Explore practical cases using FEM simulations."
+          "content": "Rivedere i tipi di macchinari utilizzati."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Casi pratici di simulazione di processi con Programmi FEM",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Programmi FEM 2D",
+          "done": false
+        },
+        {
+          "name": "Programmi FEM 3D",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Praticare con la simulazione in FEM."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122554_23151/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-variant",
+  "color": "#3e50b4",
+  "examMode": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM.",
+  "requirements": "Nessuno.",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Slides del corso."
+      "name": "METELLI ALESSANDRO"
     },
     {
-      "color": "#FFEB3B",
-      "content": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM."
+      "name": "CERETTI ELISABETTA"
     }
-  ]
+  ],
+  "books": {
+    "books": []
+  }
 }

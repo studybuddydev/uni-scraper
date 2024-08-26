@@ -1,34 +1,36 @@
 {
-  "name": "LA GOMMA  DALLE MESCOLE AL PRODOTTO FINITO",
   "id": "unibsA005021",
-  "icon": "mdi-rubber",
-  "color": "#4caf50",
+  "universityId": "unibs",
+  "name": "LA GOMMA  DALLE MESCOLE AL PRODOTTO FINITO",
+  "lastUpdated": "2024-08-26T14:53:36.936Z",
+  "deleted": null,
+  "goals": "Il corso si propone di completare la formazione degli studenti su un materiale, la gomma, largamente usato in diverse applicazioni ingegneristiche quali pneumatici o sistemi di tenuta, in accordo con gli obiettivi del corso di laurea in Ingegneria per l'Innovazione dei Materiali e del Prodotto. Per aumentare la conoscenza della realtà industriale della gomma, sono previsti interventi di professionisti che operano in imprese del settore.A seguito del superamento dell'esame, lo studente: - conoscerà gli ingredienti tipici di una mescola e le caratteristiche strutturali delle gomme, e come queste si relazionano alle sue proprietà;- conoscerà le proprietà fisco-meccaniche specifiche di una gomma e come vengono misurate;- conoscerà le tecnologie di lavorazione dei suddetti materiali;- avrà la capacità di saper valutare criticamente le principali proprietà fisico-meccaniche della gomma, in modo da potere prevedere il suo comportamento in esercizio ed effettuare autonomamente una prima selezione della mescola più adatta in funzione dell'applicazione;- sarà in grado di dimensionare degli O-ring per sistemi di tenuta statica;- sarà in grado di proporre modifiche alla formulazione di una mescola, almeno per quello che riguarda i componenti principali, per l'ottenimento delle proprietà volute;- sarà in grado di formulare delle ipotesi in merito alle cause del cattivo funzionamento in un componente in gomma;- avrà la capacità di esprimere concetti, interpretazioni e idee in forma orale e/o scritta e/o grafica relativamente alle tematiche del corso;- avrà la capacità di consultare e utilizzare materiale bibliografico e informazioni in rete per apprendere nuove conoscenze sulle tematiche del corso.",
   "chapters": [
     {
       "name": "Introduzione alla scienza e tecnologia della gomma",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Composizione e selezione di una mescola di gomma",
+          "name": "Comprendere la composizione e selezione di una mescola di gomma",
           "done": false
         },
         {
-          "name": "Caratterizzazione delle proprietà fisico-meccaniche delle gomme",
+          "name": "Caratterizzare le proprietà fisico-meccaniche delle gomme",
           "done": false
         },
         {
-          "name": "Tecnologie di produzione di manufatti in gomma",
+          "name": "Studiare le principali tecnologie di produzione di manufatti in gomma",
           "done": false
         },
         {
-          "name": "Esempi di utilizzo della gomma",
+          "name": "Analizzare esempi di utilizzo della gomma (pneumatici e sistemi di tenuta)",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Studiare le applicazioni pratiche: pneumatici e sistemi di tenuta."
+          "content": "La gomma ha applicazioni in diversi settori industriali."
         }
       ],
       "links": []
@@ -38,52 +40,48 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Principali tipologie di materiali elastomerici presenti sul mercato",
+          "name": "Esplorare le principali tipologie di materiali elastomerici presenti sul mercato",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Esaminare le caratteristiche specifiche di ciascun materiale elastomerico."
+          "color": "#ff9900",
+          "content": "Le tipologie di materiali influenzano le proprietà finali del prodotto."
         }
       ],
       "links": []
     },
     {
-      "name": "Sistemi di vulcanizzazione e cariche rinforzanti",
+      "name": "Sistemi di vulcanizzazione",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Sistemi di vulcanizzazione",
-          "done": false
-        },
-        {
-          "name": "Cariche rinforzanti",
+          "name": "Studiare i sistemi di vulcanizzazione e cariche rinforzanti",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Importante per comprendere la resistenza e la durabilità delle gomme."
+          "color": "#00cc99",
+          "content": "La vulcanizzazione è fondamentale per la stabilità e durevolezza della gomma."
         }
       ],
       "links": []
     },
     {
-      "name": "Criteri di selezione degli ingredienti",
+      "name": "Criteri di selezione degli ingredienti della mescola",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Criteri di selezione in funzione dell’applicazione finale",
+          "name": "Analizzare i criteri di selezione degli ingredienti della mescola in funzione dell’applicazione finale",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Analizzare come la selezione degli ingredienti influisce sul rendimento finale."
+          "color": "#ff6699",
+          "content": "La selezione degli ingredienti varia con l'uso finale della gomma."
         }
       ],
       "links": []
@@ -93,26 +91,35 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Proprietà delle mescole crude",
+          "name": "Studiare le proprietà delle mescole crude",
           "done": false
         },
         {
-          "name": "Elasticità della gomma",
-          "done": false
-        },
-        {
-          "name": "Comportamento meccanico a medie e grandi deformazioni",
-          "done": false
-        },
-        {
-          "name": "Proprietà di resistenza ambientale della gomma",
+          "name": "Comprendere l'elasticità e il comportamento meccanico della gomma",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Rivedere le teorie sulla reologia e le deformazioni elastiche."
+          "color": "#6699ff",
+          "content": "Le proprietá termo-meccaniche sono cruciali per le applicazioni di gomma."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà di resistenza ambientale della gomma",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Esaminare le proprietà di resistenza ambientale della gomma",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#cc00cc",
+          "content": "La resistenza ambientale è importante per la durabilità delle applicazioni."
         }
       ],
       "links": []
@@ -122,14 +129,14 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processi di trasformazione della gomma",
+          "name": "Studiare i processi di trasformazione della gomma",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Studiare i vari metodi di lavorazione della gomma."
+          "color": "#ffccff",
+          "content": "I processi di trasformazione determinano la forma finale dei prodotti."
         }
       ],
       "links": []
@@ -139,14 +146,14 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Case studies: sistemi di tenuta e pneumatici",
+          "name": "Analizzare case studies su sistemi di tenuta e pneumatici",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Approfondire i case studies per comprendere meglio le applicazioni ingegneristiche."
+          "color": "#009966",
+          "content": "Studiare esempi concreti di applicazione aiuta a comprendere la teoria."
         }
       ],
       "links": []
@@ -156,50 +163,98 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Cenni sul riciclo della gomma",
+          "name": "Studiare il riciclo della gomma",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Analizzare le tecniche moderne di riciclo della gomma."
+          "color": "#ff3300",
+          "content": "Il riciclo della gomma è importante per la sostenibilità."
         }
       ],
       "links": []
     },
     {
-      "name": "Visita all'impianto di produzione",
+      "name": "Visita a un impianto di produzione di articoli tecnici in gomma",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Visita a un impianto di produzione di articoli tecnici in gomma",
+          "name": "Partecipare alla visita all'impianto di produzione",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Prepararsi per la visita, annotare domande."
+          "color": "#3300cc",
+          "content": "Le visite pratiche offrono una grande opportunità di apprendimento."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122550_23979/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-rubber",
+  "color": "#ffcc00",
+  "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare i concetti teorici appresi a casi applicativi pratici.L'esame consiste in una prova scritta, con un mix di domande aperte, chiuse, ed esercizi, in cui si valuterà la capacità di descrivere il comportamento fisico-meccanico di una gomma, di relazionarlo alla sua composizione, e di saperlo utilizzare per la scelta più idonea del processo produttivo.Necessario al superamento dell’esame è un corretto utilizzo della terminologia.L’esame orale è considerato sufficiente con una votazione di almeno 18/30.",
+  "requirements": "E’ necessario aver acquisito il corso di “Scienza e Tecnologia dei Materiali” o \"Scienza e Tecnologia dei Polimeri e dei Compositi\"",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Appunti di lezione.Per approfondimenti:S.K. De, J.R. White, “Rubber Technologist’s Handbook”, Rapra Technology Limited, UK, 2001A. Ciesielski, “An Introduction to Rubber Technology”, Rapra Technology Limited, UK, 1999A.L. Gent,” Engineering with Rubber. How to Design Rubber Components”, Hanser, 2012.R. Brown, “Physical testing of rubber”, Springer, 2006."
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare i concetti teorici appresi a casi applicativi pratici.L'esame consiste in una prova scritta, con un mix di domande aperte, chiuse, ed esercizi, in cui si valuterà la capacità di descrivere il comportamento fisico-meccanico di una gomma, di relazionarlo alla sua composizione, e di saperlo utilizzare per la scelta più idonea del processo produttivo.Necessario al superamento dell’esame è un corretto utilizzo della terminologia.L’esame orale è considerato sufficiente con una votazione di almeno 18/30."
+      "name": ""
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Rubber Technologist's Handbook",
+        "authors": [
+          "J. R. White",
+          "Sadhan K. De"
+        ],
+        "year": null,
+        "notes": [
+          "Available in electronic version",
+          "Published by Rapra Technology Limited"
+        ]
+      },
+      {
+        "name": "An Introduction to Rubber Technology",
+        "authors": [
+          "Andrew Ciesielski"
+        ],
+        "year": null,
+        "notes": [
+          "Available in electronic version",
+          "Published by Rapra Technology Limited"
+        ]
+      },
+      {
+        "name": "Engineering with Rubber: How to Design Rubber Components",
+        "authors": [
+          "Alan N. Gent"
+        ],
+        "year": null,
+        "notes": [
+          "Available in electronic version"
+        ]
+      },
+      {
+        "name": "Physical Testing of Rubber",
+        "authors": [
+          "Roger Brown"
+        ],
+        "year": null,
+        "notes": [
+          "Available in electronic version"
+        ]
+      }
+    ]
+  }
 }

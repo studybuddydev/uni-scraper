@@ -1,8 +1,10 @@
 {
-  "name": "TECNOLOGIE MECCANICHE",
   "id": "unibs750597",
-  "icon": "mdi-cogs",
-  "color": "#4CAF50",
+  "universityId": "unibs",
+  "name": "TECNOLOGIE MECCANICHE",
+  "lastUpdated": "2024-08-26T14:52:42.323Z",
+  "deleted": null,
+  "goals": "Il corso di Tecnologie Meccaniche affronta lo studio dei processi di fabbricazione di componenti meccanici. Dopo una prima fase relativa allo studio e agli approfondimenti sulle lavorazioni meccaniche convenzionali, quali fonderia e le lavorazioni per deformazione plastica, si affronteranno le tematiche inerenti i processi di asportazione di truciolo. Verranno illustrati sia aspetti pratici, quali la descrizione dei processi, degli utensili e delle attrezzature, sia teorici, quali lo studio della formazione del truciolo, delle forze di lavorazione, della scelta del materiali degli utensili e della definizione della durata utensile in ambiente deterministico e stocastico. Infine verranno introdotte le microlavorazione per asportazione di truciolo illustrandone problematiche, campi di applicazione, limiti e vantaggi.Nella parte finale del corso si analizzeranno le tecnologie di lavorazione non convenzionali e i processi additivi di fabbricazione (additive manufacturing).Al termine del corso l'allievo dovrà essere in grado di definire la soluzione tecnologica, il processo e il sistema di produzione più idonei alla realizzazione di un componente o di un prototipo e di valutare come assemblare il componente all'interno di prodotti più complessi.",
   "chapters": [
     {
       "name": "Generalità sui processi di fabbricazione",
@@ -13,7 +15,11 @@
           "done": false
         },
         {
-          "name": "Problematiche connesse con la produzione di particolari meccanici",
+          "name": "Identificazione del ciclo di lavoro",
+          "done": false
+        },
+        {
+          "name": "Problematiche connesse alla produzione di particolari meccanici",
           "done": false
         },
         {
@@ -21,7 +27,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on material choices, shapes, tolerances, and costs."
+        }
+      ],
       "links": []
     },
     {
@@ -33,23 +44,32 @@
           "done": false
         },
         {
-          "name": "Problematiche connesse con il processo",
+          "name": "Problematiche connesse al processo: ritiro in fase liquida",
           "done": false
         },
         {
-          "name": "Panorama sulle tecniche di fusione",
+          "name": "Problematiche connesse al processo: ritiro in fase solida",
           "done": false
         },
         {
-          "name": "Fusione in terra - progettazione dei modelli",
+          "name": "Accorgimenti nel processo di fonderia",
           "done": false
         },
         {
-          "name": "Esempi ed esercizi",
+          "name": "Panorama sulle tecniche di fonderia",
+          "done": false
+        },
+        {
+          "name": "Progettazione dei modelli nella fusione in terra",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Important techniques include fusion in terra and colata sotto pressione."
+        }
+      ],
       "links": []
     },
     {
@@ -57,15 +77,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Plasticità dei materiali e prova di compressione",
+          "name": "Studio della plasticità dei materiali",
           "done": false
         },
         {
-          "name": "Stampaggio a caldo",
+          "name": "Stampaggio a caldo e progettazione dello stampo",
           "done": false
         },
         {
-          "name": "Laminazione: piana, obliqua, tubi",
+          "name": "Laminazione: vari tipi",
           "done": false
         },
         {
@@ -77,7 +97,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Understand various deformation techniques."
+        }
+      ],
       "links": []
     },
     {
@@ -85,19 +110,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Formazione del truciolo e materiali utensili",
+          "name": "Generalità sulla formazione del truciolo",
           "done": false
         },
         {
-          "name": "Tornitura",
+          "name": "Tornitura: descrizione e calcolo",
           "done": false
         },
         {
-          "name": "Fresatura",
+          "name": "Fresatura: descrizione e calcolo",
           "done": false
         },
         {
-          "name": "Foratura",
+          "name": "Foratura: descrizione e calcolo",
           "done": false
         },
         {
@@ -105,7 +130,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focus on tool wear and economic optimization."
+        }
+      ],
       "links": []
     },
     {
@@ -117,7 +147,7 @@
           "done": false
         },
         {
-          "name": "Lavorazioni abrasive ed a getto d'acqua (WJM)",
+          "name": "Lavorazioni abrasive e a getto d'acqua (WJM)",
           "done": false
         },
         {
@@ -129,24 +159,81 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Explore advances in non-conventional machining methods."
+        }
+      ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115533_1727/2022/8110/81?coorte=2022&schemaid=2808"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-tools",
+  "color": "#4CAF50",
+  "examMode": "L'esame consiste in prove scritte od orali nel corso delle quali è necessario dimostrare di aver acquisito, oltre ai contenuti teorici del corso, anche la capacità di risolvere problemi numerici di ottimizzazione delle lavorazioni.",
+  "requirements": "Aver superato l'esame del corso di \"DISEGNO TECNICO INDUSTRIALE\".",
+  "cfu": "12 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Tecnologia MeccanicaSerope Kalpakjian - Steven SchmidtPearson - Prentice HallQuinta edizione Volumi consigliatiTecnologia Meccanica, Vol. I e Vol. IIBugini A., Giardini C., Pacagnella R., Restelli G.Città Studi Tecnologia Meccanica e studi di fabbricazioneSantochi M., Giusti F.Casa editrice Ambrosiana."
+      "name": "FIORENTINO ANTONIO"
     },
     {
-      "color": "#FFEB3B",
-      "content": "L'esame consiste in prove scritte od orali nel corso delle quali è necessario dimostrare di aver acquisito, oltre ai contenuti teorici del corso, anche la capacità di risolvere problemi numerici di ottimizzazione delle lavorazioni."
+      "name": "SANTONA GIACOMO"
+    },
+    {
+      "name": "SOARDI GIUSEPPE"
+    },
+    {
+      "name": "BERARDI MARIANGELA"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Tecnologia meccanica",
+        "authors": [
+          "Serope Kalpakjian",
+          "Steven R. Schmid",
+          "Stefania Bruschi"
+        ],
+        "year": 2008,
+        "notes": [
+          "5th edition",
+          "Published by Pearson Paravia Bruno Mondadori",
+          "Check availability in catalog"
+        ]
+      },
+      {
+        "name": "Tecnologia meccanica e studi di fabbricazione",
+        "authors": [
+          "Marco Santochi",
+          "Francesco Giusti"
+        ],
+        "year": 2000,
+        "notes": [
+          "2nd edition",
+          "Published by CEA",
+          "Check availability in catalog"
+        ]
+      },
+      {
+        "name": "Tecnologia meccanica",
+        "authors": [
+          "Antonio Bugini"
+        ],
+        "year": null,
+        "notes": [
+          "Published by CittàStudi",
+          "Check availability in catalog"
+        ]
+      }
+    ]
+  }
 }

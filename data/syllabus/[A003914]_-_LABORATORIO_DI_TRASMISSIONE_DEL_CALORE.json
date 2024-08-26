@@ -1,22 +1,32 @@
 {
-  "name": "LABORATORIO DI TRASMISSIONE DEL CALORE",
   "id": "unibsA003914",
-  "icon": "mdi:file-document-outline",
-  "color": "#4CAF50",
+  "universityId": "unibs",
+  "name": "LABORATORIO DI TRASMISSIONE DEL CALORE",
+  "lastUpdated": "2024-08-26T14:53:47.231Z",
+  "deleted": null,
+  "goals": "La simulazione numerica è uno strumento importante nell'attività di ricerca, sviluppo ed ottimizzazione in tutti i settori dell'ingegneria: software di varie tipologie sono strumenti di uso quotidiano in aziende e studi di ingegneria. L'obiettivo del corso è quello di introdurre lo studente all'uso di un software specialistico per la soluzione di problemi ingegneristici. Il codice scelto è OpenFOAM, un codice opensource, che si sta diffondendo rapidamente sia in ambito accademico che industriale grazie all'eliminazione dei costi annuali di licenza e nonostante un'interfaccia poco user-friendly. Al termine del corso lo studente avrà acquisito le competenze necessarie per impostare un problema di scambio termico di moderata complessità in OpenFOAM e per ottenerne una soluzione numerica. Userà infine le conoscenze di scambio termico acquisite in corsi precedenti e richiamate nelle lezioni frontali per interpretare i risultati ottenuti.",
   "chapters": [
     {
       "name": "Introduzione all'uso di OpenFOAM",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Capire l'uso del software OpenFOAM per lo scambio termico",
+          "name": "Uso del software OpenFOAM",
+          "done": false
+        },
+        {
+          "name": "Impostazione di un problema",
+          "done": false
+        },
+        {
+          "name": "Analisi dei risultati",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Introduzione base su OpenFOAM e applicazioni nel contesto del trasferimento di calore."
+          "content": "Comprendere la struttura del codice di OpenFOAM."
         }
       ],
       "links": []
@@ -26,45 +36,23 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Ricordare i concetti di scambio termico per conduzione",
+          "name": "Analisi di conduzione in regime stazionario",
           "done": false
         },
         {
-          "name": "Ricordare i concetti di scambio termico per irraggiamento",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Concentrare nello studio dei problemi stazionari e non stazionari."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Analisi e risoluzione numerica",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Risolvere problemi di conduzione a più variabili",
+          "name": "Analisi di conduzione in regime non stazionario",
           "done": false
         },
         {
-          "name": "Analizzare i problemi di irraggiamento",
+          "name": "Studio sull'irraggiamento",
           "done": false
         },
         {
-          "name": "Studiare problemi di scambio combinato",
+          "name": "Problemi di scambio combinato (conduttivo/radiativo)",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Focalizzarsi sui metodi numerici e soluzioni avanzate."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -72,11 +60,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studiare i principali metodi per la conduzione",
+          "name": "Metodi per la soluzione dell'equazione della conduzione",
           "done": false
         },
         {
-          "name": "Studiare i principali metodi per l'irraggiamento",
+          "name": "Metodi per la soluzione di problemi di irraggiamento",
           "done": false
         }
       ],
@@ -84,48 +72,27 @@
       "links": []
     },
     {
-      "name": "Struttura del codice OpenFOAM",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Comprendere l'impostazione di un problema in OpenFOAM",
-          "done": false
-        },
-        {
-          "name": "Studiare la creazione della griglia",
-          "done": false
-        },
-        {
-          "name": "Analizzare la risoluzione e i risultati",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Esempio pratico",
+      "name": "Esempio Pratico",
       "showTasks": true,
       "tasks": [
         {
           "name": "Risoluzione del transitorio con OpenFOAM",
           "done": false
-        }
-      ],
-      "postIts": [
+        },
         {
-          "color": "#e6b905",
-          "content": "Esempio sul contatto fra corpi a temperature diverse."
+          "name": "Analisi del contatto fra corpi a diversa temperatura",
+          "done": false
         }
       ],
+      "postIts": [],
       "links": []
     },
     {
-      "name": "Progetto svolto dall'allievo",
+      "name": "Progetto Svolto dall'Allievo",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Redigere un progetto su OpenFOAM",
+          "name": "Svolgere un progetto personale",
           "done": false
         }
       ],
@@ -133,20 +100,38 @@
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122536_20547/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi:file-document-outline",
+  "color": "#5c8dfd",
+  "examMode": "Durante il corso lo studente dovrà sviluppare un progetto, scelto assieme al docente, che consisterà nella soluzione con OpenFOAM di un problema di scambio termico di moderata complessità. Il problema, la sua impostazione e i risultati ottenuti verranno descritti in una sintetica relazione finale scritta che verrà consegnata, presentata e discussa durante l'esame orale.",
+  "requirements": "Nozioni elementari di scambio termico per conduzione ed irraggiamento, usualmente fornite nei corsi di Fisica Tecnica nei corsi di laurea di Ingegneria.",
+  "cfu": "3 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Libro di testo:G. Comini, G. Cortella, Fondamenti di trasmissione del calore, SGE, Padova, 3a ed., 2005, ISBN 9788889884225.Ogni altro libro di testo di Fisica Tecnica o di Trasmissione del calore può andar bene, previa approvazione del docenteMateriale in formato pdf o html su OpenFOAM sarà indicato all'inizio del corso e, ove possibile, messo a disposizione nell'area comune su GoogleDrive: goo.gl/xWQGJ9"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "Durante il corso lo studente dovrà sviluppare un progetto, scelto assieme al docente, che consisterà nella soluzione con OpenFOAM di un problema di scambio termico di moderata complessità. Il problema, la sua impostazione e i risultati ottenuti verranno descritti in una sintetica relazione finale scritta che verrà consegnata, presentata e discussa durante l'esame orale."
+      "name": ""
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Fondamenti di trasmissione del calore",
+        "authors": [
+          "Gianni Comini",
+          "Giovanni Cortella"
+        ],
+        "year": 2005,
+        "notes": [
+          "3. ed. riv. e ampliata",
+          "Disponibile presso SGEditoriali, Padova",
+          "Verificare la corrispondenza tra la bibliografia e i testi disponibili"
+        ]
+      }
+    ]
+  }
 }

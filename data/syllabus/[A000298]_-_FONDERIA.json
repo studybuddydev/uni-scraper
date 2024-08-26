@@ -1,28 +1,34 @@
 {
-  "name": "FONDERIA",
   "id": "unibsA000298",
-  "icon": "mdi-book",
-  "color": "#56a3a5",
+  "universityId": "unibs",
+  "name": "FONDERIA",
+  "lastUpdated": "2024-08-26T14:53:31.516Z",
+  "deleted": null,
+  "goals": "Il corso si propone di fornire allo studente una preparazione mirata, sia dal punto di vista teorico che pratico, sulle diverse tecniche di fonderia, sulle caratteristiche peculiari di ciascun processo e sulle problematiche ad esse connesse (descrittore di Dublino 1 – Conoscenza e comprensione).Sulla base delle conoscenze apprese durante il corso, lo studente sarà in grado di valutare quale sia il metodo di colata adeguato per la produzione di un determinato componente in base alla geometria del particolare (forma e dimensione), alla lega, al numero di pezzi da produrre ed alle caratteristiche ricercate (descrittore di Dublino 2 – Capacità di applicare conoscenza e comprensione). Sarà in grado di valutare in autonomia la soluzione migliore per realizzare un determinato componente mediante processi di fonderia così come di comprendere con che tecnica sia stato realizzato un determinato prodotto (Descrittore di Dublino 3 – Autonomia di giudizio). Lo studente svilupperà inoltre la capacità di esprimere concetti tecnici in forma orale ed anche in forma scritta grazie alla realizzazione di un report sulle esercitazioni. Inoltre, la partecipazione attiva alle visite aziendali ed il contatto con professionisti del settore contribuirà all’acquisizione di strumenti utili per perfezionare le capacità comunicative dello studente in un contesto industriale (Descrittore di Dublino 4 – Abilità comunicative). Infine, lo studente acquisirà la capacità di utilizzo di un software di simulazione comunemente adottato nel settore, consolidando le capacità di indagine della letteratura scientifica e delle banche dati per l’individuazione dei parametri di input ottimali per l’esecuzione delle simulazioni (Descrittore di Dublino 5 – Capacità di apprendimento).",
   "chapters": [
     {
-      "name": "La Solidificazione",
+      "name": "La solidificazione",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Fondamenti di nucleazione e dell'accrescimento",
+          "name": "Fondamenti della nucleazione",
+          "done": false
+        },
+        {
+          "name": "Accrescimento",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Studiare il processo di solidificazione e le sue fasi."
+          "color": "#FFD700",
+          "content": "Studiare i principi base della solidificazione e le fasi."
         }
       ],
       "links": []
     },
     {
-      "name": "Forni Fusori e Forni d'Attesa",
+      "name": "Forni fusori e forni d'attesa",
       "showTasks": true,
       "tasks": [
         {
@@ -30,24 +36,28 @@
           "done": false
         },
         {
-          "name": "Forni di mantenimento",
+          "name": "Tipologie di forni di mantenimento",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Confrontare i vari tipi di forni e i loro usi."
+          "color": "#FF6347",
+          "content": "Analizzare i vari tipi di forni e le loro applicazioni."
         }
       ],
       "links": []
     },
     {
-      "name": "Colata in Sabbia",
+      "name": "Colata in sabbia",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di colata in sabbia",
+          "name": "Processo di colata in sabbia",
+          "done": false
+        },
+        {
+          "name": "Impianti di colata in sabbia",
           "done": false
         },
         {
@@ -57,14 +67,14 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Analizzare i materiali utilizzati nella colata in sabbia."
+          "color": "#20B2AA",
+          "content": "Esplorare il processo di formatura e i materiali utilizzati."
         }
       ],
       "links": []
     },
     {
-      "name": "Formatura Anime",
+      "name": "Formatura anime",
       "showTasks": true,
       "tasks": [
         {
@@ -84,19 +94,28 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#8A2BE2",
+          "content": "Capire i vari metodi e le loro applicazioni."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Lost Foam",
+      "name": "Lost foam",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di colata in sabbia non legata",
+          "name": "Processo ed impianti",
           "done": false
         },
         {
-          "name": "Materiali utilizzati e problematiche coinvolte",
+          "name": "Materiali utilizzati",
+          "done": false
+        },
+        {
+          "name": "Problemi coinvolti",
           "done": false
         }
       ],
@@ -104,15 +123,19 @@
       "links": []
     },
     {
-      "name": "Colata a Cera Persa",
+      "name": "Colata a cera persa",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo di colata a cera persa",
+          "name": "Processo di colata",
           "done": false
         },
         {
-          "name": "Materiali e problematiche coinvolte",
+          "name": "Materiali coinvolti",
+          "done": false
+        },
+        {
+          "name": "Problemi coinvolti",
           "done": false
         }
       ],
@@ -120,27 +143,11 @@
       "links": []
     },
     {
-      "name": "Investment Casting",
+      "name": "Investment casting",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di colata in guscio",
-          "done": false
-        },
-        {
-          "name": "Materiali e problematiche coinvolte",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Colata in Conchiglia",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Processo ed impianti di colata in gravità",
+          "name": "Processo ed impianti",
           "done": false
         },
         {
@@ -152,11 +159,27 @@
       "links": []
     },
     {
-      "name": "Colata in Bassa Pressione",
+      "name": "Colata in conchiglia",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di colata in bassa pressione",
+          "name": "Processo di colata in gravità",
+          "done": false
+        },
+        {
+          "name": "Materiali e problematiche coinvolte",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Colata in bassa pressione",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Processo ed impianti",
           "done": false
         },
         {
@@ -172,7 +195,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di pressocolata",
+          "name": "Processo ed impianti",
           "done": false
         },
         {
@@ -192,11 +215,11 @@
       "links": []
     },
     {
-      "name": "Colata Centrifuga",
+      "name": "Colata centrifuga",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Processo ed impianti di colata centrifuga",
+          "name": "Processo ed impianti",
           "done": false
         },
         {
@@ -208,11 +231,11 @@
       "links": []
     },
     {
-      "name": "Solidificazione Direzionale o Monocristallina",
+      "name": "Solidificazione direzionale o monocristallina",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Modalità di ottenimento di getti single crystal o direzionale",
+          "name": "Modalità di ottenimento di getti single crystal",
           "done": false
         }
       ],
@@ -220,7 +243,7 @@
       "links": []
     },
     {
-      "name": "Tecnologie Innovative",
+      "name": "Tecnologie innovative",
       "showTasks": true,
       "tasks": [
         {
@@ -236,15 +259,15 @@
       "links": []
     },
     {
-      "name": "Simulazione dei Processi di Fonderia",
+      "name": "Simulazione dei processi di fonderia",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Principi di simulazione del riempimento",
+          "name": "Principi di simulazione",
           "done": false
         },
         {
-          "name": "Esercitazioni con software ad elementi finiti",
+          "name": "Esercitazioni mediante software ad elementi finiti",
           "done": false
         }
       ],
@@ -252,20 +275,63 @@
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_122543_10167/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-book-open-outline",
+  "color": "#4CAF50",
+  "examMode": "La verifica dell'apprendimento consiste in una prova orale sui contenuti del corso trattati a lezione ed acquisiti durante le visite didattiche in fonderie, preceduta dalla discussione di una relazione tecnica riportante un'analisi critica dei risultati di una delle simulazioni effettuate durante le esercitazioni da consegnare 5 giorni prima della dalla dell'appello. Durante l'esame orale verrà inoltre verificata la capacità di utilizzo del software di simulazione dei processi di fonderia fornito durante il corso.",
+  "requirements": "Conoscenze di base di metallurgia",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "Verranno fornite dispense durante il corso (disponibili in rete su Moodle).Possono essere considerati di supporto i seguenti testi:1) Casting / D. M. Stefanescu ... [et al.]. - 9. ed. - Metals park : ASM international - ISBN 08-7170-021-2;2) Fundamentals of solidification, W. Kurz, Fisher, Trans Tech Publications, cap.1-5 - ISBN-10: 0878498044;3) Solidification and casting / edited by Brian Cantor and Keyna O'Reilly, Institute of physics publishing - ISBN 07-503-0843-5.ATTENZIONE: i testi consigliati (disponibili nelle biblioteche di Ateneo) contengono solo parzialmente quello che viene spiegato a lezione.Per lo studio del corso si suggerisce caldamente di fare riferimento ai lucidi resi disponibili sul sito di e-learning agli iscritti al corso.NON FREQUENTANTI: si consiglia di contattare la docente per ulteriori delucidazioni sul programma del corso.Per ogni informazione contattare la docente: annalisa.pola@unibs.it tel. 030.3715576"
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "La verifica dell'apprendimento consiste in una prova orale sui contenuti del corso trattati a lezione ed acquisiti durante le visite didattiche in fonderie, preceduta dalla discussione di una relazione tecnica riportante un'analisi critica dei risultati di una delle simulazioni effettuate durante le esercitazioni da consegnare 5 giorni prima della dalla dell'appello. Durante l'esame orale verrà inoltre verificata la capacità di utilizzo del software di simulazione dei processi di fonderia fornito durante il corso."
+      "name": "MANTELLI ANNA"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Casting",
+        "authors": [
+          "D. M. Stefanescu",
+          "et al."
+        ],
+        "year": 1988,
+        "notes": [
+          "9th edition",
+          "Part of Metals Handbook",
+          "Published by ASM International"
+        ]
+      },
+      {
+        "name": "Solidification and Casting: An Oxford-Kobe Materials Text",
+        "authors": [
+          "Brian Cantor",
+          "Keyna O'Reilly"
+        ],
+        "year": 2003,
+        "notes": [
+          "Published by Institute of Physics Publishing",
+          "Bristol; Philadelphia"
+        ]
+      },
+      {
+        "name": "Fundamentals of Solidification",
+        "authors": [
+          "W. Kurz",
+          "D.J. Fisher"
+        ],
+        "year": 1998,
+        "notes": [
+          "Electronic version available",
+          "4th revised edition",
+          "Published by Trans Tech Publications in Uetikon-Zuerich"
+        ]
+      }
+    ]
+  }
 }

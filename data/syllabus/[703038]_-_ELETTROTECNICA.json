@@ -1,8 +1,10 @@
 {
-  "name": "ELETTROTECNICA",
   "id": "unibs703038",
-  "icon": "mdi-circuit-board",
-  "color": "#8e44ad",
+  "universityId": "unibs",
+  "name": "ELETTROTECNICA",
+  "lastUpdated": "2024-08-26T14:52:39.925Z",
+  "deleted": null,
+  "goals": "Lo studente acquisisce la capacità di analizzare semplici circuiti.Ciò risulta propedeutico alla conoscenza, a cui è dedicata la seconda partedel modulo, dei principi di funzionamento dei più importanti apparati diconversione dell'energia di tipo elettromeccanico.Al termine del corso lo studente è in grado di comprendere e valutare in formasemplificata un sistema elettrico/elettromeccanico dal punto di vista delleconversioni energetiche.",
   "chapters": [
     {
       "name": "Fondamenti di Analisi dei Circuiti",
@@ -33,15 +35,11 @@
           "done": false
         },
         {
-          "name": "Analisi in regime stazionario: metodo nodale",
+          "name": "Analisi in regime stazionario",
           "done": false
         },
         {
-          "name": "Analisi in regime stazionario: metodo degli anelli",
-          "done": false
-        },
-        {
-          "name": "Teoremi di sovrapposizione e di Thévenin/Norton per circuiti resistivi",
+          "name": "Teoremi di sovrapposizione e di Thévenin/Norton",
           "done": false
         },
         {
@@ -49,7 +47,7 @@
           "done": false
         },
         {
-          "name": "Doppi bipoli lineari e loro rappresentazioni",
+          "name": "Doppi bipoli lineari omogenei",
           "done": false
         },
         {
@@ -61,19 +59,15 @@
           "done": false
         },
         {
-          "name": "Circuiti RC e RL: evoluzione libera",
+          "name": "Circuiti RC e RL",
           "done": false
         },
         {
-          "name": "Circuiti RC e RL: risposta al gradino",
+          "name": "Circuiti RLC",
           "done": false
         },
         {
-          "name": "Circuiti RC e RL: risposta completa",
-          "done": false
-        },
-        {
-          "name": "Circuiti RLC: calcolo di condizioni iniziali",
+          "name": "Calcolo di condizioni iniziali",
           "done": false
         },
         {
@@ -85,19 +79,7 @@
           "done": false
         },
         {
-          "name": "Analisi in regime sinusoidale: fasori",
-          "done": false
-        },
-        {
-          "name": "Analisi in regime sinusoidale: impedenza",
-          "done": false
-        },
-        {
-          "name": "Analisi in regime sinusoidale: ammettenza",
-          "done": false
-        },
-        {
-          "name": "Metodi dei nodi e degli anelli",
+          "name": "Analisi in regime sinusoidale",
           "done": false
         },
         {
@@ -109,22 +91,18 @@
           "done": false
         },
         {
-          "name": "Rifasamento",
-          "done": false
-        },
-        {
           "name": "Circuiti trifase",
-          "done": false
-        },
-        {
-          "name": "Potenza nei circuiti trifase",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Concentrati sui teoremi di Kirchhoff e Thévenin/Norton, fondamentali per l'analisi dei circuiti."
+          "color": "#f0e68c",
+          "content": "Rivedere i teoremi di Kirchhoff e la loro applicazione nei circuiti."
+        },
+        {
+          "color": "#add8e6",
+          "content": "Studiare la differenza tra amplificatori operazionali ideali e reali."
         }
       ],
       "links": []
@@ -150,7 +128,7 @@
           "done": false
         },
         {
-          "name": "Accoppiamento induttivo: auto e mutua induttanza",
+          "name": "Accoppiamento induttivo",
           "done": false
         },
         {
@@ -158,7 +136,7 @@
           "done": false
         },
         {
-          "name": "Traferri e loro applicazioni",
+          "name": "Traferri",
           "done": false
         },
         {
@@ -174,10 +152,6 @@
           "done": false
         },
         {
-          "name": "Cicli di trasformazione e condizioni di esistenza",
-          "done": false
-        },
-        {
           "name": "Macchina a corrente continua e circuiti equivalenti",
           "done": false
         },
@@ -190,33 +164,67 @@
           "done": false
         },
         {
-          "name": "Scorrimento delle macchine",
+          "name": "Scorrimento",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focalizzati sulla comprensione del funzionamento delle macchine elettriche, è cruciale per l'ingegneria elettromeccanica."
+          "color": "#ffa07a",
+          "content": "Concentrarsi sui principi di funzionamento delle macchine elettriche."
+        },
+        {
+          "color": "#98fb98",
+          "content": "Ripassare le proprietà dei materiali magnetici."
         }
       ],
       "links": []
     }
   ],
-  "links": [
+  "urls": [
     {
       "name": "syllabus",
-      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/7270_108535_1309/2011/7268/81?coorte=2021&schemaid=2490"
+      "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "postIts": [
+  "icon": "mdi-circuit-board",
+  "color": "#FF5733",
+  "examMode": "L'esame consiste in una prova scritta articolata in diversi tipi di quesiti, seguita da un eventuale colloquio orale. La prova scritta consiste di due parti: nella prima parte, della durata di circa 60 minuti, vengono proposti, di norma, 5 esercizi il cui obiettivo è verificare la capacità del candidato di svolgere un problema completo riguardante uno degli argomenti importanti del corso. Per ottenere un punteggio pieno è sufficiente risolvere completamente solo 4 dei 5 esercizi. La seconda parte, anch'essa di circa 60 minuti, presenta invece, di norma, 10 quesiti più semplici e più vari, che possono andare dall'esercizio molto semplice alla domanda a risposta aperta su un argomento di teoria e anche a domande a scelta multipla. In questa parte lo scopo è verificare le conoscenze anche teoriche del candidato su tutto il programma. Anche in questa prova, che come la precedente è graduata in centesimi, è sufficiente svolgere 5/6 dei quesiti per ottenere il punteggio pieno. Infatti, nella valutazione, ad entrambe le prove vengono assegnati punteggi in centesimi (su un massimo teorico ottenibile, come si è detto di 120/100), poi i punteggi vengono scalati linermente in trentesimi e poi viene eseguita una somma pesata delle due prove, con pesi che di norma sono 0,5 e 0,5 ma che possono variare leggermente in qualche caso, sempre in modo uguale per tutti i candidati e sempre al fine di ottenere punteggi migliori. Il risultato viene ulteriormente passato attraverso una funzione lineare a tratti, sempre migliorativa, che stabilisce una soglia minima per il successo nella prova scritta, che può essere anche inferiore ai 18/30, e produce il voto proposto (oppure il giudizio di insufficienza).Lo studente giudicato insufficiente deve ripetere l'esame. Chi ha un voto proposto positivo può invece scegliere se accettarlo e registrarlo oppure chiedere di sostenere la prova orale, che si svolge entro pochi giorni dallo scritto, consiste di una sola domanda e può modificare il voto proposto fino ad un massimo di + o - 4 punti. In casi particolari, la commissione si riserva la possibilità di imporre la prova orale allo studente; in tale caso, lo studente non ha un giudizio di insufficienza nella prova scritta ma non ha nemmeno un voto proposto e deve necessariamente sostenere la prova orale per ottenere il voto finale, che consiste in una media fra il risultato della prova scritta e di quella orale.",
+  "requirements": "Calcolo differenziale ed integrale elementare.Equazioni differenziali lineari.Algebra delle matrici.Introduzione alla fisica dell'elettromagnetismo.",
+  "cfu": "6 CFU",
+  "language": "ITALIANO",
+  "teachers": [
     {
-      "color": "#FFEB3B",
-      "content": "R. Perfetti - Circuiti elettrici 2.a edizione - ed. Zanichelli (per la parte di circuiti). G.Rizzoni - Elettrotecnica, principi e applicazioni 3.a ed. - McGraw-Hill 2013 (Capitoli 8 e 9) oppure 5.a edizione inglese o sgg., McGraw-Hill, per la parte di elettromeccanica. Informazioni aggiuntive sul corso e testi dei temi d'esame sono disponibili sulla piattaforma didattica Moodle, nella Comunità Didattica relativa al corso."
-    },
-    {
-      "color": "#FFEB3B",
-      "content": "L'esame consiste in una prova scritta articolata in diversi tipi di quesiti, seguita da un eventuale colloquio orale. La prova scritta consiste di due parti: nella prima parte, della durata di circa 60 minuti, vengono proposti, di norma, 5 esercizi il cui obiettivo è verificare la capacità del candidato di svolgere un problema completo riguardante uno degli argomenti importanti del corso. Per ottenere un punteggio pieno è sufficiente risolvere completamente solo 4 dei 5 esercizi. La seconda parte, anch'essa di circa 60 minuti, presenta invece, di norma, 10 quesiti più semplici e più vari, che possono andare dall'esercizio molto semplice alla domanda a risposta aperta su un argomento di teoria e anche a domande a scelta multipla. In questa parte lo scopo è verificare le conoscenze anche teoriche del candidato su tutto il programma. Anche in questa prova, che come la precedente è graduata in centesimi, è sufficiente svolgere 5/6 dei quesiti per ottenere il punteggio pieno. Infatti, nella valutazione, ad entrambe le prove vengono assegnati punteggi in centesimi (su un massimo teorico ottenibile, come si è detto di 120/100), poi i punteggi vengono scalati linermente in trentesimi e poi viene eseguita una somma pesata delle due prove, con pesi che di norma sono 0,5 e 0,5 ma che possono variare leggermente in qualche caso, sempre in modo uguale per tutti i candidati e sempre al fine di ottenere punteggi migliori. Il risultato viene ulteriormente passato attraverso una funzione lineare a tratti, sempre migliorativa, che stabilisce una soglia minima per il successo nella prova scritta, che può essere anche inferiore ai 18/30, e produce il voto proposto (oppure il giudizio di insufficienza).Lo studente giudicato insufficiente deve ripetere l'esame. Chi ha un voto proposto positivo può invece scegliere se accettarlo e registrarlo oppure chiedere di sostenere la prova orale, che si svolge entro pochi giorni dallo scritto, consiste di una sola domanda e può modificare il voto proposto fino ad un massimo di + o - 4 punti. In casi particolari, la commissione si riserva la possibilità di imporre la prova orale allo studente; in tale caso, lo studente non ha un giudizio di insufficienza nella prova scritta ma non ha nemmeno un voto proposto e deve necessariamente sostenere la prova orale per ottenere il voto finale, che consiste in una media fra il risultato della prova scritta e di quella orale."
+      "name": "MIGLIORATI GIUSEPPE"
     }
-  ]
+  ],
+  "books": {
+    "books": [
+      {
+        "name": "Circuiti elettrici",
+        "authors": [
+          "Renzo Perfetti"
+        ],
+        "year": 2013,
+        "notes": [
+          "2. ed.",
+          "Available at Zanichelli"
+        ]
+      },
+      {
+        "name": "Elettrotecnica : principi e applicazioni",
+        "authors": [
+          "Giorgio Rizzoni",
+          "Francesco Vacca",
+          "Silvano Vergura"
+        ],
+        "year": 2013,
+        "notes": [
+          "3. ed.",
+          "Available at McGraw Hill",
+          "Italian edition edited by Vacca and Vergura"
+        ]
+      }
+    ]
+  }
 }
