@@ -1,56 +1,49 @@
 {
   "id": "unibsA003496",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO DI MATERIALI POLIMERICI PROPRIETA  TERMICHE E DI PROCESSO",
-  "lastUpdated": "2024-08-26T14:53:33.578Z",
+  "lastUpdated": "2024-08-26T15:18:38.563Z",
   "deleted": null,
   "goals": "Il corso mira a far sì che gli studenti acquisiscano conoscenze relativamente alle tecniche di laboratorio per la misurazione delle principali proprietà termiche e di processo dei materiali polimerici, con riferimento agli aspetti di base e a quelli più propriamente metodologici e strumentali. Al termine dell'insegnamento, lo studente sarà in grado di programmare prove termiche e di processo di laboratorio di base con strumenti standard, raccogliere ed interpretare i dati. Sarà altresì in grado di analizzare i bollettini tecnici dei materiali polimerici e di utilizzare i dati in essi contenuti in modo tale da delinearne il comportamento.",
   "chapters": [
     {
-      "name": "Principali proprietà termiche e di processo dei materiali polimerici",
+      "name": "Proprietà termiche e di processo dei materiali polimerici",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Introduzione alle proprietà termiche e di processo",
+          "name": "Studiare le proprietà di processo dei materiali polimerici termoplastici",
           "done": false
         },
         {
-          "name": "Normative di riferimento",
+          "name": "Studiare le proprietà termiche dei materiali polimerici",
           "done": false
         },
         {
-          "name": "Bollettini tecnici e banche dati",
+          "name": "Analizzare densità dei materiali polimerici nello stato solido",
           "done": false
         },
         {
-          "name": "Tecniche sperimentali per la misurazione delle proprietà",
+          "name": "Esaminare bollettini tecnici di materiali di interesse industriale",
           "done": false
         },
         {
-          "name": "Proprietà di processo dei materiali polimerici termoplastici",
+          "name": "Rivedere normative di riferimento",
           "done": false
         },
         {
-          "name": "Proprietà termiche dei materiali polimerici",
-          "done": false
-        },
-        {
-          "name": "Densità dei materiali polimerici nello stato solido",
-          "done": false
-        },
-        {
-          "name": "Analisi statistica dei dati",
+          "name": "Studiare concetti di analisi statistica dei dati",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on the experimental techniques used in industrial and research labs."
+          "content": "Importante: comprendere le differenze tra 'melt mass-flow rate' e 'melt volume-flow rate'"
         },
         {
-          "color": "#e63946",
-          "content": "Make sure to explore the statistical analysis concepts discussed."
+          "color": "#ff5722",
+          "content": "Raccogliere esempi pratici relativi alle proprietà termiche per preparare le discussioni"
         }
       ],
       "links": []
@@ -63,7 +56,7 @@
     }
   ],
   "icon": "mdi-book-open",
-  "color": "#6a5acd",
+  "color": "#4caf50",
   "examMode": "L'esame è volto ad accertare la conoscenza degli argomenti riportati nel Programma esteso del corso. Sarà inoltre verificata la capacità dello studente di pianificare prove di laboratorio sui materiali polimerici, e di reperire ed analizzare bollettini tecnici di materiali di interesse industriale.L'esame consiste in una prova orale, e si può svolgere contestualmente a quello del modulo di \"Laboratorio di materiali polimerici - Proprietà meccaniche\" (v. relativa scheda). A ciascun iscritto sarà richiesto di presentare e discutere una relazione (\"quaderno di laboratorio\") sviluppata sulla base dei risultati ottenuti nelle esercitazioni di laboratorio svolte durante il corso, in modo da verificare la capacità dello studente di raccogliere, elaborare e presentare dati acquisiti in prove standard di laboratorio. Agli studenti che non frequenteranno le esercitazioni in laboratorio, sarà richiesto di presentare una breve relazione su una specifica tecnica di laboratorio preventivamente concordata col docente.",
   "requirements": "Per la fruizione dell'insegnamento sono necessarie le conoscenze acquisibili frequentando l'insegnamento di \"Scienza e tecnologia dei materiali\" (II anno).",
   "cfu": "3 CFU",
@@ -85,7 +78,8 @@
         "year": 1997,
         "notes": [
           "2nd edition",
-          "Published by Oxford University Press, New York"
+          "Published by Oxford University Press",
+          "Available in the library catalog"
         ]
       },
       {
@@ -96,8 +90,9 @@
         ],
         "year": 2016,
         "notes": [
-          "Published by Pacini, Ospedaletto, Pisa",
-          "Federazione gomma plastica, Unionplast"
+          "Published by Pacini and Rivalta Scrivia",
+          "Part of the Proplast series",
+          "Federazione gomma plastica, Unionplast endorsement"
         ]
       }
     ]

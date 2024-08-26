@@ -1,30 +1,42 @@
 {
   "id": "unibsA000227",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "ELEMENTS OF BIOMECHANICS",
-  "lastUpdated": "2024-08-26T14:53:11.424Z",
+  "lastUpdated": "2024-08-26T15:18:14.255Z",
   "deleted": null,
   "goals": "Scopo del corso è quello di fornire un'introduzione alla modellizzazione meccanica del corpo umano per applicazioni in diversi settori (ad es.: biomeccanica dello sport, sicurezza automobilistica, biomeccanica ortopedica e riabilitativa, interfacce meccaniche uomo-macchina ed ergonomia).",
   "chapters": [
     {
-      "name": "Introduzione al corso",
+      "name": "Introduzione",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Cosa è la biomeccanica e campi applicativi",
+          "name": "Introduzione al corso, cosa è la biomeccanica, campi applicativi (meccanica, medicina, sport, industria)",
           "done": false
         },
         {
           "name": "Piani e punti di riferimento del corpo umano",
           "done": false
-        }
-      ],
-      "postIts": [
+        },
         {
-          "color": "#e6b905",
-          "content": "Argomenti introduttivi e definizioni fondamentali"
+          "name": "Nomenclatura del corpo umano",
+          "done": false
+        },
+        {
+          "name": "Nomenclatura del movimento umano",
+          "done": false
+        },
+        {
+          "name": "Convenzioni per descrivere il movimento umano",
+          "done": false
+        },
+        {
+          "name": "Terminologia",
+          "done": false
         }
       ],
+      "postIts": [],
       "links": []
     },
     {
@@ -32,7 +44,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Introduzione a diversi modelli comunemente usati",
+          "name": "Introduzione a diversi modelli comunemente usati nell'analisi del movimento (punto materiale, modelli piani, modelli 3D)",
           "done": false
         },
         {
@@ -44,20 +56,15 @@
           "done": false
         },
         {
-          "name": "Modelli piani a segmenti rigidi",
+          "name": "Modelli piani a segmenti rigidi: stima delle forze scambiate",
           "done": false
         },
         {
-          "name": "Sistemi staticamente indeterminati",
+          "name": "Applicazioni e teoria per sistemi staticamente indeterminati",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#f44336",
-          "content": "Includere esempi pratici per comprendere meglio i modelli"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -69,7 +76,15 @@
           "done": false
         },
         {
+          "name": "Il suo ruolo nel progetto di oggetti e nell'ambiente industriale",
+          "done": false
+        },
+        {
           "name": "Problemi statici e classificazione delle misure antropometriche",
+          "done": false
+        },
+        {
+          "name": "Tavole antropometriche",
           "done": false
         },
         {
@@ -77,12 +92,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#2196f3",
-          "content": "Observe realizza di misurazioni e classificazioni"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -90,35 +100,39 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Definizioni generali sui muscoli",
+          "name": "Definizioni generali sui muscoli e fibre muscolari",
           "done": false
         },
         {
-          "name": "Meccanocettori e segnali elettromiografici",
+          "name": "Attivazione muscolare e modello di Hill",
           "done": false
         },
         {
-          "name": "Le articolazioni umane",
+          "name": "Meccanocettori: fuso muscolare e organo tendineo del Golgi",
           "done": false
         },
         {
-          "name": "Arti superiori ed inferiori",
+          "name": "Segnali elettromiografici",
+          "done": false
+        },
+        {
+          "name": "Morfologia e classificazione delle articolazioni umane",
+          "done": false
+        },
+        {
+          "name": "Struttura scheletrica e cinematica articolare degli arti",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#4caf50",
-          "content": "Focalizzarsi su morfologia e cinematica"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
       "name": "Il sistema nervoso",
-      "showTasks": [
+      "showTasks": true,
+      "tasks": [
         {
-          "name": "Accenni all'organizzazione del sistema nervoso centrale e periferico",
+          "name": "Organizzazione del sistema nervoso centrale e periferico",
           "done": false
         },
         {
@@ -126,12 +140,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#ff9800",
-          "content": "Studiare il funzionamento delle vie nervose e motorie"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -139,24 +148,23 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Strumentazione base per misurare il movimento",
+          "name": "Strumentazione base: elettrogoniometri e piattaforme di forza",
           "done": false
         },
         {
-          "name": "Strumentazione stereofotogrammetrica",
+          "name": "Strumentazione stereofotogrammetrica: aspetti e principi",
           "done": false
         },
         {
-          "name": "Esempi applicativi di analisi del movimento",
+          "name": "Analisi di serie di dati, interpolazione, filtraggio",
+          "done": false
+        },
+        {
+          "name": "Esempi applicativi: ciclismo, tennis, scherma",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#9c27b0",
-          "content": "Potenziali applicazioni in vari sport"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -168,16 +176,15 @@
           "done": false
         },
         {
-          "name": "Cinematica e dinamica dei modelli piani",
+          "name": "Movimento delle articolazioni e coppie articolari",
+          "done": false
+        },
+        {
+          "name": "Cinematica e dinamica di modelli piani",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#3f51b5",
-          "content": "Importanza della biomeccanica gare"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -189,16 +196,19 @@
           "done": false
         },
         {
-          "name": "Alcuni esempi: protesi di ginocchio e d'anca",
+          "name": "Caratteristiche generali delle protesi",
+          "done": false
+        },
+        {
+          "name": "Esempi: protesi di ginocchio, protesi policentriche",
+          "done": false
+        },
+        {
+          "name": "Protesi d'anca",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#00bcd4",
-          "content": "Studio delle caratteristiche generali"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -206,16 +216,15 @@
       "showTasks": true,
       "tasks": [
         {
+          "name": "Caratteristiche dei tessuti (ossa, cartilagine, tendini, legamenti)",
+          "done": false
+        },
+        {
           "name": "Struttura delle ossa e rimodellamento osseo",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#ffeb3b",
-          "content": "Esplorare i diversi materiali biologici"
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -223,20 +232,23 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Analisi del salto in lungo",
+          "name": "Biomeccanica del salto in lungo",
           "done": false
         },
         {
-          "name": "Analisi del ciclismo, sci alpino, tennis",
+          "name": "Biomeccanica del ciclismo",
+          "done": false
+        },
+        {
+          "name": "Biomeccanica dello sci alpino",
+          "done": false
+        },
+        {
+          "name": "Biomeccanica del tennis",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#ff5722",
-          "content": "Importante per l'applicazione pratica"
-        }
-      ],
+      "postIts": [],
       "links": []
     }
   ],
@@ -246,8 +258,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open",
-  "color": "#6a1b9a",
+  "icon": "mdi-atom",
+  "color": "#5c4d7d",
   "examMode": "Esame scritto. Domande di teoria a risposta chiusa o aperta ed esercizi.Esempi di temi d'esame con schema delle soluzioni è disponibile sul sito di e-learning.",
   "requirements": "Conoscenze base di trigonometria, statica, cinematica, dinamica.",
   "cfu": "3 CFU",
@@ -267,8 +279,8 @@
         ],
         "year": 2016,
         "notes": [
-          "Verificare sempre la corrispondenza tra la bibliografia consigliata e i testi disponibili.",
-          "Edito da CittàStudi e De Agostini scuola, si può trovare nel catalogo."
+          "Consult the library catalog for availability.",
+          "Ensure you check the recommended bibliography against available texts."
         ]
       }
     ]

@@ -1,8 +1,9 @@
 {
   "id": "unibs703047",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "STRUMENTAZIONE ELETTRONICA",
-  "lastUpdated": "2024-08-26T14:52:54.775Z",
+  "lastUpdated": "2024-08-26T15:18:02.051Z",
   "deleted": null,
   "goals": "Il corso è destinato a studenti del Corso di Laurea in Ingegneria meccanica (1. Livello). Intende fornire gli elementi per la comprensione e lo studio della moderna strumentazione elettronica di misura ambito industriale. Intende inoltre fornire gli elementi per la comprensione della moderna strumentazione e sensoristica di misura ottica.Il corso mira ha rendere lo studente autonomo nell'affrontare scelte progettuali in ambito di progettazione di sistemi di misura di varia tipologia. L'autonomia progettuale prevede anche una elevata autonomia critica nei confronti dei sistemi di misura sviluppati.Tramite un approccio misto teorico e pratico, lo studente sarà in grado di applicare le nozioni teoriche apprese in applicazioni pratiche di scelta dei sistemi di misura più appropriati. In particolare lo studente sarà in grado di scegliere il trasduttore, il sistema di acquisizione e i parametri di acquisizione più appropriati per l'obiettivo di misura previsto.Le slide offerte in lingua inglese permetteranno allo studente di aumentare la propria abilità comunicativa nel campo delle misure meccaniche.",
   "chapters": [
@@ -15,7 +16,7 @@
           "done": false
         },
         {
-          "name": "Tipologie di trasduttori di misura",
+          "name": "Tipologie di traduttori di misura",
           "done": false
         },
         {
@@ -29,12 +30,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Comprendere le differenze tra statico e dinamico."
-        },
-        {
-          "color": "#e6b905",
-          "content": "Studiare le connessioni elettriche dei trasduttori."
+          "color": "#f5b041",
+          "content": "Studiare le caratteristiche e i tipi di trasduttori."
         }
       ],
       "links": []
@@ -48,7 +45,7 @@
           "done": false
         },
         {
-          "name": "Strumenti per l'analisi in frequenza",
+          "name": "Strumenti per l’analisi in frequenza",
           "done": false
         },
         {
@@ -58,8 +55,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Studiare le proprietà della trasformata di Fourier."
+          "color": "#f39c12",
+          "content": "Concentrarsi sugli strumenti matematici per l'analisi."
         }
       ],
       "links": []
@@ -87,8 +84,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Analizzare i vari metodi di calibrazione."
+          "color": "#e67e22",
+          "content": "Focalizzarsi sulle tecniche di progettazione e calibrazione."
         }
       ],
       "links": []
@@ -116,8 +113,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focalizzarsi sui principi fondamentali del machine learning."
+          "color": "#29b1e0",
+          "content": "Esplorare PCA e Kalman come tecniche fondamentali."
         }
       ],
       "links": []
@@ -130,7 +127,7 @@
     }
   ],
   "icon": "mdi-book-open-page-variant",
-  "color": "#4caf50",
+  "color": "#6f60e3",
   "examMode": "Esame scritto in forma di risposta breve seguito da orale. Esercitazioni pratiche facoltative.",
   "requirements": "Conoscenze acquisite dalla frequenza dei Corsi di base, in particolare per misure meccaniche e tecniche e elettrotecnica",
   "cfu": "6 CFU",
@@ -143,24 +140,24 @@
   "books": {
     "books": [
       {
-        "name": "Measurement systems: application and design",
+        "name": "Measurement systems : application and design",
         "authors": [
           "Ernest O. Doebelin"
         ],
         "year": 2004,
         "notes": [
           "5th edition",
-          "Published by McGraw-Hill, Boston"
+          "Published by McGraw-Hill"
         ]
       },
       {
-        "name": "Strumenti e misure per l'ingegneria meccanica: avvio alla comprensione delle moderne tecniche sperimentali",
+        "name": "Strumenti e misure per l'ingegneria meccanica : avvio alla comprensione delle moderne tecniche sperimentali",
         "authors": [
           "Piero Mario Azzoni"
         ],
         "year": 2006,
         "notes": [
-          "Published by Hoepli, Milano"
+          "Published by Hoepli"
         ]
       },
       {
@@ -173,7 +170,7 @@
         "year": 2008,
         "notes": [
           "2nd edition",
-          "Published by McGraw-Hill, Milano"
+          "Published by McGraw-Hill"
         ]
       }
     ]

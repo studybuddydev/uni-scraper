@@ -1,8 +1,9 @@
 {
   "id": "unibs702995",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "SCIENZA DELLE COSTRUZIONI",
-  "lastUpdated": "2024-08-26T14:52:53.640Z",
+  "lastUpdated": "2024-08-26T15:18:02.175Z",
   "deleted": null,
   "goals": "Il corso si propone come obiettivi formativi specifici l'apprendimento di conoscenze, metodologie, strumenti di analisi critica dei seguenti modelli strutturali:- travi nel piano- continui tridimensionali per materiali solidi elasticiConoscenza e comprensione: Circa i sistemi di travi, l'insegnamento intende fornire allo studente gli strumenti per l'analisi di atti di moto rigido, di atti di moto per modelli di travi e continui di Cauchy, la determinazione di equazioni di bilancio a partire dall'assioma delle potenze virtuali e di oggettività, lo studio delle condizioni al contorno, dei legami costitutivi elastico lineari a partire da nozioni sperimentali e basilari di termo-meccanica dei continui, la scrittura delle equazioni governanti per i modelli indicati.Capacità di applicare conoscenza e comprensione: Le competenze acquisite verranno applicate alla soluzione di problemi. Per modelli di travi, con il metodo della linea elastica e delle equazioni di Mueller-Bresslau, anche in caso di sistemi iperstatici, nonché lo studio della stabilità dell'equilibrio elastico. Per i continui di Cauchy il corso prevede un'approfondita analisi di soluzioni particolari, note come Casi di De Saint Venant (tenso-presso-flessione, taglio, torsione). A seguito del superamento dell’esame, lo studente sarà in grado di determinare quale modello sia più appropriato per il caso di studio da risolvere, valutare la soluzione con i metodi appresi, valutarla criticamente alla luce di risultati attesi e test controllabili.",
   "chapters": [
@@ -11,54 +12,62 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Modelli tridimensionali della cinematica di mezzi continui",
+          "name": "Studiare modelli tridimensionali della cinematica di mezzi continui",
           "done": false
         },
         {
-          "name": "Studio dei movimenti rigidi",
+          "name": "Analizzare il caso speciale di atti di moto rigidi",
           "done": false
         },
         {
-          "name": "Principi fondamentali dell'analisi cinematica",
+          "name": "Comprendere principi fondamentali dell'analisi cinematica",
           "done": false
         },
         {
-          "name": "Equazioni di bilancio della quantità di moto",
+          "name": "Studiare equazioni di bilancio della quantità di moto",
           "done": false
         },
         {
-          "name": "Equazioni di bilancio del momento angolare",
+          "name": "Studiare equazioni di bilancio del momento angolare",
           "done": false
         },
         {
-          "name": "Modelli strutturali (funi e travi piane)",
+          "name": "Illustrare modelli strutturali (funi e travi piane in piccoli spostamenti)",
           "done": false
         },
         {
-          "name": "Approfondimento di mezzi continui di Cauchy",
+          "name": "Approfondire i mezzi continui di Cauchy",
           "done": false
         },
         {
-          "name": "Equazioni di bilancio nel quadro delle deformazioni finite",
+          "name": "Descrivere equazioni di bilancio nel quadro delle deformazioni finite",
           "done": false
         },
         {
-          "name": "Legami costitutivi ed equazioni governanti",
+          "name": "Limitare legami costitutivi ed equazioni governanti a piccole deformazioni",
           "done": false
         },
         {
-          "name": "Casi di De Saint Venant",
+          "name": "Studiare casi di De Saint Venant",
           "done": false
         },
         {
-          "name": "Esercitazioni in aula e studio personale",
+          "name": "Partecipare alle esercitazioni in aula e studio personale",
+          "done": false
+        },
+        {
+          "name": "Completare homework specifici",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Ricordarsi di fare esercizi pratici per ogni modello presentato!"
+          "content": "Prepararsi per ore di esercitazione sia in aula che in studio personale."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Focalizzarsi sui casi di De Saint Venant per esempi pratici."
         }
       ],
       "links": []
@@ -68,27 +77,23 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Modello di trave",
+          "name": "Studiare il modello di trave, 2D e 3D",
           "done": false
         },
         {
-          "name": "Modello 2D e 3D",
+          "name": "Comprendere la stabilità dell'equilibrio elastico",
           "done": false
         },
         {
-          "name": "Stabilità dell'equilibrio elastico",
+          "name": "Studiare il continuo di Cauchy",
           "done": false
         },
         {
-          "name": "Continuo di Cauchy",
+          "name": "Esaminare elementi essenziali di termodinamica dei materiali",
           "done": false
         },
         {
-          "name": "Elementi essenziali di termodinamica dei materiali",
-          "done": false
-        },
-        {
-          "name": "Soluzioni particolari: i casi di De Saint Venant",
+          "name": "Esplorare soluzioni particolari e casi di De Saint Venant",
           "done": false
         },
         {
@@ -96,7 +101,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Approfondire i diversi modelli strutturali e le loro applicazioni."
+        }
+      ],
       "links": []
     }
   ],
@@ -107,7 +117,7 @@
     }
   ],
   "icon": "mdi-book-open",
-  "color": "#6c5ce7",
+  "color": "#4A90E2",
   "examMode": "L'esame consta di una prova scritta, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di trave, e di una prova orale, in cui viene verificato il raggiungimentodegli obiettivi formativi e dei risultati dell’apprendimento attesi per il modello di continuo di Cauchy.Gli homework, che consentono di valutare la capacità di lavorare in gruppo su applicazioni pratiche dei contenuti delle lezioni, verranno valutati a parte.",
   "requirements": "Analisi Matematica 2 e Meccanica Razionale.",
   "cfu": "9 CFU",
@@ -141,7 +151,9 @@
           "Carlo Urbano"
         ],
         "year": 1986,
-        "notes": []
+        "notes": [
+          "2nd edition"
+        ]
       },
       {
         "name": "Scienza delle costruzioni",
@@ -151,10 +163,12 @@
           "Luigi Gambarotta"
         ],
         "year": 2011,
-        "notes": []
+        "notes": [
+          "3rd edition"
+        ]
       },
       {
-        "name": "Meccanica dei solidi: elementi di scienza delle costruzioni",
+        "name": "Meccanica dei solidi : elementi di scienza delle costruzioni",
         "authors": [
           "Massimo Cuomo",
           "Ferdinand P. Beer",
@@ -162,17 +176,17 @@
         ],
         "year": 2018,
         "notes": [
-          "5. ed. italiana a cura di Massimo Cuomo"
+          "5th Italian edition edited by Massimo Cuomo"
         ]
       },
       {
-        "name": "Lezioni di scienza delle costruzioni: seconda edizione riveduta, corretta e ampliata, con 340 figure e 95 esercizi",
+        "name": "Lezioni di scienza delle costruzioni",
         "authors": [
           "Paolo Podio-Guidugli"
         ],
         "year": 2009,
         "notes": [
-          "2. ed"
+          "2nd revised and expanded edition with 340 figures and 95 exercises"
         ]
       },
       {
@@ -183,7 +197,7 @@
         ],
         "year": 2020,
         "notes": [
-          "4. ed"
+          "4th edition"
         ]
       }
     ]

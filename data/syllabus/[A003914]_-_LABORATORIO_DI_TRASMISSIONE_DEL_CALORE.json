@@ -1,8 +1,9 @@
 {
   "id": "unibsA003914",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO DI TRASMISSIONE DEL CALORE",
-  "lastUpdated": "2024-08-26T14:53:47.231Z",
+  "lastUpdated": "2024-08-26T15:18:53.929Z",
   "deleted": null,
   "goals": "La simulazione numerica è uno strumento importante nell'attività di ricerca, sviluppo ed ottimizzazione in tutti i settori dell'ingegneria: software di varie tipologie sono strumenti di uso quotidiano in aziende e studi di ingegneria. L'obiettivo del corso è quello di introdurre lo studente all'uso di un software specialistico per la soluzione di problemi ingegneristici. Il codice scelto è OpenFOAM, un codice opensource, che si sta diffondendo rapidamente sia in ambito accademico che industriale grazie all'eliminazione dei costi annuali di licenza e nonostante un'interfaccia poco user-friendly. Al termine del corso lo studente avrà acquisito le competenze necessarie per impostare un problema di scambio termico di moderata complessità in OpenFOAM e per ottenerne una soluzione numerica. Userà infine le conoscenze di scambio termico acquisite in corsi precedenti e richiamate nelle lezioni frontali per interpretare i risultati ottenuti.",
   "chapters": [
@@ -11,11 +12,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Uso del software OpenFOAM",
+          "name": "Introduzione all'uso del software OpenFOAM",
           "done": false
         },
         {
           "name": "Impostazione di un problema",
+          "done": false
+        },
+        {
+          "name": "Griglia",
+          "done": false
+        },
+        {
+          "name": "Risoluzione",
           "done": false
         },
         {
@@ -26,7 +35,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Comprendere la struttura del codice di OpenFOAM."
+          "content": "Comprendere la struttura e l'interfaccia di OpenFOAM è cruciale."
         }
       ],
       "links": []
@@ -36,15 +45,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Analisi di conduzione in regime stazionario",
+          "name": "Richiami di scambio termico per conduzione e/o irraggiamento",
           "done": false
         },
         {
-          "name": "Analisi di conduzione in regime non stazionario",
+          "name": "Conduzione in regime stazionario: problemi a più dimensioni",
           "done": false
         },
         {
-          "name": "Studio sull'irraggiamento",
+          "name": "Conduzione in regime non stazionario",
+          "done": false
+        },
+        {
+          "name": "Irraggiamento",
           "done": false
         },
         {
@@ -52,7 +65,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Rivedere i fondamenti di conduzione e irraggiamento."
+        }
+      ],
       "links": []
     },
     {
@@ -60,43 +78,54 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Metodi per la soluzione dell'equazione della conduzione",
+          "name": "Principali metodi per la soluzione dell'equazione della conduzione",
           "done": false
         },
         {
-          "name": "Metodi per la soluzione di problemi di irraggiamento",
+          "name": "Principali metodi per la soluzione di problemi di irraggiamento",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Esplorare i metodi numerici più comuni utilizzati in scambio termico."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Esempio Pratico",
+      "name": "Esempio pratico",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Risoluzione del transitorio con OpenFOAM",
-          "done": false
-        },
-        {
-          "name": "Analisi del contatto fra corpi a diversa temperatura",
+          "name": "Risoluzione con OpenFOAM del transitorio successivo al contatto fra corpi inizialmente a temperatura differente",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Questo esempio aiuterà a capire il comportamento del sistema al variare delle condizioni iniziali."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Progetto Svolto dall'Allievo",
+      "name": "Progetto svolto dall'allievo",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Svolgere un progetto personale",
+          "name": "Sviluppo del progetto",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Seguire le linee guida fornite per completare il progetto."
+        }
+      ],
       "links": []
     }
   ],
@@ -106,8 +135,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi:file-document-outline",
-  "color": "#5c8dfd",
+  "icon": "mdi:book-open-variant",
+  "color": "#4a90e2",
   "examMode": "Durante il corso lo studente dovrà sviluppare un progetto, scelto assieme al docente, che consisterà nella soluzione con OpenFOAM di un problema di scambio termico di moderata complessità. Il problema, la sua impostazione e i risultati ottenuti verranno descritti in una sintetica relazione finale scritta che verrà consegnata, presentata e discussa durante l'esame orale.",
   "requirements": "Nozioni elementari di scambio termico per conduzione ed irraggiamento, usualmente fornite nei corsi di Fisica Tecnica nei corsi di laurea di Ingegneria.",
   "cfu": "3 CFU",
@@ -127,9 +156,9 @@
         ],
         "year": 2005,
         "notes": [
-          "3. ed. riv. e ampliata",
-          "Disponibile presso SGEditoriali, Padova",
-          "Verificare la corrispondenza tra la bibliografia e i testi disponibili"
+          "3rd edition, revised and expanded",
+          "Recommended for course studies",
+          "Check availability in the catalog"
         ]
       }
     ]

@@ -1,8 +1,9 @@
 {
   "id": "unibs703016",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "FONDAMENTI DI AUTOMATICA",
-  "lastUpdated": "2024-08-26T14:53:21.743Z",
+  "lastUpdated": "2024-08-26T15:18:27.975Z",
   "deleted": null,
   "goals": "Il corso ha lo scopo di fornire allo studente le metodologie di base per l'analisi dei sistemi dinamici lineari e per la sintesi dei sistemi di controllo. Al termine dell’insegnamento, lo studente sarà in grado di analizzare le proprietà di un sistema dinamico e di progettare sistemi di controllo per processi lineari, stazionari e a tempo continuo, a un ingresso e a un'uscita mediante un approccio analitico o per tentativi tramite diagrammi di Bode o basato su retroazione algebrica dello stato con osservatore. Lo studente avrà le basi per affrontare nuovi contenuti relativi al controllo digitale, al controllo in ambito industriale e al controllo nonlineare, oltre che alla modellistica e alla identificazione di sistemi dinamici.",
   "chapters": [
@@ -15,259 +16,312 @@
           "done": false
         },
         {
-          "name": "Sistemi di controllo. Variabili controllate e variabili di controllo.",
+          "name": "Sistemi di controllo: variabili controllate e di controllo",
           "done": false
         },
         {
-          "name": "Disturbi. Obiettivo del controllo.",
+          "name": "Disturbi e obiettivo del controllo",
           "done": false
         },
         {
-          "name": "Regolazione e asservimento.",
+          "name": "Regolazione e asservimento",
           "done": false
         },
         {
-          "name": "Controllo in anello aperto e chiuso (concetto di retroazione).",
+          "name": "Controllo in anello aperto e chiuso",
           "done": false
         },
         {
-          "name": "Trasduttori e attuatori.",
+          "name": "Trasduttori e attuatori",
           "done": false
         },
         {
-          "name": "Esempi introduttivi.",
+          "name": "Esempi introduttivi",
           "done": false
         },
         {
-          "name": "Sistemi dinamici lineari. Funzioni di trasferimento.",
+          "name": "Sistemi dinamici lineari",
           "done": false
         },
         {
-          "name": "Classificazione dei sistemi dinamici.",
+          "name": "Funzioni di trasferimento",
           "done": false
         },
         {
-          "name": "Sistemi dinamici lineari a tempo continuo.",
+          "name": "Classificazione dei sistemi dinamici",
           "done": false
         },
         {
-          "name": "Trasformata di Laplace.",
+          "name": "Sistemi dinamici lineari a tempo continuo",
           "done": false
         },
         {
-          "name": "Funzione di trasferimento.",
+          "name": "Trasformata di Laplace",
           "done": false
         },
         {
-          "name": "Poli, zeri, costanti di tempo, guadagno, pulsazione naturale e coefficiente di smorzamento.",
+          "name": "Poli, zeri, costanti di tempo, guadagno",
           "done": false
         },
         {
-          "name": "Anti-trasformata di Laplace.",
+          "name": "Pulsazione naturale e coefficiente di smorzamento",
           "done": false
         },
         {
-          "name": "Modi di un sistema.",
+          "name": "Anti-trasformata di Laplace",
           "done": false
         },
         {
-          "name": "Stabilità di un sistema.",
+          "name": "Modi di un sistema",
           "done": false
         },
         {
-          "name": "Schemi a blocchi.",
+          "name": "Stabilità di un sistema",
           "done": false
         },
         {
-          "name": "Funzioni di trasferimento di sistemi in serie, parallelo e retroazione.",
+          "name": "Schemi a blocchi",
           "done": false
         },
         {
-          "name": "Criterio di Routh-Hurwitz per la stabilità.",
+          "name": "Funzioni di trasferimento di sistemi in serie, parallelo e retroazione",
           "done": false
         },
         {
-          "name": "Risposta allo scalino dei sistemi del primo e secondo ordine.",
+          "name": "Criterio di Routh-Hurwitz per la stabilità",
           "done": false
         },
         {
-          "name": "Poli dominanti.",
+          "name": "Risposta allo scalino dei sistemi del primo e secondo ordine",
           "done": false
         },
         {
-          "name": "Sistemi dinamici lineari. Risposta in frequenza.",
+          "name": "Poli dominanti",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Comprendere la differenza tra controllo in anello aperto e in anello chiuso."
+        },
+        {
+          "color": "#e6b905",
+          "content": "Studiare l'importanza della retroazione nei sistemi di controllo."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Risposta in frequenza",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Funzione di risposta armonica",
           "done": false
         },
         {
-          "name": "Funzione di risposta armonica.",
+          "name": "Interpretazione dei sistemi come filtri in frequenza",
           "done": false
         },
         {
-          "name": "Interpretazione dei sistemi dinamici come filtri in frequenza.",
+          "name": "Diagrammi di Bode",
           "done": false
         },
         {
-          "name": "Diagrammi di Bode.",
+          "name": "Sistemi a fase minima",
           "done": false
         },
         {
-          "name": "Sistemi a fase minima.",
+          "name": "Formula di Bode",
           "done": false
         },
         {
-          "name": "Formula di Bode.",
+          "name": "Ritardi",
           "done": false
         },
         {
-          "name": "Ritardi.",
+          "name": "Diagrammi polari",
           "done": false
         },
         {
-          "name": "Diagrammi polari.",
+          "name": "Diagrammi di Nichols",
           "done": false
         },
         {
-          "name": "Diagrammi di Nichols.",
+          "name": "Modelli approssimati di sistemi dinamici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Praticare la costruzione e l'interpretazione dei diagrammi di Bode e Nichols."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Sintesi di sistemi di controllo",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sistemi di controllo in retroazione",
           "done": false
         },
         {
-          "name": "Modelli approssimati di sistemi dinamici.",
+          "name": "Analisi dei sistemi in retroazione",
           "done": false
         },
         {
-          "name": "Sintesi di sistemi di controllo.",
+          "name": "Criteri di Nyquist e di Bode per la stabilità",
           "done": false
         },
         {
-          "name": "Sistemi di controllo in retroazione.",
+          "name": "Prestazioni dei sistemi di controllo",
           "done": false
         },
         {
-          "name": "Analisi dei sistemi in retroazione.",
+          "name": "Funzione di sensitività",
           "done": false
         },
         {
-          "name": "Criteri di Nyquist e di Bode per la stabilità.",
+          "name": "Errore a transitorio esaurito",
           "done": false
         },
         {
-          "name": "Prestazioni dei sistemi di controllo.",
+          "name": "Banda passante e tempo di risposta",
           "done": false
         },
         {
-          "name": "Funzione di sensitività, funzione di sensitività complementare e funzione di sensitività del controllo.",
+          "name": "Entità delle sovraelongazioni",
           "done": false
         },
         {
-          "name": "Errore a transitorio esaurito.",
+          "name": "Sintesi del controllore per tentativi",
           "done": false
         },
         {
-          "name": "Banda passante e tempo di risposta.",
+          "name": "Sintesi del controllore per via analitica",
           "done": false
         },
         {
-          "name": "Entità delle sovraelongazioni.",
+          "name": "Luoghi a M e a N costante",
           "done": false
         },
         {
-          "name": "Sintesi del controllore per tentativi.",
+          "name": "Reti correttrici",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Distinguere tra sintesi per tentativi e sintesi analitica."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Rappresentazione nello spazio degli stati",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Variabili di stato",
           "done": false
         },
         {
-          "name": "Sintesi del controllore per via analitica.",
+          "name": "Rappresentazione di un sistema nello spazio degli stati",
           "done": false
         },
         {
-          "name": "Luoghi a M e a N costante.",
+          "name": "Movimento e traiettoria dello stato e dell'uscita",
           "done": false
         },
         {
-          "name": "Reti correttrici.",
+          "name": "Stati e uscite di equilibrio",
           "done": false
         },
         {
-          "name": "Rappresentazione nello spazio degli stati.",
+          "name": "Stabilità del movimento e dell'equilibrio",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Comprendere il concetto di rappresentazione nello spazio degli stati."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Proprietà strutturali dei sistemi lineari",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Linearizzazione di sistemi non lineari",
           "done": false
         },
         {
-          "name": "Variabili di stato.",
+          "name": "Rappresentazioni equivalenti",
           "done": false
         },
         {
-          "name": "Rappresentazione di un sistema nello spazio degli stati.",
+          "name": "Diagonalizzazione",
           "done": false
         },
         {
-          "name": "Movimento e traiettoria dello stato e dell'uscita.",
+          "name": "Formula di Lagrange",
           "done": false
         },
         {
-          "name": "Stati e uscite di equilibrio.",
+          "name": "Autovalori e modi",
           "done": false
         },
         {
-          "name": "Stabilità del movimento e dell'equilibrio.",
+          "name": "Stabilità",
           "done": false
         },
         {
-          "name": "Proprietà strutturali dei sistemi lineari.",
+          "name": "Raggiungibilità",
           "done": false
         },
         {
-          "name": "Linearizzazione di sistemi non lineari.",
+          "name": "Osservabilità",
           "done": false
         },
         {
-          "name": "Rappresentazioni equivalenti.",
+          "name": "Scomposizione canonica",
           "done": false
         },
         {
-          "name": "Diagonalizzazione.",
+          "name": "Rappresentazione ingresso-stato-uscita e ingresso-uscita",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Rivedere le proprietà di stabilità e raggiungibilità."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Controllo con retroazione di stato",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Sintesi del regolatore con retroazione di stato",
           "done": false
         },
         {
-          "name": "Formula di Lagrange.",
+          "name": "Osservatore di ordine intero e di ordine ridotto",
           "done": false
         },
         {
-          "name": "Autovalori e modi.",
-          "done": false
-        },
-        {
-          "name": "Stabilità.",
-          "done": false
-        },
-        {
-          "name": "Raggiungibilità.",
-          "done": false
-        },
-        {
-          "name": "Osservabilità.",
-          "done": false
-        },
-        {
-          "name": "Scomposizione canonica.",
-          "done": false
-        },
-        {
-          "name": "Rappresentazione ingresso-stato-uscita e rappresentazione ingresso-uscita.",
-          "done": false
-        },
-        {
-          "name": "Controllo con retroazione di stato.",
-          "done": false
-        },
-        {
-          "name": "Sintesi del regolatore con retroazione di stato.",
-          "done": false
-        },
-        {
-          "name": "Osservatore di ordine intero e di ordine ridotto.",
-          "done": false
-        },
-        {
-          "name": "Principio di separazione dei poli.",
+          "name": "Principio di separazione dei poli",
           "done": false
         }
       ],
@@ -281,8 +335,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-control",
-  "color": "#6a5acd",
+  "icon": "mdi:control",
+  "color": "#3f51b5",
   "examMode": "La verifica della preparazione degli studenti avverrà con esame scritto composto da esercizi numerici da risolvere relativi al progetto di sistemi di controllo (mediante sintesi per via analitica, per tentativi e con retroazione di stato) e da domande relative alla parte teorica del corso e volte alla verifica della comprensione di tutti gli argomenti trattati durante il corso. Il punteggio finale sarà calcolato partendo dal punteggio massimo (30 e lode) e sottraendo per ogni errore o mancanza di svolgimento di una parte del compito un numero punti proporzionale alla gravità dell'errore. Parte della valutazione è anche relativa al corretto utilizzo della terminologia e all'ordine e alla chiarezza dell'elaborato.La durata della prova scritta è di 2 ore. Non è prevista una prova orale, ma eventuali domande potranno essere effettuate durante la consegna del compito.",
   "requirements": "Per la fruizione dell’insegnamento lo studente deve possedere le basi di analisi matematica, equazioni differenziali, numeri complessi, matrici.",
   "cfu": "9 CFU",

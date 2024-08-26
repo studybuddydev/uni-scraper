@@ -1,8 +1,9 @@
 {
   "id": "unibs703039",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "MECCANICA RAZIONALE",
-  "lastUpdated": "2024-08-26T14:52:25.390Z",
+  "lastUpdated": "2024-08-26T15:17:31.679Z",
   "deleted": null,
   "goals": "Il corso è rivolto a studenti del secondo anno ed illustra i modelli matematici atti ad interpretare e descrivere un ampio spettro di fenomeni relativi al moto dei sistemi materiali vincolati, rigidi ed articolati.Conoscenza e ComprensioneConoscenza dei principi fondamentali della meccanica e la loro applicazione.Lo studente alla fine del corso conoscerà i principali metodi per la modellizzazione matematica di sistemi materiali allo scopo di determinare i parametri che ne caratterizzano le condizioni di equilibrio e le equazioni differenziali di moto.Capacità di applicare conoscenza e comprensioneLo studente sarà in grado di utilizzare i metodi matematici per la risoluzione di problemi meccanici ad uno o a più gradi di libertà.Autonomia di GiudizioLo studente alla fine del Corso avrà acquisito la capacità di determinare in forma autonoma quali leggi fisiche e modelli matematici applicare ai problemi meccanici e saprà analizzare e di formalizzare problemi per lui nuovi.Abilità comunicativeSaper usare il linguaggio specifico e formale per descrivere sistemi fisici.Lo studente dovrà acquisire la capacità di esporre in modo chiaro e rigoroso, utilizzandoadeguatamente il lessico disciplinare, i risultati dell'analisi del problema e dellesoluzioni qualitative individuate.Capacità di ApprendimentoLo studente risolvendo problemi ed esercizi, consultando testi ed altre fonti, migliorerà la capacità di apprendimento e di sviluppo del pensiero autonomo.",
   "chapters": [
@@ -65,8 +66,12 @@
       ],
       "postIts": [
         {
-          "color": "#f44336",
-          "content": "Studiando il moto di un punto, è utile visualizzare con grafici le diverse traiettorie."
+          "color": "#e6b905",
+          "content": "Understand the distinction between various types of motion."
+        },
+        {
+          "color": "#f39c12",
+          "content": "Study the applications of Mozzi's theorem in different contexts."
         }
       ],
       "links": []
@@ -100,7 +105,7 @@
           "done": false
         },
         {
-          "name": "Teoremi della quantità di moto e forze vive",
+          "name": "Teoremi della quantità di moto, del momento della quantità di moto e delle forze vive",
           "done": false
         },
         {
@@ -114,8 +119,12 @@
       ],
       "postIts": [
         {
-          "color": "#2196f3",
-          "content": "Rivedere i teoremi della quantità di moto per chiarire i concetti."
+          "color": "#e67e22",
+          "content": "Review the implications of Newton's laws."
+        },
+        {
+          "color": "#3498db",
+          "content": "Work through examples of energy conservation."
         }
       ],
       "links": []
@@ -125,7 +134,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Nozioni sui vettori applicati",
+          "name": "Nozioni elementari sui vettori applicati",
           "done": false
         },
         {
@@ -137,11 +146,11 @@
           "done": false
         },
         {
-          "name": "Teoremi di Koenig per l'energia cinetica",
+          "name": "Teoremi di Koenig per l'energia cinetica e per il momento della quantità di moto",
           "done": false
         },
         {
-          "name": "Espressione dell'energia cinetica e momento della quantità di moto",
+          "name": "Espressione dell'energia cinetica e del momento della quantità di moto per un corpo rigido",
           "done": false
         },
         {
@@ -151,8 +160,12 @@
       ],
       "postIts": [
         {
-          "color": "#ff9800",
-          "content": "Confronta le proprietà dei baricentri nei diversi sistemi."
+          "color": "#e74c3c",
+          "content": "Focus on understanding center of mass and inertia."
+        },
+        {
+          "color": "#9b59b6",
+          "content": "Visualize the geometrical interpretation of these concepts."
         }
       ],
       "links": []
@@ -166,11 +179,15 @@
           "done": false
         },
         {
-          "name": "Caratterizzazione delle reazioni di vincoli",
+          "name": "Caratterizzazione delle reazioni di alcuni vincoli",
           "done": false
         },
         {
           "name": "Statica dei corpi rigidi con applicazioni",
+          "done": false
+        },
+        {
+          "name": "Sistemi di più corpi rigidi: svincolamento statico",
           "done": false
         },
         {
@@ -180,22 +197,26 @@
       ],
       "postIts": [
         {
-          "color": "#9c27b0",
-          "content": "Rivedi i concetti di svincolamento statico."
+          "color": "#2ecc71",
+          "content": "Explain the concept of static equilibrium in your own words."
+        },
+        {
+          "color": "#1abc9c",
+          "content": "Practice problems involving rigid body dynamics."
         }
       ],
       "links": []
     },
     {
-      "name": "Cenni di meccanica analitica",
+      "name": "Cenni di Meccanica Analitica",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Relazione simbolica della dinamica e Principio di D'Alembert",
+          "name": "Relazione simbolica della dinamica",
           "done": false
         },
         {
-          "name": "Relazione simbolica della statica e Principio dei Lavori Virtuali",
+          "name": "Relazione simbolica della statica",
           "done": false
         },
         {
@@ -213,8 +234,12 @@
       ],
       "postIts": [
         {
-          "color": "#607d8b",
-          "content": "Studia le differenze tra sistemi olonomi e non olonomi."
+          "color": "#34495e",
+          "content": "Study the transition from classical to analytical mechanics."
+        },
+        {
+          "color": "#16a085",
+          "content": "Understand the significance of Lagrange equations."
         }
       ],
       "links": []
@@ -226,8 +251,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-physics",
-  "color": "#4caf50",
+  "icon": "mdi-book-open",
+  "color": "#6a5acd",
   "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso.",
   "requirements": "Analisi Matematica I, Algebra e Geometria",
   "cfu": "6 CFU",
@@ -249,8 +274,7 @@
         ],
         "year": 2002,
         "notes": [
-          "Available at Zanichelli",
-          "Check catalog for availability"
+          "Available in the catalog"
         ]
       },
       {
@@ -262,8 +286,7 @@
         "year": 2019,
         "notes": [
           "5th edition",
-          "Available at Esculapio",
-          "Check catalog for availability"
+          "Available in the catalog"
         ]
       },
       {
@@ -274,8 +297,7 @@
         "year": 2022,
         "notes": [
           "4th edition",
-          "Available at Springer",
-          "Check catalog for availability"
+          "Available in the catalog"
         ]
       }
     ]

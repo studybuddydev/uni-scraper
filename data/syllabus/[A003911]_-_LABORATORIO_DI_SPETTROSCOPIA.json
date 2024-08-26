@@ -1,13 +1,14 @@
 {
   "id": "unibsA003911",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO DI SPETTROSCOPIA",
-  "lastUpdated": "2024-08-26T14:53:48.707Z",
+  "lastUpdated": "2024-08-26T15:18:52.423Z",
   "deleted": null,
   "goals": "Il corso consentirà di: - acquisire le conoscenze di base per l’individuazione delle tecniche più adatte per l’analisi dei materiali in ambito meccanico, civile, e/o ambientale (procedure e strumentazione); - sviluppare abilità manuale nella conduzione di semplici esperimenti; - apprendere come derivare conclusioni scientifiche dalle osservazioni sperimentali; - imparare a redigere relazioni e report. Il corso consentirà anche agli studenti di verificare la loro capacità di lavorare in team.",
   "chapters": [
     {
-      "name": "Introduzione alle tecniche di laboratorio (1 CFU)",
+      "name": "Introduzione alle tecniche di laboratorio",
       "showTasks": true,
       "tasks": [
         {
@@ -54,21 +55,17 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on data collection and material analysis"
+          "content": "Focus on safety protocols in lab settings."
         }
       ],
       "links": []
     },
     {
-      "name": "Tecniche di spettroscopia (1 CFU)",
+      "name": "Tecniche di spettroscopia",
       "showTasks": true,
       "tasks": [
         {
-          "name": "1) Spettrofotometria",
-          "done": false
-        },
-        {
-          "name": "Introduzione alla spettrofotometria",
+          "name": "Spettrofotometria",
           "done": false
         },
         {
@@ -96,7 +93,7 @@
           "done": false
         },
         {
-          "name": "2) Spettroscopie vibrazionali",
+          "name": "Introduzione alle spettroscopie vibrazionali",
           "done": false
         },
         {
@@ -124,7 +121,7 @@
           "done": false
         },
         {
-          "name": "3) Diffrazione dei raggi X",
+          "name": "Diffrazione dei raggi X",
           "done": false
         },
         {
@@ -144,20 +141,20 @@
           "done": false
         },
         {
-          "name": "4) Presentazione degli esperimenti di laboratorio",
+          "name": "Introduzione alla presentazione degli esperimenti di laboratorio e dei protocolli",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#ff9999",
-          "content": "Study various spectroscopy techniques in detail."
+          "color": "#e6b905",
+          "content": "Make sure to familiarize with various spectroscopic techniques."
         }
       ],
       "links": []
     },
     {
-      "name": "Esperienze di laboratorio (1 CFU)",
+      "name": "Esperienze di laboratorio",
       "showTasks": true,
       "tasks": [
         {
@@ -177,7 +174,7 @@
           "done": false
         },
         {
-          "name": "Analisi quantitativa di adsorbimento di inquinanti con carboni attivi",
+          "name": "Analisi quantitativa di adsorbimento di inquinanti con carboni attivi (con valutazione della cinetica)",
           "done": false
         },
         {
@@ -187,8 +184,8 @@
       ],
       "postIts": [
         {
-          "color": "#f0e68c",
-          "content": "Focus on practical lab skills and applications."
+          "color": "#e6b905",
+          "content": "Hands-on experience is crucial for understanding the theoretical concepts."
         }
       ],
       "links": []
@@ -200,8 +197,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open-variant",
-  "color": "#b5e0f0",
+  "icon": "mdi-laboratory",
+  "color": "#4caf50",
   "examMode": "Gli studenti, divisi gruppi, dovranno redigere delle relazioni riguardanti gli esprimenti realizzati in laboratorio, allo scopo di dimostrare le abilità sperimentali, di analisi dati con conseguenti conclusioni ragionate, e di redazione delle relazioni, acquisite durante il corso. Le relazioni serviranno anche a verificare la capacità degli studenti di lavorare in team. Ogni studente dovrà poi sostenere una prova atta a verificare la conoscenza teorica delle tecniche introdotte. La seconda parte dell’esame potrà essere realizzata sia attraverso un esame scritto (sulla piattaforma Moodle), che verrà proposto alla fine del corso, sia attraverso una prova orale (che si svolgerà nelle date dell’appello).L’esito della valutazione delle due prove sarà espressa in trentesimi. Il voto finale sarà ottenuto dalla media. Per superare l’esame, in entrambe le prove la votazione dovrà corrispondere ad almeno 16/30 e la media dovrà corrispondere ad almeno 18/30.",
   "requirements": "Esame di chimica",
   "cfu": "3 CFU",
@@ -230,7 +227,7 @@
         "notes": [
           "Second edition",
           "Published in Napoli by EdiSES",
-          "Students are advised to verify the availability of this text in the library"
+          "Students should verify the correspondence with the recommended bibliography and the available texts."
         ]
       }
     ]

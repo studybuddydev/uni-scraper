@@ -1,61 +1,71 @@
 {
   "id": "unibsA003454",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "SPECIFICHE GEOMETRICHE DEI PRODOTTI",
-  "lastUpdated": "2024-08-26T14:52:48.344Z",
+  "lastUpdated": "2024-08-26T15:17:54.882Z",
   "deleted": null,
   "goals": "Gli obiettivi formativi si dividono in due parti. La prima parte si propone di far acquisire all’allievo la capacità di eseguire ed interpretare disegni tecnici contenenti indicazioni di tolleranze geometriche e specificazione geometrica del prodotto.",
   "chapters": [
     {
-      "name": "Tolleranze Geometriche",
+      "name": "Tolleranze Geometriche e Specificazioni Geometriche dei Prodotti",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Nuove norme per le dimensioni lineari",
+          "name": "Nuove norme per le dimensioni lineari.",
           "done": false
         },
         {
-          "name": "Linguaggio GPS/GD&T secondo le norme ISO e ASME",
+          "name": "Linguaggio GPS/GD&T secondo le norme ISO e ASME.",
           "done": false
         },
         {
-          "name": "Interdipendenza fra dimensioni e forma",
+          "name": "Interdipendenza fra dimensioni e forma.",
           "done": false
         },
         {
-          "name": "Classificazione delle tolleranze geometriche",
+          "name": "Classificazione delle tolleranze geometriche.",
           "done": false
         },
         {
-          "name": "Indicazione delle tolleranze geometriche sui disegni",
+          "name": "Indicazione delle tolleranze geometriche sui disegni.",
           "done": false
         },
         {
-          "name": "Riferimenti",
+          "name": "Riferimenti.",
           "done": false
         },
         {
-          "name": "Tolleranze di forma",
+          "name": "Tolleranze di forma.",
           "done": false
         },
         {
-          "name": "Tolleranze di orientamento",
+          "name": "Tolleranze di orientamento.",
           "done": false
         },
         {
-          "name": "Tolleranze di posizione",
+          "name": "Tolleranze di posizione.",
           "done": false
         },
         {
-          "name": "Tolleranze sui profili",
+          "name": "Tolleranze sui profili.",
           "done": false
         },
         {
-          "name": "Tolleranze di oscillazione",
+          "name": "Tolleranze di oscillazione.",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#FFCE57",
+          "content": "Studiare la differenza fra le tolleranze di forma, orientamento, e posizione."
+        },
+        {
+          "color": "#FF6B6B",
+          "content": "Verificare le norme ISO e ASME per la comprensione del linguaggio GPS/GD&T."
+        }
+      ],
       "links": []
     }
   ],
@@ -65,8 +75,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-calipers",
-  "color": "#4caf50",
+  "icon": "mdi-ruler-square",
+  "color": "#4A90E2",
   "examMode": "L'esame consiste in tre prove: consegna dell'Eserciziario d'Esame, svolgimento di prove grafiche a risposta aperta e quesiti a risposta multipla, quotatura secondo le norme GPS di una tavola quotata in modo pre-GPS. Si supera l'esame se tutte le prove sono sufficienti. Per essere ammessi alle prove, è necessario essere iscritti all'appello per quella data. Per essere ammessi alle due prove successive alla prima, è necessario avere consegnato l'Eserciziario d'Esame. Nella pagina e-learning dell'insegnamento sono presenti temi d'esame, svolti e commentati, e la procedura d'esame dettagliata.",
   "requirements": "I prerequisiti al corso riguardano la conoscenze acquisite nel corso di Disegno Tecnico Industriale: capacità di lettura e realizzazione di disegni di parti meccaniche complete di tolleranze e indicazioni di finitura superficiale.",
   "cfu": "6 CFU",

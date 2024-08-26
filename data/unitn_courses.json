@@ -3,7 +3,7 @@
     "id": "unitn0205F",
     "universityId": "unitn",
     "name": "Giurisprudenza",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -1339,7 +1339,7 @@
     "id": "unitn0336F",
     "universityId": "unitn",
     "name": "Ingegneria Edile-Architettura",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -1505,7 +1505,7 @@
     "id": "unitn1001S",
     "universityId": "unitn",
     "name": "Medicina e Chirurgia",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -1629,7 +1629,7 @@
     "id": "unitn0342H",
     "universityId": "unitn",
     "name": "Artificial Intelligence Systems",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -1885,7 +1885,7 @@
     "id": "unitn0347H",
     "universityId": "unitn",
     "name": "Bioengineering for Personalized Medicine",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -1894,7 +1894,7 @@
     "id": "unitn0341H",
     "universityId": "unitn",
     "name": "Environmental Meteorology",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -1976,7 +1976,7 @@
     "id": "unitn0517H",
     "universityId": "unitn",
     "name": "INFORMATICA",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -2580,7 +2580,7 @@
     "id": "unitn0331H",
     "universityId": "unitn",
     "name": "Ingegneria Civile",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -2692,7 +2692,7 @@
     "id": "unitn0337H",
     "universityId": "unitn",
     "name": "Ingegneria Energetica",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -2756,7 +2756,7 @@
     "id": "unitn0346H",
     "universityId": "unitn",
     "name": "Ingegneria dell'Informazione",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -2982,7 +2982,7 @@
     "id": "unitn0332H",
     "universityId": "unitn",
     "name": "Ingegneria per l'ambiente e il territorio",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3196,7 +3196,7 @@
     "id": "unitn0343H",
     "universityId": "unitn",
     "name": "Management and Industrial Systems Engineering",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3326,7 +3326,7 @@
     "id": "unitn0345H",
     "universityId": "unitn",
     "name": "Materials Engineering",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3366,7 +3366,7 @@
     "id": "unitn0344H",
     "universityId": "unitn",
     "name": "Mechatronics Engineering",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3490,7 +3490,7 @@
     "id": "unitn0708H",
     "universityId": "unitn",
     "name": "Cognitive Science - Scienze Cognitive",
-    "lastUpdated": "2024-08-26T14:45:14.092Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3650,7 +3650,7 @@
     "id": "unitn0709H",
     "universityId": "unitn",
     "name": "Human-Computer Interaction - Interazione Persona-Macchina",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3780,7 +3780,7 @@
     "id": "unitn0707H",
     "universityId": "unitn",
     "name": "Psicologia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4036,7 +4036,7 @@
     "id": "unitn0127H",
     "universityId": "unitn",
     "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4166,7 +4166,7 @@
     "id": "unitn0125H",
     "universityId": "unitn",
     "name": "Economia e legislazione d'impresa",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4278,7 +4278,7 @@
     "id": "unitn0121H",
     "universityId": "unitn",
     "name": "Economics - Economia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -4287,7 +4287,7 @@
     "id": "unitn0122H",
     "universityId": "unitn",
     "name": "Finanza",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4393,7 +4393,7 @@
     "id": "unitn0120H",
     "universityId": "unitn",
     "name": "Innovation Management - Management dell'innovazione",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4733,7 +4733,7 @@
     "id": "unitn0119H",
     "universityId": "unitn",
     "name": "International Management - Management Internazionale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4911,7 +4911,7 @@
     "id": "unitn0123H",
     "universityId": "unitn",
     "name": "Management",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5059,7 +5059,7 @@
     "id": "unitn0124H",
     "universityId": "unitn",
     "name": "Management",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5147,7 +5147,7 @@
     "id": "unitn0126H",
     "universityId": "unitn",
     "name": "Management della sostenibilità e del turismo",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5319,7 +5319,7 @@
     "id": "unitn0428H",
     "universityId": "unitn",
     "name": "Arte",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -5328,7 +5328,7 @@
     "id": "unitn0424H",
     "universityId": "unitn",
     "name": "Filologia e critica letteraria",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5506,7 +5506,7 @@
     "id": "unitn0420H",
     "universityId": "unitn",
     "name": "Filosofia e linguaggi della modernità",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5702,7 +5702,7 @@
     "id": "unitn0422H",
     "universityId": "unitn",
     "name": "Letterature euroamericane, traduzione e critica letteraria",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5988,7 +5988,7 @@
     "id": "unitn0423H",
     "universityId": "unitn",
     "name": "Mediazione linguistica, turismo e culture",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6118,7 +6118,7 @@
     "id": "unitn0430H",
     "universityId": "unitn",
     "name": "Musicologia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6158,7 +6158,7 @@
     "id": "unitn0426H",
     "universityId": "unitn",
     "name": "Scienze storiche",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -6167,7 +6167,7 @@
     "id": "unitn0429H",
     "universityId": "unitn",
     "name": "Storia dell'arte e studi museali",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6351,7 +6351,7 @@
     "id": "unitn0520H",
     "universityId": "unitn",
     "name": "BIOTECNOLOGIE CELLULARI E MOLECOLARI",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6547,7 +6547,7 @@
     "id": "unitn0521H",
     "universityId": "unitn",
     "name": "Biologia Quantitativa e Computazionale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6635,7 +6635,7 @@
     "id": "unitn0518H",
     "universityId": "unitn",
     "name": "FISICA",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7521,7 +7521,7 @@
     "id": "unitn0519H",
     "universityId": "unitn",
     "name": "MATEMATICA",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -7530,7 +7530,7 @@
     "id": "unitn0803H",
     "universityId": "unitn",
     "name": "EUROPEAN AND INTERNATIONAL STUDIES - STUDI EUROPEI E INTERNAZIONALI",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7744,7 +7744,7 @@
     "id": "unitn0805H",
     "universityId": "unitn",
     "name": "Security, Intelligence and Strategic Studies",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -8060,7 +8060,7 @@
     "id": "unitn0804H",
     "universityId": "unitn",
     "name": "Studi Sulla Sicurezza Internazionale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -8346,7 +8346,7 @@
     "id": "unitn0522H",
     "universityId": "unitn",
     "name": "Data Science",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -8722,7 +8722,7 @@
     "id": "unitn0623H",
     "universityId": "unitn",
     "name": "Global and Local Studies",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -8846,7 +8846,7 @@
     "id": "unitn0619H",
     "universityId": "unitn",
     "name": "Metodologia, Organizzazione e Valutazione dei Servizi Sociali",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -8922,7 +8922,7 @@
     "id": "unitn0624H",
     "universityId": "unitn",
     "name": "Organizzazione,società e tecnologia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -9034,7 +9034,7 @@
     "id": "unitn0621H",
     "universityId": "unitn",
     "name": "Sociology and social research - Sociologia e ricerca sociale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -9302,7 +9302,7 @@
     "id": "unitn0912H",
     "universityId": "unitn",
     "name": "Agrifood Innovation Management",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -9402,7 +9402,7 @@
     "id": "unitn0710G",
     "universityId": "unitn",
     "name": "Educazione professionale (abilitante alla professione sanitaria Educatore professionale)",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9484,7 +9484,7 @@
     "id": "unitn0704G",
     "universityId": "unitn",
     "name": "Interfacce e Tecnologie della Comunicazione",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9692,7 +9692,7 @@
     "id": "unitn0711G",
     "universityId": "unitn",
     "name": "Scienze Motorie, Sport e Benessere",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": []
@@ -9701,7 +9701,7 @@
     "id": "unitn0705G",
     "universityId": "unitn",
     "name": "Scienze e Tecniche Psicologia Cognitiva",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9981,7 +9981,7 @@
     "id": "unitn0513G",
     "universityId": "unitn",
     "name": "Fisica",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10195,7 +10195,7 @@
     "id": "unitn0515G",
     "universityId": "unitn",
     "name": "Matematica",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10739,7 +10739,7 @@
     "id": "unitn0516G",
     "universityId": "unitn",
     "name": "Scienze e Tecnologie Biomolecolari",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10905,7 +10905,7 @@
     "id": "unitn0514G",
     "universityId": "unitn",
     "name": "Informatica",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11245,7 +11245,7 @@
     "id": "unitn0325G",
     "universityId": "unitn",
     "name": "Ingegneria Civile",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11441,7 +11441,7 @@
     "id": "unitn0327G",
     "universityId": "unitn",
     "name": "Ingegneria Industriale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11625,7 +11625,7 @@
     "id": "unitn0339G",
     "universityId": "unitn",
     "name": "Ingegneria Informatica, delle Comunicazioni ed Elettronica",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11821,7 +11821,7 @@
     "id": "unitn0326G",
     "universityId": "unitn",
     "name": "Ingegneria per l'ambiente e il territorio",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12035,7 +12035,7 @@
     "id": "unitn0115G",
     "universityId": "unitn",
     "name": "Amministrazione Aziendale e Diritto",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12357,7 +12357,7 @@
     "id": "unitn0117G",
     "universityId": "unitn",
     "name": "Economia e Management",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12883,7 +12883,7 @@
     "id": "unitn0116G",
     "universityId": "unitn",
     "name": "Gestione Aziendale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13289,7 +13289,7 @@
     "id": "unitn0622G",
     "universityId": "unitn",
     "name": "Servizio Sociale",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13437,7 +13437,7 @@
     "id": "unitn0611G",
     "universityId": "unitn",
     "name": "Sociologia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13609,7 +13609,7 @@
     "id": "unitn0620G",
     "universityId": "unitn",
     "name": "Studi internazionali",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13787,7 +13787,7 @@
     "id": "unitn0417G",
     "universityId": "unitn",
     "name": "Beni culturali",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -14085,7 +14085,7 @@
     "id": "unitn0416G",
     "universityId": "unitn",
     "name": "Filosofia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -14377,7 +14377,7 @@
     "id": "unitn0427G",
     "universityId": "unitn",
     "name": "Lingue moderne",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -14663,7 +14663,7 @@
     "id": "unitn0419G",
     "universityId": "unitn",
     "name": "Studi storici e filologico-letterari",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -14841,7 +14841,7 @@
     "id": "unitn0206G",
     "universityId": "unitn",
     "name": "Comparative, European and International Legal Studies",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -15079,7 +15079,7 @@
     "id": "unitn0911G",
     "universityId": "unitn",
     "name": "Viticoltura ed Enologia",
-    "lastUpdated": "2024-08-26T14:45:14.093Z",
+    "lastUpdated": "2024-08-26T16:32:41.741Z",
     "deleted": null,
     "type": "triennale",
     "exams": [

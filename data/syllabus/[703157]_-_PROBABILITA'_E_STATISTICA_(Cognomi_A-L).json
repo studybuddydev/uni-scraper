@@ -1,8 +1,9 @@
 {
   "id": "unibs703157",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "PROBABILITA  E STATISTICA  Cognomi A L",
-  "lastUpdated": "2024-08-26T14:54:20.754Z",
+  "lastUpdated": "2024-08-26T15:19:31.305Z",
   "deleted": null,
   "goals": "Il corso è rivolto a studenti del primo anno ed illustra i modelli matematici atti ad interpretare e descrivere un ampio spettro di fenomeni relativi al moto dei sistemi materiali vincolati, rigidi ed articolati.Conoscenza e ComprensioneConoscenza dei principi fondamentali della probabilità e della statistica e la loro applicazione. Lo studente alla fine del corso conosceranno le basi sul calcolo delle probabilità dei fenomeni aleatori e su alcune tecniche di statistica inferenziale.Capacità di applicare conoscenza e comprensioneLo studente sarà in grado di utilizzare alcuni dei principali metodi statistici di base al fine di analizzare fenomeni reali e comprenderne gli aspetti fondamentali.Autonomia di GiudizioLo studente alla fine del corso avrà acquisito la capacità di interpretare dati statistici al fine di poter prendere decisioni in condizioni di incertezza.Abilità comunicativeSaper usare il linguaggio specifico e formale per descrivere sistemi probabilistici.Lo studente dovrà acquisire la capacità di esporre in modo chiaro e rigoroso, utilizzando adeguatamente il lessico disciplinare, i risultati dell'analisi del problema e delle soluzioni qualitative individuate.Capacità di ApprendimentoLo studente risolvendo problemi ed esercizi, consultando testi ed altre fonti, migliorerà la capacità di apprendimento e di sviluppo del pensiero autonomo.",
   "chapters": [
@@ -11,7 +12,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Raccolta dei dati e statistica descrittiva: organizzazione e descrizione dei dati",
+          "name": "Raccolta dei dati e statistica descrittiva",
           "done": false
         },
         {
@@ -25,8 +26,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focus on data organization and description methods."
+          "color": "#e67e22",
+          "content": "Studiare l'organizzazione e descrizione dei dati."
         }
       ],
       "links": []
@@ -56,7 +57,11 @@
           "done": false
         },
         {
-          "name": "Teorema delle probabilità totali e formula di Bayes",
+          "name": "Teorema delle probabilità totali",
+          "done": false
+        },
+        {
+          "name": "Formula di Bayes",
           "done": false
         },
         {
@@ -64,12 +69,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Understand basic probability principles and standard theorems."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -77,11 +77,47 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Analisi di variabili aleatorie unidimensionali",
+          "name": "Variabili aleatorie di Bernoulli",
           "done": false
         },
         {
-          "name": "Comprensione di variabili aleatorie di Bernoulli, binomiali, etc.",
+          "name": "Variabili aleatorie binomiali",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie ipergeometriche",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie di Poisson",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie geometriche",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie rettangolari",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie normali",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie esponenziali",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie gamma",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie chi-quadro",
+          "done": false
+        },
+        {
+          "name": "Variabili aleatorie t di Student",
           "done": false
         },
         {
@@ -89,12 +125,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Review types of random variables and their distributions."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -118,16 +149,15 @@
           "done": false
         },
         {
+          "name": "Distribuzioni congiunte di funzioni di variabili aleatorie",
+          "done": false
+        },
+        {
           "name": "Covarianza e correlazione",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Understand covariance and correlation as measures of dependence."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -139,11 +169,15 @@
           "done": false
         },
         {
+          "name": "Media campionaria",
+          "done": false
+        },
+        {
           "name": "Teoremi limite",
           "done": false
         },
         {
-          "name": "La varianza campionaria",
+          "name": "Varianza campionaria",
           "done": false
         },
         {
@@ -151,12 +185,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Study sampling methods and their implications for statistics."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -172,20 +201,19 @@
           "done": false
         },
         {
-          "name": "Stime per intervalli: intervalli dei confidenza",
+          "name": "Stime per intervalli",
           "done": false
         },
         {
-          "name": "Applicazioni mediante software per l'elaborazione di dati statistici",
+          "name": "Intervalli di confidenza (caso della normale)",
+          "done": false
+        },
+        {
+          "name": "Applicazioni mediante software per l'elaborazione di dati",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Learn about point estimation and interval estimation methods."
-        }
-      ],
+      "postIts": [],
       "links": []
     }
   ],
@@ -195,8 +223,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi:file-document",
-  "color": "#4caf50",
+  "icon": "mdi-chart-bar",
+  "color": "#6a89cc",
   "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi. Per ogni iscritto l’esame è costituito da uno scritto, con esercizi e quesiti anche teorici a risposta chiusa e/o a risposta aperta, proposti su piattaforma Moodle. Le valutazioni sono espresse in trentesimi. In coda al testo di ogni quesito è scritto il punteggio che si acquisisce nel caso di risposta corretta. Ogni risposta non data vale 0 punti.Per ogni risposta errata si sottrae il 20% del punteggio complessivo del dato esercizio.Una votazione della prova inferiorea 18/30 è considerata insufficiente. Durante l'esame non si possono portare in aula libri di alcun tipo o appunti del corso. Può essere consentito l’uso di una calcolatrice non programmabile.L’esame è rivolto ad accertare la capacità di risoluzione di quesiti e calcoli (sia simboliciche numerici) inerenti gli argomenti trattati nel corso. La prova è articolata in esercizi anche con più domande estese. Gli esercizi avranno un livello di difficoltà non superiore al livello degli esercizi svolti nel corso delle Esercitazioni e si ispireranno agliesercizi ed agli esempi del libro/libri di testo consigliato/i dalla docente. I libri saranno indicati dalla docente all’inizio del corso. In generale i quesiti saranno prevalentemente rivoltiad accertare una adeguata conoscenza della teoria discussa nel corso. Gli argomenti di teoria discussi durante il corso sono elencati nel Programma del Corso.",
   "requirements": "Per una proficua fruizione dell'insegnamento è consigliato aver sostenuto Analisi Matematica A.",
   "cfu": "6 CFU",
@@ -216,7 +244,8 @@
         "year": 2008,
         "notes": [
           "Edizione italiana a cura di Francesco Morandin",
-          "Seconda edizione"
+          "2. edizione",
+          "Pubblicato da Apogeo"
         ]
       },
       {
@@ -228,8 +257,9 @@
         ],
         "year": 2021,
         "notes": [
-          "Nona edizione",
-          "Available at Pearson Italia"
+          "9. edizione",
+          "Pubblicato da Pearson Italia",
+          "Disponibile sia a Milano che a Torino"
         ]
       },
       {
@@ -240,8 +270,8 @@
         ],
         "year": 2011,
         "notes": [
-          "Published in Santarcangelo di Romagna",
-          "Published by Maggioli"
+          "Pubblicato da Maggioli",
+          "Santarcangelo di Romagna"
         ]
       },
       {
@@ -253,8 +283,8 @@
         ],
         "year": 1991,
         "notes": [
-          "First revised edition",
-          "Available at McGraw-Hill libri Italia"
+          "1. edizione rivista",
+          "Pubblicato da McGraw-Hill libri Italia"
         ]
       }
     ]

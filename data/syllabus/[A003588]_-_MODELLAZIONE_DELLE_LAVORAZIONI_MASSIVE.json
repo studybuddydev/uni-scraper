@@ -1,13 +1,14 @@
 {
   "id": "unibsA003588",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "MODELLAZIONE DELLE LAVORAZIONI MASSIVE",
-  "lastUpdated": "2024-08-26T14:54:10.180Z",
+  "lastUpdated": "2024-08-26T15:19:13.722Z",
   "deleted": null,
   "goals": "Il corso e' rivolto agli studenti di ingegneria che intendano approfondire leproblematiche proprie delle lavorazioni per deformazione plasticamassive. Dopo una parte propedeutica, dedicata alla conoscenza delcomportamento dei materiali in campo plastico e dei teoremi energeticivalidi in tale ambito, vengono illustrate alcune fra le piu' significativetecnologie utilizzate nel campo delle deformazioni plastiche massive.Verranno inoltre illustrati i metodi numerici per la risoluzione e l’ottimizzazione delle lavorazioni per deformazione plastica massive.",
   "chapters": [
     {
-      "name": "Teoria della plasticità",
+      "name": "Concetti base della teoria della plasticità",
       "showTasks": true,
       "tasks": [
         {
@@ -29,8 +30,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Fondamentale capire il comportamento dei materiali in campo plastico."
+          "color": "#FFCC00",
+          "content": "Focus on material behavior under plastic deformation."
         }
       ],
       "links": []
@@ -52,15 +53,16 @@
           "done": false
         },
         {
-          "name": "Studio FEM: stato di sforzo e deformazione",
-          "done": false
-        },
-        {
-          "name": "Simulazione operazione di stampaggio",
+          "name": "Studio FEM dello stato di sforzo e deformazione",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#E94E77",
+          "content": "Understand the economic aspects of stamping processes."
+        }
+      ],
       "links": []
     },
     {
@@ -84,19 +86,7 @@
           "done": false
         },
         {
-          "name": "Difetti nelle operazioni di laminazione",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Laminazione dei tubi",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Laminatoio obliquo",
+          "name": "Laminazione dei tubi: laminatoio obliquo",
           "done": false
         },
         {
@@ -106,13 +96,17 @@
         {
           "name": "Laminatoio continuo",
           "done": false
+        },
+        {
+          "name": "Difetti nelle operazioni di laminazione",
+          "done": false
         }
       ],
       "postIts": [],
       "links": []
     },
     {
-      "name": "Trafilatura",
+      "name": "Trafilatura dei fili e dei tubi",
       "showTasks": true,
       "tasks": [
         {
@@ -136,7 +130,7 @@
       "links": []
     },
     {
-      "name": "Estrusione",
+      "name": "Estrusione diretta e inversa",
       "showTasks": true,
       "tasks": [
         {
@@ -160,7 +154,7 @@
           "done": false
         },
         {
-          "name": "Studio FEM: stato di sforzo e deformazione",
+          "name": "Studio FEM dello stato di sforzo e deformazione",
           "done": false
         }
       ],
@@ -174,8 +168,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open",
-  "color": "#4caf50",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4A90E2",
   "examMode": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM, analisi letteratura tecnica",
   "requirements": "nessuno",
   "cfu": "6 CFU",
@@ -188,19 +182,16 @@
   "books": {
     "books": [
       {
-        "name": "Engineering plasticity",
+        "name": "Engineering Plasticity",
         "authors": [
           "W. Johnson",
           "P. B. Mellor"
         ],
         "year": 1983,
-        "notes": [
-          "Chichester: Horwood",
-          "New York: Halsted press"
-        ]
+        "notes": []
       },
       {
-        "name": "Manufacturing processes for engineering materials",
+        "name": "Manufacturing Processes for Engineering Materials",
         "authors": [
           "Serope Kalpakjian",
           "Steven R. Schmid",
@@ -208,8 +199,7 @@
         ],
         "year": 2008,
         "notes": [
-          "5th edition in SI units",
-          "Singapore: Pearson Prentice Hall"
+          "5th ed. in SI units"
         ]
       }
     ]

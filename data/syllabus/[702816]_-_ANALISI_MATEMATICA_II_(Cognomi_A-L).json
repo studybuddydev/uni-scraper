@@ -1,8 +1,9 @@
 {
   "id": "unibs702816",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "ANALISI MATEMATICA II  Cognomi A L",
-  "lastUpdated": "2024-08-26T14:52:02.108Z",
+  "lastUpdated": "2024-08-26T15:17:06.539Z",
   "deleted": null,
   "goals": "Lo scopo del corso è introdurre gli elementi di base dell'analisi matematica per lo studio dei sistemi ingegneristici, e cioè il calcolo differenziale e integrale per funzioni di più variabili reali, teoria delle successioni e serie di funzioni , ed elementi di teoria delle equazioni differenziali. Si intendono infatti fornire le competenze necessarie per poter applicare gli strumenti matematici nello studio dei problemi ingegneristici caratterizzanti del percorso formativo. Particolare attenzione verrà dedicata all’acquisizione, da parte dello studente, della capacità di esprimere in modo rigoroso concetti, interpretazioni e idee in forma orale e/o scritta e alle abilità comunicative.",
   "chapters": [
@@ -43,13 +44,30 @@
           "done": false
         },
         {
-          "name": "Estremi vincolati e moltiplicatori di Lagrange",
+          "name": "Estremi vincolati",
           "done": false
         },
         {
-          "name": "Integrali multipli",
+          "name": "Moltiplicatori di Lagrange",
           "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ffcc00",
+          "content": "Revisare i teoremi della funzione implicita e della funzione inversa."
         },
+        {
+          "color": "#00bcd4",
+          "content": "Esercitarsi sui punti stazionari e la loro classificazione."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Integrali multipli",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Formule di riduzione e calcolo",
           "done": false
@@ -61,8 +79,8 @@
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Rivedere i teoremi della funzione implicita e inversa, fondamentale per analisi multivariata."
+          "color": "#ff5722",
+          "content": "Studiare i metodi di integrazione per variabili multiple."
         }
       ],
       "links": []
@@ -72,7 +90,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Convergenza puntuale ed uniforme",
+          "name": "Convergenza puntuale",
+          "done": false
+        },
+        {
+          "name": "Convergenza uniforme",
           "done": false
         },
         {
@@ -112,18 +134,18 @@
           "done": false
         },
         {
-          "name": "Serie di Fourier: convergenza puntuale ed uniforme",
+          "name": "Convergenza puntuale e uniforme",
           "done": false
         },
         {
-          "name": "Serie di Fourier: derivazione per serie",
+          "name": "Derivazione per serie",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focus sulla serie di Fourier, importante in analisi e nelle applicazioni."
+          "color": "#8bc34a",
+          "content": "Focus sulle serie di Fourier e le loro applicazioni."
         }
       ],
       "links": []
@@ -131,22 +153,8 @@
     {
       "name": "Equazioni differenziali ordinarie",
       "showTasks": true,
-      "tasks": [
-        {
-          "name": "Studiare le proprietà delle equazioni differenziali",
-          "done": false
-        },
-        {
-          "name": "Applicazioni delle EDO nella fisica e ingegneria",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Evidenziare il collegamento tra EDO e fenomeni reali."
-        }
-      ],
+      "tasks": [],
+      "postIts": [],
       "links": []
     }
   ],
@@ -157,7 +165,7 @@
     }
   ],
   "icon": "mdi-calculator",
-  "color": "#4caf50",
+  "color": "#3f51b5",
   "examMode": "L'esame prevede una prova scritta divisa in due parti: la prima parte contiene 4 o 5 esercizi a risposta chiusa. La seconda parte contiene due domande sulla teoria. Se viene superata la sufficienza, cioè 18 punti su 30, gli studenti potranno registrare il voto ottenuto nella prova scritta. La prova orale, che verte sugli argomenti della parte teorica del corso, e' facoltativa.",
   "requirements": "Come da guida dello studente.",
   "cfu": "9 CFU",
@@ -180,8 +188,8 @@
         ],
         "year": 2013,
         "notes": [
-          "3. ed",
-          "Brescia : Cartolibreria Snoopy"
+          "3rd edition",
+          "Published in Brescia by Cartolibreria Snoopy"
         ]
       }
     ]

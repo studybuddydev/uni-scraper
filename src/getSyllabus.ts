@@ -18,6 +18,7 @@ export interface CourseInfo {
     credits:string;
     lang:string;
     teachers: string;
+    course:string;
 }
 
 interface processedChapter {
@@ -38,6 +39,7 @@ interface Book{
 interface DataExam {
     id: string;
     universityId: string;
+    course: string;
     name: string;
     lastUpdated: Date;
     deleted: Date | null;
@@ -101,7 +103,8 @@ async function getCourseInfo(page: Page): Promise<CourseInfo>{
             requirements: '',
             credits:'',
             lang: '',
-            teachers: ''
+            teachers: '',
+            course:''
         };
 
         
@@ -134,6 +137,8 @@ async function getCourseInfo(page: Page): Promise<CourseInfo>{
                                 currentGroup.credits = ddElement;
                             }else if (label.includes('Docenti')){
                                 currentGroup.teachers = ddElement
+                            }else if (label.includes('Corso di studi')){
+                                currentGroup.course = ddElement
                             }
                                 
                         });
@@ -285,6 +290,7 @@ async function processAndSave(syllabus: CourseInfo) {
     const exam: DataExam = {
         id: uniname + id,
         universityId: uniname,
+        course: syllabus.course,
         name: name,
         lastUpdated: new Date(),
         deleted: null,
@@ -374,15 +380,12 @@ async function main() {
     const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
     const ingemec: Course = jsonData.find((obj: Course) => obj.id === 'unibs05742'); // Converts obj.id to string for comparison
     for (const exam of ingemec.exams) {
-        console.log(exam);
         
         try {
             await getsyllabus(exam['url'])
         } catch (e) {
             console.log(exam['title'] + 'is broken');
             console.log(exam['url']);
-
-
         }
 
     }

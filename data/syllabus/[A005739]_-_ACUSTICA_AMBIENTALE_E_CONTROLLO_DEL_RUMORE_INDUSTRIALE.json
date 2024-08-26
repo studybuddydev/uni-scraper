@@ -1,8 +1,9 @@
 {
   "id": "unibsA005739",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "ACUSTICA AMBIENTALE E CONTROLLO DEL RUMORE INDUSTRIALE",
-  "lastUpdated": "2024-08-26T14:53:11.935Z",
+  "lastUpdated": "2024-08-26T15:18:12.168Z",
   "deleted": null,
   "goals": "Lo studente acquisisce la capacità di comprendere ed utilizzare i concetti fondamentali riguardanti la strumentazione e le tecniche di misura, la propagazione in campo libero, la propagazione e la tramissione in ambiente confinato.",
   "chapters": [
@@ -75,7 +76,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare le proprietà del suono e le grandezze acustiche fondamentali."
+        }
+      ],
       "links": []
     },
     {
@@ -127,15 +133,24 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Focalizzarsi sulle funzioni e strutture dell'organo uditivo."
+        }
+      ],
       "links": []
     },
     {
-      "name": "Analisi in frequenza dei segnali sonori",
+      "name": "Analisi in frequenza e misure sonori",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Filtri di banda di ottava e frazione di banda di ottava",
+          "name": "Analisi in frequenza dei segnali sonori",
+          "done": false
+        },
+        {
+          "name": "I filtri di banda di ottava e frazione di banda di ottava",
           "done": false
         },
         {
@@ -147,7 +162,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Approfondire la teoria dell'analisi in frequenza e le tecniche di misura."
+        }
+      ],
       "links": []
     },
     {
@@ -185,15 +205,7 @@
         {
           "name": "Definizione e tecniche di misura",
           "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Determinazione della potenza sonora",
-      "showTasks": true,
-      "tasks": [
+        },
         {
           "name": "Determinazione sperimentale della potenza sonora",
           "done": false
@@ -207,11 +219,7 @@
           "done": false
         },
         {
-          "name": "Frequenze naturali e legge di massa",
-          "done": false
-        },
-        {
-          "name": "Frequenza di coincidenza",
+          "name": "Frequenze naturali, legge di massa, frequenza di coincidenza",
           "done": false
         },
         {
@@ -219,13 +227,22 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Esplorare le teorie di propagazione e assorbimento del suono."
+        }
+      ],
       "links": []
     },
     {
       "name": "Acustica edilizia e architettonica",
       "showTasks": true,
       "tasks": [
+        {
+          "name": "Acustica edilizia",
+          "done": false
+        },
         {
           "name": "Isolamento per via aerea",
           "done": false
@@ -243,11 +260,20 @@
           "done": false
         },
         {
+          "name": "Acustica architettonica",
+          "done": false
+        },
+        {
           "name": "Parametri di qualità acustica",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Riflettere sull'importanza dell'acustica negli edifici."
+        }
+      ],
       "links": []
     },
     {
@@ -275,7 +301,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studiare i metodi per controllare il suono nei condotti."
+        }
+      ],
       "links": []
     }
   ],
@@ -285,8 +316,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-sound-module",
-  "color": "#4caf50",
+  "icon": "mdi-sound-wave",
+  "color": "#4A90E2",
   "examMode": "L’esame si articola in una prova scritta di 180 minuti (cinque esercizi volti a verificare l’avvenuto apprendimento, la padronanza concettuale, la proprietà di linguaggio e la capacità d’interpretazione e di sintesi) e in un esame orale volto ad accertare la capacità di interpretazione e analisi dei fenomeni acustici. Entrambe le prove si fonderanno sui testi di riferimento indicati, senza differenze fra studenti frequentanti e non frequentanti. Le due prove verranno svolte in giorni differenti per permettere al docente di valutare tutti gli elaborati. La prova scritta verrà valutata con un punteggio compreso fra 0 e 30. La prova orale potrà aggiungere a quella scritta fino a 7 punti. È possibile sostenere l’esame orale avendo ottenuto almeno 17 punti alla prova scritta. Gli studenti che avranno ottenuto almeno 18/30 alla prova scritta potranno, se lo desiderano, rinunciare a sostenere la prova orale, registrando il voto dello scritto. Lo scritto ha una validità pari a 12 mesi.",
   "requirements": "Nozioni di fisica di base. Conoscenza dei metodi di risoluzione delle equazioni differenziali.",
   "cfu": "6 CFU",
@@ -305,8 +336,9 @@
         ],
         "year": 2015,
         "notes": [
-          "Utilizzare questo testo come riferimento principale per il corso.",
-          "Verificare la disponibilità nel catalogo della biblioteca."
+          "Verificare sempre la corrispondenza tra la bibliografia consigliata e i testi disponibili.",
+          "In caso di dubbi, consultare il catalogo.",
+          "Pubblicato da Utet."
         ]
       }
     ]

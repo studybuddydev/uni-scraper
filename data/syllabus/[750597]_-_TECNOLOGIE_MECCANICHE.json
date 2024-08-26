@@ -1,8 +1,9 @@
 {
   "id": "unibs750597",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "TECNOLOGIE MECCANICHE",
-  "lastUpdated": "2024-08-26T14:52:42.323Z",
+  "lastUpdated": "2024-08-26T15:17:39.924Z",
   "deleted": null,
   "goals": "Il corso di Tecnologie Meccaniche affronta lo studio dei processi di fabbricazione di componenti meccanici. Dopo una prima fase relativa allo studio e agli approfondimenti sulle lavorazioni meccaniche convenzionali, quali fonderia e le lavorazioni per deformazione plastica, si affronteranno le tematiche inerenti i processi di asportazione di truciolo. Verranno illustrati sia aspetti pratici, quali la descrizione dei processi, degli utensili e delle attrezzature, sia teorici, quali lo studio della formazione del truciolo, delle forze di lavorazione, della scelta del materiali degli utensili e della definizione della durata utensile in ambiente deterministico e stocastico. Infine verranno introdotte le microlavorazione per asportazione di truciolo illustrandone problematiche, campi di applicazione, limiti e vantaggi.Nella parte finale del corso si analizzeranno le tecnologie di lavorazione non convenzionali e i processi additivi di fabbricazione (additive manufacturing).Al termine del corso l'allievo dovrà essere in grado di definire la soluzione tecnologica, il processo e il sistema di produzione più idonei alla realizzazione di un componente o di un prototipo e di valutare come assemblare il componente all'interno di prodotti più complessi.",
   "chapters": [
@@ -19,20 +20,15 @@
           "done": false
         },
         {
-          "name": "Problematiche connesse alla produzione di particolari meccanici",
+          "name": "Problematiche nella produzione di particolari meccanici",
           "done": false
         },
         {
-          "name": "Relazione tra tecnologia impiegata e prodotto ottenuto",
+          "name": "Relazione tra tecnologia e prodotto",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Focus on material choices, shapes, tolerances, and costs."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -40,34 +36,26 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Descrizione del processo e caratteristiche dei pezzi ottenuti",
+          "name": "Descrizione del processo e caratteristiche",
           "done": false
         },
         {
-          "name": "Problematiche connesse al processo: ritiro in fase liquida",
+          "name": "Problematiche connesse al processo",
           "done": false
         },
         {
-          "name": "Problematiche connesse al processo: ritiro in fase solida",
+          "name": "Panorama sulle tecniche di fusione",
           "done": false
         },
         {
-          "name": "Accorgimenti nel processo di fonderia",
-          "done": false
-        },
-        {
-          "name": "Panorama sulle tecniche di fonderia",
-          "done": false
-        },
-        {
-          "name": "Progettazione dei modelli nella fusione in terra",
+          "name": "Fusione in terra",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Important techniques include fusion in terra and colata sotto pressione."
+          "color": "#ff5722",
+          "content": "Include ritiro in fase liquida e solida, e problematiche di progettazione."
         }
       ],
       "links": []
@@ -77,19 +65,23 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studio della plasticità dei materiali",
+          "name": "La plasticità dei materiali",
           "done": false
         },
         {
-          "name": "Stampaggio a caldo e progettazione dello stampo",
+          "name": "Stampaggio a caldo",
           "done": false
         },
         {
-          "name": "Laminazione: vari tipi",
+          "name": "Laminazione",
           "done": false
         },
         {
-          "name": "Estrusione e Trafilatura",
+          "name": "Estrusione",
+          "done": false
+        },
+        {
+          "name": "Trafilatura",
           "done": false
         },
         {
@@ -97,12 +89,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Understand various deformation techniques."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -110,19 +97,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Generalità sulla formazione del truciolo",
+          "name": "Formazione del truciolo e usura utensile",
           "done": false
         },
         {
-          "name": "Tornitura: descrizione e calcolo",
+          "name": "Tornitura",
           "done": false
         },
         {
-          "name": "Fresatura: descrizione e calcolo",
+          "name": "Fresatura",
           "done": false
         },
         {
-          "name": "Foratura: descrizione e calcolo",
+          "name": "Foratura",
           "done": false
         },
         {
@@ -130,12 +117,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Focus on tool wear and economic optimization."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -159,12 +141,7 @@
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Explore advances in non-conventional machining methods."
-        }
-      ],
+      "postIts": [],
       "links": []
     }
   ],
@@ -175,7 +152,7 @@
     }
   ],
   "icon": "mdi-tools",
-  "color": "#4CAF50",
+  "color": "#5b99f9",
   "examMode": "L'esame consiste in prove scritte od orali nel corso delle quali è necessario dimostrare di aver acquisito, oltre ai contenuti teorici del corso, anche la capacità di risolvere problemi numerici di ottimizzazione delle lavorazioni.",
   "requirements": "Aver superato l'esame del corso di \"DISEGNO TECNICO INDUSTRIALE\".",
   "cfu": "12 CFU",
@@ -205,8 +182,8 @@
         ],
         "year": 2008,
         "notes": [
-          "5th edition",
-          "Published by Pearson Paravia Bruno Mondadori",
+          "5. ed",
+          "Publisher: Pearson Paravia Bruno Mondadori",
           "Check availability in catalog"
         ]
       },
@@ -218,8 +195,8 @@
         ],
         "year": 2000,
         "notes": [
-          "2nd edition",
-          "Published by CEA",
+          "2. ed",
+          "Publisher: CEA",
           "Check availability in catalog"
         ]
       },
@@ -230,7 +207,7 @@
         ],
         "year": null,
         "notes": [
-          "Published by CittàStudi",
+          "Publisher: CittàStudi",
           "Check availability in catalog"
         ]
       }

@@ -1,8 +1,9 @@
 {
   "id": "unibs750598",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "MISURE MECCANICHE E TERMICHE",
-  "lastUpdated": "2024-08-26T14:52:48.525Z",
+  "lastUpdated": "2024-08-26T15:17:55.219Z",
   "deleted": null,
   "goals": "Il corso è finalizzato a fornire le conoscenze basilari relative alla metrologia ed alla gestione dei processi di misura in ambito industriale, fino alla progettazione della catena di misura necessaria per la valutazione delle principali grandezze fisiche nell'ambito meccanico e termico. In particolare, scopo del corso è far sì che lo studente acquisisca da una parte le competenze necessarie per l'attività sperimentale finalizzata alla diagnostica, al controllo ed al collaudo, mentre dall'altra la sensibilità indispensabile per l'interpretazione dei risultati delle misurazioni.Saranno infine obbiettivi dell'insegnamento quelli di consentire la conoscenza e comprensione delle problematiche relative alla misura dei fenomeni ficici nell'ambito meccanico,raggiungere capacità di applicare conoscenza e comprensione della metrologia in ambito industriale, stimolare l'autonomia di giudizio da parte degli studenti,sviluppare le abilità comunicative in ambito tecnico e le capacità di apprendimento delle discipline richiedenti attività sperimentali.",
   "chapters": [
@@ -23,7 +24,11 @@
           "done": false
         },
         {
-          "name": "Media, Varianza. Distribuzioni discrete",
+          "name": "Media, Varianza",
+          "done": false
+        },
+        {
+          "name": "Distribuzioni discrete",
           "done": false
         },
         {
@@ -55,13 +60,22 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#f9b1bc",
+          "content": "Focus on statistical methods and their applications in measurement."
+        }
+      ],
       "links": []
     },
     {
       "name": "Metrologia Generale",
       "showTasks": true,
       "tasks": [
+        {
+          "name": "Introduzione alla metrologia",
+          "done": false
+        },
         {
           "name": "Sistema Internazionale",
           "done": false
@@ -79,7 +93,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#f0e58c",
+          "content": "Understand metrology concepts and standard terminology."
+        }
+      ],
       "links": []
     },
     {
@@ -99,7 +118,11 @@
           "done": false
         },
         {
-          "name": "Misure di Posizione e di accelerazione. Vibrazioni",
+          "name": "Misure di Posizione e di accelerazione",
+          "done": false
+        },
+        {
+          "name": "Vibrazioni",
           "done": false
         },
         {
@@ -119,7 +142,12 @@
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#b0e1c6",
+          "content": "Explore measurement systems and their relevance in industry."
+        }
+      ],
       "links": []
     }
   ],
@@ -130,7 +158,7 @@
     }
   ],
   "icon": "mdi-book-open-variant",
-  "color": "#4caf50",
+  "color": "#a4c3f3",
   "examMode": "La valutazione sarà effettuata con una prova scritta e una orale, eventualmente sostituita da una seconda prova scritta.Saranno proposte durante il corso anche attività individuale di esercitazione.",
   "requirements": "Sono richieste conoscenze delle discipline di base (analisi matematica, fisica, fisica tecnica, elettrotecnica e scienza delle costruzioni)",
   "cfu": "9 CFU",
@@ -160,11 +188,12 @@
         "year": 2001,
         "notes": [
           "2nd edition",
-          "Publisher: Progetto Leonardo, Bologna"
+          "Publisher: Progetto Leonardo",
+          "Location: Bologna"
         ]
       },
       {
-        "name": "Misurare per decidere : misure e statistica di base",
+        "name": "Misurare per decidere: misure e statistica di base",
         "authors": [
           "Giulio Barbato",
           "Alessandro Germak",
@@ -173,18 +202,20 @@
         "year": 2005,
         "notes": [
           "2nd edition",
-          "Publisher: Progetto Leonardo, Bologna"
+          "Publisher: Progetto Leonardo",
+          "Location: Bologna"
         ]
       },
       {
-        "name": "Measurement systems : application and design",
+        "name": "Measurement systems: application and design",
         "authors": [
           "Ernest O. Doebelin"
         ],
         "year": 2004,
         "notes": [
           "5th edition",
-          "Publisher: McGraw-Hill, Boston"
+          "Publisher: McGraw-Hill",
+          "Location: Boston"
         ]
       },
       {
@@ -197,8 +228,8 @@
         "year": 2008,
         "notes": [
           "2nd edition",
-          "Italian edition",
-          "Publisher: McGraw-Hill, Milano"
+          "Publisher: McGraw-Hill",
+          "Location: Milano"
         ]
       },
       {
@@ -213,7 +244,8 @@
         "year": 2012,
         "notes": [
           "2nd edition",
-          "Publisher: EGEA, Milano"
+          "Publisher: EGEA",
+          "Location: Milano"
         ]
       }
     ]

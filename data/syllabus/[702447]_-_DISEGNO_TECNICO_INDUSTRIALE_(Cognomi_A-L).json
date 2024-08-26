@@ -1,8 +1,9 @@
 {
   "id": "unibs702447",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "DISEGNO TECNICO INDUSTRIALE  Cognomi A L",
-  "lastUpdated": "2024-08-26T14:52:00.466Z",
+  "lastUpdated": "2024-08-26T15:16:54.732Z",
   "deleted": null,
   "goals": "Gli obiettivi formativi sono di far acquisire all’allievo la capacità di eseguire ed interpretare disegni tecnici mediante la conoscenza delle tecniche di rappresentazione, della normativa internazionale, rappresentazione convenzionale dei componenti delle macchine e delle procedure progettuali.In considerazione del fatto che l'insegnamento del CAD avviene negli anni successivi al primo e che molti allievi hanno iniziato i corsi di ingegneria con gravi carenze in disegno tecnico, il corso dedica particolare attenzione all'esecuzione con tecnica tradizionale (matita, riga, compasso).",
   "chapters": [
@@ -19,7 +20,7 @@
           "done": false
         },
         {
-          "name": "Circonferenze, archi e raccordi",
+          "name": "Circonferenze archi e raccordi",
           "done": false
         }
       ],
@@ -107,7 +108,7 @@
       "links": []
     },
     {
-      "name": "Sezioni nel Disegno Tecnico Industriale",
+      "name": "Le sezioni nel Disegno Tecnico Industriale",
       "showTasks": true,
       "tasks": [
         {
@@ -143,15 +144,27 @@
       "links": []
     },
     {
-      "name": "Disegno e lavorazioni meccaniche",
+      "name": "Il disegno e le lavorazioni meccaniche",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Peculiarità morfologiche",
+          "name": "Peculiarità morfologiche e modalità di rappresentazione di parti realizzate per fusione",
           "done": false
         },
         {
-          "name": "Modalità di rappresentazione di parti meccaniche",
+          "name": "Stampaggio",
+          "done": false
+        },
+        {
+          "name": "Piegatura",
+          "done": false
+        },
+        {
+          "name": "Tornitura",
+          "done": false
+        },
+        {
+          "name": "Fresatura",
           "done": false
         }
       ],
@@ -171,11 +184,11 @@
           "done": false
         },
         {
-          "name": "Convenzioni particolari di quotatura",
+          "name": "Convenzioni particolari di quotatura (raggi, diametri, sfere, ecc.)",
           "done": false
         },
         {
-          "name": "Sistemi di quotatura",
+          "name": "Sistemi di quotatura (serie, parallelo, ecc)",
           "done": false
         },
         {
@@ -203,7 +216,7 @@
           "done": false
         },
         {
-          "name": "Tolleranze dimensionali",
+          "name": "Tolleranze dimensionali (controllo tra due limiti)",
           "done": false
         },
         {
@@ -227,15 +240,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Errori micro geometrici",
-          "done": false
-        },
-        {
-          "name": "Grandezze caratteristiche",
-          "done": false
-        },
-        {
-          "name": "Rappresentazione delle indicazioni",
+          "name": "Errori micro geometrici: grandezze caratteristiche e rappresentazione delle indicazioni",
           "done": false
         }
       ],
@@ -267,7 +272,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Viti, bulloni, inserti filettati",
+          "name": "Viti",
+          "done": false
+        },
+        {
+          "name": "Bulloni",
+          "done": false
+        },
+        {
+          "name": "Inserti filettati",
+          "done": false
+        },
+        {
+          "name": "Dadi e rosette",
           "done": false
         },
         {
@@ -335,15 +352,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Trasmissione del moto rotatorio",
+          "name": "Trasmissione del moto rotatorio (ruote dentate, cinghie e pulegge, giunti)",
           "done": false
         },
         {
-          "name": "Accoppiamenti rotoidali",
+          "name": "Accoppiamenti rotoidali (cuscinetti radenti, cuscinetti volventi)",
           "done": false
         },
         {
-          "name": "Cuscinetti volventi",
+          "name": "Cuscinetti volventi (tipologie e criteri di scelta)",
           "done": false
         },
         {
@@ -361,8 +378,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-pencil",
-  "color": "#4ABDAC",
+  "icon": "mdi-drawing",
+  "color": "#4A90E2",
   "examMode": "L’esame consiste in tre prove: la prima è un test con esercizi a risposta chiusa; la seconda è un insieme di esercizi a risposta aperta, la terza è la messa in tavola di una parte estratta da un assieme.La seconda e la terza prova sono consentite a coloro che superano la prima.Il test con esercizi a risposta chiusa viene svolto al PC. Gli allievi possono provare questo test collegandosi all’indirizzo: https://elearning.unibs.it/mod/quiz/view.php?id=80330La prova con esercizi a risposta aperta riguarda la soluzione di problemi che ci focalizzano sulle singole competenze del disegno tecnico industriale: comprensione di una morfologia, tagli e sezioni, quotature, parti filettate, tolleranze e catene di tolleranze.Nella pagina web del corso (https://elearning.unibs.it/course/view.php?id=12594) ci sono alcuni temi d'esame svolti e commentati.",
   "requirements": "I prerequisiti al corso riguardano la conoscenza dei seguenti argomenti:- strumenti del disegno (descrizione e uso);- tracciatura linee (grosse, fini, miste fini, tratteggiate, tipi di matite, tipi di mine);Gli studenti che hanno poca esperienza nel disegno tecnico avranno modo di sviluppare queste conoscenze durante le prime esercitazioni.",
   "cfu": "6 CFU",
@@ -391,7 +408,7 @@
         ],
         "year": 2015,
         "notes": [
-          "Published by Zanichelli",
+          "Available at Zanichelli",
           "Check catalog for availability"
         ]
       },
@@ -403,8 +420,7 @@
         ],
         "year": 2007,
         "notes": [
-          "Published by ADM",
-          "Available for download online",
+          "Available online",
           "Check catalog for availability"
         ]
       },
@@ -416,8 +432,7 @@
         ],
         "year": 2015,
         "notes": [
-          "Published by Il Capitello",
-          "Part of the series 'Disegno tecnico industriale'",
+          "Part of Disegno tecnico industriale series",
           "Check catalog for availability"
         ]
       },

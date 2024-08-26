@@ -1,8 +1,9 @@
 {
   "id": "unibs702997",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "FISICA TECNICA",
-  "lastUpdated": "2024-08-26T14:52:21.606Z",
+  "lastUpdated": "2024-08-26T15:17:25.013Z",
   "deleted": null,
   "goals": "Conoscenza dei principi della termodinamica e comprensione delle loro principali conseguenze: esistenza delle proprietà energia ed entropia e loro caratteristiche. Comprensione del legame fra entropia e parte non \"utilizzabile\" dell'energia di un sistema. Conoscenza del principio di stato per stati di equilibrio stabile e delle funzioni di stato. Conoscenza delle macchine termiche, dei principali impianti di conversione energetica e di climatizzazione e comprensione del loro funzionamento. Conoscenza dei concetti di rendimento di primo e di secondo principio e comprensione della differenza fra di essi. Capacità di applicare le equazioni di bilancio dell'energia e dell'entropia (per sistemi chiusi e aperti) e della massa (per soli sistemi aperti) per la risoluzione di problemi di termodinamica applicata.Conoscenza e comprensione delle tre modalità di scambio termico. Comprensione del legame fra flusso termico e campo di temperatura nelle tre modalità di scambio termico. Conoscenza delle equazioni che descrivono lo scambio termico conduttivo e lo scambio termico radiativo. Capacità di risolvere le equazioni per lo scambio termico conduttivo e radiativo per la soluzione di problemi stazionari e non stazionari in geometrie semplici.",
   "chapters": [
@@ -55,14 +56,14 @@
           "done": false
         },
         {
-          "name": "Liquidi e solidi incomprimibile ideali, gas ideali e perfetti",
+          "name": "Liquidi e solidi incomprimibili ideali, gas ideali e perfetti",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#f2b632",
-          "content": "Focus on understanding the principles of energy conservation and entropy."
+          "color": "#e6b905",
+          "content": "Focus on the definitions and understanding of energy, entropy and systems."
         }
       ],
       "links": []
@@ -72,7 +73,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Bilanci di energia ed entropia per sistemi aperti e loro applicazione a componenti di impianti",
+          "name": "Bilanci di energia ed entropia per sistemi aperti",
+          "done": false
+        },
+        {
+          "name": "Applicazione a componenti di impianti: pompe, compressori, turbine, scambiatori di calore, valvole di laminazione",
           "done": false
         },
         {
@@ -80,11 +85,11 @@
           "done": false
         },
         {
-          "name": "Efficienza termodinamica di apparati di conversione energetica e concetto di exergia",
+          "name": "Efficienza termodinamica di apparati di conversione energetica",
           "done": false
         },
         {
-          "name": "Cogenerazione",
+          "name": "Concetto di exergia e cogenerazione",
           "done": false
         },
         {
@@ -98,8 +103,8 @@
       ],
       "postIts": [
         {
-          "color": "#ff6f61",
-          "content": "Review examples of Rankine and Joule-Brayton cycles."
+          "color": "#e6b905",
+          "content": "Understanding the applications of thermodynamics in energy conversion systems is crucial."
         }
       ],
       "links": []
@@ -109,11 +114,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Scambio termico per conduzione",
-          "done": false
-        },
-        {
-          "name": "Legge di Fourier",
+          "name": "Scambio termico per conduzione: Legge di Fourier",
           "done": false
         },
         {
@@ -133,11 +134,7 @@
           "done": false
         },
         {
-          "name": "Scambio termico per irraggiamento",
-          "done": false
-        },
-        {
-          "name": "Radiazione di corpo nero",
+          "name": "Scambio termico per irraggiamento: Radiazione di corpo nero",
           "done": false
         },
         {
@@ -149,19 +146,15 @@
           "done": false
         },
         {
-          "name": "Fattori di vista",
+          "name": "Scambio radiativo fra superfici nere e grigie",
           "done": false
         },
         {
-          "name": "Schermi radiativi",
+          "name": "Fattori di vista e schermi radiativi",
           "done": false
         },
         {
-          "name": "Scambio termico per convezione",
-          "done": false
-        },
-        {
-          "name": "Teorema di Buckingham dell'analisi dimensionale",
+          "name": "Scambio termico per convezione: Teorema di Buckingham",
           "done": false
         },
         {
@@ -179,8 +172,8 @@
       ],
       "postIts": [
         {
-          "color": "#3db4e8",
-          "content": "Understand different heat transfer modes: conduction, convection, and radiation."
+          "color": "#e6b905",
+          "content": "Important to grasp the laws governing heat transfer processes."
         }
       ],
       "links": []
@@ -192,8 +185,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open-variant",
-  "color": "#6c63ff",
+  "icon": "mdi-thermometer",
+  "color": "#ff5733",
   "examMode": "La prova d'esame consiste in una prova scritta di 120 minuti di durata e composta da due parti.(1) domande in forma aperta o chiusa volte a verificare che lo studente abbia acquisito idonea conoscenza e comprensione degli argomenti di termodinamica e di scambio termico presentati e sviluppati durante il corso; il peso di questa parte sulla valutazione finale è pari, di norma, al 25%.(2) tre o quattro problemi di termodinamica e di scambio termico, di norma articolati in una serie di domande atte a fornire una guida alla risoluzione; l'obbiettivo è quello di verificare la capacità dello studente di applicare le conoscenze acquisite per impostare e risolvere semplici problemi applicativi; il peso di questa parte sulla valutazione finale è pari, di norma, al 75%.Materiale consentito o richiesto durante la prova: calcolatrice non programmabile, penne e matite, documento di identificazione (tabelle e grafici, se necessari per lo svolgimento, vengono forniti insieme ai testi dei problemi proposti).",
   "requirements": "Nozioni di analisi matematica, fisica e chimica acquisite frequentando le lezioni dei corsi di base del primo anno. Conoscenza e capacità di usare il Sistema Internazionale di unità di misura.",
   "cfu": "9 CFU",
@@ -209,7 +202,7 @@
   "books": {
     "books": [
       {
-        "name": "Termodinamica : per i corsi del nuovo ordinamento degli studi universitari",
+        "name": "Termodinamica: per i corsi del nuovo ordinamento degli studi universitari",
         "authors": [
           "Gian Paolo Beretta"
         ],
@@ -228,7 +221,7 @@
         ]
       },
       {
-        "name": "Thermodynamics : foundations and applications",
+        "name": "Thermodynamics: foundations and applications",
         "authors": [
           "Elias P. Gyftopoulos",
           "Gian Paolo Beretta"
@@ -248,7 +241,7 @@
         ],
         "year": 2020,
         "notes": [
-          "372 p. : ill ; 21 cm."
+          "Brescia : Cartolibreria Snoopy - 372 p. : ill ; 21 cm."
         ]
       }
     ]

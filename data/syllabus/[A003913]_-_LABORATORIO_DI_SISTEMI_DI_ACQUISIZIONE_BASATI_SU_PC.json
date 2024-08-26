@@ -1,8 +1,9 @@
 {
   "id": "unibsA003913",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO DI SISTEMI DI ACQUISIZIONE BASATI SU PC",
-  "lastUpdated": "2024-08-26T14:53:35.198Z",
+  "lastUpdated": "2024-08-26T15:18:39.438Z",
   "deleted": null,
   "goals": "Obiettivo del corso è rendere gli studenti autonomi nello sviluppo di sistemi di misura ed altri progetti di base di monitoraggio. In particolare è rivolto a chi debba poi occuparsi, per tesi, corsi od attività di ricerca, di acquisizione dati, misure meccaniche ed elaborazione dei segnali.L'approccio pratico scelto è necessario a garantire che lo studente raggiunga una chiara autonomia operativa nel realizzare sistemi di misura in ambito industriale o di ricerca.",
   "chapters": [
@@ -20,38 +21,6 @@
     },
     {
       "name": "Tecniche di sviluppo di sistemi di acquisizione basati su PC",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Analisi delle tecniche comuni di acquisizione",
-          "done": false
-        },
-        {
-          "name": "Caratteristiche dei sistemi di acquisizione basati su PC",
-          "done": false
-        },
-        {
-          "name": "Casi pratici e scelte di sviluppo",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Dimostrazione di un caso pratico di acquisizione di dati",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Esercitazione",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Programma del corso",
       "showTasks": true,
       "tasks": [
         {
@@ -80,6 +49,23 @@
         },
         {
           "name": "Progettazione e sviluppo di DAQ su PC",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#ff9800",
+          "content": "Focus on practical cases and development choices."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Dimostrazione di un caso pratico di acquisizione di dati di misure",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Esercitazione",
           "done": false
         }
       ],

@@ -1,8 +1,9 @@
 {
   "id": "unibs702451",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "INFORMATICA E PROGRAMMAZIONE",
-  "lastUpdated": "2024-08-26T14:51:56.309Z",
+  "lastUpdated": "2024-08-26T15:16:57.677Z",
   "deleted": null,
   "goals": "Il corso ha lo scopo da un lato di fornire agli allievi i concetti fondamentali alla base dei sistemi informatici, del loro funzionamento e delle loro applicazioni, dall'altro di fornire la capacità di realizzare programmi di moderata complessità nel linguaggio C. Al termine dell'insegnamento, lo studente sarà in grado di comprendere i principi d funzionamento e l'organizzazione hardware e software di un moderno calcolatore e di sviluppare programmi di moderata complessità nel linguaggio C. Oltre alla conoscenza degli argomenti trattati, il corso pone attenzione alla capacità di applicarla mediante esercitazioni pratiche e la programmazione al calcolatore. Obiettivi formativi più generali promossi dallo studio rigoroso dell'informatica e programmazione in questo corso sono la capacità di affrontare problemi e rappresentare soluzioni a più livelli di astrazione, di scomporre un problema in sottoproblemi, di scegliere tra diverse soluzioni secondo criteri di efficienza e di eleganza in modo da favorire riusabilità e modificabilità. Questi obiettivi stimolano in particolare nello studente autonomia di giudizio e capacità di apprendimento.",
   "chapters": [
@@ -15,7 +16,7 @@
           "done": false
         },
         {
-          "name": "Studiare il concetto di calcolatore",
+          "name": "Comprendere il funzionamento del calcolatore",
           "done": false
         }
       ],
@@ -27,7 +28,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Comprendere la rappresentazione binaria",
+          "name": "Studiare la rappresentazione binaria",
+          "done": false
+        },
+        {
+          "name": "Esempi di conversione da decimale a binario",
           "done": false
         }
       ],
@@ -39,7 +44,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studiare l'architettura del calcolatore",
+          "name": "Conoscere i componenti dell'architettura",
+          "done": false
+        },
+        {
+          "name": "Studiare le funzioni di ciascun componente",
           "done": false
         }
       ],
@@ -51,7 +60,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Capire il linguaggio del calcolatore",
+          "name": "Studiare i linguaggi di basso livello",
+          "done": false
+        },
+        {
+          "name": "Comprendere l'assemblaggio",
           "done": false
         }
       ],
@@ -63,7 +76,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studiare il sistema operativo",
+          "name": "Studiare le funzioni di un sistema operativo",
+          "done": false
+        },
+        {
+          "name": "Conoscere i principali sistemi operativi",
           "done": false
         }
       ],
@@ -75,7 +92,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Esplorare i linguaggi di programmazione ad alto livello",
+          "name": "Conoscere i linguaggi di programmazione ad alto livello",
+          "done": false
+        },
+        {
+          "name": "Studiare le differenze tra linguaggi alti e bassi",
           "done": false
         }
       ],
@@ -87,7 +108,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Studiare la programmazione in C",
+          "name": "Studiare la sintassi del linguaggio C",
+          "done": false
+        },
+        {
+          "name": "Scrivere semplici programmi in C",
           "done": false
         }
       ],
@@ -99,11 +124,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Esaminare gli algoritmi",
+          "name": "Studiare gli algoritmi principali",
           "done": false
         },
         {
-          "name": "Studiare le strutture dati",
+          "name": "Comprendere le strutture dati comuni",
           "done": false
         }
       ],
@@ -117,7 +142,7 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open-page-variant",
+  "icon": "mdi-computer",
   "color": "#4caf50",
   "examMode": "L'esame è costituito da due prove: è prevista una prova scritta sulla parte teorica del programma (inclusa la conoscenza del linguaggio C ma non la capacità di sviluppo dei programmi) che, se superata, consente l'ammissione ad una prova scritta di programmazione in linguaggio C. Le prove possono essere sostenute anche in appelli diversi. Il fallimento della prova di programmazione comporta la ripetizione di entrambe le prove. Le valutazioni delle due prove sono espresse in trentesimi e la sufficienza si raggiunge con una votazione non inferiore a 18/30. La valutazione finale e' data dalla media delle due prove eventualmente arrotondata per eccesso. La prova sulla parte teorica del programma è costituita da esercizi strutturati, domande a risposta aperta o test di varia natura, ed ha lo scopo di verificare la comprensione dei principi di funzionamento del calcolatore e della sua organizzazione hardware e software, nonché la comprensione della sintassi e semantica delle istruzioni del linguaggio C. La prova di programmazione è costituita da esercizi di programmazione in cui vengono proposti problemi non specifici che lo studente deve risolvere mediante la produzione di un programma C. Per altre informazioni si veda la scheda dei moduli didattici \"Elementi di Informatica e Programmazione\" e \"Complementi di Programmazione\".",
   "requirements": "Per la fruizione dell'insegnamento sono necessarie solo alcune basi di matematica tra quelle già richieste per l'iscrizione al Corso di Studio, oltre ad una ragionevole capacità di attenzione ed un atteggiamento aperto all'ascolto anche di concetti che si possono eventualmente ritenere erroneamente già acquisiti ed adeguatamente approfonditi nella carriera scolastica precedente.",
@@ -138,18 +163,19 @@
         ],
         "year": 2006,
         "notes": [
-          "Consult the catalog for availability."
+          "Check availability in the catalog"
         ]
       },
       {
-        "name": "Il linguaggio C: fondamenti e tecniche di programmazione",
+        "name": "Il linguaggio C : fondamenti e tecniche di programmazione",
         "authors": [
           "Paul J. Deitel",
           "Harvey M. Deitel"
         ],
         "year": 2022,
         "notes": [
-          "9th edition, consult the catalog for availability."
+          "9th edition",
+          "Check availability in the catalog"
         ]
       }
     ]

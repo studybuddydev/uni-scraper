@@ -1,8 +1,9 @@
 {
   "id": "unibs750580",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "CHIMICA  Cognomi A L",
-  "lastUpdated": "2024-08-26T14:51:36.992Z",
+  "lastUpdated": "2024-08-26T15:16:58.473Z",
   "deleted": null,
   "goals": "Il corso ha l'obiettivo di fornire gli strumenti e le competenze di chimica di base, indispensabili per affrontare l’interpretazione dei fenomeni chimici, chimico–fisici e dei materiali più comuni in ambito ingegneristico.",
   "chapters": [
@@ -11,18 +12,50 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "La meccanica quantistica – l’equazione di Schröedinger",
+          "name": "Introduzione alla materia e struttura atomica",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Meccanica quantistica e l’equazione di Schrödinger",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Comprendere la teoria ondulatoria di Maxwell",
           "done": false
         },
         {
-          "name": "La struttura elettronica degli atomi e le proprietà periodiche",
+          "name": "Studiare il modello atomico di Bohr-Sommerfeld",
+          "done": false
+        },
+        {
+          "name": "Analizzare l'equazione di Schrödinger per atomi",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Struttura elettronica degli atomi e proprietà periodiche",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Esaminare gli orbitali e le funzioni d’onda",
+          "done": false
+        },
+        {
+          "name": "Studiare la tavola periodica di Mendeleev",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e6b905",
-          "content": "Focus on Schrödinger equation and electronic configurations."
+          "color": "#b5e5d7",
+          "content": "Rivedere le proprietà periodiche e le configurazioni elettroniche."
         }
       ],
       "links": []
@@ -32,60 +65,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Proprietà generali e legame ionico",
+          "name": "Analizzare il legame ionico e i parametri",
           "done": false
         },
         {
-          "name": "Il legame covalente",
+          "name": "Studiare la teoria del legame covalente e risonanza",
           "done": false
         },
         {
-          "name": "Il legame metallico e i legami deboli",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Understand types of chemical bonds."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Unità di massa atomica, mole, formule chimiche e nomenclatura in chimica inorganica",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "La massa di un atomo",
-          "done": false
-        },
-        {
-          "name": "La mole e il numero di Avogadro",
-          "done": false
-        },
-        {
-          "name": "La massa di una mole: la massa molare",
-          "done": false
-        },
-        {
-          "name": "Le formule chimiche",
-          "done": false
-        },
-        {
-          "name": "Le formule di struttura elettroniche o formule di Lewis",
-          "done": false
-        },
-        {
-          "name": "Gli elementi e i composti",
-          "done": false
-        },
-        {
-          "name": "Il numero di ossidazione",
-          "done": false
-        },
-        {
-          "name": "La nomenclatura nella chimica inorganica",
+          "name": "Comprendere il legame metallico e le proprietà metalliche",
           "done": false
         }
       ],
@@ -93,40 +81,47 @@
       "links": []
     },
     {
-      "name": "Le reazioni chimiche",
+      "name": "Unita di massa atomica e nomenclatura",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Classificazione, bilanciamento e calcoli stechiometrici",
+          "name": "Studiare la massa atomica e i concetti di mole",
+          "done": false
+        },
+        {
+          "name": "Comprendere la nomenclatura in chimica inorganica",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Study different types of reactions."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
-      "name": "Gli stati di aggregazione della materia",
+      "name": "Reazioni chimiche",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Stato gassoso",
+          "name": "Classificare e bilanciare le reazioni chimiche",
           "done": false
         },
         {
-          "name": "Stato liquido",
+          "name": "Eseguire calcoli stechiometrici",
+          "done": false
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Stati di aggregazione della materia",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Analizzare gli stati gassoso, liquido e solido",
           "done": false
         },
         {
-          "name": "Stato solido",
-          "done": false
-        },
-        {
-          "name": "Le soluzioni liquide",
+          "name": "Studiare le soluzioni liquide",
           "done": false
         }
       ],
@@ -138,20 +133,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Le funzioni di stato: energia interna ed entalpia",
+          "name": "Comprendere i principi dell'energia interna ed entalpia",
           "done": false
         },
         {
-          "name": "Le funzioni di stato: entropia ed energia libera di Gibbs",
+          "name": "Esaminare l'entropia e l'energia libera di Gibbs",
           "done": false
         }
       ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Important for understanding chemical systems."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -159,15 +149,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Equilibrio in fase gassosa",
+          "name": "Studiare gli equilibri chimici in fase gassosa e in soluzione acquosa",
           "done": false
         },
         {
-          "name": "Equilibrio in soluzione acquosa",
-          "done": false
-        },
-        {
-          "name": "Equilibri tra fasi diverse",
+          "name": "Comprendere gli equilibri tra fasi diverse",
           "done": false
         }
       ],
@@ -179,15 +165,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Produzione di energia elettrica da processi spontanei",
+          "name": "Analizzare la produzione di energia elettrica da processi spontanei",
           "done": false
         },
         {
-          "name": "Utilizzare energia elettrica per fare avvenire un processo non spontaneo",
-          "done": false
-        },
-        {
-          "name": "Elettrochimica applicata",
+          "name": "Studiare l'elettrolisi e i processi non spontanei",
           "done": false
         }
       ],
@@ -199,7 +181,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "La chimica nucleare",
+          "name": "Studiare i nuclidi stabili e radioattivi",
+          "done": false
+        },
+        {
+          "name": "Comprendere i processi di fissione e fusione",
           "done": false
         }
       ],
@@ -211,7 +197,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Idrocarburi e altri composti organici",
+          "name": "Esplorare la struttura di idrocarburi e composti organici",
+          "done": false
+        },
+        {
+          "name": "Studiare gli stereoisomeri e i polimeri sintetici",
           "done": false
         }
       ],
@@ -223,7 +213,11 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Velocità di reazione e meccanismi",
+          "name": "Analizzare la velocità di reazione e le espressioni cinetiche",
+          "done": false
+        },
+        {
+          "name": "Comprendere il meccanismo di reazione e il ruolo dei catalizzatori",
           "done": false
         }
       ],
@@ -266,8 +260,8 @@
         ],
         "year": 2013,
         "notes": [
-          "Second edition",
-          "Published by EdiSES, Napoli"
+          "2. ed.",
+          "Published in Napoli by EdiSES"
         ]
       },
       {
@@ -280,8 +274,8 @@
         ],
         "year": 2010,
         "notes": [
-          "Fourth edition",
-          "Published by EdiSES, Napoli"
+          "4. ed.",
+          "Published in Napoli by EdiSES"
         ]
       }
     ]

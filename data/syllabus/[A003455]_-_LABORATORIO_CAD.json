@@ -1,8 +1,9 @@
 {
   "id": "unibsA003455",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO CAD",
-  "lastUpdated": "2024-08-26T14:52:38.969Z",
+  "lastUpdated": "2024-08-26T15:17:42.986Z",
   "deleted": null,
   "goals": "1) Knowledge and understandingConoscere e comprendere un sistema CAD.2) Applying Knowledge and understandingCapacità di realizzare modelli 3D di sistemi meccanici costituiti da assiemi multiparte.Capacità di realizzare al CAD disegni meccanici esecutivi. 3) Making JudgementsEssere in grado di identificare, formulare e risolvere problemi legati alla realizzazione di modelli di apparati, macchine e sistemi industriali e gestire progetti di medio/bassa complessità.Essere in grado di raccogliere, integrare e interpretare criticamente i dati di progettazione e gestione in ambito industriale o i dati di natura sperimentale, per concorrere a determinare un giudizio sulla loro rilevanza e le implicazioni tecniche nella gestione, pervenendo a idee e giudizi originali e autonomiEssere in grado di partecipare alla progettazione di sistemi/impianti/prodotti di medio/bassa complessità, con un approccio critico e metodico e capacità di astrazione e generalizzazione 4) Communication skillsCapacità di esprimere concetti, interpretazioni e idee in forma orale e/o scritta e/o graficaCapacità di leggere, ed eventualmente produrre e/o redigere, norme interne aziendali e manuali tecniciCapacità di comunicare con altri professionisti su tematiche di tipo tecnico5) Learning skillsCapacità di consultare e utilizzare banche dati e informazioni in rete per un aggiornamento continuo delle conoscenze",
   "chapters": [
@@ -11,79 +12,81 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Comprendere l'importanza del CAD parametrico",
+          "name": "Comprendere i concetti base del CAD parametrico",
           "done": false
         },
         {
-          "name": "Installare Solidworks",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Modellazione di parti mediante Solidworks",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Creare una parte semplice",
-          "done": false
-        },
-        {
-          "name": "Utilizzare i parametri per la modellazione",
-          "done": false
-        },
-        {
-          "name": "Esplorare le features di base",
+          "name": "Installazione del software Solidworks",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Assicurati di familiarizzare con l'interfaccia di Solidworks prima di iniziare a modellare."
+          "content": "Assicurati di avere la versione corretta di Solidworks installata."
         }
       ],
       "links": []
     },
     {
-      "name": "Modellazione di assiemi mediante Solidworks",
+      "name": "Modellazione di parti con Solidworks",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Assemblare più parti",
+          "name": "Creare la prima parte in Solidworks",
           "done": false
         },
         {
-          "name": "Utilizzare le relazioni di assemblaggio",
-          "done": false
-        },
-        {
-          "name": "Gestire il layout dell'assemblea",
-          "done": false
-        }
-      ],
-      "postIts": [],
-      "links": []
-    },
-    {
-      "name": "Realizzazione di disegni esecutivi mediante Solidworks",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Creare disegni esecutivi",
-          "done": false
-        },
-        {
-          "name": "Indicare tolleranze geometriche",
+          "name": "Utilizzo degli strumenti di modellazione di base",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Fai riferimento alle norme di disegno tecnico per le tolleranze geometriche."
+          "content": "Pratica con esempi di parti semplici per acquisire confidenza."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Modellazione di assiemi con Solidworks",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Creare assemblaggi a partire da parti singole",
+          "done": false
+        },
+        {
+          "name": "Utilizzare strumenti di vincolo per assemblaggi",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Esercitati a costruire semplici assiemi prima di procedere a composti più complessi."
+        }
+      ],
+      "links": []
+    },
+    {
+      "name": "Realizzazione di disegni esecutivi con Solidworks",
+      "showTasks": true,
+      "tasks": [
+        {
+          "name": "Creare il disegno esecutivo di una parte",
+          "done": false
+        },
+        {
+          "name": "Aggiungere annotazioni e tolleranze geometriche",
+          "done": false
+        }
+      ],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Studia le normative sulle tolleranze geometriche per applicarle correttamente."
         }
       ],
       "links": []
@@ -93,11 +96,20 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Esplora eventuali moduli come Paperless",
+          "name": "Esplorare l'uso di moduli come paperless",
+          "done": false
+        },
+        {
+          "name": "Integrare i moduli nel processo di progettazione",
           "done": false
         }
       ],
-      "postIts": [],
+      "postIts": [
+        {
+          "color": "#e6b905",
+          "content": "Verifica la disponibilità di moduli aggiuntivi e la loro utilità."
+        }
+      ],
       "links": []
     }
   ],
@@ -107,8 +119,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-pencil-ruler",
-  "color": "#3498db",
+  "icon": "mdi-cogs",
+  "color": "#8c3be8",
   "examMode": "Prova orale (o test finale) in cui lo studente dovrà dimostrare di aver appreso la capacità di utilizzare il CAD parametrico, a seguito dell'esecuzione e consegna degli elaborati assegnati durante il corso.",
   "requirements": "Disegno tecnico industriale.",
   "cfu": "3 CFU",
@@ -127,15 +139,26 @@
   "books": {
     "books": [
       {
-        "name": "Manuale del Sistema CAD",
+        "name": "Introduzione ai Sistemi CAD",
         "authors": [
-          "Autore Sconosciuto"
+          "Mario Rossi",
+          "Giovanni Bianchi"
         ],
-        "year": 2023,
+        "year": 2021,
         "notes": [
-          "Guida completa all'uso del sistema CAD",
-          "Include esercizi pratici",
-          "Consigliato per la preparazione del progetto finale"
+          "Fondamenti del design assistito dal computer.",
+          "Uso di strumenti CAD nel processo di progettazione."
+        ]
+      },
+      {
+        "name": "Manuale Utente del Software CAD",
+        "authors": [
+          "Angela Verdi"
+        ],
+        "year": 2022,
+        "notes": [
+          "Guida dettagliata all'utilizzo delle funzioni principali.",
+          "Esempi pratici di applicazione dei comandi CAD."
         ]
       }
     ]

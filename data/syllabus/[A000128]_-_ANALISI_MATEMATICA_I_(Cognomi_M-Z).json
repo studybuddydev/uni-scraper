@@ -1,8 +1,9 @@
 {
   "id": "unibsA000128",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "ANALISI MATEMATICA I  Cognomi M Z",
-  "lastUpdated": "2024-08-26T14:51:25.119Z",
+  "lastUpdated": "2024-08-26T15:16:30.770Z",
   "deleted": null,
   "goals": "Introdurre lo studente ai concetti fondamentali dell'analisi matematica in una variabile reale.Al termine del corso lo studente dovrà dimostrare di avere acquisito e compreso i risultati fondamentali della disciplina e di saperli applicare nella risoluzione di problemi di base.",
   "chapters": [
@@ -13,11 +14,15 @@
         {
           "name": "Nozioni di Logica e di teoria degli insiemi",
           "done": false
-        },
-        {
-          "name": "Numeri reali",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Numeri reali",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Assiomi dei numeri reali",
           "done": false
@@ -33,23 +38,31 @@
         {
           "name": "Funzioni di variabile reale",
           "done": false
-        },
-        {
-          "name": "Numeri complessi",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Numeri complessi",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Definizione e prime proprietà",
           "done": false
         },
         {
-          "name": "Operazioni sui numeri complessi",
+          "name": "Operazioni sui numeri complessi: somme, prodotti, potenze e radici",
           "done": false
-        },
-        {
-          "name": "Limiti e continuità",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Limiti e continuità",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Definizione di intorni e di continuità",
           "done": false
@@ -69,11 +82,15 @@
         {
           "name": "Continuità uniforme",
           "done": false
-        },
-        {
-          "name": "Derivate",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Derivate",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Definizione di derivata e prime proprietà",
           "done": false
@@ -101,19 +118,27 @@
         {
           "name": "Funzioni convesse",
           "done": false
-        },
-        {
-          "name": "Serie numeriche",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Serie numeriche",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Definizioni e criteri di convergenza",
           "done": false
-        },
-        {
-          "name": "Integrali",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Integrali",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Definizione di integrale di Riemann",
           "done": false
@@ -137,25 +162,25 @@
         {
           "name": "Integrali impropri",
           "done": false
-        },
-        {
-          "name": "Equazioni differenziali",
-          "done": false
-        },
+        }
+      ],
+      "postIts": [],
+      "links": []
+    },
+    {
+      "name": "Equazioni differenziali",
+      "showTasks": true,
+      "tasks": [
         {
           "name": "Introduzione al problema",
           "done": false
         },
         {
-          "name": "Risoluzione di alcuni tipi di equazioni differenziali ordinarie",
+          "name": "Risoluzione di alcuni tipi di equazioni differenziali ordinarie: equazioni a variabili separabili",
           "done": false
         },
         {
-          "name": "Equazioni a variabili separabili",
-          "done": false
-        },
-        {
-          "name": "Lineari a coefficienti continui",
+          "name": "Linear a coefficienti continui",
           "done": false
         },
         {
@@ -174,7 +199,7 @@
     }
   ],
   "icon": "mdi-book-open-page-variant",
-  "color": "#4caf50",
+  "color": "#4CAF50",
   "examMode": "Due prove scritte da sostenere nel medesimo appello, la prima propedeutica alla seconda. La prima prova scritta consiste in esercizi a risposta aperta o chiusa relativi agli argomenti del corso. La seconda prova consiste in domande sui contenuti teorici dell'insegnamento. La valutazione delle prove terra' conto della correttezza delle procedure illustrate, del loro rigore logico e metodologico, e della efficacia e correttezza espositiva, valorizzando l'assimilazione dei concetti e la rielaborazione personale da parte del candidato.",
   "requirements": "Nozioni elementari di algebra, geometria analitica e trigonometria fornite dalla scuola superiore.",
   "cfu": "9 CFU",
@@ -196,7 +221,8 @@
         ],
         "year": 2011,
         "notes": [
-          "2. ed. - Milano : McGraw-Hill"
+          "2. ed.",
+          "Milano : McGraw-Hill"
         ]
       },
       {
@@ -208,7 +234,8 @@
         ],
         "year": 2000,
         "notes": [
-          "2. ed. riveduta da Ian Stewart - Torino : Bollati Boringhieri"
+          "2. ed. riveduta da Ian Stewart",
+          "Torino : Bollati Boringhieri"
         ]
       },
       {
@@ -220,8 +247,8 @@
         ],
         "year": 2001,
         "notes": [
-          "Mc Graw Hill",
-          "Scaricabile online"
+          "Scaricabile online",
+          "McGraw-Hill"
         ]
       }
     ]

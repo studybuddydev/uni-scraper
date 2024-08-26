@@ -1,8 +1,9 @@
 {
   "id": "unibs703549",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "SOCIOLOGIA DELL ORGANIZZAZIONE",
-  "lastUpdated": "2024-08-26T14:54:23.075Z",
+  "lastUpdated": "2024-08-26T15:19:28.308Z",
   "deleted": null,
   "goals": "Al termine del corso lo studente avrà raggiunto una maggiore consapevolezza delle trasformazioni che hanno caratterizzato i modelli produttivi nell’industria (ma non solo) a partire dai primi decenni del ‘900, e che hanno riguardato sia la dimensione tecnologica che quella organizzativa delle imprese. Lo studente avrà una chiara percezione dei risvolti di questi cambiamenti sulle condizioni di lavoro, sulla vita degli occupati, sulle relazioni industriali. Oltre agli obiettivi cognitivi, il corso intende sviluppare specifiche capacità degli studenti utili ad operare in organizzazioni più flessibili e che richiedono una maggiore partecipazione/coinvolgimento dei lavoratori; in tale prospettiva lo studente vedrà incrementare le sue capacità decisionali e negoziali attraverso il ricorso a un laboratorio specifico (Progetto Università Sindacato Impresa al Lavoro) ed esercitazioni e simulazioni negoziali.",
   "chapters": [
@@ -15,11 +16,7 @@
           "done": false
         },
         {
-          "name": "Specializzazione flessibile",
-          "done": false
-        },
-        {
-          "name": "Produzione snella",
+          "name": "Specializzazione flessibile e produzione snella",
           "done": false
         },
         {
@@ -37,26 +34,22 @@
       ],
       "postIts": [
         {
-          "color": "#f39c12",
-          "content": "Focus sul rapporto tra tecnologia e lavoro."
-        },
-        {
-          "color": "#e74c3c",
-          "content": "Considerare le nuove tendenze e modelli produttivi."
+          "color": "#e6b905",
+          "content": "Focus on the relationship between technology and work organization."
         }
       ],
       "links": []
     },
     {
-      "name": "Parte generale",
+      "name": "Analisi del modello prevalente del novecento industriale",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Analisi del taylorismo e fordismo",
+          "name": "Taylorismo e Fordismo",
           "done": false
         },
         {
-          "name": "Innovazioni del fordismo",
+          "name": "Innovazioni tecnologiche ed organizzative del fordismo",
           "done": false
         },
         {
@@ -64,22 +57,18 @@
           "done": false
         },
         {
-          "name": "Lean production e modello Toyota",
+          "name": "Specializzazione flessibile e Distretti Industriali",
           "done": false
         },
         {
-          "name": "Nuovi modelli produttivi e Industry 4.0",
+          "name": "Lean production e modello Toyota",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#1abc9c",
-          "content": "Include approfondimento su FIAT e Distretti Industriali."
-        },
-        {
-          "color": "#3498db",
-          "content": "Discussione sugli impatti sociali e lavorativi."
+          "color": "#e65c00",
+          "content": "Emphasize the implications of these models on labor and society."
         }
       ],
       "links": []
@@ -101,28 +90,24 @@
           "done": false
         },
         {
-          "name": "Presentazione delle proposte",
+          "name": "Presentazione proposte di intervento",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#e67e22",
-          "content": "Collaborazione tra studenti e delegati sindacali."
-        },
-        {
-          "color": "#2ecc71",
-          "content": "Viene richiesto un feedback dalle aziende."
+          "color": "#1e88e5",
+          "content": "Collaborative project aimed at improving workplace dynamics."
         }
       ],
       "links": []
     },
     {
-      "name": "Parte monografica",
+      "name": "Parte monografica: Negoziati interni ed esterni",
       "showTasks": true,
       "tasks": [
         {
-          "name": "Negoziati interni all'organizzazione",
+          "name": "Negoziati tra manager e collaboratori",
           "done": false
         },
         {
@@ -132,8 +117,8 @@
       ],
       "postIts": [
         {
-          "color": "#9b59b6",
-          "content": "Focus sui processi negoziali nel moderno contesto lavorativo."
+          "color": "#ffe082",
+          "content": "Discuss the increasing importance of negotiation processes in business transformations."
         }
       ],
       "links": []
@@ -145,8 +130,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-clipboard-text",
-  "color": "#8e44ad",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#4caf50",
   "examMode": "La verifica della preparazione degli studenti avverrà attraverso un esame scritto composto da circa 15 domande, sia aperte (la maggior parte) con spazio di risposta predefinito, sia chiuse, con risposte preordinate tra cui scegliere. Il peso, in punti, di ciascuna di esse dipende dell'importanza del tema trattato e dall'estensione della risposta attesa. Il punteggio finale (in trentesimi) sarà dato dalla somma dei punteggi parziali. La durata della prova scritta è di un'ora e quarantacinque minuti. Per ottenere la lode sarà necessario sostenere una breve prova orale integrativa volta ad approfondire la comprensione degli argomenti trattati nel compito e gli eventuali collegamenti con altri temi affrontati nel corso.Gli argomenti oggetto d'esame, per gli studenti frequentanti rifletteranno quelli affrontati durante il corso (comprese le lezioni previste nell'ambito del progetto USIL), mentre per gli studenti non frequentanti riguarderanno quelli trattati nei testi indicati in bibliografia. L’esame scritto è finalizzato a verificare non tanto la conoscenza mnemonica, ma la piena comprensione degli argomenti studiati, il corretto uso di concetti e teorie, le capacità critiche dello studente. Per il superamento dell’esame è necessario un corretto utilizzo della terminologia propria della disciplina e una chiara e sintetica esposizione degli argomenti affrontati che sappia evidenziare, dove necessario, i collegamenti tra di essi.La partecipazione attiva al progetto USIL ed alle simulazioni negoziali darà adito ad un bonus, in termini di punti (max. 4), che concorrerà alla valutazione finale dello studente.",
   "requirements": "Per la fruizione dell’insegnamento non sono necessarie specifiche competenze e/o conoscenze pregresse diverse da quelle richieste per l’iscrizione al Corso di Studio.E' utile comunque, per gli studenti di Ingegneria gestionale, aver frequentato il corso di Organizzazione e gestione dell'innovazione.",
   "cfu": "6 CFU",

@@ -1,8 +1,9 @@
 {
   "id": "unibs703041",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "METALLURGIA  Cognomi A L",
-  "lastUpdated": "2024-08-26T14:52:41.628Z",
+  "lastUpdated": "2024-08-26T15:17:29.963Z",
   "deleted": null,
   "goals": "L'insegnamento si propone di fornire una conoscenza generale delle proprietà dello stato metallico, in confronto con quelle degli altri materiali di impiego ingegneristico. L'insegnamento, pertanto, prevede una trattazione dei diagrammi di stato delle leghe, dei trattamenti termici sia massivi che superficiali, dei metodi di indagine delle proprietà dei materiali metallici, un inquadramento razionale dei metalli e delle leghe di interesse industriale in base alle proprietà meccaniche e fisiche; viene fatto anche cenno ai principali processi di produzione dei vari materiali, con enfasi a quelli di acciaio e ghisa, visti nei riflessi sulle proprietà, sui costi di produzione e sul costo del ciclo di vita. Sulla base di queste conoscenze, lo studente sviluppa la capacità di valutare le strette correlazioni tra struttura e proprietà meccaniche dei materiali metallici in funzione del processo produttivo e delle condizioni di esercizio, al fine di apprendere i criteri di scelta e di controllo dei materiali metallici, soprattutto per quanto riguarda gli acciai. Lo studente aumenterà la sua capacità di esprimersi con un linguaggio tecnico scientifico proprio delle scienze ingegneristiche e consoliderà la capacità di consultare e utilizzare materiale bibliografico e banche dati utili per un aggiornamento continuo delle conoscenze.",
   "chapters": [
@@ -11,40 +12,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Introduzione alla metallurgia",
-          "done": false
-        },
-        {
-          "name": "Proprietà dei materiali metallici",
-          "done": false
-        },
-        {
-          "name": "Meccanismi di danneggiamento",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Focus sui processi di fabbricazione e microstruttura."
-        },
-        {
-          "color": "#1abc9c",
-          "content": "Considerare l'ambiente e la temperatura nell'analisi dei materiali."
-        },
-        {
-          "color": "#e74c3c",
-          "content": "Differenziare tra sollecitazioni statiche e dinamiche."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Struttura e Difetti Cristallini",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Reticoli cristallini e notazioni",
+          "name": "Reticoli cristallini e notazioni cristallografiche",
           "done": false
         },
         {
@@ -62,22 +30,9 @@
         {
           "name": "Trasformazioni polimorfe",
           "done": false
-        }
-      ],
-      "postIts": [
+        },
         {
-          "color": "#3498db",
-          "content": "Studiare le caratteristiche dei difetti reticolari."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Solidificazione e Diagrammi di Stato",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Solidificazione dei metalli",
+          "name": "Solidificazione dei metalli e leghe",
           "done": false
         },
         {
@@ -85,139 +40,46 @@
           "done": false
         },
         {
-          "name": "Effetto degli elementi di lega",
+          "name": "Prove meccaniche",
           "done": false
         },
         {
-          "name": "Diagramma Fe-C",
+          "name": "Trasformazioni di fase",
+          "done": false
+        },
+        {
+          "name": "Trattamenti termici",
+          "done": false
+        },
+        {
+          "name": "Meccanismi di rafforzamento",
+          "done": false
+        },
+        {
+          "name": "Fenomeni di cedimento in esercizio",
+          "done": false
+        },
+        {
+          "name": "Cenni sulla produzione dell’acciaio",
+          "done": false
+        },
+        {
+          "name": "Gli acciai",
+          "done": false
+        },
+        {
+          "name": "Le ghise",
+          "done": false
+        },
+        {
+          "name": "Le leghe non ferrose",
           "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#f39c12",
-          "content": "Rivedere le regole delle fasi e varianza."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Prove Meccaniche",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Prova di trazione",
-          "done": false
-        },
-        {
-          "name": "Prova di durezza",
-          "done": false
-        },
-        {
-          "name": "Prova di resilienza",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#2ecc71",
-          "content": "Confrontare i risultati delle varie prove meccaniche."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Trasformazioni di Fase",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Curve di trasformazione dell’austenite",
-          "done": false
-        },
-        {
-          "name": "Perlite, Bainite e Martensite",
-          "done": false
-        },
-        {
-          "name": "Temprabilità",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e67e22",
-          "content": "Approfondire le curve TTT e CCT e il loro significato."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Trattamenti Termici",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Ricotture e normalizzazione",
-          "done": false
-        },
-        {
-          "name": "Tempra e rinvenimento",
-          "done": false
-        },
-        {
-          "name": "Carbocementazione e nitrurazione",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#9b59b6",
-          "content": "Studiare gli effetti dei trattamenti termici sulle proprietà meccaniche."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Meccanismi di Rafforzamento",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Fenomeni di cedimento",
-          "done": false
-        },
-        {
-          "name": "Scorrimento viscoso e fatica",
-          "done": false
-        },
-        {
-          "name": "Corrosione e usura",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e74c3c",
-          "content": "Analizzare come i vari fenomeni influenzano le prestazioni dei materiali."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Le Ghise e Leghe Non Ferrose",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Struttura e classificazione delle ghise",
-          "done": false
-        },
-        {
-          "name": "Leghe di alluminio, rame, zinco e nichel",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#16a085",
-          "content": "Studiare le proprietà meccaniche delle leghe non ferrose."
+          "color": "#e6b905",
+          "content": "Comprendere i meccanismi di danneggiamento in relazione alle sollecitazioni e all'ambiente."
         }
       ],
       "links": []
@@ -229,8 +91,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": " mdi-book-open-page-variant",
-  "color": "#8e44ad",
+  "icon": "mdi-book-open-variant",
+  "color": "#3f5aab",
   "examMode": "La verifica dell’apprendimento si svolge attraverso due prove scritte in itinere di carattere facoltativo o con una prova finale di norma scritta al termine del corso. L'esame è superato se la media delle prove in itinere o la prova finale scritta risultano sufficienti (18/30).Per ottenere un esito positivo all’esame, è necessario che lo studente dimostri di conoscere e comprendere gli argomenti trattati durante il corso e in particolare le teorie e i principi fondamentali della metallurgia, i metodi necessari alla produzione e caratterizzazione dei materiali metallici, con particolare riferimento agli acciai. È necessario, inoltre, che lo studente sappia risolvere esercizi, interpretare ed utilizzare i diagrammi presentati nel corso delle lezioni o delle esercitazioni (diagrammi di fase, curve TTT, curve CCT, etc.). È necessario, infine, che lo studente sia in grado discutere gli aspetti fondamentali dell’insegnamento con adeguata chiarezza espositiva e utilizzando la terminologia appropriata. Il calendario delle prove viene comunicato con sufficiente anticipo dal docente e reso disponibile sulla piattaforma web.",
   "requirements": "Il superamento dell’esame di Chimica Generale è un prerequisito obbligatorio all’apprendimento dei contenuti del corso.",
   "cfu": "9 CFU",
@@ -257,7 +119,10 @@
           "Walter Nicodemi"
         ],
         "year": 2008,
-        "notes": []
+        "notes": [
+          "2. ed",
+          "Bologna : Zanichelli"
+        ]
       },
       {
         "name": "Metallurgia",
@@ -265,7 +130,10 @@
           "Walter Nicodemi"
         ],
         "year": 2007,
-        "notes": []
+        "notes": [
+          "2. ed",
+          "Bologna : Zanichelli"
+        ]
       },
       {
         "name": "Metallurgia degli acciai",
@@ -273,17 +141,22 @@
           "Marco V. Boniardi",
           "Andrea Casaroli"
         ],
-        "year": 2022,
-        "notes": []
+        "year": 2017,
+        "notes": [
+          "Esine : Lucefin",
+          "2017-2022"
+        ]
       },
       {
         "name": "Scienza e ingegneria dei materiali: una introduzione",
         "authors": [
-          "William D. Callister, Jr."
+          "William D. Callister, Jr.",
+          "Claudio Caneva (edizione italiana a cura di)"
         ],
         "year": 2008,
         "notes": [
-          "Edizione italiana a cura di Claudio Caneva"
+          "2. ed",
+          "Napoli : EdiSES"
         ]
       }
     ]

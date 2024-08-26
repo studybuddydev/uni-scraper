@@ -178,11 +178,37 @@ function cleanExams(courses: Course[]) {
 
 }
 
+function createDataExam(folderPath:string){
+    const files = fs.readdirSync(folderPath);
+    let exams:any = [];
+
+    
+    
+
+    files.forEach(file => {
+        const filePath = path.join(folderPath, file);
+        if (path.extname(filePath) === '.json') {
+            
+            
+            const data = fs.readFileSync(filePath, 'utf8');
+            const course: Course[] = JSON.parse(data);
+
+            exams = exams.concat(course);
+        }
+    });
+
+
+    
+
+    return exams
+}
+
 
 
 function main(folderPath:string, uniName:string){
 
     console.log(uniName);
+    const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
     
 
     const courses = createDataCourse(folderPath);
@@ -192,6 +218,12 @@ function main(folderPath:string, uniName:string){
     const summary = createDataUni(courses, uniName);
 
     fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
+
+    const exams = createDataExam(folderExams)
+    console.log(JSON.stringify(exams, null, 2));
+    
+
+    fs.writeFileSync(`./data/${uniName}_exams.json`, JSON.stringify(exams, null, 2));
 }
 
 

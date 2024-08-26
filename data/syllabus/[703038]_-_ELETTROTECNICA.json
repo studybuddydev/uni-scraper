@@ -1,8 +1,9 @@
 {
   "id": "unibs703038",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "ELETTROTECNICA",
-  "lastUpdated": "2024-08-26T14:52:39.925Z",
+  "lastUpdated": "2024-08-26T15:17:45.924Z",
   "deleted": null,
   "goals": "Lo studente acquisisce la capacità di analizzare semplici circuiti.Ciò risulta propedeutico alla conoscenza, a cui è dedicata la seconda partedel modulo, dei principi di funzionamento dei più importanti apparati diconversione dell'energia di tipo elettromeccanico.Al termine del corso lo studente è in grado di comprendere e valutare in formasemplificata un sistema elettrico/elettromeccanico dal punto di vista delleconversioni energetiche.",
   "chapters": [
@@ -35,11 +36,15 @@
           "done": false
         },
         {
-          "name": "Analisi in regime stazionario",
+          "name": "Analisi in regime stazionario: metodo nodale canonico e modificato",
           "done": false
         },
         {
-          "name": "Teoremi di sovrapposizione e di Thévenin/Norton",
+          "name": "Metodo degli anelli canonico e modificato",
+          "done": false
+        },
+        {
+          "name": "Teoremi di sovrapposizione e di Thévenin/Norton per circuiti resistivi",
           "done": false
         },
         {
@@ -47,7 +52,7 @@
           "done": false
         },
         {
-          "name": "Doppi bipoli lineari omogenei",
+          "name": "Doppi bipoli lineari omogenei e loro rappresentazioni",
           "done": false
         },
         {
@@ -59,7 +64,7 @@
           "done": false
         },
         {
-          "name": "Circuiti RC e RL",
+          "name": "Circuiti RC e RL: evoluzione libera, risposta al gradino, risposta completa",
           "done": false
         },
         {
@@ -79,7 +84,11 @@
           "done": false
         },
         {
-          "name": "Analisi in regime sinusoidale",
+          "name": "Analisi in regime sinusoidale: fasori, impedenza, ammettenza",
+          "done": false
+        },
+        {
+          "name": "Metodi dei nodi e degli anelli",
           "done": false
         },
         {
@@ -87,22 +96,26 @@
           "done": false
         },
         {
-          "name": "Teorema sul massimo trasferimento di potenza media",
+          "name": "Teorema sul massimo trasferimento di potenza media, rifasamento",
           "done": false
         },
         {
           "name": "Circuiti trifase",
           "done": false
+        },
+        {
+          "name": "Potenza nei circuiti trifase",
+          "done": false
         }
       ],
       "postIts": [
         {
-          "color": "#f0e68c",
-          "content": "Rivedere i teoremi di Kirchhoff e la loro applicazione nei circuiti."
+          "color": "#e6b905",
+          "content": "Capire i concetti di potenza e il teorema di Tellegen."
         },
         {
-          "color": "#add8e6",
-          "content": "Studiare la differenza tra amplificatori operazionali ideali e reali."
+          "color": "#30cfd0",
+          "content": "Studiare i metodi per l'analisi in regime stazionario."
         }
       ],
       "links": []
@@ -128,11 +141,11 @@
           "done": false
         },
         {
-          "name": "Accoppiamento induttivo",
+          "name": "Accoppiamento induttivo: auto e mutua induttanza",
           "done": false
         },
         {
-          "name": "Analisi semplificata di nuclei magnetici",
+          "name": "Analisi semplificata di nuclei magnetici e circuiti magnetici",
           "done": false
         },
         {
@@ -144,11 +157,15 @@
           "done": false
         },
         {
-          "name": "Trasduzione elettromeccanica",
+          "name": "Trasduzione elettromeccanica: trasduttori di traslazione e di rotazione",
           "done": false
         },
         {
           "name": "Principi di funzionamento delle macchine elettriche rotanti",
+          "done": false
+        },
+        {
+          "name": "Cicli di trasformazione e condizioni di esistenza",
           "done": false
         },
         {
@@ -170,12 +187,12 @@
       ],
       "postIts": [
         {
-          "color": "#ffa07a",
-          "content": "Concentrarsi sui principi di funzionamento delle macchine elettriche."
+          "color": "#cce7ff",
+          "content": "Focalizzarsi sulle differenze tra macchine sincrone e asincrone."
         },
         {
-          "color": "#98fb98",
-          "content": "Ripassare le proprietà dei materiali magnetici."
+          "color": "#ffb3ba",
+          "content": "Ripassare l'induzione elettromagnetica e l'accoppiamento induttivo."
         }
       ],
       "links": []
@@ -187,8 +204,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-circuit-board",
-  "color": "#FF5733",
+  "icon": "mdi:electrical-circuit",
+  "color": "#ff5733",
   "examMode": "L'esame consiste in una prova scritta articolata in diversi tipi di quesiti, seguita da un eventuale colloquio orale. La prova scritta consiste di due parti: nella prima parte, della durata di circa 60 minuti, vengono proposti, di norma, 5 esercizi il cui obiettivo è verificare la capacità del candidato di svolgere un problema completo riguardante uno degli argomenti importanti del corso. Per ottenere un punteggio pieno è sufficiente risolvere completamente solo 4 dei 5 esercizi. La seconda parte, anch'essa di circa 60 minuti, presenta invece, di norma, 10 quesiti più semplici e più vari, che possono andare dall'esercizio molto semplice alla domanda a risposta aperta su un argomento di teoria e anche a domande a scelta multipla. In questa parte lo scopo è verificare le conoscenze anche teoriche del candidato su tutto il programma. Anche in questa prova, che come la precedente è graduata in centesimi, è sufficiente svolgere 5/6 dei quesiti per ottenere il punteggio pieno. Infatti, nella valutazione, ad entrambe le prove vengono assegnati punteggi in centesimi (su un massimo teorico ottenibile, come si è detto di 120/100), poi i punteggi vengono scalati linermente in trentesimi e poi viene eseguita una somma pesata delle due prove, con pesi che di norma sono 0,5 e 0,5 ma che possono variare leggermente in qualche caso, sempre in modo uguale per tutti i candidati e sempre al fine di ottenere punteggi migliori. Il risultato viene ulteriormente passato attraverso una funzione lineare a tratti, sempre migliorativa, che stabilisce una soglia minima per il successo nella prova scritta, che può essere anche inferiore ai 18/30, e produce il voto proposto (oppure il giudizio di insufficienza).Lo studente giudicato insufficiente deve ripetere l'esame. Chi ha un voto proposto positivo può invece scegliere se accettarlo e registrarlo oppure chiedere di sostenere la prova orale, che si svolge entro pochi giorni dallo scritto, consiste di una sola domanda e può modificare il voto proposto fino ad un massimo di + o - 4 punti. In casi particolari, la commissione si riserva la possibilità di imporre la prova orale allo studente; in tale caso, lo studente non ha un giudizio di insufficienza nella prova scritta ma non ha nemmeno un voto proposto e deve necessariamente sostenere la prova orale per ottenere il voto finale, che consiste in una media fra il risultato della prova scritta e di quella orale.",
   "requirements": "Calcolo differenziale ed integrale elementare.Equazioni differenziali lineari.Algebra delle matrici.Introduzione alla fisica dell'elettromagnetismo.",
   "cfu": "6 CFU",
@@ -208,11 +225,11 @@
         "year": 2013,
         "notes": [
           "2. ed.",
-          "Available at Zanichelli"
+          "Published by Zanichelli, Bologna"
         ]
       },
       {
-        "name": "Elettrotecnica : principi e applicazioni",
+        "name": "Elettrotecnica: principi e applicazioni",
         "authors": [
           "Giorgio Rizzoni",
           "Francesco Vacca",
@@ -221,8 +238,8 @@
         "year": 2013,
         "notes": [
           "3. ed.",
-          "Available at McGraw Hill",
-          "Italian edition edited by Vacca and Vergura"
+          "Italian edition edited by Vacca and Vergura",
+          "Published by McGraw Hill, Milano"
         ]
       }
     ]

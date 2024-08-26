@@ -1,8 +1,9 @@
 {
   "id": "unibs750580",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "CHIMICA  Cognomi M Z",
-  "lastUpdated": "2024-08-26T14:51:50.113Z",
+  "lastUpdated": "2024-08-26T15:16:38.847Z",
   "deleted": null,
   "goals": "Il corso ha l'obiettivo di fornire gli strumenti e le competenze di chimica di base, indispensabili per affrontare l’interpretazione dei fenomeni chimici, chimico–fisici e dei materiali più comuni in ambito ingegneristico.",
   "chapters": [
@@ -11,28 +12,15 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "La meccanica quantistica – l’equazione di Schrödinger",
+          "name": "La meccanica quantistica – l’equazione di Schröedinger",
           "done": false
         },
         {
           "name": "La struttura elettronica degli atomi e le proprietà periodiche",
           "done": false
-        }
-      ],
-      "postIts": [
+        },
         {
-          "color": "#e6b905",
-          "content": "In questo capitolo si introduce il concetto di meccanica quantistica e la sua importanza nella struttura atomica."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Il legame chimico",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Proprietà generali e legame ionico",
+          "name": "Il legame chimico – proprietà generali e legame ionico",
           "done": false
         },
         {
@@ -47,7 +35,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Differenziare tra i vari tipi di legame chimico e comprendere le loro proprietà."
+          "content": "Understand basic concepts of quantum mechanics and atomic structure."
         }
       ],
       "links": []
@@ -57,68 +45,18 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "La massa di un atomo: la massa atomica assoluta e relativa",
+          "name": "Le reazioni chimiche: classificazione, bilanciamento e calcoli stechiometrici",
           "done": false
         },
         {
-          "name": "La mole e il numero di Avogadro",
-          "done": false
-        },
-        {
-          "name": "Le formule chimiche e la nomenclatura",
+          "name": "Gli stati di aggregazione della materia",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Comprendere le basi della nomenclatura e l'importanza della massa atomica nella chimica."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Le reazioni chimiche",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Classificazione, bilanciamento e calcoli stechiometrici",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Studiare il bilanciamento delle reazioni chimiche e i concetti base della stechiometria."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "Gli stati di aggregazione della materia",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Stato gassoso",
-          "done": false
-        },
-        {
-          "name": "Stato liquido",
-          "done": false
-        },
-        {
-          "name": "Stato solido",
-          "done": false
-        },
-        {
-          "name": "Le soluzioni liquide",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Analizzare le proprietà fisiche e chimiche degli stati della materia."
+          "content": "Focus on stoichiometry and reaction classifications."
         }
       ],
       "links": []
@@ -128,32 +66,19 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Funzioni di stato: energia interna ed entalpia",
+          "name": "Le funzioni di stato energia interna ed entalpia",
           "done": false
         },
         {
-          "name": "Funzioni di stato: entropia ed energia libera di Gibbs",
-          "done": false
-        }
-      ],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Approfondire le funzioni di stato e i principi della termodinamica."
-        }
-      ],
-      "links": []
-    },
-    {
-      "name": "L’equilibrio chimico",
-      "showTasks": true,
-      "tasks": [
-        {
-          "name": "Equilibrio in fase gassosa",
+          "name": "Le funzioni di stato entropia ed energia libera di Gibbs",
           "done": false
         },
         {
-          "name": "Equilibrio in soluzione acquosa",
+          "name": "L’equilibrio chimico: equilibrio in fase gassosa",
+          "done": false
+        },
+        {
+          "name": "L’equilibrio chimico: equilibrio in soluzione acquosa",
           "done": false
         },
         {
@@ -164,7 +89,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Capire il concetto di equilibrio chimico e le sue applicazioni pratiche."
+          "content": "Review the laws of thermodynamics and energy concept."
         }
       ],
       "links": []
@@ -178,7 +103,7 @@
           "done": false
         },
         {
-          "name": "Utilizzare energia elettrica per processi non spontanei",
+          "name": "Utilizzare energia elettrica per fare avvenire un processo non spontaneo",
           "done": false
         },
         {
@@ -189,7 +114,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Studiare il funzionamento delle celle galvaniche e dell'elettrolisi."
+          "content": "Understand concepts of galvanic and electrolytic cells."
         }
       ],
       "links": []
@@ -206,7 +131,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Analizzare i fattori che influenzano la velocità delle reazioni chimiche."
+          "content": "Study reaction rates and factors affecting them."
         }
       ],
       "links": []
@@ -223,7 +148,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Studiare i concetti di base sulla chimica nucleare e i processi di decadimento."
+          "content": "Familiarize with types of nuclear decay."
         }
       ],
       "links": []
@@ -233,14 +158,14 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Idrocarburi e composti organici",
+          "name": "La chimica del carbonio",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Comprendere la struttura e le reazioni della chimica organica."
+          "content": "Explore organic compounds and their characteristics."
         }
       ],
       "links": []
@@ -252,8 +177,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-atom",
-  "color": "#7f9cde",
+  "icon": "mdi-book-open-page-variant",
+  "color": "#3f51b5",
   "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel Programma ufficiale del Corso e la capacità di applicare la teoria ed i suoi metodi alla soluzione di esercizi ed è composto da tre prove.Una prima prova formata da 5 esercizi di chimica, per superare la quale lo studente deve risolvere correttamente almeno 3 di essi. Una seconda prova, che, come la prima, copre tutto il programma, ma è costituita da 30 domande a risposta chiusa, per superare la quale lo studente deve rispondere correttamente almeno a 18 quesititi. L’ultima prova consiste in una domanda articolata che richiede una risposta in forma discorsiva, per la quale sono possibili anche valutazioni negative.",
   "requirements": "Alcune conoscenze di base: stati fisici della materia e unità di misura. Capacità di calcolo con notazione esponenziale o scientifica, arrotondamento dei valori numerici, operazioni con numeri reali, potenze e logaritmi.",
   "cfu": "9 CFU",
@@ -279,8 +204,7 @@
         "year": 2013,
         "notes": [
           "2. ed",
-          "Publisher: EdiSES",
-          "Location: Napoli"
+          "Available in catalog"
         ]
       },
       {
@@ -294,8 +218,7 @@
         "year": 2010,
         "notes": [
           "4. ed",
-          "Publisher: EdiSES",
-          "Location: Napoli"
+          "Available in catalog"
         ]
       }
     ]

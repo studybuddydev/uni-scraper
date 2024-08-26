@@ -1,8 +1,9 @@
 {
   "id": "unibsA004741",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "MODELLAZIONE DELLE LAVORAZIONI DELLA LAMIERA",
-  "lastUpdated": "2024-08-26T14:54:22.323Z",
+  "lastUpdated": "2024-08-26T15:19:07.651Z",
   "deleted": null,
   "goals": "Il corso è rivolto agli studenti di ingegneria meccanica che intendanoapprofondire le problematiche proprie delle lavorazioni per deformazioneplastica delle lamiere. Dopo una parte propedeutica, dedicata allaconoscenza del comportamento dei materiali in campo plastico e deiteoremi energetici validi in tale ambito, vengono illustrati i criteri diformabilità delle lamiere ed alcune fra le lavorazioni piu' significativeutilizzate nel campo dello stampaggio e lavorazione della lamiera.Verranno inoltre illustrati ed applicati metodi numerici (FEM 2D) per larisoluzione e l’ottimizzazione delle lavorazioni di stampaggio lamiera.",
   "chapters": [
@@ -30,7 +31,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focalizzarsi sui teoremi energetici applicati."
+          "content": "Introduzione ai concetti fondamentali riguardanti il comportamento plastico dei materiali."
         }
       ],
       "links": []
@@ -59,7 +60,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Esplora i vari tipi di laminazione."
+          "content": "Dettagli sui vari tipi di laminazione e il loro utilizzo."
         }
       ],
       "links": []
@@ -68,12 +69,7 @@
       "name": "Metodi per valutare la formabilità delle lamiere",
       "showTasks": true,
       "tasks": [],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Rivedere i metodi di valutazione della formabilità."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -109,7 +105,7 @@
           "done": false
         },
         {
-          "name": "Formatura Incrementale",
+          "name": "Lavorazioni Innovative: Formatura Incrementale",
           "done": false
         },
         {
@@ -120,7 +116,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Studiare i vari processi di lavorazione in dettaglio."
+          "content": "Riflessione sui vari metodi e tecniche di lavorazione della lamiera."
         }
       ],
       "links": []
@@ -129,12 +125,7 @@
       "name": "Macchine per le Lavorazioni Lamiera",
       "showTasks": true,
       "tasks": [],
-      "postIts": [
-        {
-          "color": "#e6b905",
-          "content": "Rivedere i tipi di macchinari utilizzati."
-        }
-      ],
+      "postIts": [],
       "links": []
     },
     {
@@ -153,7 +144,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Praticare con la simulazione in FEM."
+          "content": "Un confronto tra l'uso di programmi FEM 2D e 3D nei processi di simulazione."
         }
       ],
       "links": []
@@ -165,8 +156,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-book-open-variant",
-  "color": "#3e50b4",
+  "icon": "mdi-book-open-outline",
+  "color": "#5b9bd5",
   "examMode": "Esercitazioni e test di verifica di apprendimento, presentazione progetto simulazione FEM.",
   "requirements": "Nessuno.",
   "cfu": "6 CFU",

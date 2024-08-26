@@ -1,8 +1,9 @@
 {
   "id": "unibs703556",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "CALCOLO NUMERICO CON LABORATORIO",
-  "lastUpdated": "2024-08-26T14:53:09.659Z",
+  "lastUpdated": "2024-08-26T15:18:23.040Z",
   "deleted": null,
   "goals": "Il Calcolo Scientifico è al giorno d'oggi uno strumento molto importante per simulare il comportamento di dispositivi prima della costruzione di un prototipo e per ottimizzare le prestazioni di tali dispositivi. L'obiettivo del corso è quello di introdurre i metodi di base del calcolo scientifico a partire dalla soluzione dei sistemi lineari e non lineari, fino alla soluzione di sistemi di equazioni differenziali ordinarie e a qualche cenno sulla risoluzione di problemi complessi formulati matematicamente con equazioni alle derivate parziali. L'analisi dei metodi numerici presentati verrà discussa in modo da dare agli studenti degli strumenti di valutazione dei risultati numerici ottenuti in seguito all'applicazione di tali metodi a problemi pratici. Parte non secondaria saranno le esercitazioni che si svolgeranno in laboratorio durante le quali si svilupperanno programmi nell'ambiente MATLAB® per risolvere i problemi affrontati.Gli studenti impareranno dagli esempi a comprendere se i risultati numerici ottenuti sono significativi per il problema che devono risolvere.",
   "chapters": [
@@ -46,11 +47,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understanding the representation of real numbers in computers."
-        },
-        {
-          "color": "#e6b905",
-          "content": "Study error propagation in arithmetic operations."
+          "content": "Familiarizzare con il linguaggio Matlab e i suoi strumenti."
         }
       ],
       "links": []
@@ -68,18 +65,14 @@
           "done": false
         },
         {
-          "name": "Risoluzione di sistemi non lineari",
-          "done": false
-        },
-        {
-          "name": "Estensione del metodo Newton-Raphson",
+          "name": "Risoluzione di sistemi non lineari. Estensione del metodo Newton-Raphson",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on convergence results for numerical methods."
+          "content": "Studiare vari metodi numerici per trovare zeri di funzioni."
         }
       ],
       "links": []
@@ -89,7 +82,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Interpolazione polinomiale e polinomi di Lagrange",
+          "name": "Interpolazione polinomiale. Polinomi di Lagrange",
           "done": false
         },
         {
@@ -112,7 +105,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Review polynomial interpolation techniques and error estimation."
+          "content": "Conoscere diverse tecniche di interpolazione e come applicarle."
         }
       ],
       "links": []
@@ -141,7 +134,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Concentrate on numerical integration methods."
+          "content": "Comprendere le tecniche di integrazione numerica e i loro usi."
         }
       ],
       "links": []
@@ -151,7 +144,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Esistenza e unicità dato per la soluzione di un problema di Cauchy",
+          "name": "Esistenza, unicità e dipendenza continua dai dati per la soluzione di un problema di Cauchy",
           "done": false
         },
         {
@@ -167,11 +160,7 @@
           "done": false
         },
         {
-          "name": "Risoluzione di sistemi di equazioni differenziali del primo ordine",
-          "done": false
-        },
-        {
-          "name": "Risoluzione di equazioni differenziali di ordine superiore",
+          "name": "Risoluzione di sistemi di equazioni differenziali del primo ordine e di equazioni differenziali di ordine superiore",
           "done": false
         },
         {
@@ -182,7 +171,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand the stability and convergence in ODEs."
+          "content": "Fare pratica con la risoluzione di ODE e i relativi metodi numerici."
         }
       ],
       "links": []
@@ -192,11 +181,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Metodo di eliminazione di Gauss",
-          "done": false
-        },
-        {
-          "name": "Fattorizzazione LU di una matrice",
+          "name": "Metodo di eliminazione di Gauss e fattorizzazione LU di una matrice",
           "done": false
         },
         {
@@ -204,11 +189,7 @@
           "done": false
         },
         {
-          "name": "Metodi iterativi e convergenza",
-          "done": false
-        },
-        {
-          "name": "Metodi di Jacobi e di Gauss-Seidel",
+          "name": "Metodi iterativi. Definizioni e convergenza. Metodi di Jacobi, di Gauss-Seidel",
           "done": false
         },
         {
@@ -219,7 +200,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Explore iterative methods for solving linear systems."
+          "content": "Approfondire il funzionamento dei metodi per la risoluzione di sistemi lineari."
         }
       ],
       "links": []
@@ -229,7 +210,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Definizioni e proprietà di autovalori ed autovettori",
+          "name": "Definizioni. Proprietà di autovalori ed autovettori",
           "done": false
         },
         {
@@ -252,7 +233,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Study the properties and methods related to eigenvalues and eigenvectors."
+          "content": "Studiare le applicazioni degli autovalori in problemi pratici."
         }
       ],
       "links": []
@@ -264,7 +245,7 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-laptop",
+  "icon": "mdi-book-open-page-variant",
   "color": "#4caf50",
   "examMode": "L'esame è composto da una parte orale e da prove in laboratorio con l'uso di Matlab.Per gli studenti frequentanti l'esame si compone di due parti: una prova orale e due prove pratiche in laboratorio informatico. La prima prova di laboratorio si svolgerà durante le ore di esercitazioni mentre la seconda avrà luogo alla fine del corso con modalità da concordare con gli studenti. Gli studenti dovranno risolvere 3 o 4 esercizi sviluppando un codice simile a quelli visti durante le esercitazioni. La prova sarà ritenuta sufficiente se saranno svolti in maniera soddisfacente almeno 2 esercizi. Per ogni esercizio verrà data una valutazione nella scala: Insufficiente, Sufficiente, Discreto, Buono, Molto Buono, Ottimo.Se l'esito della prova pratica è positivo sarà tenuto valido per tutte le sessioni d'esame. Per gli studenti che non partecipano alle prove pratiche durante il corso, saranno predisposte prove pratiche in laboratorio durante tutte le sessioni d'esame comprendenti tutti gli argomenti del corso.",
   "requirements": "Analisi Matematica I, Analisi Matematica II, Algebra e Geometria",
@@ -287,8 +268,7 @@
         "year": 2017,
         "notes": [
           "6th edition",
-          "Available in Milan and other locations",
-          "Students are advised to verify the correspondence between the recommended bibliography and available texts"
+          "Check availability in the catalog"
         ]
       }
     ]

@@ -1,8 +1,9 @@
 {
   "id": "unibsA003912",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "LABORATORIO DI TECNICHE COMPUTAZIONALI",
-  "lastUpdated": "2024-08-26T14:53:45.661Z",
+  "lastUpdated": "2024-08-26T15:19:03.553Z",
   "deleted": null,
   "goals": "Il corso mira a fornire gli elementi di base della programmazione e delle tecniche computazionali usando Matlab come ambiente di calcolo. Gli studenti impareranno a risolvere alcuni problemi di base e contemporaneamente le regole fondamentali della programmazione.",
   "chapters": [
@@ -22,7 +23,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Focus on how numeric representation impacts computation."
+          "content": "Study different representation formats of numbers and understand machine precision."
         }
       ],
       "links": []
@@ -39,7 +40,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand 2D and 3D graphical representation."
+          "content": "Focus on graphical representations and transformations."
         }
       ],
       "links": []
@@ -64,7 +65,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Differentiate between scripting and function programming styles."
+          "content": "Practice writing control structures in programming."
         }
       ],
       "links": []
@@ -89,7 +90,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Key concepts involving arrays and matrix operations."
+          "content": "Review properties of matrices and their applications."
         }
       ],
       "links": []
@@ -114,7 +115,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Study the applications of interpolation in data fitting."
+          "content": "Understand the basics of numerical approximation techniques."
         }
       ],
       "links": []
@@ -135,7 +136,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Understand convergence criteria in fixed-point iterations."
+          "content": "Learn methods for finding fixed points and function zeros."
         }
       ],
       "links": []
@@ -160,7 +161,7 @@
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Review the accuracy of numerical integration methods."
+          "content": "Study numerical methods for integration and derivatives."
         }
       ],
       "links": []
@@ -182,14 +183,14 @@
           "done": false
         },
         {
-          "name": "Uso dei solutori di Matlab per equazioni differenziali di qualunque ordine e per sistemi",
+          "name": "Uso dei solutori di Matlab per equazioni differenziali",
           "done": false
         }
       ],
       "postIts": [
         {
           "color": "#e6b905",
-          "content": "Explore MATLAB solvers for differential equations."
+          "content": "Familiarize yourself with Matlab solvers and their applications."
         }
       ],
       "links": []
@@ -202,7 +203,7 @@
     }
   ],
   "icon": "mdi-book-open-variant",
-  "color": "#8e44ad",
+  "color": "#5e5e5e",
   "examMode": "L'esame consiste in una o più prove di Laboratorio durante le quali gli studenti risolvono alcuni semplici problemi usando i codici di calcolo predisposti durante il lavoro in Laboratorio.In ciascuna prova gli studenti dovranno risolvere 3 esercizi, la prova risulta superata se almeno due esercizi risultano sufficienti.A ciascun esercizio verrà dato un voto in trentesimi, il voto finale è ottenuto facendo la media dei voti in tutti gli esercizi.",
   "requirements": "Analisi Matematica I, Algebra e Geometria",
   "cfu": "3 CFU",
@@ -222,8 +223,7 @@
         "year": 2004,
         "notes": [
           "Revised reprint",
-          "Published by SIAM (Society for Industrial and Applied Mathematics)",
-          "Check the availability in the catalog"
+          "Available in the catalog"
         ]
       }
     ]

@@ -1,8 +1,9 @@
 {
   "id": "unibsA003457",
   "universityId": "unibs",
+  "course": "CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI",
   "name": "POLIMERI INDUSTRIALI E RICICLO",
-  "lastUpdated": "2024-08-26T14:54:14.137Z",
+  "lastUpdated": "2024-08-26T15:19:15.777Z",
   "deleted": null,
   "goals": "Il corso si propone di approfondire le conoscenze sui materiali polimerici, con particolare riguardo alle applicazioni di tipo industriale e alle problematiche ambientali e di riciclo. Il corso inoltre si propone di fornire le basi per un corretto approccio al processo di selezione dei polimeri per le differenti applicazioni. Alla fine del corso gli studenti dovrebbero essere in grado di confrontare le varie famiglie di polimeri in termini di proprietà, prestazioni, costi e impatto ambientale.",
   "chapters": [
@@ -47,7 +48,7 @@
           "done": false
         },
         {
-          "name": "Il POM.",
+          "name": "Il POM",
           "done": false
         }
       ],
@@ -79,15 +80,7 @@
       "showTasks": true,
       "tasks": [
         {
-          "name": "Meccanismi di degradazione termica",
-          "done": false
-        },
-        {
-          "name": "Meccanismi di degradazione fotochimica",
-          "done": false
-        },
-        {
-          "name": "Meccanismi di degradazione ossidativa nei polimeri",
+          "name": "Meccanismi di degradazione termica, fotochimica e ossidativa nei polimeri",
           "done": false
         },
         {
@@ -115,7 +108,7 @@
           "done": false
         },
         {
-          "name": "Compatibilità fra i polimeri",
+          "name": "La compatibilità fra i polimeri",
           "done": false
         },
         {
@@ -153,8 +146,8 @@
       "url": "https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493"
     }
   ],
-  "icon": "mdi-chemical-plant",
-  "color": "#4CAF50",
+  "icon": "mdi-polymer",
+  "color": "#FF5733",
   "examMode": "L’esame è volto ad accertare la conoscenza degli argomenti elencati nel programma del corso e la capacità di utilizzare le conoscenze teoriche per la soluzione di problemi applicativi. L’esame è costituito da due prove scritte che riguardano rispettivamente la prima e la seconda parte del corso. Tali prove possono essere svolte negli appelli ufficiali d’esame oppure in itinere, precisamente a metà e a fine corso. Le valutazioni sono espresse in trentesimi ed hanno ugual peso ai fini della determinazione del voto finale. Ognuna delle prove scritte è articolata in 10-11 domande brevi a risposta multipla e 1-2 domande estese. Ogni prova scritta è considerata sufficiente con una votazione di almeno 18/30 e ha una validità pari al corrente anno accademico.In caso di pandemia e obbligo di prove online, gli esami scritti possono essere sostituiti da esami orali, precisamente 2 prove di circa 15 minuti se in itinere a metà e fine corso, oppure un esame unico della durata di circa 30 minuti negli appelli ufficiali.",
   "requirements": "Conoscenze generali di scienza e tecnologia dei polimeri",
   "cfu": "6 CFU",
@@ -175,8 +168,8 @@
         ],
         "year": 2009,
         "notes": [
-          "10. ed.",
-          "Milano : Tecniche Nuove"
+          "10th edition",
+          "Published in Milan by Tecniche Nuove"
         ]
       },
       {
@@ -186,7 +179,7 @@
         ],
         "year": 2002,
         "notes": [
-          "Shawbury (UK) : Rapra Technology Limited"
+          "Published in Shawbury (UK) by Rapra Technology Limited"
         ]
       },
       {
@@ -196,8 +189,8 @@
         ],
         "year": 2016,
         "notes": [
-          "3. ed.",
-          "Napoli : EdiSES"
+          "3rd edition",
+          "Published in Naples by EdiSES"
         ]
       }
     ]
