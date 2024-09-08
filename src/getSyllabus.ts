@@ -1,4 +1,4 @@
-import puppeteer, { Page } from 'puppeteer';
+import puppeteer, { Browser, Page } from 'puppeteer';
 import OpenAI from "openai";
 import 'dotenv/config'
 import fs from 'fs';
@@ -15,10 +15,11 @@ export interface CourseInfo {
     learningGoals: string;
     methods: string;
     requirements: string;
-    credits:string;
-    lang:string;
+    credits: string;
+    lang: string;
     teachers: string;
-    course:string;
+    course: string;
+    subesami: string[];
 }
 
 interface processedChapter {
@@ -27,11 +28,11 @@ interface processedChapter {
     chapters: []
 }
 
-interface Book{
-    
-    name: string, 
+interface Book {
+
+    name: string,
     authors: string[],
-    year: number, 
+    year: number,
     notes: string[]
 
 }
@@ -40,6 +41,7 @@ interface DataExam {
     id: string;
     universityId: string;
     course: string;
+    courseId: string;
     name: string;
     lastUpdated: Date;
     deleted: Date | null;
@@ -72,25 +74,31 @@ interface DataExam {
     year?: string;
     teachingYear?: string;
     deparment?: string;
-    
+
     language?: string;
     note?: string
     color?: string;
     icon?: string;
 }
+interface Exam {
+    examId: string;
+    year: string;
+    semester: string;
+    url: string;
+}
 
 //the actual scraping of the course
-async function getCourseInfo(page: Page): Promise<CourseInfo>{
+async function getCourseInfo(page: Page): Promise<CourseInfo> {
     console.log('passo dal getcourseinfo');
 
 
-    const matchingElements = await page.$$('h1, dl');
-    console.log('Matching elements:', matchingElements.length); // Should log the number of matched elements
+    //const matchingElements = await page.$$('h1, dl');
+    //console.log('Matching elements:', matchingElements.length); // Should log the number of matched elements
 
-    
+
     return await page.$$eval('h1,dd,dt', (elements: Element[]) => {
 
-        console.log('Inside $$eval, elements:', elements); 
+        //console.log('Inside $$eval, elements:', elements); 
         let currentGroup: CourseInfo = {
             name: '',
             icon: '',
@@ -101,24 +109,25 @@ async function getCourseInfo(page: Page): Promise<CourseInfo>{
             learningGoals: '',
             methods: '',
             requirements: '',
-            credits:'',
+            credits: '',
             lang: '',
             teachers: '',
-            course:''
+            course: '',
+            subesami: []
         };
 
-        
-    
+
+
         elements.forEach((element) => {
             const tagName = element.tagName.toLowerCase();
-    
+
             if (tagName === 'h1') {
                 currentGroup.name = element.textContent?.trim() || '';
             } else if (tagName === 'dt') {
                 const item = element.textContent?.trim() || ''
-                console.log(item);
-                
-    
+                // console.log(item);
+
+
                 if (item.includes('Contenuti')) {
                     currentGroup.chapters = element.nextElementSibling?.textContent?.trim() || '';
                 } else if (item.includes('Informazioni')) {
@@ -126,25 +135,30 @@ async function getCourseInfo(page: Page): Promise<CourseInfo>{
                     if (infoitem) {
                         // Look for <dt> elements within the infoItem
                         const dtElements = infoitem.querySelectorAll('dt');
-                        
+
                         dtElements.forEach((dtElement) => {
                             const label = dtElement.textContent?.trim() || '';
                             const ddElement = dtElement.nextElementSibling?.textContent?.trim() || '';
-                
+
                             if (label.includes('Lingua di erogazione')) {
                                 currentGroup.lang = ddElement;
                             } else if (label.includes('Crediti')) {
                                 currentGroup.credits = ddElement;
-                            }else if (label.includes('Docenti')){
+                            } else if (label.includes('Docenti')) {
                                 currentGroup.teachers = ddElement
-                            }else if (label.includes('Corso di studi')){
+                            } else if (label.includes('Corso di studi')) {
                                 currentGroup.course = ddElement
+                            } else if (label.includes('Attività correlate')) {
+                                const links = dtElement.nextElementSibling?.querySelectorAll('a');
+                                if (links) {
+                                    currentGroup.subesami = Array.from(links).map(link => link.href);
+                                }
                             }
-                                
+
                         });
                     }
 
-                }else if (item.includes('Testi')) {
+                } else if (item.includes('Testi')) {
                     currentGroup.books = element.nextElementSibling?.textContent?.trim() || '';
                 } else if (item.includes('Obiettivi formativi')) {
                     currentGroup.learningGoals = element.nextElementSibling?.textContent?.trim() || '';
@@ -155,23 +169,23 @@ async function getCourseInfo(page: Page): Promise<CourseInfo>{
                 } else if (item.includes('Programma esteso')) {
                     // Append the item to the existing chapters
                     currentGroup.chapters = (currentGroup.chapters || '') + '\n' + (element.nextElementSibling?.textContent?.trim() || '');
-                }else if(item.includes('Prerequisiti')){
+                } else if (item.includes('Prerequisiti')) {
                     currentGroup.requirements = element.nextElementSibling?.textContent?.trim() || '';
                 }
             }
         });
-    
+
         return currentGroup;
-    
-    
+
+
     });
 }
 
 
 
 // from  url of a syllabus from scrape it and return the contnt of the course  
-export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
-    const browser = await puppeteer.launch({ headless: true });
+export async function scrapeSyllabus(url: string, browser: Browser): Promise<CourseInfo> {
+    //const browser = await puppeteer.launch({ headless: true });
     const page: Page = await browser.newPage();
 
     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -180,30 +194,30 @@ export async function scrapeSyllabus(url: string): Promise<CourseInfo> {
 
     // Extract the title text
     const title = await page.$eval('.u-filetto', element => element.textContent?.trim() || 'no title found');
-    console.log(`Title: ${title}`);
+    console.log(`   Title: ${title}`);
 
     await page.waitForSelector('.accordion');
     let infoElements: CourseInfo = await getCourseInfo(page);
 
 
 
-    console.log('infoelements', infoElements);
+    // console.log('infoelements', infoElements);
 
 
 
     infoElements.name = title;
 
-   
 
-    await browser.close();
+
+    //await browser.close();
 
     return infoElements;
 }
 
-export async function getSubdivisionUrls(url: string) {
+export async function getSubdivisionUrls(url: string, browser: Browser): Promise<string[]> {
     console.log('this exams may have an inner subdivision AL/MZ');
-    
-    const browser = await puppeteer.launch({ headless: true });
+
+    //const browser = await puppeteer.launch({ headless: true });
     const page: Page = await browser.newPage();
 
     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -218,14 +232,18 @@ export async function getSubdivisionUrls(url: string) {
     });
 
     console.log('urls', urls);
+
+    //close browser
+    //await browser.close();
+
     return urls
 }
 
 // from the extracted course use ai to create a list of chapters 
 async function processSyllabusChapters(syllabus: CourseInfo): Promise<processedChapter> {
     const systemPromptChapters = `You are a helpful studybuddy for university students, you are given in input a string with the content of the course, 
-                        you should infer the chapters and the section(if present) and put it in the tasks list with done set to false, add notes in the postIts if needed to clarify, use a representative mdi icon provising the its name and a random hex color, create a json 
-                        output should follow this schema:{ icon: string, color:string, chapters: [{ name: string, showTasks: true, tasks: {name: string, done: bool}[], postIts: {"color": "#e6b905","content": ""}[], links:string[]}`
+                        you should infer the chapters and the section(if present) and put it in the tasks list , add notes in the postIts if needed to clarify, use a representative mdi icon provising the its name and a random hex color, create a json 
+                        output should follow this schema:{ icon: string, color:string, chapters: [{ name: string, showTasks: true, tasks: {name: string}[], postIts: {"color": "#e6b905","content": ""}[], links:string[]}`
 
 
 
@@ -269,7 +287,7 @@ async function processSyllabusBooks(syllabus: CourseInfo): Promise<Book[]> {
 
 
 
-async function processAndSave(syllabus: CourseInfo) {
+async function processAndSave(syllabus: CourseInfo, courseid: string) {
 
     const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
     const processedBooks: Book[] = await processSyllabusBooks(syllabus)
@@ -279,18 +297,27 @@ async function processAndSave(syllabus: CourseInfo) {
     const id = syllabus.name.match(/\[(\w+)\]/)?.[1] || '';
     const name = syllabus.name.split(']').slice(1).join(']').replace(/[^\w\s]/g, ' ').trim();
 
+    const path = 'data/syllabus/'
+    const files = fs.readdirSync(path)
+    const found = files.find(file => file.includes(id))
+    if (found) {
+        console.log('skipping' + id);
+        return
+    }
 
-    const uniname = 'unibs'
+
+    const uniname = courseid.substring(0, 5)
 
     console.log('creating dataexam');
-    
 
-    
+
+
 
     const exam: DataExam = {
         id: uniname + id,
         universityId: uniname,
         course: syllabus.course,
+        courseId: courseid,
         name: name,
         lastUpdated: new Date(),
         deleted: null,
@@ -310,7 +337,7 @@ async function processAndSave(syllabus: CourseInfo) {
         language: syllabus.lang,
         teachers: syllabus.teachers.split(',').map(name => ({ name: name.trim() })),
 
-        books:processedBooks 
+        books: processedBooks
 
 
         //books: syllabus.books,
@@ -337,31 +364,75 @@ async function processAndSave(syllabus: CourseInfo) {
 
 // }
 
-async function getsyllabus(url: string) {
+async function getsyllabus(exam: Exam, courseid: string) {
+    const examurl = exam.url
+    const browser = await puppeteer.launch({ headless: true });
+    // in the folder data/syllabus if there is a file that contains the id of the exam it means that the exam has already been processed, only contains the id the filename is more complex
+   
+    const examId = (exam['examId'] as string).substring(5);
+    console.log('examId', examId);
 
-    let syllabus = await scrapeSyllabus(url)
-
-
-
-    if (syllabus.chapters != '') {
-        processAndSave(syllabus)
-    } else {
-        const urls = await getSubdivisionUrls(url)
-        for (const url of urls) {
-      
-            syllabus = await scrapeSyllabus(url)
-
-            if (syllabus.chapters)
-                processAndSave(syllabus)
-            else
-                console.log('no chapters', syllabus);
-
-        }
+    const path = 'data/syllabus/'
+    const files = fs.readdirSync(path)
+    const found = files.find(file => file.includes(examId))
+    if (found) {
+        console.log('skipping' + examId);
+        return
     }
 
 
+    let syllabus = await scrapeSyllabus(examurl, browser)
+
+    //è medicina e ha i sottoesami
+    if (syllabus.subesami.length != 0) {
+        console.log('subesami', syllabus);
 
 
+
+        for (const subesame of syllabus.subesami) {
+            console.log('subesame', subesame);
+            const subesameSyllabus = await scrapeSyllabus(subesame, browser)
+            if (syllabus.chapters != '') {
+                processAndSave(syllabus, courseid)
+            } else {
+                const urls = await getSubdivisionUrls(examurl, browser)
+                for (const url of urls) {
+
+                    syllabus = await scrapeSyllabus(url, browser)
+
+                    if (syllabus.chapters)
+                        processAndSave(syllabus, courseid)
+                    else
+                        console.log('no chapters', syllabus);
+
+                }
+            }
+            processAndSave(subesameSyllabus, courseid)
+        }
+        }else {
+
+
+
+            if (syllabus.chapters != '') {
+                processAndSave(syllabus, courseid)
+            } else {
+                const urls = await getSubdivisionUrls(examurl, browser)
+                for (const url of urls) {
+
+                    syllabus = await scrapeSyllabus(url, browser)
+
+                    if (syllabus.chapters)
+                        processAndSave(syllabus, courseid)
+                    else
+                        console.log('no chapters', syllabus);
+
+                }
+            }
+
+        }
+
+    await browser.close();
+    
 }
 
 const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493'
@@ -373,23 +444,36 @@ const url1 = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115
 
 async function main() {
     const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs_courses.json'
+    const syllabusPath = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
 
 
-    interface Course { name: string, id: string, uni: string, exams: [] }
+    interface Course { name: string, id: string, uni: string, exams: Exam[] }
+    const courseids = ['unibs08624']
 
-    const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
-    const ingemec: Course = jsonData.find((obj: Course) => obj.id === 'unibs05742'); // Converts obj.id to string for comparison
-    for (const exam of ingemec.exams) {
-        
-        try {
-            await getsyllabus(exam['url'])
-        } catch (e) {
-            console.log(exam['title'] + 'is broken');
-            console.log(exam['url']);
+    let problematicExams: string[] = []
+
+    for (const courseid of courseids) {
+
+        console.log('getting course', courseid);
+
+
+
+        const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
+        const course: Course = jsonData.find((obj: Course) => obj.id === courseid); // Converts obj.id to string for comparison
+        console.log(course.name + '=========================================================================');
+        for (const exam of course.exams) {
+
+            try {
+                
+                await getsyllabus(exam, courseid, )
+            } catch (e) {
+                console.log(exam['url']);
+                problematicExams.push(exam['url'])
+            }
+
         }
-
+        console.log('problematic exams' + problematicExams);
     }
-
 }
 
 main()

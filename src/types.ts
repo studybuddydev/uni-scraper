@@ -38,7 +38,32 @@ type DataExam = {
     icon?: string;
 }
 
-type DataCourse = {
+
+
+
+
+// summary 
+interface Exam {
+    title: string;
+    id: string;
+    href: string;
+    cfu: string;
+    hours: string;
+    semester: string;
+    annoDiOfferta: string;
+    year: number;
+}
+
+
+interface Course {
+    name: string;
+    id: string;
+    uni: string;
+    exams: Exam[];
+    type: string;
+}
+
+interface DataCourse {
     id: string;
     universityId: string;
     name: string;
@@ -66,7 +91,13 @@ type DataCourse = {
     note?: string;
 }
 
-type DataUniversities = {
+interface SummaryCourse {
+    name: string;
+    code: string;
+    type:string;
+}
+
+interface DataUniversities {
     id: string;
     name: string;
     lastUpdated: Date;
@@ -82,37 +113,3 @@ type DataUniversities = {
 }
 
 
-type Exam = {
-    id: string;
-    name: string;
-    lastUpdated: Date;
-    dataExamId: string;
-    userId: string;
-
-    chapters?: {
-        id: number;
-        parentId: number | null;
-        name: string;
-        description: string;
-
-        urls?: {
-            name: string;
-            url: string;
-        }[];
-        tasks?: {
-            name: string;
-            description?: string;
-            deadline?: Date;
-            done?: boolean;
-        }[];
-        notes?: {
-            name: string;
-            description?: string;
-            color?: string;
-        }[];
-
-    }[];
-
-    color?: string;
-    icon?: string;
-}

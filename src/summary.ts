@@ -1,75 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-interface Exam {
-    title: string;
-    id: string;
-    href: string;
-    cfu: string;
-    hours: string;
-    semester: string;
-    annoDiOfferta: string;
-    year: number;
-}
-
-
-interface Course {
-    name: string;
-    id: string;
-    uni: string;
-    exams: Exam[];
-    type: string;
-}
-
-interface DataCourse {
-    id: string;
-    universityId: string;
-    name: string;
-    lastUpdated: Date;
-    deleted: Date | null;
-
-    description?: string;
-    goals?: string;
-    requirements?: string;
-
-    exams?: {
-        examId: string;
-        year?: string;
-        semester?: string;
-    }[];
-    urls?: {
-        name: string;
-        url: string;
-    }[];
-
-    type?: string;
-    language?: string;
-    accessMode?: string;
-    deparment?: string;
-    note?: string;
-}
-
-interface SummaryCourse {
-    name: string;
-    code: string;
-    type:string;
-}
-
-interface DataUniversities {
-    id: string;
-    name: string;
-    lastUpdated: Date;
-    deleted: Date | null;
-
-    description?: string;
-    urls?: {
-        name: string;
-        url: string;
-    }[];
-    courseIds?: string[];
-    note?: string;
-}
-
 
 
 
@@ -198,9 +129,38 @@ function createDataExam(folderPath:string){
     });
 
 
+    const uniqueExams = Array.from(new Map(exams.map((exam:any) => [exam.id, exam])).values());
+
     
 
-    return exams
+    return uniqueExams
+}
+
+
+function createAvailableDataCourse(fileExams:string){
+    const data = fs.readFileSync(fileExams, 'utf8');
+    const exams: DataExam[] = JSON.parse(data);
+    let courses: DataCourse[] = [];
+    for (const exam of exams) {
+        const course: DataCourse = {
+            name: exam.name,
+            id: exam.id,
+            universityId: exam.universityId,
+            lastUpdated: new Date(),
+            deleted: null,
+            exams: [{
+                examId: exam.id,
+                year: exam.year ?? '',
+                semester: exam.semester ?? '',
+               // url: exam.urls?.[0]?.url ?? ''
+            }],
+            
+            type: 'unknown'
+        };
+        courses.push(course);
+    }
+
+    return createDataCourse('/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/courses')
 }
 
 
@@ -208,23 +168,28 @@ function createDataExam(folderPath:string){
 function main(folderPath:string, uniName:string){
 
     console.log(uniName);
-    const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
     
 
-    const courses = createDataCourse(folderPath);
 
-    fs.writeFileSync(`./data/${uniName}_courses.json`, JSON.stringify(courses, null, 2));
 
-    const summary = createDataUni(courses, uniName);
-
-    fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
-
+    //create dataexams
+    const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
     const exams = createDataExam(folderExams)
     console.log(JSON.stringify(exams, null, 2));
-    
+    const fileExams = `./data/DataExams.json`
+    fs.writeFileSync(fileExams, JSON.stringify(exams, null, 2));
 
-    fs.writeFileSync(`./data/${uniName}_exams.json`, JSON.stringify(exams, null, 2));
+    
+    const courses = createAvailableDataCourse(fileExams);
+
+    // fs.writeFileSync(`./data/${uniName}_courses.json`, JSON.stringify(courses, null, 2));
+
+    // const summary = createDataUni(courses, uniName);
+
+    // fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
 }
+
+
 
 
 

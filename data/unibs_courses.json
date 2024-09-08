@@ -3,7 +3,7 @@
     "id": "unibs04181",
     "universityId": "unibs",
     "name": "GIURISPRUDENZA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.908Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -475,7 +475,7 @@
     "id": "unibs08622",
     "universityId": "unibs",
     "name": "FARMACIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -533,7 +533,7 @@
     "id": "unibs08624",
     "universityId": "unibs",
     "name": "MEDICINA E CHIRURGIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -699,7 +699,7 @@
     "id": "unibs08627",
     "universityId": "unibs",
     "name": "ODONTOIATRIA E PROTESI DENTARIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -751,7 +751,7 @@
     "id": "unibs05781",
     "universityId": "unibs",
     "name": "INGEGNERIA EDILE-ARCHITETTURA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "cicloUnico",
     "exams": [
@@ -911,7 +911,7 @@
     "id": "unibs54477",
     "universityId": "unibs",
     "name": "ANALYTICS E DATA SCIENCE PER L'ECONOMIA E IL MANAGEMENT",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -1491,7 +1491,7 @@
     "id": "unibs54471",
     "universityId": "unibs",
     "name": "CONSULENZA AZIENDALE E LIBERA PROFESSIONE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -2569,7 +2569,7 @@
     "id": "unibs54476",
     "universityId": "unibs",
     "name": "ECONOMIA SOCIALE E IMPRESE COOPERATIVE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3191,7 +3191,7 @@
     "id": "unibs54473",
     "universityId": "unibs",
     "name": "MANAGEMENT",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3741,7 +3741,7 @@
     "id": "unibs54478",
     "universityId": "unibs",
     "name": "MARKETING PER IL MADE ITALY",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -3937,7 +3937,7 @@
     "id": "unibs54472",
     "universityId": "unibs",
     "name": "MONETA, FINANZA E RISK MANAGEMENT",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -4949,7 +4949,7 @@
     "id": "unibs04184",
     "universityId": "unibs",
     "name": "Governo delle amministrazioni pubbliche",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -4958,7 +4958,7 @@
     "id": "unibs04185",
     "universityId": "unibs",
     "name": "SCIENZE GIURIDICHE DELL'INNOVAZIONE E DELLA SOSTENIBILITA'",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": []
@@ -4967,7 +4967,7 @@
     "id": "unibs08632",
     "universityId": "unibs",
     "name": "BIOTECNOLOGIE MEDICHE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5043,7 +5043,7 @@
     "id": "unibs08649",
     "universityId": "unibs",
     "name": "SCIENZA DEL MOVIMENTO PER LA SALUTE ED IL BENESSERE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5083,7 +5083,7 @@
     "id": "unibs08698",
     "universityId": "unibs",
     "name": "SCIENZE INFERMIERISTICHE E OSTETRICHE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5183,7 +5183,7 @@
     "id": "unibs05853",
     "universityId": "unibs",
     "name": "CIVIL AND ENVIRONMENTAL ENGINEERING",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5301,7 +5301,7 @@
     "id": "unibs05812",
     "universityId": "unibs",
     "name": "COMMUNICATION TECHNOLOGIES AND MULTIMEDIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -5911,7 +5911,7 @@
     "id": "unibs05841",
     "universityId": "unibs",
     "name": "INGEGNERIA CIVILE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6095,7 +6095,7 @@
     "id": "unibs05881",
     "universityId": "unibs",
     "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6261,7 +6261,7 @@
     "id": "unibs05822",
     "universityId": "unibs",
     "name": "INGEGNERIA DELLE TECNOLOGIE PER L’IMPRESA DIGITALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6331,7 +6331,7 @@
     "id": "unibs05821",
     "universityId": "unibs",
     "name": "INGEGNERIA ELETTRONICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6857,7 +6857,7 @@
     "id": "unibs05891",
     "universityId": "unibs",
     "name": "INGEGNERIA GESTIONALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -6945,7 +6945,7 @@
     "id": "unibs05831",
     "universityId": "unibs",
     "name": "INGEGNERIA INFORMATICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7477,7 +7477,7 @@
     "id": "unibs05861",
     "universityId": "unibs",
     "name": "INGEGNERIA MECCANICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7553,7 +7553,7 @@
     "id": "unibs05851",
     "universityId": "unibs",
     "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7725,7 +7725,7 @@
     "id": "unibs05872",
     "universityId": "unibs",
     "name": "INGEGNERIA PER L'INNOVAZIONE DEI MATERIALI E DEL PRODOTTO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7873,7 +7873,7 @@
     "id": "unibs05854",
     "universityId": "unibs",
     "name": "TECNOLOGIE PER LA TRANSIZIONE ECOLOGICA AGRICOLTURA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "magistrale",
     "exams": [
@@ -7949,7 +7949,7 @@
     "id": "unibs54454",
     "universityId": "unibs",
     "name": "BANCA E FINANZA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -8295,7 +8295,7 @@
     "id": "unibs54455",
     "universityId": "unibs",
     "name": "ECONOMIA E AZIENDA DIGITALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -8635,7 +8635,7 @@
     "id": "unibs54451",
     "universityId": "unibs",
     "name": "ECONOMIA E GESTIONE AZIENDALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -8987,7 +8987,7 @@
     "id": "unibs04424",
     "universityId": "unibs",
     "name": "CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9393,7 +9393,7 @@
     "id": "unibs08691",
     "universityId": "unibs",
     "name": "ASSISTENZA SANITARIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9565,7 +9565,7 @@
     "id": "unibs08635",
     "universityId": "unibs",
     "name": "BIOTECNOLOGIE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9683,7 +9683,7 @@
     "id": "unibs08692",
     "universityId": "unibs",
     "name": "DIETISTICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9843,7 +9843,7 @@
     "id": "unibs08693",
     "universityId": "unibs",
     "name": "EDUCAZIONE PROFESSIONALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -9991,7 +9991,7 @@
     "id": "unibs08694",
     "universityId": "unibs",
     "name": "FISIOTERAPIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10229,7 +10229,7 @@
     "id": "unibs08695",
     "universityId": "unibs",
     "name": "IGIENE DENTALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10365,7 +10365,7 @@
     "id": "unibs08696",
     "universityId": "unibs",
     "name": "INFERMIERISTICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10549,7 +10549,7 @@
     "id": "unibs08697",
     "universityId": "unibs",
     "name": "OSTETRICIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10715,7 +10715,7 @@
     "id": "unibs08636",
     "universityId": "unibs",
     "name": "SCIENZE MOTORIE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -10833,7 +10833,7 @@
     "id": "unibs08715",
     "universityId": "unibs",
     "name": "TECNICA DELLA RIABILITAZIONE PSICHIATRICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11005,7 +11005,7 @@
     "id": "unibs08714",
     "universityId": "unibs",
     "name": "TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI LAVORO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11165,7 +11165,7 @@
     "id": "unibs08716",
     "universityId": "unibs",
     "name": "TECNICHE LABORATORIO BIOMEDICO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11337,7 +11337,7 @@
     "id": "unibs08717",
     "universityId": "unibs",
     "name": "TECNICHE RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11509,7 +11509,7 @@
     "id": "unibs08699",
     "universityId": "unibs",
     "name": "ORTOTTICA ED ASSISTENZA OFTALMOLOGICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": []
@@ -11518,7 +11518,7 @@
     "id": "unibs05731",
     "universityId": "unibs",
     "name": "INGEGNERIA CIVILE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11744,7 +11744,7 @@
     "id": "unibs05751",
     "universityId": "unibs",
     "name": "INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -11994,7 +11994,7 @@
     "id": "unibs05714",
     "universityId": "unibs",
     "name": "INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12178,7 +12178,7 @@
     "id": "unibs05712",
     "universityId": "unibs",
     "name": "INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12452,7 +12452,7 @@
     "id": "unibs05771",
     "universityId": "unibs",
     "name": "INGEGNERIA GESTIONALE",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12672,7 +12672,7 @@
     "id": "unibs05713",
     "universityId": "unibs",
     "name": "INGEGNERIA INFORMATICA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -12880,7 +12880,7 @@
     "id": "unibs05742",
     "universityId": "unibs",
     "name": "INGEGNERIA MECCANICA E DEI MATERIALI",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13166,7 +13166,7 @@
     "id": "unibs05721",
     "universityId": "unibs",
     "name": "INGEGNERIA PER L'AMBIENTE E IL TERRITORIO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13374,7 +13374,7 @@
     "id": "unibs05722",
     "universityId": "unibs",
     "name": "SISTEMI AGRICOLI SOSTENIBILI",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13594,7 +13594,7 @@
     "id": "unibs05724",
     "universityId": "unibs",
     "name": "TECNICHE DELL'EDILIZIA",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13694,7 +13694,7 @@
     "id": "unibs05743",
     "universityId": "unibs",
     "name": "TECNICHE INDUSTRIALI PRODOTTO E PROCESSO",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": [
@@ -13806,7 +13806,7 @@
     "id": "unibs05715",
     "universityId": "unibs",
     "name": "Ingegneria fisica e matematica",
-    "lastUpdated": "2024-08-26T16:32:41.678Z",
+    "lastUpdated": "2024-09-08T14:42:24.909Z",
     "deleted": null,
     "type": "triennale",
     "exams": []
