@@ -137,56 +137,90 @@ function createDataExam(folderPath:string){
 }
 
 
-function createAvailableDataCourse(fileExams:string){
+function createAvailableDataCourse(fileExams: string) {
+
+    const pathCourses = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json';
+
+    const allCoursesFile = fs.readFileSync(pathCourses, 'utf8');
+    const allcourses: DataCourse[] = JSON.parse(allCoursesFile);
+
     const data = fs.readFileSync(fileExams, 'utf8');
     const exams: DataExam[] = JSON.parse(data);
+
     let courses: DataCourse[] = [];
-    for (const exam of exams) {
-        const course: DataCourse = {
-            name: exam.name,
-            id: exam.id,
-            universityId: exam.universityId,
+
+    for (const course of allcourses) {
+
+        let newCourse: DataCourse = {
+            id: course.id,
+            universityId: course.universityId,
+            name: course.name,
             lastUpdated: new Date(),
             deleted: null,
-            exams: [{
-                examId: exam.id,
-                year: exam.year ?? '',
-                semester: exam.semester ?? '',
-               // url: exam.urls?.[0]?.url ?? ''
-            }],
+            exams: [],
+            type: course.type
+        }
+
+        for (const exam of course.exams??[]) {
+  
+
+            let newExam = {
+                examId: exam.examId,
+                year: exam.year,
+                semester: exam.semester
+            }
+
+            if (exams.find(e => e.id === exam.examId)) {
+                newCourse.exams?.push(newExam)
+            }
+
+            // find all exams with the same id
+            const relatedExams = exams.filter(e => e.parentExam === exam.examId);
+
+            for (const relatedExam of relatedExams) {
+                let newRelatedExam = {
+                    examId: relatedExam.id,
+                    parentExam: relatedExam.parentExam?? undefined,
+                    year: exam.year,
+                    semester: exam.semester
+
+                }
+                newCourse.exams?.push(newRelatedExam)
+            }
             
-            type: 'unknown'
-        };
-        courses.push(course);
+
+        }
+        if (newCourse.exams?.length?? 0 > 0) {
+            courses.push(newCourse);
+        }
+
     }
 
-    return createDataCourse('/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/courses')
+    return courses;
+
 }
+
 
 
 
 function main(folderPath:string, uniName:string){
 
-    console.log(uniName);
     
-
-
 
     //create dataexams
     const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
     const exams = createDataExam(folderExams)
-    console.log(JSON.stringify(exams, null, 2));
     const fileExams = `./data/DataExams.json`
     fs.writeFileSync(fileExams, JSON.stringify(exams, null, 2));
 
     
     const courses = createAvailableDataCourse(fileExams);
 
-    // fs.writeFileSync(`./data/${uniName}_courses.json`, JSON.stringify(courses, null, 2));
+    fs.writeFileSync(`./data/DataCourses.json`, JSON.stringify(courses, null, 2));
 
-    // const summary = createDataUni(courses, uniName);
+    const summary = createDataUni(courses, uniName);
 
-    // fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
+    fs.writeFileSync(`./data/${uniName}.json`, JSON.stringify(summary, null, 2));
 }
 
 
@@ -198,4 +232,4 @@ const folderPathbs = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/uni
 const folderPathtn = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unitn';  // Replace with the path to your folder containing JSON files
 
 main(folderPathbs, 'unibs')
-main(folderPathtn, 'unitn')
+//main(folderPathtn, 'unitn')

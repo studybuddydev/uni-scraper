@@ -1,6 +1,9 @@
 type DataExam = {
     id: string;
+    parentExam: string | null;
     universityId: string;
+    course: string;
+    courseId: string;
     name: string;
     lastUpdated: Date;
     deleted: Date | null;
@@ -76,6 +79,7 @@ interface DataCourse {
 
     exams?: {
         examId: string;
+        parentExam?: string;
         year?: string;
         semester?: string;
     }[];

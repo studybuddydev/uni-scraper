@@ -4,7 +4,6 @@ import 'dotenv/config'
 import fs from 'fs';
 const openai = new OpenAI();
 
-
 export interface CourseInfo {
     name: string;
     icon: string;
@@ -20,6 +19,7 @@ export interface CourseInfo {
     teachers: string;
     course: string;
     subesami: string[];
+    url: string;
 }
 
 interface processedChapter {
@@ -39,6 +39,7 @@ interface Book {
 
 interface DataExam {
     id: string;
+    parentExam: string;
     universityId: string;
     course: string;
     courseId: string;
@@ -87,6 +88,14 @@ interface Exam {
     url: string;
 }
 
+interface Course {
+    name: string;
+    id: string;
+    uni: string;
+    exams: Exam[];
+    type: string;
+}
+
 //the actual scraping of the course
 async function getCourseInfo(page: Page): Promise<CourseInfo> {
     console.log('passo dal getcourseinfo');
@@ -113,7 +122,8 @@ async function getCourseInfo(page: Page): Promise<CourseInfo> {
             lang: '',
             teachers: '',
             course: '',
-            subesami: []
+            subesami: [],
+            url: ''
         };
 
 
@@ -194,7 +204,7 @@ export async function scrapeSyllabus(url: string, browser: Browser): Promise<Cou
 
     // Extract the title text
     const title = await page.$eval('.u-filetto', element => element.textContent?.trim() || 'no title found');
-    console.log(`   Title: ${title}`);
+    console.log(`           scrapando  Title: ${title}`);
 
     await page.waitForSelector('.accordion');
     let infoElements: CourseInfo = await getCourseInfo(page);
@@ -215,7 +225,7 @@ export async function scrapeSyllabus(url: string, browser: Browser): Promise<Cou
 }
 
 export async function getSubdivisionUrls(url: string, browser: Browser): Promise<string[]> {
-    console.log('this exams may have an inner subdivision AL/MZ');
+    console.log('               this exams may have an inner subdivision');
 
     //const browser = await puppeteer.launch({ headless: true });
     const page: Page = await browser.newPage();
@@ -287,7 +297,7 @@ async function processSyllabusBooks(syllabus: CourseInfo): Promise<Book[]> {
 
 
 
-async function processAndSave(syllabus: CourseInfo, courseid: string) {
+async function processAndSave(syllabus: CourseInfo, courseid: string, parent: string) {
 
     const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
     const processedBooks: Book[] = await processSyllabusBooks(syllabus)
@@ -315,6 +325,7 @@ async function processAndSave(syllabus: CourseInfo, courseid: string) {
 
     const exam: DataExam = {
         id: uniname + id,
+        parentExam: parent,
         universityId: uniname,
         course: syllabus.course,
         courseId: courseid,
@@ -326,7 +337,7 @@ async function processAndSave(syllabus: CourseInfo, courseid: string) {
 
         chapters: processedChapters?.chapters,
 
-        urls: [{ "name": "syllabus", "url": url },],
+        urls: [{ "name": "syllabus", "url": syllabus.url },],
 
         icon: processedChapters?.icon,
         color: processedChapters?.color,
@@ -338,6 +349,7 @@ async function processAndSave(syllabus: CourseInfo, courseid: string) {
         teachers: syllabus.teachers.split(',').map(name => ({ name: name.trim() })),
 
         books: processedBooks
+
 
 
         //books: syllabus.books,
@@ -364,108 +376,114 @@ async function processAndSave(syllabus: CourseInfo, courseid: string) {
 
 // }
 
-async function getsyllabus(exam: Exam, courseid: string) {
-    const examurl = exam.url
-    const browser = await puppeteer.launch({ headless: true });
-    // in the folder data/syllabus if there is a file that contains the id of the exam it means that the exam has already been processed, only contains the id the filename is more complex
+// async function getsyllabus(exam: Exam, courseid: string, type: string) {
+//     const examurl = exam.url
+//     const browser = await puppeteer.launch({ headless: true });
+//     // in the folder data/syllabus if there is a file that contains the id of the exam it means that the exam has already been processed, only contains the id the filename is more complex
    
-    const examId = (exam['examId'] as string).substring(5);
-    console.log('examId', examId);
+//     const examId = (exam['examId'] as string).substring(5);
+//     console.log('examId', examId);
 
-    const path = 'data/syllabus/'
-    const files = fs.readdirSync(path)
-    const found = files.find(file => file.includes(examId))
-    if (found) {
-        console.log('skipping' + examId);
-        return
-    }
-
-
-    let syllabus = await scrapeSyllabus(examurl, browser)
-
-    //è medicina e ha i sottoesami
-    if (syllabus.subesami.length != 0) {
-        console.log('subesami', syllabus);
+//     const path = 'data/syllabus/'
+//     const files = fs.readdirSync(path)
+//     const found = files.find(file => file.includes(examId))
+//     // if (found) {
+//     //     console.log('skipping' + examId);
+//     //     return
+//     // }
 
 
+//     let syllabus = await scrapeSyllabus(examurl, browser)  // 
+//     syllabus.url = examurl
 
-        for (const subesame of syllabus.subesami) {
-            console.log('subesame', subesame);
-            const subesameSyllabus = await scrapeSyllabus(subesame, browser)
-            if (syllabus.chapters != '') {
-                processAndSave(syllabus, courseid)
-            } else {
-                const urls = await getSubdivisionUrls(examurl, browser)
-                for (const url of urls) {
-
-                    syllabus = await scrapeSyllabus(url, browser)
-
-                    if (syllabus.chapters)
-                        processAndSave(syllabus, courseid)
-                    else
-                        console.log('no chapters', syllabus);
-
-                }
-            }
-            processAndSave(subesameSyllabus, courseid)
-        }
-        }else {
+//     //è medicina e ha i sottoesami
+//     if (syllabus.subesami.length != 0) {
+//         console.log('   ci sono subesami', syllabus.subesami);
 
 
 
-            if (syllabus.chapters != '') {
-                processAndSave(syllabus, courseid)
-            } else {
-                const urls = await getSubdivisionUrls(examurl, browser)
-                for (const url of urls) {
+//         for (const subesame of syllabus.subesami) {
+//             console.log('       subesame', subesame);
+//             const subesameSyllabus = await scrapeSyllabus(subesame, browser)
+//             if (syllabus.chapters != '') {
+//                 console.log('               a posto ci sono i capitoli', syllabus.chapters);
+//                 processAndSave(subesameSyllabus, courseid)
+//             } else {
+//                 const urls = await getSubdivisionUrls(subesame, browser)
+//                 for (const url of urls) {
 
-                    syllabus = await scrapeSyllabus(url, browser)
+//                     syllabus = await scrapeSyllabus(url, browser)
 
-                    if (syllabus.chapters)
-                        processAndSave(syllabus, courseid)
-                    else
-                        console.log('no chapters', syllabus);
+//                     if (syllabus.chapters)
+//                         processAndSave(syllabus, courseid)
+//                     else
+//                         console.log('no chapters', syllabus);
 
-                }
-            }
+//                 }
+//             }
+//            // processAndSave(subesameSyllabus, courseid)
+//         }
+//         }else {
 
-        }
+//             console.log('   no subesami', syllabus.subesami);
 
-    await browser.close();
+//             if (syllabus.chapters != '') {
+//                 processAndSave(syllabus, courseid)
+//             } else {
+//                 const urls = await getSubdivisionUrls(examurl, browser)
+//                 for (const url of urls) {
+
+//                     syllabus = await scrapeSyllabus(url, browser)
+
+//                     if (syllabus.chapters){
+//                         console.log('                   a posto ci sono i capitoli', syllabus.chapters);
+//                         processAndSave(syllabus, courseid)
+//                     }
+//                     else{
+//                         console.log('                   no chapters', syllabus);
+//                     }
+
+//                 }
+//             }
+
+//         }
+
+//     await browser.close();
     
-}
+// }
 
-const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493'
-const url1 = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808'
+// const url = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8249_122421_8338/2022/8251/81?coorte=2023&schemaid=2493'
+// const url1 = 'https://unibs.coursecatalogue.cineca.it/insegnamenti/2023/8108_115535_145/2022/8110/81?coorte=2022&schemaid=2808'
 
 //getsyllabus(url1)
 
 
 
 async function main() {
-    const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs_courses.json'
-    const syllabusPath = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
-
-
-    interface Course { name: string, id: string, uni: string, exams: Exam[] }
+    const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json'
     const courseids = ['unibs08624']
+
+
+
+
 
     let problematicExams: string[] = []
 
+    // for each course id 
     for (const courseid of courseids) {
 
         console.log('getting course', courseid);
 
 
-
         const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
         const course: Course = jsonData.find((obj: Course) => obj.id === courseid); // Converts obj.id to string for comparison
         console.log(course.name + '=========================================================================');
+
         for (const exam of course.exams) {
 
             try {
                 
-                await getsyllabus(exam, courseid, )
+               // await getsyllabus(exam, courseid, course.type )
             } catch (e) {
                 console.log(exam['url']);
                 problematicExams.push(exam['url'])
@@ -474,7 +492,37 @@ async function main() {
         }
         console.log('problematic exams' + problematicExams);
     }
+
+
 }
 
-main()
+
+async function mainone() {
+
+    const id = 'unibs05713'// get data from unibs08624.json
+    const browser = await puppeteer.launch({ headless: true });
+
+
+    // read id.json from data folder
+    const path = `/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/${id}.json`
+    const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+    console.log(jsonData);
+
+    for (const exam in jsonData) {
+        console.log(exam);
+        const urls = jsonData[exam];
+       
+        for (const url of urls) {
+            const syllabus = await scrapeSyllabus(url, browser)
+            processAndSave(syllabus, id, exam)
+
+        }
+
+
+    }
+    
+}
+
+mainone()
 
