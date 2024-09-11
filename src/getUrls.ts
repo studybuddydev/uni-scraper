@@ -68,7 +68,7 @@ export async function getFraction(url: string, browser: Browser): Promise<string
     const page: Page = await browser1.newPage();
 
     await page.goto(url, { waitUntil: 'networkidle0' });
-    await page.waitForSelector('app-root', { timeout: 5000 });
+    await page.waitForSelector('app-root', { timeout: 5001 });
 
 
     const urls = await page.evaluate(() => {
@@ -90,7 +90,7 @@ export async function getFinalUrls(url: string, browser: Browser): Promise<strin
     console.log('scraping', url);
     const page: Page = await browser.newPage();
 
-    await page.goto(url, { waitUntil: 'networkidle0', timeout: 5000 });
+    await page.goto(url, { waitUntil: 'networkidle0', timeout: 4999 });
     await page.waitForSelector('app-root', { timeout: 5000 });
     await page.waitForSelector('.u-filetto');
 
@@ -124,9 +124,8 @@ export async function getFinalUrls(url: string, browser: Browser): Promise<strin
 
 
 
-async function getNestedUrls() {
+async function getNestedUrls(courseids: string[]) {
     const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json'
-    const courseids = ['unibs54454', 'unibs54455', 'unibs05751', 'unibs05771', 'unibs05713', 'unibs05742']
     // a map of course id to urls
     const courseUrls: { [key: string]: string[] } = {};
 
@@ -139,6 +138,13 @@ async function getNestedUrls() {
         const uni = courseid.substring(0, 5);
         const courseid1 = courseid.substring(5, courseid.length);
 
+        const savepath = `./data/${uni}/${courseid}.json`
+
+        if (fs.existsSync(savepath)) {
+            console.log('file already there', savepath);
+            continue;
+        }
+
         console.log('getting course', courseid);
         const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
         const course: Course = jsonData.find((obj: Course) => obj.id === courseid); // Converts obj.id to string for comparison
@@ -147,15 +153,13 @@ async function getNestedUrls() {
         for (const exam of course.exams) {
 
             const subUrls = await getFinalUrls(exam.url, browser);
-
             console.log('subUrls', subUrls);
-
             courseUrls[exam.examId] = subUrls;
 
         }
 
         const data = JSON.stringify(courseUrls, null, 2);
-        fs.writeFileSync(`./data/${uni}/${courseid}.json`, data);
+        fs.writeFileSync(savepath, data);
     }
 
     console.log(courseUrls);
@@ -166,27 +170,21 @@ async function getNestedUrls() {
 }
 
 
+
 async function main() {
+    const coursepath = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json';
 
-    const id = 'unibs08624' 
-    const browser = await puppeteer.launch({ headless: true });
+    const courses = JSON.parse(fs.readFileSync(coursepath, 'utf8'));
 
-
-    // read id.json from data folder
-    const path = `/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/${id}.json`
-    const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
-
-    console.log(jsonData);
-
-    for (const exam in jsonData) {
-        console.log(exam);
-        const urls = jsonData[exam];
-       
-        for (const url of urls) {
+    const courseids = courses.map((course: Course) => course.id);
 
 
-    }
-    
+    console.log(courseids);
+
+    //const courseids = ['unibs54454', 'unibs54455', 'unibs05751', 'unibs05771', 'unibs05713', 'unibs05742']
+
+    await getNestedUrls(courseids);
 }
-}
-getNestedUrls();
+
+
+main();

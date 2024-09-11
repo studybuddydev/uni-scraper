@@ -195,6 +195,8 @@ async function getCourseInfo(page: Page): Promise<CourseInfo> {
 
 // from  url of a syllabus from scrape it and return the contnt of the course  
 export async function scrapeSyllabus(url: string, browser: Browser): Promise<CourseInfo> {
+
+
     //const browser = await puppeteer.launch({ headless: true });
     const page: Page = await browser.newPage();
 
@@ -213,41 +215,37 @@ export async function scrapeSyllabus(url: string, browser: Browser): Promise<Cou
 
     // console.log('infoelements', infoElements);
 
-
-
     infoElements.name = title;
-
-
 
     //await browser.close();
 
     return infoElements;
 }
 
-export async function getSubdivisionUrls(url: string, browser: Browser): Promise<string[]> {
-    console.log('               this exams may have an inner subdivision');
+// export async function getSubdivisionUrls(url: string, browser: Browser): Promise<string[]> {
+//     console.log('               this exams may have an inner subdivision');
 
-    //const browser = await puppeteer.launch({ headless: true });
-    const page: Page = await browser.newPage();
+//     //const browser = await puppeteer.launch({ headless: true });
+//     const page: Page = await browser.newPage();
 
-    await page.goto(url, { waitUntil: 'networkidle0' });
-    await page.waitForSelector('app-root', { timeout: 5000 });
+//     await page.goto(url, { waitUntil: 'networkidle0' });
+//     await page.waitForSelector('app-root', { timeout: 5000 });
 
 
 
-    const urls = await page.evaluate(() => {
-        const selector = '#top > app-root > div > insegnamento > div.app-main > main > div.insegnamento > div:nth-child(4) > ul > li > a'
-        const links = Array.from(document.querySelectorAll<HTMLAnchorElement>(selector));
-        return links.map(link => link.href);
-    });
+//     const urls = await page.evaluate(() => {
+//         const selector = '#top > app-root > div > insegnamento > div.app-main > main > div.insegnamento > div:nth-child(4) > ul > li > a'
+//         const links = Array.from(document.querySelectorAll<HTMLAnchorElement>(selector));
+//         return links.map(link => link.href);
+//     });
 
-    console.log('urls', urls);
+//     console.log('urls', urls);
 
-    //close browser
-    //await browser.close();
+//     //close browser
+//     //await browser.close();
 
-    return urls
-}
+//     return urls
+// }
 
 // from the extracted course use ai to create a list of chapters 
 async function processSyllabusChapters(syllabus: CourseInfo): Promise<processedChapter> {
@@ -299,13 +297,13 @@ async function processSyllabusBooks(syllabus: CourseInfo): Promise<Book[]> {
 
 async function processAndSave(syllabus: CourseInfo, courseid: string, parent: string) {
 
-    const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
-    const processedBooks: Book[] = await processSyllabusBooks(syllabus)
+   
 
 
     // Execute the regex against the syllabus name
     const id = syllabus.name.match(/\[(\w+)\]/)?.[1] || '';
     const name = syllabus.name.split(']').slice(1).join(']').replace(/[^\w\s]/g, ' ').trim();
+
 
     const path = 'data/syllabus/'
     const files = fs.readdirSync(path)
@@ -315,6 +313,9 @@ async function processAndSave(syllabus: CourseInfo, courseid: string, parent: st
         return
     }
 
+
+    const processedChapters: processedChapter = await processSyllabusChapters(syllabus)
+    const processedBooks: Book[] = await processSyllabusBooks(syllabus)
 
     const uniname = courseid.substring(0, 5)
 
@@ -459,63 +460,27 @@ async function processAndSave(syllabus: CourseInfo, courseid: string, parent: st
 
 
 
-async function main() {
-    const path = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json'
-    const courseids = ['unibs08624']
 
 
+async function getExams(courseid:string) {
 
-
-
-    let problematicExams: string[] = []
-
-    // for each course id 
-    for (const courseid of courseids) {
-
-        console.log('getting course', courseid);
-
-
-        const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
-        const course: Course = jsonData.find((obj: Course) => obj.id === courseid); // Converts obj.id to string for comparison
-        console.log(course.name + '=========================================================================');
-
-        for (const exam of course.exams) {
-
-            try {
-                
-               // await getsyllabus(exam, courseid, course.type )
-            } catch (e) {
-                console.log(exam['url']);
-                problematicExams.push(exam['url'])
-            }
-
-        }
-        console.log('problematic exams' + problematicExams);
-    }
-
-
-}
-
-
-async function mainone() {
-
-    const id = 'unibs05713'// get data from unibs08624.json
+    
     const browser = await puppeteer.launch({ headless: true });
 
 
     // read id.json from data folder
-    const path = `/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/${id}.json`
-    const jsonData = JSON.parse(fs.readFileSync(path, 'utf8'));
+    const path = `/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/${courseid}.json`
+    const subexams = JSON.parse(fs.readFileSync(path, 'utf8'));
 
-    console.log(jsonData);
 
-    for (const exam in jsonData) {
-        console.log(exam);
-        const urls = jsonData[exam];
-       
+
+    for (const examid in subexams) { 
+   
+        const urls = subexams[examid];
+  
         for (const url of urls) {
             const syllabus = await scrapeSyllabus(url, browser)
-            processAndSave(syllabus, id, exam)
+            processAndSave(syllabus, courseid, examid)
 
         }
 
@@ -524,5 +489,11 @@ async function mainone() {
     
 }
 
-mainone()
+
+getExams('unibs08624')
+
+
+async function main(){
+    
+}
 
