@@ -58,7 +58,7 @@ async function scrapeDegrees(page: Page, degree_url: string) {
         degreeUrls = degreeUrls.map(url => `${BASE_URL}${url}`);
 
     } catch (e) {
-        console.log('rotto');
+        console.log('rotto', e);
         degreeUrls = []
 
     }
@@ -164,9 +164,9 @@ async function selectCareer(url: string): Promise<string[]> {
     return result;
 }
 
-async function fetchYearlyExams(page: Page, urls: string[], year: number): Promise<any[]> {
-    const browser = await puppeteer.launch({ headless: true });
-    const page1 = await browser.newPage();
+async function fetchYearlyExams(browser: Browser, urls: string[], year: number): Promise<any[]> {
+    //const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
     const exams = []
     
     if(!urls){
@@ -178,11 +178,11 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
     for (const url of urls) {
 
         try {
-            await page1.goto(url, { waitUntil: 'networkidle0' });
+            await page.goto(url, { waitUntil: 'networkidle0' });
             console.log(url);
 
 
-            const tmpExams = await page1.evaluate((baseUrl, year, uni) => {
+            const tmpExams = await page.evaluate((baseUrl, year, uni) => {
                 const exams: { title: string, id:string, href: string, cfu: string, hours: string, semester: string, annoDiOfferta: string, year: number }[] = [];
                 const firstYearSection = document.querySelector(`li[id="${year}"]`);
 
@@ -232,7 +232,6 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
 
     }
 
-    await browser.close();
 
     console.log(exams);
     
@@ -241,24 +240,26 @@ async function fetchYearlyExams(page: Page, urls: string[], year: number): Promi
 
 }
 
-async function getExamsDetails(page: Page, years: { [key: string]: string[] }) {
+async function getExamsDetails(browser: Browser, years: { [key: string]: string[] }) {
 
+    console.log('getting exams details', years);
     // Extract URLs for different years
-    const firstYearUrl = years['2023/2024'];
-    const secondYearUrl = years['2022/2023'];
-    const thirdYearUrl = years['2021/2022'];
-    const fourthYearUrl = years['2020/2021'];
-    const fifthYearUrl = years['2019/2020'];
+    const firstYearUrl = years['2024/2025'];
+    const secondYearUrl = years['2023/2024'];
+    const thirdYearUrl = years['2022/2023'];
+    // const fourthYearUrl = years['2021/2022'];
+    // const fifthYearUrl = years['2020/2021'];
+    // const sixthYearUrl = years['2019/2020'];
 
-    const firstYearExams = await fetchYearlyExams(page, firstYearUrl, 1);
-    const secondYearExams = await fetchYearlyExams(page, secondYearUrl, 2);
-    const thirdYearExams = await fetchYearlyExams(page, thirdYearUrl, 3);
-    const fourthYearExams = await fetchYearlyExams(page, fourthYearUrl, 4);
-    const fifthYearExams = await fetchYearlyExams(page, fifthYearUrl, 5);
-    const sixthYearExams = await fetchYearlyExams(page, fifthYearUrl, 6);
+    const firstYearExams = await fetchYearlyExams(browser, firstYearUrl, 1);
+    const secondYearExams = await fetchYearlyExams(browser, secondYearUrl, 2);
+    const thirdYearExams = await fetchYearlyExams(browser, thirdYearUrl, 3);
+    // const fourthYearExams = await fetchYearlyExams(page, fourthYearUrl, 4);
+    // const fifthYearExams = await fetchYearlyExams(page, fifthYearUrl, 5);
+    // const sixthYearExams = await fetchYearlyExams(page, sixthYearUrl, 6);
 
     // Combine all exams
-    const allExams = [...firstYearExams, ...secondYearExams, ...thirdYearExams, ...fourthYearExams, ...fifthYearExams, ...sixthYearExams];
+    const allExams = [...firstYearExams, ...secondYearExams, ...thirdYearExams]//, ...fourthYearExams, ...fifthYearExams, ...sixthYearExams];
 
     //console.log(allExams);
 
@@ -267,10 +268,9 @@ async function getExamsDetails(page: Page, years: { [key: string]: string[] }) {
 
 
 
-async function scrapeAll(url: string, title:string) {
-    const browser = await puppeteer.launch({ headless: false });
+async function  scrapeAll(url: string, title:string) {
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
-
 
 
     let degreesUrls = await scrapeDegrees(page, url)
@@ -279,6 +279,7 @@ async function scrapeAll(url: string, title:string) {
 
 
     console.log(insegnamentiUrls);
+    fs.writeFileSync('./data/'+UNI + 'coursesUrls.json', JSON.stringify(insegnamentiUrls, null, 2));
     
     const examByDegree = []
 
@@ -288,7 +289,7 @@ async function scrapeAll(url: string, title:string) {
         console.log(`Course Code: ${courseCode}`);
         const id = courseCode.match(/\[(\w+)\]/)?.[1] || '';
         const name = courseCode.split(']').slice(1).join(']').replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '').replace(/\s+/g, ' ').trim();
-        const exams = await getExamsDetails(page, years);
+        const exams = await getExamsDetails(browser, years);
         
         const degreeExams = {
             'name': name,
@@ -301,6 +302,7 @@ async function scrapeAll(url: string, title:string) {
     }
 
     fs.writeFileSync('./data/'+ title + '.json', JSON.stringify(examByDegree, null, 2));
+    console.log('saved file');
 
     await browser.close();
 
@@ -323,13 +325,13 @@ async function main(){
    const unitnMagistraleURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1647269677465'
 
 
-//    scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
+     scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
 //    scrapeAll(unitnMagistraleURL, 'magistraliUNITN')
 //    scrapeAll(unitnCicloUnicoURL, 'cicloUnicoUNITN')
 
-   scrapeAll(unibsTriennaliURL, 'triennaliUNIBS')
-   scrapeAll(unibsMagistraliURL, 'magistraliUNIBS')
-   scrapeAll(unibsCicloUnicoURL, 'cicloUnicoUNIBS')
+//    scrapeAll(unibsTriennaliURL, 'triennaliUNIBS')
+//    scrapeAll(unibsMagistraliURL, 'magistraliUNIBS')
+//    scrapeAll(unibsCicloUnicoURL, 'cicloUnicoUNIBS')
 
 
 

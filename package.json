@@ -14,7 +14,11 @@
     "clean": "npm run build & node ./dist/clean_json.js",
     "summary": "pnpm run build && node dist/summary.js",
     "exam": "pnpm run build && node dist/getExams.js",
-    "urls": "pnpm run build && node dist/getUrls.js"
+    "urls": "pnpm run build && node dist/getUrls.js",
+    "status": "pnpm run build && node dist/status.js",
+    "courses": "pnpm run build && node dist/01_getCourses.js",
+    "examurls": "pnpm run build && node dist/02_getExamsUrls.js",
+    "syllabus": "pnpm run build && node dist/03_getSyllabus.js"
   },
   "keywords": [],
   "author": "",

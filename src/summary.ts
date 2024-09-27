@@ -149,7 +149,10 @@ function createAvailableDataCourse(fileExams: string) {
 
     let courses: DataCourse[] = [];
 
+    
+
     for (const course of allcourses) {
+
 
         let newCourse: DataCourse = {
             id: course.id,
@@ -162,7 +165,7 @@ function createAvailableDataCourse(fileExams: string) {
         }
 
         for (const exam of course.exams??[]) {
-  
+
 
             let newExam = {
                 examId: exam.examId,
@@ -170,7 +173,10 @@ function createAvailableDataCourse(fileExams: string) {
                 semester: exam.semester
             }
 
+
+
             if (exams.find(e => e.id === exam.examId)) {
+
                 newCourse.exams?.push(newExam)
             }
 
@@ -190,7 +196,10 @@ function createAvailableDataCourse(fileExams: string) {
             
 
         }
+
+
         if (newCourse.exams?.length?? 0 > 0) {
+            console.log('pushing', newCourse.id);
             courses.push(newCourse);
         }
 
@@ -208,15 +217,14 @@ function main(folderPath:string, uniName:string){
     
 
     //create dataexams
-    const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabus'
+    const folderExams = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/syllabustn'
     const exams = createDataExam(folderExams)
-    const fileExams = `./data/DataExams.json`
+    const fileExams = `./data/${uniName}/DataExams.json`
     fs.writeFileSync(fileExams, JSON.stringify(exams, null, 2));
 
-    
     const courses = createAvailableDataCourse(fileExams);
 
-    fs.writeFileSync(`./data/DataCourses.json`, JSON.stringify(courses, null, 2));
+    fs.writeFileSync(`./data/${uniName}/DataCourses.json`, JSON.stringify(courses, null, 2));
 
     const summary = createDataUni(courses, uniName);
 
@@ -227,9 +235,9 @@ function main(folderPath:string, uniName:string){
 
 
 
-const folderPathbs = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs';  // Replace with the path to your folder containing JSON files
+//const folderPathbs = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs';  // Replace with the path to your folder containing JSON files
 
 const folderPathtn = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unitn';  // Replace with the path to your folder containing JSON files
 
-main(folderPathbs, 'unibs')
-//main(folderPathtn, 'unitn')
+//main(folderPathbs, 'unibs')
+main(folderPathtn, 'unitn')
