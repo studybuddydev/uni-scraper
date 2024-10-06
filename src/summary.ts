@@ -117,14 +117,16 @@ function createDataExam(folderPath:string){
     
 
     files.forEach(file => {
+        console.log(file);
         const filePath = path.join(folderPath, file);
         if (path.extname(filePath) === '.json') {
-            
-            
-            const data = fs.readFileSync(filePath, 'utf8');
-            const course: Course[] = JSON.parse(data);
-
-            exams = exams.concat(course);
+            try {
+                const data = fs.readFileSync(filePath, 'utf8');
+                const course: Course[] = JSON.parse(data);
+                exams = exams.concat(course);
+            } catch (error : any) {
+                console.error(`Error parsing JSON file ${file}:`, error.message);
+            }
         }
     });
 
@@ -139,7 +141,7 @@ function createDataExam(folderPath:string){
 
 function createAvailableDataCourse(fileExams: string) {
 
-    const pathCourses = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unibs/unibs_courses.json';
+    const pathCourses = '/Users/alessiogandelli/dev/studybuddy/uni-scraper/data/unitn/unitn_courses.json';
 
     const allCoursesFile = fs.readFileSync(pathCourses, 'utf8');
     const allcourses: DataCourse[] = JSON.parse(allCoursesFile);
@@ -170,7 +172,8 @@ function createAvailableDataCourse(fileExams: string) {
             let newExam = {
                 examId: exam.examId,
                 year: exam.year,
-                semester: exam.semester
+                semester: exam.semester,
+                
             }
 
 

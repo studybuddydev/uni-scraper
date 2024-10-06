@@ -1,6 +1,6 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
-import { cleanAllDegrees } from './clean';
+import { cleanAllDegrees } from '../clean';
 
 
 
@@ -183,39 +183,33 @@ async function fetchYearlyExams(browser: Browser, urls: string[], year: number):
 
 
             const tmpExams = await page.evaluate((baseUrl, year, uni) => {
-                const exams: { title: string, id:string, href: string, cfu: string, hours: string, semester: string, annoDiOfferta: string, year: number }[] = [];
-                const firstYearSection = document.querySelector(`li[id="${year}"]`);
-
-                if (firstYearSection) {
-                    const examCards = firstYearSection.querySelectorAll('card-insegnamento');
-
-                    examCards.forEach(card => {
-                        const titleElement = card.querySelector('.card-insegnamento-header span');
-                        const hrefElement = card.querySelector('.card-insegnamento-header a');
-                        const cfuElement = card.querySelector('.card-insegnamento-cfu');
-                        const hoursElement = card.querySelector('.card-insegnamento-ore');
-                        const semesterElement = card.querySelector('.card-insegnamento-footer2 span');
-                        const annoDiOffertaElement = card.querySelector('div.card-insegnamento-footer > div:nth-child(1)');
-
-                        console.log(titleElement?.textContent);
-
-                        if (titleElement && hrefElement && cfuElement && hoursElement && semesterElement) {
-                            exams.push({
-                                title: titleElement.textContent?.trim() || '',
-                                id: uni+titleElement.textContent?.match(/\[(.*?)\]/)?.[1] || '',
-                                href: baseUrl + hrefElement.getAttribute('href') || '',
-                                cfu: cfuElement.textContent?.trim() || '',
-                                hours: hoursElement.textContent?.trim() || '',
-                                semester: semesterElement.textContent?.trim() || '',
-                                annoDiOfferta: annoDiOffertaElement?.textContent?.trim() || '',
-                                year: year
-                            });
-                        }
-                    });
-                }
-
-
-
+                const exams: { title: string, id: string, href: string, cfu: string, hours: string, semester: string, annoDiOfferta: string, year: number }[] = [];
+                const examCards = document.querySelectorAll('.card-insegnamento-right');
+            
+                examCards.forEach(card => {
+                    const titleElement = card.querySelector('.card-insegnamento-header a');
+                    const cfuElement = card.querySelector('.card-insegnamento-cfu');
+                    const hoursElement = card.querySelector('.card-insegnamento-ore');
+                    const semesterElement = card.querySelector('.card-insegnamento-footer2 span');
+                    const annoDiOffertaElement = card.querySelector('.card-insegnamento-footer > div:first-child');
+            
+                    if (titleElement && cfuElement && hoursElement && semesterElement && annoDiOffertaElement) {
+                        const title = titleElement.textContent?.trim() || '';
+                        const idMatch = title.match(/\[(.*?)\]/);
+                        
+                        exams.push({
+                            title: title,
+                            id: uni + (idMatch ? idMatch[1] : ''),
+                            href: baseUrl + (titleElement.getAttribute('href') || ''),
+                            cfu: cfuElement.textContent?.trim() || '',
+                            hours: hoursElement.textContent?.trim() || '',
+                            semester: semesterElement.textContent?.trim() || '',
+                            annoDiOfferta: annoDiOffertaElement.textContent?.trim() || '',
+                            year: year
+                        });
+                    }
+                });
+            
                 return exams;
             }, BASE_URL, year, UNI);
 
@@ -271,15 +265,21 @@ async function getExamsDetails(browser: Browser, years: { [key: string]: string[
 async function  scrapeAll(url: string, title:string) {
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
-
+    let insegnamentiUrls ;
+    // if the file i am going to create exist laod it 
+    if (fs.existsSync('./data/'+ UNI + 'coursesUrls.json')) {
+        const data = fs.readFileSync('./data/'+ UNI + 'coursesUrls.json', 'utf8');
+         insegnamentiUrls = JSON.parse(data);
+        console.log('file loaded');
+     
+    }else{
 
     let degreesUrls = await scrapeDegrees(page, url)
     let insegnamentiUrls = await getExamListFromDegree(page, degreesUrls)
-
-
-
     console.log(insegnamentiUrls);
-    fs.writeFileSync('./data/'+UNI + 'coursesUrls.json', JSON.stringify(insegnamentiUrls, null, 2));
+    fs.writeFileSync('./data/'+ UNI + 'coursesUrls.json', JSON.stringify(insegnamentiUrls, null, 2));
+    }
+
     
     const examByDegree = []
 
@@ -289,7 +289,7 @@ async function  scrapeAll(url: string, title:string) {
         console.log(`Course Code: ${courseCode}`);
         const id = courseCode.match(/\[(\w+)\]/)?.[1] || '';
         const name = courseCode.split(']').slice(1).join(']').replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '').replace(/\s+/g, ' ').trim();
-        const exams = await getExamsDetails(browser, years);
+        const exams = await getExamsDetails(browser, years as { [key: string]: string[] });
         
         const degreeExams = {
             'name': name,
@@ -311,7 +311,7 @@ async function  scrapeAll(url: string, title:string) {
 
 }
 
-const UNI = 'unitn'
+const UNI = 'unibs'
 const BASE_URL = `https://${UNI}.coursecatalogue.cineca.it`;
 
 async function main(){
@@ -325,11 +325,11 @@ async function main(){
    const unitnMagistraleURL = 'https://unitn.coursecatalogue.cineca.it/corsi/2024?gruppo=1647269677465'
 
 
-     scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
+   //  scrapeAll(unitnTriennaliURL, 'triennaliUNITN')
 //    scrapeAll(unitnMagistraleURL, 'magistraliUNITN')
 //    scrapeAll(unitnCicloUnicoURL, 'cicloUnicoUNITN')
 
-//    scrapeAll(unibsTriennaliURL, 'triennaliUNIBS')
+      scrapeAll(unibsTriennaliURL, 'triennaliUNIBS')
 //    scrapeAll(unibsMagistraliURL, 'magistraliUNIBS')
 //    scrapeAll(unibsCicloUnicoURL, 'cicloUnicoUNIBS')
 
