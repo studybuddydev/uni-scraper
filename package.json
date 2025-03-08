@@ -29,5 +29,10 @@
     "nodemon": "^3.1.4",
     "openai": "^4.52.7",
     "puppeteer": "^22.12.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "puppeteer"
+    ]
   }
 }
