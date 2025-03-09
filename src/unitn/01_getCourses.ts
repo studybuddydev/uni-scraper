@@ -46,7 +46,7 @@ async function getLinkHref(page: Page) {
 
 
 // SCRAP HOME
-async function scrapeDegrees(page: Page, degree_url: string) {
+async function getAllCoursesUrls(page: Page, degree_url: string) {
   try {
     await page.goto(degree_url, { waitUntil: 'networkidle0' });
     await page.waitForSelector('.corsi-group');
@@ -69,6 +69,7 @@ async function scrapDegree(page: Page, degreeUrl: string) {
 async function getExamListFromDegree(page: Page, urls: string[]) {
 
   const res: { [key: string]: ResultsType } = {}
+  const newRes: { [key: string]: string }[] = []
 
   //iterate over all degrees
   for (const url of urls) {
@@ -89,18 +90,21 @@ async function getExamListFromDegree(page: Page, urls: string[]) {
         await page.select('#offerta-formativa', value);
         await new Promise((res) => setTimeout(res, 1000));
 
-        const selectedText = await getSelectedText(page)        // Retrieve the select year
-        console.log('    Year: ', selectedText);
+        const year = await getSelectedText(page)        // Retrieve the select year
+        console.log('    Year: ', year);
         const linkHref = await getLinkHref(page)                // Find the link corresponding to "piani di studio e insegnamenti" or "insegnamenti"
-        
+
         if (pageTitle) {
-          if (linkHref?.split('?')[0].endsWith('insegnamenti')) {
-            results[selectedText] = await selectCareer(linkHref)
-          } else {
-            results[selectedText] = [linkHref || ''];
-          }
+          const paths = linkHref?.split('?')[0].endsWith('insegnamenti') ? await selectCareer(linkHref) : [{ name: '', url: linkHref || '' }];
+          results[year] = paths.map(p => p.url);
+          newRes.push(...paths.map(p => ({
+            courseName: pageTitle,
+            year: year,
+            path: p.name,
+            url: p.url,
+          })));
         }
-        console.log('    links: ', results[selectedText]);
+        console.log('    links: ', results[year]);
       }
       res[pageTitle] = results;
     } catch (e) {
@@ -108,16 +112,10 @@ async function getExamListFromDegree(page: Page, urls: string[]) {
     }
   }
 
-  return res
+  return newRes;
 }
 
-
-
-
-
-
-
-async function selectCareer(url: string): Promise<string[]> {
+async function selectCareer(url: string): Promise<{ name: string, url: string }[]> {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   //const BASE_URL = 'https://unibs.coursecatalogue.cineca.it'
@@ -128,17 +126,20 @@ async function selectCareer(url: string): Promise<string[]> {
     const textUrlPairs: { [key: string]: string } = {};
     const links = document.querySelectorAll('ul li a');
     const urls: string[] = [];
+    const res: { name: string, url: string }[] = [];
 
     links.forEach((link) => {
       const text = link.textContent?.trim() || '';
       const url = link.getAttribute('href') || '';
       if (url.includes('schemaid')) {
-        textUrlPairs[text] = url;
-        urls.push(baseUrl + url); // Use baseUrl here instead of BASE_URL
+        textUrlPairs[text] = `${baseUrl}${url}`;
+        urls.push(`${baseUrl}${url}`); // Use baseUrl here instead of BASE_URL
+        res.push({ name: text, url: `${baseUrl}${url}` });
       }
     });
 
-    return urls;
+    // return urls;
+    return res;
   }, BASE_URL);
 
   await browser.close();
@@ -219,19 +220,16 @@ async function getExamsDetails(browser: Browser, years: { [key: string]: string[
 }
 
 
-
-
-
-async function scrapeCoursesUrls(url: string, title: string) {
+async function degreeTypeScrapper(degreeTypeUrl: string, title: string) {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
   console.log('START scraping home');
-  const degreesUrls = await scrapeDegrees(page, url)
-  console.log('DONE scraping home, degreesUrls.length: ', degreesUrls.length);
+  const coursesUrls = await getAllCoursesUrls(page, degreeTypeUrl)
+  console.log('DONE scraping home, degreesUrls.length: ', coursesUrls.length);
 
   console.log('START scraping insegnamenti');
-  const insegnamentiUrls = await getExamListFromDegree(page, degreesUrls)
+  const insegnamentiUrls = await getExamListFromDegree(page, coursesUrls)
   console.log('DONE scraping insegnamenti');
   const filename = `./data/${title}-coursesUrls.json`;
   fs.writeFileSync(filename, JSON.stringify(insegnamentiUrls, null, 2));
@@ -274,11 +272,11 @@ async function scrapeCourses(uni: string, title: string, urlFile: string) {
   return filename;
 }
 
-async function scrapeAll(url: string, title: string, uni: string) {
-  // const filename = await scrapeCoursesUrls(url, title);
-  const filename = `./data/${title}-coursesUrls.json`;
-  console.log('\n----------------------\n');
-  await scrapeCourses(uni, title, filename);
+async function scrapeAll(degreeTypeUrl: string, degreeTypeTitle: string, uni: string) {
+  const filename = await degreeTypeScrapper(degreeTypeUrl, degreeTypeTitle);
+  // const filename = `./data/${title}-coursesUrls.json`;
+  // console.log('\n----------------------\n');
+  // await scrapeCourses(uni, degreeTypeTitle, filename);
 }
 
 const UNI = 'unitn'
