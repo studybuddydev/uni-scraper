@@ -27,11 +27,13 @@ function doFile(title: string) {
   const yearMapping: any = { '2025/2026': 0, '2024/2025': 1, '2023/2024': 2, '2022/2023': 3, '2021/2022': 4, '2020/2021': 5, '2019/2020': 6, '2018/2019': 7, '2017/2018': 8, '2016/2017': 9, '2015/2016': 10 }
   const pathsyears: any = {}
   for (const x of data) {
-    const yearMapped = yearMapping[x.year]
+    const year = x.year //yearMapping[x.year]
+    const path = x.path.length > 0 ? x.path : 'NA'
+    
     if (!pathsyears[x.courseName]) pathsyears[x.courseName] = {}
-    if (!pathsyears[x.courseName][x.path]) pathsyears[x.courseName][x.path] = {}
-    if (!pathsyears[x.courseName][x.path][yearMapped]) pathsyears[x.courseName][x.path][yearMapped] = new Set()
-    pathsyears[x.courseName][x.path][yearMapped].add({ year: x.year, url: x.urlPath })
+    if (!pathsyears[x.courseName][path]) pathsyears[x.courseName][path] = {}
+    if (!pathsyears[x.courseName][path][year]) pathsyears[x.courseName][path][year] = new Set()
+    pathsyears[x.courseName][path][year].add(x.urlPath)
   }
   // check if duplicates
   for (const x in pathsyears) {
