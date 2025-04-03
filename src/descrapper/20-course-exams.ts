@@ -7,7 +7,7 @@ async function extractExams(url: string, browser: Browser) {
   await page.goto(url, { waitUntil: 'networkidle0' });
   await new Promise((resolve) => setTimeout(resolve, 500));
 
-  const exams = await page.evaluate(() => {
+  const exams = await page.evaluate((baseUrl) => {
     const years = document.querySelectorAll('.corso-insegnamenti-list > ul > li');
     const res: any = {}
 
@@ -21,11 +21,11 @@ async function extractExams(url: string, browser: Browser) {
         const id = nameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
         const name = nameElement?.textContent?.trim().split(']').slice(1).join(']').replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '').replace(/\s+/g, ' ').trim();
         const url = nameElement?.getAttribute('href') || '#';
-        return { id, name, url };
+        return { id, name, url: url ? `${baseUrl}${url}` : url };
       }).filter((x) => x !== null);
     });
     return res;
-  });
+  }, new URL(url).origin);
 
   await page.close();
   return exams;

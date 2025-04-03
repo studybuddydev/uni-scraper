@@ -13,12 +13,12 @@ function doFile(title: string) {
     for (const year in data[course][path]) {
         // console.log('    Year:', year);
         const d = data[course][path][year];
-        const baseUrl = d['url'].split('/').slice(0, 3).join('/');
+
         for (const y in d['exams']) {
           for (const exam of d['exams'][y]) {
             const id = exam['id'];
             const name = exam['name'];
-            const url = `${baseUrl}${exam['url']}`;
+            const url = exam['url'];
 
             if (!res[url]) res[url] = { names: new Set(), ids: new Set() };
             res[url]['names'].add(name);

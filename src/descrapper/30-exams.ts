@@ -23,7 +23,7 @@ async function extractExamData(page: Page): Promise<any> {
     results[tableTitle] = {};
     const tableHeaderEl = document.querySelectorAll('.insegnamento-accordion .accordion > dd .u-dl-orizzontale > dt')
     const tableInfoEl = document.querySelectorAll('.insegnamento-accordion .accordion > dd .u-dl-orizzontale > dd')
-    
+
     const tableTitles = Array.from(tableHeaderEl).map((t) => t.textContent?.trim() || '');
     const tableDescriptions = Array.from(tableInfoEl).map((d) => d.textContent?.trim() || '');
 
@@ -52,9 +52,8 @@ async function extractExams(url: string, browser: Browser): Promise<any[]> {
   await page.goto(url, { waitUntil: 'networkidle0' });
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
-
   // get moduli and frazioni
-  const MandF = await page.evaluate(() => {
+  const MandF = await page.evaluate((baseUrl: string) => {
     const difference = document.querySelectorAll('.insegnamento-links');
     if (difference.length !== 2) {
       return null;
@@ -63,12 +62,12 @@ async function extractExams(url: string, browser: Browser): Promise<any[]> {
       Array.from(x.querySelectorAll('a'))
         .map((a) => {
           const name = a.textContent?.trim() || '';
-          const url = 'https://unitn.coursecatalogue.cineca.it' + (a.getAttribute('href') || '#');
+          const url = `${baseUrl}${a.getAttribute('href') || '#'}`;
           return { name, url };
         })
     );
     return { moduli, frazioni };
-  });
+  }, new URL(url).origin);
   if (!MandF) {
     console.log('We got a problem on ', url);
     await page.close();
@@ -110,17 +109,35 @@ async function doFile(title: string) {
   const filename = `./data/21-exams-${title}.json`;
   const data = JSON.parse(fs.readFileSync(filename, 'utf8'));
   const browser = await puppeteer.launch({ headless: false, defaultViewport: { width: 1920, height: 1080 } });
-
-  // const xx = await extractExams('https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/146171%2F1/2020/50430/10131?coorte=2024&schemaid=8539&adCodRadice=146171', browser);
-  // const xx = await extractExams('https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50427_646254_96034/2020/50430/10131?coorte=2024&schemaid=8539', browser);
-  // const xx = await extractExams('https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/146171%2F2-PARI/2020/50430/10131?coorte=2024&schemaid=8539&adCodFraz=146171', browser);
-
   const res: any = {}
-  for (const exam of data) {
-    console.log('Starting:', exam.url);
-    const eData = await extractExams(exam.url, browser);
-    res[exam.url] = eData;
+
+  // for (const exam of data) {
+  //   console.log('Starting:', exam.url);
+  //   const eData = await extractExams(exam.url, browser);
+  //   res[exam.url] = eData;
+  //   fs.writeFileSync(`./data/30-exams-${title}.json`, JSON.stringify(res, null, 2));
+  // }
+
+  const batchSize = 50;
+  
+  for (let i = 0; i < data.length; i += batchSize) {
+    const batch = data.slice(i, i + batchSize);
+    console.log('Processing batch: ', i, ' to ', Math.min(i + batchSize, data.length), ' of ', data.length);
+    
+    const batchStartTime = Date.now();
+    
+    await Promise.all(
+      batch.map(async (exam: any) => {
+        // console.log('Starting:', exam.url);
+        const eData = await extractExams(exam.url, browser);
+        res[exam.url] = eData;
+      })
+    );
+    
     fs.writeFileSync(`./data/30-exams-${title}.json`, JSON.stringify(res, null, 2));
+    const duration = ((Date.now() - batchStartTime) / 1000)
+    const timeRemaining = (duration * (data.length / batch.length - 1)) / 60;
+    console.log(`Batch completed in ${duration.toFixed(0)} seconds, finishing in ${timeRemaining.toFixed(1)} minutes`);
   }
 
   await browser.close();
