@@ -31,14 +31,18 @@
   },
   "pathsyears": {
     "[0115G] Amministrazione Aziendale e Diritto": {
-      "Percorso professioni private": {
-        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50287?schemaid=8455",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10126/insegnamenti/49338?schemaid=7902"
-      },
       "Percorso Management pubblico": {
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50482?schemaid=8270",
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50343?schemaid=8457"
       },
+      "Percorso professioni private": {
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50483?schemaid=8268",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50287?schemaid=8455",
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49341?schemaid=8458",
+        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10126/insegnamenti/49338?schemaid=7902"
+      },
       "Peercorso professioni pubbliche": {
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49340?schemaid=8460",
         "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10126/insegnamenti/49337?schemaid=7904"
       }
     },
@@ -105,13 +109,19 @@
     },
     "[0327G] Ingegneria Industriale": {
       "Gestionale": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50430?schemaid=8539"
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50430?schemaid=8539",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50180?schemaid=8189"
       },
       "Robotica e Meccatronica": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50428?schemaid=8540"
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50428?schemaid=8540",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50181?schemaid=8188"
       },
       "Materiali per l'industria sostenibile": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50429?schemaid=8541"
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131/insegnamenti/50429?schemaid=8541",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50182?schemaid=8187"
+      },
+      "standard": {
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50179?schemaid=8186"
       },
       "Sistemi": {
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10131/insegnamenti/50075?schemaid=8193",
@@ -133,18 +143,15 @@
       },
       "Informatica": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50231?schemaid=8417",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49524?schemaid=8423",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49520?schemaid=7935"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49524?schemaid=8423"
       },
       "Comunicazioni": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50224?schemaid=8416",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49526?schemaid=8422",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49522?schemaid=7933"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49526?schemaid=8422"
       },
       "Elettronica": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50225?schemaid=8418",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49525?schemaid=8424",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49521?schemaid=7936"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49525?schemaid=8424"
       },
       "​Computer, Communications and Electronic Engineering": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50222?schemaid=8419",
@@ -167,18 +174,15 @@
       },
       "Informatica": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50231?schemaid=8417",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49524?schemaid=8423",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49520?schemaid=7935"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49524?schemaid=8423"
       },
       "Comunicazioni": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50224?schemaid=8416",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49526?schemaid=8422",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49522?schemaid=7933"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49526?schemaid=8422"
       },
       "Elettronica": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50225?schemaid=8418",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49525?schemaid=8424",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49521?schemaid=7936"
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/49525?schemaid=8424"
       },
       "​Computer, Communications and Electronic Engineering": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10712/insegnamenti/50222?schemaid=8419",
@@ -232,8 +236,8 @@
     },
     "[0911G] Viticoltura ed Enologia": {
       "NA": {
-        "2025/2026": "",
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10819/insegnamenti/50511?codicione=0220106202500001",
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10665/insegnamenti/50511?codicione=0220106202500001",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10665/insegnamenti/50511?codicione=0220106202500001",
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10665/insegnamenti/50230?codicione=0220106202500001",
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10665/insegnamenti/49915?codicione=0220106202500001",
         "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10665/insegnamenti/49914?codicione=0220106202500001"
@@ -243,7 +247,7 @@
       "NA": {
         "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10755/insegnamenti/50425?codicione=0220106204700001",
         "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10755/insegnamenti/50425?codicione=0220106204700001",
-        "2023/2024": "",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10755/insegnamenti/50316?codicione=0220106204700001",
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10755/insegnamenti/49941?codicione=0220106204700001",
         "2021/2022": ""
       }
@@ -304,16 +308,32 @@
     },
     "[0611G] Sociologia": {
       "Percorso: Società civile, ambiente e sostenibilità": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50380?schemaid=8051"
-      },
-      "Percorso: Cultura, media e comunicazione": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50378?schemaid=8052"
-      },
-      "Percorso: Progettazione e innovazione sociale": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50379?schemaid=8053"
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50758?schemaid=8887",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50380?schemaid=8803"
       },
       "Percorso: Ricerca e analisi sulla società": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50381?schemaid=8054"
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50759?schemaid=8884",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50381?schemaid=8806"
+      },
+      "Percorso: Cultura, media e comunicazione": {
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50761?schemaid=8886",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50378?schemaid=8804"
+      },
+      "Percorso: Progettazione e innovazione sociale": {
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50760?schemaid=8885",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50379?schemaid=8805"
+      },
+      "Percorso: SOCIETA' CIVILE, AMBIENTE E SOSTENIBILITA'": {
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50252?schemaid=8820"
+      },
+      "Percorso: CULTURA, MEDIA E COMUNICAZIONE": {
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50255?schemaid=8821"
+      },
+      "Percorso: PROGETTAZIONE E INNOVAZIONE SOCIALE": {
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50254?schemaid=8822"
+      },
+      "Percorso: RICERCA E ANALISI SULLA SOCIETA'": {
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50253?schemaid=8823"
       },
       "Percorso - PROGETTAZIONE E INNOVAZIONE SOCIALE": {
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10137/insegnamenti/49816?schemaid=8216",
@@ -325,17 +345,17 @@
       }
     },
     "[0620G] Studi internazionali": {
-      "Percorso - COOPERAZIONE E SVILUPPO": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50383?schemaid=8055",
-        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50227?schemaid=8231",
-        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10565/insegnamenti/49844?schemaid=8229",
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10565/insegnamenti/49841?schemaid=7537"
-      },
       "Percorso - POLITICA E ORGANIZZAZIONI INTERNAZIONALI": {
-        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50384?schemaid=8056",
-        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50228?schemaid=8232",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50384?schemaid=8833",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50228?schemaid=8876",
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10565/insegnamenti/49845?schemaid=8230",
         "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10565/insegnamenti/49842?schemaid=7538"
+      },
+      "Percorso - COOPERAZIONE E SVILUPPO": {
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50383?schemaid=8832",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50227?schemaid=8875",
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10565/insegnamenti/49844?schemaid=8229",
+        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10565/insegnamenti/49841?schemaid=7537"
       }
     },
     "[0417G] Beni culturali": {
@@ -344,21 +364,6 @@
         "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156/insegnamenti/50422?codicione=0220106200100001",
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10156/insegnamenti/50271?codicione=0220106200100001",
         "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10156/insegnamenti/49594?codicione=0220106200100001"
-      },
-      "Carriera tipo: ARCHEOLOGICA (Reg. 2021)": {
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7688"
-      },
-      "Carriera tipo: ARCHIVISTICO-LIBRARIA (Reg. 2021)": {
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7689"
-      },
-      "Carriera tipo: MUSICALE E DELLO SPETTACOLO (Reg. 2021)": {
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7690"
-      },
-      "Carriera tipo: STORICO ARTISTICA (Reg. 2021)": {
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7691"
-      },
-      "Piano statutario": {
-        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7692"
       }
     },
     "[0416G] Filosofia": {
@@ -379,6 +384,12 @@
       }
     },
     "[0427G] Lingue moderne": {
+      "Percorso LINGUE PER L'INTERMEDIAZIONE TURISTICA E D'IMPRESA (reg. 2024)": {
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438/insegnamenti/50402?schemaid=8097"
+      },
+      "Percorso LETTERATURE, LINGUE E TRADUZIONE (reg. 2024)": {
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438/insegnamenti/50403?schemaid=8096"
+      },
       "Percorso LETTERATURE, LINGUE E TRADUZIONE (reg. 2023)": {
         "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10438/insegnamenti/50275?schemaid=8407"
       },

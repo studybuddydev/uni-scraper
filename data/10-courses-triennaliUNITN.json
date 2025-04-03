@@ -1,6 +1,22 @@
 [
   {
     "courseName": "[0115G] Amministrazione Aziendale e Diritto",
+    "year": "2024/2025",
+    "path": "Percorso Management pubblico",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126?codicione=0220106201800012",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50482?schemaid=8270"
+  },
+  {
+    "courseName": "[0115G] Amministrazione Aziendale e Diritto",
+    "year": "2024/2025",
+    "path": "Percorso professioni private",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126?codicione=0220106201800012",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50483?schemaid=8268"
+  },
+  {
+    "courseName": "[0115G] Amministrazione Aziendale e Diritto",
     "year": "2023/2024",
     "path": "Percorso professioni private",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
@@ -14,6 +30,22 @@
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126?codicione=0220106201800012",
     "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50343?schemaid=8457"
+  },
+  {
+    "courseName": "[0115G] Amministrazione Aziendale e Diritto",
+    "year": "2022/2023",
+    "path": "Percorso professioni private",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126?codicione=0220106201800012",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49341?schemaid=8458"
+  },
+  {
+    "courseName": "[0115G] Amministrazione Aziendale e Diritto",
+    "year": "2022/2023",
+    "path": "Peercorso professioni pubbliche",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126?codicione=0220106201800012",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49340?schemaid=8460"
   },
   {
     "courseName": "[0115G] Amministrazione Aziendale e Diritto",
@@ -289,6 +321,38 @@
   },
   {
     "courseName": "[0327G] Ingegneria Industriale",
+    "year": "2023/2024",
+    "path": "standard",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131?codicione=0220106200900002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50179?schemaid=8186"
+  },
+  {
+    "courseName": "[0327G] Ingegneria Industriale",
+    "year": "2023/2024",
+    "path": "Robotica e Meccatronica",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131?codicione=0220106200900002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50181?schemaid=8188"
+  },
+  {
+    "courseName": "[0327G] Ingegneria Industriale",
+    "year": "2023/2024",
+    "path": "Gestionale",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131?codicione=0220106200900002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50180?schemaid=8189"
+  },
+  {
+    "courseName": "[0327G] Ingegneria Industriale",
+    "year": "2023/2024",
+    "path": "Materiali per l'industria sostenibile",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131?codicione=0220106200900002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10131/insegnamenti/50182?schemaid=8187"
+  },
+  {
+    "courseName": "[0327G] Ingegneria Industriale",
     "year": "2022/2023",
     "path": "Sistemi",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10131",
@@ -416,30 +480,6 @@
     "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/50122?schemaid=8425"
   },
   {
-    "courseName": "[0339G] Ingegneria Informatica, delle Comunicazioni ed Elettronica",
-    "year": "2021/2022",
-    "path": "Comunicazioni",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10712",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49522?schemaid=7933"
-  },
-  {
-    "courseName": "[0339G] Ingegneria Informatica, delle Comunicazioni ed Elettronica",
-    "year": "2021/2022",
-    "path": "Informatica",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10712",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49520?schemaid=7935"
-  },
-  {
-    "courseName": "[0339G] Ingegneria Informatica, delle Comunicazioni ed Elettronica",
-    "year": "2021/2022",
-    "path": "Elettronica",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10712",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49521?schemaid=7936"
-  },
-  {
     "courseName": "[0325G] Ingegneria civile",
     "year": "2025/2026",
     "path": "",
@@ -558,30 +598,6 @@
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10799",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712?codicione=0220106200800001",
     "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10712/insegnamenti/50122?schemaid=8425"
-  },
-  {
-    "courseName": "[INT - ISMP] Ingegneria dei sistemi medicali per la persona",
-    "year": "2021/2022",
-    "path": "Comunicazioni",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10799",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49522?schemaid=7933"
-  },
-  {
-    "courseName": "[INT - ISMP] Ingegneria dei sistemi medicali per la persona",
-    "year": "2021/2022",
-    "path": "Informatica",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10799",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49520?schemaid=7935"
-  },
-  {
-    "courseName": "[INT - ISMP] Ingegneria dei sistemi medicali per la persona",
-    "year": "2021/2022",
-    "path": "Elettronica",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10799",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712?codicione=0220106200800001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10712/insegnamenti/49521?schemaid=7936"
   },
   {
     "courseName": "[0326G] Ingegneria per l'ambiente e il territorio",
@@ -789,15 +805,15 @@
     "path": "",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10665",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10665?codicione=0220106202500001",
-    "urlPath": ""
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10665/insegnamenti/50511?codicione=0220106202500001"
   },
   {
     "courseName": "[0911G] Viticoltura ed Enologia",
     "year": "2024/2025",
     "path": "",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10665",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10819?codicione=0220106202500001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10819/insegnamenti/50511?codicione=0220106202500001"
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10665?codicione=0220106202500001",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10665/insegnamenti/50511?codicione=0220106202500001"
   },
   {
     "courseName": "[0911G] Viticoltura ed Enologia",
@@ -845,7 +861,7 @@
     "path": "",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10755",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10755?codicione=0220106204700001",
-    "urlPath": ""
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10755/insegnamenti/50316?codicione=0220106204700001"
   },
   {
     "courseName": "[0710G] Educazione professionale (abilitante alla professione sanitaria di Educatore professionale)",
@@ -1105,35 +1121,99 @@
   },
   {
     "courseName": "[0611G] Sociologia",
+    "year": "2025/2026",
+    "path": "Percorso: Società civile, ambiente e sostenibilità",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50758?schemaid=8887"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2025/2026",
+    "path": "Percorso: Ricerca e analisi sulla società",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50759?schemaid=8884"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2025/2026",
+    "path": "Percorso: Cultura, media e comunicazione",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50761?schemaid=8886"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2025/2026",
+    "path": "Percorso: Progettazione e innovazione sociale",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10844/insegnamenti/50760?schemaid=8885"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
     "year": "2024/2025",
     "path": "Percorso: Società civile, ambiente e sostenibilità",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137?codicione=0220106204000003",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50380?schemaid=8051"
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10844?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50380?schemaid=8803"
   },
   {
     "courseName": "[0611G] Sociologia",
     "year": "2024/2025",
     "path": "Percorso: Cultura, media e comunicazione",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137?codicione=0220106204000003",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50378?schemaid=8052"
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10844?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50378?schemaid=8804"
   },
   {
     "courseName": "[0611G] Sociologia",
     "year": "2024/2025",
     "path": "Percorso: Progettazione e innovazione sociale",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137?codicione=0220106204000003",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50379?schemaid=8053"
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10844?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50379?schemaid=8805"
   },
   {
     "courseName": "[0611G] Sociologia",
     "year": "2024/2025",
     "path": "Percorso: Ricerca e analisi sulla società",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137?codicione=0220106204000003",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50381?schemaid=8054"
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10844?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137/insegnamenti/50381?schemaid=8806"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2023/2024",
+    "path": "Percorso: SOCIETA' CIVILE, AMBIENTE E SOSTENIBILITA'",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50252?schemaid=8820"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2023/2024",
+    "path": "Percorso: CULTURA, MEDIA E COMUNICAZIONE",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50255?schemaid=8821"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2023/2024",
+    "path": "Percorso: PROGETTAZIONE E INNOVAZIONE SOCIALE",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50254?schemaid=8822"
+  },
+  {
+    "courseName": "[0611G] Sociologia",
+    "year": "2023/2024",
+    "path": "Percorso: RICERCA E ANALISI SULLA SOCIETA'",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10137",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137?codicione=0220106204000003",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10137/insegnamenti/50253?schemaid=8823"
   },
   {
     "courseName": "[0611G] Sociologia",
@@ -1170,18 +1250,18 @@
   {
     "courseName": "[0620G] Studi internazionali",
     "year": "2024/2025",
-    "path": "Percorso - COOPERAZIONE E SVILUPPO",
+    "path": "Percorso - POLITICA E ORGANIZZAZIONI INTERNAZIONALI",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565?codicione=0220106203600001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50383?schemaid=8055"
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50384?schemaid=8833"
   },
   {
     "courseName": "[0620G] Studi internazionali",
     "year": "2024/2025",
-    "path": "Percorso - POLITICA E ORGANIZZAZIONI INTERNAZIONALI",
+    "path": "Percorso - COOPERAZIONE E SVILUPPO",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565?codicione=0220106203600001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50384?schemaid=8056"
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565/insegnamenti/50383?schemaid=8832"
   },
   {
     "courseName": "[0620G] Studi internazionali",
@@ -1189,7 +1269,7 @@
     "path": "Percorso - COOPERAZIONE E SVILUPPO",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565?codicione=0220106203600001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50227?schemaid=8231"
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50227?schemaid=8875"
   },
   {
     "courseName": "[0620G] Studi internazionali",
@@ -1197,7 +1277,7 @@
     "path": "Percorso - POLITICA E ORGANIZZAZIONI INTERNAZIONALI",
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10565",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565?codicione=0220106203600001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50228?schemaid=8232"
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10565/insegnamenti/50228?schemaid=8876"
   },
   {
     "courseName": "[0620G] Studi internazionali",
@@ -1264,46 +1344,6 @@
     "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10156/insegnamenti/49594?codicione=0220106200100001"
   },
   {
-    "courseName": "[0417G] Beni culturali",
-    "year": "2021/2022",
-    "path": "Carriera tipo: ARCHEOLOGICA (Reg. 2021)",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156?codicione=0220106200100001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7688"
-  },
-  {
-    "courseName": "[0417G] Beni culturali",
-    "year": "2021/2022",
-    "path": "Carriera tipo: ARCHIVISTICO-LIBRARIA (Reg. 2021)",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156?codicione=0220106200100001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7689"
-  },
-  {
-    "courseName": "[0417G] Beni culturali",
-    "year": "2021/2022",
-    "path": "Carriera tipo: MUSICALE E DELLO SPETTACOLO (Reg. 2021)",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156?codicione=0220106200100001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7690"
-  },
-  {
-    "courseName": "[0417G] Beni culturali",
-    "year": "2021/2022",
-    "path": "Carriera tipo: STORICO ARTISTICA (Reg. 2021)",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156?codicione=0220106200100001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7691"
-  },
-  {
-    "courseName": "[0417G] Beni culturali",
-    "year": "2021/2022",
-    "path": "Piano statutario",
-    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10156",
-    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156?codicione=0220106200100001",
-    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10156/insegnamenti/49593?schemaid=7692"
-  },
-  {
     "courseName": "[0416G] Filosofia",
     "year": "2025/2026",
     "path": "",
@@ -1358,6 +1398,22 @@
     "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10155",
     "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10155?codicione=0220106200500003",
     "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10155/insegnamenti/49589?schemaid=7677"
+  },
+  {
+    "courseName": "[0427G] Lingue moderne",
+    "year": "2024/2025",
+    "path": "Percorso LINGUE PER L'INTERMEDIAZIONE TURISTICA E D'IMPRESA (reg. 2024)",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438?codicione=0220106201100002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438/insegnamenti/50402?schemaid=8097"
+  },
+  {
+    "courseName": "[0427G] Lingue moderne",
+    "year": "2024/2025",
+    "path": "Percorso LETTERATURE, LINGUE E TRADUZIONE (reg. 2024)",
+    "urlCourse": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438",
+    "urlYear": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438?codicione=0220106201100002",
+    "urlPath": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10438/insegnamenti/50403?schemaid=8096"
   },
   {
     "courseName": "[0427G] Lingue moderne",
