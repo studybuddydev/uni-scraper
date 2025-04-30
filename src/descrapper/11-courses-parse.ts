@@ -1,8 +1,9 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
+import { config } from './config';
 
 function doFile(title: string) {
-  const filename = `./data/10-courses-${title}.json`;
+  const filename = `./data/${title}/10-courses-${title}.json`;
   const data = JSON.parse(fs.readFileSync(filename, 'utf8'));
 
   // --  START COURSES
@@ -52,7 +53,7 @@ function doFile(title: string) {
   // --  END PATHS YEARS
 
   const res = { courses, pathsyears }
-  fs.writeFileSync(`./data/11-courses-${title}.json`, JSON.stringify(res, null, 2));
+  fs.writeFileSync(`./data/${title}/11-courses-${title}.json`, JSON.stringify(res, null, 2));
 }
 
-doFile('triennaliUNITN');
+doFile(config.scripingName);

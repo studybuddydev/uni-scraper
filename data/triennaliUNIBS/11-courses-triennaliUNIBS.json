@@ -1,0 +1,394 @@
+{
+  "courses": {
+    "[54454] CORSO DI LAUREA IN BANCA E FINANZA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/118",
+    "[54455] CORSO DI LAUREA IN ECONOMIA E AZIENDA DIGITALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/948",
+    "[54451] CORSO DI LAUREA IN ECONOMIA E GESTIONE AZIENDALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117",
+    "[04424] CORSO DI LAUREA IN CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/113",
+    "[08691] CORSO DI LAUREA IN ASSISTENZA SANITARIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/149",
+    "[08635] CORSO DI LAUREA IN BIOTECNOLOGIE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/22",
+    "[08692] CORSO DI LAUREA IN DIETISTICA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/142",
+    "[08693] CORSO DI LAUREA IN EDUCAZIONE PROFESSIONALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/147",
+    "[08694] CORSO DI LAUREA IN FISIOTERAPIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/148",
+    "[08695] CORSO DI LAUREA IN IGIENE DENTALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/150",
+    "[08696] CORSO DI LAUREA IN INFERMIERISTICA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/145",
+    "[08697] CORSO DI LAUREA IN OSTETRICIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/152",
+    "[08636] CORSO DI LAUREA IN SCIENZE MOTORIE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/157",
+    "[08715] CORSO DI LAUREA IN TECNICA DELLA RIABILITAZIONE PSICHIATRICA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/144",
+    "[08714] CORSO DI LAUREA IN TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI DI LAVORO": "https://unibs.coursecatalogue.cineca.it/corsi/2024/141",
+    "[08716] CORSO DI LAUREA IN TECNICHE DI LABORATORIO BIOMEDICO": "https://unibs.coursecatalogue.cineca.it/corsi/2024/146",
+    "[08717] CORSO DI LAUREA IN TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/143",
+    "[08699] ORTOTTICA ED ASSISTENZA OFTALMOLOGICA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1412",
+    "[05731] CORSO DI LAUREA IN INGEGNERIA CIVILE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/48",
+    "[05751] CORSO DI LAUREA IN INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/76",
+    "[05714] CORSO DI LAUREA IN INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1068",
+    "[05712] CORSO DI LAUREA IN INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI": "https://unibs.coursecatalogue.cineca.it/corsi/2024/83",
+    "[05771] CORSO DI LAUREA IN INGEGNERIA GESTIONALE": "https://unibs.coursecatalogue.cineca.it/corsi/2024/104",
+    "[05713] CORSO DI LAUREA IN INGEGNERIA INFORMATICA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/89",
+    "[05742] CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI": "https://unibs.coursecatalogue.cineca.it/corsi/2024/81",
+    "[05721] CORSO DI LAUREA IN INGEGNERIA PER L'AMBIENTE E IL TERRITORIO": "https://unibs.coursecatalogue.cineca.it/corsi/2024/111",
+    "[05722] CORSO DI LAUREA IN SISTEMI AGRICOLI SOSTENIBILI": "https://unibs.coursecatalogue.cineca.it/corsi/2024/908",
+    "[05724] CORSO DI LAUREA IN TECNICHE DELL'EDILIZIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1328",
+    "[05743] CORSO DI LAUREA IN TECNICHE INDUSTRIALI DI PRODOTTO E DI PROCESSO": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1329",
+    "[05715] Ingegneria fisica e matematica": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1425"
+  },
+  "pathsyears": {
+    "[54454] CORSO DI LAUREA IN BANCA E FINANZA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/118/insegnamenti/8874?codicione=0170106201800001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1453/insegnamenti/8549?codicione=0170106201800001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/118/insegnamenti/8293?codicione=0170106201800001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/118/insegnamenti/8057?codicione=0170106201800001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/118/insegnamenti/7529?codicione=0170106201800001"
+      }
+    },
+    "[54455] CORSO DI LAUREA IN ECONOMIA E AZIENDA DIGITALE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/948/insegnamenti/8551?codicione=0170106203300002",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/948/insegnamenti/8551?codicione=0170106203300002",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/948/insegnamenti/8295?codicione=0170106203300002",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/948/insegnamenti/8065?codicione=0170106203300002",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/948/insegnamenti/7588?codicione=0170106203300002"
+      }
+    },
+    "[54451] CORSO DI LAUREA IN ECONOMIA E GESTIONE AZIENDALE": {
+      "Amministrazione e controllo": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1451/insegnamenti/8778?schemaid=3056",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117/insegnamenti/8545?schemaid=3052",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/117/insegnamenti/8291?schemaid=3047",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/117/insegnamenti/8063?schemaid=2748",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/117/insegnamenti/7512?schemaid=2429"
+      },
+      "Gestione delle imprese": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1451/insegnamenti/8779?schemaid=3057",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117/insegnamenti/8546?schemaid=3054",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/117/insegnamenti/8292?schemaid=3049",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/117/insegnamenti/8064?schemaid=2750",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/117/insegnamenti/7509?schemaid=2431"
+      },
+      "Gestione del Turismo": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1451/insegnamenti/8776?schemaid=3058"
+      },
+      "Economia e gestione delle attività culturali": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117/insegnamenti/8544?schemaid=3051",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/117/insegnamenti/8290?schemaid=3046",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/117/insegnamenti/8062?schemaid=2747",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/117/insegnamenti/7511?schemaid=2428"
+      },
+      "Business": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117/insegnamenti/8542?schemaid=3053",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/117/insegnamenti/8288?schemaid=3048",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/117/insegnamenti/8060?schemaid=2749",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/117/insegnamenti/7513?schemaid=2430"
+      },
+      "Gestione del turismo": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/117/insegnamenti/8543?schemaid=3055",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/117/insegnamenti/8289?schemaid=3050",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/117/insegnamenti/8061?schemaid=2751",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/117/insegnamenti/7510?schemaid=2432"
+      }
+    },
+    "[04424] CORSO DI LAUREA IN CONSULENTE DEL LAVORO E GIURISTA D'IMPRESA": {
+      "Curriculum in Consulente del lavoro": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/113/insegnamenti/8593?schemaid=3249",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/113/insegnamenti/8355?schemaid=3247",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/113/insegnamenti/8131?schemaid=2901",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/113/insegnamenti/7552?schemaid=2542"
+      },
+      "Curriculum in Giurista d'impresa": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/113/insegnamenti/8594?schemaid=3250",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/113/insegnamenti/8356?schemaid=3248",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/113/insegnamenti/8132?schemaid=2902",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/113/insegnamenti/7553?schemaid=2543"
+      }
+    },
+    "[08691] CORSO DI LAUREA IN ASSISTENZA SANITARIA": {
+      "PIANO GENERALE": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/149/insegnamenti/8466?schemaid=2637"
+      },
+      "NA": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/149/insegnamenti/8268?codicione=0170106204900008",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/149/insegnamenti/8014?codicione=0170106204900008",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/149/insegnamenti/7470?codicione=0170106204900008"
+      }
+    },
+    "[08635] CORSO DI LAUREA IN BIOTECNOLOGIE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/22/insegnamenti/8751?codicione=0170106200200003",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1444/insegnamenti/8540?codicione=0170106200200003",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/22/insegnamenti/8297?codicione=0170106200200003",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/22/insegnamenti/8029?codicione=0170106200200003",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/22/insegnamenti/7368?codicione=0170106200200003"
+      }
+    },
+    "[08692] CORSO DI LAUREA IN DIETISTICA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/142/insegnamenti/8479?codicione=0170106204800004",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/142/insegnamenti/8479?codicione=0170106204800004",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/142/insegnamenti/8273?codicione=0170106204800004",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/142/insegnamenti/8038?codicione=0170106204800004",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/142/insegnamenti/7430?codicione=0170106204800004"
+      }
+    },
+    "[08693] CORSO DI LAUREA IN EDUCAZIONE PROFESSIONALE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/147/insegnamenti/8494?codicione=0170106204700001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/147/insegnamenti/8494?codicione=0170106204700001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/147/insegnamenti/7448?codicione=0170106204700001"
+      },
+      "Percorso dal 2022": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/147/insegnamenti/8280?schemaid=2411",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/147/insegnamenti/8033?schemaid=2124"
+      }
+    },
+    "[08694] CORSO DI LAUREA IN FISIOTERAPIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/148/insegnamenti/8502?codicione=0170106204700005",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/148/insegnamenti/8502?codicione=0170106204700005",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/148/insegnamenti/8272?codicione=0170106204700005",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/148/insegnamenti/8053?codicione=0170106204700005",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/148/insegnamenti/7477?codicione=0170106204700005"
+      }
+    },
+    "[08695] CORSO DI LAUREA IN IGIENE DENTALE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/150/insegnamenti/8277?codicione=0170106204800001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/150/insegnamenti/8483?codicione=0170106204800001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/150/insegnamenti/8277?codicione=0170106204800001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/150/insegnamenti/8016?codicione=0170106204800001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/150/insegnamenti/7468?codicione=0170106204800001"
+      }
+    },
+    "[08696] CORSO DI LAUREA IN INFERMIERISTICA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/145/insegnamenti/8500?codicione=0170106204600001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/145/insegnamenti/8500?codicione=0170106204600001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/145/insegnamenti/8270?codicione=0170106204600001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/145/insegnamenti/8019?codicione=0170106204600001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/145/insegnamenti/7472?codicione=0170106204600001"
+      }
+    },
+    "[08697] CORSO DI LAUREA IN OSTETRICIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/152/insegnamenti/8487?codicione=0170106204600003",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/152/insegnamenti/8487?codicione=0170106204600003",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/152/insegnamenti/8285?codicione=0170106204600003",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/152/insegnamenti/8022?codicione=0170106204600003",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/152/insegnamenti/7451?codicione=0170106204600003"
+      }
+    },
+    "[08636] CORSO DI LAUREA IN SCIENZE MOTORIE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/157/insegnamenti/8571?codicione=0170106202200002",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/157/insegnamenti/8571?codicione=0170106202200002",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/157/insegnamenti/8305?codicione=0170106202200002",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/157/insegnamenti/8030?codicione=0170106202200002",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/157/insegnamenti/7410?codicione=0170106202200002"
+      }
+    },
+    "[08715] CORSO DI LAUREA IN TECNICA DELLA RIABILITAZIONE PSICHIATRICA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/144/insegnamenti/8485?codicione=0170106204700009",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/144/insegnamenti/8485?codicione=0170106204700009",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/144/insegnamenti/8298?codicione=0170106204700009"
+      },
+      "3 - Percorso comune dal 2021": {
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/144/insegnamenti/8024?schemaid=2805",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/144/insegnamenti/7490?schemaid=2095"
+      }
+    },
+    "[08714] CORSO DI LAUREA IN TECNICHE DELLA PREVENZIONE NELL'AMBIENTE E NEI LUOGHI DI LAVORO": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/141/insegnamenti/8489?codicione=0170106204900006",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/141/insegnamenti/8489?codicione=0170106204900006",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/141/insegnamenti/8296?codicione=0170106204900006",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/141/insegnamenti/8018?codicione=0170106204900006",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/141/insegnamenti/7474?codicione=0170106204900006"
+      }
+    },
+    "[08716] CORSO DI LAUREA IN TECNICHE DI LABORATORIO BIOMEDICO": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/146/insegnamenti/8547?codicione=0170106204800005",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/146/insegnamenti/8547?codicione=0170106204800005",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/146/insegnamenti/8309?codicione=0170106204800005",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/146/insegnamenti/8044?codicione=0170106204800005",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/146/insegnamenti/7481?codicione=0170106204800005"
+      }
+    },
+    "[08717] CORSO DI LAUREA IN TECNICHE DI RADIOLOGIA MEDICA, PER IMMAGINI E RADIOTERAPIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/143/insegnamenti/8498?codicione=0170106204800003",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/143/insegnamenti/8498?codicione=0170106204800003",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/143/insegnamenti/8278?codicione=0170106204800003",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/143/insegnamenti/8027?codicione=0170106204800003",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/143/insegnamenti/7476?codicione=0170106204800003"
+      }
+    },
+    "[08699] ORTOTTICA ED ASSISTENZA OFTALMOLOGICA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1412/insegnamenti/8738?codicione=0170106204700010",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1412/insegnamenti/8414?codicione=0170106204700010",
+        "2023/2024": "",
+        "2022/2023": "",
+        "2021/2022": ""
+      }
+    },
+    "[05731] CORSO DI LAUREA IN INGEGNERIA CIVILE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/48/insegnamenti/8581?codicione=0170106200700007",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/48/insegnamenti/8581?codicione=0170106200700007",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/48/insegnamenti/8325?codicione=0170106200700007",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/48/insegnamenti/8107?codicione=0170106200700007",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/48/insegnamenti/7672?codicione=0170106200700007"
+      }
+    },
+    "[05751] CORSO DI LAUREA IN INGEGNERIA DELL'AUTOMAZIONE INDUSTRIALE": {
+      "L8 - Ingegneria dell'Informazione": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1474/insegnamenti/8868?schemaid=3178"
+      },
+      "L9 -INGEGNERIA INDUSTRIALE": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1474/insegnamenti/8868?schemaid=3179"
+      },
+      "Generale - Classe L9": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/76/insegnamenti/8585?schemaid=2849",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/76/insegnamenti/8255?schemaid=3168",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/76/insegnamenti/8074?schemaid=2811",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/76/insegnamenti/7271?schemaid=2476"
+      },
+      "Generale - Classe L8": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/76/insegnamenti/8584?schemaid=2850",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/76/insegnamenti/8254?schemaid=3169",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/76/insegnamenti/8073?schemaid=2812",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/76/insegnamenti/7273?schemaid=2477"
+      }
+    },
+    "[05714] CORSO DI LAUREA IN INGEGNERIA DELLE TECNOLOGIE PER L'IMPRESA DIGITALE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1068/insegnamenti/8599?codicione=0170106200800006",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1068/insegnamenti/8599?codicione=0170106200800006",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1068/insegnamenti/8337?codicione=0170106200800006",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1068/insegnamenti/8119?codicione=0170106200800006",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/1068/insegnamenti/7621?codicione=0170106200800006"
+      }
+    },
+    "[05712] CORSO DI LAUREA IN INGEGNERIA ELETTRONICA E DELLE TELECOMUNICAZIONI": {
+      "Laurea ETELT-Elettronica": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/83/insegnamenti/8589?schemaid=2853",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/83/insegnamenti/8322?schemaid=2874",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/83/insegnamenti/8121?schemaid=2876",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/83/insegnamenti/7618?schemaid=2505"
+      },
+      "Laurea ETELT-Telecomunicazioni": {
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/83/insegnamenti/8590?schemaid=2854",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/83/insegnamenti/8323?schemaid=2875",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/83/insegnamenti/8122?schemaid=2877",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/83/insegnamenti/7619?schemaid=2506"
+      }
+    },
+    "[05771] CORSO DI LAUREA IN INGEGNERIA GESTIONALE": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/104/insegnamenti/8503?codicione=0170106200900013",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/104/insegnamenti/8503?codicione=0170106200900013",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/104/insegnamenti/8244?codicione=0170106200900013",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/104/insegnamenti/8075?codicione=0170106200900013",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/104/insegnamenti/7274?codicione=0170106200900013"
+      }
+    },
+    "[05713] CORSO DI LAUREA IN INGEGNERIA INFORMATICA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/89/insegnamenti/8587?codicione=0170106200800004",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/89/insegnamenti/8587?codicione=0170106200800004",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/89/insegnamenti/8340?codicione=0170106200800004",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/89/insegnamenti/8007?codicione=0170106200800004",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/89/insegnamenti/7617?codicione=0170106200800004"
+      }
+    },
+    "[05742] CORSO DI LAUREA IN INGEGNERIA MECCANICA E DEI MATERIALI": {
+      "Meccanico": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1468/insegnamenti/8800?schemaid=3090",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/81/insegnamenti/8506?schemaid=2683",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/81/insegnamenti/8251?schemaid=3165"
+      },
+      "Materiali": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1468/insegnamenti/8801?schemaid=3091",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/81/insegnamenti/8507?schemaid=2684",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/81/insegnamenti/8252?schemaid=3166"
+      },
+      "Energia": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1468/insegnamenti/8799?schemaid=3092",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/81/insegnamenti/8505?schemaid=2685",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/81/insegnamenti/8250?schemaid=3167"
+      },
+      "MECCANICO": {
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/81/insegnamenti/8110?schemaid=2808",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/81/insegnamenti/7268?schemaid=2490"
+      },
+      "MATERIALI": {
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/81/insegnamenti/8111?schemaid=2809",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/81/insegnamenti/7269?schemaid=2491"
+      },
+      "ENERGIA": {
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/81/insegnamenti/8109?schemaid=2810",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/81/insegnamenti/7276?schemaid=2492"
+      }
+    },
+    "[05721] CORSO DI LAUREA IN INGEGNERIA PER L'AMBIENTE E IL TERRITORIO": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/111/insegnamenti/8582?codicione=0170106200700006",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/111/insegnamenti/8582?codicione=0170106200700006",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/111/insegnamenti/8329?codicione=0170106200700006",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/111/insegnamenti/8106?codicione=0170106200700006",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/111/insegnamenti/7648?codicione=0170106200700006"
+      }
+    },
+    "[05722] CORSO DI LAUREA IN SISTEMI AGRICOLI SOSTENIBILI": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/908/insegnamenti/8577?codicione=0170106202500001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/908/insegnamenti/8577?codicione=0170106202500001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/908/insegnamenti/8276?codicione=0170106202500001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/908/insegnamenti/8112?codicione=0170106202500001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/908/insegnamenti/7628?codicione=0170106202500001"
+      }
+    },
+    "[05724] CORSO DI LAUREA IN TECNICHE DELL'EDILIZIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1328/insegnamenti/8575?codicione=0170106205400001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1328/insegnamenti/8575?codicione=0170106205400001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1328/insegnamenti/8327?codicione=0170106205400001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1328/insegnamenti/8113?codicione=0170106205400001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/1328/insegnamenti/7409?codicione=0170106205400001"
+      }
+    },
+    "[05743] CORSO DI LAUREA IN TECNICHE INDUSTRIALI DI PRODOTTO E DI PROCESSO": {
+      "AUTOMAZIONE": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1329/insegnamenti/8853?schemaid=3217",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1329/insegnamenti/8510?schemaid=3218",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1329/insegnamenti/8247?schemaid=3231",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1329/insegnamenti/8050?schemaid=2138",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/1329/insegnamenti/7411?schemaid=1884"
+      },
+      "MECCANICA E MATERIALI": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1329/insegnamenti/8854?schemaid=3127",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1329/insegnamenti/8511?schemaid=3221",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1329/insegnamenti/8248?schemaid=3234",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1329/insegnamenti/8051?schemaid=2139",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/1329/insegnamenti/7412?schemaid=1885"
+      },
+      "MECCANICA ED EFFICIENZA ENERGETICA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1329/insegnamenti/8852?schemaid=3130",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1329/insegnamenti/8509?schemaid=3224",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1329/insegnamenti/8246?schemaid=3237",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1329/insegnamenti/8049?schemaid=2140",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/1329/insegnamenti/7413?schemaid=1886"
+      }
+    },
+    "[05715] Ingegneria fisica e matematica": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1425/insegnamenti/8876?codicione=0170107320800001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1425/insegnamenti/8565?codicione=0170107320800001",
+        "2023/2024": "",
+        "2022/2023": "",
+        "2021/2022": ""
+      }
+    }
+  }
+}

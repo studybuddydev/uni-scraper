@@ -1,5 +1,6 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
+import { config } from './config';
 
 interface ResultsType {
   [key: string]: string[];
@@ -151,7 +152,8 @@ async function degreeListScrapper(title: string, uniCode: string, degreePath: st
   console.log('START scraping insegnamenti');
   const insegnamentiUrls = await getExamListFromDegree(browser, page, coursesUrls, baseUrl)
   console.log('DONE scraping insegnamenti');
-  const filename = `./data/10-courses-${title}.json`;
+  const filename = `./data/${title}/10-courses-${title}.json`;
+  if (!fs.existsSync(`./data/${title}`)) fs.mkdirSync(`./data/${title}`, { recursive: true });
   fs.writeFileSync(filename, JSON.stringify(insegnamentiUrls, null, 2));
 
   console.log('FILE WRITTEN scraping insegnamenti: ', filename);
@@ -159,7 +161,7 @@ async function degreeListScrapper(title: string, uniCode: string, degreePath: st
 }
 
 async function main() {
-  degreeListScrapper('triennaliUNITN', 'unitn', '/corsi/2024?gruppo=1647269677464')
+  degreeListScrapper(config.scripingName, config.unicode, config.url)
 }
 
 main()

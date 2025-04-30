@@ -1,5 +1,6 @@
-import puppeteer, { Browser, Page } from 'puppeteer';
+import puppeteer, { Browser } from 'puppeteer';
 import fs from 'fs';
+import { config } from './config';
 
 async function extractExams(url: string, browser: Browser) {
   if (!url) return {};
@@ -33,7 +34,7 @@ async function extractExams(url: string, browser: Browser) {
 
 
 async function doFile(title: string) {
-  const filename = `./data/11-courses-${title}.json`;
+  const filename = `./data/${title}/11-courses-${title}.json`;
   const data = JSON.parse(fs.readFileSync(filename, 'utf8'));
   const browser = await puppeteer.launch({ headless: true, defaultViewport: { width: 1920, height: 1080 } });
 
@@ -54,11 +55,11 @@ async function doFile(title: string) {
         res[course][path][year] = { url, exams };
       }
       console.log('Done:', course, ' - ', path);
-      fs.writeFileSync(`./data/20-exams-${title}.json`, JSON.stringify(res, null, 2));
+      fs.writeFileSync(`./data/${title}/20-exams-${title}.json`, JSON.stringify(res, null, 2));
     }
   }
 
   await browser.close();
 }
 
-doFile('triennaliUNITN');
+doFile(config.scripingName);

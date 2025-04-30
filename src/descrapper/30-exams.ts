@@ -1,6 +1,7 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
 import { url } from 'inspector';
+import { config } from './config';
 
 async function extractExamData(page: Page): Promise<any> {
   const data = await page.evaluate(() => {
@@ -106,7 +107,7 @@ async function extractExams(url: string, browser: Browser): Promise<any[]> {
 }
 
 async function doFile(title: string) {
-  const filename = `./data/21-exams-${title}.json`;
+  const filename = `./data/${title}/21-exams-${title}.json`;
   const data = JSON.parse(fs.readFileSync(filename, 'utf8'));
   const browser = await puppeteer.launch({ headless: true, defaultViewport: { width: 1920, height: 1080 } });
   const res: any = {}
@@ -115,7 +116,7 @@ async function doFile(title: string) {
   //   console.log('Starting:', exam.url);
   //   const eData = await extractExams(exam.url, browser);
   //   res[exam.url] = eData;
-  //   fs.writeFileSync(`./data/30-exams-${title}.json`, JSON.stringify(res, null, 2));
+  //   fs.writeFileSync(`./data/${title}/30-exams-${title}.json`, JSON.stringify(res, null, 2));
   // }
 
   const batchSize = 25;
@@ -134,7 +135,7 @@ async function doFile(title: string) {
       })
     );
     
-    fs.writeFileSync(`./data/30-exams-${title}.json`, JSON.stringify(res, null, 2));
+    fs.writeFileSync(`./data/${title}/30-exams-${title}.json`, JSON.stringify(res, null, 2));
     const duration = ((Date.now() - batchStartTime) / 1000)
     const timeRemaining = (duration * (data.length / batch.length - 1)) / 60;
     console.log(`Batch completed in ${duration.toFixed(0)} seconds, finishing in ${timeRemaining.toFixed(1)} minutes`);
@@ -145,4 +146,4 @@ async function doFile(title: string) {
 }
 
 
-doFile('triennaliUNITN');
+doFile(config.scripingName);
