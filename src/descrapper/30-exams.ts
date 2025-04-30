@@ -1,12 +1,15 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
 import fs from 'fs';
-import { url } from 'inspector';
 import { config } from './config';
 
 async function extractExamData(page: Page): Promise<any> {
   const data = await page.evaluate(() => {
 
     const results: any = {};
+
+    const codeTitle = document.querySelector('.corso-title')?.textContent?.trim() || '';
+    const code = codeTitle.split(']')[0].replace('[', '').trim();
+    const title = codeTitle.split('] - ')[1].trim();
 
     const tEl = document.querySelectorAll('.insegnamento-accordion .accordion > dt');
     const dEl = document.querySelectorAll('.insegnamento-accordion .accordion > dd');
@@ -41,7 +44,7 @@ async function extractExamData(page: Page): Promise<any> {
       if (title && description) results[title] = description;
     });
 
-    return results;
+    return { data: results, code, title };
 
   });
   return data;
@@ -77,9 +80,13 @@ async function extractExams(url: string, browser: Browser): Promise<any[]> {
 
 
   if (MandF.moduli.length === 0 && MandF.frazioni.length === 0) {
-    const data = await extractExamData(page);
+    const res = await extractExamData(page);
     await page.close();
-    return [{ data, url }];
+
+    const data = res.data;
+    const code = res.code;
+    const title = res.title;
+    return [{ code, title, url, data }];
   }
 
   const results: any[] = [];
