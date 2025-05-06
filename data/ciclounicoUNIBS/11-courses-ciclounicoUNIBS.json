@@ -1,0 +1,91 @@
+{
+  "courses": {
+    "[04181] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN GIURISPRUDENZA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/112",
+    "[08622] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN FARMACIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1402",
+    "[08624] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN MEDICINA E CHIRURGIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/158",
+    "[08627] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN ODONTOIATRIA E PROTESI DENTARIA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/156",
+    "[05781] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN INGEGNERIA EDILE-ARCHITETTURA": "https://unibs.coursecatalogue.cineca.it/corsi/2024/101"
+  },
+  "pathsyears": {
+    "[04181] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN GIURISPRUDENZA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/112/insegnamenti/8586?codicione=0170107051400001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/112/insegnamenti/8586?codicione=0170107051400001",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/112/insegnamenti/8335?codicione=0170107051400001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/112/insegnamenti/8124?codicione=0170107051400001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/112/insegnamenti/7548?codicione=0170107051400001"
+      }
+    },
+    "[08622] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN FARMACIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1402/insegnamenti/8497?codicione=0170107301400001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1402/insegnamenti/8497?codicione=0170107301400001",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/1402/insegnamenti/8002?codicione=0170107301400001",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/848/insegnamenti/7428?codicione=0170107301400001"
+      },
+      "percorso comune": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402/insegnamenti/8282?schemaid=2867"
+      },
+      "OPTANTI 5° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402/insegnamenti/8282?schemaid=2868"
+      },
+      "OPTANTI 4° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402/insegnamenti/8282?schemaid=2869"
+      },
+      "OPTANTI 3° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402/insegnamenti/8282?schemaid=2870"
+      },
+      "OPTANTI 2° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402/insegnamenti/8282?schemaid=2871"
+      }
+    },
+    "[08624] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN MEDICINA E CHIRURGIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/158/insegnamenti/8464?codicione=0170107304200001",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/158/insegnamenti/8464?codicione=0170107304200001"
+      },
+      "Piano Studio Medicina e Chirurgia": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/158/insegnamenti/8237?schemaid=2925",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/158/insegnamenti/8004?schemaid=2372"
+      },
+      "Piano studio Medicina e Chirurgia": {
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/158/insegnamenti/7289?schemaid=2371"
+      }
+    },
+    "[08627] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN ODONTOIATRIA E PROTESI DENTARIA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/156/insegnamenti/8469?codicione=0170107304700004",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/156/insegnamenti/8469?codicione=0170107304700004",
+        "2022/2023": "",
+        "2021/2022": ""
+      },
+      "OPTANTI 4° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2720"
+      },
+      "PERCORSO COMUNE": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2716"
+      },
+      "OPTANTI 5° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2717"
+      },
+      "OPTANTI 2° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2718"
+      },
+      "OPTANTI 6° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2719"
+      },
+      "OPTANTI 3° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2721"
+      }
+    },
+    "[05781] CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN INGEGNERIA EDILE-ARCHITETTURA": {
+      "NA": {
+        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/101/insegnamenti/8573?codicione=0170107311900005",
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/101/insegnamenti/8573?codicione=0170107311900005",
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/101/insegnamenti/8338?codicione=0170107311900005",
+        "2022/2023": "https://unibs.coursecatalogue.cineca.it/corsi/2022/101/insegnamenti/8115?codicione=0170107311900005",
+        "2021/2022": "https://unibs.coursecatalogue.cineca.it/corsi/2021/101/insegnamenti/7616?codicione=0170107311900005"
+      }
+    }
+  }
+}
