@@ -1,5 +1,5 @@
 export const config = {
   scripingName: 'triennaliUNIBS',
-  unicode: 'unitn',
+  unicode: 'unibs',
   url: '/corsi/2024?gruppo=1647269677464',
 }
