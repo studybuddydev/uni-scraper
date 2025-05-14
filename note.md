@@ -22,3 +22,8 @@ UNIVERSITÀ
   Modulo,
   Frazione,
 }
+
+TODO
+- Data course
+- AI 🌈
+- check mapping for all possible entries on exams
