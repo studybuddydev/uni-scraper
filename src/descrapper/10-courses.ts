@@ -75,7 +75,7 @@ async function getExamListFromDegree(browser: Browser, page: Page, urls: string[
       console.log('  Course: ', pageTitle);
 
       let results: ResultsType = {};
-      const selectionValues = ['0: Object', '1: Object', '2: Object', '3: Object', '4: Object']; // year selection 2024/2025 is 0 
+      const selectionValues = ['0: Object', '1: Object', '2: Object', '3: Object', '4: Object', '5: Object', '6: Object']; // year selection 2024/2025 is 0 
 
       for (let i = 0; i < selectionValues.length; i++) {
         const value = selectionValues[i];

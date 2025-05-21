@@ -19,7 +19,6 @@ const keyMapping: { [key: string]: string } = {
   'Tipo attività didattica': 'teachingActivityType',
   'Valutazione': 'evaluation',
   'Periodo didattico': 'teachingPeriod',
-  'Durata': 'duration',
   'Modalita didattica': 'teachingMode',
   'Settore scientifico disciplinare': 'disciplinarySector',
   'Sede': 'location',
@@ -170,7 +169,7 @@ function parseExam(baseUrl: string, exam: any) {
     coursePath: exam.data['Informazioni generali']?.['Percorso'] ?? null,
     year: +(exam.data['Anno di corso']?.[0] ?? null),
 
-    all: exam.data,
+    // all: exam.data,
 
   };
 
@@ -203,6 +202,15 @@ for (const eUrl in exams) {
 // console.log('Keys:', keys);
 
 // save file
-const outputFile = `./data/${title}/41-exams-${title}.json`;
+const outputFile = `./data/${title}/31-exams-${title}.json`;
 fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
-console.log('End');
+console.log('End json');
+
+// save also in jsonl
+const outputFileJsonl = `./data/${title}/31-exams-${title}.jsonl`;
+const outputStream = fs.createWriteStream(outputFileJsonl, { flags: 'a' });
+for (const r of results) {
+  outputStream.write(JSON.stringify(r) + '\n');
+}
+outputStream.end();
+console.log('End jsonl');

@@ -17,4 +17,10 @@ ts-node src/descrapper/21-courses-exam-parser.ts
 echo "Running 30"
 ts-node src/descrapper/30-exams.ts
 
+echo "Running 31"
+ts-node src/descrapper/31-analysis-exams.ts
+
+echo "Running 32"
+ts-node src/descrapper/32-analysis-courses.ts
+
 echo "Done"

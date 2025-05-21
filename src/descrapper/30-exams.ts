@@ -137,8 +137,23 @@ async function doFile(title: string) {
     await Promise.all(
       batch.map(async (exam: any) => {
         // console.log('Starting:', exam.url);
-        const eData = await extractExams(exam.url, browser);
-        res[exam.url] = eData;
+        let attempts = 0;
+        const maxAttempts = 3; // Initial attempt + 2 retries
+        
+        while (attempts < maxAttempts) {
+          try {
+            res[exam.url] = await extractExams(exam.url, browser);
+            break; // Success, exit the loop
+          } catch (error) {
+            attempts++;
+            if (attempts >= maxAttempts) {
+              console.error(`Failed to extract exam data from ${exam.url} after ${maxAttempts} attempts:`, error);
+            } else {
+              console.log(`Attempt ${attempts} failed for ${exam.url}, retrying...`);
+              await new Promise(resolve => setTimeout(resolve, 2000)); // Wait before retry
+            }
+          }
+        }
       })
     );
     

@@ -1,0 +1,42 @@
+{
+  "courses": {
+    "[0205F] Giurisprudenza": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10055",
+    "[0336F] Ingegneria edile-Architettura": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10175",
+    "[1001S] Medicina e Chirurgia": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10739"
+  },
+  "pathsyears": {
+    "[0205F] Giurisprudenza": {
+      "NA": {
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10055/insegnamenti/50724?codicione=0220107051400002",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10818/insegnamenti/50371?codicione=0220107051400002",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10055/insegnamenti/50329?codicione=0220107051400002",
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10055/insegnamenti/49406?codicione=0220107051400002",
+        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10055/insegnamenti/49405?codicione=0220107051400002",
+        "2020/2021": "https://unitn.coursecatalogue.cineca.it/corsi/2020/10055/insegnamenti/49404?codicione=0220107051400002",
+        "2019/2020": "https://unitn.coursecatalogue.cineca.it/corsi/2019/10055/insegnamenti/49403?codicione=0220107051400002"
+      }
+    },
+    "[0336F] Ingegneria edile-Architettura": {
+      "NA": {
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10175/insegnamenti/50350?codicione=0220107311900001",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10175/insegnamenti/50350?codicione=0220107311900001",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10175/insegnamenti/50218?codicione=0220107311900001",
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10175/insegnamenti/49498?codicione=0220107311900001",
+        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10175/insegnamenti/49497?codicione=0220107311900001",
+        "2020/2021": "https://unitn.coursecatalogue.cineca.it/corsi/2020/10175/insegnamenti/49496?codicione=0220107311900001",
+        "2019/2020": ""
+      }
+    },
+    "[1001S] Medicina e Chirurgia": {
+      "NA": {
+        "2025/2026": "https://unitn.coursecatalogue.cineca.it/corsi/2025/10739/insegnamenti/50517?codicione=0220107304200001",
+        "2024/2025": "https://unitn.coursecatalogue.cineca.it/corsi/2024/10739/insegnamenti/50517?codicione=0220107304200001",
+        "2023/2024": "https://unitn.coursecatalogue.cineca.it/corsi/2023/10739/insegnamenti/50282?codicione=0220107304200001",
+        "2022/2023": "https://unitn.coursecatalogue.cineca.it/corsi/2022/10739/insegnamenti/49921?codicione=0220107304200001",
+        "2021/2022": "https://unitn.coursecatalogue.cineca.it/corsi/2021/10739/insegnamenti/49920?codicione=0220107304200001",
+        "2020/2021": "https://unitn.coursecatalogue.cineca.it/corsi/2020/10739/insegnamenti/49919?codicione=0220107304200001",
+        "2019/2020": ""
+      }
+    }
+  }
+}
