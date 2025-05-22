@@ -1,8 +1,8 @@
 const c = {
   // scripingName: 'ciclounicoUNITN',
-  unicode: 'unitn',
+  unicode: 'unibs',
   type: 'ciclounico',
-  url: '/corsi/2024?gruppo=1679583500227',
+  url: '/corsi/2024?gruppo=1619785172027',
   numberOfYears: 5
 }
 
