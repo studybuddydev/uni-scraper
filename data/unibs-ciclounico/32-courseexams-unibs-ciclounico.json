@@ -1,0 +1,926 @@
+[
+  {
+    "id": "unibs-04181",
+    "universityId": "unibs",
+    "name": "CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN GIURISPRUDENZA",
+    "lastUpdated": "2025-05-22T16:36:50.176Z",
+    "deleted": null,
+    "type": "ciclounico",
+    "exams": [
+      {
+        "examId": "unibs-11001",
+        "year": 1
+      },
+      {
+        "examId": "unibs-11013",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000177",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000178",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000360",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000361",
+        "year": 1
+      },
+      {
+        "examId": "unibs-JUS0016",
+        "year": 1
+      },
+      {
+        "examId": "unibs-701684",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701685",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701686",
+        "year": 2
+      },
+      {
+        "examId": "unibs-A004204",
+        "year": 2
+      },
+      {
+        "examId": "unibs-JUS0008",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701735",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701736",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701765",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701811",
+        "year": 2
+      },
+      {
+        "examId": "unibs-11615",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701725",
+        "year": 2
+      },
+      {
+        "examId": "unibs-701687",
+        "year": 3
+      },
+      {
+        "examId": "unibs-701688",
+        "year": 3
+      },
+      {
+        "examId": "unibs-701689",
+        "year": 3
+      },
+      {
+        "examId": "unibs-701691",
+        "year": 3
+      },
+      {
+        "examId": "unibs-701692",
+        "year": 3
+      },
+      {
+        "examId": "unibs-703685",
+        "year": 3
+      },
+      {
+        "examId": "unibs-JUS0007",
+        "year": 3
+      },
+      {
+        "examId": "unibs-701695",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701696",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701698",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701704",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000397",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A003124",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11037",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11039",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11058",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11060",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11084",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11615",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11618",
+        "year": 4
+      },
+      {
+        "examId": "unibs-700346",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701028",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701029",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701032",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701081",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701694",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701713",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701725",
+        "year": 4
+      },
+      {
+        "examId": "unibs-701728",
+        "year": 4
+      },
+      {
+        "examId": "unibs-702082",
+        "year": 4
+      },
+      {
+        "examId": "unibs-702084",
+        "year": 4
+      },
+      {
+        "examId": "unibs-703735",
+        "year": 4
+      },
+      {
+        "examId": "unibs-750704",
+        "year": 4
+      },
+      {
+        "examId": "unibs-750706",
+        "year": 4
+      },
+      {
+        "examId": "unibs-750718",
+        "year": 4
+      },
+      {
+        "examId": "unibs-751113",
+        "year": 4
+      },
+      {
+        "examId": "unibs-751115",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000179",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000383",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000397",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000565",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000567",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000568",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000569",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000576",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A003124",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004203",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A005527",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A005532",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0001",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0003",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0004",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0015",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0017",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0055",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0057",
+        "year": 4
+      },
+      {
+        "examId": "unibs-JUS0058",
+        "year": 4
+      },
+      {
+        "examId": "unibs-AT0001",
+        "year": 4
+      },
+      {
+        "examId": "unibs-AT0002",
+        "year": 4
+      },
+      {
+        "examId": "unibs-11049",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11620",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701703",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000359",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11026",
+        "year": 5
+      },
+      {
+        "examId": "unibs-700361",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11037",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701694",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0015",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11037",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11039",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11058",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11060",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11084",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11615",
+        "year": 5
+      },
+      {
+        "examId": "unibs-11618",
+        "year": 5
+      },
+      {
+        "examId": "unibs-700346",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701028",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701029",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701032",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701081",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701694",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701713",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701725",
+        "year": 5
+      },
+      {
+        "examId": "unibs-701728",
+        "year": 5
+      },
+      {
+        "examId": "unibs-702082",
+        "year": 5
+      },
+      {
+        "examId": "unibs-702084",
+        "year": 5
+      },
+      {
+        "examId": "unibs-703735",
+        "year": 5
+      },
+      {
+        "examId": "unibs-750704",
+        "year": 5
+      },
+      {
+        "examId": "unibs-750706",
+        "year": 5
+      },
+      {
+        "examId": "unibs-750718",
+        "year": 5
+      },
+      {
+        "examId": "unibs-751113",
+        "year": 5
+      },
+      {
+        "examId": "unibs-751115",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000179",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000383",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000387",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000397",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000565",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000567",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000568",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000569",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000576",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A003124",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A004203",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A005527",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A005532",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0001",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0003",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0004",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0006",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0015",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0017",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0055",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0057",
+        "year": 5
+      },
+      {
+        "examId": "unibs-JUS0058",
+        "year": 5
+      },
+      {
+        "examId": "unibs-AT0001",
+        "year": 5
+      },
+      {
+        "examId": "unibs-AT0002",
+        "year": 5
+      }
+    ],
+    "fullName": "04181 - CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN GIURISPRUDENZA",
+    "courseId": "04181"
+  },
+  {
+    "id": "unibs-08622",
+    "universityId": "unibs",
+    "name": "CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN FARMACIA",
+    "lastUpdated": "2025-05-22T16:36:50.176Z",
+    "deleted": null,
+    "type": "ciclounico",
+    "exams": [
+      {
+        "examId": "unibs-A004475",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004478",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004481",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A005422",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A005542",
+        "year": 1
+      },
+      {
+        "examId": "unibs-MED0694",
+        "year": 1
+      },
+      {
+        "examId": "unibs-MED0695",
+        "year": 1
+      },
+      {
+        "examId": "unibs-MED0699",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004494",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004495",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004497",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004501",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004506",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004511",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A004515",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004517",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004518",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004519",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004521",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004522",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A004524",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A004525",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A004526",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A004527",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A004528",
+        "year": 5
+      }
+    ],
+    "fullName": "08622 - CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN FARMACIA",
+    "courseId": "08622"
+  },
+  {
+    "id": "unibs-08624",
+    "universityId": "unibs",
+    "name": "CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN MEDICINA E CHIRURGIA",
+    "lastUpdated": "2025-05-22T16:36:50.176Z",
+    "deleted": null,
+    "type": "ciclounico",
+    "exams": [
+      {
+        "examId": "unibs-702886",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702939",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702940",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702947",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000592",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004853",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004857",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A004861",
+        "year": 1
+      }
+    ],
+    "fullName": "08624 - CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN MEDICINA E CHIRURGIA",
+    "courseId": "08624"
+  },
+  {
+    "id": "unibs-08627",
+    "universityId": "unibs",
+    "name": "CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN ODONTOIATRIA E PROTESI DENTARIA",
+    "lastUpdated": "2025-05-22T16:36:50.176Z",
+    "deleted": null,
+    "type": "ciclounico",
+    "exams": [
+      {
+        "examId": "unibs-703257",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703258",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703259",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703261",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703262",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703263",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703308",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000582",
+        "year": 1
+      }
+    ],
+    "fullName": "08627 - CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN ODONTOIATRIA E PROTESI DENTARIA",
+    "courseId": "08627"
+  },
+  {
+    "id": "unibs-05781",
+    "universityId": "unibs",
+    "name": "CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN INGEGNERIA EDILE-ARCHITETTURA",
+    "lastUpdated": "2025-05-22T16:36:50.176Z",
+    "deleted": null,
+    "type": "ciclounico",
+    "exams": [
+      {
+        "examId": "unibs-703646",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703648",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703650",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A000493",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A005674",
+        "year": 1
+      },
+      {
+        "examId": "unibs-A005675",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702973",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702974",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702975",
+        "year": 1
+      },
+      {
+        "examId": "unibs-702976",
+        "year": 1
+      },
+      {
+        "examId": "unibs-703652",
+        "year": 2
+      },
+      {
+        "examId": "unibs-703657",
+        "year": 2
+      },
+      {
+        "examId": "unibs-703658",
+        "year": 2
+      },
+      {
+        "examId": "unibs-703660",
+        "year": 2
+      },
+      {
+        "examId": "unibs-750579",
+        "year": 2
+      },
+      {
+        "examId": "unibs-A000513",
+        "year": 2
+      },
+      {
+        "examId": "unibs-A000519",
+        "year": 2
+      },
+      {
+        "examId": "unibs-703659",
+        "year": 3
+      },
+      {
+        "examId": "unibs-703671",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A000505",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A000522",
+        "year": 3
+      },
+      {
+        "examId": "unibs-A000532",
+        "year": 3
+      },
+      {
+        "examId": "unibs-703666",
+        "year": 4
+      },
+      {
+        "examId": "unibs-703669",
+        "year": 4
+      },
+      {
+        "examId": "unibs-703673",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000510",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000529",
+        "year": 4
+      },
+      {
+        "examId": "unibs-A000535",
+        "year": 4
+      },
+      {
+        "examId": "unibs-703672",
+        "year": 5
+      },
+      {
+        "examId": "unibs-703675",
+        "year": 5
+      },
+      {
+        "examId": "unibs-750700",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000540",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A005466",
+        "year": 5
+      },
+      {
+        "examId": "unibs-703792",
+        "year": 5
+      },
+      {
+        "examId": "unibs-703793",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000370",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000556",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000356",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000358",
+        "year": 5
+      },
+      {
+        "examId": "unibs-A000559",
+        "year": 5
+      },
+      {
+        "examId": "unibs-ING0173",
+        "year": 5
+      }
+    ],
+    "fullName": "05781 - CORSO DI LAUREA MAGISTRALE A CICLO UNICO IN INGEGNERIA EDILE-ARCHITETTURA",
+    "courseId": "05781"
+  }
+]

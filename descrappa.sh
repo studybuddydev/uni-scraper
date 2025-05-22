@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Staring"
 echo "Did you remember to set up config.ts?"
 echo ""
