@@ -1,0 +1,51 @@
+{
+  "university": {
+    "id": "unibs",
+    "name": "unibs-ciclounico",
+    "baseUrl": "https://unibs.coursecatalogue.cineca.it",
+    "type": "ciclounico",
+    "coursesPath": "/corsi/2025?gruppo=1619785172027",
+    "numberOfYears": 6
+  },
+  "scraping": {
+    "concurrency": 3,
+    "delayBetweenRequests": 1000,
+    "maxRetries": 3,
+    "retryDelay": 2000,
+    "timeout": 30000,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "enableCaching": true,
+    "respectRobotsTxt": true
+  },
+  "validation": {
+    "enforceRequired": true,
+    "validateUrls": true,
+    "validateDates": true,
+    "maxTitleLength": 200,
+    "maxDescriptionLength": 10000
+  },
+  "output": {
+    "dataDir": "./data",
+    "logsDir": "./logs",
+    "reportsDir": "./reports",
+    "backupDir": "./backups",
+    "sessionPrefix": "agentic",
+    "enableBackups": true,
+    "compressionLevel": 6
+  },
+  "recovery": {
+    "enableCheckpoints": true,
+    "checkpointInterval": 100,
+    "maxSessionRetention": 30
+  },
+  "monitoring": {
+    "enableMetrics": true,
+    "enableProgressTracking": true,
+    "enableResourceMonitoring": true,
+    "alertThresholds": {
+      "errorRate": 0.1,
+      "memoryUsage": 0.8,
+      "diskUsage": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "checkpoint": {
+    "sessionId": "agentic-2025-06-24T18-33-33",
+    "timestamp": "2025-06-24T18:34:31.661Z",
+    "step": "course-discovery",
+    "progress": {
+      "total": 5,
+      "completed": 5,
+      "failed": 0,
+      "percentage": 100,
+      "rate": 0.08621432882145012,
+      "eta": 0,
+      "currentItem": "Processing course 5/5"
+    },
+    "processedItems": [],
+    "pendingItems": [],
+    "failedItems": []
+  },
+  "data": {
+    "courses": []
+  }
+}

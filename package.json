@@ -19,7 +19,13 @@
     "courses": "pnpm run build && node dist/unibs/01_getCourses.js",
     "examurls": "pnpm run build && node dist/02_getExamsUrls.js",
     "syllabus": "pnpm run build && node dist/03_getSyllabus.js",
-    "idtoname": "pnpm run build && node dist/course_id_to_name.js"
+    "idtoname": "pnpm run build && node dist/course_id_to_name.js",
+    "agentic:full": "pnpm run build && node dist/src/agentic_magic/scripts/run-full-pipeline.js",
+    "agentic:courses": "pnpm run build && node dist/src/agentic_magic/scripts/discover-courses.js",
+    "agentic:exams": "pnpm run build && node dist/src/agentic_magic/scripts/extract-exams.js",
+    "agentic:validate": "pnpm run build && node dist/src/agentic_magic/scripts/validate-data.js",
+    "agentic:retry": "pnpm run build && node dist/src/agentic_magic/scripts/retry-failed.js",
+    "agentic:rescrape": "pnpm run build && node dist/src/agentic_magic/scripts/rescrape-items.js"
   },
   "keywords": [],
   "author": "",

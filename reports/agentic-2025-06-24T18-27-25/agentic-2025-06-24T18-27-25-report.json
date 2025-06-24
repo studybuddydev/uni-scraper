@@ -1,0 +1,55 @@
+{
+  "sessionId": "agentic-2025-06-24T18-27-25",
+  "startTime": "2025-06-24T18:27:25.140Z",
+  "endTime": "2025-06-24T18:28:22.992Z",
+  "status": "completed",
+  "summary": {
+    "totalItems": 0,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0,
+    "successRate": 0,
+    "duration": 57852
+  },
+  "courses": {
+    "discovered": 0,
+    "successful": 0,
+    "failed": 0,
+    "failedItems": []
+  },
+  "exams": {
+    "extracted": 0,
+    "successful": 0,
+    "failed": 0,
+    "failedItems": []
+  },
+  "errors": {
+    "byType": {
+      "NETWORK": 0,
+      "PARSING": 0,
+      "VALIDATION": 0,
+      "TIMEOUT": 0,
+      "RATE_LIMIT": 0,
+      "AUTHENTICATION": 0,
+      "NOT_FOUND": 0,
+      "SERVER_ERROR": 0,
+      "UNKNOWN": 0
+    },
+    "byCode": {},
+    "topErrors": []
+  },
+  "performance": {
+    "averageRequestTime": 0,
+    "requestsPerSecond": 0,
+    "memoryUsage": {
+      "peak": 0,
+      "average": 0
+    },
+    "networkStats": {
+      "totalRequests": 0,
+      "failedRequests": 0,
+      "retries": 0,
+      "timeouts": 0
+    }
+  }
+}
