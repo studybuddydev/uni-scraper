@@ -23,6 +23,7 @@
     "agentic:full": "pnpm run build && node dist/src/agentic_magic/scripts/run-full-pipeline.js",
     "agentic:courses": "pnpm run build && node dist/src/agentic_magic/scripts/discover-courses.js",
     "agentic:exams": "pnpm run build && node dist/src/agentic_magic/scripts/extract-exams.js",
+    "agentic:scrape-details": "pnpm run build && node dist/src/agentic_magic/scripts/scrape-exam-details.js",
     "agentic:validate": "pnpm run build && node dist/src/agentic_magic/scripts/validate-data.js",
     "agentic:retry": "pnpm run build && node dist/src/agentic_magic/scripts/retry-failed.js",
     "agentic:rescrape": "pnpm run build && node dist/src/agentic_magic/scripts/rescrape-items.js",

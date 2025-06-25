@@ -12,6 +12,10 @@ interface ExamInfo {
   url: string;
   courseId?: string;
   courseName?: string;
+  academicYear?: string;
+  semester?: string;
+  cfu?: number;
+  hours?: number;
 }
 
 interface CoursePathsYears {
@@ -30,6 +34,10 @@ interface YearExams {
     id: string;
     name: string;
     url: string;
+    academicYear: string;
+    semester: string;
+    cfu: number;
+    hours: number;
   }>;
 }
 
@@ -147,7 +155,7 @@ export class ExamExtractorNew {
           this.logger.info(`Completed course: ${courseName} - Path: ${pathName}`);
           
           // Save intermediate results to session directory
-          const sessionDir = path.join(process.cwd(), 'data', `agentic-${this.sessionId}`);
+          const sessionDir = path.join(process.cwd(), 'data', this.sessionId);
           if (!fs.existsSync(sessionDir)) {
             fs.mkdirSync(sessionDir, { recursive: true });
           }
@@ -249,6 +257,7 @@ export class ExamExtractorNew {
               console.log(`Year ${yearIndex}: id="${year}", name="${yearName}", exams=${examElements.length}`);
               
               res[year || yearName] = Array.from(examElements).map((examElement) => {
+                // Extract exam name and URL
                 const nameElement = examElement.querySelector('a');
                 const id = nameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
                 const name = nameElement?.textContent?.trim()
@@ -258,10 +267,46 @@ export class ExamExtractorNew {
                   .trim();
                 const examUrl = nameElement?.getAttribute('href') || '#';
                 
+                // Extract additional information from the card
+                const cardRight = examElement.querySelector('.card-insegnamento-right');
+                
+                // Extract academic year (Anno di offerta)
+                const yearOfferingElement = cardRight?.querySelector('.card-insegnamento-footer div:first-child');
+                const yearOffering = yearOfferingElement?.textContent?.trim() || '';
+                const academicYear = yearOffering.match(/(\d{4}\/\d{4})/)?.[1] || '';
+                
+                // Extract CFU
+                const cfuElement = cardRight?.querySelector('.card-insegnamento-cfu');
+                const cfuText = cfuElement?.textContent?.trim() || '';
+                const cfu = cfuText.match(/(\d+)\s*CFU/)?.[1] || '';
+                
+                // Extract hours
+                const hoursElement = cardRight?.querySelector('.card-insegnamento-ore');
+                const hoursText = hoursElement?.textContent?.trim() || '';
+                const hours = hoursText.match(/(\d+)\s*ore/)?.[1] || '';
+                
+                // Extract semester - look for semester information in footer divs
+                const footerDivs = cardRight?.querySelectorAll('.card-insegnamento-footer div');
+                let semester = '';
+                if (footerDivs) {
+                  Array.from(footerDivs).forEach(div => {
+                    const text = div.textContent?.trim() || '';
+                    if (text.includes('Semestre') || text.includes('semestre')) {
+                      semester = text;
+                    }
+                  });
+                }
+                
+                console.log(`Extracted exam: ${name}, CFU: ${cfu}, Hours: ${hours}, Year: ${academicYear}, Semester: ${semester}`);
+                
                 return { 
                   id, 
                   name, 
-                  url: examUrl ? `${baseUrl}${examUrl}` : examUrl 
+                  url: examUrl ? `${baseUrl}${examUrl}` : examUrl,
+                  academicYear,
+                  semester,
+                  cfu: cfu ? parseInt(cfu, 10) : 0,
+                  hours: hours ? parseInt(hours, 10) : 0
                 };
               }).filter((x) => x !== null && x.id && x.name);
             });
@@ -310,7 +355,11 @@ export class ExamExtractorNew {
                 name: exam.name,
                 url: exam.url,
                 courseId,
-                courseName: courseName.replace(/\[[^\]]+\]\s*/, '').trim()
+                courseName: courseName.replace(/\[[^\]]+\]\s*/, '').trim(),
+                academicYear: exam.academicYear,
+                semester: exam.semester,
+                cfu: exam.cfu,
+                hours: exam.hours
               });
             }
           }

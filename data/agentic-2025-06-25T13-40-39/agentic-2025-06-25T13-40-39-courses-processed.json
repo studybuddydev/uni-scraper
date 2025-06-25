@@ -1,23 +1,11 @@
 {
   "courses": {
-    "[04181R] GIURISPRUDENZA": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498",
     "[08622R] FARMACIA": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "[08624R] MEDICINA E CHIRURGIA": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446",
     "[08627R] ODONTOIATRIA E PROTESI DENTARIA": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
     "[05781R] INGEGNERIA EDILE-ARCHITETTURA": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467"
   },
   "pathsyears": {
-    "[04181R] GIURISPRUDENZA": {
-      "PERCORSO GIUSPRIVATISTICO": {
-        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498/insegnamenti/8899?schemaid=3278"
-      },
-      "PERCORSO GIUSPUBBLICISTICO": {
-        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498/insegnamenti/8901?schemaid=3280"
-      },
-      "PERCORSO GIUSPENALISTICO": {
-        "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498/insegnamenti/8900?schemaid=3281"
-      }
-    },
     "[08622R] FARMACIA": {
       "NA": {
         "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458/insegnamenti/8773?codicione=0170107301400001",
@@ -54,8 +42,25 @@
     "[08627R] ODONTOIATRIA E PROTESI DENTARIA": {
       "NA": {
         "2025/2026": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482/insegnamenti/8767?codicione=0170107304700004",
-        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1482/insegnamenti/8469?codicione=0170107304700004",
-        "2020/2021": "https://unibs.coursecatalogue.cineca.it/corsi/2020/156/insegnamenti/2376?codicione=0170107304700004"
+        "2024/2025": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1482/insegnamenti/8469?codicione=0170107304700004"
+      },
+      "OPTANTI 4° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2720"
+      },
+      "PERCORSO COMUNE": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2716"
+      },
+      "OPTANTI 5° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2717"
+      },
+      "OPTANTI 2° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2718"
+      },
+      "OPTANTI 6° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2719"
+      },
+      "OPTANTI 3° ANNO": {
+        "2023/2024": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2721"
       }
     },
     "[05781R] INGEGNERIA EDILE-ARCHITETTURA": {

@@ -1,0 +1,6 @@
+VALIDATION REPORT
+================
+
+Total Items: 0
+Valid Items: 0 (NaN%)
+Invalid Items: 0 (NaN%)

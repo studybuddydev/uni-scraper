@@ -2,6 +2,7 @@
   {
     "courseName": "[04181R] GIURISPRUDENZA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "PERCORSO GIUSPRIVATISTICO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498?codicione=0170107051400001",
@@ -10,6 +11,7 @@
   {
     "courseName": "[04181R] GIURISPRUDENZA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "PERCORSO GIUSPUBBLICISTICO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498?codicione=0170107051400001",
@@ -18,6 +20,7 @@
   {
     "courseName": "[04181R] GIURISPRUDENZA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "PERCORSO GIUSPENALISTICO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1498?codicione=0170107051400001",
@@ -26,6 +29,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458?codicione=0170107301400001",
@@ -34,6 +38,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2024/2025",
+    "yearLevel": 2,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1458?codicione=0170107301400001",
@@ -42,6 +47,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "percorso comune",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402?codicione=0170107301400001",
@@ -50,6 +56,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "OPTANTI 5° ANNO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402?codicione=0170107301400001",
@@ -58,6 +65,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "OPTANTI 4° ANNO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402?codicione=0170107301400001",
@@ -66,6 +74,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "OPTANTI 3° ANNO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402?codicione=0170107301400001",
@@ -74,6 +83,7 @@
   {
     "courseName": "[08622R] FARMACIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "OPTANTI 2° ANNO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1458",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/1402?codicione=0170107301400001",
@@ -82,6 +92,7 @@
   {
     "courseName": "[08624R] MEDICINA E CHIRURGIA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446?codicione=0170107304200001",
@@ -90,6 +101,7 @@
   {
     "courseName": "[08624R] MEDICINA E CHIRURGIA",
     "year": "2024/2025",
+    "yearLevel": 2,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1446?codicione=0170107304200001",
@@ -98,6 +110,7 @@
   {
     "courseName": "[08624R] MEDICINA E CHIRURGIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "Piano Studio Medicina e Chirurgia",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/158?codicione=0170107304200001",
@@ -106,6 +119,7 @@
   {
     "courseName": "[08624R] MEDICINA E CHIRURGIA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "generico",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1446",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/158?codicione=0170107304200001",
@@ -114,6 +128,7 @@
   {
     "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482?codicione=0170107304700004",
@@ -122,6 +137,7 @@
   {
     "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
     "year": "2024/2025",
+    "yearLevel": 2,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1482?codicione=0170107304700004",
@@ -129,15 +145,62 @@
   },
   {
     "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
-    "year": "2020/2021",
-    "path": "",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "OPTANTI 4° ANNO",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
-    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2020/156?codicione=0170107304700004",
-    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2020/156/insegnamenti/2376?codicione=0170107304700004"
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2720"
+  },
+  {
+    "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "PERCORSO COMUNE",
+    "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2716"
+  },
+  {
+    "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "OPTANTI 5° ANNO",
+    "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2717"
+  },
+  {
+    "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "OPTANTI 2° ANNO",
+    "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2718"
+  },
+  {
+    "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "OPTANTI 6° ANNO",
+    "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2719"
+  },
+  {
+    "courseName": "[08627R] ODONTOIATRIA E PROTESI DENTARIA",
+    "year": "2023/2024",
+    "yearLevel": 3,
+    "path": "OPTANTI 3° ANNO",
+    "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1482",
+    "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156?codicione=0170107304700004",
+    "urlPath": "https://unibs.coursecatalogue.cineca.it/corsi/2023/156/insegnamenti/8284?schemaid=2721"
   },
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2025/2026",
+    "yearLevel": 1,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467?codicione=0170107311900005",
@@ -146,6 +209,7 @@
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2024/2025",
+    "yearLevel": 2,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2024/1467?codicione=0170107311900005",
@@ -154,6 +218,7 @@
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2023/2024",
+    "yearLevel": 3,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2023/101?codicione=0170107311900005",
@@ -162,6 +227,7 @@
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2022/2023",
+    "yearLevel": 4,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2022/101?codicione=0170107311900005",
@@ -170,6 +236,7 @@
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2021/2022",
+    "yearLevel": 5,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2021/101?codicione=0170107311900005",
@@ -178,6 +245,7 @@
   {
     "courseName": "[05781R] INGEGNERIA EDILE-ARCHITETTURA",
     "year": "2020/2021",
+    "yearLevel": 6,
     "path": "",
     "urlCourse": "https://unibs.coursecatalogue.cineca.it/corsi/2025/1467",
     "urlYear": "https://unibs.coursecatalogue.cineca.it/corsi/2020/101?codicione=0170107311900005",

@@ -1,0 +1,183 @@
+VALIDATION REPORT
+================
+
+Total Items: 25
+Valid Items: 0 (0.0%)
+Invalid Items: 25 (100.0%)
+
+VALIDATION ERRORS:
+------------------
+Item 0:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 1:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 2:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 3:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 4:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 5:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 6:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 7:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 8:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 9:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 10:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 11:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 12:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 13:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 14:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 15:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 16:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 17:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 18:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 19:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 20:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 21:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 22:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 23:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required
+
+Item 24:
+  - id: Exam ID is required
+  - name: Exam name is required
+  - universityId: University ID is required
+  - courseId: Course ID is required
+  - course: Course name is required

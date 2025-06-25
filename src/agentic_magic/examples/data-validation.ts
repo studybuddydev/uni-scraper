@@ -15,7 +15,7 @@ async function example() {
     goals: 'Lo scopo del corso è introdurre gli elementi...',
     examMode: 'L\'esame consiste in una prova scritta...',
     requirements: 'Calcolo differenziale e integrale...',
-    cfu: '9 CFU',
+    cfu: 9,
     language: 'ITALIANO',
     teachers: [{ name: 'TREBESCHI PAOLA' }],
     books: {

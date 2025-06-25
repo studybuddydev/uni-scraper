@@ -164,23 +164,32 @@ export class DataValidator {
     }
 
     // CFU validation
-    if (exam.cfu) {
-      const cfuMatch = exam.cfu.match(/(\d+)\s*CFU/i);
-      if (!cfuMatch) {
-        warnings.push({
-          field: 'cfu',
-          message: 'CFU format not recognized',
-          value: exam.cfu
-        });
-      } else {
-        const cfuValue = parseInt(cfuMatch[1]);
-        if (cfuValue < 1 || cfuValue > 30) {
+    if (exam.cfu !== undefined) {
+      let cfuValue: number | null = null;
+      
+      if (typeof exam.cfu === 'number') {
+        // New format: direct number
+        cfuValue = exam.cfu;
+      } else if (typeof exam.cfu === 'string') {
+        // Old format: string like "6 CFU"
+        const cfuMatch = (exam.cfu as string).match(/(\d+)\s*CFU/i);
+        if (!cfuMatch) {
           warnings.push({
             field: 'cfu',
-            message: 'CFU value seems unusual',
-            value: cfuValue
+            message: 'CFU format not recognized',
+            value: exam.cfu
           });
+        } else {
+          cfuValue = parseInt(cfuMatch[1]);
         }
+      }
+      
+      if (cfuValue !== null && (cfuValue < 1 || cfuValue > 30)) {
+        warnings.push({
+          field: 'cfu',
+          message: 'CFU value seems unusual',
+          value: cfuValue
+        });
       }
     }
 

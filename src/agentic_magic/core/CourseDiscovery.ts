@@ -6,7 +6,8 @@ import { ProgressTracker } from '../utils/ProgressTracker';
 
 interface DegreeInfo {
   courseName: string;
-  year: string;
+  year: string;          // Text from dropdown (e.g., "Primo Anno", "Secondo Anno")
+  yearLevel: number;     // Numeric year level (1, 2, 3, etc.)
   path: string;
   urlCourse: string;
   urlYear: string;
@@ -345,6 +346,7 @@ export class CourseDiscovery {
               results.push({
                 courseName: pageTitle,
                 year: year,
+                yearLevel: i + 1,  // Convert 0-based index to 1-based year level
                 path: path.name,
                 urlCourse: url,
                 urlYear: yearUrl,
@@ -411,6 +413,7 @@ export class CourseDiscovery {
         results.push({
           courseName: courseTitle,
           year: year,
+          yearLevel: i + 1,  // Convert 0-based index to 1-based year level
           path: path.name,
           urlCourse: originalCourseUrl,
           urlYear: yearUrl,

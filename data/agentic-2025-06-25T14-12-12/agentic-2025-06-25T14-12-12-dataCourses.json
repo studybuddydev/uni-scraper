@@ -1,0 +1,7610 @@
+[
+  {
+    "_id": {
+      "$oid": "685c0453d1c3b8b464ce5000"
+    },
+    "id": "unibs04181R",
+    "universityId": "unibs",
+    "name": "GIURISPRUDENZA",
+    "lastUpdated": "2025-06-25T14:14:43.334Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs00001",
+        "parentExam": "unibs00001",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00002",
+        "parentExam": "unibs00002",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00003",
+        "parentExam": "unibs00003",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00004",
+        "parentExam": "unibs00004",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00005",
+        "parentExam": "unibs00005",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00006",
+        "parentExam": "unibs00006",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00007",
+        "parentExam": "unibs00007",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00008",
+        "parentExam": "unibs00008",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00009",
+        "parentExam": "unibs00009",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00010",
+        "parentExam": "unibs00010",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00011",
+        "parentExam": "unibs00011",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00012",
+        "parentExam": "unibs00012",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00013",
+        "parentExam": "unibs00013",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00014",
+        "parentExam": "unibs00014",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00015",
+        "parentExam": "unibs00015",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00016",
+        "parentExam": "unibs00016",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00017",
+        "parentExam": "unibs00017",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00018",
+        "parentExam": "unibs00018",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00019",
+        "parentExam": "unibs00019",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00020",
+        "parentExam": "unibs00020",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00021",
+        "parentExam": "unibs00021",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00022",
+        "parentExam": "unibs00022",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00023",
+        "parentExam": "unibs00023",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00024",
+        "parentExam": "unibs00024",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00025",
+        "parentExam": "unibs00025",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00026",
+        "parentExam": "unibs00026",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00027",
+        "parentExam": "unibs00027",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00028",
+        "parentExam": "unibs00028",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00029",
+        "parentExam": "unibs00029",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00030",
+        "parentExam": "unibs00030",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00031",
+        "parentExam": "unibs00031",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00032",
+        "parentExam": "unibs00032",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00033",
+        "parentExam": "unibs00033",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00034",
+        "parentExam": "unibs00034",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00035",
+        "parentExam": "unibs00035",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00036",
+        "parentExam": "unibs00036",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00037",
+        "parentExam": "unibs00037",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00038",
+        "parentExam": "unibs00038",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00039",
+        "parentExam": "unibs00039",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00040",
+        "parentExam": "unibs00040",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00041",
+        "parentExam": "unibs00041",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00042",
+        "parentExam": "unibs00042",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00043",
+        "parentExam": "unibs00043",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00044",
+        "parentExam": "unibs00044",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00045",
+        "parentExam": "unibs00045",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00046",
+        "parentExam": "unibs00046",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00047",
+        "parentExam": "unibs00047",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00048",
+        "parentExam": "unibs00048",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00049",
+        "parentExam": "unibs00049",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00050",
+        "parentExam": "unibs00050",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00051",
+        "parentExam": "unibs00051",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00052",
+        "parentExam": "unibs00052",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00053",
+        "parentExam": "unibs00053",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00054",
+        "parentExam": "unibs00054",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00055",
+        "parentExam": "unibs00055",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00056",
+        "parentExam": "unibs00056",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00057",
+        "parentExam": "unibs00057",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00058",
+        "parentExam": "unibs00058",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00059",
+        "parentExam": "unibs00059",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00060",
+        "parentExam": "unibs00060",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00061",
+        "parentExam": "unibs00061",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00062",
+        "parentExam": "unibs00062",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00063",
+        "parentExam": "unibs00063",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00064",
+        "parentExam": "unibs00064",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00065",
+        "parentExam": "unibs00065",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00066",
+        "parentExam": "unibs00066",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00067",
+        "parentExam": "unibs00067",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00068",
+        "parentExam": "unibs00068",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00069",
+        "parentExam": "unibs00069",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00070",
+        "parentExam": "unibs00070",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00071",
+        "parentExam": "unibs00071",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00072",
+        "parentExam": "unibs00072",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00073",
+        "parentExam": "unibs00073",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00074",
+        "parentExam": "unibs00074",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00075",
+        "parentExam": "unibs00075",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00076",
+        "parentExam": "unibs00076",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00077",
+        "parentExam": "unibs00077",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00078",
+        "parentExam": "unibs00078",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00079",
+        "parentExam": "unibs00079",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00080",
+        "parentExam": "unibs00080",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00081",
+        "parentExam": "unibs00081",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00082",
+        "parentExam": "unibs00082",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00083",
+        "parentExam": "unibs00083",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00084",
+        "parentExam": "unibs00084",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00085",
+        "parentExam": "unibs00085",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00086",
+        "parentExam": "unibs00086",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00087",
+        "parentExam": "unibs00087",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00088",
+        "parentExam": "unibs00088",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00089",
+        "parentExam": "unibs00089",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00090",
+        "parentExam": "unibs00090",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00091",
+        "parentExam": "unibs00091",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00092",
+        "parentExam": "unibs00092",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00093",
+        "parentExam": "unibs00093",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00094",
+        "parentExam": "unibs00094",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00095",
+        "parentExam": "unibs00095",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00096",
+        "parentExam": "unibs00096",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00097",
+        "parentExam": "unibs00097",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00098",
+        "parentExam": "unibs00098",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00099",
+        "parentExam": "unibs00099",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00100",
+        "parentExam": "unibs00100",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00101",
+        "parentExam": "unibs00101",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00102",
+        "parentExam": "unibs00102",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00103",
+        "parentExam": "unibs00103",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00104",
+        "parentExam": "unibs00104",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00105",
+        "parentExam": "unibs00105",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00106",
+        "parentExam": "unibs00106",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00107",
+        "parentExam": "unibs00107",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00108",
+        "parentExam": "unibs00108",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00109",
+        "parentExam": "unibs00109",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00110",
+        "parentExam": "unibs00110",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00111",
+        "parentExam": "unibs00111",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00112",
+        "parentExam": "unibs00112",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00113",
+        "parentExam": "unibs00113",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00114",
+        "parentExam": "unibs00114",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00115",
+        "parentExam": "unibs00115",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00116",
+        "parentExam": "unibs00116",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00117",
+        "parentExam": "unibs00117",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00118",
+        "parentExam": "unibs00118",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00119",
+        "parentExam": "unibs00119",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00120",
+        "parentExam": "unibs00120",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00121",
+        "parentExam": "unibs00121",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00122",
+        "parentExam": "unibs00122",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00123",
+        "parentExam": "unibs00123",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00124",
+        "parentExam": "unibs00124",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00125",
+        "parentExam": "unibs00125",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00126",
+        "parentExam": "unibs00126",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00127",
+        "parentExam": "unibs00127",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00128",
+        "parentExam": "unibs00128",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00129",
+        "parentExam": "unibs00129",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00130",
+        "parentExam": "unibs00130",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00131",
+        "parentExam": "unibs00131",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00132",
+        "parentExam": "unibs00132",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00133",
+        "parentExam": "unibs00133",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00134",
+        "parentExam": "unibs00134",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00135",
+        "parentExam": "unibs00135",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00136",
+        "parentExam": "unibs00136",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00137",
+        "parentExam": "unibs00137",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00138",
+        "parentExam": "unibs00138",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00139",
+        "parentExam": "unibs00139",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00140",
+        "parentExam": "unibs00140",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00141",
+        "parentExam": "unibs00141",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00142",
+        "parentExam": "unibs00142",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00143",
+        "parentExam": "unibs00143",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00144",
+        "parentExam": "unibs00144",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00145",
+        "parentExam": "unibs00145",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00146",
+        "parentExam": "unibs00146",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00147",
+        "parentExam": "unibs00147",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00148",
+        "parentExam": "unibs00148",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00149",
+        "parentExam": "unibs00149",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00150",
+        "parentExam": "unibs00150",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00151",
+        "parentExam": "unibs00151",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00152",
+        "parentExam": "unibs00152",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00153",
+        "parentExam": "unibs00153",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00154",
+        "parentExam": "unibs00154",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00155",
+        "parentExam": "unibs00155",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00156",
+        "parentExam": "unibs00156",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00157",
+        "parentExam": "unibs00157",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00158",
+        "parentExam": "unibs00158",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00159",
+        "parentExam": "unibs00159",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00160",
+        "parentExam": "unibs00160",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00161",
+        "parentExam": "unibs00161",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00162",
+        "parentExam": "unibs00162",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00163",
+        "parentExam": "unibs00163",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00164",
+        "parentExam": "unibs00164",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00165",
+        "parentExam": "unibs00165",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00166",
+        "parentExam": "unibs00166",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00167",
+        "parentExam": "unibs00167",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00168",
+        "parentExam": "unibs00168",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00169",
+        "parentExam": "unibs00169",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00170",
+        "parentExam": "unibs00170",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00171",
+        "parentExam": "unibs00171",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00172",
+        "parentExam": "unibs00172",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00173",
+        "parentExam": "unibs00173",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00174",
+        "parentExam": "unibs00174",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00175",
+        "parentExam": "unibs00175",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00176",
+        "parentExam": "unibs00176",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00177",
+        "parentExam": "unibs00177",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00178",
+        "parentExam": "unibs00178",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00179",
+        "parentExam": "unibs00179",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00180",
+        "parentExam": "unibs00180",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00181",
+        "parentExam": "unibs00181",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00182",
+        "parentExam": "unibs00182",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00183",
+        "parentExam": "unibs00183",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00184",
+        "parentExam": "unibs00184",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00185",
+        "parentExam": "unibs00185",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00186",
+        "parentExam": "unibs00186",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00187",
+        "parentExam": "unibs00187",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00188",
+        "parentExam": "unibs00188",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00189",
+        "parentExam": "unibs00189",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00190",
+        "parentExam": "unibs00190",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00191",
+        "parentExam": "unibs00191",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00192",
+        "parentExam": "unibs00192",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00193",
+        "parentExam": "unibs00193",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00194",
+        "parentExam": "unibs00194",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00195",
+        "parentExam": "unibs00195",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00196",
+        "parentExam": "unibs00196",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00197",
+        "parentExam": "unibs00197",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00198",
+        "parentExam": "unibs00198",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00199",
+        "parentExam": "unibs00199",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00200",
+        "parentExam": "unibs00200",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00201",
+        "parentExam": "unibs00201",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00202",
+        "parentExam": "unibs00202",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00203",
+        "parentExam": "unibs00203",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00204",
+        "parentExam": "unibs00204",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00205",
+        "parentExam": "unibs00205",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00206",
+        "parentExam": "unibs00206",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00207",
+        "parentExam": "unibs00207",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00208",
+        "parentExam": "unibs00208",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00209",
+        "parentExam": "unibs00209",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00210",
+        "parentExam": "unibs00210",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00211",
+        "parentExam": "unibs00211",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00212",
+        "parentExam": "unibs00212",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00213",
+        "parentExam": "unibs00213",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00214",
+        "parentExam": "unibs00214",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00215",
+        "parentExam": "unibs00215",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00216",
+        "parentExam": "unibs00216",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00217",
+        "parentExam": "unibs00217",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00218",
+        "parentExam": "unibs00218",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00219",
+        "parentExam": "unibs00219",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00220",
+        "parentExam": "unibs00220",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00221",
+        "parentExam": "unibs00221",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00222",
+        "parentExam": "unibs00222",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00223",
+        "parentExam": "unibs00223",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00224",
+        "parentExam": "unibs00224",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00225",
+        "parentExam": "unibs00225",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00226",
+        "parentExam": "unibs00226",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00227",
+        "parentExam": "unibs00227",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00228",
+        "parentExam": "unibs00228",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00229",
+        "parentExam": "unibs00229",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00230",
+        "parentExam": "unibs00230",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00231",
+        "parentExam": "unibs00231",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00232",
+        "parentExam": "unibs00232",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00233",
+        "parentExam": "unibs00233",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00234",
+        "parentExam": "unibs00234",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00235",
+        "parentExam": "unibs00235",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00236",
+        "parentExam": "unibs00236",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00237",
+        "parentExam": "unibs00237",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00238",
+        "parentExam": "unibs00238",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00239",
+        "parentExam": "unibs00239",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00240",
+        "parentExam": "unibs00240",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00241",
+        "parentExam": "unibs00241",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00242",
+        "parentExam": "unibs00242",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00243",
+        "parentExam": "unibs00243",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00244",
+        "parentExam": "unibs00244",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00245",
+        "parentExam": "unibs00245",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00246",
+        "parentExam": "unibs00246",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00247",
+        "parentExam": "unibs00247",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00248",
+        "parentExam": "unibs00248",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00249",
+        "parentExam": "unibs00249",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00250",
+        "parentExam": "unibs00250",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00251",
+        "parentExam": "unibs00251",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00252",
+        "parentExam": "unibs00252",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00253",
+        "parentExam": "unibs00253",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00254",
+        "parentExam": "unibs00254",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00255",
+        "parentExam": "unibs00255",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00256",
+        "parentExam": "unibs00256",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00257",
+        "parentExam": "unibs00257",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00258",
+        "parentExam": "unibs00258",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00259",
+        "parentExam": "unibs00259",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00260",
+        "parentExam": "unibs00260",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00261",
+        "parentExam": "unibs00261",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00262",
+        "parentExam": "unibs00262",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00263",
+        "parentExam": "unibs00263",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00264",
+        "parentExam": "unibs00264",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00265",
+        "parentExam": "unibs00265",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00266",
+        "parentExam": "unibs00266",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00267",
+        "parentExam": "unibs00267",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00268",
+        "parentExam": "unibs00268",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00269",
+        "parentExam": "unibs00269",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00270",
+        "parentExam": "unibs00270",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00271",
+        "parentExam": "unibs00271",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00272",
+        "parentExam": "unibs00272",
+        "year": "5",
+        "semester": "1"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "685c04537c97f37921fea000"
+    },
+    "id": "unibs08622R",
+    "universityId": "unibs",
+    "name": "FARMACIA",
+    "lastUpdated": "2025-06-25T14:14:43.334Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs00273",
+        "parentExam": "unibs00273",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00274",
+        "parentExam": "unibs00274",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00275",
+        "parentExam": "unibs00275",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00276",
+        "parentExam": "unibs00276",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00277",
+        "parentExam": "unibs00277",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00278",
+        "parentExam": "unibs00278",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00279",
+        "parentExam": "unibs00279",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00280",
+        "parentExam": "unibs00280",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00281",
+        "parentExam": "unibs00281",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00282",
+        "parentExam": "unibs00282",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00283",
+        "parentExam": "unibs00283",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00284",
+        "parentExam": "unibs00284",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00285",
+        "parentExam": "unibs00285",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00286",
+        "parentExam": "unibs00286",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00287",
+        "parentExam": "unibs00287",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00288",
+        "parentExam": "unibs00288",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00289",
+        "parentExam": "unibs00289",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00290",
+        "parentExam": "unibs00290",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00291",
+        "parentExam": "unibs00291",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00292",
+        "parentExam": "unibs00292",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00293",
+        "parentExam": "unibs00293",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00294",
+        "parentExam": "unibs00294",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00295",
+        "parentExam": "unibs00295",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00296",
+        "parentExam": "unibs00296",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00297",
+        "parentExam": "unibs00297",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00298",
+        "parentExam": "unibs00298",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00299",
+        "parentExam": "unibs00299",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00300",
+        "parentExam": "unibs00300",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00301",
+        "parentExam": "unibs00301",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00302",
+        "parentExam": "unibs00302",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00303",
+        "parentExam": "unibs00303",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00304",
+        "parentExam": "unibs00304",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00305",
+        "parentExam": "unibs00305",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00306",
+        "parentExam": "unibs00306",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00307",
+        "parentExam": "unibs00307",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00308",
+        "parentExam": "unibs00308",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00309",
+        "parentExam": "unibs00309",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00310",
+        "parentExam": "unibs00310",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00311",
+        "parentExam": "unibs00311",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00312",
+        "parentExam": "unibs00312",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00313",
+        "parentExam": "unibs00313",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00314",
+        "parentExam": "unibs00314",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00315",
+        "parentExam": "unibs00315",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00316",
+        "parentExam": "unibs00316",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00317",
+        "parentExam": "unibs00317",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00318",
+        "parentExam": "unibs00318",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00319",
+        "parentExam": "unibs00319",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00320",
+        "parentExam": "unibs00320",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00321",
+        "parentExam": "unibs00321",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00322",
+        "parentExam": "unibs00322",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00323",
+        "parentExam": "unibs00323",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00324",
+        "parentExam": "unibs00324",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00325",
+        "parentExam": "unibs00325",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00326",
+        "parentExam": "unibs00326",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00327",
+        "parentExam": "unibs00327",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00328",
+        "parentExam": "unibs00328",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00329",
+        "parentExam": "unibs00329",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00330",
+        "parentExam": "unibs00330",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00331",
+        "parentExam": "unibs00331",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00332",
+        "parentExam": "unibs00332",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00333",
+        "parentExam": "unibs00333",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00334",
+        "parentExam": "unibs00334",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00335",
+        "parentExam": "unibs00335",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00336",
+        "parentExam": "unibs00336",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00337",
+        "parentExam": "unibs00337",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00338",
+        "parentExam": "unibs00338",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00339",
+        "parentExam": "unibs00339",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00340",
+        "parentExam": "unibs00340",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00341",
+        "parentExam": "unibs00341",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00342",
+        "parentExam": "unibs00342",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00343",
+        "parentExam": "unibs00343",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00344",
+        "parentExam": "unibs00344",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00345",
+        "parentExam": "unibs00345",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00346",
+        "parentExam": "unibs00346",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00347",
+        "parentExam": "unibs00347",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00348",
+        "parentExam": "unibs00348",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00349",
+        "parentExam": "unibs00349",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00350",
+        "parentExam": "unibs00350",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00351",
+        "parentExam": "unibs00351",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00352",
+        "parentExam": "unibs00352",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00353",
+        "parentExam": "unibs00353",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00354",
+        "parentExam": "unibs00354",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00355",
+        "parentExam": "unibs00355",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00356",
+        "parentExam": "unibs00356",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00357",
+        "parentExam": "unibs00357",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00358",
+        "parentExam": "unibs00358",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00359",
+        "parentExam": "unibs00359",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00360",
+        "parentExam": "unibs00360",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00361",
+        "parentExam": "unibs00361",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00362",
+        "parentExam": "unibs00362",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00363",
+        "parentExam": "unibs00363",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00364",
+        "parentExam": "unibs00364",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00365",
+        "parentExam": "unibs00365",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00366",
+        "parentExam": "unibs00366",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00367",
+        "parentExam": "unibs00367",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00368",
+        "parentExam": "unibs00368",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00369",
+        "parentExam": "unibs00369",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00370",
+        "parentExam": "unibs00370",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00371",
+        "parentExam": "unibs00371",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00372",
+        "parentExam": "unibs00372",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00373",
+        "parentExam": "unibs00373",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00374",
+        "parentExam": "unibs00374",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00375",
+        "parentExam": "unibs00375",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00376",
+        "parentExam": "unibs00376",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00377",
+        "parentExam": "unibs00377",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00378",
+        "parentExam": "unibs00378",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00379",
+        "parentExam": "unibs00379",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00380",
+        "parentExam": "unibs00380",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00381",
+        "parentExam": "unibs00381",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00382",
+        "parentExam": "unibs00382",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00383",
+        "parentExam": "unibs00383",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00384",
+        "parentExam": "unibs00384",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00385",
+        "parentExam": "unibs00385",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00386",
+        "parentExam": "unibs00386",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00387",
+        "parentExam": "unibs00387",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00388",
+        "parentExam": "unibs00388",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00389",
+        "parentExam": "unibs00389",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00390",
+        "parentExam": "unibs00390",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00391",
+        "parentExam": "unibs00391",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00392",
+        "parentExam": "unibs00392",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00393",
+        "parentExam": "unibs00393",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00394",
+        "parentExam": "unibs00394",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00395",
+        "parentExam": "unibs00395",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00396",
+        "parentExam": "unibs00396",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00397",
+        "parentExam": "unibs00397",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00398",
+        "parentExam": "unibs00398",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00399",
+        "parentExam": "unibs00399",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00400",
+        "parentExam": "unibs00400",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00401",
+        "parentExam": "unibs00401",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00402",
+        "parentExam": "unibs00402",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00403",
+        "parentExam": "unibs00403",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00404",
+        "parentExam": "unibs00404",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00405",
+        "parentExam": "unibs00405",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00406",
+        "parentExam": "unibs00406",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00407",
+        "parentExam": "unibs00407",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00408",
+        "parentExam": "unibs00408",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00409",
+        "parentExam": "unibs00409",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00410",
+        "parentExam": "unibs00410",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00411",
+        "parentExam": "unibs00411",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00412",
+        "parentExam": "unibs00412",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00413",
+        "parentExam": "unibs00413",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00414",
+        "parentExam": "unibs00414",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00415",
+        "parentExam": "unibs00415",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00416",
+        "parentExam": "unibs00416",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00417",
+        "parentExam": "unibs00417",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00418",
+        "parentExam": "unibs00418",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00419",
+        "parentExam": "unibs00419",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00420",
+        "parentExam": "unibs00420",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00421",
+        "parentExam": "unibs00421",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00422",
+        "parentExam": "unibs00422",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00423",
+        "parentExam": "unibs00423",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00424",
+        "parentExam": "unibs00424",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00425",
+        "parentExam": "unibs00425",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00426",
+        "parentExam": "unibs00426",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00427",
+        "parentExam": "unibs00427",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00428",
+        "parentExam": "unibs00428",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00429",
+        "parentExam": "unibs00429",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00430",
+        "parentExam": "unibs00430",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00431",
+        "parentExam": "unibs00431",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00432",
+        "parentExam": "unibs00432",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00433",
+        "parentExam": "unibs00433",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00434",
+        "parentExam": "unibs00434",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00435",
+        "parentExam": "unibs00435",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00436",
+        "parentExam": "unibs00436",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00437",
+        "parentExam": "unibs00437",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00438",
+        "parentExam": "unibs00438",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00439",
+        "parentExam": "unibs00439",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00440",
+        "parentExam": "unibs00440",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00441",
+        "parentExam": "unibs00441",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00442",
+        "parentExam": "unibs00442",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00443",
+        "parentExam": "unibs00443",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00444",
+        "parentExam": "unibs00444",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00445",
+        "parentExam": "unibs00445",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00446",
+        "parentExam": "unibs00446",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00447",
+        "parentExam": "unibs00447",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00448",
+        "parentExam": "unibs00448",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00449",
+        "parentExam": "unibs00449",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00450",
+        "parentExam": "unibs00450",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00451",
+        "parentExam": "unibs00451",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00452",
+        "parentExam": "unibs00452",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00453",
+        "parentExam": "unibs00453",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00454",
+        "parentExam": "unibs00454",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00455",
+        "parentExam": "unibs00455",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00456",
+        "parentExam": "unibs00456",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00457",
+        "parentExam": "unibs00457",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00458",
+        "parentExam": "unibs00458",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00459",
+        "parentExam": "unibs00459",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00460",
+        "parentExam": "unibs00460",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00461",
+        "parentExam": "unibs00461",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00462",
+        "parentExam": "unibs00462",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00463",
+        "parentExam": "unibs00463",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00464",
+        "parentExam": "unibs00464",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00465",
+        "parentExam": "unibs00465",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00466",
+        "parentExam": "unibs00466",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00467",
+        "parentExam": "unibs00467",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00468",
+        "parentExam": "unibs00468",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00469",
+        "parentExam": "unibs00469",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00470",
+        "parentExam": "unibs00470",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00471",
+        "parentExam": "unibs00471",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00472",
+        "parentExam": "unibs00472",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00473",
+        "parentExam": "unibs00473",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00474",
+        "parentExam": "unibs00474",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00475",
+        "parentExam": "unibs00475",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00476",
+        "parentExam": "unibs00476",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00477",
+        "parentExam": "unibs00477",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00478",
+        "parentExam": "unibs00478",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00479",
+        "parentExam": "unibs00479",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00480",
+        "parentExam": "unibs00480",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00481",
+        "parentExam": "unibs00481",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00482",
+        "parentExam": "unibs00482",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00483",
+        "parentExam": "unibs00483",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00484",
+        "parentExam": "unibs00484",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00485",
+        "parentExam": "unibs00485",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00486",
+        "parentExam": "unibs00486",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00487",
+        "parentExam": "unibs00487",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00488",
+        "parentExam": "unibs00488",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00489",
+        "parentExam": "unibs00489",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00490",
+        "parentExam": "unibs00490",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00491",
+        "parentExam": "unibs00491",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00492",
+        "parentExam": "unibs00492",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00493",
+        "parentExam": "unibs00493",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00494",
+        "parentExam": "unibs00494",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00495",
+        "parentExam": "unibs00495",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00496",
+        "parentExam": "unibs00496",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00497",
+        "parentExam": "unibs00497",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00498",
+        "parentExam": "unibs00498",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00499",
+        "parentExam": "unibs00499",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00500",
+        "parentExam": "unibs00500",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00501",
+        "parentExam": "unibs00501",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00502",
+        "parentExam": "unibs00502",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00503",
+        "parentExam": "unibs00503",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00504",
+        "parentExam": "unibs00504",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00505",
+        "parentExam": "unibs00505",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00506",
+        "parentExam": "unibs00506",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00507",
+        "parentExam": "unibs00507",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00508",
+        "parentExam": "unibs00508",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00509",
+        "parentExam": "unibs00509",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00510",
+        "parentExam": "unibs00510",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00511",
+        "parentExam": "unibs00511",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00512",
+        "parentExam": "unibs00512",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00513",
+        "parentExam": "unibs00513",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00514",
+        "parentExam": "unibs00514",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00515",
+        "parentExam": "unibs00515",
+        "year": "2",
+        "semester": "1"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "685c045317db25751e701000"
+    },
+    "id": "unibs08624R",
+    "universityId": "unibs",
+    "name": "MEDICINA E CHIRURGIA",
+    "lastUpdated": "2025-06-25T14:14:43.334Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs00516",
+        "parentExam": "unibs00516",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00517",
+        "parentExam": "unibs00517",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00518",
+        "parentExam": "unibs00518",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00519",
+        "parentExam": "unibs00519",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00520",
+        "parentExam": "unibs00520",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00521",
+        "parentExam": "unibs00521",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00522",
+        "parentExam": "unibs00522",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00523",
+        "parentExam": "unibs00523",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00524",
+        "parentExam": "unibs00524",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00525",
+        "parentExam": "unibs00525",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00526",
+        "parentExam": "unibs00526",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00527",
+        "parentExam": "unibs00527",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00528",
+        "parentExam": "unibs00528",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00529",
+        "parentExam": "unibs00529",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00530",
+        "parentExam": "unibs00530",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00531",
+        "parentExam": "unibs00531",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00532",
+        "parentExam": "unibs00532",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00533",
+        "parentExam": "unibs00533",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00534",
+        "parentExam": "unibs00534",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00535",
+        "parentExam": "unibs00535",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00536",
+        "parentExam": "unibs00536",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00537",
+        "parentExam": "unibs00537",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00538",
+        "parentExam": "unibs00538",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00539",
+        "parentExam": "unibs00539",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00540",
+        "parentExam": "unibs00540",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00541",
+        "parentExam": "unibs00541",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00542",
+        "parentExam": "unibs00542",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00543",
+        "parentExam": "unibs00543",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00544",
+        "parentExam": "unibs00544",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00545",
+        "parentExam": "unibs00545",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00546",
+        "parentExam": "unibs00546",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00547",
+        "parentExam": "unibs00547",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00548",
+        "parentExam": "unibs00548",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00549",
+        "parentExam": "unibs00549",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00550",
+        "parentExam": "unibs00550",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00551",
+        "parentExam": "unibs00551",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00552",
+        "parentExam": "unibs00552",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00553",
+        "parentExam": "unibs00553",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00554",
+        "parentExam": "unibs00554",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00555",
+        "parentExam": "unibs00555",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00556",
+        "parentExam": "unibs00556",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00557",
+        "parentExam": "unibs00557",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00558",
+        "parentExam": "unibs00558",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00559",
+        "parentExam": "unibs00559",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00560",
+        "parentExam": "unibs00560",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00561",
+        "parentExam": "unibs00561",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00562",
+        "parentExam": "unibs00562",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00563",
+        "parentExam": "unibs00563",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00564",
+        "parentExam": "unibs00564",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00565",
+        "parentExam": "unibs00565",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00566",
+        "parentExam": "unibs00566",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00567",
+        "parentExam": "unibs00567",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00568",
+        "parentExam": "unibs00568",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00569",
+        "parentExam": "unibs00569",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00570",
+        "parentExam": "unibs00570",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00571",
+        "parentExam": "unibs00571",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00572",
+        "parentExam": "unibs00572",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00573",
+        "parentExam": "unibs00573",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00574",
+        "parentExam": "unibs00574",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00575",
+        "parentExam": "unibs00575",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00576",
+        "parentExam": "unibs00576",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00577",
+        "parentExam": "unibs00577",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00578",
+        "parentExam": "unibs00578",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00579",
+        "parentExam": "unibs00579",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00580",
+        "parentExam": "unibs00580",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00581",
+        "parentExam": "unibs00581",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00582",
+        "parentExam": "unibs00582",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00583",
+        "parentExam": "unibs00583",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00584",
+        "parentExam": "unibs00584",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00585",
+        "parentExam": "unibs00585",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00586",
+        "parentExam": "unibs00586",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00587",
+        "parentExam": "unibs00587",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00588",
+        "parentExam": "unibs00588",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00589",
+        "parentExam": "unibs00589",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00590",
+        "parentExam": "unibs00590",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00591",
+        "parentExam": "unibs00591",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00592",
+        "parentExam": "unibs00592",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00593",
+        "parentExam": "unibs00593",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00594",
+        "parentExam": "unibs00594",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00595",
+        "parentExam": "unibs00595",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00596",
+        "parentExam": "unibs00596",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00597",
+        "parentExam": "unibs00597",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00598",
+        "parentExam": "unibs00598",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00599",
+        "parentExam": "unibs00599",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00600",
+        "parentExam": "unibs00600",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00601",
+        "parentExam": "unibs00601",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00602",
+        "parentExam": "unibs00602",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00603",
+        "parentExam": "unibs00603",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00604",
+        "parentExam": "unibs00604",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00605",
+        "parentExam": "unibs00605",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00606",
+        "parentExam": "unibs00606",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00607",
+        "parentExam": "unibs00607",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00608",
+        "parentExam": "unibs00608",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00609",
+        "parentExam": "unibs00609",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00610",
+        "parentExam": "unibs00610",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00611",
+        "parentExam": "unibs00611",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00612",
+        "parentExam": "unibs00612",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00613",
+        "parentExam": "unibs00613",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00614",
+        "parentExam": "unibs00614",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00615",
+        "parentExam": "unibs00615",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00616",
+        "parentExam": "unibs00616",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00617",
+        "parentExam": "unibs00617",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00618",
+        "parentExam": "unibs00618",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00619",
+        "parentExam": "unibs00619",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00620",
+        "parentExam": "unibs00620",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00621",
+        "parentExam": "unibs00621",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00622",
+        "parentExam": "unibs00622",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00623",
+        "parentExam": "unibs00623",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00624",
+        "parentExam": "unibs00624",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00625",
+        "parentExam": "unibs00625",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00626",
+        "parentExam": "unibs00626",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00627",
+        "parentExam": "unibs00627",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00628",
+        "parentExam": "unibs00628",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00629",
+        "parentExam": "unibs00629",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00630",
+        "parentExam": "unibs00630",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00631",
+        "parentExam": "unibs00631",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00632",
+        "parentExam": "unibs00632",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00633",
+        "parentExam": "unibs00633",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00634",
+        "parentExam": "unibs00634",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00635",
+        "parentExam": "unibs00635",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00636",
+        "parentExam": "unibs00636",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00637",
+        "parentExam": "unibs00637",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00638",
+        "parentExam": "unibs00638",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00639",
+        "parentExam": "unibs00639",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00640",
+        "parentExam": "unibs00640",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00641",
+        "parentExam": "unibs00641",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00642",
+        "parentExam": "unibs00642",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00643",
+        "parentExam": "unibs00643",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00644",
+        "parentExam": "unibs00644",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00645",
+        "parentExam": "unibs00645",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00646",
+        "parentExam": "unibs00646",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00647",
+        "parentExam": "unibs00647",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00648",
+        "parentExam": "unibs00648",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00649",
+        "parentExam": "unibs00649",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00650",
+        "parentExam": "unibs00650",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00651",
+        "parentExam": "unibs00651",
+        "year": "1",
+        "semester": "1"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "685c0453b3c4abb110903000"
+    },
+    "id": "unibs08627R",
+    "universityId": "unibs",
+    "name": "ODONTOIATRIA E PROTESI DENTARIA",
+    "lastUpdated": "2025-06-25T14:14:43.334Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs00652",
+        "parentExam": "unibs00652",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00653",
+        "parentExam": "unibs00653",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00654",
+        "parentExam": "unibs00654",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00655",
+        "parentExam": "unibs00655",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00656",
+        "parentExam": "unibs00656",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00657",
+        "parentExam": "unibs00657",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00658",
+        "parentExam": "unibs00658",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00659",
+        "parentExam": "unibs00659",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00660",
+        "parentExam": "unibs00660",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00661",
+        "parentExam": "unibs00661",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00662",
+        "parentExam": "unibs00662",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00663",
+        "parentExam": "unibs00663",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00664",
+        "parentExam": "unibs00664",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00665",
+        "parentExam": "unibs00665",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00666",
+        "parentExam": "unibs00666",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00667",
+        "parentExam": "unibs00667",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00668",
+        "parentExam": "unibs00668",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00669",
+        "parentExam": "unibs00669",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00670",
+        "parentExam": "unibs00670",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00671",
+        "parentExam": "unibs00671",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00672",
+        "parentExam": "unibs00672",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00673",
+        "parentExam": "unibs00673",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00674",
+        "parentExam": "unibs00674",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00675",
+        "parentExam": "unibs00675",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00676",
+        "parentExam": "unibs00676",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00677",
+        "parentExam": "unibs00677",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00678",
+        "parentExam": "unibs00678",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00679",
+        "parentExam": "unibs00679",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00680",
+        "parentExam": "unibs00680",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00681",
+        "parentExam": "unibs00681",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00682",
+        "parentExam": "unibs00682",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00683",
+        "parentExam": "unibs00683",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00684",
+        "parentExam": "unibs00684",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00685",
+        "parentExam": "unibs00685",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00686",
+        "parentExam": "unibs00686",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00687",
+        "parentExam": "unibs00687",
+        "year": "6",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00688",
+        "parentExam": "unibs00688",
+        "year": "6",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00689",
+        "parentExam": "unibs00689",
+        "year": "6",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00690",
+        "parentExam": "unibs00690",
+        "year": "6",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00691",
+        "parentExam": "unibs00691",
+        "year": "6",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00692",
+        "parentExam": "unibs00692",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00693",
+        "parentExam": "unibs00693",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00694",
+        "parentExam": "unibs00694",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00695",
+        "parentExam": "unibs00695",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00696",
+        "parentExam": "unibs00696",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00697",
+        "parentExam": "unibs00697",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00698",
+        "parentExam": "unibs00698",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00699",
+        "parentExam": "unibs00699",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00700",
+        "parentExam": "unibs00700",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00701",
+        "parentExam": "unibs00701",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00702",
+        "parentExam": "unibs00702",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00703",
+        "parentExam": "unibs00703",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00704",
+        "parentExam": "unibs00704",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00705",
+        "parentExam": "unibs00705",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00706",
+        "parentExam": "unibs00706",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00707",
+        "parentExam": "unibs00707",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00708",
+        "parentExam": "unibs00708",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00709",
+        "parentExam": "unibs00709",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00710",
+        "parentExam": "unibs00710",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00711",
+        "parentExam": "unibs00711",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00712",
+        "parentExam": "unibs00712",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00713",
+        "parentExam": "unibs00713",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00714",
+        "parentExam": "unibs00714",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00715",
+        "parentExam": "unibs00715",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00716",
+        "parentExam": "unibs00716",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00717",
+        "parentExam": "unibs00717",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00718",
+        "parentExam": "unibs00718",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00719",
+        "parentExam": "unibs00719",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00720",
+        "parentExam": "unibs00720",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00721",
+        "parentExam": "unibs00721",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00722",
+        "parentExam": "unibs00722",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00723",
+        "parentExam": "unibs00723",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00724",
+        "parentExam": "unibs00724",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00725",
+        "parentExam": "unibs00725",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00726",
+        "parentExam": "unibs00726",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00727",
+        "parentExam": "unibs00727",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00728",
+        "parentExam": "unibs00728",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00729",
+        "parentExam": "unibs00729",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00730",
+        "parentExam": "unibs00730",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00731",
+        "parentExam": "unibs00731",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00732",
+        "parentExam": "unibs00732",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00733",
+        "parentExam": "unibs00733",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00734",
+        "parentExam": "unibs00734",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00735",
+        "parentExam": "unibs00735",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00736",
+        "parentExam": "unibs00736",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00737",
+        "parentExam": "unibs00737",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00738",
+        "parentExam": "unibs00738",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00739",
+        "parentExam": "unibs00739",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00740",
+        "parentExam": "unibs00740",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00741",
+        "parentExam": "unibs00741",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00742",
+        "parentExam": "unibs00742",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00743",
+        "parentExam": "unibs00743",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00744",
+        "parentExam": "unibs00744",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00745",
+        "parentExam": "unibs00745",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00746",
+        "parentExam": "unibs00746",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00747",
+        "parentExam": "unibs00747",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00748",
+        "parentExam": "unibs00748",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00749",
+        "parentExam": "unibs00749",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00750",
+        "parentExam": "unibs00750",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00751",
+        "parentExam": "unibs00751",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00752",
+        "parentExam": "unibs00752",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00753",
+        "parentExam": "unibs00753",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00754",
+        "parentExam": "unibs00754",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00755",
+        "parentExam": "unibs00755",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00756",
+        "parentExam": "unibs00756",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00757",
+        "parentExam": "unibs00757",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00758",
+        "parentExam": "unibs00758",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00759",
+        "parentExam": "unibs00759",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00760",
+        "parentExam": "unibs00760",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00761",
+        "parentExam": "unibs00761",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00762",
+        "parentExam": "unibs00762",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00763",
+        "parentExam": "unibs00763",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00764",
+        "parentExam": "unibs00764",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00765",
+        "parentExam": "unibs00765",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00766",
+        "parentExam": "unibs00766",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00767",
+        "parentExam": "unibs00767",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00768",
+        "parentExam": "unibs00768",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00769",
+        "parentExam": "unibs00769",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00770",
+        "parentExam": "unibs00770",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00771",
+        "parentExam": "unibs00771",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00772",
+        "parentExam": "unibs00772",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00773",
+        "parentExam": "unibs00773",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00774",
+        "parentExam": "unibs00774",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00775",
+        "parentExam": "unibs00775",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00776",
+        "parentExam": "unibs00776",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00777",
+        "parentExam": "unibs00777",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00778",
+        "parentExam": "unibs00778",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00779",
+        "parentExam": "unibs00779",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00780",
+        "parentExam": "unibs00780",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00781",
+        "parentExam": "unibs00781",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00782",
+        "parentExam": "unibs00782",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00783",
+        "parentExam": "unibs00783",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00784",
+        "parentExam": "unibs00784",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00785",
+        "parentExam": "unibs00785",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00786",
+        "parentExam": "unibs00786",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00787",
+        "parentExam": "unibs00787",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00788",
+        "parentExam": "unibs00788",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00789",
+        "parentExam": "unibs00789",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00790",
+        "parentExam": "unibs00790",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00791",
+        "parentExam": "unibs00791",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00792",
+        "parentExam": "unibs00792",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00793",
+        "parentExam": "unibs00793",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00794",
+        "parentExam": "unibs00794",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00795",
+        "parentExam": "unibs00795",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00796",
+        "parentExam": "unibs00796",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00797",
+        "parentExam": "unibs00797",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00798",
+        "parentExam": "unibs00798",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00799",
+        "parentExam": "unibs00799",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00800",
+        "parentExam": "unibs00800",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00801",
+        "parentExam": "unibs00801",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00802",
+        "parentExam": "unibs00802",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00803",
+        "parentExam": "unibs00803",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00804",
+        "parentExam": "unibs00804",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00805",
+        "parentExam": "unibs00805",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00806",
+        "parentExam": "unibs00806",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00807",
+        "parentExam": "unibs00807",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00808",
+        "parentExam": "unibs00808",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00809",
+        "parentExam": "unibs00809",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00810",
+        "parentExam": "unibs00810",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00811",
+        "parentExam": "unibs00811",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00812",
+        "parentExam": "unibs00812",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00813",
+        "parentExam": "unibs00813",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00814",
+        "parentExam": "unibs00814",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00815",
+        "parentExam": "unibs00815",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00816",
+        "parentExam": "unibs00816",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00817",
+        "parentExam": "unibs00817",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00818",
+        "parentExam": "unibs00818",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00819",
+        "parentExam": "unibs00819",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00820",
+        "parentExam": "unibs00820",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00821",
+        "parentExam": "unibs00821",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00822",
+        "parentExam": "unibs00822",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00823",
+        "parentExam": "unibs00823",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00824",
+        "parentExam": "unibs00824",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00825",
+        "parentExam": "unibs00825",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00826",
+        "parentExam": "unibs00826",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00827",
+        "parentExam": "unibs00827",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00828",
+        "parentExam": "unibs00828",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00829",
+        "parentExam": "unibs00829",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00830",
+        "parentExam": "unibs00830",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00831",
+        "parentExam": "unibs00831",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00832",
+        "parentExam": "unibs00832",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00833",
+        "parentExam": "unibs00833",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00834",
+        "parentExam": "unibs00834",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00835",
+        "parentExam": "unibs00835",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00836",
+        "parentExam": "unibs00836",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00837",
+        "parentExam": "unibs00837",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00838",
+        "parentExam": "unibs00838",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00839",
+        "parentExam": "unibs00839",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00840",
+        "parentExam": "unibs00840",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00841",
+        "parentExam": "unibs00841",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00842",
+        "parentExam": "unibs00842",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00843",
+        "parentExam": "unibs00843",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00844",
+        "parentExam": "unibs00844",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00845",
+        "parentExam": "unibs00845",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00846",
+        "parentExam": "unibs00846",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00847",
+        "parentExam": "unibs00847",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00848",
+        "parentExam": "unibs00848",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00849",
+        "parentExam": "unibs00849",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00850",
+        "parentExam": "unibs00850",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00851",
+        "parentExam": "unibs00851",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00852",
+        "parentExam": "unibs00852",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00853",
+        "parentExam": "unibs00853",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00854",
+        "parentExam": "unibs00854",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00855",
+        "parentExam": "unibs00855",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00856",
+        "parentExam": "unibs00856",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00857",
+        "parentExam": "unibs00857",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00858",
+        "parentExam": "unibs00858",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00859",
+        "parentExam": "unibs00859",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00860",
+        "parentExam": "unibs00860",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00861",
+        "parentExam": "unibs00861",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00862",
+        "parentExam": "unibs00862",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00863",
+        "parentExam": "unibs00863",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00864",
+        "parentExam": "unibs00864",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00865",
+        "parentExam": "unibs00865",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00866",
+        "parentExam": "unibs00866",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00867",
+        "parentExam": "unibs00867",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00868",
+        "parentExam": "unibs00868",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00869",
+        "parentExam": "unibs00869",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00870",
+        "parentExam": "unibs00870",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00871",
+        "parentExam": "unibs00871",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00872",
+        "parentExam": "unibs00872",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00873",
+        "parentExam": "unibs00873",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00874",
+        "parentExam": "unibs00874",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00875",
+        "parentExam": "unibs00875",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00876",
+        "parentExam": "unibs00876",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00877",
+        "parentExam": "unibs00877",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00878",
+        "parentExam": "unibs00878",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00879",
+        "parentExam": "unibs00879",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00880",
+        "parentExam": "unibs00880",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00881",
+        "parentExam": "unibs00881",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00882",
+        "parentExam": "unibs00882",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00883",
+        "parentExam": "unibs00883",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00884",
+        "parentExam": "unibs00884",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00885",
+        "parentExam": "unibs00885",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00886",
+        "parentExam": "unibs00886",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00887",
+        "parentExam": "unibs00887",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00888",
+        "parentExam": "unibs00888",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00889",
+        "parentExam": "unibs00889",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00890",
+        "parentExam": "unibs00890",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00891",
+        "parentExam": "unibs00891",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00892",
+        "parentExam": "unibs00892",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00893",
+        "parentExam": "unibs00893",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00894",
+        "parentExam": "unibs00894",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00895",
+        "parentExam": "unibs00895",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00896",
+        "parentExam": "unibs00896",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00897",
+        "parentExam": "unibs00897",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00898",
+        "parentExam": "unibs00898",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00899",
+        "parentExam": "unibs00899",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00900",
+        "parentExam": "unibs00900",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00901",
+        "parentExam": "unibs00901",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00902",
+        "parentExam": "unibs00902",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00903",
+        "parentExam": "unibs00903",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00904",
+        "parentExam": "unibs00904",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00905",
+        "parentExam": "unibs00905",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00906",
+        "parentExam": "unibs00906",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00907",
+        "parentExam": "unibs00907",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00908",
+        "parentExam": "unibs00908",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00909",
+        "parentExam": "unibs00909",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00910",
+        "parentExam": "unibs00910",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00911",
+        "parentExam": "unibs00911",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00912",
+        "parentExam": "unibs00912",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00913",
+        "parentExam": "unibs00913",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00914",
+        "parentExam": "unibs00914",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00915",
+        "parentExam": "unibs00915",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00916",
+        "parentExam": "unibs00916",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00917",
+        "parentExam": "unibs00917",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00918",
+        "parentExam": "unibs00918",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00919",
+        "parentExam": "unibs00919",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00920",
+        "parentExam": "unibs00920",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00921",
+        "parentExam": "unibs00921",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00922",
+        "parentExam": "unibs00922",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00923",
+        "parentExam": "unibs00923",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00924",
+        "parentExam": "unibs00924",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00925",
+        "parentExam": "unibs00925",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00926",
+        "parentExam": "unibs00926",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00927",
+        "parentExam": "unibs00927",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00928",
+        "parentExam": "unibs00928",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00929",
+        "parentExam": "unibs00929",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00930",
+        "parentExam": "unibs00930",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00931",
+        "parentExam": "unibs00931",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00932",
+        "parentExam": "unibs00932",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00933",
+        "parentExam": "unibs00933",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00934",
+        "parentExam": "unibs00934",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00935",
+        "parentExam": "unibs00935",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00936",
+        "parentExam": "unibs00936",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00937",
+        "parentExam": "unibs00937",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00938",
+        "parentExam": "unibs00938",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00939",
+        "parentExam": "unibs00939",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00940",
+        "parentExam": "unibs00940",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00941",
+        "parentExam": "unibs00941",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00942",
+        "parentExam": "unibs00942",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00943",
+        "parentExam": "unibs00943",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00944",
+        "parentExam": "unibs00944",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00945",
+        "parentExam": "unibs00945",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00946",
+        "parentExam": "unibs00946",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00947",
+        "parentExam": "unibs00947",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00948",
+        "parentExam": "unibs00948",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00949",
+        "parentExam": "unibs00949",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00950",
+        "parentExam": "unibs00950",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00951",
+        "parentExam": "unibs00951",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00952",
+        "parentExam": "unibs00952",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00953",
+        "parentExam": "unibs00953",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00954",
+        "parentExam": "unibs00954",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00955",
+        "parentExam": "unibs00955",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00956",
+        "parentExam": "unibs00956",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00957",
+        "parentExam": "unibs00957",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00958",
+        "parentExam": "unibs00958",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00959",
+        "parentExam": "unibs00959",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00960",
+        "parentExam": "unibs00960",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00961",
+        "parentExam": "unibs00961",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00962",
+        "parentExam": "unibs00962",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00963",
+        "parentExam": "unibs00963",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00964",
+        "parentExam": "unibs00964",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00965",
+        "parentExam": "unibs00965",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00966",
+        "parentExam": "unibs00966",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00967",
+        "parentExam": "unibs00967",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00968",
+        "parentExam": "unibs00968",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00969",
+        "parentExam": "unibs00969",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00970",
+        "parentExam": "unibs00970",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00971",
+        "parentExam": "unibs00971",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00972",
+        "parentExam": "unibs00972",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00973",
+        "parentExam": "unibs00973",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00974",
+        "parentExam": "unibs00974",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00975",
+        "parentExam": "unibs00975",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00976",
+        "parentExam": "unibs00976",
+        "year": "2",
+        "semester": "1"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "685c0453875d004685b94000"
+    },
+    "id": "unibs05781R",
+    "universityId": "unibs",
+    "name": "INGEGNERIA EDILE-ARCHITETTURA",
+    "lastUpdated": "2025-06-25T14:14:43.334Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs00977",
+        "parentExam": "unibs00977",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00978",
+        "parentExam": "unibs00978",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00979",
+        "parentExam": "unibs00979",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00980",
+        "parentExam": "unibs00980",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00981",
+        "parentExam": "unibs00981",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00982",
+        "parentExam": "unibs00982",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs00983",
+        "parentExam": "unibs00983",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00984",
+        "parentExam": "unibs00984",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00985",
+        "parentExam": "unibs00985",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00986",
+        "parentExam": "unibs00986",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00987",
+        "parentExam": "unibs00987",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00988",
+        "parentExam": "unibs00988",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00989",
+        "parentExam": "unibs00989",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00990",
+        "parentExam": "unibs00990",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00991",
+        "parentExam": "unibs00991",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00992",
+        "parentExam": "unibs00992",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00993",
+        "parentExam": "unibs00993",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00994",
+        "parentExam": "unibs00994",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00995",
+        "parentExam": "unibs00995",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00996",
+        "parentExam": "unibs00996",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00997",
+        "parentExam": "unibs00997",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00998",
+        "parentExam": "unibs00998",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs00999",
+        "parentExam": "unibs00999",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01000",
+        "parentExam": "unibs01000",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01001",
+        "parentExam": "unibs01001",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01002",
+        "parentExam": "unibs01002",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01003",
+        "parentExam": "unibs01003",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01004",
+        "parentExam": "unibs01004",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01005",
+        "parentExam": "unibs01005",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01006",
+        "parentExam": "unibs01006",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01007",
+        "parentExam": "unibs01007",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01008",
+        "parentExam": "unibs01008",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01009",
+        "parentExam": "unibs01009",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01010",
+        "parentExam": "unibs01010",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01011",
+        "parentExam": "unibs01011",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01012",
+        "parentExam": "unibs01012",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01013",
+        "parentExam": "unibs01013",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01014",
+        "parentExam": "unibs01014",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01015",
+        "parentExam": "unibs01015",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01016",
+        "parentExam": "unibs01016",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01017",
+        "parentExam": "unibs01017",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01018",
+        "parentExam": "unibs01018",
+        "year": "5",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01019",
+        "parentExam": "unibs01019",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01020",
+        "parentExam": "unibs01020",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01021",
+        "parentExam": "unibs01021",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01022",
+        "parentExam": "unibs01022",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01023",
+        "parentExam": "unibs01023",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01024",
+        "parentExam": "unibs01024",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01025",
+        "parentExam": "unibs01025",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01026",
+        "parentExam": "unibs01026",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01027",
+        "parentExam": "unibs01027",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01028",
+        "parentExam": "unibs01028",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01029",
+        "parentExam": "unibs01029",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01030",
+        "parentExam": "unibs01030",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01031",
+        "parentExam": "unibs01031",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01032",
+        "parentExam": "unibs01032",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01033",
+        "parentExam": "unibs01033",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01034",
+        "parentExam": "unibs01034",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01035",
+        "parentExam": "unibs01035",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01036",
+        "parentExam": "unibs01036",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01037",
+        "parentExam": "unibs01037",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01038",
+        "parentExam": "unibs01038",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01039",
+        "parentExam": "unibs01039",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01040",
+        "parentExam": "unibs01040",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01041",
+        "parentExam": "unibs01041",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01042",
+        "parentExam": "unibs01042",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01043",
+        "parentExam": "unibs01043",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01044",
+        "parentExam": "unibs01044",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01045",
+        "parentExam": "unibs01045",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01046",
+        "parentExam": "unibs01046",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01047",
+        "parentExam": "unibs01047",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01048",
+        "parentExam": "unibs01048",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01049",
+        "parentExam": "unibs01049",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01050",
+        "parentExam": "unibs01050",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01051",
+        "parentExam": "unibs01051",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01052",
+        "parentExam": "unibs01052",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01053",
+        "parentExam": "unibs01053",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01054",
+        "parentExam": "unibs01054",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01055",
+        "parentExam": "unibs01055",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01056",
+        "parentExam": "unibs01056",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01057",
+        "parentExam": "unibs01057",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01058",
+        "parentExam": "unibs01058",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01059",
+        "parentExam": "unibs01059",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01060",
+        "parentExam": "unibs01060",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01061",
+        "parentExam": "unibs01061",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01062",
+        "parentExam": "unibs01062",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01063",
+        "parentExam": "unibs01063",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01064",
+        "parentExam": "unibs01064",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01065",
+        "parentExam": "unibs01065",
+        "year": "4",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01066",
+        "parentExam": "unibs01066",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01067",
+        "parentExam": "unibs01067",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01068",
+        "parentExam": "unibs01068",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01069",
+        "parentExam": "unibs01069",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01070",
+        "parentExam": "unibs01070",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01071",
+        "parentExam": "unibs01071",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01072",
+        "parentExam": "unibs01072",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01073",
+        "parentExam": "unibs01073",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01074",
+        "parentExam": "unibs01074",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01075",
+        "parentExam": "unibs01075",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01076",
+        "parentExam": "unibs01076",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01077",
+        "parentExam": "unibs01077",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01078",
+        "parentExam": "unibs01078",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01079",
+        "parentExam": "unibs01079",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01080",
+        "parentExam": "unibs01080",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01081",
+        "parentExam": "unibs01081",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01082",
+        "parentExam": "unibs01082",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01083",
+        "parentExam": "unibs01083",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01084",
+        "parentExam": "unibs01084",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01085",
+        "parentExam": "unibs01085",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01086",
+        "parentExam": "unibs01086",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01087",
+        "parentExam": "unibs01087",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01088",
+        "parentExam": "unibs01088",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01089",
+        "parentExam": "unibs01089",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01090",
+        "parentExam": "unibs01090",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01091",
+        "parentExam": "unibs01091",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01092",
+        "parentExam": "unibs01092",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01093",
+        "parentExam": "unibs01093",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01094",
+        "parentExam": "unibs01094",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01095",
+        "parentExam": "unibs01095",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01096",
+        "parentExam": "unibs01096",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01097",
+        "parentExam": "unibs01097",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01098",
+        "parentExam": "unibs01098",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01099",
+        "parentExam": "unibs01099",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01100",
+        "parentExam": "unibs01100",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01101",
+        "parentExam": "unibs01101",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01102",
+        "parentExam": "unibs01102",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01103",
+        "parentExam": "unibs01103",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01104",
+        "parentExam": "unibs01104",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01105",
+        "parentExam": "unibs01105",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01106",
+        "parentExam": "unibs01106",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01107",
+        "parentExam": "unibs01107",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01108",
+        "parentExam": "unibs01108",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01109",
+        "parentExam": "unibs01109",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01110",
+        "parentExam": "unibs01110",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01111",
+        "parentExam": "unibs01111",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01112",
+        "parentExam": "unibs01112",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01113",
+        "parentExam": "unibs01113",
+        "year": "3",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01114",
+        "parentExam": "unibs01114",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01115",
+        "parentExam": "unibs01115",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01116",
+        "parentExam": "unibs01116",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01117",
+        "parentExam": "unibs01117",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01118",
+        "parentExam": "unibs01118",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01119",
+        "parentExam": "unibs01119",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01120",
+        "parentExam": "unibs01120",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01121",
+        "parentExam": "unibs01121",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01122",
+        "parentExam": "unibs01122",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01123",
+        "parentExam": "unibs01123",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01124",
+        "parentExam": "unibs01124",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01125",
+        "parentExam": "unibs01125",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01126",
+        "parentExam": "unibs01126",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01127",
+        "parentExam": "unibs01127",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01128",
+        "parentExam": "unibs01128",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01129",
+        "parentExam": "unibs01129",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01130",
+        "parentExam": "unibs01130",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01131",
+        "parentExam": "unibs01131",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01132",
+        "parentExam": "unibs01132",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01133",
+        "parentExam": "unibs01133",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01134",
+        "parentExam": "unibs01134",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01135",
+        "parentExam": "unibs01135",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01136",
+        "parentExam": "unibs01136",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01137",
+        "parentExam": "unibs01137",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01138",
+        "parentExam": "unibs01138",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01139",
+        "parentExam": "unibs01139",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01140",
+        "parentExam": "unibs01140",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01141",
+        "parentExam": "unibs01141",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01142",
+        "parentExam": "unibs01142",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01143",
+        "parentExam": "unibs01143",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01144",
+        "parentExam": "unibs01144",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01145",
+        "parentExam": "unibs01145",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01146",
+        "parentExam": "unibs01146",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01147",
+        "parentExam": "unibs01147",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01148",
+        "parentExam": "unibs01148",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01149",
+        "parentExam": "unibs01149",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01150",
+        "parentExam": "unibs01150",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01151",
+        "parentExam": "unibs01151",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01152",
+        "parentExam": "unibs01152",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01153",
+        "parentExam": "unibs01153",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01154",
+        "parentExam": "unibs01154",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01155",
+        "parentExam": "unibs01155",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01156",
+        "parentExam": "unibs01156",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01157",
+        "parentExam": "unibs01157",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01158",
+        "parentExam": "unibs01158",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01159",
+        "parentExam": "unibs01159",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01160",
+        "parentExam": "unibs01160",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01161",
+        "parentExam": "unibs01161",
+        "year": "2",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01162",
+        "parentExam": "unibs01162",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01163",
+        "parentExam": "unibs01163",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01164",
+        "parentExam": "unibs01164",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01165",
+        "parentExam": "unibs01165",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01166",
+        "parentExam": "unibs01166",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01167",
+        "parentExam": "unibs01167",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01168",
+        "parentExam": "unibs01168",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01169",
+        "parentExam": "unibs01169",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01170",
+        "parentExam": "unibs01170",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01171",
+        "parentExam": "unibs01171",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01172",
+        "parentExam": "unibs01172",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01173",
+        "parentExam": "unibs01173",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01174",
+        "parentExam": "unibs01174",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01175",
+        "parentExam": "unibs01175",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01176",
+        "parentExam": "unibs01176",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01177",
+        "parentExam": "unibs01177",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01178",
+        "parentExam": "unibs01178",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01179",
+        "parentExam": "unibs01179",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01180",
+        "parentExam": "unibs01180",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01181",
+        "parentExam": "unibs01181",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01182",
+        "parentExam": "unibs01182",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01183",
+        "parentExam": "unibs01183",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01184",
+        "parentExam": "unibs01184",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01185",
+        "parentExam": "unibs01185",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01186",
+        "parentExam": "unibs01186",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01187",
+        "parentExam": "unibs01187",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01188",
+        "parentExam": "unibs01188",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01189",
+        "parentExam": "unibs01189",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01190",
+        "parentExam": "unibs01190",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01191",
+        "parentExam": "unibs01191",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01192",
+        "parentExam": "unibs01192",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01193",
+        "parentExam": "unibs01193",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01194",
+        "parentExam": "unibs01194",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01195",
+        "parentExam": "unibs01195",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01196",
+        "parentExam": "unibs01196",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01197",
+        "parentExam": "unibs01197",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01198",
+        "parentExam": "unibs01198",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01199",
+        "parentExam": "unibs01199",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01200",
+        "parentExam": "unibs01200",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01201",
+        "parentExam": "unibs01201",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01202",
+        "parentExam": "unibs01202",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01203",
+        "parentExam": "unibs01203",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01204",
+        "parentExam": "unibs01204",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01205",
+        "parentExam": "unibs01205",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01206",
+        "parentExam": "unibs01206",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01207",
+        "parentExam": "unibs01207",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01208",
+        "parentExam": "unibs01208",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01209",
+        "parentExam": "unibs01209",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01210",
+        "parentExam": "unibs01210",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01211",
+        "parentExam": "unibs01211",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01212",
+        "parentExam": "unibs01212",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01213",
+        "parentExam": "unibs01213",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01214",
+        "parentExam": "unibs01214",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01215",
+        "parentExam": "unibs01215",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01216",
+        "parentExam": "unibs01216",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01217",
+        "parentExam": "unibs01217",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01218",
+        "parentExam": "unibs01218",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01219",
+        "parentExam": "unibs01219",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01220",
+        "parentExam": "unibs01220",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01221",
+        "parentExam": "unibs01221",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01222",
+        "parentExam": "unibs01222",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01223",
+        "parentExam": "unibs01223",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01224",
+        "parentExam": "unibs01224",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01225",
+        "parentExam": "unibs01225",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01226",
+        "parentExam": "unibs01226",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01227",
+        "parentExam": "unibs01227",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01228",
+        "parentExam": "unibs01228",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01229",
+        "parentExam": "unibs01229",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01230",
+        "parentExam": "unibs01230",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01231",
+        "parentExam": "unibs01231",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01232",
+        "parentExam": "unibs01232",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01233",
+        "parentExam": "unibs01233",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01234",
+        "parentExam": "unibs01234",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01235",
+        "parentExam": "unibs01235",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01236",
+        "parentExam": "unibs01236",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01237",
+        "parentExam": "unibs01237",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01238",
+        "parentExam": "unibs01238",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01239",
+        "parentExam": "unibs01239",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01240",
+        "parentExam": "unibs01240",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01241",
+        "parentExam": "unibs01241",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01242",
+        "parentExam": "unibs01242",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01243",
+        "parentExam": "unibs01243",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01244",
+        "parentExam": "unibs01244",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01245",
+        "parentExam": "unibs01245",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01246",
+        "parentExam": "unibs01246",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01247",
+        "parentExam": "unibs01247",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01248",
+        "parentExam": "unibs01248",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01249",
+        "parentExam": "unibs01249",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01250",
+        "parentExam": "unibs01250",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01251",
+        "parentExam": "unibs01251",
+        "year": "1",
+        "semester": "2"
+      },
+      {
+        "examId": "unibs01252",
+        "parentExam": "unibs01252",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01253",
+        "parentExam": "unibs01253",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01254",
+        "parentExam": "unibs01254",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01255",
+        "parentExam": "unibs01255",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01256",
+        "parentExam": "unibs01256",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01257",
+        "parentExam": "unibs01257",
+        "year": "1",
+        "semester": "1"
+      },
+      {
+        "examId": "unibs01258",
+        "parentExam": "unibs01258",
+        "year": "1",
+        "semester": "1"
+      }
+    ]
+  }
+]

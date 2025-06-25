@@ -93,13 +93,16 @@ export interface ExamData {
   courseId: string;
   name: string;
   url: string;
+  year?: number;        // Academic year level (1, 2, 3, etc.)
+  semester?: string;
+  hours?: number;       // Hours as number
   lastUpdated: string;
   deleted: string | null;
   goals?: string;
   chapters?: ChapterData[];
   examMode?: string;
   requirements?: string;
-  cfu?: string;
+  cfu?: number;         // CFU as number
   language?: string;
   teachers?: TeacherData[];
   books?: BookData;

@@ -5,7 +5,8 @@ import { Logger } from '../utils/Logger';
 
 interface RawCourseData {
   courseName: string;
-  year: string;
+  year: string;          // Text from dropdown (e.g., "Primo Anno", "Secondo Anno")
+  yearLevel: number;     // Numeric year level (1, 2, 3, etc.)
   path: string;
   urlCourse: string;
   urlYear: string;
@@ -103,10 +104,10 @@ export class CourseDataProcessor {
     
     // Save the processed data in the SESSION directory, not the university directory
     const sessionDataDir = path.dirname(rawDataPath); // Use same directory as raw data
-    const outputPath = path.join(sessionDataDir, `${sessionId}-courses-processed.json`);
+    const outputPath = path.join(sessionDataDir, `${sessionId}-2-courses-processed.json`);
     
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
-    this.logger.info(`Processed course data saved to: ${outputPath}`);
+    this.logger.info(`✓ Step 2 - Processed course data saved to: ${outputPath}`);
 
     return result;
   }
