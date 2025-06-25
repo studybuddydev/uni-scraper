@@ -1206,7 +1206,7 @@ export class ScrapingOrchestrator {
     
     // Group exams by course
     exams.forEach(exam => {
-      const courseId = exam.courseId;
+      const courseId = `${this.config.university.id}${exam.courseId}`; // Use config university ID
       const courseName = exam.course || exam.courseName;
       
       if (!courseMap.has(courseId)) {
@@ -1223,7 +1223,7 @@ export class ScrapingOrchestrator {
       
       const course = courseMap.get(courseId);
       course.exams.push({
-        examId: exam.id,
+        examId: `${this.config.university.id}${exam.id}`, // Use config university ID
         name: exam.name,
         year: exam.year?.toString() || "1",
         semester: exam.semester || "1",
