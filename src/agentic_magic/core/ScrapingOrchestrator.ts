@@ -71,7 +71,7 @@ export class ScrapingOrchestrator {
 
       // Step 2: Extract exams from course data
       this.logger.info('Step 2: Exam Extraction from Course Data');
-      const examExtractor = new ExamExtractorNew(this.config, this.logger, this.progressTracker);
+      const examExtractor = new ExamExtractorNew(this.config, this.logger, this.progressTracker, this.sessionId);
       const processedDataPath = path.join(this.getSessionDataDir(), `${this.sessionId}-courses-processed.json`);
       const examResult = await examExtractor.extractExamsFromCourseData(processedDataPath);
       

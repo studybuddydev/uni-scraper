@@ -50,8 +50,9 @@ export class ExamExtractorNew {
   private retryManager: RetryManager;
   private progressTracker: ProgressTracker;
   private browser: Browser | null = null;
+  private sessionId: string;
 
-  constructor(config: ScrapingConfig, logger: Logger, progressTracker: ProgressTracker) {
+  constructor(config: ScrapingConfig, logger: Logger, progressTracker: ProgressTracker, sessionId: string) {
     this.config = config;
     this.logger = logger;
     this.retryManager = new RetryManager(logger, {
@@ -60,6 +61,7 @@ export class ExamExtractorNew {
       backoffFactor: 2
     });
     this.progressTracker = progressTracker;
+    this.sessionId = sessionId;
   }
 
   public async extractExamsFromCourseData(processedCourseDataPath?: string): Promise<ScrapingResult<ExamInfo[]>> {
@@ -144,8 +146,12 @@ export class ExamExtractorNew {
           
           this.logger.info(`Completed course: ${courseName} - Path: ${pathName}`);
           
-          // Save intermediate results
-          const outputPath = path.join(process.cwd(), 'data', this.config.university.name, `20-exams-${this.config.university.name}.json`);
+          // Save intermediate results to session directory
+          const sessionDir = path.join(process.cwd(), 'data', `agentic-${this.sessionId}`);
+          if (!fs.existsSync(sessionDir)) {
+            fs.mkdirSync(sessionDir, { recursive: true });
+          }
+          const outputPath = path.join(sessionDir, `${this.sessionId}-exams-intermediate.json`);
           fs.writeFileSync(outputPath, JSON.stringify(examData, null, 2));
         }
       }

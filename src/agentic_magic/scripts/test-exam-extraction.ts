@@ -20,7 +20,7 @@ async function testExamExtraction() {
     logger.info('Starting exam extraction test');
     
     // Create exam extractor
-    const examExtractor = new ExamExtractorNew(config, logger, progressTracker);
+    const examExtractor = new ExamExtractorNew(config, logger, progressTracker, sessionId);
     
     // Extract exams
     const result = await examExtractor.extractExamsFromCourseData();

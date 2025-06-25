@@ -32,7 +32,7 @@ async function testFullExamPipeline() {
     
     // Step 2: Extract exams
     console.log('Step 2: Extracting exams...');
-    const examExtractor = new ExamExtractorNew(config, logger, progressTracker);
+    const examExtractor = new ExamExtractorNew(config, logger, progressTracker, sessionId);
     const processedDataPath = `/tmp/test-courses-processed-${sessionId}.json`;
     
     // Save processed data temporarily for the test

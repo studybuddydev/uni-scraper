@@ -1,27 +1,15 @@
 {
-  "sessionId": "agentic-2025-06-24T17-51-55",
-  "startTime": "2025-06-24T17:51:55.842Z",
-  "endTime": "2025-06-24T17:53:15.250Z",
+  "sessionId": "agentic-2025-06-25T12-36-46",
+  "startTime": "2025-06-25T12:36:46.764Z",
+  "endTime": "2025-06-25T12:38:02.166Z",
   "status": "completed",
   "summary": {
-    "totalItems": 570,
-    "successful": 570,
+    "totalItems": 0,
+    "successful": 0,
     "failed": 0,
     "skipped": 0,
-    "successRate": 1,
-    "duration": 79408
-  },
-  "courses": {
-    "discovered": 12,
-    "successful": 12,
-    "failed": 0,
-    "failedItems": []
-  },
-  "exams": {
-    "extracted": 558,
-    "successful": 558,
-    "failed": 0,
-    "failedItems": []
+    "successRate": 0,
+    "duration": 75402
   },
   "errors": {
     "byType": {

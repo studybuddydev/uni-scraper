@@ -25,7 +25,8 @@
     "agentic:exams": "pnpm run build && node dist/src/agentic_magic/scripts/extract-exams.js",
     "agentic:validate": "pnpm run build && node dist/src/agentic_magic/scripts/validate-data.js",
     "agentic:retry": "pnpm run build && node dist/src/agentic_magic/scripts/retry-failed.js",
-    "agentic:rescrape": "pnpm run build && node dist/src/agentic_magic/scripts/rescrape-items.js"
+    "agentic:rescrape": "pnpm run build && node dist/src/agentic_magic/scripts/rescrape-items.js",
+    "detailed-report": "pnpm run build && node dist/scripts/generate-detailed-report.js"
   },
   "keywords": [],
   "author": "",

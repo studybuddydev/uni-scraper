@@ -21,7 +21,7 @@ async function testSingleFailingURL() {
     const progressTracker = new ProgressTracker();
     
     // Create exam extractor
-    const examExtractor = new ExamExtractorNew(config, logger, progressTracker);
+    const examExtractor = new ExamExtractorNew(config, logger, progressTracker, sessionId);
     
     // Initialize browser manually for direct testing
     await (examExtractor as any).initializeBrowser();
