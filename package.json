@@ -27,7 +27,13 @@
     "agentic:validate": "pnpm run build && node dist/src/agentic_magic/scripts/validate-data.js",
     "agentic:retry": "pnpm run build && node dist/src/agentic_magic/scripts/retry-failed.js",
     "agentic:rescrape": "pnpm run build && node dist/src/agentic_magic/scripts/rescrape-items.js",
-    "detailed-report": "pnpm run build && node dist/scripts/generate-detailed-report.js"
+    "detailed-report": "pnpm run build && node dist/scripts/generate-detailed-report.js",
+    "simple:full": "pnpm run build && node dist/src/simple_pipeline/run-pipeline.js",
+    "simple:step1": "pnpm run build && node dist/src/simple_pipeline/run-pipeline.js step1",
+    "simple:step2": "pnpm run build && node dist/src/simple_pipeline/run-pipeline.js step2",
+    "simple:test": "pnpm run build && node dist/src/simple_pipeline/test-setup.js",
+    "agentic:validate-improved": "pnpm run build && node dist/src/agentic_magic/scripts/validate-improved-pipeline.js",
+    "agentic:check-output": "pnpm run build && node dist/src/agentic_magic/scripts/validate-improved-pipeline.js --check-output"
   },
   "keywords": [],
   "author": "",

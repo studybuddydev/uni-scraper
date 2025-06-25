@@ -216,8 +216,17 @@ class ExamDetailScraper {
         return [];
       }
 
+      // Log modules and fractions found
+      if (modulesAndFractions.moduli.length > 0) {
+        this.logger.info(`Found ${modulesAndFractions.moduli.length} modules in ${url}:`, modulesAndFractions.moduli.map((m: any) => m.name));
+      }
+      if (modulesAndFractions.frazioni.length > 0) {
+        this.logger.info(`Found ${modulesAndFractions.frazioni.length} fractions in ${url}:`, modulesAndFractions.frazioni.map((f: any) => f.name));
+      }
+
       // If no modules or fractions, extract single exam
       if (modulesAndFractions.moduli.length === 0 && modulesAndFractions.frazioni.length === 0) {
+        this.logger.debug(`No modules/fractions found for ${url}, extracting single exam`);
         const examData = await this.extractExamDataFromPage(page);
         return [{
           code: examData.code,
@@ -231,7 +240,9 @@ class ExamDetailScraper {
 
       // Process modules
       if (modulesAndFractions.moduli.length > 0) {
+        this.logger.info(`Processing ${modulesAndFractions.moduli.length} modules...`);
         for (const module of modulesAndFractions.moduli) {
+          this.logger.debug(`  Processing module: ${module.name}`);
           const moduleResults = await this.extractExamsFromUrl(module.url);
           await this.sleep(1000);
           moduleResults.forEach((exam: any) => {
@@ -243,7 +254,9 @@ class ExamDetailScraper {
 
       // Process fractions
       if (modulesAndFractions.frazioni.length > 0) {
+        this.logger.info(`Processing ${modulesAndFractions.frazioni.length} fractions...`);
         for (const fraction of modulesAndFractions.frazioni) {
+          this.logger.debug(`  Processing fraction: ${fraction.name}`);
           const fractionResults = await this.extractExamsFromUrl(fraction.url);
           await this.sleep(1000);
           fractionResults.forEach((exam: any) => {

@@ -96,11 +96,25 @@ export class ScrapingOrchestrator {
   }
 
   public async runFullPipeline(): Promise<void> {
-    this.logger.info('Starting full scraping pipeline');
+    this.logger.info('🎯 STARTING UNIVERSITY SCRAPER PIPELINE');
+    this.logger.info('========================================');
+    this.logger.info('This pipeline follows a clear 2-step process:');
+    this.logger.info('📚 STEP 1: Create dataCourses.json (complete course data)');
+    this.logger.info('📝 STEP 2: Create dataExams.json (detailed exam data)');
+    this.logger.info('');
     
     try {
-      // Step 1: Discover courses
-      this.logger.info('=== STEP 1: COURSE DISCOVERY ===');
+      // ===================================================================
+      // STEP 1: CREATE DATACOURSES.JSON
+      // ===================================================================
+      this.logger.info('📚 ========================================');
+      this.logger.info('📚 STEP 1: CREATING DATACOURSES.JSON');
+      this.logger.info('📚 ========================================');
+      this.logger.info('This step discovers all courses and creates the complete dataCourses.json file');
+      this.logger.info('');
+
+      // 1.1: Discover courses
+      this.logger.info('🔍 1.1: Discovering courses and their structure...');
       const courseDiscovery = new CourseDiscovery(this.config, this.logger, this.progressTracker);
       const courseResult = await courseDiscovery.discoverCourses();
       
@@ -111,22 +125,15 @@ export class ScrapingOrchestrator {
       const courses = courseResult.data!;
       this.logger.info(`✓ Discovered ${courses.length} course paths`);
       
-      // Save course discovery results
+      // 1.2: Process and structure course data
+      this.logger.info('🔧 1.2: Processing course data structure...');
       const rawCourseDataPath = await this.saveCourseData(courses);
-      
-      // Create checkpoint
-      if (this.config.recovery.enableCheckpoints) {
-        await this.createCheckpoint('course-discovery', { courses });
-      }
-
-      // Step 1.5: Process raw course data into structured format
-      this.logger.info('=== STEP 1.5: COURSE DATA PROCESSING ===');
       const courseProcessor = new CourseDataProcessor(this.config, this.logger);
       const processedCourseData = courseProcessor.processRawCourseData(rawCourseDataPath, this.sessionId);
-      this.logger.info(`✓ Processed course data: ${Object.keys(processedCourseData.courses).length} courses, ${Object.keys(processedCourseData.pathsyears).length} course paths`);
+      this.logger.info(`✓ Processed ${Object.keys(processedCourseData.courses).length} courses`);
 
-      // Step 2: Extract exams from course data
-      this.logger.info('=== STEP 2: EXAM EXTRACTION ===');
+      // 1.3: Extract exam URLs from course pages
+      this.logger.info('� 1.3: Extracting exam URLs from course pages...');
       const examExtractor = new ExamExtractorNew(this.config, this.logger, this.progressTracker, this.sessionId);
       const processedDataPath = path.join(this.getSessionDataDir(), `${this.sessionId}-2-courses-processed.json`);
       const examResult = await examExtractor.extractExamsFromCourseData(processedDataPath);
@@ -136,35 +143,70 @@ export class ScrapingOrchestrator {
       }
       
       const exams = examResult.data!;
-      this.logger.info(`✓ Extracted ${exams.length} basic exam records`);
-      
-      // Step 2.5: Extract detailed syllabus information for each exam
-      this.logger.info('=== STEP 2.5: DETAILED SYLLABUS EXTRACTION ===');
+      this.logger.info(`✓ Found ${exams.length} exam URLs`);
+
+      // 1.4: Generate final dataCourses.json
+      this.logger.info('📋 1.4: Generating final dataCourses.json...');
+      const dataCourses = await this.generateDataCourses(processedCourseData, exams);
+      await this.saveDataCourses(dataCourses);
+      this.logger.info(`✅ STEP 1 COMPLETE: dataCourses.json created with ${dataCourses.length} courses`);
+      this.logger.info('');
+
+      // ===================================================================
+      // STEP 2: CREATE DATAEXAMS.JSON  
+      // ===================================================================
+      this.logger.info('📝 ========================================');
+      this.logger.info('📝 STEP 2: CREATING DATAEXAMS.JSON');
+      this.logger.info('📝 ========================================');
+      this.logger.info('This step scrapes detailed syllabus information for all exams');
+      this.logger.info('');
+
+      // 2.1: Extract detailed syllabus information
+      this.logger.info('📖 2.1: Scraping detailed syllabus information...');
+      this.logger.info('     (This includes modules, fractions, and all content fields)');
       const detailedExams = await this.extractDetailedSyllabusInfo(exams);
-      this.logger.info(`✓ Enhanced ${detailedExams.length} exam records with detailed syllabus information`);
+      this.logger.info(`✓ Enhanced ${detailedExams.length} exams with detailed information`);
+
+      // 2.2: Generate final dataExams.json
+      this.logger.info('📋 2.2: Generating final dataExams.json...');
+      const dataExams = await this.generateDataExams(detailedExams, processedCourseData);
+      await this.saveDataExams(dataExams);
+      this.logger.info(`✅ STEP 2 COMPLETE: dataExams.json created with ${dataExams.length} exams`);
+      this.logger.info('');
+
+      // ===================================================================
+      // FINAL VALIDATION AND REPORTING
+      // ===================================================================
+      this.logger.info('🔍 Final validation and reporting...');
       
-      // Step 3: Convert to final dataExams and dataCourses format
-      this.logger.info('=== STEP 3: FINAL DATA CONVERSION ===');
-      const { dataExams, dataCourses } = await this.convertToFinalFormat(detailedExams, processedCourseData);
-      
-      // Save final data files
-      await this.saveFinalDataFiles(dataExams, dataCourses);
-      this.logger.info(`✓ Generated ${dataExams.length} dataExams and ${dataCourses.length} dataCourses`);
-      
-      // Convert exam data to proper ExamData format for validation
+      // Create checkpoint
+      if (this.config.recovery.enableCheckpoints) {
+        await this.createCheckpoint('pipeline-complete', { courses, exams: detailedExams });
+      }
+
+      // Convert exam data for legacy validation
       const examDataList = exams.map(e => this.convertToExamData(e));
-      
-      // Save exam data (legacy format)
       await this.saveExamData(examDataList);
       
-      // Step 4: Validate data
-      this.logger.info('=== STEP 4: DATA VALIDATION ===');
+      // Validate data
       await this.validateAllData(courses, examDataList);
       
       // Generate final report
-      this.logger.info('=== STEP 5: REPORT GENERATION ===');
       await this.generateFinalReport(courses, examDataList);
       
+      this.logger.info('');
+      this.logger.info('🎉 ==========================================');
+      this.logger.info('🎉 PIPELINE COMPLETED SUCCESSFULLY!');
+      this.logger.info('🎉 ==========================================');
+      this.logger.info('✅ 2-Step Process Complete:');
+      this.logger.info(`   📚 Step 1: dataCourses.json → ${this.sessionId}-dataCourses.json`);
+      this.logger.info(`   📝 Step 2: dataExams.json → ${this.sessionId}-dataExams.json`);
+      this.logger.info(`   📝 Step 2: dataExams → ${this.sessionId}-4-dataExams.json`);
+      this.logger.info('');
+      this.logger.info('🎯 Key Output Files for Your Use:');
+      this.logger.info(`   • ${this.sessionId}-5-dataCourses.json - Complete course information`);
+      this.logger.info(`   • ${this.sessionId}-4-dataExams.json - Complete exam information with syllabi`);
+      this.logger.info('');
       this.logger.info('Full pipeline completed successfully');
       
     } catch (error) {
@@ -948,7 +990,7 @@ export class ScrapingOrchestrator {
       const courseName = courseKey.replace(/\[[^\]]+\]\s*/, '').trim() || 'Unknown Course';
       
       const course = {
-        _id: { $oid: this.generateObjectId() },
+        _id: courseId,
         id: `${this.config.university.id}${courseId}`,
         universityId: this.config.university.id,
         name: courseName,
@@ -1076,13 +1118,6 @@ export class ScrapingOrchestrator {
     this.logger.info(`✓ Step 5 - Final dataCourses JSONL saved to: ${dataCoursesJsonlPath}`);
   }
 
-  private generateObjectId(): string {
-    // Generate a MongoDB-like ObjectId
-    const timestamp = Math.floor(Date.now() / 1000).toString(16);
-    const randomHex = Math.random().toString(16).substring(2, 18);
-    return timestamp + randomHex.padEnd(16, '0');
-  }
-
   private generateRandomColor(): string {
     const colors = [
       '#FFD1DC', '#AEC6CF', '#77DD77', '#FDFD96', '#CBAACB', '#FFB347',
@@ -1157,5 +1192,189 @@ export class ScrapingOrchestrator {
     }
     
     this.logger.info(`Total files generated: ${files.length}`);
+  }
+
+  // ===================================================================
+  // STEP 1 METHODS: DATACOURSES GENERATION
+  // ===================================================================
+
+  private async generateDataCourses(processedCourseData: any, exams: any[]): Promise<any[]> {
+    this.logger.info('Generating dataCourses from exam-intermediate data...');
+    
+    const dataCourses: any[] = [];
+    const courseMap = new Map<string, any>();
+    
+    // Group exams by course
+    exams.forEach(exam => {
+      const courseId = exam.courseId;
+      const courseName = exam.course || exam.courseName;
+      
+      if (!courseMap.has(courseId)) {
+        courseMap.set(courseId, {
+          id: courseId,
+          universityId: this.config.university.id,
+          name: courseName,
+          lastUpdated: new Date().toISOString(),
+          deleted: null,
+          exams: [],
+          type: this.config.university.type || "ciclounico" // from config
+        });
+      }
+      
+      const course = courseMap.get(courseId);
+      course.exams.push({
+        examId: exam.id,
+        name: exam.name,
+        year: exam.year?.toString() || "1",
+        semester: exam.semester || "1",
+        CFU: exam.cfu || exam.CFU || null
+      });
+    });
+    
+    // Convert map to array
+    courseMap.forEach(course => {
+      dataCourses.push(course);
+    });
+    
+    this.logger.info(`Generated ${dataCourses.length} course records from ${exams.length} exams`);
+    return dataCourses;
+  }
+
+  private async saveDataCourses(dataCourses: any[]): Promise<void> {
+    const outputPath = path.join(this.getSessionDataDir(), `${this.sessionId}-dataCourses.json`);
+    const outputPathJsonl = path.join(this.getSessionDataDir(), `${this.sessionId}-dataCourses.jsonl`);
+    
+    // Save JSON format
+    fs.writeFileSync(outputPath, JSON.stringify(dataCourses, null, 2));
+    
+    // Save JSONL format
+    const jsonlContent = dataCourses.map(course => JSON.stringify(course)).join('\n');
+    fs.writeFileSync(outputPathJsonl, jsonlContent);
+    
+    this.logger.info(`✓ dataCourses.json saved: ${outputPath}`);
+    this.logger.info(`✓ dataCourses.jsonl saved: ${outputPathJsonl}`);
+  }
+
+  // ===================================================================
+  // STEP 2 METHODS: DATAEXAMS GENERATION
+  // ===================================================================
+
+  private async generateDataExams(detailedExams: any[], processedCourseData: any): Promise<any[]> {
+    this.logger.info('Generating dataExams from detailed exam data...');
+    
+    const dataExams: any[] = [];
+    const codeMapping: { [key: string]: number } = {};
+
+    for (const exam of detailedExams) {
+      // Generate unique code
+      const codeN = codeMapping[exam.code] ?? 1;
+      codeMapping[exam.code] = codeN + 1;
+
+      const examRecord: any = {
+        id: `${this.config.university.id}-${exam.code}-${codeN}`,
+        parentExam: `${this.config.university.id}-${exam.code}`,
+        universityId: this.config.university.id,
+        course: exam.courseName || 'Unknown',
+        courseId: exam.courseId || 'Unknown',
+        name: exam.title || exam.name,
+        lastUpdated: new Date().toISOString(),
+        deleted: null,
+        
+        // Module and fraction info
+        module: exam.module || null,
+        fraction: exam.fraction || null,
+        hasModules: !!exam.module,
+        hasFractions: !!exam.fraction,
+        
+        // Basic info
+        cfu: this.parseNumber(exam.data?.['Crediti']?.[0]) || null,
+        hours: this.parseNumber(exam.data?.['Durata']?.[0]) || null,
+        year: this.parseNumber(exam.data?.['Anno di corso']?.[0]) || null,
+        
+        // Teachers
+        teachers: this.extractTeachers(exam.data),
+        
+        // URL info
+        urls: [{
+          name: 'Syllabus',
+          url: exam.url
+        }],
+        
+        // Visual
+        icon: 'book',
+        color: this.generateRandomColor(),
+        
+        // Content fields (mapped from Italian)
+        goals: this.extractMappedField(exam.data, ['Obiettivi formativi', 'Obiettivi formativi e risultati di apprendimento attesi', 'Obiettivi formativi per il gruppo studenti']) || '',
+        chapters: this.extractMappedField(exam.data, ['Contenuti', 'Contenuti per il gruppo studenti', 'Contenuti/Programma del corso']) || '',
+        books: this.extractMappedField(exam.data, ['Testi', 'Testi per il gruppo studenti', 'Libri di testo/Libri consigliati']) || '',
+        requirements: this.extractMappedField(exam.data, ['Prerequisiti', 'Prerequisiti per il gruppo studenti']) || '',
+        teachingMethods: this.extractMappedField(exam.data, ['Metodi didattici', 'Metodi didattici per il gruppo studenti', 'Metodi didattici utilizzati e attività di apprendimento richieste allo studente']) || '',
+        learningAssessment: this.extractMappedField(exam.data, ["Verifica dell'apprendimento", "Verifica dell'apprendimento per il gruppo studenti", "Metodi di accertamento e criteri di valutazione"]) || '',
+        extendedProgram: this.extractMappedField(exam.data, ['Programma esteso', 'Programma esteso per il gruppo studenti']) || '',
+        onlineResources: this.extractMappedField(exam.data, ['Risorse online', 'Risorse online per il gruppo studenti']) || '',
+        other: this.extractMappedField(exam.data, ['Altro', 'Altre informazioni', 'Altro per il gruppo studenti']) || '',
+        
+        // Academic fields
+        courseType: this.extractMappedField(exam.data, ['Tipo di corso']),
+        activityType: this.extractMappedField(exam.data, ['Tipo Attività Formativa']),
+        field: this.extractMappedField(exam.data, ['Ambito']),
+        language: this.extractMappedField(exam.data, ['Lingua di erogazione']),
+        evaluation: this.extractMappedField(exam.data, ['Valutazione']),
+        teachingPeriod: this.extractMappedField(exam.data, ['Periodo didattico']),
+        disciplinarySector: this.extractMappedField(exam.data, ['Settore scientifico disciplinare']),
+        location: this.extractMappedField(exam.data, ['Sede'])
+      };
+
+      dataExams.push(examRecord);
+    }
+
+    this.logger.info(`Generated ${dataExams.length} exam records`);
+    return dataExams;
+  }
+
+  private async saveDataExams(dataExams: any[]): Promise<void> {
+    const outputPath = path.join(this.getSessionDataDir(), `${this.sessionId}-dataExams.json`);
+    const outputPathJsonl = path.join(this.getSessionDataDir(), `${this.sessionId}-dataExams.jsonl`);
+    
+    // Save JSON format
+    fs.writeFileSync(outputPath, JSON.stringify(dataExams, null, 2));
+    
+    // Save JSONL format
+    const jsonlContent = dataExams.map(exam => JSON.stringify(exam)).join('\n');
+    fs.writeFileSync(outputPathJsonl, jsonlContent);
+    
+    this.logger.info(`✓ dataExams.json saved: ${outputPath}`);
+    this.logger.info(`✓ dataExams.jsonl saved: ${outputPathJsonl}`);
+  }
+
+  // ===================================================================
+  // HELPER METHODS
+  // ===================================================================
+
+  private parseNumber(value: string | undefined): number | null {
+    if (!value) return null;
+    const match = value.match(/\d+/);
+    return match ? parseInt(match[0]) : null;
+  }
+
+  private extractTeachers(data: any): string[] {
+    const generalInfo = data?.['Informazioni generali'] || {};
+    const teachers = [
+      ...(generalInfo['Docenti']?.split(',') || []),
+      ...(generalInfo['Responsabili']?.split(',') || []),
+      ...(generalInfo['Assistenti']?.split(',') || [])
+    ].filter(t => !!t).map(t => t.trim());
+    
+    return teachers;
+  }
+
+  private extractMappedField(data: any, possibleKeys: string[]): string | null {
+    for (const key of possibleKeys) {
+      if (data?.[key]) {
+        return Array.isArray(data[key]) ? data[key][0] : data[key];
+      }
+    }
+    return null;
   }
 }
