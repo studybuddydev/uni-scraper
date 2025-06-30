@@ -1,0 +1,18 @@
+Metric,Value
+Session ID,agentic-2025-06-26T15-37-45
+Start Time,2025-06-26T15:37:45.216Z
+End Time,2025-06-26T15:47:45.269Z
+Status,completed
+Total Items,0
+Successful,0
+Failed,0
+Skipped,0
+Success Rate,0.00%
+Duration (ms),600053
+Average Request Time (ms),0.00
+Requests Per Second,0.00
+Peak Memory (MB),0.00
+Total Requests,0
+Failed Requests,0
+Retries,0
+Timeouts,0

@@ -149,6 +149,10 @@ export class ScrapingOrchestrator {
       this.logger.info('📋 1.4: Generating final dataCourses.json...');
       const dataCourses = await this.generateDataCourses(processedCourseData, exams);
       await this.saveDataCourses(dataCourses);
+      
+      // Generate visualization automatically
+      await this.generateDataCoursesVisualization();
+      
       this.logger.info(`✅ STEP 1 COMPLETE: dataCourses.json created with ${dataCourses.length} courses`);
       this.logger.info('');
 
@@ -1201,43 +1205,162 @@ export class ScrapingOrchestrator {
   private async generateDataCourses(processedCourseData: any, exams: any[]): Promise<any[]> {
     this.logger.info('Generating dataCourses from exam-intermediate data...');
     
+    // Read the exams-intermediate data directly to preserve year structure
+    const sessionDataDir = this.getSessionDataDir();
+    const examsIntermediatePath = path.join(sessionDataDir, `${this.sessionId}-exams-intermediate.json`);
+    
+    if (!fs.existsSync(examsIntermediatePath)) {
+      throw new Error(`Exams intermediate file not found: ${examsIntermediatePath}`);
+    }
+    
+    const examsIntermediateData = JSON.parse(fs.readFileSync(examsIntermediatePath, 'utf8'));
+    
     const dataCourses: any[] = [];
     const courseMap = new Map<string, any>();
     
-    // Group exams by course
-    exams.forEach(exam => {
-      const courseId = `${this.config.university.id}${exam.courseId}`; // Use config university ID
-      const courseName = exam.course || exam.courseName;
+    // Function to normalize semester names
+    const normalizeSemester = (semester: string): string => {
+      if (!semester) return "Unknown";
+      
+      const lowerSemester = semester.toLowerCase().trim();
+      
+      // First semester variations
+      if (lowerSemester.includes('primo') || 
+          lowerSemester.includes('first') || 
+          lowerSemester === '1' ||
+          lowerSemester.includes('i semestre')) {
+        return "First Semester";
+      }
+      
+      // Second semester variations  
+      if (lowerSemester.includes('secondo') || 
+          lowerSemester.includes('second') || 
+          lowerSemester === '2' ||
+          lowerSemester.includes('ii semestre')) {
+        return "Second Semester";
+      }
+      
+      // Annual course
+      if (lowerSemester.includes('annual') || 
+          lowerSemester.includes('annuale')) {
+        return "Annual";
+      }
+      
+      // Return original if no match
+      return semester;
+    };
+    
+    // Process the hierarchical exam data
+    for (const courseName in examsIntermediateData) {
+      // Extract course ID from course name [ID] FORMAT
+      const courseIdMatch = courseName.match(/\[([^\]]+)\]/);
+      const courseId = `${this.config.university.id}${courseIdMatch ? courseIdMatch[1] : 'unknown'}`;
+      const cleanCourseName = courseName.replace(/\[[^\]]+\]\s*/, '').trim();
       
       if (!courseMap.has(courseId)) {
         courseMap.set(courseId, {
           id: courseId,
           universityId: this.config.university.id,
-          name: courseName,
+          name: cleanCourseName,
           lastUpdated: new Date().toISOString(),
           deleted: null,
           exams: [],
-          type: this.config.university.type || "ciclounico" // from config
+          examIds: new Set(), // Track unique exam IDs
+          type: this.config.university.type || "ciclounico"
         });
       }
       
       const course = courseMap.get(courseId);
-      course.exams.push({
-        examId: `${this.config.university.id}${exam.id}`, // Use config university ID
-        name: exam.name,
-        year: exam.year?.toString() || "1",
-        semester: exam.semester || "1",
-        CFU: exam.cfu || exam.CFU || null
-      });
-    });
+      
+      // Process each path in the course
+      for (const pathName in examsIntermediateData[courseName]) {
+        // Process each academic year
+        for (const academicYear in examsIntermediateData[courseName][pathName]) {
+          const yearData = examsIntermediateData[courseName][pathName][academicYear];
+          
+          // Process each study year (1, 2, 3, etc.)
+          for (const studyYear in yearData.exams) {
+            const examsInYear = yearData.exams[studyYear];
+            
+            for (const exam of examsInYear) {
+              const examId = `${this.config.university.id}${exam.id}`;
+              
+              // Check if we already have this exam
+              const existingExamIndex = course.exams.findIndex((e: any) => e.examId === examId);
+              
+              const newExam = {
+                examId: examId,
+                name: exam.name,
+                year: studyYear, // Use the actual study year from the structure
+                semester: normalizeSemester(exam.semester),
+                CFU: exam.cfu || null,
+                parentExamId: exam.parentExamId ? `${this.config.university.id}${exam.parentExamId}` : null,
+                parentExamName: exam.parentExamName || null,
+                isSubexam: exam.isSubexam || false
+              };
+              
+              if (existingExamIndex === -1) {
+                // No duplicate, add the exam
+                course.examIds.add(examId);
+                course.exams.push(newExam);
+              } else {
+                // Duplicate found, check which one has better data
+                const existingExam = course.exams[existingExamIndex];
+                
+                // Calculate "completeness score" for both exams
+                const existingScore = this.calculateExamCompleteness(existingExam);
+                const newScore = this.calculateExamCompleteness(newExam);
+                
+                // Replace if new exam has better data
+                if (newScore > existingScore) {
+                  this.logger.debug(`Replacing exam ${examId} with more complete data (score: ${existingScore} -> ${newScore})`);
+                  course.exams[existingExamIndex] = newExam;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     
-    // Convert map to array
+    // Convert map to array and remove the tracking set
     courseMap.forEach(course => {
+      delete course.examIds; // Remove the tracking set before saving
       dataCourses.push(course);
     });
     
-    this.logger.info(`Generated ${dataCourses.length} course records from ${exams.length} exams`);
+    this.logger.info(`Generated ${dataCourses.length} course records with proper year/semester data`);
     return dataCourses;
+  }
+
+  private calculateExamCompleteness(exam: any): number {
+    let score = 0;
+    
+    // Basic info (always present)
+    score += 1; // examId
+    score += 1; // name
+    
+    // Year info (should always be present now)
+    if (exam.year && exam.year !== 'Unknown') {
+      score += 2;
+    }
+    
+    // Semester info (very important)
+    if (exam.semester && exam.semester !== 'Unknown') {
+      score += 3;
+    }
+    
+    // CFU info (very important)
+    if (exam.CFU && exam.CFU > 0) {
+      score += 3;
+    }
+    
+    // Parent/subexam relationship info (bonus points)
+    if (exam.parentExamId) {
+      score += 1; // This is a subexam with proper parent reference
+    }
+    
+    return score;
   }
 
   private async saveDataCourses(dataCourses: any[]): Promise<void> {
@@ -1376,5 +1499,384 @@ export class ScrapingOrchestrator {
       }
     }
     return null;
+  }
+
+  private async generateDataCoursesVisualization(): Promise<void> {
+    try {
+      this.logger.info('🎨 Generating dataCourses visualization...');
+      
+      const sessionDataDir = this.getSessionDataDir();
+      const sessionName = this.sessionId;
+      const dataCoursesPath = path.join(sessionDataDir, `${sessionName}-dataCourses.json`);
+      
+      if (!fs.existsSync(dataCoursesPath)) {
+        this.logger.warn('❌ DataCourses file not found, skipping visualization');
+        return;
+      }
+
+      const dataCourses = JSON.parse(fs.readFileSync(dataCoursesPath, 'utf8'));
+      
+      // Generate the HTML visualization
+      const html = this.generateVisualizationHTML(dataCourses);
+      
+      // Save the visualization
+      const outputPath = path.join(sessionDataDir, 'dataCourses-visualization.html');
+      fs.writeFileSync(outputPath, html);
+      
+      this.logger.info(`✅ Visualization saved: ${outputPath}`);
+    } catch (error) {
+      this.logger.error('❌ Failed to generate visualization:', error);
+    }
+  }
+
+  private generateVisualizationHTML(dataCourses: any[]): string {
+    const totalExams = dataCourses.reduce((sum, course) => sum + course.exams.length, 0);
+    const totalCFU = dataCourses.reduce((sum, course) => 
+      sum + course.exams.reduce((examSum: number, exam: any) => examSum + (exam.CFU || 0), 0), 0);
+    const examsWithCFU = dataCourses.reduce((sum, course) => 
+      sum + course.exams.filter((exam: any) => exam.CFU).length, 0);
+
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataCourses Visualization</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .course {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .course-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .course-header:hover {
+            background: linear-gradient(135deg, #5a6fd8, #6a42a0);
+        }
+        .course-title {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .course-stats {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .expand-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+        .course.expanded .expand-icon {
+            transform: rotate(180deg);
+        }
+        .course-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .course.expanded .course-content {
+            max-height: 2000px;
+        }
+        .year {
+            border-bottom: 1px solid #eee;
+        }
+        .year:last-child {
+            border-bottom: none;
+        }
+        .year-header {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+        .year-header:hover {
+            background: #e9ecef;
+        }
+        .year-title {
+            font-weight: 600;
+            color: #495057;
+        }
+        .semester {
+            padding: 15px 40px;
+            border-bottom: 1px solid #f1f3f4;
+        }
+        .semester:last-child {
+            border-bottom: none;
+        }
+        .semester-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .semester-title {
+            font-weight: 500;
+            color: #6c757d;
+        }
+        .cfu-badge {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .exams {
+            display: none;
+            padding: 10px 0;
+        }
+        .semester.expanded .exams {
+            display: block;
+        }
+        .exam {
+            background: #fff;
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .exam:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .exam-info {
+            flex: 1;
+        }
+        .exam-name {
+            font-weight: 500;
+            color: #343a40;
+        }
+        .exam-id {
+            color: #6c757d;
+            font-size: 0.85em;
+            margin-top: 2px;
+        }
+        .exam-cfu {
+            background: #17a2b8;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        .exam.subexam {
+            background: #f1f8ff;
+            border-left: 4px solid #0066cc;
+            margin-left: 15px;
+        }
+        .exam.subexam:hover {
+            background: #e6f3ff;
+        }
+        .parent-ref {
+            color: #6c757d;
+            font-size: 0.8em;
+            font-style: italic;
+        }
+        .missing-cfu {
+            background: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 DataCourses Visualization</h1>
+            <p>University: ${this.config.university.id.toUpperCase()} | Generated: ${new Date().toLocaleDateString()}</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">${dataCourses.length}</div>
+                <div>Courses</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">${totalExams}</div>
+                <div>Total Exams</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">${totalCFU}</div>
+                <div>Total CFU</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">${examsWithCFU}</div>
+                <div>Exams with CFU</div>
+            </div>
+        </div>
+
+        <div class="courses">
+            ${dataCourses.map((course: any) => this.generateCourseHTML(course)).join('')}
+        </div>
+    </div>
+
+    <script>
+        // Course collapsing
+        document.querySelectorAll('.course-header').forEach(header => {
+            header.addEventListener('click', () => {
+                header.parentElement.classList.toggle('expanded');
+            });
+        });
+
+        // Year collapsing  
+        document.querySelectorAll('.year-header').forEach(header => {
+            header.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const yearContent = header.nextElementSibling;
+                yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+
+        // Semester collapsing
+        document.querySelectorAll('.semester-header').forEach(header => {
+            header.addEventListener('click', (e) => {
+                e.stopPropagation();
+                header.parentElement.classList.toggle('expanded');
+            });
+        });
+    </script>
+</body>
+</html>`;
+  }
+
+  private generateCourseHTML(course: any): string {
+    // Group exams by year and semester
+    const examsByYear: { [year: string]: { [semester: string]: any[] } } = {};
+    
+    course.exams.forEach((exam: any) => {
+      const year = exam.year || 'Unknown';
+      const semester = exam.semester || 'Unknown';
+      
+      if (!examsByYear[year]) examsByYear[year] = {};
+      if (!examsByYear[year][semester]) examsByYear[year][semester] = [];
+      
+      examsByYear[year][semester].push(exam);
+    });
+
+    const courseTotalCFU = course.exams.reduce((sum: number, exam: any) => sum + (exam.CFU || 0), 0);
+    const yearsHTML = Object.entries(examsByYear)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([year, semesters]) => {
+        const semestersHTML = Object.entries(semesters)
+          .sort(([a], [b]) => a.localeCompare(b))
+          .map(([semester, exams]) => {
+            const totalCFU = exams.reduce((sum, exam) => sum + (exam.CFU || 0), 0);
+            const examsHTML = exams.map(exam => `
+              <div class="exam ${exam.isSubexam ? 'subexam' : ''}">
+                  <div class="exam-info">
+                      <div class="exam-name">
+                        ${exam.isSubexam ? '↳ ' : ''}${exam.name}
+                        ${exam.parentExamName ? `<span class="parent-ref">(${exam.parentExamName})</span>` : ''}
+                      </div>
+                      <div class="exam-id">${exam.examId}</div>
+                  </div>
+                  <div class="exam-cfu ${exam.CFU ? '' : 'missing-cfu'}">
+                      ${exam.CFU || 'No CFU'}
+                  </div>
+              </div>
+            `).join('');
+
+            return `
+              <div class="semester">
+                  <div class="semester-header">
+                      <span class="semester-title">${semester}</span>
+                      <span class="cfu-badge">${totalCFU} CFU</span>
+                  </div>
+                  <div class="exams">
+                      ${examsHTML}
+                  </div>
+              </div>
+            `;
+          }).join('');
+
+        return `
+          <div class="year">
+              <div class="year-header">
+                  <span class="year-title">Year ${year}</span>
+                  <span>▼</span>
+              </div>
+              <div class="year-content" style="display: none;">
+                  ${semestersHTML}
+              </div>
+          </div>
+        `;
+      }).join('');
+
+    return `
+      <div class="course">
+          <div class="course-header">
+              <div>
+                  <div class="course-title">${course.name}</div>
+                  <div class="course-stats">${course.id} • ${course.exams.length} exams • ${courseTotalCFU} CFU</div>
+              </div>
+              <div class="expand-icon">▼</div>
+          </div>
+          <div class="course-content">
+              ${yearsHTML}
+          </div>
+      </div>
+    `;
   }
 }

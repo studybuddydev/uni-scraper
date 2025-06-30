@@ -1,0 +1,5922 @@
+[
+  {
+    "id": "unibs04181R",
+    "universityId": "unibs",
+    "name": "GIURISPRUDENZA",
+    "lastUpdated": "2025-06-30T13:52:08.151Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs11013",
+        "name": "FILOSOFIA DEL DIRITTO",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000178",
+        "name": "ISTITUZIONI DIRITTO PRIVATO",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 12,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000360",
+        "name": "ISTITUZIONI DIRITTO ROMANO",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0016",
+        "name": "STORIA DEL DIRITTO E DELLA GIUSTIZIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0122",
+        "name": "DIRITTO COSTITUZIONALE - MODULO I",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": "unibsJUS0121",
+        "parentExamName": "DIRITTO COSTITUZIONALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0123",
+        "name": "DIRITTO COSTITUZIONALE - MODULO II",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsJUS0121",
+        "parentExamName": "DIRITTO COSTITUZIONALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0124",
+        "name": "ORATORIA GIUDIZIARIA CLASSICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0125",
+        "name": "FONDAMENTI DIRITTO ECCLESIASTICO",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701735",
+        "name": "LINGUA INGLESE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701736",
+        "name": "LINGUA FRANCESE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701765",
+        "name": "LINGUA SPAGNOLA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701811",
+        "name": "LINGUA TEDESCA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701687",
+        "name": "DIRITTO DELL'UNIONE EUROPEA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004205",
+        "name": "DIRITTO COMMERCIALE (I MODULO)",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsA004204",
+        "parentExamName": "DIRITTO COMMERCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004206",
+        "name": "DIRITTO COMMERCIALE (II MODULO)",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": "unibsA004204",
+        "parentExamName": "DIRITTO COMMERCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0007",
+        "name": "ECONOMIA POLITICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0126",
+        "name": "FONDAMENTI DEL DIRITTO EUROPEO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0127",
+        "name": "DIRITTO INTERNAZIONALE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11615",
+        "name": "TEORIA E TECNICA DELL'INTERPRETAZIONE GIURIDICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701725",
+        "name": "INFORMATICA GIURIDICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701689",
+        "name": "DIRITTO AMMINISTRATIVO I",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701691",
+        "name": "DIRITTO PROCESSUALE CIVILE I",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0160",
+        "name": "DIRITTO DEL LAVORO E DIRITTO ANTIDISCRIMINATORIO - MODULO DIRITTO DEL LAVORO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibs703685",
+        "parentExamName": "DIRITTO DEL LAVORO E DIRITTO ANTIDISCRIMINATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU5753",
+        "name": "DIRITTO ANTIDISCRIMINATORIO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibs703685",
+        "parentExamName": "DIRITTO DEL LAVORO E DIRITTO ANTIDISCRIMINATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0129",
+        "name": "DIRITTO PENALE - MODULO II",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": "unibsJUS0130",
+        "parentExamName": "DIRITTO PENALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0131",
+        "name": "DIRITTO PROCESSUALE CIVILE II E MEDIAZIONE",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0135",
+        "name": "LABORATORIO REDAZIONE DEGLI ATTI GIUDIZIARI",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0136",
+        "name": "ABILITA' INFORMATICHE E PROCESSO TELEMATICO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11026",
+        "name": "DIRITTO PRIVATO COMPARATO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs700361",
+        "name": "DIRITTO PUBBLICO COMPARATO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701695",
+        "name": "DIRITTO AMMINISTRATIVO II",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA003124",
+        "name": "STORIA DEL DIRITTO CONTEMPORANEO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0009",
+        "name": "DIRITTO TRIBUTARIO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0134",
+        "name": "DIRITTO CIVILE - MODULO II",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsJUS0132",
+        "parentExamName": "DIRITTO CIVILE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0137",
+        "name": "DIRITTO PROCESSUALE PENALE I",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0138",
+        "name": "DIRITTO PROCESSUALE PENALE II",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11037",
+        "name": "CRIMINOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11049",
+        "name": "SOCIOLOGIA DEL DIRITTO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11039",
+        "name": "DIRITTO FAMIGLIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs11058",
+        "name": "DIRITTO INDUSTRIALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701028",
+        "name": "DIRITTO BANCARIO E DELL'INTERMEDIAZIONE FINANZIARIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701032",
+        "name": "LEGISLAZIONE DEI BENI CULTURALI",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701081",
+        "name": "DIRITTO PRIVATO COMPARATO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701728",
+        "name": "GIUSTIZIA COSTITUZIONALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs750706",
+        "name": "DIRITTO PUBBLICO DEI PAESI ISLAMICI",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs751115",
+        "name": "BIODIRITTO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000383",
+        "name": "ANTROPOLOGIA GIURIDICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000567",
+        "name": "GIUSTIZIA PENALE EUROPEA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000568",
+        "name": "TEMPI E LUOGHI DEL DIRITTO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000576",
+        "name": "DIRITTO DELL'AMBIENTE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004203",
+        "name": "CRIMINOLOGIA DEL TERRORISMO E DEI CRIMINI INTERNAZIONALI/CRIMONOLOGY OF TERRORISM AND INTERNATIONAL CRIMES",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA005527",
+        "name": "DIRITTO PENALE DELL'IMPRESA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0001",
+        "name": "THEORIES OF JUSTICE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0003",
+        "name": "INTRODUCTION TO CHINESE LAW",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0004",
+        "name": "EUROPEAN CONSTITUTIONAL LAW",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0055",
+        "name": "CRIMINOLOGIA PENITENZIARIA E GIUSTIZIA RIPARATIVA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0057",
+        "name": "DIRITTO DELLA SALUTE E SICUREZZA SUL LAVORO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0058",
+        "name": "DIRITTO DELLA SICUREZZA SOCIALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0095",
+        "name": "DIRITTO PUBBLICO COMPARATO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0151",
+        "name": "SOSTENIBILITA' E ADATTAMENTO AL DIRITTO NON STATALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0152",
+        "name": "DIRITTO DEI MERCATI AGROALIMENTARI",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701694",
+        "name": "DIRITTO INTERNAZIONALE PRIVATO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000359",
+        "name": "PROVA FINALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 17,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0139",
+        "name": "TECNICHE INTERPRETATIVE DELLA GIUSTIZIA ROMANA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0140",
+        "name": "METEODOLOGIA CLINICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0143",
+        "name": "DIRITTO CIVILE DELLA SOSTENIBILITA'",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0141",
+        "name": "CLINICA LEGALE: DIRITTO DEL LAVORO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0142",
+        "name": "CLINICA LEGALE: DIRITTO ANTIDISCRIMINATORIO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs750704",
+        "name": "DIRITTO COMMERCIALE ( PROGREDITO)",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0015",
+        "name": "DIRITTO DELLA CRISI E DELL'INSOLVENZA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0147",
+        "name": "CLINICA LEGALE: GIUSTIZIA COSTITUZIONALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0148",
+        "name": "CLINICA LEGALE: DIRITTO AMMINISTRATIVO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs702082",
+        "name": "DIRITTO PARLAMENTARE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs750718",
+        "name": "SISTEMI GOVERNO NEGLI STATI DEMOCRATICI",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701029",
+        "name": "DIRITTO DELL'UNIONE EUROPEA ( PROGREDITO)",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0149",
+        "name": "DIRITTO DELL'ANTICORRUZIONE E DELLA TRASPARENZA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs701713",
+        "name": "DIRITTO CANONICO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0150",
+        "name": "DIRITTO ECCELSIASTICO ( PROGREDITO)",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0144",
+        "name": "CLINICA LEGALE: DIRITTO PENALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0145",
+        "name": "DIRITTO INTERNAZIONALE PENALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0164",
+        "name": "DURITTO PENALE E PROCESSUALE PENALE ( PROGREDITO) - MODULO DIRITTO PROCESSUALE PENALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsJUS0163",
+        "parentExamName": "DURITTO PENALE E PROCESSUALE PENALE ( PROGREDITO)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsJUS0165",
+        "name": "DURITTO PENALE E PROCESSUALE PENALE ( PROGREDITO) - MODULO DIRITTO PENALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsJUS0163",
+        "parentExamName": "DURITTO PENALE E PROCESSUALE PENALE ( PROGREDITO)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs700346",
+        "name": "MEDICINA LEGALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsJUS0146",
+        "name": "TEORIE DELLA GIUSTIZIA PENALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      }
+    ],
+    "type": "ciclounico"
+  },
+  {
+    "id": "unibs08624R",
+    "universityId": "unibs",
+    "name": "MEDICINA E CHIRURGIA",
+    "lastUpdated": "2025-06-30T13:52:08.152Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibsA004858",
+        "name": "ANATOMIA GENERALE E NEUROANATOMIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 5,
+        "parentExamId": "unibsA004857",
+        "parentExamName": "ANATOMIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004860",
+        "name": "ESERCITAZIONI ANATOMIA UMANA I",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004857",
+        "parentExamName": "ANATOMIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0707",
+        "name": "ANATOMIA DEL SISTEMA LOCOMOTORE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004857",
+        "parentExamName": "ANATOMIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004861",
+        "name": "ATTIVITA' ALIBERA SCELTA 1° ANNO",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0874",
+        "name": "BIOCHIMICA E BIOCHIMICA MEDICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 8,
+        "parentExamId": "unibsMED0875",
+        "parentExamName": "BIOCHIMICA E BIOLOGIA MOLECOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7658",
+        "name": "BIOLOGIA MOLECOLARE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0875",
+        "parentExamName": "BIOCHIMICA E BIOLOGIA MOLECOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0876",
+        "name": "BIOLOGIA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0877",
+        "name": "CHIMICA E PROPEDEUTICA BIOCHIMICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0878",
+        "name": "FISICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000654",
+        "name": "DIAGNOSTICA GENETICA MEDICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000656",
+        "name": "GENETICA MEDICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0879",
+        "name": "GENETICA MOLECOLARE E GENOMICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7638",
+        "name": "ISTOLOGIA E CITOLOGIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7639",
+        "name": "EMBRIOLOGIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7640",
+        "name": "ESERCITAZIONI ISTOLOGIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0880",
+        "parentExamName": "GENETICA E ISTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004854",
+        "name": "INGLESE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibsMED0881",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004856",
+        "name": "INTRODUZIONE BIOETICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0881",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7646",
+        "name": "PSICOLOGIA GENERALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0881",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8766",
+        "name": "STORIA DELLA MEDICINA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0881",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8767",
+        "name": "STORIA DEGLI STRUMENTI MEDICO CHIRURGICI",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0881",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000659",
+        "name": "FISIOLOGIA CELLULARE CONTRAZ MUSCOLARE",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibsA000593",
+        "parentExamName": "FISIOLOGIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000660",
+        "name": "FISIOLOGIA DEL SISTEMA ENDOCRINO",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA000593",
+        "parentExamName": "FISIOLOGIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000661",
+        "name": "NEUROFISIOLOGIA",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000593",
+        "parentExamName": "FISIOLOGIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004874",
+        "name": "FISIOLOGIA APPARATO CARDIOVASCOLARE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibsA000597",
+        "parentExamName": "FISIOLOGIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004875",
+        "name": "FISIOLOGIA DEL RENE E DEI LIQUIDI CORPOREI",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA000597",
+        "parentExamName": "FISIOLOGIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004876",
+        "name": "FISIOLOGIA DELL'APPARATO RESPIRATORIO",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA000597",
+        "parentExamName": "FISIOLOGIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9132",
+        "name": "FISIOLOGIA DELL'APPARATO DIGERENTE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA000597",
+        "parentExamName": "FISIOLOGIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004863",
+        "name": "IMMUNOLOGIA",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibsA004862",
+        "parentExamName": "IMMUNOLOGIA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7687",
+        "name": "BIOCHIMICA CLINICA",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA004862",
+        "parentExamName": "IMMUNOLOGIA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004865",
+        "name": "ANATOMIA SISTEMATICA E TOPOGRAFICA TESTA, COLLO, TORACE E ADDOME",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 8,
+        "parentExamId": "unibsA004864",
+        "parentExamName": "ANATOMIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004866",
+        "name": "ANATOMIA TOPOGRAFICA DEGLI ARTI",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004864",
+        "parentExamName": "ANATOMIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004867",
+        "name": "ESERCITAZIONI ANATOMIA UMANA II",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004864",
+        "parentExamName": "ANATOMIA UMANA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004869",
+        "name": "MICROBIOLOGIA CLINICA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA004868",
+        "parentExamName": "MICROBIOLOGIA E MICROBIOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004870",
+        "name": "BATTERIOLOGIA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA004868",
+        "parentExamName": "MICROBIOLOGIA E MICROBIOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004871",
+        "name": "MICOLOGIA E PARASSITOLOGIA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004868",
+        "parentExamName": "MICROBIOLOGIA E MICROBIOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004872",
+        "name": "VIROLOGIA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004868",
+        "parentExamName": "MICROBIOLOGIA E MICROBIOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004873",
+        "name": "ATTIVITA' LIBERA SCELTA 2° ANNO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000603",
+        "name": "PRINCIPI MEDICINA LEGALE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000604",
+        "name": "STATISTICA MEDICA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000605",
+        "name": "MODELLI INTEGRAZIONE CON LE PROFESSIONI SANITARIE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004878",
+        "name": "EPIDEMIOLOGIA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004879",
+        "name": "IGIENE AMBIENTALE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004880",
+        "name": "PSICOLOGIA MEDICA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004887",
+        "name": "PRINCIPI MEDICINA DEL LAVORO: RISCHI LAVORATIVI SANITA'",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0882",
+        "name": "INFORMATICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004877",
+        "parentExamName": "SALUTE, PREVENZIONE E METODOLOGIA DELLA RICERCA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7619",
+        "name": "PATOLOGIA GENERALE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibs702950",
+        "parentExamName": "PATOLOGIA E FISIOPATOLOGIA GENERALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7685",
+        "name": "ONCOLOGIA",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibs702950",
+        "parentExamName": "PATOLOGIA E FISIOPATOLOGIA GENERALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7686",
+        "name": "FISIOPATOLOGIA GENERALE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibs702950",
+        "parentExamName": "PATOLOGIA E FISIOPATOLOGIA GENERALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA003798",
+        "name": "FARMACOLOGIA GENERALE",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs702960",
+        "parentExamName": "FARMACOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA003799",
+        "name": "FARMACOLOGIA SPECIALE",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 7,
+        "parentExamId": "unibs702960",
+        "parentExamName": "FARMACOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004881",
+        "name": "ATTIVITA' LIBERA SCELTA 3° ANNO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004885",
+        "name": "ANATOMIA PATOLOGICA MOD.",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA004884",
+        "parentExamName": "ANATOMIA PATOLOGICA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004886",
+        "name": "ANATOMIA PATOLOGICA MOD.B",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004884",
+        "parentExamName": "ANATOMIA PATOLOGICA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004891",
+        "name": "NEFROLOGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004892",
+        "name": "UROLOGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004893",
+        "name": "ENDOCRINOLOGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004894",
+        "name": "ENDOCRINOCHIRURGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004895",
+        "name": "TIROCINIO UROLOGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9203",
+        "name": "TIROCINIO NEFROLOGIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA004890",
+        "parentExamName": "MALATTIE DEL RENE, DELLE VIE URINARIE, DELL'APPARATO GENITALE MASCHILE E DEL SISTEMA ENDOCRINO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004883",
+        "name": "METODICHE DIAGNOSTICA PER IMMAGINI",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004888",
+        "name": "TIROCINIO Semeiotica Medica",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0001",
+        "name": "Semeiotica Chirurgica",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0003",
+        "name": "TIROCINIO Semeiotica Chirurgica",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0011",
+        "name": "TIROCINIO Tecniche Diagnostica per Immagini",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7698",
+        "name": "SEMEIOTICA MEDICA",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9140",
+        "name": "ELEMENTI DIAGNOSTICA STRUMENT CARDIOLOGICA",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0002",
+        "parentExamName": "METODOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0207",
+        "name": "ORTOPEDIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsMED0209",
+        "parentExamName": "MALATTIE DELL' APPARATO LOCOMOTORE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0208",
+        "name": "MEDICINA FISICA E RIABILITATIVA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0209",
+        "parentExamName": "MALATTIE DELL' APPARATO LOCOMOTORE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7965",
+        "name": "TIR ORTOPEDIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0209",
+        "parentExamName": "MALATTIE DELL' APPARATO LOCOMOTORE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004897",
+        "name": "TIROCINIO Reumatologia",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004896",
+        "parentExamName": "IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004898",
+        "name": "TIROCINIO Dermatologia",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004896",
+        "parentExamName": "IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0222",
+        "name": "IMMUNOLOGIA E ALLERGOLOGIA CLINICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004896",
+        "parentExamName": "IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0223",
+        "name": "REUMATOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004896",
+        "parentExamName": "IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0224",
+        "name": "DERMATOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004896",
+        "parentExamName": "IMMUNOLOGIA CLINICA, ALLERGOLOGIA, DERMATOLOGIA, REUMATOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004900",
+        "name": "ANATOMIA PATOLOGICA MOD.C",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004899",
+        "parentExamName": "ANATOMIA PATOLOGICA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004901",
+        "name": "ANATOMIA PATOLOGICA MOD.D",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004899",
+        "parentExamName": "ANATOMIA PATOLOGICA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004903",
+        "name": "PNEUMOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0225",
+        "name": "CARDIOCHIRURGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0226",
+        "name": "CHIRURGIA VASCOLARE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0227",
+        "name": "CARDIOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0228",
+        "name": "ELEMENTI ANGIOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0229",
+        "name": "EPIDEMIOLOGIA E FATTORI RISCHIO VASCOLARE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7962",
+        "name": "TIR CARDIOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7963",
+        "name": "TIR PNEUMOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7964",
+        "name": "TIR CARDIOCHIRURGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004902",
+        "parentExamName": "MALATTIE DELL'APPARATO RESPIRATORIO E DELL'APPARATO CARDIOVASCOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004905",
+        "name": "TIROCINIO Psichiatria",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004904",
+        "parentExamName": "PSICHIATRIA E PSICOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0235",
+        "name": "PSICOLOGIA CLINICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004904",
+        "parentExamName": "PSICHIATRIA E PSICOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0236",
+        "name": "PSICHIATRIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004904",
+        "parentExamName": "PSICHIATRIA E PSICOLOGIA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004907",
+        "name": "OCULISTICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004908",
+        "name": "TIROCINIO Neurochirurgia",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0230",
+        "name": "NEUROLOGIA E RIABILITAZIONE NEUROLOGICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0231",
+        "name": "EMERGENZE NEUROLOGICHE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0232",
+        "name": "NEUROCHIRURGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0233",
+        "name": "NEURORADIOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7967",
+        "name": "TIR NEUROLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7968",
+        "name": "TIR OCULISTICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004906",
+        "parentExamName": "MALATTIE DEL SISTEMA NERVOSO E DELL'APPARATO VISIVO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA003907",
+        "name": "AUDIOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004910",
+        "name": "OTORINOLARINGOIATRIA GENERALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004912",
+        "name": "OTORINOLARINGOIATRIA ONCOLOGICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004913",
+        "name": "ODONTOIATRIA, MALFORMAZIONI, CARIE E PARODONTOPATIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004914",
+        "name": "TIROCINIO Otorinolaringoiatria",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0234",
+        "name": "CHIRURGIA MAXILLO FACCIALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004909",
+        "parentExamName": "OTORINOLARINGOIATRIA E MEDICINA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004921",
+        "name": "ATTIVITA' LIBERA SCELTA 4° ANNO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004917",
+        "name": "MALATTIE INFETTIVE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004918",
+        "name": "EMATOLOGIA SPERIMENTALE TRASLAZIONALE",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004919",
+        "name": "TIROCINIO Ematologia",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004920",
+        "name": "TIROCINIO Malattie Infettive",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0024",
+        "name": "MALATTIE EMERGENTI E TROPICALI",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0025",
+        "name": "INFEZIONI NOSOCOMIALI E COMUNITA'",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7712",
+        "name": "EMATOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7716",
+        "name": "EMATOLOGIA ONCOLOGICA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0023",
+        "parentExamName": "MALATTIE INFETTIVE E DEL SANGUE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004923",
+        "name": "TIROCINIO Radiodiagnostica",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702966",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004924",
+        "name": "TIROCINIO Radioterapia",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702966",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9218",
+        "name": "RADIODIAGNOSTICA E RADIOLOGIA INTERVENTISTICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibs702966",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9220",
+        "name": "RADIOTERAPIA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs702966",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9221",
+        "name": "MEDICINA NUCLEARE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702966",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004926",
+        "name": "ATTIVITA' LIBERA SCELTA 5° ANNO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004626",
+        "name": "MEDICINA DELL'ESERCIZIO FISICO E DELLO SPORT",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004929",
+        "name": "MEDICINA INTERNA MOD.1",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004930",
+        "name": "MEDICINA INTERNA MOD.2",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004932",
+        "name": "ONCOLOGIA GENERALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004933",
+        "name": "ONCOLOGIA SPECIALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004935",
+        "name": "TIROCINIO Oncologia",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004937",
+        "name": "TIROCINIO Medicina Interna",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibsA004927",
+        "parentExamName": "MEDICINA INTERNA E ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA001667",
+        "name": "GENETICA MEDICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004940",
+        "parentExamName": "PEDIATRIA GENERALE E SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004942",
+        "name": "TIROCINIO Pediatria",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004940",
+        "parentExamName": "PEDIATRIA GENERALE E SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA005367",
+        "name": "NEUROPSICHIATRIA INFANTILE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004940",
+        "parentExamName": "PEDIATRIA GENERALE E SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0245",
+        "name": "PEDIATRIA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibsA004940",
+        "parentExamName": "PEDIATRIA GENERALE E SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0246",
+        "name": "CHIRURGIA PEDIATRICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004940",
+        "parentExamName": "PEDIATRIA GENERALE E SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004946",
+        "name": "TIROCINIO Ginecologia e Ostetricia",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0247",
+        "name": "ENDOCRINOLOGIA GINECOLOGICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0248",
+        "name": "GINECOLOGIA E OSTETRICIA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0249",
+        "name": "PATOLOGIA OSTETRICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0250",
+        "name": "MEDICINA DELL' ETA' PRENATALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0251",
+        "name": "ONCOLOGIA GINECOLOGICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004945",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004948",
+        "name": "CHIRURGIA GENERALE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibsA004947",
+        "parentExamName": "MALATTIE DELL'APPARATO DIGERENTE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004949",
+        "name": "CHIRURGIA DELL'APPARATO DIGERENTE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004947",
+        "parentExamName": "MALATTIE DELL'APPARATO DIGERENTE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004950",
+        "name": "TIROCINIO Gastroenterologia",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004947",
+        "parentExamName": "MALATTIE DELL'APPARATO DIGERENTE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004951",
+        "name": "TIROCINIO Chirurgia Generale",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004947",
+        "parentExamName": "MALATTIE DELL'APPARATO DIGERENTE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7703",
+        "name": "GASTROENTEROLOGIA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004947",
+        "parentExamName": "MALATTIE DELL'APPARATO DIGERENTE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004953",
+        "name": "ORGANIZZAZIONE E VALUTAZIONE DEI SERVIZI SOCIO-SANITARI",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004952",
+        "parentExamName": "SANITA' PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004954",
+        "name": "IGIENE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004952",
+        "parentExamName": "SANITA' PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004955",
+        "name": "ECONOMIA SANITARIA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004952",
+        "parentExamName": "SANITA' PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0252",
+        "name": "MEDICINA DEL LAVORO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004952",
+        "parentExamName": "SANITA' PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0253",
+        "name": "MEDICINA LEGALE E BIOETICA CLINICA",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004952",
+        "parentExamName": "SANITA' PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004639",
+        "name": "TIROCINIO PRATICO VALUTATIVO PER L'ESAME STATO - AREA MEDICA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 5,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004640",
+        "name": "TIROCINIO PRATICO VALUTATIVO PER L'ESAME STATO - AREA CHIRURGICA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 5,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004641",
+        "name": "TIROCINIO PRATICO VALUTATIVO PER L'ESAME STATO - AREA MEDICINA GENERALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 5,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004634",
+        "name": "GERIATRIA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004911",
+        "parentExamName": "CLINICA MEDICA E GERIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004915",
+        "name": "CLINICA MEDICA E TERAPIA MEDICA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsA004911",
+        "parentExamName": "CLINICA MEDICA E GERIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004922",
+        "name": "TIROCINIO Geriatria",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004911",
+        "parentExamName": "CLINICA MEDICA E GERIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004925",
+        "name": "TIROCINIO Clinica Medica",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004911",
+        "parentExamName": "CLINICA MEDICA E GERIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004931",
+        "name": "ANESTESIOLOGIA E TERAPIA INTENSIVA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004928",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004934",
+        "name": "TERAPIA DEL DOLORE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004928",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004936",
+        "name": "TIROCINIO Chirurgia d'Urgenza",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004928",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004938",
+        "name": "TIROCINIO Medicina d'Urgenza",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004928",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004939",
+        "name": "MEDICINA D'URGENZA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA004928",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12279",
+        "name": "CHIRURGIA D'URGENZA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702979",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004943",
+        "name": "TIROCINIO Clinica Chirurgica",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA004941",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004944",
+        "name": "CLINICA CHIRURGICA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 7,
+        "parentExamId": "unibsA004941",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004956",
+        "name": "ATTIVITA' LIBERA SCELTA 6° ANNO",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0849",
+        "name": "Tirocinio obbligatorio scelta dello studente",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0850",
+        "name": "Tirocinio obbligatorio scelta dello studente",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0857",
+        "name": "Attività formative per la prova finale",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 16,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004855",
+        "name": "ANTROPOLOGIA MEDICA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA004853",
+        "parentExamName": "SCIENZE UMANE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsAT0003",
+        "name": "LA MEDICINA GENERE SPECIFICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0004",
+        "name": "SICUREZZA E BENESSERE SUL LAVORO: LA PROSPETTIVA GENERE",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0005",
+        "name": "PROMOZIONE DELLA SALUTE E DEL BENESSERE GENERE NELLA GESTIONE E ORGANIZZAZIONE DELL’IMPRESA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0712",
+        "name": "MoreMed",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0713",
+        "name": "Gestione terapeutica della malattia renale",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0856",
+        "name": "La letteratura medica nel web: basi dati, strumenti per la ricerca e nuove frontiere",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0873",
+        "name": "Riconoscimento dei preparati istologici",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU7609",
+        "name": "FISICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 5,
+        "parentExamId": "unibs702886",
+        "parentExamName": "FISICA E INFORMATICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7610",
+        "name": "INFORMATICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702886",
+        "parentExamName": "FISICA E INFORMATICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7635",
+        "name": "CHIMICA GENERALE",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs702939",
+        "parentExamName": "CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7636",
+        "name": "CHIMICA ORGANICA PROP BIOCHIM",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702939",
+        "parentExamName": "CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7637",
+        "name": "ESERCITAZIONI CHIMICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702939",
+        "parentExamName": "CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9121",
+        "name": "BIOCHIMICA STRUTTURALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702947",
+        "parentExamName": "BIOCHIMICA E BIOLOGIA MOLECOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9122",
+        "name": "BIOCHIMICA METABOLICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": "unibs702947",
+        "parentExamName": "BIOCHIMICA E BIOLOGIA MOLECOLARE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000655",
+        "name": "GENETICA GENERALE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA000592",
+        "parentExamName": "BIOLOGIA E GENETICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000657",
+        "name": "GENETICA MOLECOLARE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000592",
+        "parentExamName": "BIOLOGIA E GENETICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000658",
+        "name": "GENOMICA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000592",
+        "parentExamName": "BIOLOGIA E GENETICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7582",
+        "name": "BIOLOGIA GENERALE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA000592",
+        "parentExamName": "BIOLOGIA E GENETICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU7643",
+        "name": "BIOLOGIA CELLULARE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA000592",
+        "parentExamName": "BIOLOGIA E GENETICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703097",
+        "name": "ATTIVITA' FORMATIVE PER LA PROVA FINALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 18,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0001",
+        "name": "DIGITAL HUMANITIES",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0002",
+        "name": "PRINCIPI OPEN SCIENCE",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0244",
+        "name": "LE CURE PALLIATIVE",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0255",
+        "name": "Dissezione anatomica degli arti",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0256",
+        "name": "Dissezione Anatomica del Cuore",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0262",
+        "name": "Elaborazione statistica dati medici",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0264",
+        "name": "Terapia Intensiva Generale Neurologica e Anestesia Generale",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0268",
+        "name": "Approccio Clinico al paziente vasculopatico",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0271",
+        "name": "Principi Tecnica Chirurgia Vascolare",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0273",
+        "name": "suture chirurgiche",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 5,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0277",
+        "name": "Misure Meccaniche per l’Uomo",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0278",
+        "name": "Data Analysis Radiomics",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0279",
+        "name": "Intelligenza Artificiale per l’ausilio alla diagnosi medica",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0281",
+        "name": "Stesura casi clinici",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0282",
+        "name": "BLS-D Rianimazione Cardiopolmonare",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0366",
+        "name": "Principi trattamento endovascolare delle patologie aortiche e arteriose periferiche",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0367",
+        "name": "Vie accesso ed anatomia chirurgica dei vasi arteriosi",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA004859",
+        "name": "ANATOMIA DELL'APPARATO LOCOMOTORE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA004857",
+        "parentExamName": "ANATOMIA UMANA I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12236",
+        "name": "GINECOLOGIA E OSTETRICIA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12237",
+        "name": "ONCOLOGIA GINECOLOGICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12238",
+        "name": "PATOLOGIA OSTETRICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12239",
+        "name": "ENDOCRINOLOGIA GINECOLOGICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12240",
+        "name": "MEDICINA DELL'ETA' PRENATALE",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12241",
+        "name": "TIROCINIO GINECOLOGIA E OSTETRICIA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702970",
+        "parentExamName": "GINECOLOGIA E OSTETRICIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12242",
+        "name": "PEDIATRIA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibs702971",
+        "parentExamName": "PEDIATRIA GENERALE SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12243",
+        "name": "CHIRURGIA PEDIATRICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702971",
+        "parentExamName": "PEDIATRIA GENERALE SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12244",
+        "name": "NEUROPSICHIATRIA INFANTILE",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702971",
+        "parentExamName": "PEDIATRIA GENERALE SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12245",
+        "name": "GENETICA MEDICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702971",
+        "parentExamName": "PEDIATRIA GENERALE SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12246",
+        "name": "TIROCINIO PEDIATRIA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": "unibs702971",
+        "parentExamName": "PEDIATRIA GENERALE SPECIALISTICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000607",
+        "name": "IGIENE E MEDICINA PREVENTIVA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000608",
+        "name": "IGIENE AMBIENTALE",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000609",
+        "name": "ORGANIZZAZIONE DEI SERVIZI SOCIO-SANITARI",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 2,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA002852",
+        "name": "TIROCINIO SANITA' PUBBLICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12249",
+        "name": "MEDICINA LEGALE E BIOETICA CLINICA",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12251",
+        "name": "MEDICINA DEL LAVORO",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs702972",
+        "parentExamName": "SANITÀ PUBBLICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004635",
+        "name": "CLINICA MEDICA E TERAPIA MEDICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 7,
+        "parentExamId": "unibs702977",
+        "parentExamName": "CLINICA MEDICA, GERIATRIA ED ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12266",
+        "name": "TIROCINIO CLINICA MEDICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibs702977",
+        "parentExamName": "CLINICA MEDICA, GERIATRIA ED ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12292",
+        "name": "ONCOLOGIA CLINICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702977",
+        "parentExamName": "CLINICA MEDICA, GERIATRIA ED ONCOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004633",
+        "name": "CLINICA CHIRURGICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibs702978",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12275",
+        "name": "ELEMENTI CHIRURGIA ONCOLOGICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702978",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12276",
+        "name": "VASCULOPATIE INTERESSE CHIRURGICO",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs702978",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12277",
+        "name": "TIROCINIO CLINICA CHIRURGICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs702978",
+        "parentExamName": "CLINICA CHIRURGICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12281",
+        "name": "ANESTESIOLOGIA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibs702979",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12282",
+        "name": "TIROCINIO MEDICINA D'URGENZA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702979",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12952",
+        "name": "MEDICINA D'URGENZA II",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702979",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12953",
+        "name": "MEDICINA D'URGENZA I",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs702979",
+        "parentExamName": "EMERGENZE MEDICO CHIRURGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000599",
+        "name": "ATTIVITA' LIBERA SCELTA VI ANNO",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      }
+    ],
+    "type": "ciclounico"
+  },
+  {
+    "id": "unibs08627R",
+    "universityId": "unibs",
+    "name": "ODONTOIATRIA E PROTESI DENTARIA",
+    "lastUpdated": "2025-06-30T13:52:08.153Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibsMED0319",
+        "name": "STORIA DELLA MEDICINA E ISTITUZIONI BIOETICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8464",
+        "name": "PSICOLOGIA GENERALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8466",
+        "name": "INFORMATICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8468",
+        "name": "EVIDENCE BASED AND TEAM APPROACH",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8596",
+        "name": "STATISTICA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8597",
+        "name": "STATISTICA B",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703257",
+        "parentExamName": "SCIENZE COMPORTAMENTALI E METODOLOGIA SCIENTIFICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703258",
+        "name": "ISTOLOGIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 7,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703261",
+        "name": "LINGUA INGLESE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 7,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703308",
+        "name": "SCELTA DELLO STUDENTE I ANNO",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000583",
+        "name": "ANATOMIA SISTEMATICA E TOPOGRAFICA DELLA TESTA E DEL COLLO",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibsA000582",
+        "parentExamName": "ANATOMIA UMANA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004232",
+        "name": "ANATOMIA DEL CAVO ORALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsA000582",
+        "parentExamName": "ANATOMIA UMANA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12837",
+        "name": "ANATOMIA UMANA SISTEMATICA GENERALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000582",
+        "parentExamName": "ANATOMIA UMANA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12839",
+        "name": "NEUROANATOMIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsA000582",
+        "parentExamName": "ANATOMIA UMANA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0876",
+        "name": "BIOLOGIA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0877",
+        "name": "CHIMICA E PROPEDEUTICA BIOCHIMICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0878",
+        "name": "FISICA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0884",
+        "name": "BIOLOGIA E GENETICA APPLICATA ALL'ODONTOIATRIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibsMED0883",
+        "parentExamName": "BIOLOGIA E GENETICA APPLICATA ALL'ODONTOIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0885",
+        "name": "GENETICA GENERALE E MOLECOLARE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibsMED0883",
+        "parentExamName": "BIOLOGIA E GENETICA APPLICATA ALL'ODONTOIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8856",
+        "name": "ANALISI CLINICA E BIOLOGIA MOLECOL CLINICA I",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs701482",
+        "parentExamName": "BIOCHIMICA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8864",
+        "name": "BIOLOGIA MOLECOLARE",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs701482",
+        "parentExamName": "BIOCHIMICA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9016",
+        "name": "ANALISI CLINICA E BIOLOGIA MOLECOLARE II",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs701482",
+        "parentExamName": "BIOCHIMICA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9017",
+        "name": "BIOCHIMICA II",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 5,
+        "parentExamId": "unibs701482",
+        "parentExamName": "BIOCHIMICA E BIOCHIMICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000072",
+        "name": "FISIOLOGIA CELLULARE E NEUROFISIOLOGIA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs703271",
+        "parentExamName": "FISIOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000073",
+        "name": "FISIOLOGIA DELLE FUNZIONI VEGETATIVE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs703271",
+        "parentExamName": "FISIOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9021",
+        "name": "FISIOLOGIA APPARATO STOMATOGNATICO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703271",
+        "parentExamName": "FISIOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703272",
+        "name": "PATOLOGIA GENERALE",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 7,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000473",
+        "name": "MICROBIOLOGIA GENERALE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703273",
+        "parentExamName": "MICROBIOLOGIA ED IGIENE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000474",
+        "name": "MICROBIOLOGIA CLINICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs703273",
+        "parentExamName": "MICROBIOLOGIA ED IGIENE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8875",
+        "name": "IGIENE AMBIENTALE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703273",
+        "parentExamName": "MICROBIOLOGIA ED IGIENE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9024",
+        "name": "IGIENE GENERALE PREVENZIONE E INFEZIONI CROCI",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703273",
+        "parentExamName": "MICROBIOLOGIA ED IGIENE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9025",
+        "name": "IGIENE GENERALE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibs703273",
+        "parentExamName": "MICROBIOLOGIA ED IGIENE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703275",
+        "name": "SCELTA DELLO STUDENTE II ANNO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703276",
+        "name": "TIROCINIO II ANNO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000074",
+        "name": "METODOLOGIA E PROPEDEUTICA CLINICA ODONTOSTOMATOLOGICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000075",
+        "name": "METODOLOGIA E PROPEDEUTICA CLINICA ODONTOSTOMATOLOGICA B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000076",
+        "name": "BIBLIOMETRIA E EDB-GEROSTOMATOLOGIA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000077",
+        "name": "MATERIALI DENTARI CHIMICA FISICA APPLICATA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000078",
+        "name": "MATERIALI DENTARI CHIMICA FISICA APPLICATA B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000079",
+        "name": "MATERIALI DENTARI APPLICAZIONE CLINICHE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000080",
+        "name": "MATERIALI DENTARI APPLICAZIONI CLINICHE B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000081",
+        "name": "IGIENE ORALE PROFESSIONALE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000082",
+        "name": "IGIENE ORALE PROFESSIONALE B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0705",
+        "name": "METODOLOGIA DELLA RICERCA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0706",
+        "name": "METODOLOGIA DELLA RICERCA B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12098",
+        "name": "ODONTOIATRIA PREVENTIVA E COMUNITA'",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12099",
+        "name": "ODONTOIATRIA PREVENTIVA E COMUNITA' B",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9030",
+        "name": "EPIDEMIOLOGIA ODONTOIATRICA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9032",
+        "name": "IGIENE ORALE DOMICILIARE",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703277",
+        "name": "TIROCINIO III ANNO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 12,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703278",
+        "name": "SCELTA DELLO STUDENTE III ANNO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU12013",
+        "name": "MEDICINA INTERNA 1",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12014",
+        "name": "MEDICINA INTERNA 2",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12015",
+        "name": "MEDICINA D'URGENZA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12016",
+        "name": "MALATTIE APPARATO CARDIOVASCOLARE",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12017",
+        "name": "MALATTIE INFETTIVE",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8902",
+        "name": "PATOLOGIA CLINICA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9037",
+        "name": "ANESTESIA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9437",
+        "name": "PEDIATRIA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703281",
+        "parentExamName": "SCIENZE MEDICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12018",
+        "name": "ANATOMIA PATOLOGICA DEL CAVO ORALE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703282",
+        "parentExamName": "ANATOMIA PATOLOGICA (CDL ODONTOIATRIA)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12019",
+        "name": "BASI ISTOPATOLOGICHE DELLE INFIAMMAZIONI E DE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703282",
+        "parentExamName": "ANATOMIA PATOLOGICA (CDL ODONTOIATRIA)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12020",
+        "name": "PATOLOGIA ODONTOGENA E DEGLI ORGANI DEL COLLO",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703282",
+        "parentExamName": "ANATOMIA PATOLOGICA (CDL ODONTOIATRIA)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12021",
+        "name": "NOZIONI PATOLOGIA ORGANI EXTRA-ORALI",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703282",
+        "parentExamName": "ANATOMIA PATOLOGICA (CDL ODONTOIATRIA)",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703283",
+        "name": "FARMACOLOGIA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU12023",
+        "name": "DIAGNOSTICA PER IMMAGINI GENERALE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703284",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12024",
+        "name": "DIAGNOSTICA PER IMMAGINI SPECIALE",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703284",
+        "parentExamName": "DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000086",
+        "name": "TECNOLOGIE LABORATORIO D",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000087",
+        "name": "TECNOLOGIE LABORATORIO E",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004822",
+        "name": "PRINCIPI CONSERVATIVA 1",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004823",
+        "name": "Conservativa diretta settori posteriori",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0317",
+        "name": "BIOETICA E ISTITUZIONI STORIA DELLA MEDICINA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12005",
+        "name": "TECNOLOGIE LABORATORIO",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12006",
+        "name": "TECNOLOGIE LABORATORIO B",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12007",
+        "name": "TECNOLOGIE LABORATORIO C",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12011",
+        "name": "PATOLOGIA ORALE PEDIATRICA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13353",
+        "name": "ENDODONZIA",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13354",
+        "name": "ENDODONZIA B",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8897",
+        "name": "MATERIALI DENTARI",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs750454",
+        "parentExamName": "PRINCIPI ODONTOIATRIA II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703286",
+        "name": "TIROCINIO IV ANNO",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 13,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU12843",
+        "name": "CHIRURGIA ORALE",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703292",
+        "parentExamName": "CHIRURGIA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12844",
+        "name": "CHIRURGIA ORALE B",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703292",
+        "parentExamName": "CHIRURGIA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12845",
+        "name": "CHIRURGIA ORALE C",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703292",
+        "parentExamName": "CHIRURGIA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12846",
+        "name": "CHIRURGIA ORALE D",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703292",
+        "parentExamName": "CHIRURGIA ORALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12847",
+        "name": "ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703294",
+        "parentExamName": "SCIENZE MEDICHE II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12848",
+        "name": "ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA B",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703294",
+        "parentExamName": "SCIENZE MEDICHE II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12849",
+        "name": "ANESTESIOLOGIA E TRATTAMENTO DELL'EMERGENZA C",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703294",
+        "parentExamName": "SCIENZE MEDICHE II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8518",
+        "name": "CHIRURGIA GENERALE (CDS ODONTO)",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 5,
+        "parentExamId": "unibs703294",
+        "parentExamName": "SCIENZE MEDICHE II",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8519",
+        "name": "NEUROLOGIA",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 2,
+        "parentExamId": "unibs703295",
+        "parentExamName": "NEUROLOGIA E PSICHIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8520",
+        "name": "PSICHIATRIA",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703295",
+        "parentExamName": "NEUROLOGIA E PSICHIATRIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703296",
+        "name": "MEDICINA LEGALE",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 4,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000091",
+        "name": "GNATOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000092",
+        "name": "GNATOLOGIA B",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000093",
+        "name": "GNATOLOGIA C",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000475",
+        "name": "TECNOLOGIE LABORATORIO 1",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000476",
+        "name": "TECNOLOGIE LABORATORIO 2",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004824",
+        "name": "PRINCIPI CONSERVATIVA 2",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004825",
+        "name": "CONSERVATIVA DIRETTA SETTORI ANTERIORI",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12852",
+        "name": "PROTESI FISSA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13346",
+        "name": "PARODONTOLOGIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13347",
+        "name": "PARODONTOLOGIA B",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13348",
+        "name": "PARODONTOLOGIA C",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13349",
+        "name": "ORTODONZIA",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13350",
+        "name": "ORTODONZIA B",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13351",
+        "name": "ORTODONZIA C",
+        "year": "4",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703297",
+        "parentExamName": "DISCIPLINE ODONTOSTOMATOLOGICHE I",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000088",
+        "name": "PATOLOGIA SPECIALE",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs750458",
+        "parentExamName": "PATOLOGIA SPECIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000089",
+        "name": "PATOLOGIA SPECIALE B",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs750458",
+        "parentExamName": "PATOLOGIA SPECIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000090",
+        "name": "PATOLOGIA SPECIALE C",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs750458",
+        "parentExamName": "PATOLOGIA SPECIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12850",
+        "name": "DERMATOLOGIA",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs750458",
+        "parentExamName": "PATOLOGIA SPECIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12926",
+        "name": "TIROCINIO V ANNO - PARTE",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 15,
+        "parentExamId": "unibs703288",
+        "parentExamName": "TIROCINIO V ANNO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12927",
+        "name": "TIROCINIO V ANNO - PARTE B",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibs703288",
+        "parentExamName": "TIROCINIO V ANNO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000094",
+        "name": "PARODONTOLOGIA D",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA004826",
+        "name": "RESTAURATIVA INDIRETTA E POST TRATTAMENTO ENDODONTICO",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12008",
+        "name": "ENDODONZIA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12009",
+        "name": "ENDODONZIA B",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12853",
+        "name": "PARODONTOLOGIA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12854",
+        "name": "PARODONTOLOGIA B",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12855",
+        "name": "PARODONTOLOGIA C",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703298",
+        "parentExamName": "ODONTOIATRIA RESTAURATIVA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000095",
+        "name": "CHIRURGIA MAXILLO-FACCIALE",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000096",
+        "name": "CHIRURGIA MAXILLO-FACCIALE B",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000097",
+        "name": "CHIRURGIA MAXILLO-FACCIALE PEDIATRICA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA003270",
+        "name": "OTORINOLARINGOIATRIA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13342",
+        "name": "CHIRURGIA ORALE",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13344",
+        "name": "CHIRURGIA ORALE B",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703300",
+        "parentExamName": "PATOLOGIA E TERAPIA MAXILLO-FACCIALE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000098",
+        "name": "ORTODONZIA D",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000099",
+        "name": "ORTODONZIA E",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000100",
+        "name": "ORTODONZIA F",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000101",
+        "name": "ORTODONZIA G",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000102",
+        "name": "ORTODONZIA H",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000103",
+        "name": "ORTODONZIA I",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000104",
+        "name": "ORTODONZIA L",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12856",
+        "name": "ORTODONZIA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12857",
+        "name": "ORTODONZIA B",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12858",
+        "name": "ORTODONZIA C",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703302",
+        "parentExamName": "ORTODONZIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000105",
+        "name": "PEDODONZIA C",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703303",
+        "parentExamName": "ODONTOIATRIA PEDIATRICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000106",
+        "name": "PEDODONZIA D",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703303",
+        "parentExamName": "ODONTOIATRIA PEDIATRICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12083",
+        "name": "PEDODONZIA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703303",
+        "parentExamName": "ODONTOIATRIA PEDIATRICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12084",
+        "name": "PEDODONZIA B",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703303",
+        "parentExamName": "ODONTOIATRIA PEDIATRICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8536",
+        "name": "PEDIATRIA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703303",
+        "parentExamName": "ODONTOIATRIA PEDIATRICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000107",
+        "name": "PROTESI DENTARIA FISSA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000109",
+        "name": "CLINICA ODONTOSTOMATOLOGICA D",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000477",
+        "name": "TECNOLOGIE LABORATORIO 3",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12086",
+        "name": "CLINICA ODONTOSTOMATOLOGICA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12087",
+        "name": "CLINICA ODONTOSTOMATOLOGICA B",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12090",
+        "name": "CHIRURGIA ORALE",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU12091",
+        "name": "CHIRURGIA ORALE B",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13352",
+        "name": "ORTODONZIA MOD.",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU13359",
+        "name": "CLINICA ODONTOSTOMATOLOGICA C",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 1,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8529",
+        "name": "PARODONTOLOGIA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs703304",
+        "parentExamName": "IMPLANTOLOGIA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703289",
+        "name": "SCELTA DELLO STUDENTE VI ANNO",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0330",
+        "name": "TPV ORTOGNATODONZIA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0331",
+        "name": "TPV CHIRURGIA ORALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0332",
+        "name": "TPV ODONTOIATRIA PEDIATRICA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0333",
+        "name": "TPV PATOLOGIA E MEDICINA ORALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0334",
+        "name": "TPV ODONTOIATRIA RESTAURATIVA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0335",
+        "name": "TPV ENDODONZIA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0336",
+        "name": "TPV ODONTOIATRIA SPECIALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0337",
+        "name": "TPV PROTESI",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0338",
+        "name": "TPV IMPLANTOLOGIA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0339",
+        "name": "TPV PARODONTOLOGIA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsMED0329",
+        "parentExamName": "TPV DISCIPLINE ODONTOSTOMATOLOGICHE",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0813",
+        "name": "TESI",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 8,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0312",
+        "name": "CASI CLINICI C - REGOLAMENTO DISPOSTIVI MEDICI",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0316",
+        "name": "CASI CLINICI - PRIVACY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0677",
+        "name": "CASI CLINICI B – SOSTENIBILITA’ AMBIENTALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0678",
+        "name": "CASI CLINICI E - GESTIONE DELLO STUDIO",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0815",
+        "name": "CASI CLINICI D – GENDER EQUALITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0817",
+        "name": "CASI CLINICI F – INTELLIGENZA ARTIFICIALE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0818",
+        "name": "CASI CLINICI G – MOBILITA’ ERASMUS",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0819",
+        "name": "TIROCINIO SCELTA",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 8,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0820",
+        "name": "CLINICA ODONTOSTOMATOLOGICA - TIROCINIO",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9029",
+        "name": "ODONTOIATRIA PREVENTIVA E COMUNITA'",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsMED0324",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGICA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0680",
+        "name": "CLINICAL CASES - PRIVACY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0681",
+        "name": "CLINICAL CASES B – ENVIRONMENTAL SUSTAINIBILITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0682",
+        "name": "CLINICAL CASES C – MEDICAL DEVICES RULE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0684",
+        "name": "CLINICAL CASES E - MANAGEMENT OF DENTAL PRACTICE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0693",
+        "name": "PREVENTIVE AND COMMUNITY DENTISTRY - TRAINEESHIP",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0822",
+        "name": "CLINICAL CASES F - .I.",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0823",
+        "name": "CLINICAL CASES G - ERASMUS MOBILITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0824",
+        "name": "TRAINEESHIP OF YOUR CHOICE",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 8,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0825",
+        "name": "DENTAL CLINIC - TRAINEESHIP",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0827",
+        "name": "CLINICAL CASES D - GENDER EQUALITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0826",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsAT0003",
+        "name": "LA MEDICINA GENERE SPECIFICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0004",
+        "name": "SICUREZZA E BENESSERE SUL LAVORO: LA PROSPETTIVA GENERE",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0005",
+        "name": "PROMOZIONE DELLA SALUTE E DEL BENESSERE GENERE NELLA GESTIONE E ORGANIZZAZIONE DELL’IMPRESA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0708",
+        "name": "Scientific methodology for thesis writing Health Science",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703259",
+        "name": "FISICA APPLICATA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000068",
+        "name": "BIOLOGIA E GENETICA APPLICATA ALL'ODONTOIATRIA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 2,
+        "parentExamId": "unibs703262",
+        "parentExamName": "BIOLOGIA APPLICATA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000168",
+        "name": "GENETICA GENERALE E MOLECOLARE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703262",
+        "parentExamName": "BIOLOGIA APPLICATA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8854",
+        "name": "BIOLOGIA APPLICATA I",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 4,
+        "parentExamId": "unibs703262",
+        "parentExamName": "BIOLOGIA APPLICATA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8482",
+        "name": "CHIMICA DEI MACROPOLIMERI",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibs703263",
+        "parentExamName": "BIOCHIMICA E CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8850",
+        "name": "CHIMICA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibs703263",
+        "parentExamName": "BIOCHIMICA E CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU8851",
+        "name": "BIOCHIMICA I",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibs703263",
+        "parentExamName": "BIOCHIMICA E CHIMICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703290",
+        "name": "TESI",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 10,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsMED0323",
+        "name": "CLINICA ODONTOSTOMATOLOGICA - TIROCINIO",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 11,
+        "parentExamId": "unibsMED0673",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGIA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0358",
+        "name": "CASI CLINICI D - INTELLIGENZA ARTIFICIALE E GENDER EQUALITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0673",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGIA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0683",
+        "name": "CLINICAL CASES D – .I. AND GENDER EQUALITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0679",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0692",
+        "name": "DENTAL CLINIC -TRAINEESHIP",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 11,
+        "parentExamId": "unibsMED0679",
+        "parentExamName": "CLINICAL CASES",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsAT0001",
+        "name": "DIGITAL HUMANITIES",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsAT0002",
+        "name": "PRINCIPI OPEN SCIENCE",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU9026",
+        "name": "METODOLOGIA DELLA RICERCA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 2,
+        "parentExamId": "unibsA000083",
+        "parentExamName": "PRINCIPI ODONTOIATRIA E METODOLOGIA SCIENTIFICA CLINICA",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0314",
+        "name": "CASI CLINICI E",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0340",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGIA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsMED0359",
+        "name": "CASI CLINICI B - ENVIRONMENTAL SUSTAINABILITY",
+        "year": "6",
+        "semester": "Unknown",
+        "CFU": 1,
+        "parentExamId": "unibsMED0340",
+        "parentExamName": "TERAPIA ODONTOSTOMATOLOGIA INTEGRATA – CASI CLINICI",
+        "isSubexam": true
+      }
+    ],
+    "type": "ciclounico"
+  },
+  {
+    "id": "unibs05781R",
+    "universityId": "unibs",
+    "name": "INGEGNERIA EDILE-ARCHITETTURA",
+    "lastUpdated": "2025-06-30T13:52:08.156Z",
+    "deleted": null,
+    "exams": [
+      {
+        "examId": "unibs703646",
+        "name": "ANALISI MATEMATICA 1",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703648",
+        "name": "ALGEBRA ED ELEMENTI GEOMETRIA",
+        "year": "1",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703650",
+        "name": "FISICA GENERALE",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000501",
+        "name": "DISEGNO 1",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsA000493",
+        "parentExamName": "DISEGNO 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000503",
+        "name": "LABORATORIO GEOMETRIA DESCRITTIVA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA000493",
+        "parentExamName": "DISEGNO 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000504",
+        "name": "LABORATORIO INFORMATICA GRAFICA BASE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA000493",
+        "parentExamName": "DISEGNO 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA005674",
+        "name": "STORIA DELL'ARCHITETTURA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA005675",
+        "name": "SOCIOLOGIA URBANA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs702973",
+        "name": "PROVA CONOSCENZA DELLA LINGUA TEDESCA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs702974",
+        "name": "PROVA CONOSCENZA DELLA LINGUA INGLESE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs702975",
+        "name": "PROVA CONOSCENZA DELLA LINGUA FRANCESE",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs702976",
+        "name": "PROVA CONOSCENZA DELLA LINGUA SPAGNOLA",
+        "year": "1",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703652",
+        "name": "ANALISI MATEMATICA 2",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703657",
+        "name": "MECCANICA RAZIONALE",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703658",
+        "name": "FISICA TECNICA",
+        "year": "2",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703660",
+        "name": "STORIA DELL'ARCHITETTURA CONTEMPORANEA",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs750579",
+        "name": "SCIENZA E TECNOLOGIA DEI MATERIALI DA COSTRUZIONE",
+        "year": "2",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000514",
+        "name": "LABORATORIO RILIEVO DELL'ARCHITETTURA",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA000513",
+        "parentExamName": "DISEGNO 2 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000515",
+        "name": "DISEGNO 2",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 6,
+        "parentExamId": "unibsA000513",
+        "parentExamName": "DISEGNO 2 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000518",
+        "name": "LABORATORIO INFORMATICA GRAFICA PER IL PROGETTO",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA000513",
+        "parentExamName": "DISEGNO 2 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000520",
+        "name": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": "unibsA000519",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000521",
+        "name": "LABORATORIO ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1",
+        "year": "2",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibsA000519",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 1 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703659",
+        "name": "SCIENZA DELLE COSTRUZIONI",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703671",
+        "name": "ESTIMO",
+        "year": "3",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000532",
+        "name": "IDRAULICA E INFRASTRUTTURE IDRAULICHE URBANE 1",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsING0175",
+        "name": "ARCHITETTURA TECNICA 1",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": "unibsING0174",
+        "parentExamName": "ARCHITETTURA TECNICA 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsING0176",
+        "name": "LABORATORIO ARCHITETTURA TECNICA 1",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsING0174",
+        "parentExamName": "ARCHITETTURA TECNICA 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsING0177",
+        "name": "LABORATORIO IMPIANTI TECNICI PER L'EDILIZIA",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsING0174",
+        "parentExamName": "ARCHITETTURA TECNICA 1 E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsING0277",
+        "name": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 8,
+        "parentExamId": "unibsING0276",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsING0278",
+        "name": "LABORATORIO ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+        "year": "3",
+        "semester": "Unknown",
+        "CFU": 4,
+        "parentExamId": "unibsING0276",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9183",
+        "name": "TECNICA DELLE COSTRUZIONI",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibs703666",
+        "parentExamName": "TECNICA DELLE COSTRUZIONI E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9184",
+        "name": "LABORATORIO TECNICA DELLE COSTRUZIONI",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703666",
+        "parentExamName": "TECNICA DELLE COSTRUZIONI E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs703669",
+        "name": "GEOTECNICA",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU9194",
+        "name": "TECNICA URBANISTICA",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": "unibs703673",
+        "parentExamName": "TECNICA URBANISTICA E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9195",
+        "name": "LABORATORIO TECNICA URBANISTICA",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703673",
+        "parentExamName": "TECNICA URBANISTICA E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000511",
+        "name": "ARCHITETTURA TECNICA 2",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 6,
+        "parentExamId": "unibsA000510",
+        "parentExamName": "ARCHITETTURA TECNICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000512",
+        "name": "LABORATORIO IMPIANTI TECNICI INNOVATIVI PER GLI EDIFICI",
+        "year": "4",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000510",
+        "parentExamName": "ARCHITETTURA TECNICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000530",
+        "name": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibsA000529",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000531",
+        "name": "LABORATORIO ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000529",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 3 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000535",
+        "name": "ORGANIZZAZIONE DEL CANTIERE",
+        "year": "4",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU9192",
+        "name": "RESTAURO ARCHITETTONICO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 9,
+        "parentExamId": "unibs703672",
+        "parentExamName": "RESTAURO ARCHITETTONICO E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9193",
+        "name": "LABORATORIO RESTAURO ARCHITETTONICO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": "unibs703672",
+        "parentExamName": "RESTAURO ARCHITETTONICO E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9197",
+        "name": "URBANISTICA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibs703675",
+        "parentExamName": "URBANISTICA E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9198",
+        "name": "LABORATORIO URBANISTICA",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703675",
+        "parentExamName": "URBANISTICA E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibs750700",
+        "name": "LABORATORIO TESI",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 15,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000541",
+        "name": "RIABILITAZIONE STRUTTURALE",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibsA000540",
+        "parentExamName": "RIABILITAZIONE STRUTTURALE E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000543",
+        "name": "LABORATORIO RIABILITAZIONE STRUTTURALE",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000540",
+        "parentExamName": "RIABILITAZIONE STRUTTURALE E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsING0279",
+        "name": "LABORATORIO AVANZATO STORIA DELL’ARCHITETTURA, DELLE TECNICHE EDILIZIE E DELL’AMBIENTE COSTRUITO",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsING0282",
+        "name": "STAGE/TIROCINIO INTEGRATO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703792",
+        "name": "STORIA DELLE TECNICHE ARCHITETTONICHE",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibs703793",
+        "name": "TEORIA E PROGETTO STRUTTURE",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000370",
+        "name": "DESIGN OF SEISMIC RESISTANT STRUCTURES",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000556",
+        "name": "IDRAULICA E INFRASTRUTTURE IDRAULICHE URBANE 2",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000358",
+        "name": "SUMMER SCHOOL",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsING0173",
+        "name": "LABORATORIO ELEMENTI PIANIFICAZIONE E PROGETTAZIONE DELLA MOBILITÀ PER LA RIGENERAZIONE URBANA",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsING0280",
+        "name": "LABORATORIO HBIM PER IL RESTAURO ARCHITETTONICO",
+        "year": "5",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsING0281",
+        "name": "BIM E DIGITALIZZAZIONE DELL'AMBIENTE COSTRUITO",
+        "year": "5",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000187",
+        "name": "INTRODUZIONE ALLE DISCIPLINE BASE - MATEMATICA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": null,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA003173",
+        "name": "ATTIVITA' TUTORAGGIO ALGEBRA E GEOMETRIA",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": null,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA003192",
+        "name": "ATTIVITA' TUTORAGGIO ANALISI MATEMATICA I",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": null,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA003198",
+        "name": "ATTIVITA' TUTORAGGIO FISICA SPERIMENTALE I",
+        "year": "altreAttivita",
+        "semester": "Unknown",
+        "CFU": null,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000526",
+        "name": "LABORATORIO ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000522",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000527",
+        "name": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2",
+        "year": "3",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibsA000522",
+        "parentExamName": "ARCHITETTURA E COMPOSIZIONE ARCHITETTONICA 2 E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA005466",
+        "name": "LABORATORIO PROGETTO INTEGRATO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000356",
+        "name": "STAGE/PROGETTO",
+        "year": "5",
+        "semester": "Unknown",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000507",
+        "name": "ARCHITETTURA TECNICA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": "unibsA000505",
+        "parentExamName": "ARCHITETTURA TECNICA E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000508",
+        "name": "LABORATORIO ARCHITETTURA TECNICA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000505",
+        "parentExamName": "ARCHITETTURA TECNICA E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000509",
+        "name": "LABORATORIO IMPIANTI TECNICI PER L'EDILIZIA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibsA000505",
+        "parentExamName": "ARCHITETTURA TECNICA E LABORATORI",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsA000559",
+        "name": "LABORATORIO BUILDING INFORMATION MODELLING",
+        "year": "altreAttivita",
+        "semester": "First Semester",
+        "CFU": 3,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsA000534",
+        "name": "SOCIOLOGIA DELLE CITTA' E POLITICHE RIQUALIFICAZIONE URBANA",
+        "year": "altreAttivita",
+        "semester": "Second Semester",
+        "CFU": 6,
+        "parentExamId": null,
+        "parentExamName": null,
+        "isSubexam": false
+      },
+      {
+        "examId": "unibsU9156",
+        "name": "STORIA DELL'ARCHITETTURA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 9,
+        "parentExamId": "unibs703649",
+        "parentExamName": "STORIA DELL'ARCHITETTURA E LABORATORIO",
+        "isSubexam": true
+      },
+      {
+        "examId": "unibsU9157",
+        "name": "LABORATORIO STORIA DELL'ARCHITETTURA",
+        "year": "1",
+        "semester": "Second Semester",
+        "CFU": 3,
+        "parentExamId": "unibs703649",
+        "parentExamName": "STORIA DELL'ARCHITETTURA E LABORATORIO",
+        "isSubexam": true
+      }
+    ],
+    "type": "ciclounico"
+  }
+]

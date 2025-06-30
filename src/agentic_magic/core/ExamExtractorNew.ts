@@ -155,7 +155,7 @@ export class ExamExtractorNew {
           this.logger.info(`Completed course: ${courseName} - Path: ${pathName}`);
           
           // Save intermediate results to session directory
-          const sessionDir = path.join(process.cwd(), 'data', this.sessionId);
+          const sessionDir = path.join(process.cwd(), this.config.output.dataDir, this.sessionId);
           if (!fs.existsSync(sessionDir)) {
             fs.mkdirSync(sessionDir, { recursive: true });
           }
@@ -256,18 +256,18 @@ export class ExamExtractorNew {
               
               console.log(`Year ${yearIndex}: id="${year}", name="${yearName}", exams=${examElements.length}`);
               
-              res[year || yearName] = Array.from(examElements).map((examElement) => {
-                // Extract exam name and URL
-                const nameElement = examElement.querySelector('a');
-                const id = nameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
-                const name = nameElement?.textContent?.trim()
+              res[year || yearName] = Array.from(examElements).flatMap((examElement) => {
+                // Extract parent exam information
+                const parentNameElement = examElement.querySelector('a');
+                const parentId = parentNameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
+                const parentName = parentNameElement?.textContent?.trim()
                   .split(']').slice(1).join(']')
                   .replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '')
                   .replace(/\s+/g, ' ')
                   .trim();
-                const examUrl = nameElement?.getAttribute('href') || '#';
+                const parentUrl = parentNameElement?.getAttribute('href') || '#';
                 
-                // Extract additional information from the card
+                // Extract parent card information
                 const cardRight = examElement.querySelector('.card-insegnamento-right');
                 
                 // Extract academic year (Anno di offerta)
@@ -275,39 +275,89 @@ export class ExamExtractorNew {
                 const yearOffering = yearOfferingElement?.textContent?.trim() || '';
                 const academicYear = yearOffering.match(/(\d{4}\/\d{4})/)?.[1] || '';
                 
-                // Extract CFU
-                const cfuElement = cardRight?.querySelector('.card-insegnamento-cfu');
-                const cfuText = cfuElement?.textContent?.trim() || '';
-                const cfu = cfuText.match(/(\d+)\s*CFU/)?.[1] || '';
-                
-                // Extract hours
-                const hoursElement = cardRight?.querySelector('.card-insegnamento-ore');
-                const hoursText = hoursElement?.textContent?.trim() || '';
-                const hours = hoursText.match(/(\d+)\s*ore/)?.[1] || '';
-                
-                // Extract semester - look for semester information in footer divs
+                // Extract parent semester - look for semester information in footer divs
                 const footerDivs = cardRight?.querySelectorAll('.card-insegnamento-footer div');
-                let semester = '';
+                let parentSemester = '';
                 if (footerDivs) {
                   Array.from(footerDivs).forEach(div => {
                     const text = div.textContent?.trim() || '';
                     if (text.includes('Semestre') || text.includes('semestre')) {
-                      semester = text;
+                      parentSemester = text;
                     }
                   });
                 }
                 
-                console.log(`Extracted exam: ${name}, CFU: ${cfu}, Hours: ${hours}, Year: ${academicYear}, Semester: ${semester}`);
+                // Extract parent CFU and hours
+                const parentCfuElement = cardRight?.querySelector('.card-insegnamento-cfu');
+                const parentCfuText = parentCfuElement?.textContent?.trim() || '';
+                const parentCfu = parentCfuText.match(/(\d+)\s*CFU/)?.[1] || '';
                 
-                return { 
-                  id, 
-                  name, 
-                  url: examUrl ? `${baseUrl}${examUrl}` : examUrl,
-                  academicYear,
-                  semester,
-                  cfu: cfu ? parseInt(cfu, 10) : 0,
-                  hours: hours ? parseInt(hours, 10) : 0
-                };
+                const parentHoursElement = cardRight?.querySelector('.card-insegnamento-ore');
+                const parentHoursText = parentHoursElement?.textContent?.trim() || '';
+                const parentHours = parentHoursText.match(/(\d+)\s*ore/)?.[1] || '';
+                
+                // Check for subexams in <ul><li> structure
+                const subexamsList = cardRight?.querySelector('ul');
+                const allExams = [];
+                
+                if (subexamsList) {
+                  // Has subexams - extract each subexam
+                  const subexamElements = subexamsList.querySelectorAll('li');
+                  console.log(`Found parent exam "${parentName}" with ${subexamElements.length} subexams`);
+                  
+                  Array.from(subexamElements).forEach(subexamElement => {
+                    const subNameElement = subexamElement.querySelector('a');
+                    const subId = subNameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
+                    const subName = subNameElement?.textContent?.trim()
+                      .split(']').slice(1).join(']')
+                      .replace(/\b(CORSO|DI|LAUREA|MAGISTRALE|A|CICLO|UNICO|TRIENNALE|IN)\b/gi, '')
+                      .replace(/\s+/g, ' ')
+                      .trim();
+                    const subUrl = subNameElement?.getAttribute('href') || '#';
+                    
+                    // Extract subexam CFU and hours
+                    const subCfuElement = subexamElement.querySelector('.card-insegnamento-cfu');
+                    const subCfuText = subCfuElement?.textContent?.trim() || '';
+                    const subCfu = subCfuText.match(/(\d+)\s*CFU/)?.[1] || '';
+                    
+                    const subHoursElement = subexamElement.querySelector('.card-insegnamento-ore');
+                    const subHoursText = subHoursElement?.textContent?.trim() || '';
+                    const subHours = subHoursText.match(/(\d+)\s*ore/)?.[1] || '';
+                    
+                    console.log(`Extracted subexam: ${subName}, CFU: ${subCfu}, Hours: ${subHours}, Parent: ${parentName}`);
+                    
+                    allExams.push({
+                      id: subId,
+                      name: subName,
+                      url: subUrl ? `${baseUrl}${subUrl}` : subUrl,
+                      academicYear,
+                      semester: parentSemester, // Inherit semester from parent
+                      cfu: subCfu ? parseInt(subCfu, 10) : 0,
+                      hours: subHours ? parseInt(subHours, 10) : 0,
+                      parentExamId: parentId, // Reference to parent exam
+                      parentExamName: parentName,
+                      isSubexam: true
+                    });
+                  });
+                } else {
+                  // No subexams - this is a standalone exam
+                  console.log(`Extracted standalone exam: ${parentName}, CFU: ${parentCfu}, Hours: ${parentHours}, Year: ${academicYear}, Semester: ${parentSemester}`);
+                  
+                  allExams.push({
+                    id: parentId,
+                    name: parentName,
+                    url: parentUrl ? `${baseUrl}${parentUrl}` : parentUrl,
+                    academicYear,
+                    semester: parentSemester,
+                    cfu: parentCfu ? parseInt(parentCfu, 10) : 0,
+                    hours: parentHours ? parseInt(parentHours, 10) : 0,
+                    parentExamId: null,
+                    parentExamName: null,
+                    isSubexam: false
+                  });
+                }
+                
+                return allExams;
               }).filter((x) => x !== null && x.id && x.name);
             });
             
