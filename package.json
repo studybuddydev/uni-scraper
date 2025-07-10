@@ -35,7 +35,8 @@
     "simple:test": "pnpm run build && node dist/src/simple_pipeline/test-setup.js",
     "agentic:validate-improved": "pnpm run build && node dist/src/agentic_magic/scripts/validate-improved-pipeline.js",
     "agentic:check-output": "pnpm run build && node dist/src/agentic_magic/scripts/validate-improved-pipeline.js --check-output",
-    "agentic:visualize": "pnpm run build && node dist/src/agentic_magic/scripts/generate-datacourses-visualization.js"
+    "agentic:visualize": "pnpm run build && node dist/src/agentic_magic/scripts/generate-datacourses-visualization.js",
+    "agentic:process-individual-exams": "pnpm run build && node dist/src/agentic_magic/scripts/run-individual-exam-processing.js"
   },
   "keywords": [],
   "author": "",

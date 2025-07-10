@@ -305,33 +305,63 @@ export class CourseDiscovery {
       const pageTitle = await this.getDegreeTitle(page);
       this.logger.debug(`Processing course: ${pageTitle}`);
 
-      // Try different year selections first
-      const selectionValues = ['0: Object', '1: Object', '2: Object', '3: Object', '4: Object', '5: Object', '6: Object'];
+      // Dynamically detect available year options
+      const dropdownExists = await page.$('#offerta-formativa');
+      if (!dropdownExists) {
+        this.logger.warn(`Year dropdown not found for course ${pageTitle}, skipping`);
+        return []; // Skip this course
+      }
 
-      for (let i = 0; i < Math.min(selectionValues.length, this.config.university.numberOfYears); i++) {
+      // Get all available options
+      const availableOptions = await page.$$eval('#offerta-formativa option', options => 
+        options.map(option => ({
+          value: option.value,
+          text: option.textContent?.trim() || ''
+        })).filter(opt => opt.value && opt.value !== '' && opt.text !== '')
+      );
+
+      this.logger.debug(`Found ${availableOptions.length} year options for course ${pageTitle}: ${availableOptions.map(opt => opt.text).join(', ')}`);
+
+      // Process all available academic years (no limit)
+      for (let i = 0; i < availableOptions.length; i++) {
+        const option = availableOptions[i];
         try {
-          const value = selectionValues[i];
+          this.logger.debug(`Attempting to select year ${i}: ${option.text} (value: ${option.value})`);
           
-          // Check if the dropdown exists and has this option
+          // Reload the page before each academic year to ensure clean state
+          if (i > 0) {
+            this.logger.debug(`Reloading page for year ${i} to reset dropdown state`);
+            await page.goto(url, { waitUntil: 'networkidle0' });
+            await page.waitForSelector('a', { timeout: 10000 });
+            await this.sleep(3000);
+          }
+          
+          // Check if dropdown exists after potential reload
           const dropdownExists = await page.$('#offerta-formativa');
           if (!dropdownExists) {
-            this.logger.warn(`Year dropdown not found for course ${pageTitle}, skipping year ${i}`);
-            continue;
+            throw new Error('Dropdown no longer exists on page after reload');
           }
           
-          // Check if this specific option exists
-          const optionExists = await page.$(`#offerta-formativa option[value="${value}"]`);
-          if (!optionExists) {
-            this.logger.debug(`Option ${value} not available for course ${pageTitle}, stopping year iteration`);
-            break; // Stop trying more years if this option doesn't exist
+          // Re-get available options after reload (they might have changed)
+          const currentOptions = await page.$$eval('#offerta-formativa option', options => 
+            options.map(option => ({
+              value: option.value,
+              text: option.textContent?.trim() || ''
+            })).filter(opt => opt.value && opt.value !== '' && opt.text !== '')
+          );
+          
+          // Find the option we want (by text, since values might change after reload)
+          const targetOption = currentOptions.find(opt => opt.text === option.text);
+          if (!targetOption) {
+            throw new Error(`Option "${option.text}" no longer available after reload`);
           }
           
-          await page.select('#offerta-formativa', value);
+          await page.select('#offerta-formativa', targetOption.value);
           await this.sleep(1000);
 
           const yearUrl = page.url();
           const year = await this.getSelectedText(page);
-          this.logger.debug(`  Processing year: ${year}`);
+          this.logger.debug(`  Successfully selected year: ${year}`);
 
           // Now get the insegnamenti link for this year
           const linkHref = await this.getLinkHref(page);
@@ -355,13 +385,38 @@ export class CourseDiscovery {
             }
           }
         } catch (error) {
-          this.logger.error(`Failed to process year ${i} (${selectionValues[i]}) for course ${pageTitle}:`, {
-            error: error instanceof Error ? error.message : String(error),
+          const errorMessage = error instanceof Error ? error.message : String(error);
+          
+          // Get current URL safely
+          let currentUrl = 'no-page';
+          try {
+            if (page) {
+              currentUrl = await page.url();
+            }
+          } catch (urlError) {
+            currentUrl = 'url-error';
+          }
+          
+          this.logger.error(`Failed to process year ${i} (${option.text}) for course ${pageTitle}: ${errorMessage}`, {
+            error: errorMessage,
             stack: error instanceof Error ? error.stack : undefined,
             courseUrl: url,
             yearIndex: i,
-            yearValue: selectionValues[i]
+            yearValue: option.value,
+            yearText: option.text,
+            currentUrl: currentUrl
           });
+          
+          // Add specific debugging for common issues
+          try {
+            if (page) {
+              const hasDropdown = await page.$('#offerta-formativa').catch(() => null);
+              const hasInsegnamenti = await page.$('a[href*="insegnamenti"]').catch(() => null);
+              this.logger.debug(`Debugging year ${i}: dropdown=${!!hasDropdown}, insegnamenti=${!!hasInsegnamenti}`);
+            }
+          } catch (debugError) {
+            this.logger.debug(`Debug check failed: ${debugError}`);
+          }
         }
       }
     } catch (error) {

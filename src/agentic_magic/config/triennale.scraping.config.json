@@ -1,10 +1,10 @@
 {
     "university": {
     "id": "unibs",
-    "name": "unibs-ciclounico",
+    "name": "unibs-triennale",
     "baseUrl": "https://unibs.coursecatalogue.cineca.it",
-    "type": "ciclounico",
-    "coursesPath": "/corsi/2025?gruppo=1619785172027",
+    "type": "triennale",
+    "coursesPath": "/corsi/2025?gruppo=1617109934164",
     "numberOfYears": 6
   },
   "scraping": {
@@ -25,7 +25,7 @@
     "maxDescriptionLength": 10000
   },
   "output": {
-    "dataDir": "./data/ciclounico",
+    "dataDir": "./data/triennale",
     "logsDir": "./logs",
     "reportsDir": "./reports",
     "backupDir": "./backups",

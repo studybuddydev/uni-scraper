@@ -1,0 +1,43 @@
+{
+  "sessionId": "agentic-2025-07-08T17-33-34",
+  "startTime": "2025-07-08T17:33:34.751Z",
+  "endTime": "2025-07-08T23:09:06.829Z",
+  "status": "completed",
+  "summary": {
+    "totalItems": 0,
+    "successful": 0,
+    "failed": 0,
+    "skipped": 0,
+    "successRate": 0,
+    "duration": 20132078
+  },
+  "errors": {
+    "byType": {
+      "NETWORK": 0,
+      "PARSING": 0,
+      "VALIDATION": 0,
+      "TIMEOUT": 0,
+      "RATE_LIMIT": 0,
+      "AUTHENTICATION": 0,
+      "NOT_FOUND": 0,
+      "SERVER_ERROR": 0,
+      "UNKNOWN": 0
+    },
+    "byCode": {},
+    "topErrors": []
+  },
+  "performance": {
+    "averageRequestTime": 0,
+    "requestsPerSecond": 0,
+    "memoryUsage": {
+      "peak": 0,
+      "average": 0
+    },
+    "networkStats": {
+      "totalRequests": 0,
+      "failedRequests": 0,
+      "retries": 0,
+      "timeouts": 0
+    }
+  }
+}

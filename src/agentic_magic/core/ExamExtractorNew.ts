@@ -281,7 +281,7 @@ export class ExamExtractorNew {
                 if (footerDivs) {
                   Array.from(footerDivs).forEach(div => {
                     const text = div.textContent?.trim() || '';
-                    if (text.includes('Semestre') || text.includes('semestre')) {
+                    if (text.toLowerCase().includes("semestre") || text.toLowerCase().includes("quadrimestre") || text.toLowerCase().includes("semester")) {
                       parentSemester = text;
                     }
                   });
@@ -301,10 +301,26 @@ export class ExamExtractorNew {
                 const allExams = [];
                 
                 if (subexamsList) {
-                  // Has subexams - extract each subexam
+                  // Has subexams - add parent exam first, then subexams
                   const subexamElements = subexamsList.querySelectorAll('li');
                   console.log(`Found parent exam "${parentName}" with ${subexamElements.length} subexams`);
                   
+                  // Add the parent exam as a container/parent entry
+                  allExams.push({
+                    id: parentId,
+                    name: parentName,
+                    url: parentUrl ? `${baseUrl}${parentUrl}` : parentUrl,
+                    academicYear,
+                    semester: parentSemester,
+                    cfu: parentCfu ? parseInt(parentCfu, 10) : 0,
+                    hours: parentHours ? parseInt(parentHours, 10) : 0,
+                    parentExamId: null,
+                    parentExamName: null,
+                    isSubexam: false,
+                    hasSubexams: true
+                  });
+                  
+                  // Add each subexam
                   Array.from(subexamElements).forEach(subexamElement => {
                     const subNameElement = subexamElement.querySelector('a');
                     const subId = subNameElement?.textContent?.trim().match(/\[(\w+)\]/)?.[1] || '';
@@ -353,7 +369,8 @@ export class ExamExtractorNew {
                     hours: parentHours ? parseInt(parentHours, 10) : 0,
                     parentExamId: null,
                     parentExamName: null,
-                    isSubexam: false
+                    isSubexam: false,
+                    hasSubexams: false
                   });
                 }
                 

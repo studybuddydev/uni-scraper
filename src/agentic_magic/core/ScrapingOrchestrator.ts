@@ -1203,7 +1203,7 @@ export class ScrapingOrchestrator {
   // ===================================================================
 
   private async generateDataCourses(processedCourseData: any, exams: any[]): Promise<any[]> {
-    this.logger.info('Generating dataCourses from exam-intermediate data...');
+    this.logger.info('Generating dataCourses from exam-intermediate data with separate exam arrays by academic year...');
     
     // Read the exams-intermediate data directly to preserve year structure
     const sessionDataDir = this.getSessionDataDir();
@@ -1223,6 +1223,8 @@ export class ScrapingOrchestrator {
       if (!semester) return "Unknown";
       
       const lowerSemester = semester.toLowerCase().trim();
+
+      
       
       // First semester variations
       if (lowerSemester.includes('primo') || 
@@ -1264,8 +1266,7 @@ export class ScrapingOrchestrator {
           name: cleanCourseName,
           lastUpdated: new Date().toISOString(),
           deleted: null,
-          exams: [],
-          examIds: new Set(), // Track unique exam IDs
+          // Instead of single 'exams' array, we'll have exams2025, exams2024, etc.
           type: this.config.university.type || "ciclounico"
         });
       }
@@ -1278,6 +1279,16 @@ export class ScrapingOrchestrator {
         for (const academicYear in examsIntermediateData[courseName][pathName]) {
           const yearData = examsIntermediateData[courseName][pathName][academicYear];
           
+          // Extract just the first year from academic year (e.g., "2025" from "2025/2026")
+          const yearOnly = academicYear.split('/')[0];
+          
+          // Create exam array for this academic year if it doesn't exist
+          const examArrayKey = `exams${yearOnly}`;
+          if (!course[examArrayKey]) {
+            course[examArrayKey] = [];
+            course[`${examArrayKey}Ids`] = new Set(); // Track unique exam IDs for this year
+          }
+          
           // Process each study year (1, 2, 3, etc.)
           for (const studyYear in yearData.exams) {
             const examsInYear = yearData.exams[studyYear];
@@ -1285,8 +1296,8 @@ export class ScrapingOrchestrator {
             for (const exam of examsInYear) {
               const examId = `${this.config.university.id}${exam.id}`;
               
-              // Check if we already have this exam
-              const existingExamIndex = course.exams.findIndex((e: any) => e.examId === examId);
+              // Check if we already have this exam in this academic year
+              const existingExamIndex = course[examArrayKey].findIndex((e: any) => e.examId === examId);
               
               const newExam = {
                 examId: examId,
@@ -1301,11 +1312,11 @@ export class ScrapingOrchestrator {
               
               if (existingExamIndex === -1) {
                 // No duplicate, add the exam
-                course.examIds.add(examId);
-                course.exams.push(newExam);
+                course[`${examArrayKey}Ids`].add(examId);
+                course[examArrayKey].push(newExam);
               } else {
                 // Duplicate found, check which one has better data
-                const existingExam = course.exams[existingExamIndex];
+                const existingExam = course[examArrayKey][existingExamIndex];
                 
                 // Calculate "completeness score" for both exams
                 const existingScore = this.calculateExamCompleteness(existingExam);
@@ -1313,8 +1324,8 @@ export class ScrapingOrchestrator {
                 
                 // Replace if new exam has better data
                 if (newScore > existingScore) {
-                  this.logger.debug(`Replacing exam ${examId} with more complete data (score: ${existingScore} -> ${newScore})`);
-                  course.exams[existingExamIndex] = newExam;
+                  this.logger.debug(`Replacing exam ${examId} in ${academicYear} with more complete data (score: ${existingScore} -> ${newScore})`);
+                  course[examArrayKey][existingExamIndex] = newExam;
                 }
               }
             }
@@ -1323,13 +1334,28 @@ export class ScrapingOrchestrator {
       }
     }
     
-    // Convert map to array and remove the tracking set
+    // Convert map to array and remove the tracking sets
     courseMap.forEach(course => {
-      delete course.examIds; // Remove the tracking set before saving
+      // Remove all tracking sets
+      Object.keys(course).forEach(key => {
+        if (key.endsWith('Ids')) {
+          delete course[key];
+        }
+      });
       dataCourses.push(course);
     });
     
-    this.logger.info(`Generated ${dataCourses.length} course records with proper year/semester data`);
+    // Log summary of academic years found
+    const academicYears = new Set();
+    dataCourses.forEach(course => {
+      Object.keys(course).forEach(key => {
+        if (key.startsWith('exams') && key !== 'exams') {
+          academicYears.add(key.replace('exams', ''));
+        }
+      });
+    });
+    
+    this.logger.info(`Generated ${dataCourses.length} course records with separate exam arrays for academic years: ${Array.from(academicYears).sort().join(', ')}`);
     return dataCourses;
   }
 
@@ -1472,411 +1498,222 @@ export class ScrapingOrchestrator {
   }
 
   // ===================================================================
+  // INDIVIDUAL EXAM PROCESSING
+  // ===================================================================
+
+  public async runIndividualExamProcessing(sessionId?: string): Promise<void> {
+    this.logger.info('🔍 STARTING INDIVIDUAL EXAM PROCESSING');
+    this.logger.info('=====================================');
+    
+    const targetSessionId = sessionId || this.sessionId;
+    
+    // Check if intermediate exam file exists
+    const sessionDir = path.join(process.cwd(), this.config.output.dataDir, targetSessionId);
+    const intermediateFile = path.join(sessionDir, `${targetSessionId}-exams-intermediate.json`);
+    
+    if (!fs.existsSync(intermediateFile)) {
+      throw new Error(`Intermediate exam file not found: ${intermediateFile}`);
+    }
+    
+    this.logger.info(`📄 Found intermediate file: ${intermediateFile}`);
+    
+    // Import and create processor
+    const { IndividualExamProcessor } = await import('./IndividualExamProcessor');
+    const processor = new IndividualExamProcessor(this.config, this.logger, this.progressTracker, targetSessionId);
+    
+    try {
+      // Process all exams individually
+      await processor.processAllExamsFromIntermediate(intermediateFile);
+      
+      // Generate final dataExams file
+      await processor.generateFinalDataExams();
+      
+      this.logger.info('✅ Individual exam processing completed successfully!');
+      
+    } catch (error) {
+      this.logger.error('Individual exam processing failed', error);
+      throw error;
+    }
+  }
+
+  // ===================================================================
   // HELPER METHODS
   // ===================================================================
 
   private parseNumber(value: string | undefined): number | null {
     if (!value) return null;
-    const match = value.match(/\d+/);
-    return match ? parseInt(match[0]) : null;
+    const match = value.match(/(\d+)/);
+    return match ? parseInt(match[1], 10) : null;
   }
 
   private extractTeachers(data: any): string[] {
-    const generalInfo = data?.['Informazioni generali'] || {};
-    const teachers = [
-      ...(generalInfo['Docenti']?.split(',') || []),
-      ...(generalInfo['Responsabili']?.split(',') || []),
-      ...(generalInfo['Assistenti']?.split(',') || [])
-    ].filter(t => !!t).map(t => t.trim());
+    const teachers: string[] = [];
     
-    return teachers;
-  }
-
-  private extractMappedField(data: any, possibleKeys: string[]): string | null {
-    for (const key of possibleKeys) {
-      if (data?.[key]) {
-        return Array.isArray(data[key]) ? data[key][0] : data[key];
+    if (data?.['Informazioni generali']) {
+      const generalInfo = data['Informazioni generali'];
+      
+      // Extract from various teacher fields
+      const teacherFields = ['Docenti', 'Responsabili', 'Assistenti'];
+      
+      for (const field of teacherFields) {
+        if (generalInfo[field]) {
+          const teacherString = generalInfo[field];
+          if (typeof teacherString === 'string') {
+            teachers.push(...teacherString.split(',').map(t => t.trim()).filter(t => t));
+          }
+        }
       }
     }
+    
+    return [...new Set(teachers)]; // Remove duplicates
+  }
+
+  private extractMappedField(data: any, fieldNames: string[]): string | null {
+    if (!data) return null;
+    
+    for (const fieldName of fieldNames) {
+      if (data[fieldName]) {
+        const value = data[fieldName];
+        if (Array.isArray(value)) {
+          return value[0] || null;
+        }
+        return value || null;
+      }
+    }
+    
     return null;
   }
 
   private async generateDataCoursesVisualization(): Promise<void> {
     try {
-      this.logger.info('🎨 Generating dataCourses visualization...');
+      this.logger.info('Generating dataCourses visualization...');
       
-      const sessionDataDir = this.getSessionDataDir();
-      const sessionName = this.sessionId;
-      const dataCoursesPath = path.join(sessionDataDir, `${sessionName}-dataCourses.json`);
+      const sessionDir = this.getSessionDataDir();
+      const dataCoursesPath = path.join(sessionDir, `${this.sessionId}-dataCourses.json`);
       
       if (!fs.existsSync(dataCoursesPath)) {
-        this.logger.warn('❌ DataCourses file not found, skipping visualization');
+        this.logger.warn('dataCourses.json not found, skipping visualization');
         return;
       }
-
+      
       const dataCourses = JSON.parse(fs.readFileSync(dataCoursesPath, 'utf8'));
       
-      // Generate the HTML visualization
-      const html = this.generateVisualizationHTML(dataCourses);
+      // Create visualization HTML
+      const visualizationHtml = this.createDataCoursesVisualizationHtml(dataCourses);
       
-      // Save the visualization
-      const outputPath = path.join(sessionDataDir, 'dataCourses-visualization.html');
-      fs.writeFileSync(outputPath, html);
+      // Save to reports directory
+      const reportsDir = path.join(this.config.output.reportsDir, this.sessionId);
+      if (!fs.existsSync(reportsDir)) {
+        fs.mkdirSync(reportsDir, { recursive: true });
+      }
       
-      this.logger.info(`✅ Visualization saved: ${outputPath}`);
+      const visualizationPath = path.join(reportsDir, `${this.sessionId}-dataCourses-visualization.html`);
+      fs.writeFileSync(visualizationPath, visualizationHtml);
+      
+      this.logger.info(`✓ dataCourses visualization saved: ${visualizationPath}`);
+      
     } catch (error) {
-      this.logger.error('❌ Failed to generate visualization:', error);
+      this.logger.error('Failed to generate dataCourses visualization:', error);
     }
   }
 
-  private generateVisualizationHTML(dataCourses: any[]): string {
-    const totalExams = dataCourses.reduce((sum, course) => sum + course.exams.length, 0);
-    const totalCFU = dataCourses.reduce((sum, course) => 
-      sum + course.exams.reduce((examSum: number, exam: any) => examSum + (exam.CFU || 0), 0), 0);
-    const examsWithCFU = dataCourses.reduce((sum, course) => 
-      sum + course.exams.filter((exam: any) => exam.CFU).length, 0);
-
+  private createDataCoursesVisualizationHtml(dataCourses: any[]): string {
+    const totalCourses = dataCourses.length;
+    let totalExams = 0;
+    const academicYears = new Set<string>();
+    
+    // Calculate statistics
+    dataCourses.forEach(course => {
+      Object.keys(course).forEach(key => {
+        if (key.startsWith('exams') && key !== 'exams' && Array.isArray(course[key])) {
+          totalExams += course[key].length;
+          academicYears.add(key.replace('exams', ''));
+        }
+      });
+    });
+    
+    // Create course table HTML
+    let courseTableHtml = `
+      <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+          <tr style="background-color: #f8f9fa;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Course Name</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: center;">Total Exams</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: center;">Academic Years</th>
+          </tr>
+        </thead>
+        <tbody>`;
+    
+    dataCourses.forEach(course => {
+      const courseExamCount = Object.keys(course)
+        .filter(key => key.startsWith('exams') && key !== 'exams' && Array.isArray(course[key]))
+        .reduce((sum, key) => sum + course[key].length, 0);
+      
+      const courseAcademicYears = Object.keys(course)
+        .filter(key => key.startsWith('exams') && key !== 'exams' && Array.isArray(course[key]))
+        .map(key => key.replace('exams', ''))
+        .sort()
+        .join(', ');
+      
+      courseTableHtml += `
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 12px;">${course.name}</td>
+          <td style="border: 1px solid #ddd; padding: 12px; text-align: center;">${courseExamCount}</td>
+          <td style="border: 1px solid #ddd; padding: 12px; text-align: center;">${courseAcademicYears}</td>
+        </tr>`;
+    });
+    
+    courseTableHtml += `
+        </tbody>
+      </table>`;
+    
     return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DataCourses Visualization</title>
+    <title>dataCourses Visualization - ${this.sessionId}</title>
     <style>
-        * { box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .header {
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
-            padding: 30px;
-            border-radius: 20px;
-            margin-bottom: 30px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-        }
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .stat-card {
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        .stat-card:hover {
-            transform: translateY(-5px);
-        }
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: 700;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .course {
-            background: rgba(255,255,255,0.95);
-            backdrop-filter: blur(10px);
-            margin-bottom: 20px;
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-        .course-header {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-        .course-header:hover {
-            background: linear-gradient(135deg, #5a6fd8, #6a42a0);
-        }
-        .course-title {
-            font-size: 1.2em;
-            font-weight: 600;
-        }
-        .course-stats {
-            font-size: 0.9em;
-            opacity: 0.9;
-        }
-        .expand-icon {
-            font-size: 1.5em;
-            transition: transform 0.3s ease;
-        }
-        .course.expanded .expand-icon {
-            transform: rotate(180deg);
-        }
-        .course-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-        .course.expanded .course-content {
-            max-height: 2000px;
-        }
-        .year {
-            border-bottom: 1px solid #eee;
-        }
-        .year:last-child {
-            border-bottom: none;
-        }
-        .year-header {
-            background: #f8f9fa;
-            padding: 15px 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: background 0.3s ease;
-        }
-        .year-header:hover {
-            background: #e9ecef;
-        }
-        .year-title {
-            font-weight: 600;
-            color: #495057;
-        }
-        .semester {
-            padding: 15px 40px;
-            border-bottom: 1px solid #f1f3f4;
-        }
-        .semester:last-child {
-            border-bottom: none;
-        }
-        .semester-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-            cursor: pointer;
-        }
-        .semester-title {
-            font-weight: 500;
-            color: #6c757d;
-        }
-        .cfu-badge {
-            background: linear-gradient(135deg, #28a745, #20c997);
-            color: white;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            font-weight: 500;
-        }
-        .exams {
-            display: none;
-            padding: 10px 0;
-        }
-        .semester.expanded .exams {
-            display: block;
-        }
-        .exam {
-            background: #fff;
-            padding: 12px 15px;
-            margin: 8px 0;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-        .exam:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .exam-info {
-            flex: 1;
-        }
-        .exam-name {
-            font-weight: 500;
-            color: #343a40;
-        }
-        .exam-id {
-            color: #6c757d;
-            font-size: 0.85em;
-            margin-top: 2px;
-        }
-        .exam-cfu {
-            background: #17a2b8;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            font-weight: 500;
-        }
-        .exam.subexam {
-            background: #f1f8ff;
-            border-left: 4px solid #0066cc;
-            margin-left: 15px;
-        }
-        .exam.subexam:hover {
-            background: #e6f3ff;
-        }
-        .parent-ref {
-            color: #6c757d;
-            font-size: 0.8em;
-            font-style: italic;
-        }
-        .missing-cfu {
-            background: #dc3545;
-        }
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .stats { display: flex; justify-content: space-around; margin-bottom: 30px; }
+        .stat-box { text-align: center; padding: 20px; background-color: #f8f9fa; border-radius: 8px; }
+        .stat-number { font-size: 2em; font-weight: bold; color: #007cba; }
+        .stat-label { font-size: 1.2em; color: #666; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>📚 DataCourses Visualization</h1>
-            <p>University: ${this.config.university.id.toUpperCase()} | Generated: ${new Date().toLocaleDateString()}</p>
+    <div class="header">
+        <h1>dataCourses Visualization</h1>
+        <p>Session: <strong>${this.sessionId}</strong></p>
+        <p>Generated: <strong>${new Date().toLocaleString()}</strong></p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-box">
+            <div class="stat-number">${totalCourses}</div>
+            <div class="stat-label">Total Courses</div>
         </div>
-
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number">${dataCourses.length}</div>
-                <div>Courses</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">${totalExams}</div>
-                <div>Total Exams</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">${totalCFU}</div>
-                <div>Total CFU</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">${examsWithCFU}</div>
-                <div>Exams with CFU</div>
-            </div>
+        <div class="stat-box">
+            <div class="stat-number">${totalExams}</div>
+            <div class="stat-label">Total Exams</div>
         </div>
-
-        <div class="courses">
-            ${dataCourses.map((course: any) => this.generateCourseHTML(course)).join('')}
+        <div class="stat-box">
+            <div class="stat-number">${academicYears.size}</div>
+            <div class="stat-label">Academic Years</div>
         </div>
     </div>
-
-    <script>
-        // Course collapsing
-        document.querySelectorAll('.course-header').forEach(header => {
-            header.addEventListener('click', () => {
-                header.parentElement.classList.toggle('expanded');
-            });
-        });
-
-        // Year collapsing  
-        document.querySelectorAll('.year-header').forEach(header => {
-            header.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const yearContent = header.nextElementSibling;
-                yearContent.style.display = yearContent.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-
-        // Semester collapsing
-        document.querySelectorAll('.semester-header').forEach(header => {
-            header.addEventListener('click', (e) => {
-                e.stopPropagation();
-                header.parentElement.classList.toggle('expanded');
-            });
-        });
-    </script>
+    
+    <h2>Course Details</h2>
+    <p><strong>Academic Years Found:</strong> ${Array.from(academicYears).sort().join(', ')}</p>
+    
+    ${courseTableHtml}
 </body>
 </html>`;
-  }
-
-  private generateCourseHTML(course: any): string {
-    // Group exams by year and semester
-    const examsByYear: { [year: string]: { [semester: string]: any[] } } = {};
-    
-    course.exams.forEach((exam: any) => {
-      const year = exam.year || 'Unknown';
-      const semester = exam.semester || 'Unknown';
-      
-      if (!examsByYear[year]) examsByYear[year] = {};
-      if (!examsByYear[year][semester]) examsByYear[year][semester] = [];
-      
-      examsByYear[year][semester].push(exam);
-    });
-
-    const courseTotalCFU = course.exams.reduce((sum: number, exam: any) => sum + (exam.CFU || 0), 0);
-    const yearsHTML = Object.entries(examsByYear)
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([year, semesters]) => {
-        const semestersHTML = Object.entries(semesters)
-          .sort(([a], [b]) => a.localeCompare(b))
-          .map(([semester, exams]) => {
-            const totalCFU = exams.reduce((sum, exam) => sum + (exam.CFU || 0), 0);
-            const examsHTML = exams.map(exam => `
-              <div class="exam ${exam.isSubexam ? 'subexam' : ''}">
-                  <div class="exam-info">
-                      <div class="exam-name">
-                        ${exam.isSubexam ? '↳ ' : ''}${exam.name}
-                        ${exam.parentExamName ? `<span class="parent-ref">(${exam.parentExamName})</span>` : ''}
-                      </div>
-                      <div class="exam-id">${exam.examId}</div>
-                  </div>
-                  <div class="exam-cfu ${exam.CFU ? '' : 'missing-cfu'}">
-                      ${exam.CFU || 'No CFU'}
-                  </div>
-              </div>
-            `).join('');
-
-            return `
-              <div class="semester">
-                  <div class="semester-header">
-                      <span class="semester-title">${semester}</span>
-                      <span class="cfu-badge">${totalCFU} CFU</span>
-                  </div>
-                  <div class="exams">
-                      ${examsHTML}
-                  </div>
-              </div>
-            `;
-          }).join('');
-
-        return `
-          <div class="year">
-              <div class="year-header">
-                  <span class="year-title">Year ${year}</span>
-                  <span>▼</span>
-              </div>
-              <div class="year-content" style="display: none;">
-                  ${semestersHTML}
-              </div>
-          </div>
-        `;
-      }).join('');
-
-    return `
-      <div class="course">
-          <div class="course-header">
-              <div>
-                  <div class="course-title">${course.name}</div>
-                  <div class="course-stats">${course.id} • ${course.exams.length} exams • ${courseTotalCFU} CFU</div>
-              </div>
-              <div class="expand-icon">▼</div>
-          </div>
-          <div class="course-content">
-              ${yearsHTML}
-          </div>
-      </div>
-    `;
   }
 }
