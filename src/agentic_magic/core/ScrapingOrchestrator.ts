@@ -1507,9 +1507,12 @@ export class ScrapingOrchestrator {
     
     const targetSessionId = sessionId || this.sessionId;
     
-    // Check if intermediate exam file exists
-    const sessionDir = path.join(process.cwd(), this.config.output.dataDir, targetSessionId);
-    const intermediateFile = path.join(sessionDir, `${targetSessionId}-exams-intermediate.json`);
+    // Check if sessionId is a full path or just an ID
+    const sessionDir = sessionId && sessionId.includes('/') 
+      ? path.join(process.cwd(), sessionId)  // sessionId is a relative path like "data/ciclounico/agentic-2025-07-08T17-33-34"
+      : path.join(process.cwd(), this.config.output.dataDir, targetSessionId); // sessionId is just an ID
+    
+    const intermediateFile = path.join(sessionDir, `${path.basename(targetSessionId)}-exams-intermediate.json`);
     
     if (!fs.existsSync(intermediateFile)) {
       throw new Error(`Intermediate exam file not found: ${intermediateFile}`);

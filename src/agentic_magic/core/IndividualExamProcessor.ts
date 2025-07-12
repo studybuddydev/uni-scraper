@@ -28,6 +28,7 @@ interface DetailedExamData extends ExamInfo {
   syllabusExtracted: boolean;
   extractionTimestamp: string;
   extractionError?: string;
+  immatriculationYear?: string;
   
   // Detailed syllabus information matching the target structure
   examMode?: string;
@@ -200,9 +201,33 @@ export class IndividualExamProcessor {
         this.logger.info(`Processing exam ${i + 1}/${remainingExams.length}: ${exam.name} (${exam.id})`);
         
         try {
-          const detailedExam = await this.processIndividualExam(exam);
-          await this.saveIndividualExam(detailedExam);
-          successCount++;
+          // First, check if this exam has fractions
+          const fractions = await this.checkForFractions(exam);
+          
+          if (fractions.length > 0) {
+            console.log(`🎯 Found ${fractions.length} fractions for exam: ${exam.name}`);
+            console.log(`🎯 Fractions:`, fractions.map(f => f.name));
+            
+            // Process each fraction as a separate exam
+            for (const fraction of fractions) {
+              console.log(`🔄 Processing fraction: ${fraction.name}`);
+              const detailedExam = await this.processIndividualExam({
+                ...exam,
+                id: `${exam.id}_${this.createFractionId(fraction.name)}`,
+                name: fraction.name,
+                url: fraction.url
+              });
+              await this.saveIndividualExam(detailedExam);
+              console.log(`✅ Saved fraction: ${fraction.name}`);
+            }
+            successCount += fractions.length;
+          } else {
+            console.log(`📝 No fractions found, processing as single exam: ${exam.name}`);
+            const detailedExam = await this.processIndividualExam(exam);
+            await this.saveIndividualExam(detailedExam);
+            successCount++;
+          }
+          
           this.progressTracker.increment();
           
           // Add delay between requests
@@ -529,17 +554,32 @@ export class IndividualExamProcessor {
   }
 
   private async saveIndividualExam(exam: DetailedExamData): Promise<void> {
+    // Extract immatriculation year from URL coorte parameter
+    const immatriculationYear = this.extractImmatriculationYear(exam.url);
+    exam.immatriculationYear = immatriculationYear;
+    
+    // Create course folder (without leading underscore)
+    const courseSubfolder = exam.courseId ? `${exam.courseId}_${exam.courseName?.replace(/[^a-zA-Z0-9]/g, '_') || 'UNKNOWN'}` : 'UNKNOWN_COURSE';
+    const courseFolderPath = path.join(this.individualExamsDir, courseSubfolder);
+    
+    // Create year subfolder inside course folder
+    const yearFolderPath = path.join(courseFolderPath, immatriculationYear);
+    if (!fs.existsSync(yearFolderPath)) {
+      fs.mkdirSync(yearFolderPath, { recursive: true });
+    }
+    
     const fileName = this.getExamFileName(exam);
-    const filePath = path.join(this.individualExamsDir, fileName);
+    const filePath = path.join(yearFolderPath, fileName);
     
     fs.writeFileSync(filePath, JSON.stringify(exam, null, 2));
-    this.logger.debug(`Saved exam data: ${fileName}`);
+    this.logger.debug(`Saved exam data: ${courseSubfolder}/${immatriculationYear}/${fileName}`);
   }
 
   private getExamFileName(exam: ExamInfo): string {
-    // Create a safe filename using exam ID and name
+    // Create a safe filename using exam ID, name, and academic year
     const safeName = exam.name.replace(/[^a-zA-Z0-9]/g, '_');
-    return `${exam.id}_${safeName}.json`;
+    const safeYear = exam.academicYear ? exam.academicYear.replace(/[^a-zA-Z0-9]/g, '_') : 'UNKNOWN_YEAR';
+    return `${exam.id}_${safeName}_${safeYear}.json`;
   }
 
   private async initializeBrowser(): Promise<void> {
@@ -591,5 +631,78 @@ export class IndividualExamProcessor {
     
     const lowerError = error.toLowerCase();
     return protocolErrorPatterns.some(pattern => lowerError.includes(pattern));
+  }
+
+  private async detectFractions(page: Page): Promise<Array<{name: string, url: string}>> {
+    return await page.evaluate(() => {
+      const fractions: Array<{name: string, url: string}> = [];
+      
+      // Look for fraction links like the legacy descrapper
+      const fractionLinks = document.querySelectorAll('a[href*="adCodFraz"]');
+      
+      fractionLinks.forEach(link => {
+        const href = (link as HTMLAnchorElement).href;
+        const name = link.textContent?.trim();
+        
+        if (name && href && name.includes('(')) {
+          fractions.push({ name, url: href });
+        }
+      });
+      
+      return fractions;
+    });
+  }
+
+  private async extractFromFraction(fraction: {name: string, url: string}, page: Page): Promise<Partial<DetailedExamData>> {
+    // Navigate to the fraction URL
+    await page.goto(fraction.url, {
+      waitUntil: 'networkidle0',
+      timeout: this.config.scraping.timeout || 30000
+    });
+    
+    await this.sleep(1000);
+    
+    // Extract data from the fraction page
+    return await this.extractExamDataFromPage(page);
+  }
+
+  private createFractionId(fractionName: string): string {
+    // Extract the fraction identifier from names like "FILOSOFIA DEL DIRITTO (Cognomi A-L)"
+    const match = fractionName.match(/\(([^)]+)\)/);
+    if (match) {
+      return match[1].replace(/[^a-zA-Z0-9]/g, '_').replace(/_+/g, '_');
+    }
+    // Fallback to sanitized full name
+    return fractionName.replace(/[^a-zA-Z0-9]/g, '_').replace(/_+/g, '_').substring(0, 20);
+  }
+
+  private async checkForFractions(exam: ExamInfo): Promise<Array<{name: string, url: string}>> {
+    const page = await this.browser!.newPage();
+    
+    try {
+      await this.configurePage(page);
+      
+      await page.goto(exam.url, {
+        waitUntil: 'networkidle0',
+        timeout: this.config.scraping.timeout || 30000
+      });
+      
+      await this.sleep(1000);
+      
+      return await this.detectFractions(page);
+    } finally {
+      await page.close();
+    }
+  }
+
+  private extractImmatriculationYear(url: string): string {
+    try {
+      const urlObj = new URL(url);
+      const coorte = urlObj.searchParams.get('coorte');
+      return coorte || 'UNKNOWN_YEAR';
+    } catch (error) {
+      this.logger.warn(`Failed to extract immatriculation year from URL: ${url}`);
+      return 'UNKNOWN_YEAR';
+    }
   }
 }
