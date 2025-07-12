@@ -1,43 +1,17 @@
 # uni-scraper
-scrape syllabus and list of exams from cineca, tra UNIBS e UNITN controlla bene URL base e il bottone 'insegnamenti' 
 
-## Theere are different steps in the scraping process:
-1) get courses
+this repository is a mess, a battlefield, we needed the quick and dirty solution and i decided to test agentic mode of copilot, making it access to the previous scraping code asking it to generate a new version of the scraper more robust. 
 
-this url is the starting point, it contains the list of all courses of a university in a specific academic year
-```
-https://unibs.coursecatalogue.cineca.it/corsi/2024?gruppo=1617109934164
+in the folder agentic_magic there are many files created and edited using claude Sonnet 4 with github copilot in agentic mode, it is probably not the best code ever, but it works and it is a good starting point to improve the scraper in the future. it needs some polish 
 
 
-output: 
-courseUrls.json 
+1) go in config/scraping.config.json and edit the university section with your university data, you can find the baseUrl in the course catalog of your university, the id is the id of the university in the cineca course catalog, you can find it in the url of the course catalog, for example for unibs it is unibs, for unimi it is unimi, for unibg it is unibg, etc.
 
-for each course we now have a list of urls, one per year, because we have to look at the anno di offerta, so first year exams will be available at 2024/2025, second year at 2023/2024, there could be multiple for one year becuase of different course path 
+2) 
+run the following command to build the project and to scrape the data exams :
 
-
-```json
-"[0115G] Amministrazione Aziendale e Diritto": {
-    "2024/2025": [
-        "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50482?schemaid=8270",
-        "https://unitn.coursecatalogue.cineca.it/corsi/2024/10126/insegnamenti/50483?schemaid=8268"
-    ],
-    "2023/2024": [
-        "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50287?schemaid=8455",
-        "https://unitn.coursecatalogue.cineca.it/corsi/2023/10126/insegnamenti/50343?schemaid=8457"
-    ],
-    "2022/2023": [
-        "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49341?schemaid=8458",
-        "https://unitn.coursecatalogue.cineca.it/corsi/2022/10126/insegnamenti/49340?schemaid=8460"
-    ],
-    "2021/2022": [
-        "https://unitn.coursecatalogue.cineca.it/corsi/2021/10126/insegnamenti/49338?schemaid=7902",
-        "https://unitn.coursecatalogue.cineca.it/corsi/2021/10126/insegnamenti/49337?schemaid=7904"
-    ],
-    "2020/2021": [
-        "https://unitn.coursecatalogue.cineca.it/corsi/2020/10126/insegnamenti/49335?schemaid=7319",
-        "https://unitn.coursecatalogue.cineca.it/corsi/2020/10126/insegnamenti/49334?schemaid=7320"
-    ]
-}
+```bash
+ npm run agentic:full 
 ```
 
-2) get exam
+

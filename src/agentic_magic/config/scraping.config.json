@@ -1,18 +1,18 @@
 {
     "university": {
     "id": "unibs",
-    "name": "unibs-ciclounico",
+    "name": "unibs-triennale",
     "baseUrl": "https://unibs.coursecatalogue.cineca.it",
-    "type": "ciclounico",
-    "coursesPath": "/corsi/2025?gruppo=1619785172027",
-    "numberOfYears": 6
+    "type": "triennale",
+    "coursesPath": "/corsi/2025?gruppo=1617109934164",
+    "numberOfYears": 4
   },
   "scraping": {
-    "concurrency": 1,
-    "delayBetweenRequests": 2000,
-    "maxRetries": 5,
-    "retryDelay": 5000,
-    "timeout": 90000,
+    "concurrency": 3,
+    "delayBetweenRequests": 1000,
+    "maxRetries": 3,
+    "retryDelay": 2000,
+    "timeout": 30000,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "enableCaching": true,
     "respectRobotsTxt": true
@@ -25,11 +25,11 @@
     "maxDescriptionLength": 10000
   },
   "output": {
-    "dataDir": "./data/ciclounico",
+    "dataDir": "./data/triennale",
     "logsDir": "./logs",
     "reportsDir": "./reports",
     "backupDir": "./backups",
-    "sessionPrefix": "agentic",
+    "sessionPrefix": "triennale",
     "enableBackups": true,
     "compressionLevel": 6
   },
